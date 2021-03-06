@@ -16,5 +16,5 @@ recipes.addShaped(<powersuits:powerarmorcomponent:4>, [[<jaopca:item_platedensei
 recipes.addShaped(<powersuits:tinkertable>, [[<ore:plateEmerald>, <rats:arcane_technology>, <ore:plateEmerald>], [<ore:ingotSteel>, <ore:skullZombieElectrode>, <ore:ingotSteel>], [<ore:ingotSteel>, <enderio:item_material:20>, <thermalfoundation:material:160>]]);
 recipes.addShaped(<powersuits:powerarmor_torso>, [[<techreborn:plates:36>, null, <techreborn:plates:36>], [<techreborn:plates:38>, <mekanismtools:osmiumchestplate>, <techreborn:plates:38>], [<techreborn:plates:36>, <techreborn:part:43>, <techreborn:plates:36>]]);
 recipes.addShaped(<powersuits:power_fist>, [[<ore:ingotEndSteel>, <openmodularturrets:intermediate_tiered:9>, <enderio:item_alloy_ingot:8>], [null, <techreborn:advanceddrill>.onlyDamageBetween(0, 10000000), null], [null, <ore:ingotVibrantAlloy>, null]]);
-
+recipes.addShapeless(<techreborn:advanceddrill>.withTag({energy: 0}), [<techreborn:advanceddrill>]);
 print("--- Powersuit.zs initialized ---");	

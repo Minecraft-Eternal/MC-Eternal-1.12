@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "MC Eternal",
-  "version": "1.3.5.2",
+  "name": "Eternal",
+  "version": "1.3.5.3",
   "author": "adam98991",
   "projectID": 349129,
   "files": [
@@ -131,13 +131,13 @@
       "required": true
     },
     {
-      "projectID": 242500,
-      "fileID": 2771733,
+      "projectID": 233564,
+      "fileID": 2894949,
       "required": true
     },
     {
-      "projectID": 233564,
-      "fileID": 2926589,
+      "projectID": 242500,
+      "fileID": 2771733,
       "required": true
     },
     {
@@ -761,13 +761,13 @@
       "required": true
     },
     {
-      "projectID": 226254,
-      "fileID": 2921192,
+      "projectID": 236307,
+      "fileID": 2880446,
       "required": true
     },
     {
-      "projectID": 236307,
-      "fileID": 2880446,
+      "projectID": 226254,
+      "fileID": 2921192,
       "required": true
     },
     {
@@ -1357,7 +1357,7 @@
     },
     {
       "projectID": 272514,
-      "fileID": 2927544,
+      "fileID": 2915364,
       "required": true
     },
     {
@@ -1387,7 +1387,7 @@
     },
     {
       "projectID": 237903,
-      "fileID": 2926584,
+      "fileID": 2898260,
       "required": true
     },
     {

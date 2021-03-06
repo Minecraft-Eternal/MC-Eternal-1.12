@@ -11,6 +11,9 @@ recipes.remove(<icbmclassic:explosives:22>);
 recipes.remove(<icbmclassic:explosives>);
 recipes.remove(<icbmclassic:explosives:15>);
 recipes.remove(<icbmclassic:explosives:23>);
+recipes.remove(<icbmclassic:batterybox>);
+recipes.remove(<icbmclassic:battery>);
+recipes.remove(<icbmclassic:emptower>);
 recipes.removeShaped(<icbmclassic:launcherbase:1>, [[<mekanism:ingot>, <techreborn:cable:6>, <mekanism:ingot>], [<mekanism:ingot>, <icbmclassic:launcherbase>, <mekanism:ingot>], [<mekanism:ingot>, <techreborn:lapotroncrystal>, <mekanism:ingot>]]);
 
 #Add recipes

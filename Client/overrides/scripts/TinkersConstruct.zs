@@ -3,10 +3,7 @@ import mods.tconstruct.Alloy;
 
 print("--- loading TinkersConstruct.zs ---");
 
-#Remove Items
+#Remove Steel from being maked in the tinkers smeltery
 mods.tconstruct.Alloy.removeRecipe(<liquid:steel>);
-
-#Add recipe
-mods.tconstruct.Alloy.addRecipe(<liquid:iron> * 9, [<liquid:coal> * 25, <liquid:steel> * 9]);
 
 print("--- TinkersConstruct.zs initialized ---");	

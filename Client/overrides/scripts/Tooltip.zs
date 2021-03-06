@@ -22,6 +22,10 @@ print("--- loading Tooltip.zs ---");
 <nuclearcraft:ore:6>.addTooltip(format.darkPurple("Only found in the Beneath"));
 <nuclearcraft:ore:7>.addTooltip(format.darkPurple("Only found in the Beneath"));
 <mekanism:oreblock>.addTooltip(format.darkPurple("Only found in the Beneath"));
-
+<mysticalagriculture:supremium_helmet>.addTooltip(format.red("Disabled Flight"));
+<mysticalagriculture:supremium_chestplate>.addTooltip(format.red("Disabled Flight"));
+<mysticalagriculture:supremium_leggings>.addTooltip(format.red("Disabled Flight"));
+<mysticalagriculture:supremium_boots>.addTooltip(format.red("Disabled Flight"));
+<icbmclassic:batterybox>.addTooltip(format.red("DO NOT USE!"));
 
 print("--- Tooltip.zs initialized ---");	
