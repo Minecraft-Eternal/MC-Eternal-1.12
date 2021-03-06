@@ -1,0 +1,13 @@
+[
+  {
+    "dimension": 10,
+    "mob": "thebetweenlands:sludge",
+    "block": "minecraft:gravel",
+    "result": "allow"
+  },
+  {
+    "dimension": 10,
+    "mob": "thebetweenlands:sludge",
+    "result": "allow"
+  }
+]

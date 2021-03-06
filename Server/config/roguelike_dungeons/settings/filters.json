@@ -1,0 +1,6 @@
+{
+	"name" : "drm3:filters",
+	"filters" : [
+		{"level" : 3, "name" : "vine"}
+	]
+}

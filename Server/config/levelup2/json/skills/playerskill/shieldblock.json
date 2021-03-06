@@ -1,0 +1,21 @@
+{
+  "name": "levelup:shieldblock",
+  "type": "levelup:combat_bonus",
+  "levels": [
+    2,
+    3,
+    5,
+    7,
+    8
+  ],
+  "prerequisites": [
+
+  ],
+  "stack": {
+    "item": "minecraft:shield"
+  },
+  "column": 4,
+  "row": 0,
+  "enabled": true,
+  "active": true
+}

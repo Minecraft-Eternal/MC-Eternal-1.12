@@ -1,0 +1,17 @@
+{
+  "name": "levelup:combat_bonus",
+  "type": "levelup:combat_bonus",
+  "levels": [
+    10
+  ],
+  "prerequisites": [
+
+  ],
+  "stack": {
+    "item": "minecraft:diamond_sword"
+  },
+  "column": 0,
+  "row": 0,
+  "enabled": true,
+  "active": true
+}

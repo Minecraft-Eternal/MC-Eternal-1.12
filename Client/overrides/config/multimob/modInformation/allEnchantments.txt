@@ -83,11 +83,11 @@ openblocks:flim_flam
 randomthings:magnetic
 endercore:autosmelt
 endercore:xpboost
-enderio:witherarrow
 enderio:repellent
-enderio:soulbound
+enderio:witherarrow
 enderio:shimmer
 enderio:witherweapon
+enderio:soulbound
 bewitchment:magic_protection
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench

@@ -1,0 +1,26 @@
+{
+  "name": "levelup:naturalarmor",
+  "type": "levelup:combat_bonus",
+  "levels": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    8,
+    9,
+    10,
+    10
+  ],
+  "prerequisites": [
+    "levelup:shieldblock"
+  ],
+  "stack": {
+    "item": "minecraft:leather"
+  },
+  "column": 4,
+  "row": 1,
+  "enabled": true,
+  "active": true
+}

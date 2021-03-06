@@ -90,6 +90,10 @@ thermalfoundation:blitz_bolt
 thermalfoundation:basalz_bolt
 thermalexpansion:florb
 thermalexpansion:morb
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:gravisand
 quark:pickarang
 quark:arrow_ender
@@ -107,10 +111,6 @@ quark:frog
 quark:pirate
 quark:crab
 quark:wraith
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
 quark:chest_passenger
 quark:seat
 bibliocraft:biblioseat
@@ -453,9 +453,9 @@ thaumcraft:taintacletiny
 thaumcraft:taintswarm
 thaumcraft:taintseed
 thaumcraft:taintseedprime
-enderio:owl_egg
-enderio:primed_charge
 enderio:falling_machine
+enderio:primed_charge
+enderio:owl_egg
 twilightforest:wild_boar
 twilightforest:bighorn_sheep
 twilightforest:deer
@@ -831,9 +831,9 @@ actuallyadditions:worm
 p455w0rdslib:sitting_entity
 battletowers:golem
 battletowers:golemfireball
-forestry:butterflyge
 forestry:cart.beehouse
 forestry:cart.apiary
+forestry:butterflyge
 creativecore:sit
 opencomputers:drone
 immersiveengineering:revolvershot

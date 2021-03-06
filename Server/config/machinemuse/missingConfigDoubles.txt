@@ -1,0 +1,6 @@
+put( "chisel.chiselEnergyCon.base", 500.0D );
+put( "chisel.chiselEnergyCon.overclock.multiplier", 9500.0D );
+put( "chisel.chiselHarvSpd.base", 8.0D );
+put( "chisel.chiselHarvSpd.overclock.multiplier", 22.0D );
+put( "chisel.slotPoints.base", 1.0D );
+put( "omniProbe.slotPoints.base", 1.0D );

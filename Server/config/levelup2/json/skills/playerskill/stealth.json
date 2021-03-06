@@ -1,0 +1,26 @@
+{
+  "name": "levelup:stealth",
+  "type": "levelup:combat_bonus",
+  "levels": [
+    1,
+    2,
+    2,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7,
+    8
+  ],
+  "prerequisites": [
+
+  ],
+  "stack": {
+    "item": "minecraft:spectral_arrow"
+  },
+  "column": 3,
+  "row": 0,
+  "enabled": true,
+  "active": true
+}

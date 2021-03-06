@@ -1,0 +1,25 @@
+{
+  "name": "levelup:stealthdamage",
+  "type": "levelup:combat_bonus",
+  "levels": [
+    2,
+    3,
+    5,
+    7,
+    8
+  ],
+  "prerequisites": [
+    "levelup:stealth"
+  ],
+  "stack": {
+    "item": "minecraft:bow"
+  },
+  "stack": {
+    "item": "minecraft:skull",
+    "data": 0
+  },
+  "column": 3,
+  "row": 1,
+  "enabled": true,
+  "active": true
+}

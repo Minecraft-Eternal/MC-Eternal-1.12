@@ -1,0 +1,22 @@
+{
+  "name": "levelup:hermit",
+  "bonus": "levelup:mining_bonus",
+  "skills": [
+    {
+      "name": "levelup:furnacebonus",
+      "level": 2
+    },
+    {
+      "name": "levelup:furnacespeed",
+      "level": 1
+    },
+    {
+      "name": "levelup:prospecting",
+      "level": 1
+    },
+    {
+      "name": "levelup:flintloot",
+      "level": 2
+    }
+  ]
+}

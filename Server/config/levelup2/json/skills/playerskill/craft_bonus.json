@@ -1,0 +1,17 @@
+{
+  "name": "levelup:craft_bonus",
+  "type": "levelup:craft_bonus",
+  "levels": [
+    10
+  ],
+  "prerequisites": [
+
+  ],
+  "stack": {
+    "item": "minecraft:crafting_table"
+  },
+  "column": 0,
+  "row": 0,
+  "enabled": true,
+  "active": true
+}
