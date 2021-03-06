@@ -3,7 +3,7 @@
     {
         "title":
         {
-            "image" : "assets:image.png",
+            "image" : "assets:eternal1.png",
             "posX" : -137,
             "posY" : 20,
             "width" : 275,
@@ -13,12 +13,12 @@
         
         "edition":
         {
-            "image" : "assets:java.png",
-            "posX" : -60,
-            "posY" : 900,
-            "width" : 128,
-            "height" : 16,
-            "alignment" : "top_center"
+            "image" : "assets:bh1.png",
+            "posX" : 2,
+            "posY" : 2398,
+            "width" : 50,
+            "height" : 50,
+            "alignment" : "top_left"
         }
     },
     

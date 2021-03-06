@@ -747,11 +747,31 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
 2020-01-16 02:32:23,230 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
-2020-01-16 14:18:26,773 [Server thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-01-16 14:19:29,132 [Server thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-01-16 14:19:29,265 [Server thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-01-16 14:19:39,790 [Server thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-01-16 14:20:05,807 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
+2020-01-16 18:49:34,481 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-16 18:51:42,214 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-16 18:51:42,412 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-16 18:51:57,889 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-16 19:14:31,437 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-16 19:16:36,431 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-16 19:16:36,567 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-16 19:16:51,218 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-16 19:44:13,460 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-16 19:46:23,654 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-16 19:46:23,793 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-16 19:46:39,913 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-16 22:23:01,025 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-16 22:24:47,482 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-16 22:24:47,618 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-16 22:25:03,559 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-25 21:20:53,738 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-25 21:23:06,657 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-25 21:23:06,773 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-25 21:23:19,546 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-27 15:24:45,125 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-27 15:26:45,966 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-27 15:26:46,099 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-27 15:26:58,984 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-27 15:32:29,774 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:clam_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -787,27 +807,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2223_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3326_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 14:20:05,824 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-27 15:32:29,791 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:oyster_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -843,31 +863,31 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2223_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3326_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 14:26:52,293 [Server thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-01-16 14:27:52,098 [Server thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-01-16 14:27:52,225 [Server thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-01-16 14:28:02,524 [Server thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-01-16 14:28:34,336 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-27 20:18:56,932 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-27 20:20:45,629 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-27 20:20:45,789 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-27 20:20:58,401 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-27 21:16:20,441 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:clam_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -903,27 +923,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2223_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3326_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 14:28:34,345 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-27 21:16:20,460 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:oyster_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -959,31 +979,31 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2223_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3326_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 15:00:04,253 [Server thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-01-16 15:01:33,532 [Server thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-01-16 15:01:33,698 [Server thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-01-16 15:01:45,974 [Server thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-01-16 15:02:42,236 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-27 21:41:19,112 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-27 21:43:12,054 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-27 21:43:12,217 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-27 21:43:25,767 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-27 21:48:22,137 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:clam_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -1019,27 +1039,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2223_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3331_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 15:02:42,249 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-27 21:48:22,154 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:oyster_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -1075,31 +1095,32 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2223_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3331_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 15:40:05,178 [Server thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-01-16 15:42:26,747 [Server thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-01-16 15:42:26,889 [Server thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-01-16 15:42:49,752 [Server thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-01-16 15:46:37,380 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-27 21:56:48,370 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
+2020-01-27 22:11:05,869 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-27 22:12:54,477 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-27 22:12:54,634 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-27 22:13:07,915 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-27 22:18:12,278 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:clam_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -1135,27 +1156,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2322_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3331_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 15:46:37,397 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-27 22:18:12,296 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:oyster_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -1191,31 +1212,35 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2322_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3331_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 16:48:41,490 [Server thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-01-16 16:51:16,631 [Server thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-01-16 16:51:16,754 [Server thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-01-16 16:51:36,644 [Server thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-01-16 16:52:39,151 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-27 22:19:37,692 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=14, coords=Coords [x=47, y=0, z=11], terminated=false], point2=Waypoint [id=17, coords=Coords [x=47, y=0, z=11], terminated=true], alignment=HORIZONTAL]
+2020-01-27 22:19:37,706 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 5 to 4
+2020-01-27 22:19:38,072 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2020-01-27 22:19:40,249 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -210 72 -53
+2020-01-27 22:30:45,625 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-27 22:32:25,445 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-27 22:32:25,581 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-27 22:32:39,192 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-27 22:36:38,547 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:clam_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -1251,27 +1276,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2331_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3331_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 16:52:39,221 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-27 22:36:38,549 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:oyster_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -1307,33 +1332,44 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2331_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3331_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 17:11:03,968 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
-2020-01-16 17:12:53,062 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
-2020-01-16 17:25:53,278 [Server thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-01-16 17:27:55,983 [Server thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-01-16 17:27:56,105 [Server thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-01-16 17:28:21,524 [Server thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-01-16 17:29:14,409 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-27 22:39:17,627 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 1 to 0
+2020-01-27 22:39:18,208 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2020-01-27 22:39:19,707 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -185 70 -250
+2020-01-27 22:39:47,868 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
+2020-01-27 22:40:57,613 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
+2020-01-27 22:57:55,473 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=12, coords=Coords [x=19, y=0, z=372], terminated=false], point2=Waypoint [id=13, coords=Coords [x=19, y=0, z=372], terminated=true], alignment=HORIZONTAL]
+2020-01-27 22:57:56,780 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -594 73 342
+2020-01-27 23:04:39,717 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
+2020-01-27 23:06:39,506 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
+2020-01-27 23:10:18,954 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=5, coords=Coords [x=18, y=0, z=544], terminated=false], point2=Waypoint [id=4, coords=Coords [x=18, y=0, z=544], terminated=true], alignment=HORIZONTAL]
+2020-01-27 23:10:18,967 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 2 to 1
+2020-01-27 23:10:19,053 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 9 to 8
+2020-01-27 23:10:20,799 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ -1287 104 551
+2020-01-27 23:47:01,730 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-27 23:48:57,888 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-27 23:48:58,016 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-27 23:49:12,548 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-27 23:55:27,854 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:clam_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -1369,27 +1405,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2333_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3316_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 17:29:14,449 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-27 23:55:27,871 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:oyster_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -1425,31 +1461,31 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2333_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3316_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 18:41:38,882 [Server thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-01-16 18:44:03,764 [Server thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-01-16 18:44:03,893 [Server thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-01-16 18:44:14,615 [Server thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-01-16 18:45:27,733 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-28 00:27:08,853 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-28 00:28:51,648 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-28 00:28:51,769 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-28 00:29:05,337 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-28 00:33:52,054 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:clam_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -1485,27 +1521,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2347_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3316_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
-2020-01-16 18:45:27,757 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Desktop\Eternal (Server Pack 1.3)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-28 00:33:52,056 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:oyster_meat'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -1541,23 +1577,150 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [minecraft_server.1.12.2.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
 	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
 	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2347_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3316_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
 	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-28 01:05:58,867 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2020-01-28 01:07:59,050 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2020-01-28 01:07:59,188 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2020-01-28 01:08:12,548 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
+2020-01-28 01:44:18,421 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/clam_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\clam_chest.json
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:clam_meat'
+	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootEntryItem.deserialize(LootEntryItem.java:100) ~[LootEntryItem.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:92) ~[LootEntry$Serializer.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:72) ~[LootEntry$Serializer.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
+	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:168) ~[LootPool$Serializer.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:164) ~[LootPool$Serializer.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
+	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:198) ~[LootTable$Serializer.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:195) ~[LootTable$Serializer.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:773) ~[Gson.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager.loadLootTable(LootTableManager.java:209) ~[LootTableManager.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
+	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
+	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3316_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
+	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-28 01:44:18,440 [Server thread] ERROR GottschCore | LootTableManager.java:157 | Couldn't load loot table treasure2:loot_tables/treasure2/chests/special/oyster_chest from C:\Users\Adam\Documents\Curse\Minecraft\Instances\Eternal (7)\config\treasure2\loot_tables\treasure2\chests\special\oyster_chest.json
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'treasure2:oyster_meat'
+	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootEntryItem.deserialize(LootEntryItem.java:100) ~[LootEntryItem.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:92) ~[LootEntry$Serializer.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:72) ~[LootEntry$Serializer.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
+	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:168) ~[LootPool$Serializer.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:164) ~[LootPool$Serializer.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
+	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:198) ~[LootTable$Serializer.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:195) ~[LootTable$Serializer.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:773) ~[Gson.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager.loadLootTable(LootTableManager.java:209) ~[LootTableManager.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:154) [LootTableManager$Loader.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:113) [LootTableManager$Loader.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
+	at com.someguyssoftware.treasure2.loot.TreasureLootTableMaster.register(TreasureLootTableMaster.java:145) [TreasureLootTableMaster.class:?]
+	at com.someguyssoftware.treasure2.eventhandler.WorldEventHandler.onWorldLoad(WorldEventHandler.java:58) [WorldEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_3316_WorldEventHandler_onWorldLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at farseek.world.gen.structure.package$.post(package.scala:38) [package$.class:?]
+	at farseek.world.gen.structure.package.post(package.scala) [package.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:132) [chd.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156) [chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2020-01-28 01:47:09,465 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
+2020-01-28 01:49:22,168 [Server thread] WARN Dungeons2 | DungeonBuilderTopDown.java:383 | Levels don't require joining 2 to 1
+2020-01-28 01:49:22,456 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2020-01-28 01:49:23,349 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 384 68 357
+2020-01-28 01:49:55,073 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
+2020-01-28 01:54:18,978 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=8, coords=Coords [x=970, y=0, z=909], terminated=false], point2=Waypoint [id=12, coords=Coords [x=970, y=0, z=909], terminated=true], alignment=HORIZONTAL]
+2020-01-28 01:54:19,886 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:358 | Dungeon generated @ 932 69 935
+2020-01-28 01:55:06,934 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
+2020-01-28 01:56:01,929 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
+2020-01-28 01:56:10,819 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container
+2020-01-28 02:01:20,240 [Server thread] WARN GottschCore | LootTable.java:71 | Tried to over-fill a container

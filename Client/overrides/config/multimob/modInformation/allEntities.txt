@@ -90,10 +90,7 @@ thermalfoundation:blitz_bolt
 thermalfoundation:basalz_bolt
 thermalexpansion:florb
 thermalexpansion:morb
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
+quark:chest_passenger
 quark:gravisand
 quark:pickarang
 quark:arrow_ender
@@ -102,6 +99,11 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
+quark:seat
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -111,8 +113,6 @@ quark:frog
 quark:pirate
 quark:crab
 quark:wraith
-quark:chest_passenger
-quark:seat
 bibliocraft:biblioseat
 biomesoplenty:mudball
 biomesoplenty:bop_boat
@@ -141,7 +141,6 @@ buildinggadgets:blockbuildentity
 buildinggadgets:constructionblockentity
 charm:charged_emerald
 charm:endermite_powder
-charm:spectre
 clumps:xp_orb_big
 cyclicmagic:robot
 cyclicmagic:firecannon
@@ -222,6 +221,8 @@ mysticalagriculture:intermedium_arrow
 mysticalagriculture:superium_arrow
 mysticalagriculture:supremium_arrow
 multimob:dummy
+naturesaura:effect_inhibitor
+naturesaura:mover_cart
 openmods:block
 openblocks:luggage
 openblocks:xp_orb_no_fly
@@ -453,9 +454,9 @@ thaumcraft:taintacletiny
 thaumcraft:taintswarm
 thaumcraft:taintseed
 thaumcraft:taintseedprime
-enderio:falling_machine
-enderio:primed_charge
 enderio:owl_egg
+enderio:primed_charge
+enderio:falling_machine
 twilightforest:wild_boar
 twilightforest:bighorn_sheep
 twilightforest:deer

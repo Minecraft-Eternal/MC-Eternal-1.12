@@ -4,7 +4,7 @@
     "block": "minecraft:granite",
     "mobs": [
       {
-        "mob": "twilightforest:redcap_sapper",
+        "mob": "thesummoner:summoner",
         "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3

@@ -12,6 +12,78 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<mysticalagriculture:diamond_seeds>);
+recipes.remove(<mysticalagriculture:diamond_seeds>);
+recipes.remove(<mysticalagriculture:diamond_seeds>);
+recipes.remove(<mysticalagriculture:gold_seeds>);
+recipes.remove(<mysticalagriculture:gold_seeds>);
+recipes.remove(<mysticalagriculture:gold_seeds>);
+recipes.remove(<mysticalagradditions:nether_star_seeds>);
+recipes.remove(<mysticalagradditions:nether_star_seeds>);
+recipes.remove(<mysticalagradditions:nether_star_seeds>);
+recipes.remove(<mysticalagradditions:nether_star_seeds>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<cyclicmagic:glowing_chorus>);
+recipes.remove(<extrautils2:angelring:1>);
+recipes.remove(<extrautils2:angelring:1>);
+recipes.remove(<extrautils2:angelring:1>);
+recipes.remove(<extrautils2:angelring:1>);
+recipes.remove(<extrautils2:angelring:1>);
+recipes.remove(<extrautils2:angelring:1>);
+recipes.remove(<extrautils2:angelring:2>);
+recipes.remove(<extrautils2:angelring:2>);
+recipes.remove(<extrautils2:angelring:2>);
+recipes.remove(<extrautils2:angelring:2>);
+recipes.remove(<extrautils2:angelring:2>);
+recipes.remove(<extrautils2:angelring:2>);
+recipes.remove(<extrautils2:angelring:3>);
+recipes.remove(<extrautils2:angelring:3>);
+recipes.remove(<extrautils2:angelring:3>);
+recipes.remove(<extrautils2:angelring:3>);
+recipes.remove(<extrautils2:angelring:3>);
+recipes.remove(<extrautils2:angelring:3>);
+recipes.remove(<extrautils2:angelring:4>);
+recipes.remove(<extrautils2:angelring:4>);
+recipes.remove(<extrautils2:angelring:4>);
+recipes.remove(<extrautils2:angelring:4>);
+recipes.remove(<extrautils2:angelring:4>);
+recipes.remove(<extrautils2:angelring:4>);
+recipes.remove(<extrautils2:angelring:4>);
+recipes.remove(<extrautils2:angelring:4>);
+recipes.remove(<extrautils2:angelring:4>);
+recipes.remove(<extrautils2:angelring:5>);
+recipes.remove(<extrautils2:angelring:5>);
+recipes.remove(<extrautils2:angelring:5>);
+recipes.remove(<extrautils2:angelring:5>);
+recipes.remove(<extrautils2:angelring:5>);
+recipes.remove(<extrautils2:angelring:5>);
+recipes.remove(<extrautils2:angelring:5>);
+recipes.remove(<extrautils2:angelring:5>);
+recipes.remove(<extrautils2:angelring:5>);
+recipes.remove(<extrautils2:angelring:5>);
+recipes.remove(<extrautils2:angelring>);
+recipes.remove(<extrautils2:angelring>);
+recipes.remove(<extrautils2:angelring>);
+recipes.remove(<extrautils2:angelring>);
+recipes.remove(<powersuits:powerarmorcomponent:4>);
+recipes.remove(<powersuits:powerarmorcomponent:4>);
+recipes.remove(<powersuits:powerarmorcomponent:4>);
+recipes.remove(<powersuits:powerarmorcomponent:4>);
+recipes.remove(<powersuits:powerarmorcomponent:4>);
+recipes.remove(<powersuits:powerarmorcomponent:4>);
+recipes.remove(<powersuits:powerarmorcomponent:4>);
+recipes.remove(<powersuits:powerarmorcomponent:4>);
 recipes.remove(<techreborn:grinder>);
 recipes.remove(<actuallyadditions:block_grinder>);
 recipes.remove(<actuallyadditions:block_grinder>);
@@ -92,6 +164,8 @@ recipes.removeShapeless(<inventorypets:nugget_coal> * 8, [<minecraft:coal>]);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<extrautils2:angelring:5>, [[<mod_lavacow:undyingheart>, <extrautils2:angelring>]]);
+recipes.removeShaped(<extrautils2:angelring:3>, [[<ore:ingotDemonicMetal>, <extrautils2:angelring>]]);
 recipes.removeShaped(<ghostsexplosives:dust_charcoal> * 2, [[<ore:itemCharcoal>]]);
 recipes.removeShaped(<icbmclassic:launcherbase:1>, [[<mekanism:ingot>, <techreborn:cable:6>, <mekanism:ingot>], [<mekanism:ingot>, <icbmclassic:launcherbase>, <mekanism:ingot>], [<mekanism:ingot>, <techreborn:lapotroncrystal>, <mekanism:ingot>]]);
 recipes.removeShaped(<icbmclassic:launcherbase:1>, [[<mekanism:ingot>, <techreborn:cable:6>, <mekanism:ingot>], [<mekanism:ingot>, <icbmclassic:launcherbase>, <mekanism:ingot>], [<mekanism:ingot>, <techreborn:lapotroncrystal>, <mekanism:ingot>]]);
@@ -113,6 +187,21 @@ recipes.addShapeless(<icbmclassic:explosives:23>, [<ore:compressed8xCobblestone>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<chancecubes:chance_cube>, [[<ore:blockLapis>, <minecraft:lapis_block>, <minecraft:lapis_block>], [<minecraft:lapis_block>, <ore:netherStar>, <ore:blockLapis>], [<minecraft:lapis_block>, <minecraft:lapis_block>, <ore:blockLapis>]]);
+recipes.addShaped(<extrautils2:angelring:4>, [[<extrautils2:angelblock>, <extrautils2:angelring>]]);
+recipes.addShaped(<extrautils2:angelring:1>, [[<mekanism:crystal:2>, <extrautils2:angelring>]]);
+recipes.addShaped(<extrautils2:angelring:3>, [[<extrautils2:ingredients:11>, <extrautils2:angelring>]]);
+recipes.addShaped(<extrautils2:angelring:2>, [[<harvestcraft:fairybreaditem>, <extrautils2:angelring>]]);
+recipes.addShaped(<randomthings:ingredient:5>, [[<ore:dustGlowstone>, <minecraft:red_mushroom>]]);
+recipes.addShaped(<harvestcraft:toastitem>, [[<ore:cropCinnamon>, <dungeontactics:toast>]]);
+recipes.addShaped(<extrautils2:angelring:2>, [[<harvestcraft:fairybreaditem>, <extrautils2:angelring>]]);
+recipes.addShaped(<extrautils2:angelring:2>, [[<harvestcraft:fairybreaditem>, <extrautils2:angelring>]]);
+recipes.addShaped(<extrautils2:angelring:4>, [[<extrautils2:angelblock>, <extrautils2:angelring>]]);
+recipes.addShaped(<extrautils2:angelring:3>, [[<extrautils2:ingredients:11>, <extrautils2:angelring>]]);
+recipes.addShaped(<extrautils2:angelring:5>, [[<midnight:nagrilite_ingot>, <extrautils2:angelring>]]);
+recipes.addShaped(<extrautils2:angelring>, [[<mekanism:crystal:1>, <mekanism:crystal:2>, <mekanism:crystal:1>], [<twilightforest:trophy:5>, <tconstruct:materials:50>, <thebetweenlands:ring_of_dispersion>], [<mekanism:crystal:1>, <simplyjetpacks:metaitemmods:29>, <mekanism:crystal:1>]]);
+recipes.addShaped(<extrautils2:angelring>, [[<mekanism:crystal:1>, <mekanism:crystal:2>, <mekanism:crystal:1>], [<twilightforest:trophy:5>, <tconstruct:materials:50>, <thebetweenlands:ring_of_dispersion>], [<mekanism:crystal:1>, <simplyjetpacks:metaitemmods:29>, <mekanism:crystal:1>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:4>, [[<jaopca:item_platedenseiridium>, <thermalfoundation:material:326>, <jaopca:item_platedenseiridium>], [<powersuits:powerarmorcomponent:12>, <powersuits:powerarmorcomponent:8>, <powersuits:powerarmorcomponent:12>], [<ore:plateDenseIridium>, <ore:platePlatinum>, <ore:plateDenseIridium>]]);
 recipes.addShaped(<dungeontactics:iron_ring>, [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<minecraft:iron_nugget>, null, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
 recipes.addShaped(<powersuits:tinkertable>, [[<ore:ingotKnightmetal>, <rats:arcane_technology>, <ore:ingotKnightmetal>], [<enderio:item_alloy_ingot>, <twilightforest:knightmetal_ingot>, <ore:ingotElectricalSteel>], [<ore:ingotElectricalSteel>, <ore:ingotKnightmetal>, <ore:ingotElectricalSteel>]]);
 //recipes.addShaped(<mystcraft:writingdesk>, [[null, <minecraft:carpet:14>, null], [<minecraft:bookshelf>, <ore:netherStar>, <minecraft:bookshelf>], [<ore:bookshelf>, <minecraft:log>, <ore:bookshelf>]]);

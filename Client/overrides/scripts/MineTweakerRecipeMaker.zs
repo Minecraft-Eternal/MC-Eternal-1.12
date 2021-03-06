@@ -12,6 +12,16 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<mysticalagriculture:diamond_seeds>);
+recipes.remove(<mysticalagriculture:diamond_seeds>);
+recipes.remove(<mysticalagriculture:diamond_seeds>);
+recipes.remove(<mysticalagriculture:gold_seeds>);
+recipes.remove(<mysticalagriculture:gold_seeds>);
+recipes.remove(<mysticalagriculture:gold_seeds>);
+recipes.remove(<mysticalagradditions:nether_star_seeds>);
+recipes.remove(<mysticalagradditions:nether_star_seeds>);
+recipes.remove(<mysticalagradditions:nether_star_seeds>);
+recipes.remove(<mysticalagradditions:nether_star_seeds>);
 recipes.remove(<cyclicmagic:glowing_chorus>);
 recipes.remove(<cyclicmagic:glowing_chorus>);
 recipes.remove(<cyclicmagic:glowing_chorus>);
@@ -177,6 +187,7 @@ recipes.addShapeless(<icbmclassic:explosives:23>, [<ore:compressed8xCobblestone>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<chancecubes:chance_cube>, [[<ore:blockLapis>, <minecraft:lapis_block>, <minecraft:lapis_block>], [<minecraft:lapis_block>, <ore:netherStar>, <ore:blockLapis>], [<minecraft:lapis_block>, <minecraft:lapis_block>, <ore:blockLapis>]]);
 recipes.addShaped(<extrautils2:angelring:4>, [[<extrautils2:angelblock>, <extrautils2:angelring>]]);
 recipes.addShaped(<extrautils2:angelring:1>, [[<mekanism:crystal:2>, <extrautils2:angelring>]]);
 recipes.addShaped(<extrautils2:angelring:3>, [[<extrautils2:ingredients:11>, <extrautils2:angelring>]]);

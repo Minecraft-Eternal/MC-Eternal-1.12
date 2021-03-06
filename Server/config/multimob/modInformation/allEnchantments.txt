@@ -84,10 +84,13 @@ randomthings:magnetic
 endercore:autosmelt
 endercore:xpboost
 enderio:soulbound
-enderio:repellent
-enderio:witherarrow
 enderio:shimmer
 enderio:witherweapon
+enderio:witherarrow
+enderio:repellent
+tombstone:shadow_step
+tombstone:soulbound
+tombstone:magic_siphon
 bewitchment:magic_protection
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
@@ -100,9 +103,6 @@ ebwizardry:frost_protection
 ebwizardry:shock_protection
 mod_lavacow:poisonous
 mod_lavacow:lifesteal
-tombstone:shadow_step
-tombstone:soulbound
-tombstone:magic_siphon
 vampirism:crossbowinfinite
 vampirism:crossbowfrugality
 vampirism:vampireslayer
@@ -128,7 +128,6 @@ cyclicmagic:enchantment.excavation
 cyclicmagic:enchantment.launch
 cyclicmagic:enchantment.lifeleech
 cyclicmagic:enchantment.magnet
-cyclicmagic:enchantment.multishot
 cyclicmagic:enchantment.quickdraw
 cyclicmagic:enchantment.reach
 cyclicmagic:enchantment.venom
