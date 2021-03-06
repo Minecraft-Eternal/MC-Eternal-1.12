@@ -1,0 +1,2 @@
+whitelist=Skeleton
+can_buy=false

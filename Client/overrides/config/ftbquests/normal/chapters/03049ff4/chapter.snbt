@@ -1,6 +1,11 @@
 {
 	title: "Challenges",
-	icon: "mod_lavacow:mootenheart",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "mod_lavacow:mootenheart"
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "",

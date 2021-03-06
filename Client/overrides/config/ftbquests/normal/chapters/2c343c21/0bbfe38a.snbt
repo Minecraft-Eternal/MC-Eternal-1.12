@@ -29,10 +29,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8From a faraway land where the dead stay awake and the living are most unwelcome",
-						"§e(Rare Extraterrestrial Artifact)"
+						"ï¿½8From a faraway land where the dead stay awake and the living are most unwelcome",
+						"ï¿½e(Rare Extraterrestrial Artifact)"
 					],
-					Name: "§7Hammer of the Undying"
+					Name: "ï¿½7Hammer of the Undying"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -92,7 +92,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§dExterrestrial Cache"
+					Name: "ï¿½dExterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}

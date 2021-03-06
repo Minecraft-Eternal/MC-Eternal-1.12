@@ -1,6 +1,6 @@
 {
   "path": "mod_agriculturalexpansion/plants/steel_sprout_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "agriculturalexpansion:steel_sprout_plant",
   "plant_name": "Steel Crop",
   "seed_name": "Steel Sprout",

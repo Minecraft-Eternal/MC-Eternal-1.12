@@ -1,7 +1,7 @@
 {
 	x: -3.0d,
 	y: -1.0d,
-	description: "Farming",
+	description: "Farming `",
 	can_repeat: true,
 	tasks: [{
 		uid: "5f79f372",
@@ -12,15 +12,8 @@
 		count: 16L
 	}],
 	rewards: [{
-		uid: "a9be15e2",
-		type: "item",
-		title: "25 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_small",
-			tag: {
-				value: 25L
-			}
-		}
+		uid: "839689a0",
+		type: "ftbmoney:money",
+		ftb_money: 5L
 	}]
 }

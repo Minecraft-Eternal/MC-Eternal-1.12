@@ -1,10 +1,11 @@
 {
-	x: -11.5d,
-	y: -13.0d,
+	x: -9.45d,
+	y: -11.549999999999999d,
 	description: "*Right click an enclosed dirt area with the Drop of Evil to create a rudimentary method of spawning evil creatures*",
 	dependencies: [
 		"bc9c4ee1"
 	],
+	size: 0.7d,
 	tasks: [{
 		uid: "ee32dab8",
 		type: "item",

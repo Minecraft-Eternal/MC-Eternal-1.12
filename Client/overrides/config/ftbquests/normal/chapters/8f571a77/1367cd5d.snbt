@@ -23,8 +23,7 @@
 	{
 		uid: "8e88bc09",
 		type: "item",
-		item: "thermaldynamics:duct_32",
-		count: 6
+		item: "thermaldynamics:duct_32"
 	},
 	{
 		uid: "a7209431",

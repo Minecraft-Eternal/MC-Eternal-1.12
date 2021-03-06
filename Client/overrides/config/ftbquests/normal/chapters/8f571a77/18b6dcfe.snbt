@@ -1,7 +1,7 @@
 {
 	x: -2.0d,
 	y: -5.0d,
-	description: "Mining",
+	description: "Mining `",
 	text: [
 		"*Unlocked after completing Bosses*"
 	],
@@ -18,15 +18,8 @@
 		count: 32L
 	}],
 	rewards: [{
-		uid: "acaf3416",
-		type: "item",
-		title: "5000 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_big",
-			tag: {
-				value: 5000L
-			}
-		}
+		uid: "419fddbe",
+		type: "ftbmoney:money",
+		ftb_money: 150L
 	}]
 }

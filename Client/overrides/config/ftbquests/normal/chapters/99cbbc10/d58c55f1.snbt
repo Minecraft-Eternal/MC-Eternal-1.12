@@ -3,7 +3,7 @@
 	x: 2.0d,
 	y: -6.5d,
 	text: [
-		"Part of a balanced breakfast! Not actually healthy… be careful you will get nausea, dizziness, confusion and random teleportation!"
+		"Part of a balanced breakfast! Not actually healthyï¿½ be careful you will get nausea, dizziness, confusion and random teleportation!"
 	],
 	tasks: [{
 		uid: "0e552e89",

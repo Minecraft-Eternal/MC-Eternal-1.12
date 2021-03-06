@@ -17,17 +17,6 @@
 		dev: false
 	},
 	{
-		x: -10.0d,
-		y: -11.0d,
-		width: 0.2d,
-		height: 0.7d,
-		rotation: 0.0d,
-		image: "assets:quest.png",
-		hover: [],
-		click: "",
-		dev: false
-	},
-	{
 		x: -1.5d,
 		y: -4.5d,
 		width: 0.2d,

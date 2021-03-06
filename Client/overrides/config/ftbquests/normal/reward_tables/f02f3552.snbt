@@ -10,9 +10,6 @@
 		}
 	},
 	{
-		item: "stupidthings:balloon 1 6"
-	},
-	{
 		item: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -21,6 +18,6 @@
 		}
 	},
 	{
-		item: "harvestcraft:swedishmeatballsitem"
+		item: "biomesoplenty:sapling_1 1 7"
 	}]
 }

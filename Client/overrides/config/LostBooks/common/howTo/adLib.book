@@ -1,0 +1,44 @@
+How To: Add Custom Ad Libs
+FatherToast
+How to add custom ad libs to this mod:
+First, to know how to make an ad lib, you will need to know how to make a normal book.
+In the LostBooks folder, you should see a folder called 'adLib'. All of your ad lib stories (.book files) will be inside this folder, along with the words folder, which contains all of the words your ad libs will pull from (.words files).Ad lib books:
+Books in the ad lib folder act just like books in the common folder, only they are loaded every time they are dropped, rather than just when the game is loaded. In addition, they have a few extra features for the random generation of words.
+Random word plopping:
+To place a randomized word into your story, type a '@' followed by the code for the word ending with a ';' (eg. @noun.plural;). These can be placed anywhere, even in the middle of another word or right next to each other.
+Adding 'c.' in front of a word code (eg. @c.noun.plural;) will capitalize the word.
+Variable words:
+To make a word variable, you must first declare it. Variables need to be declared before they can be used. You must declare any number of variables at the top of the document, one per line, before the title. A variable is declared like so:
+name = word.code;
+The name can be anything, but it can not be the same as a word code or include spaces. Once you have your variables declared, they will be constant throughout the story and must be inserted the same way a word code is, using the variable name instead of the code (eg. @name;). 'c.' works with variables, too (eg. @c.name;). If you want your variable to always be capitalized, put 'c.' in front of its declared word code (§onot§r its declared name). There is no limit on the number of variables you can have, just be careful to get the syntax perfect, or else it will end up as the title!Words files:
+The .words files in your adLib/words folder will determine the words available to ad lib books. You don't need any more than one words file, but having multiple makes it easier to share your own word sets with others. Words files do not need to have words for every word code. Attempts to add any word more than one time will have no effect.
+Words in a words file should be listed one per line, with nothing more than the word, following a word code. After all new words for a word code have been listed, leave an empty line before the next word code (otherwise it will just add the word code as a word under the last word code!). Example:
+noun.name
+Jim
+Bob
+
+verb.present
+jogging
+The words file above will add 'Jim' and 'Bob' to the noun.name code and 'jogging' to the verb.present code. If you write text that isn't a word code when a word code is expected, it will be ignored and a harmless message will be printed to the console, unless the line starts with a '#'.Word codes:
+noun.name
+noun.pronoun
+noun.pronoun.possessive
+noun.living
+noun.living.plural
+noun.place
+noun.place.plural
+noun.object
+noun.object.plural
+verb.infinitive
+...Word codes (cont.):
+verb.past
+verb.present
+adjective
+adverb
+random
+
+Words can not be added to the word code 'random'. Instead of pulling from a list of words, 'random' makes up its own "interesting" words.Other Codes:
+#a;
+
+Currently, there is only one special code you need to worry about. #a; automatically inserts 'a' or 'an' based on the next letter. Make sure you use this any time you would use a or an in front of a randomized word, since you won't know which is appropriate.
+Good luck, and happy ad libbing!

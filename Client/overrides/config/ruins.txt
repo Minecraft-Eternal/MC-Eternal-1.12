@@ -23,10 +23,10 @@ disableRuinSpawnCoordsLogging=true
 templateInstancesMinDistance=256
 #
 # minimum distance a template must have from any other template
-anyRuinsMinDistance=64
+anyRuinsMinDistance=640
 #
 # min/max distances overworld templates can have from world spawn (0 = no limit)
-anySpawnMinDistance=32
+anySpawnMinDistance=320
 anySpawnMaxDistance=0
 #
 # allow displaying a block's data by hitting it with a stick

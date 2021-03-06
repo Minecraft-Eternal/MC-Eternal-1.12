@@ -1,0 +1,6 @@
+{
+  "name": "theme:mineshaft",
+  "themes": [
+    {"base": "MINESHAFT"}
+  ]
+}

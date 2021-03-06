@@ -1,0 +1,28 @@
+Formatting
+FatherToast
+There are two types of formatting usable in books: style and color.
+Formats are used by typing a section symbol (Alt+21 for Windows, copy/paste will work for all systems) followed by a style or color code. The codes are listed on the following pages.
+Styles can be used with any other styles or color. Only one color is usable at a time. Using a color will cancel any active styles, but using a style will just activate that style. The only exception to this is reset, which clears all styles without changing the color.Styles:
+k = §krandom§r
+l = §lbold§r
+m = §mstrikeout§r
+n = §nunderline§r
+o = §oitalics§r
+r = reset (cancels all styles)Colors:
+0 = §0black (default color)§0
+1 = §1dark blue§0
+2 = §2green§0
+3 = §3teal§0
+4 = §4dark red§0
+5 = §5purple§0
+6 = §6orange§0
+7 = §7gray§0
+8 = §8dark gray§0
+9 = §9blue§0
+...Colors (cont.):
+a = §alime§0
+b = §bcyan§0
+c = §cred§0
+d = §dpink§0
+e = §eyellow§0
+f = §fwhite§0

@@ -1,7 +1,7 @@
 {
 	x: -9.5d,
 	y: -3.0d,
-	description: "Lumberjack",
+	description: "Lumberjack `",
 	can_repeat: true,
 	tasks: [{
 		uid: "1b4a8cf9",
@@ -12,15 +12,8 @@
 		count: 32L
 	}],
 	rewards: [{
-		uid: "e931d1bd",
-		type: "item",
-		title: "25 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_small",
-			tag: {
-				value: 25L
-			}
-		}
+		uid: "a11f5aa8",
+		type: "ftbmoney:money",
+		ftb_money: 5L
 	}]
 }

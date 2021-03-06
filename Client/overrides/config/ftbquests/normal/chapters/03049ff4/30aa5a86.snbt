@@ -13,10 +13,12 @@
 	y: 0.5d,
 	shape: "diamond",
 	description: "Finally! Something to spend my billions of RF on...",
+	can_repeat: true,
 	dependencies: [
 		"fa85c35a"
 	],
 	hide: true,
+	optional: true,
 	tasks: [{
 		uid: "b247e37d",
 		type: "forge_energy",

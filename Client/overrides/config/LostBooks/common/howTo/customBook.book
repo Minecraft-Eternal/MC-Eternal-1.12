@@ -1,0 +1,11 @@
+How To: Add Custom Books
+FatherToast
+How to add custom books to this mod:
+First off, you'll need to know where the book data is stored. Navigate to your book folder (the 'LostBooks' folder in your .minecraft's config file). If this folder does not exist, you need to re-install Lost Books, as the two .bin files included in the book folder are essential.
+Inside your book folder, you should see three other folders: adLib, common, and unique.
+The common folder contains all common books, such as this one. Common books can be dropped an infinite number of times.
+The adLib folder contains all ad lib books, which are technically common books. This folder will be gone over in another book by itself, so we'll ignore it for now.
+The unique folder contains the unique books, each of which (generally) only drop if a player in the world has not picked a copy up yet. There are several options governing these books in the  mod's config file.Book files:
+All books are represented by book files (end with '.book'). If your computer won't let you edit file extensions, simply copy and paste one of the book files I packaged with the mod and edit it.
+The first line of the book file is the title, the second line is the author (leave it empty if you wish to have no author), while the third line and every line following are the contents of the book. Make sure if you're using a Mac that you get the crucial line feed (LF) character to start each new line, as that is the character Minecraft recognizes for the end of a line. Mac's standard end-of-line character (CR) is ignored.
+Book files also recognize a special character, form feed (FF). Form feed will start a new page in the book. In some text editors (such as Notepad++), you will see the form feed and can easily copy/paste it. In Notepad, it should show up as a funky rectangle, but you should still be able to copy/paste it. In Windows, you can type a form feed with Alt+0012.There is no limit to the number of books you can have or the length of them (theoretically speaking), so have fun, and share your book files with your friends!

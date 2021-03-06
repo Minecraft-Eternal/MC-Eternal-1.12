@@ -2593,22 +2593,45 @@
 		weight: 24
 	},
 	{
-		item: "icbmclassic:grenade",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade"
+		},
 		count: 3,
 		weight: 24
 	},
 	{
-		item: "icbmclassic:grenade 1 1",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade",
+			Damage: 1s
+		},
 		count: 3,
 		weight: 22
 	},
 	{
-		item: "icbmclassic:grenade 1 5",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade",
+			Damage: 5s
+		},
 		count: 3,
 		weight: 22
 	},
 	{
-		item: "icbmclassic:grenade 1 2",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade",
+			Damage: 2s
+		},
 		count: 2,
 		weight: 22
 	},

@@ -1,0 +1,4 @@
+{
+  "name" : "criteria:snowy",
+  "criteria" : {"biomeTypes" : ["SNOWY"]}
+}

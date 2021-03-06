@@ -1,6 +1,0 @@
-
-{
-  "Name": "plague_doctor",
-  "Registry ID": "rats:plague_doctor",
-  "Class": "com.github.alexthe666.rats.server.entity.EntityPlagueDoctor"
-}

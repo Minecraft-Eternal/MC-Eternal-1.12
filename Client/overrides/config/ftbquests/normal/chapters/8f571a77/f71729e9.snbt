@@ -16,15 +16,8 @@
 		value: 195000000L
 	}],
 	rewards: [{
-		uid: "a10dd060",
-		type: "item",
-		title: "1000 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_big",
-			tag: {
-				value: 1000L
-			}
-		}
+		uid: "752c24fd",
+		type: "ftbmoney:money",
+		ftb_money: 450L
 	}]
 }

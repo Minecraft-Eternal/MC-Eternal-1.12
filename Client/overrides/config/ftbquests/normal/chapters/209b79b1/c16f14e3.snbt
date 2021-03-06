@@ -38,6 +38,11 @@
 	{
 		uid: "72462cad",
 		type: "item",
-		item: "thaumcraft:banner_crimson_cult"
+		item: {
+			ForgeCaps: {
+				"thaumicaugmentation:elytra_harness_augment": {}
+			},
+			id: "thaumcraft:banner_crimson_cult"
+		}
 	}]
 }

@@ -1,0 +1,17 @@
+{
+  "name": "spawners:goblins",
+  "requires": ["twilightforest"],
+  "spawners": [
+    {"level": [0, 1, 2, 3, 4], "weight": 3, "potentials": [
+      {"weight": 1, "name": "twilightforest:goblin_knight_upper"},
+      {"weight": 3, "name": "twilightforest:goblin_knight_lower"},
+      {"weight": 1, "name": "twilightforest:blockchain_goblin"}
+    ]},
+    {"level": [0, 1, 2, 3, 4], "weight": 1, "potentials": [{"name": "twilightforest:helmet_crab"}]},
+    {"level": [0, 1, 2, 3, 4], "weight": 1, "potentials": [{"name": "twilightforest:kobold"}]},
+    {"level": [0, 1, 2, 3, 4], "weight": 2, "potentials": [
+      {"weight": 3, "name": "twilightforest:redcap"},
+      {"weight": 1, "name": "twilightforest:redcap_sapper"}
+    ]}
+  ]
+}

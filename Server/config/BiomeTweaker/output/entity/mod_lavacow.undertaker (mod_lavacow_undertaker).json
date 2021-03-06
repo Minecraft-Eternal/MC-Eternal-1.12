@@ -1,6 +1,0 @@
-
-{
-  "Name": "mod_lavacow.undertaker",
-  "Registry ID": "mod_lavacow:undertaker",
-  "Class": "com.Fishmod.mod_LavaCow.entities.EntityUndertaker"
-}

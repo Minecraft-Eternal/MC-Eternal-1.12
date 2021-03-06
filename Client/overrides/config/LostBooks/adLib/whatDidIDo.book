@@ -1,0 +1,7 @@
+player = c.noun.name;
+mobs = noun.living.plural;
+guard = c.player.nearest;
+A Burnt Diary
+@player;
+I tried my hardest to flee, to not become one of them. I wanted to scream, to cry, but I couldn't ... the @mobs; tried to kill me ... I came to @guard; to save me, ... but he just swung and swung his sword at me, like I was one of the @mobs;!
+What did I do wrong? Why is @guard; trying to kill me? What did I do to deserve this? I just want to go home ...

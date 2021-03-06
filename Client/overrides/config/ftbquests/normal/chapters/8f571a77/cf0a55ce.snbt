@@ -12,8 +12,8 @@
 		count: 32L
 	}],
 	rewards: [{
-		uid: "095989f4",
+		uid: "0806ba39",
 		type: "ftbmoney:money",
-		ftb_money: 10L
+		ftb_money: 3L
 	}]
 }

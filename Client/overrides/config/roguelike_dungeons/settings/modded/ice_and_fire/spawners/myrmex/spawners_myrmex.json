@@ -1,0 +1,8 @@
+{
+  "name" : "spawners:myrmex",
+  "requires": ["iceandfire"],
+  "inherit": [
+    "spawners:myrmex_workers",
+    "spawners:myrmex_boss"
+  ]
+}

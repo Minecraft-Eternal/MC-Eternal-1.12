@@ -1,0 +1,10 @@
+{
+  "name" : "dungeon:forest_builtin_no_loot",
+  "exclusive": false,
+  "inherit" : [
+    "builtin:forest"
+  ],
+  "overrides": [
+    "LOOTRULES"
+  ]
+}

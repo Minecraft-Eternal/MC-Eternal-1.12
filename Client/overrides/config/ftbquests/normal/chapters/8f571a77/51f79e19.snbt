@@ -15,15 +15,8 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "74a4f114",
-		type: "item",
-		title: "500 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_big",
-			tag: {
-				value: 500L
-			}
-		}
+		uid: "c7217a65",
+		type: "ftbmoney:money",
+		ftb_money: 100L
 	}]
 }

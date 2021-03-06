@@ -1,0 +1,11 @@
+{
+  "name" : "dungeon:forest_temple_massive",
+  "exclusive": false, // disabled. It's just too big
+  "criteria": {"biomeTypes": ["FOREST"]},
+  "inherit" : [
+    "dungeon:forest_temple",
+    "layout:size_massive",
+    "spawners:eb",
+    "tower:eniko_forest"
+  ]
+}

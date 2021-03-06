@@ -1,5 +1,5 @@
 {
-	title: "§5Extraterrestrial Cache",
+	title: "&5Extraterrestrial Cache",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -37,10 +37,10 @@
 				HideFlags: 37,
 				display: {
 					Lore: [
-						"§8Everybody Knows The Moon's Made of Cheese",
-						"§e(Part of the Moon set)"
+						"ï¿½8Everybody Knows The Moon's Made of Cheese",
+						"ï¿½e(Part of the Moon set)"
 					],
-					Name: "§6§lHaunted Moon Shovel "
+					Name: "ï¿½6ï¿½lHaunted Moon Shovel "
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -64,10 +64,10 @@
 				HideFlags: 37,
 				display: {
 					Lore: [
-						"§8You have plenty of courage, I am sure",
-						"§c(Part of the Corruption Set)"
+						"ï¿½8You have plenty of courage, I am sure",
+						"ï¿½c(Part of the Corruption Set)"
 					],
-					Name: "§7Ruby Slippers"
+					Name: "ï¿½7Ruby Slippers"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -101,10 +101,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8Rusted and uncomfortable to hold, unlikely to last very long",
-						"§e(Part of the Moon set)"
+						"ï¿½8Rusted and uncomfortable to hold, unlikely to last very long",
+						"ï¿½e(Part of the Moon set)"
 					],
-					Name: "§7Ratlantean Dagger"
+					Name: "ï¿½7Ratlantean Dagger"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -140,10 +140,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"§8§k232!§r§l§8It yearns to be returned to its home planet§8§k3242",
-						"§l§e(Rare Moon Artifact)"
+						"ï¿½8ï¿½k232!ï¿½rï¿½lï¿½8It yearns to be returned to its home planetï¿½8ï¿½k3242",
+						"ï¿½lï¿½e(Rare Moon Artifact)"
 					],
-					Name: "§9Frozen Blade §rof the §4Unholy Prince"
+					Name: "ï¿½9Frozen Blade ï¿½rof the ï¿½4Unholy Prince"
 				}
 			}
 		}
@@ -158,10 +158,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8Rusted and uncomfortable to hold, unlikely to last very long (aaarrg)",
-						"§e(Part of the Moon set)"
+						"ï¿½8Rusted and uncomfortable to hold, unlikely to last very long (aaarrg)",
+						"ï¿½e(Part of the Moon set)"
 					],
-					Name: "§7Pirat Hook"
+					Name: "ï¿½7Pirat Hook"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -185,10 +185,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8Made completely out of 100% cheese sourced locally from the Moon.",
-						"§e(Part of the Moon set)"
+						"ï¿½8Made completely out of 100% cheese sourced locally from the Moon.",
+						"ï¿½e(Part of the Moon set)"
 					],
-					Name: "§7Cheese Blade"
+					Name: "ï¿½7Cheese Blade"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -212,11 +212,11 @@
 				HideFlags: 37,
 				display: {
 					Lore: [
-						"§8In my dream, I was drowning my sorrows",
-						"§8But my sorrows they'd learned to swim",
-						"§e(Part of the Moon set)"
+						"ï¿½8In my dream, I was drowning my sorrows",
+						"ï¿½8But my sorrows they'd learned to swim",
+						"ï¿½e(Part of the Moon set)"
 					],
-					Name: "§7Mask of Sorrows"
+					Name: "ï¿½7Mask of Sorrows"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -247,13 +247,13 @@
 			id: "minecraft:writable_book",
 			tag: {
 				pages: [
-					"§cSoon§k------------------§cIntersteller travel§k-------------------§cThe universeIs mine...§k-------------------",
+					"ï¿½cSoonï¿½k------------------ï¿½cIntersteller travelï¿½k-------------------ï¿½cThe universeIs mine...ï¿½k-------------------",
 					"Ticket for oneTo the home planet of the UndeadBeautiful around this time of the yearPlease check tripadvisor for advice and tips for survival",
-					"§m§l7/7/2020"
+					"ï¿½mï¿½l7/7/2020"
 				],
 				RepairCost: 0,
 				display: {
-					Name: "§6Economy Ticket to Primordium"
+					Name: "ï¿½6Economy Ticket to Primordium"
 				}
 			}
 		}
@@ -374,7 +374,7 @@
 	},
 	{
 		item: "advancedrocketry:vitrifiedsand",
-		weight: 12
+		weight: 60
 	},
 	{
 		item: "advancedrocketry:moonturf",
@@ -454,11 +454,11 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8All that's left is a Nightmare...",
-						"§c(Part of the Corruption Set)",
-						"§e(Rare Moon Artifact)"
+						"ï¿½8All that's left is a Nightmare...",
+						"ï¿½c(Part of the Corruption Set)",
+						"ï¿½e(Rare Moon Artifact)"
 					],
-					Name: "§7Dream Eater"
+					Name: "ï¿½7Dream Eater"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -581,10 +581,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"§8§r§lAncient Tarnished Blade",
-						"§l§e(Rare Moon Artifact)"
+						"ï¿½8ï¿½rï¿½lAncient Tarnished Blade",
+						"ï¿½lï¿½e(Rare Moon Artifact)"
 					],
-					Name: "§3Giant's Bane"
+					Name: "ï¿½3Giant's Bane"
 				}
 			}
 		}
@@ -611,10 +611,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"§8§r§rTriple Compressed Cheese",
-						"§l§e(Rare Moon Artifact)"
+						"ï¿½8ï¿½rï¿½rTriple Compressed Cheese",
+						"ï¿½lï¿½e(Rare Moon Artifact)"
 					],
-					Name: "§6§lMoon King"
+					Name: "ï¿½6ï¿½lMoon King"
 				}
 			}
 		}
@@ -658,10 +658,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8From a faraway land where the dead stay awake and the living are most unwelcome",
-						"§e(Rare Extraterrestrial Artifact)"
+						"ï¿½8From a faraway land where the dead stay awake and the living are most unwelcome",
+						"ï¿½e(Rare Extraterrestrial Artifact)"
 					],
-					Name: "§7Hammer of the Undying"
+					Name: "ï¿½7Hammer of the Undying"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -704,10 +704,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"§aThree things are certain in life: death, taxes and opening a bad chancecube",
-						"§e(§R§eRare Moon Artifact)"
+						"ï¿½aThree things are certain in life: death, taxes and opening a bad chancecube",
+						"ï¿½e(ï¿½Rï¿½eRare Moon Artifact)"
 					],
-					Name: "§9God-King's Grace, Breath of Life"
+					Name: "ï¿½9God-King's Grace, Breath of Life"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -735,10 +735,10 @@
 				HideFlags: 33,
 				display: {
 					Lore: [
-						"§8The means to prolong one's life is corrupting, unnatural and not without cost...",
-						"§c(Part of the Corruption set)"
+						"ï¿½8The means to prolong one's life is corrupting, unnatural and not without cost...",
+						"ï¿½c(Part of the Corruption set)"
 					],
-					Name: "§4§lGrasp of Death"
+					Name: "ï¿½4ï¿½lGrasp of Death"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -776,10 +776,10 @@
 				HideFlags: 33,
 				display: {
 					Lore: [
-						"§8The means to prolong one's life is corrupting, unnatural and not without cost...",
-						"§c(Part of the Corruption set)"
+						"ï¿½8The means to prolong one's life is corrupting, unnatural and not without cost...",
+						"ï¿½c(Part of the Corruption set)"
 					],
-					Name: "§4§lGrasp of Suffering"
+					Name: "ï¿½4ï¿½lGrasp of Suffering"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -825,11 +825,11 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8\"But what we call our despair is often only the painful eagerness of unfed hope.\"",
-						"§c(Part of the Corruption Set)",
-						"§e(Rare Moon Artifact)"
+						"ï¿½8\"But what we call our despair is often only the painful eagerness of unfed hope.\"",
+						"ï¿½c(Part of the Corruption Set)",
+						"ï¿½e(Rare Moon Artifact)"
 					],
-					Name: "§5Despair"
+					Name: "ï¿½5Despair"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -848,7 +848,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§dExtraterrestrial Cache"
+					Name: "ï¿½dExtraterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}
@@ -861,7 +861,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§dExtraterrestrial Cache"
+					Name: "ï¿½dExtraterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}
@@ -919,10 +919,10 @@
 				HideFlags: 37,
 				display: {
 					Lore: [
-						"§8Hide from the darkness, the dead does not feel fear.",
-						"§e(Part of the Primordium set)"
+						"ï¿½8Hide from the darkness, the dead does not feel fear.",
+						"ï¿½e(Part of the Primordium set)"
 					],
-					Name: "§cNightfallen"
+					Name: "ï¿½cNightfallen"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -1078,8 +1078,7 @@
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "theaurorian:aurorianitesword"
-		},
-		weight: 9
+		}
 	},
 	{
 		item: {
@@ -1091,8 +1090,7 @@
 				currentupgradelevel: 0,
 				upgrademultiplier: 1.0f
 			}
-		},
-		weight: 9
+		}
 	},
 	{
 		item: {
@@ -1100,8 +1098,7 @@
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "theaurorian:ceruleanchestplate"
-		},
-		weight: 9
+		}
 	},
 	{
 		item: {
@@ -1155,8 +1152,7 @@
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "theaurorian:livingdiviningrod"
-		},
-		weight: 9
+		}
 	},
 	{
 		item: {

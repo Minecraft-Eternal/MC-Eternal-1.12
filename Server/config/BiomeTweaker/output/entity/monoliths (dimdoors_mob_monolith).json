@@ -1,6 +1,0 @@
-
-{
-  "Name": "monoliths",
-  "Registry ID": "dimdoors:mob_monolith",
-  "Class": "org.dimdev.dimdoors.shared.entities.EntityMonolith"
-}

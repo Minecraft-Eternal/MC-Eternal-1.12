@@ -1,3 +1,0 @@
-[*]
-wiki_url: https://discordapp.com/invite/ZS6FRR3
-wiki_icon: assets:mce.png

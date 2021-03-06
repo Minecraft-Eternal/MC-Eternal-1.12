@@ -16,7 +16,8 @@
 				recipeType: 0
 			},
 			Damage: 7s
-		}]
+		}],
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "ed8c3f8f",

@@ -1,12 +1,127 @@
-2020-07-28 23:49:17,520 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,528 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,530 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,540 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,543 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,547 [Client thread] ERROR GottschCore | LootTableManager.java:158 | Couldn't load loot table dungeons2:/loot_tables/dungeons2/items/rare from C:\Users\Adam\Twitch\Minecraft\Instances\MC Eternal (8)\config\dungeons2\dungeons2\loot_tables\dungeons2\items\rare.json
+2021-02-24 17:38:01,385 [Client thread] WARN GottschCore | VersionChecker.java:55 | Bad URL: null
+2021-02-24 17:38:01,387 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2021-02-24 17:38:01,410 [Client thread] WARN GottschCore | VersionChecker.java:119 | Unexpected expection in data stream: 
+java.io.FileNotFoundException: https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1835) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1432) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1430) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(AccessController.java:713) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1429) ~[?:1.8.0_51]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254) ~[?:1.8.0_51]
+	at java.net.URL.openStream(URL.java:1038) ~[?:1.8.0_51]
+	at com.someguyssoftware.gottschcore.version.VersionChecker.getVersionUsingForge(VersionChecker.java:114) [VersionChecker.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.mod.AbstractMod.postInit(AbstractMod.java:65) [AbstractMod.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.dungeons2.Dungeons2.postInit(Dungeons2.java:199) [Dungeons2.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637) [FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:754) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:4431) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+2021-02-24 17:38:01,411 [Client thread] WARN GottschCore | VersionChecker.java:55 | Bad URL: 
+2021-02-24 17:38:13,291 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/update.json
+2021-02-24 18:09:07,277 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,278 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,279 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,282 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,282 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,283 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,285 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,286 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,286 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,289 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,290 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,290 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,293 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,296 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,296 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,297 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,297 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,298 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,298 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,298 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,301 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,302 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,302 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,303 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,303 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,303 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,304 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,304 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,305 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,308 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,308 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,308 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,309 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,309 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,312 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,312 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,313 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,313 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,313 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,316 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,317 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,317 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,317 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,318 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,321 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,321 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,321 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,322 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,322 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,325 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,325 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,326 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,326 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,326 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,329 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 18:09:07,330 [Server thread] ERROR GottschCore | LootTableMaster2.java:432 | Unable to locate resource /loot_tables/treasure2/inject/uncommon/
+2021-02-24 18:09:07,331 [Server thread] ERROR GottschCore | LootTableMaster2.java:432 | Unable to locate resource /loot_tables/treasure2/inject/scarce/
+2021-02-24 18:09:07,331 [Server thread] ERROR GottschCore | LootTableMaster2.java:432 | Unable to locate resource /loot_tables/treasure2/inject/rare/
+2021-02-24 18:09:07,332 [Server thread] ERROR GottschCore | LootTableMaster2.java:432 | Unable to locate resource /loot_tables/treasure2/inject/epic/
+2021-02-24 18:58:06,256 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=2, coords=Coords [x=30, y=0, z=585], terminated=false], point2=Waypoint [id=5, coords=Coords [x=30, y=0, z=585], terminated=true], alignment=HORIZONTAL]
+2021-02-24 18:58:06,267 [Server thread] WARN Dungeons2 | LevelBuilder.java:1846 | Wayline's points are equal !!: Wayline [point1=Waypoint [id=3, coords=Coords [x=24, y=0, z=581], terminated=false], point2=Waypoint [id=5, coords=Coords [x=24, y=0, z=581], terminated=true], alignment=HORIZONTAL]
+2021-02-24 18:58:06,605 [Server thread] WARN Dungeons2 | RotatorRegistry.java:68 | The class has already been registered.
+2021-02-24 18:58:07,151 [Server thread] ERROR GottschCore | LootTableManager.java:159 | Couldn't load loot table dungeons2:loot_tables/dungeons2/items/rare from C:\Users\calum\Documents\curseforge\minecraft\Instances\MC Eternal Staging\config\dungeons2\dungeons2\loot_tables\dungeons2\items\rare.json
 com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:86) ~[LootFunctionManager$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:77) ~[LootFunctionManager$Serializer.class:?]
+	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:87) ~[LootFunctionManager$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:78) ~[LootFunctionManager$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
@@ -15,9 +130,9 @@ com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
 	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntryItem.deserialize(LootEntryItem.java:117) ~[LootEntryItem.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:93) ~[LootEntry$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:72) ~[LootEntry$Serializer.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootEntryItem.deserialize(LootEntryItem.java:118) ~[LootEntryItem.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:94) ~[LootEntry$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:73) ~[LootEntry$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
@@ -26,8 +141,8 @@ com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
 	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[LootPool$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:165) ~[LootPool$Serializer.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:170) ~[LootPool$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:166) ~[LootPool$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
@@ -36,17 +151,17 @@ com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
 	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[LootTable$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:199) ~[LootTable$Serializer.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:211) ~[LootTable$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:200) ~[LootTable$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
 	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
 	at com.google.gson.Gson.fromJson(Gson.java:852) ~[Gson.class:?]
 	at com.google.gson.Gson.fromJson(Gson.java:801) ~[Gson.class:?]
 	at com.google.gson.Gson.fromJson(Gson.java:773) ~[Gson.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.loadLootTable(LootTableManager.java:210) ~[LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:155) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:114) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager.loadLootTable(LootTableManager.java:211) ~[LootTableManager.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:156) [LootTableManager$Loader.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:115) [LootTableManager$Loader.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:104) [LootTableManager$Loader.class:mc1.12.2-f14.23.5.2854-v1.14.0]
 	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
 	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
@@ -55,10 +170,114 @@ com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
 	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.fileSystemHasCurrentVersion(LootTableMaster.java:259) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.exposeLootTable(LootTableMaster.java:200) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.buildAndExpose(LootTableMaster.java:79) [LootTableMaster.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:91) [LootTableManager.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootEntryTable.addLoot(LootEntryTable.java:45) [LootEntryTable.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootPool.createLootRoll(LootPool.java:77) [LootPool.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootPool.generateLoot(LootPool.java:92) [LootPool.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTable.generateLootFromPools(LootTable.java:49) [LootTable.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTable.fillInventory(LootTable.java:67) [LootTable.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.dungeonsengine.chest.BossLootLoader.fill(BossLootLoader.java:74) [BossLootLoader.class:?]
+	at com.someguyssoftware.dungeons2.style.BossRoomDecorator.addChest(BossRoomDecorator.java:204) [BossRoomDecorator.class:?]
+	at com.someguyssoftware.dungeons2.style.BossRoomDecorator.decorate(BossRoomDecorator.java:141) [BossRoomDecorator.class:?]
+	at com.someguyssoftware.dungeons2.generator.DungeonGenerator.generate(DungeonGenerator.java:172) [DungeonGenerator.class:?]
+	at com.someguyssoftware.dungeons2.worldgen.DungeonsWorldGen.generate(DungeonsWorldGen.java:328) [DungeonsWorldGen.class:?]
+	at net.minecraftforge.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:167) [GameRegistry.class:?]
+	at net.minecraft.world.chunk.Chunk.func_186034_a(Chunk.java:1020) [axw.class:?]
+	at net.minecraft.world.chunk.Chunk.func_186030_a(Chunk.java:985) [axw.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.func_186025_d(ChunkProviderServer.java:157) [on.class:?]
+	at net.minecraft.world.World.func_72964_e(World.java:310) [amu.class:?]
+	at net.minecraft.world.World.func_175726_f(World.java:305) [amu.class:?]
+	at net.minecraft.world.World.func_180501_a(World.java:330) [amu.class:?]
+	at net.minecraft.world.World.func_175656_a(World.java:425) [amu.class:?]
+	at com.github.alexthe666.iceandfire.world.gen.WorldGenIceDragonCave.createShell(WorldGenIceDragonCave.java:140) [WorldGenIceDragonCave.class:?]
+	at com.github.alexthe666.iceandfire.world.gen.WorldGenIceDragonCave.func_180709_b(WorldGenIceDragonCave.java:59) [WorldGenIceDragonCave.class:?]
+	at com.github.alexthe666.iceandfire.event.WorldGenEvents.generate(WorldGenEvents.java:238) [WorldGenEvents.class:?]
+	at net.minecraftforge.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:167) [GameRegistry.class:?]
+	at net.minecraft.world.chunk.Chunk.func_186034_a(Chunk.java:1020) [axw.class:?]
+	at net.minecraft.world.chunk.Chunk.func_186030_a(Chunk.java:985) [axw.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.func_186025_d(ChunkProviderServer.java:157) [on.class:?]
+	at net.minecraft.server.management.PlayerChunkMapEntry.func_187268_a(PlayerChunkMapEntry.java:126) [ot.class:?]
+	at net.minecraft.server.management.PlayerChunkMap.func_72693_b(SourceFile:147) [ou.class:?]
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:227) [oo.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:756) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185) [chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+2021-02-24 18:58:07,215 [Server thread] INFO Dungeons2 | DungeonsWorldGen.java:344 | Dungeon generated @ -858 65 576
+2021-02-24 19:50:19,107 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,111 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,115 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,118 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,122 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,160 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,160 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,161 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,162 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,163 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,167 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,167 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,168 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,168 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,197 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,201 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,202 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,204 [Client thread] ERROR GottschCore | LootTableManager.java:159 | Couldn't load loot table dungeons2:/loot_tables/dungeons2/items/rare from C:\Users\calum\Documents\curseforge\minecraft\Instances\MC Eternal Staging\config\dungeons2\dungeons2\loot_tables\dungeons2\items\rare.json
+com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
+	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:87) ~[LootFunctionManager$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:78) ~[LootFunctionManager$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
+	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootEntryItem.deserialize(LootEntryItem.java:118) ~[LootEntryItem.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:94) ~[LootEntry$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:73) ~[LootEntry$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
+	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:170) ~[LootPool$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:166) ~[LootPool$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
+	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:211) ~[LootTable$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:200) ~[LootTable$Serializer.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:773) ~[Gson.class:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager.loadLootTable(LootTableManager.java:211) ~[LootTableManager.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:156) [LootTableManager$Loader.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:115) [LootTableManager$Loader.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:104) [LootTableManager$Loader.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:91) [LootTableManager.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTableMaster.fileSystemHasCurrentVersion(LootTableMaster.java:260) [LootTableMaster.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTableMaster.exposeLootTable(LootTableMaster.java:201) [LootTableMaster.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.loot.LootTableMaster.buildAndExpose(LootTableMaster.java:80) [LootTableMaster.class:mc1.12.2-f14.23.5.2854-v1.14.0]
 	at com.someguyssoftware.dungeons2.loot.DungeonLootTableMaster.<init>(DungeonLootTableMaster.java:74) [DungeonLootTableMaster.class:?]
 	at com.someguyssoftware.dungeons2.Dungeons2.init(Dungeons2.java:180) [Dungeons2.class:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
@@ -93,7 +312,7 @@ com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
 	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749) [Loader.class:?]
 	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535) [bib.class:?]
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:4431) [bib.class:?]
 	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
@@ -101,151 +320,94 @@ com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-2020-07-28 23:49:17,555 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,558 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,561 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,577 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,580 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,583 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,586 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,589 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,597 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,600 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,602 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,605 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:17,607 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:49,957 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:49,960 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:49,963 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:49,973 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:49,976 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:49,979 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:49,990 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:49,993 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:49,995 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,006 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,009 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,012 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,020 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,133 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,136 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,139 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,142 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,146 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,149 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,152 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,155 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,157 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,166 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,169 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,172 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,175 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,178 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,188 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,190 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,194 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,196 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,198 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,208 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,211 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,215 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,218 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,222 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,231 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,235 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,238 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,241 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,243 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,252 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,255 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,258 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,260 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,263 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,274 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,277 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,279 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,282 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,285 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,288 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-28 23:49:50,392 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-07-28 23:52:52,499 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-07-28 23:52:52,642 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-07-28 23:53:17,552 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-07-29 12:43:51,443 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,458 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,467 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,474 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,484 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,501 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,503 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,506 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,508 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,510 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,520 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,522 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,524 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,525 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,528 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,538 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,539 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,544 [Client thread] ERROR GottschCore | LootTableManager.java:158 | Couldn't load loot table dungeons2:/loot_tables/dungeons2/items/rare from C:\Users\Adam\Twitch\Minecraft\Instances\MC Eternal (8)\config\dungeons2\dungeons2\loot_tables\dungeons2\items\rare.json
-com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:86) ~[LootFunctionManager$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:77) ~[LootFunctionManager$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntryItem.deserialize(LootEntryItem.java:117) ~[LootEntryItem.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:93) ~[LootEntry$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:72) ~[LootEntry$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[LootPool$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:165) ~[LootPool$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[LootTable$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:199) ~[LootTable$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:852) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:801) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:773) ~[Gson.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.loadLootTable(LootTableManager.java:210) ~[LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:155) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:114) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.fileSystemHasCurrentVersion(LootTableMaster.java:259) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.exposeLootTable(LootTableMaster.java:200) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.buildAndExpose(LootTableMaster.java:79) [LootTableMaster.class:?]
-	at com.someguyssoftware.dungeons2.loot.DungeonLootTableMaster.<init>(DungeonLootTableMaster.java:74) [DungeonLootTableMaster.class:?]
-	at com.someguyssoftware.dungeons2.Dungeons2.init(Dungeons2.java:180) [Dungeons2.class:?]
+2021-02-24 19:50:19,206 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,206 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,207 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,211 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,212 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,212 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,213 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,214 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,216 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,216 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,217 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,218 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:19,219 [Client thread] ERROR GottschCore | LootTableMaster.java:208 | is file system loot table current -> true
+2021-02-24 19:50:30,510 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,511 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,511 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,515 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,515 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,516 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,519 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,520 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,521 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,524 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,524 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,525 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,528 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,532 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,532 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,533 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,533 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,534 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,534 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,535 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,538 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,539 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,539 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,540 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,540 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,541 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,541 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,542 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,542 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,545 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,546 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,546 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,547 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,547 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,550 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,551 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,551 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,552 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,552 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,555 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,556 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,556 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,557 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,558 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,561 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,562 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,562 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,563 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,563 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,566 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,567 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,568 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,568 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,569 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,572 [Client thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:50:30,573 [Client thread] ERROR GottschCore | LootTableMaster2.java:432 | Unable to locate resource /loot_tables/treasure2/inject/uncommon/
+2021-02-24 19:50:30,574 [Client thread] ERROR GottschCore | LootTableMaster2.java:432 | Unable to locate resource /loot_tables/treasure2/inject/scarce/
+2021-02-24 19:50:30,574 [Client thread] ERROR GottschCore | LootTableMaster2.java:432 | Unable to locate resource /loot_tables/treasure2/inject/rare/
+2021-02-24 19:50:30,575 [Client thread] ERROR GottschCore | LootTableMaster2.java:432 | Unable to locate resource /loot_tables/treasure2/inject/epic/
+2021-02-24 19:50:30,619 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
+2021-02-24 19:52:15,214 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+2021-02-24 19:52:15,341 [Client thread] WARN GottschCore | VersionChecker.java:119 | Unexpected expection in data stream: 
+java.io.FileNotFoundException: https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1835) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1432) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1430) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(AccessController.java:713) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1429) ~[?:1.8.0_51]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254) ~[?:1.8.0_51]
+	at java.net.URL.openStream(URL.java:1038) ~[?:1.8.0_51]
+	at com.someguyssoftware.gottschcore.version.VersionChecker.getVersionUsingForge(VersionChecker.java:114) [VersionChecker.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.mod.AbstractMod.postInit(AbstractMod.java:65) [AbstractMod.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.GottschCore.postInit(GottschCore.java:89) [GottschCore.class:mc1.12.2-f14.23.5.2854-v1.14.0]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
@@ -275,10 +437,10 @@ com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
 	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:754) [Loader.class:?]
 	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535) [bib.class:?]
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:4431) [bib.class:?]
 	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
@@ -286,151 +448,22 @@ com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-2020-07-29 12:43:51,549 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,551 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,555 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,566 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,568 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,570 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,572 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,574 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,583 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,585 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,587 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,589 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:43:51,591 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,131 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,133 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,135 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,143 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,145 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,148 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,157 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,159 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,162 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,171 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,173 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,175 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,183 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,287 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,290 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,292 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,294 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,296 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,299 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,301 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,303 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,305 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,314 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,316 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,318 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,320 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,322 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,331 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,333 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,335 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,336 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,339 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,348 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,350 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,352 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,354 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,357 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,365 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,367 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,369 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,371 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,373 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,381 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,383 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,385 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,387 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,389 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,398 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,400 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,402 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,404 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,407 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,409 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 12:44:26,504 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-07-29 12:46:52,678 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-07-29 12:46:52,873 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-07-29 12:47:16,431 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-07-29 13:23:49,355 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,371 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,381 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,390 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,400 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,417 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,420 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,422 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,426 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,428 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,437 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,440 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,443 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,445 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,448 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,458 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,462 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,467 [Client thread] ERROR GottschCore | LootTableManager.java:158 | Couldn't load loot table dungeons2:/loot_tables/dungeons2/items/rare from C:\Users\Adam\Twitch\Minecraft\Instances\MC Eternal (8)\config\dungeons2\dungeons2\loot_tables\dungeons2\items\rare.json
-com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:86) ~[LootFunctionManager$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:77) ~[LootFunctionManager$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntryItem.deserialize(LootEntryItem.java:117) ~[LootEntryItem.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:93) ~[LootEntry$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:72) ~[LootEntry$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[LootPool$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:165) ~[LootPool$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[LootTable$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:199) ~[LootTable$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:852) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:801) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:773) ~[Gson.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.loadLootTable(LootTableManager.java:210) ~[LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:155) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:114) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.fileSystemHasCurrentVersion(LootTableMaster.java:259) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.exposeLootTable(LootTableMaster.java:200) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.buildAndExpose(LootTableMaster.java:79) [LootTableMaster.class:?]
-	at com.someguyssoftware.dungeons2.loot.DungeonLootTableMaster.<init>(DungeonLootTableMaster.java:74) [DungeonLootTableMaster.class:?]
-	at com.someguyssoftware.dungeons2.Dungeons2.init(Dungeons2.java:180) [Dungeons2.class:?]
+2021-02-24 19:52:15,343 [Client thread] WARN GottschCore | VersionChecker.java:55 | Bad URL: null
+2021-02-24 19:52:15,343 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+2021-02-24 19:52:15,471 [Client thread] WARN GottschCore | VersionChecker.java:119 | Unexpected expection in data stream: 
+java.io.FileNotFoundException: https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1835) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1432) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1430) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(AccessController.java:713) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1429) ~[?:1.8.0_51]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254) ~[?:1.8.0_51]
+	at java.net.URL.openStream(URL.java:1038) ~[?:1.8.0_51]
+	at com.someguyssoftware.gottschcore.version.VersionChecker.getVersionUsingForge(VersionChecker.java:114) [VersionChecker.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.gottschcore.mod.AbstractMod.postInit(AbstractMod.java:65) [AbstractMod.class:mc1.12.2-f14.23.5.2854-v1.14.0]
+	at com.someguyssoftware.dungeons2.Dungeons2.postInit(Dungeons2.java:199) [Dungeons2.class:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
@@ -460,10 +493,10 @@ com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
 	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:754) [Loader.class:?]
 	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535) [bib.class:?]
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:4431) [bib.class:?]
 	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
@@ -471,817 +504,64 @@ com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
 	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-2020-07-29 13:23:49,473 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,477 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,480 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,491 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,494 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,497 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,501 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,504 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,513 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,516 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,518 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,520 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:23:49,523 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,591 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,593 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,596 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,608 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,610 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,612 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,621 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,624 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,628 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,637 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,639 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,641 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,651 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,755 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,757 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,759 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,762 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,765 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,767 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,770 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,772 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,775 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,787 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,790 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,792 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,795 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,798 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,807 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,810 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,812 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,815 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,817 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,828 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,830 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,833 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,835 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,838 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,846 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,848 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,851 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,853 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,855 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,864 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,866 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,869 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,871 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,873 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,882 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,885 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,887 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,889 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,891 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:26,893 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:24:27,000 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-07-29 13:27:11,404 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-07-29 13:27:11,464 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-07-29 13:27:42,922 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-07-29 13:52:26,911 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,926 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,934 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,943 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,951 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,968 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,971 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,974 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,977 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,979 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,989 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,991 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,993 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,996 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:26,998 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,007 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,010 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,013 [Client thread] ERROR GottschCore | LootTableManager.java:158 | Couldn't load loot table dungeons2:/loot_tables/dungeons2/items/rare from C:\Users\Adam\Twitch\Minecraft\Instances\MC Eternal (8)\config\dungeons2\dungeons2\loot_tables\dungeons2\items\rare.json
-com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:86) ~[LootFunctionManager$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:77) ~[LootFunctionManager$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntryItem.deserialize(LootEntryItem.java:117) ~[LootEntryItem.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:93) ~[LootEntry$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:72) ~[LootEntry$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[LootPool$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:165) ~[LootPool$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[LootTable$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:199) ~[LootTable$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:852) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:801) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:773) ~[Gson.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.loadLootTable(LootTableManager.java:210) ~[LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:155) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:114) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.fileSystemHasCurrentVersion(LootTableMaster.java:259) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.exposeLootTable(LootTableMaster.java:200) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.buildAndExpose(LootTableMaster.java:79) [LootTableMaster.class:?]
-	at com.someguyssoftware.dungeons2.loot.DungeonLootTableMaster.<init>(DungeonLootTableMaster.java:74) [DungeonLootTableMaster.class:?]
-	at com.someguyssoftware.dungeons2.Dungeons2.init(Dungeons2.java:180) [Dungeons2.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637) [FMLModContainer.class:?]
-	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
-	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
-	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
-	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535) [bib.class:?]
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-2020-07-29 13:52:27,017 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,020 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,023 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,036 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,038 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,040 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,043 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,045 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,055 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,057 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,059 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,062 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:27,064 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,376 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,378 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,380 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,391 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,393 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,395 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,404 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,406 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,408 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,417 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,420 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,422 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,432 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,534 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,536 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,539 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,542 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,546 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,549 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,553 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,555 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,557 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,565 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,567 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,569 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,572 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,574 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,584 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,586 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,588 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,590 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,593 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,601 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,604 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,607 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,609 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,611 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,620 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,623 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,625 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,627 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,629 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,638 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,640 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,642 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,644 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,646 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,655 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,657 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,660 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,663 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,665 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,668 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 13:52:57,771 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-07-29 13:54:33,533 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-07-29 13:54:33,701 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-07-29 13:54:55,285 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-07-29 22:43:31,569 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,587 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,595 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,604 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,614 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,631 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,633 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,636 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,640 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,643 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,654 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,656 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,658 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,660 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,663 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,673 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,675 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,678 [Client thread] ERROR GottschCore | LootTableManager.java:158 | Couldn't load loot table dungeons2:/loot_tables/dungeons2/items/rare from C:\Users\Adam\Twitch\Minecraft\Instances\MC Eternal (8)\config\dungeons2\dungeons2\loot_tables\dungeons2\items\rare.json
-com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:86) ~[LootFunctionManager$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:77) ~[LootFunctionManager$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntryItem.deserialize(LootEntryItem.java:117) ~[LootEntryItem.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:93) ~[LootEntry$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:72) ~[LootEntry$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[LootPool$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:165) ~[LootPool$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[LootTable$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:199) ~[LootTable$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:852) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:801) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:773) ~[Gson.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.loadLootTable(LootTableManager.java:210) ~[LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:155) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:114) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.fileSystemHasCurrentVersion(LootTableMaster.java:259) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.exposeLootTable(LootTableMaster.java:200) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.buildAndExpose(LootTableMaster.java:79) [LootTableMaster.class:?]
-	at com.someguyssoftware.dungeons2.loot.DungeonLootTableMaster.<init>(DungeonLootTableMaster.java:74) [DungeonLootTableMaster.class:?]
-	at com.someguyssoftware.dungeons2.Dungeons2.init(Dungeons2.java:180) [Dungeons2.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637) [FMLModContainer.class:?]
-	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
-	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
-	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
-	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535) [bib.class:?]
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-2020-07-29 22:43:31,682 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,684 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,688 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,697 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,702 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,704 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,707 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,709 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,720 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,723 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,725 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,727 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:43:31,729 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,735 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,738 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,740 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,751 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,753 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,756 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,765 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,768 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,770 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,780 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,783 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,786 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,796 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,921 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,924 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,927 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,930 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,932 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,935 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,938 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,940 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:08,942 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,020 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,022 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,025 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,027 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,029 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,039 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,041 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,044 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,046 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,049 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,059 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,061 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,064 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,067 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,070 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,079 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,082 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,085 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,087 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,089 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,098 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,100 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,104 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,106 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,109 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,119 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,122 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,126 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,128 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,131 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,133 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 22:44:09,319 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-07-29 22:46:00,810 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-07-29 22:46:00,939 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-07-29 22:46:26,007 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-07-29 23:13:16,930 [Server thread] WARN GottschCore | LootTable.java:73 | Tried to over-fill a container
-2020-07-29 23:13:54,298 [Server thread] WARN GottschCore | LootTable.java:73 | Tried to over-fill a container
-2020-07-29 23:16:22,576 [Server thread] WARN GottschCore | LootTable.java:73 | Tried to over-fill a container
-2020-07-29 23:36:46,068 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,087 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,097 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,108 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,120 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,140 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,142 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,146 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,149 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,151 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,162 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,165 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,167 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,170 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,173 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,184 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,189 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,193 [Client thread] ERROR GottschCore | LootTableManager.java:158 | Couldn't load loot table dungeons2:/loot_tables/dungeons2/items/rare from C:\Users\Adam\Twitch\Minecraft\Instances\MC Eternal (8)\config\dungeons2\dungeons2\loot_tables\dungeons2\items\rare.json
-com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:86) ~[LootFunctionManager$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:77) ~[LootFunctionManager$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntryItem.deserialize(LootEntryItem.java:117) ~[LootEntryItem.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:93) ~[LootEntry$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:72) ~[LootEntry$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[LootPool$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:165) ~[LootPool$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[LootTable$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:199) ~[LootTable$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:852) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:801) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:773) ~[Gson.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.loadLootTable(LootTableManager.java:210) ~[LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:155) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:114) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.fileSystemHasCurrentVersion(LootTableMaster.java:259) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.exposeLootTable(LootTableMaster.java:200) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.buildAndExpose(LootTableMaster.java:79) [LootTableMaster.class:?]
-	at com.someguyssoftware.dungeons2.loot.DungeonLootTableMaster.<init>(DungeonLootTableMaster.java:74) [DungeonLootTableMaster.class:?]
-	at com.someguyssoftware.dungeons2.Dungeons2.init(Dungeons2.java:180) [Dungeons2.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637) [FMLModContainer.class:?]
-	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
-	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
-	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
-	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535) [bib.class:?]
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-2020-07-29 23:36:46,199 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,202 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,206 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,218 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,221 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,230 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,235 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,237 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,247 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,250 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,253 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,255 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:36:46,256 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,800 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,804 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,807 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,820 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,822 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,825 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,836 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,839 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,842 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,854 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,856 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,858 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,872 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:26,997 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,000 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,004 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,006 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,010 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,013 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,017 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,021 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,023 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,036 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,039 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,042 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,046 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,051 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,063 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,065 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,067 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,070 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,073 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,088 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,090 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,093 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,096 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,098 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,111 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,114 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,117 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,120 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,122 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,133 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,136 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,138 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,141 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,143 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,155 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,159 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,164 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,168 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,172 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,174 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-29 23:37:27,302 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-07-29 23:40:19,513 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-07-29 23:40:19,755 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-07-29 23:40:59,150 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-07-30 13:18:30,568 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,588 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,601 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,611 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,620 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,639 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,642 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,645 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,648 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,651 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,663 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,665 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,667 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,670 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,672 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,683 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,686 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,691 [Client thread] ERROR GottschCore | LootTableManager.java:158 | Couldn't load loot table dungeons2:/loot_tables/dungeons2/items/rare from C:\Users\Adam\Twitch\Minecraft\Instances\MC Eternal (8)\config\dungeons2\dungeons2\loot_tables\dungeons2\items\rare.json
-com.google.gson.JsonSyntaxException: Unknown function 'wizardry:random_spell'
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:86) ~[LootFunctionManager$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.functions.LootFunctionManager$Serializer.deserialize(LootFunctionManager.java:77) ~[LootFunctionManager$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntryItem.deserialize(LootEntryItem.java:117) ~[LootEntryItem.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:93) ~[LootEntry$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootEntry$Serializer.deserialize(LootEntry.java:72) ~[LootEntry$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188174_a(SourceFile:447) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[LootPool$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootPool$Serializer.deserialize(LootPool.java:165) ~[LootPool$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[ArrayTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
-	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
-	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[LootTable$Serializer.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTable$Serializer.deserialize(LootTable.java:199) ~[LootTable$Serializer.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:852) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:801) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:773) ~[Gson.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.loadLootTable(LootTableManager.java:210) ~[LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.loadLootTable(LootTableManager.java:155) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:114) [LootTableManager$Loader.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager$Loader.load(LootTableManager.java:103) [LootTableManager$Loader.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableManager.getLootTableFromLocation(LootTableManager.java:90) [LootTableManager.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.fileSystemHasCurrentVersion(LootTableMaster.java:259) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.exposeLootTable(LootTableMaster.java:200) [LootTableMaster.class:?]
-	at com.someguyssoftware.gottschcore.loot.LootTableMaster.buildAndExpose(LootTableMaster.java:79) [LootTableMaster.class:?]
-	at com.someguyssoftware.dungeons2.loot.DungeonLootTableMaster.<init>(DungeonLootTableMaster.java:74) [DungeonLootTableMaster.class:?]
-	at com.someguyssoftware.dungeons2.Dungeons2.init(Dungeons2.java:180) [Dungeons2.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637) [FMLModContainer.class:?]
-	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
-	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
-	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [guava-21.0.jar:?]
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [guava-21.0.jar:?]
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [guava-21.0.jar:?]
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [guava-21.0.jar:?]
-	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535) [bib.class:?]
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-2020-07-30 13:18:30,696 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,699 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,703 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,719 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,722 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,725 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,730 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,734 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,751 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,756 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,762 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,764 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:18:30,767 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:20,948 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:20,952 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:20,955 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:20,972 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:20,974 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:20,977 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:20,990 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:20,992 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:20,994 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,006 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,009 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,011 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,021 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,152 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,154 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,156 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,159 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,162 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,165 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,169 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,171 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,173 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,186 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,188 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,190 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,193 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,195 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,206 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,209 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,211 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,213 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,216 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,226 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,230 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,233 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,234 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,236 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,248 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,251 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,253 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,254 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,257 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,267 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,270 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,272 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,274 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,276 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,287 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,290 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,294 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,298 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,300 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,302 [Client thread] ERROR GottschCore | LootTableMaster.java:207 | is file system loot table current -> true
-2020-07-30 13:19:21,415 [Client thread] ERROR GottschCore | AbstractResourceManager.java:173 | Unable to locate resource /structures/treasure2/float/
-2020-07-30 13:22:24,924 [Client thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/master/GottschCore1.12.2/update.json
-2020-07-30 13:22:25,057 [Client thread] INFO GottschCore | VersionChecker.java:110 | [dungeons2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Dungeons2/master/Dungeons2-1.12.2/update.json
-2020-07-30 13:23:05,096 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/Treasure2-1.12.2/update.json
-2020-07-30 13:38:15,268 [Server thread] WARN GottschCore | LootTable.java:73 | Tried to over-fill a container
+2021-02-24 19:52:15,472 [Client thread] WARN GottschCore | VersionChecker.java:55 | Bad URL: 
+2021-02-24 19:52:28,026 [Client thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/update.json
+2021-02-24 19:56:36,453 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,454 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,455 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,458 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,459 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,459 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,463 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,463 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,464 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,467 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,468 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,468 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,471 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,475 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,475 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,476 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,476 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,477 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,477 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,478 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,481 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,481 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,482 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,482 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,483 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,483 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,484 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,484 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,485 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,488 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,488 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,489 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,489 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,490 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,493 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,494 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,494 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,494 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,495 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,498 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,499 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,499 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,499 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,500 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,503 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,504 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,504 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,505 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,505 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,509 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,510 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,510 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,511 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,511 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,515 [Server thread] ERROR GottschCore | LootTableMaster2.java:252 | is file system (config) loot table current -> true
+2021-02-24 19:56:36,516 [Server thread] ERROR GottschCore | LootTableMaster2.java:432 | Unable to locate resource /loot_tables/treasure2/inject/uncommon/
+2021-02-24 19:56:36,517 [Server thread] ERROR GottschCore | LootTableMaster2.java:432 | Unable to locate resource /loot_tables/treasure2/inject/scarce/
+2021-02-24 19:56:36,517 [Server thread] ERROR GottschCore | LootTableMaster2.java:432 | Unable to locate resource /loot_tables/treasure2/inject/rare/
+2021-02-24 19:56:36,518 [Server thread] ERROR GottschCore | LootTableMaster2.java:432 | Unable to locate resource /loot_tables/treasure2/inject/epic/

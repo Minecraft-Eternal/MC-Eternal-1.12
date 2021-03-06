@@ -1,0 +1,38 @@
+## INTRODUCTION
+# This is a book properties file. Note that all the values here are the defaults.
+# You only need to include non-default properties in your files.
+# All collections and books (both inside and outside of collections) can have properties files!
+# Properties all follow this pattern, one per line:
+<property>=<value>
+# Do not use excessive text! All the unneeded text in this file is for instruction only!
+
+## UNIVERSAL PROPERTIES
+# These properties apply to all collections and books.
+# Excluding weight, a collection's universal properties simply act as default properties for the books inside of them.
+
+# the relative weight for a book to be dropped - the higher this is, the higher chance it has to be dropped
+# on a collection, this is the relative weight for any book from the collection to be dropped
+# books and collections inside of a collection are only weighed against books and collections in the same collection
+weight=100
+
+# comma separated list of entities that can drop this book
+# any entites that extend entities on this list will also be able to drop the book
+# (e.g., entity_list = Creeper,Player)
+whitelist=Default
+
+# comma separated list of entities that can NOT drop this book
+# only the exact entities will be excluded
+blacklist=
+
+# if this is false, this book will not be sold by a librarian villager.
+# if villager trading is disabled for the category of the book this is in, it will have no effect
+can_buy=true
+
+## COLLECTION PROPERTIES
+# These properties only apply to collections.
+
+# if this is false, the books in this collection may drop in any order
+# only applies to unique collections
+# otherwise, the books will drop in order only if their file names follow the pattern (1.book, 2.book, etc.)
+# currently, this is permanently false
+in_order=true

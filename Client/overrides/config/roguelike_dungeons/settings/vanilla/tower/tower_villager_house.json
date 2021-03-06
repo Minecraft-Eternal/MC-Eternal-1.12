@@ -1,0 +1,9 @@
+{
+  "name": "tower:villager_house",
+  "tower": {
+    "type": "VILLAGER_HOUSE",
+    "theme": {
+      "base": "OAK"
+    }
+  }
+}

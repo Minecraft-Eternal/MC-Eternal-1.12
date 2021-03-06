@@ -563,6 +563,9 @@
 	{
 		item: {
 			ForgeCaps: {
+				Parent: {
+					explosive: {}
+				},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "icbmclassic:missile",

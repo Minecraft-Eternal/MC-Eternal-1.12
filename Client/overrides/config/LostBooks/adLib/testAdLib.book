@@ -1,0 +1,59 @@
+variable = random;
+capitalVar = c.random;
+Ad Lib Test
+@c.noun.name;
+vars (and random):
+@variable; ^ @c.variable;
+@capitalVar; ^ @c.capitalVar;
+
+a(n):
+#a; eagle ... #a; man
+
+custom words:
+adj = @adjective;
+adv = @adverb;
+ex! = @exclaimation;
+n = @noun;
+n pl = @noun.plural;
+body part = @noun.bodypart;
+body part pl = @noun.bodypart.plural;
+name = @noun.name;
+living = @noun.living;
+living pl = @noun.living.plural;
+object = @noun.object;
+object pl = @noun.object.plural;
+place = @noun.place;
+place pl = @noun.place.plural;
+pro = @noun.pronoun;
+pro p = @noun.pronoun.possessive;
+v = @verb;
+v past = @verb.past;
+v present = @verb.present;
+
+special words:
+num (1-9) = @random.number;
+num (0-9) = @random.digit;
+3-digit num = @random.number;@random.digit;@random.digit;
+letter = @random.letter;
+color = @random.color;Minecraft§0
+color (rdble) = @random.color.readable;Minecraft§0
+format = @random.format;Minecraft§0
+format (rdble) = @random.format.readable;Minecraft§0
+dropping entity = @entity;
+random entity = @entity.random;
+nearest entity = @entity.nearest;
+next nearest ent = @entity.nearest.other;
+random player = @player.random;
+nearest player = @player.nearest;
+next nearest plr = @player.nearest.other;
+random living = @creature.random;
+nearest living = @creature.nearest;
+next nearest lvg = @creature.nearest.other;
+random enemy = @monster.random;
+nearest enemy = @monster.nearest;
+next nearest nmy = @monster.nearest.other;
+random passive = @animal.random;
+nearest passive = @animal.nearest;
+next nearest psv = @animal.nearest.other;
+world = @world;
+dimension = @world.dimension;

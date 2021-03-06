@@ -1,0 +1,9 @@
+{
+  "name" : "segments:traps_more",
+  "segments" : [
+    {"level": [0,2,4], "type" : "ARROW", "weight" : 10},
+    {"level": [1,3],   "type" : "ARROW", "weight" : 20},
+    {"level": [0,2,4], "type" : "SILVERFISH", "weight" : 20},
+    {"level": [1,3],   "type" : "SILVERFISH", "weight" : 10}
+  ]
+}

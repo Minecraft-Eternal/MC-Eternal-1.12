@@ -1,32 +1,32 @@
 [
   {
-    "content": "minecraft:gold_nugget",
-    "unitWorth": 100,
+    "content": "minecraft:emerald",
+    "unitWorth": 50,
     "weight": 100
   },
   {
     "content": "minecraft:gold_ingot",
-    "unitWorth": 900,
+    "unitWorth": 70,
     "weight": 100
   },
   {
-    "content": "minecraft:diamond",
+    "content": "iceandfire:ice_dragon_blood",
     "unitWorth": 2400,
     "weight": 10
   },
   {
-    "content": "minecraft:iron_sword",
-    "unitWorth": 750,
+    "content": "atum:iron_greatsword",
+    "unitWorth": 350,
     "weight": 5,
-    "nbt_data": "{display:{Lore:[\"Sharper than Usual.\"]},ench:[{id:16,lvl:1}]}",
+    "nbt_data": "{display:{Lore:[\"Discovered by a Villager in the Desert, this blade likes to whisper to its user\"]},ench:[{id:16,lvl:4}]}",
     "amount": {
       "min": 1,
       "max": 1
     }
   },
   {
-    "content": "minecraft:leather_helmet",
-    "unitWorth": 500,
+    "content": "iceologer:ice_wand",
+    "unitWorth": 2000,
     "weight": 5,
     "amount": {
       "min": 1,
@@ -34,7 +34,7 @@
     }
   },
   {
-    "content": "minecraft:leather_boots",
+    "content": "yoyos:diamond_yoyo",
     "unitWorth": 450,
     "weight": 5,
     "amount": {
@@ -43,8 +43,8 @@
     }
   },
   {
-    "content": "minecraft:iron_chestplate",
-    "unitWorth": 1800,
+    "content": "ebwizardry:advanced_necromancy_wand",
+    "unitWorth": 1300,
     "weight": 5,
     "amount": {
       "min": 1,
@@ -52,7 +52,7 @@
     }
   },
   {
-    "content": "minecraft:golden_chestplate",
+    "content": "botania:laputashard",
     "unitWorth": 1200,
     "weight": 5,
     "amount": {
@@ -61,10 +61,10 @@
     }
   },
   {
-    "content": "minecraft:bow",
-    "unitWorth": 1300,
+    "content": "atum:short_bow",
+    "unitWorth": 1100,
     "weight": 10,
-    "nbt_data": "{ench:[{id:48,lvl:2}]}",
+    "nbt_data": "{ench:[{id:48,lvl:4}]}",
     "amount": {
       "min": 1,
       "max": 1

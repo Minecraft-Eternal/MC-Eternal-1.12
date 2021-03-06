@@ -18,15 +18,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "1251fbfd",
-		type: "item",
-		title: "200 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_big",
-			tag: {
-				value: 200L
-			}
-		}
+		uid: "f8cdaa3f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

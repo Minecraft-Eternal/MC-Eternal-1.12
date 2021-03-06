@@ -1,0 +1,2 @@
+can_buy=false
+biomes=2,17,130,37,165

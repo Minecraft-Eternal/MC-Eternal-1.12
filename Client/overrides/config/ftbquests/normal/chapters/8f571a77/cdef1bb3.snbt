@@ -1,7 +1,7 @@
 {
 	x: -5.0d,
 	y: -5.0d,
-	description: "Mining",
+	description: "Mining `",
 	text: [
 		"*Unlocked after completing the Legendary Artifacts chapter*"
 	],
@@ -18,15 +18,8 @@
 		count: 32L
 	}],
 	rewards: [{
-		uid: "dc5bf83d",
-		type: "item",
-		title: "1000 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_big",
-			tag: {
-				value: 1000L
-			}
-		}
+		uid: "11d96ba4",
+		type: "ftbmoney:money",
+		ftb_money: 150L
 	}]
 }

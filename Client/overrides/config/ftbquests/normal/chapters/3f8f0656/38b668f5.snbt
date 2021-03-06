@@ -17,7 +17,8 @@
 			},
 			Damage: 5s
 		}],
-		consume_items: false
+		consume_items: false,
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "f5b13cec",

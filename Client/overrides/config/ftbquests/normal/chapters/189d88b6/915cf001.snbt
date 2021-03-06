@@ -31,8 +31,16 @@
 		table: 1
 	},
 	{
-		uid: "412e2e84",
+		uid: "9ca046ca",
 		type: "item",
-		item: "bibliocraft:bookcase 1 5"
+		item: {
+			id: "ancientspellcraft:ancient_spellcraft_scroll",
+			tag: {
+				display: {
+					Name: "Scroll of Ant Swarm"
+				}
+			},
+			Damage: 252s
+		}
 	}]
 }

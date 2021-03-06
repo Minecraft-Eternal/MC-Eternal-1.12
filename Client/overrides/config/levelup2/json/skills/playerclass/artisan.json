@@ -1,6 +1,8 @@
 {
   "name": "levelup:artisan",
   "bonus": "levelup:craft_bonus",
+  "localized_name": "Artisan",
+  "description": "More efficient furnaces and brewing",
   "skills": [
     {
       "name": "levelup:furnacespeed",

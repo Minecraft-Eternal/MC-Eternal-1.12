@@ -1,7 +1,7 @@
 {
 	x: 1.0d,
 	y: -2.0d,
-	description: "Cheesemaker",
+	description: "Cheesemaker `",
 	can_repeat: true,
 	tasks: [{
 		uid: "69dff4a8",
@@ -12,15 +12,8 @@
 		count: 32L
 	}],
 	rewards: [{
-		uid: "03e8ffae",
-		type: "item",
-		title: "50 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_small",
-			tag: {
-				value: 50L
-			}
-		}
+		uid: "b4649aaf",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

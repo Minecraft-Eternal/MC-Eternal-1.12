@@ -1,0 +1,10 @@
+{
+  "name" : "dungeon:grassland_builtin_no_loot",
+  "exclusive": false,
+  "inherit" : [
+    "builtin:grassland"
+  ],
+  "overrides": [
+    "LOOTRULES"
+  ]
+}

@@ -6,6 +6,9 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				Parent: {
+					effectiveMaxDamage: 5
+				},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "treasure2:sapphire_key"

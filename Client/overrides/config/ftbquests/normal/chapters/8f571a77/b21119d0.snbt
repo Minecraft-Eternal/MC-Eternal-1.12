@@ -1,7 +1,7 @@
 {
 	x: -7.5d,
 	y: 1.0d,
-	description: "Block",
+	description: "Block `",
 	can_repeat: true,
 	tasks: [{
 		uid: "50f9c354",
@@ -12,15 +12,8 @@
 		count: 64L
 	}],
 	rewards: [{
-		uid: "cf599338",
-		type: "item",
-		title: "1 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_small",
-			tag: {
-				value: 1L
-			}
-		}
+		uid: "91d2b473",
+		type: "ftbmoney:money",
+		ftb_money: 1L
 	}]
 }

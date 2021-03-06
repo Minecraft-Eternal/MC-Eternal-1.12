@@ -4,8 +4,9 @@
 	y: 1.5d,
 	shape: "diamond",
 	description: "&eThe Moon is mine! Muahah!",
+	hide_dependency_lines: true,
 	dependencies: [
-		"92b211dd"
+		"935cd7e4"
 	],
 	size: 0.5d,
 	optional: true,
@@ -33,10 +34,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"§aThree things are certain in life: death, taxes and opening a bad chancecube",
-						"§e(§R§eRare Moon Artifact)"
+						"ï¿½aThree things are certain in life: death, taxes and opening a bad chancecube",
+						"ï¿½e(ï¿½Rï¿½eRare Moon Artifact)"
 					],
-					Name: "§9God-King's Grace, Breath of Life"
+					Name: "ï¿½9God-King's Grace, Breath of Life"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -63,10 +64,10 @@
 				}],
 				display: {
 					Lore: [
-						"§eBlessed by the Rat King himself",
-						"§eI wouldn't suggest eating this.."
+						"ï¿½eBlessed by the Rat King himself",
+						"ï¿½eI wouldn't suggest eating this.."
 					],
-					Name: "§lThe §6§lHoly Cheese"
+					Name: "ï¿½lThe ï¿½6ï¿½lHoly Cheese"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
