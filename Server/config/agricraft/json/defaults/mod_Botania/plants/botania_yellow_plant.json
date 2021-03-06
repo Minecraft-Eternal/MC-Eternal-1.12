@@ -1,5 +1,5 @@
 {
-  "path": "mod_Botania/plants/botania_yellow_plant.json",
+  "path": "mod_botania/plants/botania_yellow_plant.json",
   "enabled": true,
   "id": "botania:yellow_flower_plant",
   "plant_name": "Mystical Yellow Flower",

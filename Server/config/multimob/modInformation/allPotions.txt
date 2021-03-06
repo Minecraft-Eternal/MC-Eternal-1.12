@@ -146,6 +146,8 @@ bewitchment:frozen
 bewitchment:poison_resist
 rats:synesthesia
 rats:plague
+tfspellpack:mist_cloak
+tfspellpack:ironwood_heart
 totemic:bat
 totemic:spider
 vampirism:thirst
@@ -156,6 +158,7 @@ vampirism:fire_protection
 vampirism:disguise_as_vampire
 vampirism:garlic
 vampirism:poison
+vampirism:freeze
 midnight:stunned
 midnight:pollinated
 midnight:dragon_guard
@@ -163,6 +166,11 @@ midnight:darkness
 midnight:tormented
 midnight:unstable_fall
 midnight:confusion
+astralsorcery:potioncheatdeath
+astralsorcery:potionbleed
+astralsorcery:potionspellplague
+astralsorcery:potiondropmodifier
+astralsorcery:potiontimefreeze
 charm:coffee
 charm:decay
 charm:ender_sight

@@ -84,10 +84,10 @@ randomthings:magnetic
 endercore:xpboost
 endercore:autosmelt
 enderio:shimmer
-enderio:repellent
-enderio:witherarrow
 enderio:witherweapon
+enderio:witherarrow
 enderio:soulbound
+enderio:repellent
 tombstone:shadow_step
 tombstone:soulbound
 tombstone:magic_siphon
@@ -114,6 +114,8 @@ cofhcore:smashing
 cofhcore:smelting
 cofhcore:soulbound
 cofhcore:vorpal
+astralsorcery:enchantment.as.nightvision
+astralsorcery:enchantment.as.smelting
 charm:curse_break
 charm:rusting_curse
 charm:clumsiness_curse

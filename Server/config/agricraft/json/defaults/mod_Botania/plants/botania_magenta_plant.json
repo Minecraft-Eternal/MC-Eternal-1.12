@@ -1,5 +1,5 @@
 {
-  "path": "mod_Botania/plants/botania_magenta_plant.json",
+  "path": "mod_botania/plants/botania_magenta_plant.json",
   "enabled": true,
   "id": "botania:magenta_flower_plant",
   "plant_name": "Mystical Magenta Flower",

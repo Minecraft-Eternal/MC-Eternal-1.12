@@ -1,5 +1,5 @@
 {
-  "path": "mod_Botania/plants/botania_orange_plant.json",
+  "path": "mod_botania/plants/botania_orange_plant.json",
   "enabled": true,
   "id": "botania:orange_flower_plant",
   "plant_name": "Mystical Orange Flower",

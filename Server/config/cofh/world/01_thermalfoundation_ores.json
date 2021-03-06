@@ -152,23 +152,23 @@
 			}
 		},
 		"platinum": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
 					{
-						"name": "thermalfoundation:ore",
+						"name": "minecraft:diamond_ore",
 						"properties": {
-							"type": "platinum"
+							"type": ""
 						},
 						"weight": 40
 					},
 					{
-						"name": "thermalfoundation:ore",
+						"name": "minecraft:emerald_ore",
 						"properties": {
 							"type": "nickel"
 						},
-						"weight": 60
+						"weight": 80
 					}
 				],
 				"material": "minecraft:stone",
@@ -183,18 +183,18 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					10
 				]
 			}
 		},
 		"aluminum": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "thermalfoundation:ore",
+					"name": "minecraft:gold_ore",
 					"properties": {
-						"type": "aluminum"
+						"type": ""
 					}
 				},
 				"material": "minecraft:stone",
@@ -209,7 +209,7 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					10
 				]
 			}
 		},

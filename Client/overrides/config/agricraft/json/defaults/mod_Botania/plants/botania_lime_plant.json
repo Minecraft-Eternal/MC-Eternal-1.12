@@ -1,5 +1,5 @@
 {
-  "path": "mod_Botania/plants/botania_lime_plant.json",
+  "path": "mod_botania/plants/botania_lime_plant.json",
   "enabled": true,
   "id": "botania:lime_flower_plant",
   "plant_name": "Mystical Lime Flower",

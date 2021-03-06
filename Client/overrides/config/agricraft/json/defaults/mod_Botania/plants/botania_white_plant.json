@@ -1,5 +1,5 @@
 {
-  "path": "mod_Botania/plants/botania_white_plant.json",
+  "path": "mod_botania/plants/botania_white_plant.json",
   "enabled": true,
   "id": "botania:white_flower_plant",
   "plant_name": "Mystical White Flower",

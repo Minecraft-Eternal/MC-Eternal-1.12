@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<mysticalagriculture:iron_seeds>);
 recipes.remove(<mysticalagriculture:diamond_seeds>);
 recipes.remove(<mysticalagriculture:diamond_seeds>);
 recipes.remove(<mysticalagriculture:diamond_seeds>);
@@ -187,6 +188,8 @@ recipes.addShapeless(<icbmclassic:explosives:23>, [<ore:compressed8xCobblestone>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<mowziesmobs:earth_talisman>, [[<minecraft:ender_eye>, <minecraft:dragon_egg>, <ore:pearlEnderEye>], [<extrautils2:decorativesolidwood:1>, <tconstruct:materials:50>, <extrautils2:decorativesolidwood:1>], [<minecraft:ender_eye>, <iceandfire:cyclops_eye>, <minecraft:ender_eye>]]);
+recipes.addShaped(<mysticalagriculture:iron_seeds>, [[<minecraft:iron_ingot>, <ore:essenceSupremium>, <minecraft:iron_ingot>], [<ore:essenceSupremium>, <mysticalagriculture:crafting:21>, <mysticalagriculture:crafting:4>], [<minecraft:iron_ingot>, <mysticalagriculture:crafting:4>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<techreborn:grinder>, [[<techreborn:cable:4>, <techreborn:iron_furnace>, <techreborn:cable:4>], [<minecraft:flint>, <techreborn:part:40>, <minecraft:flint>]]);
 recipes.addShaped(<chancecubes:chance_cube>, [[<ore:blockLapis>, <minecraft:lapis_block>, <minecraft:lapis_block>], [<minecraft:lapis_block>, <ore:netherStar>, <ore:blockLapis>], [<minecraft:lapis_block>, <minecraft:lapis_block>, <ore:blockLapis>]]);
 recipes.addShaped(<extrautils2:angelring:4>, [[<extrautils2:angelblock>, <extrautils2:angelring>]]);

@@ -5,16 +5,16 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"entryName": "tnt",
+					"entryName": "spell",
 					"type": "item",
-					"name": "minecraft:tnt",
+					"name": "wizardry:spell_book",
 					"weight": 35,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "wizardry:random_spell",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 1,
+								"max": 3
 							}
 						}
 					]						

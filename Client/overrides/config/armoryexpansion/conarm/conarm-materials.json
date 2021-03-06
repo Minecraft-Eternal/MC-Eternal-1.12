@@ -530,7 +530,7 @@
   {
     "coreMaterialStats": {
       "durability": 36.0,
-      "defense": 27.0,
+      "defense": 4.0,
       "materialType": "core"
     },
     "platesMaterialStats": {
@@ -743,6 +743,28 @@
     },
     "identifier": "yellowgarnet",
     "color": -658149,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 11.0,
+      "defense": 13.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.052631,
+      "modifier": 13.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.052631,
+      "materialType": "trim"
+    },
+    "identifier": "mod_lavacow.vespa_carapace",
+    "color": -8003052,
     "type": "METAL",
     "castable": false,
     "craftable": true
@@ -1145,6 +1167,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 4.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 27.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "mod_lavacow.scythe_claw",
+    "color": -10330530,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 42.0,
       "defense": 22.5,
       "materialType": "core"
@@ -1250,7 +1294,7 @@
     "identifier": "electrumflux",
     "color": -2709,
     "type": "METAL",
-    "castable": true,
+    "castable": false,
     "craftable": false
   },
   {
@@ -1630,7 +1674,7 @@
   {
     "coreMaterialStats": {
       "durability": 35.0,
-      "defense": 24.3,
+      "defense": 7.3,
       "materialType": "core"
     },
     "platesMaterialStats": {
@@ -2399,18 +2443,18 @@
   },
   {
     "coreMaterialStats": {
-      "durability": 52.0,
-      "defense": 21.600002,
+      "durability": 5.0,
+      "defense": 0.600002,
       "materialType": "core"
     },
     "platesMaterialStats": {
       "durability": 11.2,
-      "modifier": 21.600002,
+      "modifier": 0.600002,
       "toughness": 0.0,
       "materialType": "plates"
     },
     "trimMaterialStats": {
-      "extraDurability": 11.2,
+      "extraDurability": 0.0,
       "materialType": "trim"
     },
     "identifier": "valyrium",
@@ -2576,12 +2620,12 @@
   {
     "coreMaterialStats": {
       "durability": 89.0,
-      "defense": 44.775,
+      "defense": 8.775,
       "materialType": "core"
     },
     "platesMaterialStats": {
       "durability": 22.4,
-      "modifier": 44.775,
+      "modifier": 8.775,
       "toughness": 0.0,
       "materialType": "plates"
     },
@@ -2861,6 +2905,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 18.0,
+      "defense": 24.750002,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.652632,
+      "modifier": 24.750002,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.652632,
+      "materialType": "trim"
+    },
+    "identifier": "mod_lavacow.moltenbeef",
+    "color": -43989,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 42.0,
       "defense": 27.0,
       "materialType": "core"
@@ -2949,13 +3015,13 @@
   },
   {
     "coreMaterialStats": {
-      "durability": 32.0,
+      "durability": 8.0,
       "defense": 27.9,
       "materialType": "core"
     },
     "platesMaterialStats": {
       "durability": 8.4,
-      "modifier": 27.9,
+      "modifier": 8.9,
       "toughness": 0.0,
       "materialType": "plates"
     },
@@ -3104,7 +3170,7 @@
   {
     "coreMaterialStats": {
       "durability": 32.0,
-      "defense": 20.25,
+      "defense": 4.25,
       "materialType": "core"
     },
     "platesMaterialStats": {
