@@ -204,6 +204,7 @@
   "tom_and_jerry_armor",
   "hearts",
   "superheat",
+  "weee",
   "magical_modifier",
   "invigorating_armor",
   "duritos",

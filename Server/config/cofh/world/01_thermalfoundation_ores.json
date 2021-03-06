@@ -2,7 +2,7 @@
 	"dependencies": "thermalfoundation",
 	"populate": {
 		"copper": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -28,7 +28,7 @@
 			}
 		},
 		"tin": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -54,7 +54,7 @@
 			}
 		},
 		"silver": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -206,15 +206,15 @@
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
+					-8,
 					10
 				]
 			}
 		},
 		"iridium": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [

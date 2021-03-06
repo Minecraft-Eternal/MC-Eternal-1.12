@@ -1,13 +1,13 @@
 [
   {
     "dimension": 10,
-    "mob": "thebetweenlands:sludge",
-    "block": "minecraft:gravel",
+    "mob": "thesummoner:summoner",
+    "block": "iceandfire:dragon_bone_block",
     "result": "allow"
   },
   {
     "dimension": 10,
-    "mob": "thebetweenlands:sludge",
-    "result": "allow"
+    "mob": "thesummoner:summoner",
+    "result": "false"
   }
 ]
