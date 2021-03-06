@@ -1,0 +1,18 @@
+{
+	"name" : "drm3:main",
+	"exclusive" : true,
+	"criteria" : {
+		"biomeTypes" : [
+			"PLAINS"
+		]
+	},
+	"inherit" : [
+		"drm3:tower",
+		"drm3:layout",
+		"drm3:rooms",
+		"drm3:segments",
+		"drm3:theme",
+		"builtin:loot",
+		"drm3:filters"
+	]
+}

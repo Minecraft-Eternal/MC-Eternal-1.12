@@ -1,0 +1,14 @@
+[
+  {
+    "dimension": 10,
+    "block": "minecraft:granite",
+    "mobs": [
+      {
+        "mob": "twilightforest:redcap_sapper",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  }
+]
