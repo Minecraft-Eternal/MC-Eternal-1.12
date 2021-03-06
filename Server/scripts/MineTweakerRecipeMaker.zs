@@ -187,6 +187,7 @@ recipes.addShapeless(<icbmclassic:explosives:23>, [<ore:compressed8xCobblestone>
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<techreborn:grinder>, [[<techreborn:cable:4>, <techreborn:iron_furnace>, <techreborn:cable:4>], [<minecraft:flint>, <techreborn:part:40>, <minecraft:flint>]]);
 recipes.addShaped(<chancecubes:chance_cube>, [[<ore:blockLapis>, <minecraft:lapis_block>, <minecraft:lapis_block>], [<minecraft:lapis_block>, <ore:netherStar>, <ore:blockLapis>], [<minecraft:lapis_block>, <minecraft:lapis_block>, <ore:blockLapis>]]);
 recipes.addShaped(<extrautils2:angelring:4>, [[<extrautils2:angelblock>, <extrautils2:angelring>]]);
 recipes.addShaped(<extrautils2:angelring:1>, [[<mekanism:crystal:2>, <extrautils2:angelring>]]);

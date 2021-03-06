@@ -3,7 +3,7 @@
     {
         "title":
         {
-            "image" : "assets:eternal2.png",
+            "image" : "assets:image2.png",
             "posX" : -137,
             "posY" : 20,
             "width" : 275,
@@ -28,7 +28,7 @@
         {
             "text" : "menu.singleplayer",
             "posX" : -100,
-            "posY" : 48,
+            "posY" : 38,
             "width" : 200,
             "height" : 20,
             "action" : 
@@ -42,7 +42,7 @@
         {
             "text" : "menu.multiplayer",
             "posX" : -100,
-            "posY" : 72,
+            "posY" : 62,
             "width" : 200,
             "height" : 20,
             "action" : 
@@ -56,7 +56,7 @@
         {
             "text" : "fml.menu.mods",
             "posX" : -100,
-            "posY" : 96,
+            "posY" : 86,
             "width" : 200,
             "height" : 20,
             "action" : 
@@ -80,6 +80,23 @@
             }
         },
         
+		"Bisect":
+        {
+            "text" : "Want a server? Use code Eternal",
+			"normalTextColor" : 3125670,
+			"hoverTextColor" : 7654321,
+            "posX" : -90,
+            "posY" : 109,
+            "width" : 177,
+            "height" : 20,
+			"alignment":"button",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://bisecthosting.com/eternal"
+            }
+		},	
+		
         "quit":
         {
             "text" : "menu.quit",
@@ -127,7 +144,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "hoverText" : "Â§nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,

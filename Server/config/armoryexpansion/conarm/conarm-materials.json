@@ -749,6 +749,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 70.0,
+      "defense": 45.000004,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 55.26316,
+      "modifier": 45.000004,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 55.26316,
+      "materialType": "trim"
+    },
+    "identifier": "weezer",
+    "color": -16733470,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 3.0,
       "defense": 49.950005,
       "materialType": "core"
