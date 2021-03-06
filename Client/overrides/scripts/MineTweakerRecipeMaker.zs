@@ -12,16 +12,18 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<techreborn:grinder>);
+recipes.remove(<actuallyadditions:block_grinder>);
+recipes.remove(<actuallyadditions:block_grinder>);
+recipes.remove(<extrautils2:teleporter:1>);
+recipes.remove(<dungeontactics:iron_ring>);
+recipes.remove(<inventorypets:nugget_coal>);
+recipes.remove(<jaopca:item_nuggetcoal>);
+recipes.remove(<ghostsexplosives:dust_charcoal>);
 recipes.remove(<powersuits:tinkertable>);
 recipes.remove(<powersuits:tinkertable>);
 recipes.remove(<powersuits:tinkertable>);
 recipes.remove(<powersuits:tinkertable>);
-recipes.remove(<mystcraft:writingdesk>);
-recipes.remove(<mystcraft:writingdesk>);
-recipes.remove(<mystcraft:writingdesk>);
-recipes.remove(<mystcraft:blockinkmixer>);
-recipes.remove(<mystcraft:writingdesk>);
-recipes.remove(<mystcraft:writingdesk>);
 recipes.remove(<icbmclassic:explosives:22>);
 recipes.remove(<icbmclassic:explosives:22>);
 recipes.remove(<icbmclassic:explosives:23>);
@@ -85,9 +87,12 @@ recipes.remove(<powersuits:power_fist>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
+recipes.removeShapeless(<jaopca:item_nuggetcoal> * 9, [<minecraft:coal>]);
+recipes.removeShapeless(<inventorypets:nugget_coal> * 8, [<minecraft:coal>]);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<ghostsexplosives:dust_charcoal> * 2, [[<ore:itemCharcoal>]]);
 recipes.removeShaped(<icbmclassic:launcherbase:1>, [[<mekanism:ingot>, <techreborn:cable:6>, <mekanism:ingot>], [<mekanism:ingot>, <icbmclassic:launcherbase>, <mekanism:ingot>], [<mekanism:ingot>, <techreborn:lapotroncrystal>, <mekanism:ingot>]]);
 recipes.removeShaped(<icbmclassic:launcherbase:1>, [[<mekanism:ingot>, <techreborn:cable:6>, <mekanism:ingot>], [<mekanism:ingot>, <icbmclassic:launcherbase>, <mekanism:ingot>], [<mekanism:ingot>, <techreborn:lapotroncrystal>, <mekanism:ingot>]]);
 recipes.removeShaped(<powersuits:powerarmor_torso>, [[<techreborn:plates:36>, null, <techreborn:plates:36>], [<techreborn:plates:38>, <mekanismtools:osmiumchestplate>, <techreborn:plates:38>], [<techreborn:plates:36>, <techreborn:part:43>, <techreborn:plates:36>]]);
@@ -101,17 +106,20 @@ recipes.removeShaped(<powersuits:powerarmor_torso>, [[<techreborn:plates:36>, nu
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<inventorypets:nugget_coal> * 8, [<immersiveengineering:tool>, <ore:itemCoal>]);
+recipes.addShapeless(<ghostsexplosives:dust_charcoal> * 2, [<ore:toolMortarandpestle>, <ore:itemCharcoal>]);
 recipes.addShapeless(<icbmclassic:explosives:23>, [<ore:compressed8xCobblestone>, <ore:compressed8xCobblestone>, <ore:compressed8xCobblestone>, <ore:compressed8xCobblestone>, <tconstruct:shard>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>]);
-recipes.addShapeless [<mekanism:controlcircuit:3>]);
+
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<dungeontactics:iron_ring>, [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<minecraft:iron_nugget>, null, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
 recipes.addShaped(<powersuits:tinkertable>, [[<ore:ingotKnightmetal>, <rats:arcane_technology>, <ore:ingotKnightmetal>], [<enderio:item_alloy_ingot>, <twilightforest:knightmetal_ingot>, <ore:ingotElectricalSteel>], [<ore:ingotElectricalSteel>, <ore:ingotKnightmetal>, <ore:ingotElectricalSteel>]]);
-recipes.addShaped(<mystcraft:writingdesk>, [[null, <minecraft:carpet:14>, null], [<minecraft:bookshelf>, <ore:netherStar>, <minecraft:bookshelf>], [<ore:bookshelf>, <minecraft:log>, <ore:bookshelf>]]);
+//recipes.addShaped(<mystcraft:writingdesk>, [[null, <minecraft:carpet:14>, null], [<minecraft:bookshelf>, <ore:netherStar>, <minecraft:bookshelf>], [<ore:bookshelf>, <minecraft:log>, <ore:bookshelf>]]);
 recipes.addShaped(<techreborn:chunk_loader>, [[<techreborn:part:5>, <ore:enderpearl>, <techreborn:part:5>], [<mekanism:ingot>, <techreborn:part:41>, <ore:ingotRefinedObsidian>], [<ore:lapotronCrystal>, <techreborn:plates:32>, <ore:lapotronCrystal>]]);
-recipes.addShaped(<mystcraft:blockinkmixer>, [[<minecraft:carpet:15>, null, null], [<minecraft:stone>, <minecraft:nether_star>, <minecraft:stone>], [<minecraft:stone>, null, <minecraft:stone>]]);
-recipes.addShaped(<mystcraft:writingdesk>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <minecraft:dragon_egg>, <ore:plankWood>]]);
-recipes.addShaped(<techreborn:ingot:14>;
+//recipes.addShaped(<mystcraft:blockinkmixer>, [[<minecraft:carpet:15>, null, null], [<minecraft:stone>, <minecraft:nether_star>, <minecraft:stone>], [<minecraft:stone>, null, <minecraft:stone>]]);
+//recipes.addShaped(<mystcraft:writingdesk>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <minecraft:dragon_egg>, <ore:plankWood>]]);
+//recipes.addShaped(<techreborn:ingot:14>;
 recipes.addShaped(<icbmclassic:explosives:22>, [[<techreborn:ingot:25>, <techreborn:plates:38>, <techreborn:ingot:25>], [<extrautils2:compressedcobblestone:7>, <icbmclassic:explosives:15>, <extrautils2:compressedcobblestone:7>], [<techreborn:ingot:25>, <minecraft:bedrock>, <techreborn:ingot:25>]]);
 recipes.addShaped(<icbmclassic:explosives:23>, [[<extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>], [<extrautils2:compressedcobblestone:7>, <icbmclassic:explosives:15>, <extrautils2:compressedcobblestone:7>], [<extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>]]);
 recipes.addShaped(<icbmclassic:launcherbase:1>, [[<mekanism:ingot>, <techreborn:cable:6>, <mekanism:ingot>], [<mekanism:ingot>, <icbmclassic:launcherbase>, <mekanism:ingot>], [<mekanism:ingot>, <techreborn:lapotroncrystal>, <mekanism:ingot>]]);

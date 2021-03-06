@@ -61,7 +61,6 @@ quark:danger_sight
 quark:long_danger_sight
 mowziesmobs:poison_resist
 mowziesmobs:long_poison_resist
-tektopia:village_bless
 treasure2:extra_strong_healing
 treasure2:extra_strong_leaping
 treasure2:extra_strong_poison
@@ -136,6 +135,9 @@ cofhcore:unluck2+
 cofhcore:unluck3+
 cofhcore:wither2+
 cofhcore:wither3+
+charm:coffee
+charm:decay
+charm:ender_sight
 cyclicmagic:ender
 cyclicmagic:snow
 cyclicmagic:butter

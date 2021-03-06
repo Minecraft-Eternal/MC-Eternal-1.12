@@ -121,7 +121,6 @@ bewitchment:frozen
 bewitchment:poison_resist
 rats:synesthesia
 rats:plague
-tektopia:village_bless
 tombstone:ghostly_shape
 tombstone:preservation
 tombstone:unstable_intangibleness
@@ -140,6 +139,9 @@ midnight:darkness
 midnight:tormented
 midnight:unstable_fall
 midnight:confusion
+charm:coffee
+charm:decay
+charm:ender_sight
 cyclicmagic:potion.magnet
 cyclicmagic:potion.ender
 cyclicmagic:potion.waterwalk
