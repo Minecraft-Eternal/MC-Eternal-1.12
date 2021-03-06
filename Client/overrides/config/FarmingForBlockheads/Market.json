@@ -11,7 +11,8 @@
     "Pams Harvestcraft Seeds": true,
     "BiomesOPlenty Saplings": true,
     "BiomesOPlenty Sacred Oak Sapling": false,
-    "AgriCraft Seeds": false
+    "AgriCraft Seeds": false,
+    "Forestry Saplings": false
   },
   "defaults payment": {
     "__comment": "You can define custom payment items for the default entries here.",
@@ -25,7 +26,8 @@
     "Pams Harvestcraft Seeds": "1*minecraft:emerald:0",
     "BiomesOPlenty Saplings": "1*minecraft:emerald:0",
     "BiomesOPlenty Sacred Oak Sapling": "1*minecraft:emerald:8",
-    "AgriCraft Seeds": "2*minecraft:emerald:0"
+    "AgriCraft Seeds": "2*minecraft:emerald:0",
+    "Forestry Saplings": "2*minecraft:emerald:0"
   },
   "defaults amount": {
     "__comment": "You can define custom amounts for the default entries here.",
@@ -39,7 +41,8 @@
     "Pams Harvestcraft Seeds": 1,
     "BiomesOPlenty Saplings": 1,
     "BiomesOPlenty Sacred Oak Sapling": 1,
-    "AgriCraft Seeds": 1
+    "AgriCraft Seeds": 1,
+    "Forestry Saplings": 1
   },
   "defaults blacklist": [
     "examplemod:example_item"

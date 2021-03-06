@@ -135,6 +135,9 @@ biomesoplenty:undergarden
 biomesoplenty:visceral_heap
 randomthings:spectral
 appliedenergistics2:storage_biome
+thaumcraft:magical_forest
+thaumcraft:eerie
+thaumcraft:eldritch
 twilightforest:twilight_lake
 twilightforest:twilight_forest
 twilightforest:dense_twilight_forest
@@ -161,6 +164,7 @@ buildcraftenergy:oil_desert
 integrateddynamics:biome_meneglin
 nuclearcraft:nuclear_wasteland
 rats:ratlantis
+vampirism:vampireforest
 midnight:vigilant_forest
 midnight:black_ridge
 midnight:deceitful_bog

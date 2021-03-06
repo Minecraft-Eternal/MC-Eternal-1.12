@@ -45,9 +45,6 @@ enderio:withering
 enderio:long_withering
 enderio:confusion
 enderio:long_confusion
-quark:resilience
-quark:long_resilience
-quark:strong_resilience
 quark:haste
 quark:long_haste
 quark:strong_haste
@@ -59,6 +56,9 @@ quark:long_resistance
 quark:strong_resistance
 quark:danger_sight
 quark:long_danger_sight
+quark:resilience
+quark:long_resilience
+quark:strong_resilience
 mowziesmobs:poison_resist
 mowziesmobs:long_poison_resist
 treasure2:extra_strong_healing
