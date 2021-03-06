@@ -81,13 +81,13 @@ randomthings:magnetic
 openblocks:explosive
 openblocks:last_stand
 openblocks:flim_flam
-endercore:xpboost
 endercore:autosmelt
-enderio:shimmer
-enderio:repellent
+endercore:xpboost
 enderio:witherweapon
 enderio:soulbound
 enderio:witherarrow
+enderio:shimmer
+enderio:repellent
 tombstone:shadow_step
 tombstone:soulbound
 tombstone:magic_siphon
@@ -103,6 +103,7 @@ ebwizardry:frost_protection
 ebwizardry:shock_protection
 mod_lavacow:poisonous
 mod_lavacow:lifesteal
+mod_lavacow:corrosive
 vampirism:crossbowinfinite
 vampirism:crossbowfrugality
 vampirism:vampireslayer

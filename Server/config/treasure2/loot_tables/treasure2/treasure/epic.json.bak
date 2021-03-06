@@ -1,0 +1,100 @@
+{
+	"pools": [
+		{
+			"name": "epic_items",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "hippocampus_slapper",
+					"type": "item",
+					"name": "iceandfire:hippocampus_slapper",
+					"weight": 15					
+				},
+				{
+					"entryName": "potion_of_mooten_lava",
+					"type": "item",
+					"name": "mod_lavacow:potion_of_mooten_lava",
+					"weight": 10			
+				},
+				{
+					"entryName": "dragon_breath",
+					"type": "item",
+					"name": "minecraft:dragon_breath",
+					"weight": 15				
+				},		
+				{
+					"entryName": "elytra",
+					"type": "item",
+					"name": "minecraft:elytra",
+					"weight": 10
+				},
+				{
+					"entryName": "totem_of_undying",
+					"type": "item",
+					"name": "minecraft:totem_of_undying",
+					"weight": 10				
+				},		
+				{
+					"entryName": "holy_grenade",
+					"type": "item",
+					"name": "mod_lavacow:holy_grenade",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]						
+				},
+				{
+					"entryName": "rat_upgrade_dragon",
+					"type": "item",
+					"name": "rats:rat_upgrade_dragon",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]							
+				},
+				{
+					"entryName": "emerald_block",
+					"type": "item",
+					"name": "minecraft:emerald_block",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 8
+							}
+						}
+					]							
+				},			
+				{
+					"entryName": "chorus_fruit_popped",
+					"type": "item",
+					"name": "minecraft:chorus_fruit_popped",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]							
+				}
+			]
+		}
+	]
+}

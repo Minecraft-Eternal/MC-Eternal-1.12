@@ -132,6 +132,8 @@ ebwizardry:curse_of_enfeeblement
 ebwizardry:curse_of_undeath
 ebwizardry:containment
 ebwizardry:frost_step
+mod_lavacow:corroded
+mod_lavacow:soiled
 ghostsexplosives:radiationpoisoning
 immersiveengineering:flammable
 immersiveengineering:slippery

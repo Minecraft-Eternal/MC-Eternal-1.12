@@ -1,180 +1,115 @@
 {
+	"version": "1.0",
 	"pools": [
 		{
-			"name": "common_items",
+			"name": "common_keys",
 			"rolls": 1,
 			"entries": [
 				{
-					"entryName": "bread",
+					"entryName": "wood_key",
 					"type": "item",
-					"name": "minecraft:bread",
-					"weight": 80,
+					"name": "treasure2:wood_key",
+					"weight": 25,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
-								"min": 2,
-								"max": 5
+								"min": 1,
+								"max": 2
 							}
 						}
 					]			
 				},
 				{
-					"entryName": "wool",
+					"entryName": "stone_key",
 					"type": "item",
-					"name": "minecraft:wool",
+					"name": "treasure2:stone_key",
 					"weight": 25,
-						"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
-						}
-					]				
-				},
-				{
-					"entryName": "torch",
-					"type": "item",
-					"name": "minecraft:torch",
-					"weight": 50,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
 								"min": 1,
-								"max": 5
+								"max": 2
 							}
 						}
-					]						
+					]					
 				},
 				{
-					"entryName": "leather",
+					"entryName": "pilferers_lock_pick",
 					"type": "item",
-					"name": "minecraft:leather",
+					"name": "treasure2:pilferers_lock_pick",
 					"weight": 20,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
 								"min": 1,
-								"max": 3
+								"max": 2
 							}
 						}
-					]						
+					]
 				},
 				{
-					"entryName": "rabbit_hide",
+					"entryName": "iron_key",
 					"type": "item",
-					"name": "minecraft:rabbit_hide",
-					"weight": 20,
+					"name": "treasure2:iron_key",
+					"weight": 10
+				},
+				{
+					"entryName": "thiefs_lock_pick",
+					"type": "item",
+					"name": "treasure2:thiefs_lock_pick",
+					"weight": 10
+				}					
+			]
+		},
+		{
+			"name": "common_treasure",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "silver_coin",
+					"type": "item",
+					"name": "treasure2:silver_coin",
+					"weight": 25,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
-								"min": 1,
-								"max": 3
+								"min": 0,
+								"max": 1
 							}
 						}
-					]						
-				},
+					]
+				}
+			]
+		},
+		{
+			"name": "common_charms",
+			"rolls": 1,
+			"entries": [
 				{
-					"entryName": "gold_nugget",
+					"entryName": "charm1",
 					"type": "item",
-					"name": "minecraft:gold_nugget",
-					"weight": 20,
+					"name": "treasure2:charmed_silver_coin",
+					"weight": 1,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.2
+						}
+					],					
 					"functions": [
 						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
+							"function": "treasure2:charm_randomly",
+							"charms": [
+								"lesser_healing",
+								"durable_shielding"
+								]
 						}
-					]						
-				},
-				{
-					"entryName": "iron_ingot",
-					"type": "item",
-					"name": "rats:jack_o_ratern",
-					"weight": 30,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							}
-						}
-					]						
-				},
-				{
-					"entryName": "arrow",
-					"type": "item",
-					"name": "rats:rat_arrow",
-					"weight": 50,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 5,
-								"max": 10
-							}
-						}
-					]						
-				},
-				{
-					"entryName": "bone",
-					"type": "item",
-					"name": "rats:assorted_vegetables",
-					"weight": 50,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
-						}
-					]						
-				},				
-				{
-					"entryName": "spider_eye",
-					"type": "item",
-					"name": "mod_lavacow:sausage_roll",
-					"weight": 35,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
-						}
-					]						
-				},
-				{
-					"entryName": "rotten_flesh",
-					"type": "item",
-					"name": "minecraft:rotten_flesh",
-					"weight": 50				
-				},
-				{
-					"entryName": "string",
-					"type": "item",
-					"name": "vampirism:blood_infused_iron_ingot",
-					"weight": 50,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
-						}
-					]						
-				}		
+					]
+				}			
 			]
 		}
 	]

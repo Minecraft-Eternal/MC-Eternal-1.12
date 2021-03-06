@@ -187,6 +187,7 @@ thebetweenlands:patchy_islands
 thebetweenlands:swamplands
 thebetweenlands:deep_waters
 thebetweenlands:coarse_islands
+thebetweenlands:raised_isles
 thebetweenlands:sludge_plains
 thebetweenlands:marsh_0
 thebetweenlands:marsh_1

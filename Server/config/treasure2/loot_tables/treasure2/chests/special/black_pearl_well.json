@@ -1,4 +1,5 @@
 {
+	"version": "1.0",
 	"pools": [
 		{
 			"name": "treasure",
@@ -14,6 +15,17 @@
                 }
 			]
 		},	
+		{
+			"name": "charms",
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/treasure/epic_charms",
+                    "weight": 1
+                }
+			]
+		},				
 		{
 			"name": "items",
 			"rolls": {

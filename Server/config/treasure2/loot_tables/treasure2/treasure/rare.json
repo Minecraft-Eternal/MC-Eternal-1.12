@@ -1,137 +1,39 @@
 {
+	"version": "1.0",
 	"pools": [
 		{
-			"name": "rare_items",
+			"name": "rare_keys",
 			"rolls": 1,
 			"entries": [
 				{
-					"entryName": "tnt",
+					"entryName": "metallurgists_key",
 					"type": "item",
-					"name": "minecraft:tnt",
-					"weight": 35,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 2,
-								"max": 4
-							}
-						}
-					]						
+					"name": "treasure2:metallurgists_key",
+					"weight": 10
 				},
 				{
-					"entryName": "blaze_powder",
+					"entryName": "skeleton_key",
 					"type": "item",
-					"name": "iceandfire:tide_deepblue_helmet",
-					"weight": 25,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 1
-							}
-						}
-					]						
+					"name": "treasure2:skeleton_key",
+					"weight": 7
 				},
 				{
-					"entryName": "magma_cream",
+					"entryName": "ruby_key",
 					"type": "item",
-					"name": "mod_lavacow:piranhalauncher",
-					"weight": 25,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 2,
-								"max": 5
-							}
-						}
-					]						
-				},		
-				{
-					"entryName": "clock",
-					"type": "item",
-					"name": "mod_lavacow:vespa_dagger",
-					"weight": 25					
+					"name": "treasure2:ruby_key",
+					"weight": 25
 				},
 				{
-					"entryName": "compass",
+					"entryName": "sapphire_key",
 					"type": "item",
-					"name": "mod_lavacow:halo_necklace",
-					"weight": 25					
-				},				
-				{
-					"entryName": "diamond_block",
-					"type": "item",
-					"name": "minecraft:diamond_block",
-					"weight": 10					
-				},				
-				{
-					"entryName": "glowstone",
-					"type": "item",
-					"name": "minecraft:glowstone",
-					"weight": 25,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							}
-						}
-					]						
+					"name": "treasure2:sapphire_key",
+					"weight": 25
 				},
 				{
-					"entryName": "ender_pearl",
+					"entryName": "diamond_key",
 					"type": "item",
-					"name": "minecraft:ender_pearl",
-					"weight": 35,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
-						}
-					]							
-				},
-				{
-					"entryName": "ender_eye",
-					"type": "item",
-					"name": "minecraft:ender_eye",
-					"weight": 35,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
-						}
-					]							
-				},			
-				{
-					"entryName": "blaze_rod",
-					"type": "item",
-					"name": "minecraft:blaze_rod",
-					"weight": 25,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
-						}
-					]							
-				},
-				{
-					"entryName": "ghast_tear",
-					"type": "item",
-					"name": "minecraft:ghast_tear",
-					"weight": 25,
+					"name": "treasure2:diamond_key",
+					"weight": 15,
 					"functions": [
 						{
 							"function": "set_count",
@@ -140,28 +42,49 @@
 								"max": 2
 							}
 						}
-					]							
+					]
 				},
 				{
-					"entryName": "mod_lavacow:fissionpotion",
+					"entryName": "emerald_key",
 					"type": "item",
-					"name": "minecraft:experience_bottle",
+					"name": "treasure2:emerald_key",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "rare_treasure",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "silver_coin",
+					"type": "item",
+					"name": "treasure2:silver_coin",
 					"weight": 50,
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
-								"min": 1,
-								"max": 1
+								"min": 2,
+								"max": 6
 							}
 						}
-					]							
+					]
 				},
 				{
-					"entryName": "diamond",
+					"entryName": "gold_coin",
 					"type": "item",
-					"name": "minecraft:diamond",
-					"weight": 25,
+					"name": "treasure2:gold_coin",
+					"weight": 40,
 					"functions": [
 						{
 							"function": "set_count",
@@ -170,65 +93,80 @@
 								"max": 3
 							}
 						}
-					]							
+					]
 				},
 				{
-					"entryName": "prismarine_crystals",
+					"entryName": "skull_sword",
 					"type": "item",
-					"name": "rats:rat_upgrade_miner",
-					"weight": 20,
-					"functions": [
+					"name": "treasure2:skull_sword",
+					"weight": 10,
+					"conditions": [
 						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 1
-							}
+							"condition": "random_chance",
+							"chance": 0.30
 						}
-					]							
-				},		
-				{
-					"entryName": "prismarine_shard",
-					"type": "item",
-					"name": "rats:rat_upgrade_buccaneer",
-					"weight": 20,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 1
-							}
-						}
-					]							
-				},									
-				{
-					"entryName": "sea_lantern",
-					"type": "item",
-					"name": "minecraft:sea_lantern",
-					"weight": 20
+					]
 				},
 				{
-					"entryName": "nether_star",
+					"entryName": "eye_patch",
 					"type": "item",
-					"name": "minecraft:nether_star",
-					"weight": 15
+					"name": "treasure2:eye_patch",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.30
+						}
+					]
 				},
 				{
-					"entryName": "firework_charge",
+					"entryName": "sapphire",
 					"type": "item",
-					"name": "iceandfire:hippogryph_egg",
-					"weight": 35,
-					"functions": [
+					"name": "treasure2:sapphire",
+					"weight": 10
+				},
+				{
+					"entryName": "ruby",
+					"type": "item",
+					"name": "treasure2:ruby",
+					"weight": 10
+				},
+				{
+					"entryName": "white_pearl",
+					"type": "item",
+					"name": "treasure2:white_pearl",
+					"weight": 8
+				},
+				{
+					"entryName": "painting_blocks_sand",
+					"type": "item",
+					"name": "treasure2:painting_blocks_sand",
+					"weight": 10,
+					"conditions": [
 						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
+							"condition": "random_chance",
+							"chance": 0.4
 						}
-					]							
-				}			
+					]
+				},
+				{
+					"entryName": "painting_blocks_wood",
+					"type": "item",
+					"name": "treasure2:painting_blocks_wood",
+					"weight": 10,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "rare_charms",
+			"rolls": 1,
+			"entries": [
 			]
 		}
 	]

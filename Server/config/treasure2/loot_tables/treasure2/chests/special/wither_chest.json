@@ -1,4 +1,5 @@
 {
+	"version": "1.0",
 	"pools": [	
 		{
 			"name": "bones",
@@ -133,6 +134,17 @@
                     "weight": 30
                 }
 			]
-		}
+		},
+		{
+			"name": "charms",
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "treasure2:loot_tables/treasure2/treasure/scarce_charms",
+                    "weight": 1
+                }
+			]
+		}				
 	]
 }

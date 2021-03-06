@@ -85,9 +85,9 @@ endercore:xpboost
 endercore:autosmelt
 enderio:shimmer
 enderio:witherarrow
-enderio:soulbound
 enderio:witherweapon
 enderio:repellent
+enderio:soulbound
 tombstone:shadow_step
 tombstone:soulbound
 tombstone:magic_siphon
@@ -103,6 +103,7 @@ ebwizardry:frost_protection
 ebwizardry:shock_protection
 mod_lavacow:poisonous
 mod_lavacow:lifesteal
+mod_lavacow:corrosive
 vampirism:crossbowinfinite
 vampirism:crossbowfrugality
 vampirism:vampireslayer
