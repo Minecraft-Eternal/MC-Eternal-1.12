@@ -83,11 +83,11 @@ openblocks:last_stand
 openblocks:flim_flam
 endercore:autosmelt
 endercore:xpboost
-enderio:witherweapon
-enderio:shimmer
 enderio:witherarrow
-enderio:repellent
 enderio:soulbound
+enderio:repellent
+enderio:shimmer
+enderio:witherweapon
 tombstone:shadow_step
 tombstone:soulbound
 tombstone:magic_siphon

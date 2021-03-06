@@ -17,6 +17,7 @@ print("--- loading Tooltip.zs ---");
 <ftbquests:lootcrate>.withTag({type: "unclaimed_black_market_container"}).addTooltip(format.gold("An item sold at a previous auction that was never picked up by the winning bidder. Buyer beware."));
 <nuclearcraft:ore:3>.addTooltip(format.darkPurple("Only found in the Beneath"));
 <immersiveengineering:ore:5>.addTooltip(format.darkPurple("Only found in the Beneath"));
+<icbmclassic:emptower>.addTooltip(format.darkPurple("Only obtainable from the Shop"));
 <nuclearcraft:ore:5>.addTooltip(format.darkPurple("Only found in the Beneath"));
 <nuclearcraft:ore:6>.addTooltip(format.darkPurple("Only found in the Beneath"));
 <nuclearcraft:ore:7>.addTooltip(format.darkPurple("Only found in the Beneath"));

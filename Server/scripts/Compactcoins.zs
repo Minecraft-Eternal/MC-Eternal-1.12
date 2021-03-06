@@ -1,0 +1,14 @@
+//Compact Coins
+recipes.addShapeless(<lodsofemone:coin_small>.withTag({value: 9 as long}), [<lodsofemone:coin_small>.withTag({value: 1 as long}), <lodsofemone:coin_small>.withTag({value: 1 as long}), <lodsofemone:coin_small>.withTag({value: 1 as long}), <lodsofemone:coin_small>.withTag({value: 1 as long}), <lodsofemone:coin_small>.withTag({value: 1 as long}), <lodsofemone:coin_small>.withTag({value: 1 as long}), <lodsofemone:coin_small>.withTag({value: 1 as long}), <lodsofemone:coin_small>.withTag({value: 1 as long}), <lodsofemone:coin_small>.withTag({value: 1 as long})]);
+
+recipes.addShapeless(<lodsofemone:coin_small>.withTag({value: 81 as long}), [<lodsofemone:coin_small>.withTag({value: 9 as long}), <lodsofemone:coin_small>.withTag({value: 9 as long}), <lodsofemone:coin_small>.withTag({value: 9 as long}), <lodsofemone:coin_small>.withTag({value: 9 as long}), <lodsofemone:coin_small>.withTag({value: 9 as long}), <lodsofemone:coin_small>.withTag({value: 9 as long}), <lodsofemone:coin_small>.withTag({value: 9 as long}), <lodsofemone:coin_small>.withTag({value: 9 as long}), <lodsofemone:coin_small>.withTag({value: 9 as long})]);
+
+recipes.addShapeless(<lodsofemone:coin_big>.withTag({value: 729 as long}), [<lodsofemone:coin_small>.withTag({value: 81 as long}), <lodsofemone:coin_small>.withTag({value: 81 as long}), <lodsofemone:coin_small>.withTag({value: 81 as long}), <lodsofemone:coin_small>.withTag({value: 81 as long}), <lodsofemone:coin_small>.withTag({value: 81 as long}), <lodsofemone:coin_small>.withTag({value: 81 as long}), <lodsofemone:coin_small>.withTag({value: 81 as long}), <lodsofemone:coin_small>.withTag({value: 81 as long}), <lodsofemone:coin_small>.withTag({value: 81 as long})]);
+
+recipes.addShapeless(<lodsofemone:coin_big>.withTag({value: 6561 as long}), [<lodsofemone:coin_big>.withTag({value: 729 as long}), <lodsofemone:coin_big>.withTag({value: 729 as long}), <lodsofemone:coin_big>.withTag({value: 729 as long}), <lodsofemone:coin_big>.withTag({value: 729 as long}), <lodsofemone:coin_big>.withTag({value: 729 as long}), <lodsofemone:coin_big>.withTag({value: 729 as long}), <lodsofemone:coin_big>.withTag({value: 729 as long}), <lodsofemone:coin_big>.withTag({value: 729 as long}), <lodsofemone:coin_big>.withTag({value: 729 as long})]);
+
+//Uncompact Coins
+recipes.addShapeless(<lodsofemone:coin_big>.withTag({value: 729 as long}) * 9, [<lodsofemone:coin_big>.withTag({value: 6561 as long})]);
+recipes.addShapeless(<lodsofemone:coin_small>.withTag({value: 81 as long}) * 9, [<lodsofemone:coin_big>.withTag({value: 729 as long})]);
+recipes.addShapeless(<lodsofemone:coin_small>.withTag({value: 9 as long}) * 9, [<lodsofemone:coin_small>.withTag({value: 81 as long})]);
+recipes.addShapeless(<lodsofemone:coin_small>.withTag({value: 1 as long}) * 9, [<lodsofemone:coin_small>.withTag({value: 9 as long})]);

@@ -40,11 +40,11 @@ randomthings:long_collapse
 randomthings:strong_collapse
 enderio:confusion
 enderio:long_confusion
+enderio:withering
+enderio:long_withering
 enderio:floating
 enderio:strong_floating
 enderio:long_floating
-enderio:withering
-enderio:long_withering
 quark:haste
 quark:long_haste
 quark:strong_haste

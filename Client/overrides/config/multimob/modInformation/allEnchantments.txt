@@ -81,12 +81,12 @@ randomthings:magnetic
 openblocks:explosive
 openblocks:last_stand
 openblocks:flim_flam
-endercore:autosmelt
 endercore:xpboost
+endercore:autosmelt
 enderio:witherweapon
 enderio:shimmer
-enderio:witherarrow
 enderio:repellent
+enderio:witherarrow
 enderio:soulbound
 tombstone:shadow_step
 tombstone:soulbound

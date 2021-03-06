@@ -90,7 +90,12 @@ thermalfoundation:blitz_bolt
 thermalfoundation:basalz_bolt
 thermalexpansion:florb
 thermalexpansion:morb
-quark:chest_passenger
+quark:seat
+quark:gravisand
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -98,11 +103,6 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:gravisand
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -112,7 +112,7 @@ quark:frog
 quark:pirate
 quark:crab
 quark:wraith
-quark:seat
+quark:chest_passenger
 astralsorcery:entityhighlighted
 astralsorcery:entitystardust
 astralsorcery:entitycrystal
@@ -494,9 +494,9 @@ thaumcraft:taintacletiny
 thaumcraft:taintswarm
 thaumcraft:taintseed
 thaumcraft:taintseedprime
-enderio:primed_charge
-enderio:owl_egg
 enderio:falling_machine
+enderio:owl_egg
+enderio:primed_charge
 twilightforest:wild_boar
 twilightforest:bighorn_sheep
 twilightforest:deer
@@ -894,9 +894,9 @@ actuallyadditions:worm
 p455w0rdslib:sitting_entity
 battletowers:golem
 battletowers:golemfireball
-forestry:butterflyge
 forestry:cart.beehouse
 forestry:cart.apiary
+forestry:butterflyge
 creativecore:sit
 opencomputers:drone
 immersiveengineering:revolvershot
