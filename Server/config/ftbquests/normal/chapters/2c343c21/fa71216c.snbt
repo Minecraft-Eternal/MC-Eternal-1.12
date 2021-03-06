@@ -1,4 +1,5 @@
 {
+	title: "&3&lRat Upgrade: Creative",
 	x: 3.2d,
 	y: 2.0d,
 	shape: "octagon",
@@ -28,6 +29,6 @@
 	{
 		uid: "8aed7942",
 		type: "ftbmoney:money",
-		ftb_money: 500L
+		ftb_money: 50000L
 	}]
 }

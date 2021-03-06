@@ -5,15 +5,15 @@
       "template": "Dimension: {dimName}"
     },
     {
-      "groupId": "gcsatellite",
+      "groupId": "satellite",
       "template": "Orbiting around {planet} on a space station"
     },
     {
-      "groupId": "gcmoon",
+      "groupId": "moon",
       "template": "On moon {moon} around {planet}"
     },
     {
-      "groupId": "gcplanet",
+      "groupId": "planet",
       "template": "On planet {planet}"
     },
     {
@@ -23,7 +23,7 @@
   ],
   "dimensions": [
     {
-      "dimName": "The Beneath",
+      "dimName": "The_Beneath",
       "template": "Being consumed by darkness in The Beneath"
     },
     {

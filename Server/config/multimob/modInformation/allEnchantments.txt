@@ -82,13 +82,13 @@ openblocks:explosive
 openblocks:last_stand
 openblocks:flim_flam
 advancedrocketry:spacebreathing
-endercore:autosmelt
 endercore:xpboost
-enderio:repellent
+endercore:autosmelt
 enderio:witherweapon
 enderio:soulbound
-enderio:witherarrow
 enderio:shimmer
+enderio:repellent
+enderio:witherarrow
 bewitchment:magic_protection
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench

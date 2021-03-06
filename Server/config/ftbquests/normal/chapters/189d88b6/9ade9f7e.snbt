@@ -1,12 +1,6 @@
 {
 	title: "Basic Automated Mob Farm",
-	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
-		id: "tombstone:decorative_grave_cross",
-		Count: 1b
-	},
+	icon: "iceandfire:dread_key",
 	x: -10.0d,
 	y: -10.0d,
 	shape: "hexagon",

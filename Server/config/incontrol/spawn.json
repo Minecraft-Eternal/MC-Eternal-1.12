@@ -56,7 +56,7 @@
   {
     "dimension": 1000,
     "mod": "iceandfire",
-    "mincount": 5,
+    "mincount": 2,
     "result": "deny"
   }
 ]

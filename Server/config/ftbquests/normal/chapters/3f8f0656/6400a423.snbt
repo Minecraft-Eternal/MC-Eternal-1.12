@@ -16,7 +16,7 @@
 				tier: 1
 			}
 		}],
-		ignore_nbt: 2b
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "cc3f54c2",

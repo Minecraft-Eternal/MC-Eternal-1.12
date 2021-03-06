@@ -19,6 +19,9 @@
 		type: "item",
 		items: [{
 			item: "charm:iron_lantern"
+		},
+		{
+			item: "futuremc:lantern"
 		}],
 		count: 3L
 	}],

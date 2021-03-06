@@ -16,7 +16,8 @@
 				tier: 0
 			}
 		}],
-		ignore_nbt: 2b
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "250fb002",

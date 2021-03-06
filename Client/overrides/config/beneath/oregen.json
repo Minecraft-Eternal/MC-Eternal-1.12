@@ -4,7 +4,7 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 32,
+    "veins": 82,
     "size": 16,
     "miny": 10,
     "maxy": 246
@@ -20,12 +20,12 @@
     "maxy": 246
   },
   {
-    "ore": "mekanism:osmium_ore",
+    "ore": "mekanism:oreblock",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 12,
-    "size": 4,
+    "size": 16,
     "miny": 10,
     "maxy": 246
   },
@@ -54,7 +54,7 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 4,
+    "veins": 16,
     "size": 8,
     "miny": 10,
     "maxy": 246
@@ -70,11 +70,11 @@
     "maxy": 246
   },
   {
-    "ore": "minecraft:monster_egg",
+    "ore": "minecraft:iron_block",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 48,
+    "veins": 4,
     "size": 24,
     "miny": 10,
     "maxy": 246
