@@ -142,7 +142,7 @@
 				{
 					"entryName": "painting_blocks_water",
 					"type": "item",
-					"name": "treasure2:painting_blocks_water",
+					"name": "mod_lavacow:piranhalauncher",
 					"weight": 10,
 					"conditions": [
 						{

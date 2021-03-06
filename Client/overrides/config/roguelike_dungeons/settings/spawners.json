@@ -6,7 +6,7 @@
 			"potentials" : [
 				{"name" : "minecraft:vindication_illager"},
 				{"name" : "minecraft:witch"},
-				{"name" : "twilightforest:minotaur"}
+				{"name" : "minecraft:zombie_villager"}
 			],
 			"level" : [0, 1]
 		},

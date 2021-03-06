@@ -40,7 +40,7 @@
 			"level" : [0, 1, 2, 3, 4],
 			"type" : "MUSIC",
 			"loot" : [
-				{"data" : {"name" : "ebwizardry:magic_wand"}, "weight" : 1}
+				{"data" : {"name" : "minecraft:record_cat"}, "weight" : 1}
 			],
 			"each" : true,
 			"quantity" : 1
@@ -181,9 +181,9 @@
 		{
 			"level" : [0, 1, 2, 3, 4],
 			"loot" : [
-				{"data" : {"name" : "twilightforest:steelleaf"}, "weight" : 2},
+				{"data" : {"name" : "minecraft:stick"}, "weight" : 2},
 				{"data" : {"name" : "minecraft:slime_ball"}, "weight" : 1},
-				{"data" : {"name" : "twilightforest:ironwood_ingot"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:clay_ball"}, "weight" : 1},
 				{"data" : {"name" : "minecraft:bone"}, "weight" : 1},
 				{"data" : {"name" : "minecraft:string"}, "weight" : 1},
 				{"data" : {"name" : "minecraft:snowball"}, "weight" : 1},

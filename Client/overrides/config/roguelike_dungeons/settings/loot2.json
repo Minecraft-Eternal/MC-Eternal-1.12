@@ -18,7 +18,7 @@
 			"type" : "WEAPONS",
 			"loot" : [
 				{"data" : {"type" : "weapon", "level" : 2}, "weight" : 1},
-				{"data" : {"name" : "wizardry:smoke_bomb"}, "weight" : 1},
+				{"data" : {"name" : "megaloot:weaponcase_common"}, "weight" : 1},
 				{"data" : {"name" : "megaloot:shard_common"}, "weight" : 4},
 				{"data" : {"name" : "megaloot:shard_rare"}, "weight" : 3}
 			],
