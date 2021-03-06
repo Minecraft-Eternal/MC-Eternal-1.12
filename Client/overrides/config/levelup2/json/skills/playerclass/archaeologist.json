@@ -1,0 +1,22 @@
+{
+  "name": "levelup:archaeologist",
+  "bonus": "levelup:mining_bonus",
+  "skills": [
+    {
+      "name": "levelup:flintloot",
+      "level": 2
+    },
+    {
+      "name": "levelup:treasurehunting",
+      "level": 1
+    },
+    {
+      "name": "levelup:prospecting",
+      "level": 1
+    },
+    {
+      "name": "levelup:woodcutting",
+      "level": 2
+    }
+  ]
+}

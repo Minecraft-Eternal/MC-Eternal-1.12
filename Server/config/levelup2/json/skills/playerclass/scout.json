@@ -1,0 +1,22 @@
+{
+  "name": "levelup:scout",
+  "bonus": "levelup:combat_bonus",
+  "skills": [
+    {
+      "name": "levelup:bowdraw",
+      "level": 2
+    },
+    {
+      "name": "levelup:arrowspeed",
+      "level": 1
+    },
+    {
+      "name": "levelup:stealth",
+      "level": 2
+    },
+    {
+      "name": "levelup:fallprotect",
+      "level": 1
+    }
+  ]
+}

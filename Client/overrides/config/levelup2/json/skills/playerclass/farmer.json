@@ -1,0 +1,22 @@
+{
+  "name": "levelup:farmer",
+  "bonus": "levelup:craft_bonus",
+  "skills": [
+    {
+      "name": "levelup:cropgrowth",
+      "level": 2
+    },
+    {
+      "name": "levelup:harvestbonus",
+      "level": 2
+    },
+    {
+      "name": "levelup:fishbonus",
+      "level": 2
+    },
+    {
+      "name": "levelup:woodcutting",
+      "level": 2
+    }
+  ]
+}

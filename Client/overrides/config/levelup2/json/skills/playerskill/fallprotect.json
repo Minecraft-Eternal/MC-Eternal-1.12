@@ -1,0 +1,21 @@
+{
+  "name": "levelup:fallprotect",
+  "type": "levelup:mining_bonus",
+  "levels": [
+    2,
+    3,
+    5,
+    7,
+    8
+  ],
+  "prerequisites": [
+    "levelup:sprintspeed"
+  ],
+  "stack": {
+    "item": "minecraft:leather_boots"
+  },
+  "column": 3,
+  "row": 1,
+  "enabled": true,
+  "active": true
+}

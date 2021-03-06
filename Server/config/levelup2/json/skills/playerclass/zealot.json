@@ -1,0 +1,22 @@
+{
+  "name": "levelup:zealot",
+  "bonus": "levelup:combat_bonus",
+  "skills": [
+    {
+      "name": "levelup:sprintspeed",
+      "level": 2
+    },
+    {
+      "name": "levelup:fallprotect",
+      "level": 1
+    },
+    {
+      "name": "levelup:sworddamage",
+      "level": 2
+    },
+    {
+      "name": "levelup:naturalarmor",
+      "level": 1
+    }
+  ]
+}

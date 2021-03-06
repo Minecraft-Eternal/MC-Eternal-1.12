@@ -1,0 +1,22 @@
+{
+  "name": "levelup:spelunker",
+  "bonus": "levelup:mining_bonus",
+  "skills": [
+    {
+      "name": "levelup:furnacebonus",
+      "level": 2
+    },
+    {
+      "name": "levelup:furnacespeed",
+      "level": 1
+    },
+    {
+      "name": "levelup:fallprotect",
+      "level": 1
+    },
+    {
+      "name": "levelup:stonecutting",
+      "level": 2
+    }
+  ]
+}

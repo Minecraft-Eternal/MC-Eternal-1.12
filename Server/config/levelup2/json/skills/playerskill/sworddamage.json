@@ -1,0 +1,26 @@
+{
+  "name": "levelup:sworddamage",
+  "type": "levelup:combat_bonus",
+  "levels": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    8,
+    9,
+    10,
+    10
+  ],
+  "prerequisites": [
+    "levelup:swordcrit"
+  ],
+  "stack": {
+    "item": "minecraft:iron_sword"
+  },
+  "column": 1,
+  "row": 1,
+  "enabled": true,
+  "active": true
+}

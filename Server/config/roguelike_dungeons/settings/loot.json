@@ -1,0 +1,11 @@
+{
+	"name" : "builtin:loot",
+	"inherit" : [
+		"drm3:loot0",
+		"drm3:loot1",
+		"drm3:loot2",
+		"drm3:loot3",
+		"drm3:loot4",
+		"drm3:loot_all"
+	]
+}

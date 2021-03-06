@@ -1,0 +1,21 @@
+{
+  "name": "levelup:swordcrit",
+  "type": "levelup:combat_bonus",
+  "levels": [
+    2,
+    3,
+    5,
+    7,
+    8
+  ],
+  "prerequisites": [
+
+  ],
+  "stack": {
+    "item": "minecraft:iron_sword"
+  },
+  "column": 1,
+  "row": 0,
+  "enabled": true,
+  "active": true
+}

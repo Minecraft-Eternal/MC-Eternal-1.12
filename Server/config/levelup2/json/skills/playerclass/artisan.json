@@ -1,0 +1,22 @@
+{
+  "name": "levelup:artisan",
+  "bonus": "levelup:craft_bonus",
+  "skills": [
+    {
+      "name": "levelup:furnacespeed",
+      "level": 1
+    },
+    {
+      "name": "levelup:furnacebonus",
+      "level": 2
+    },
+    {
+      "name": "levelup:brewingspeed",
+      "level": 1
+    },
+    {
+      "name": "levelup:woodcutting",
+      "level": 2
+    }
+  ]
+}

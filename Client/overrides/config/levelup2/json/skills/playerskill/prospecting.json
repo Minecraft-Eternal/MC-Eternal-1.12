@@ -1,0 +1,21 @@
+{
+  "name": "levelup:prospecting",
+  "type": "levelup:mining_bonus",
+  "levels": [
+    2,
+    3,
+    5,
+    7,
+    8
+  ],
+  "prerequisites": [
+    "levelup:stonecutting"
+  ],
+  "stack": {
+    "item": "minecraft:gold_ore"
+  },
+  "column": 1,
+  "row": 1,
+  "enabled": true,
+  "active": true
+}

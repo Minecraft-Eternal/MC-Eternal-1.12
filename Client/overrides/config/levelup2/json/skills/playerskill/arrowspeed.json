@@ -1,0 +1,21 @@
+{
+  "name": "levelup:arrowspeed",
+  "type": "levelup:combat_bonus",
+  "levels": [
+    2,
+    3,
+    5,
+    7,
+    8
+  ],
+  "prerequisites": [
+    "levelup:bowdraw"
+  ],
+  "stack": {
+    "item": "minecraft:arrow"
+  },
+  "column": 2,
+  "row": 1,
+  "enabled": true,
+  "active": true
+}

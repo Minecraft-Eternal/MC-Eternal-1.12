@@ -1,0 +1,22 @@
+{
+  "name": "levelup:assassin",
+  "bonus": "levelup:combat_bonus",
+  "skills": [
+    {
+      "name": "levelup:stealth",
+      "level": 2
+    },
+    {
+      "name": "levelup:stealthdamage",
+      "level": 1
+    },
+    {
+      "name": "levelup:sworddamage",
+      "level": 2
+    },
+    {
+      "name": "levelup:arrowspeed",
+      "level": 1
+    }
+  ]
+}

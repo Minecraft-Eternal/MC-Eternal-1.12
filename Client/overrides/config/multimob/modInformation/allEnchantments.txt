@@ -81,6 +81,13 @@ openblocks:explosive
 openblocks:last_stand
 openblocks:flim_flam
 randomthings:magnetic
+endercore:autosmelt
+endercore:xpboost
+enderio:repellent
+enderio:soulbound
+enderio:witherweapon
+enderio:shimmer
+enderio:witherarrow
 ebwizardry:magic_sword
 ebwizardry:magic_bow
 ebwizardry:flaming_weapon
@@ -88,13 +95,6 @@ ebwizardry:freezing_weapon
 ebwizardry:magic_protection
 ebwizardry:frost_protection
 ebwizardry:shock_protection
-endercore:autosmelt
-endercore:xpboost
-enderio:witherweapon
-enderio:shimmer
-enderio:soulbound
-enderio:witherarrow
-enderio:repellent
 bewitchment:magic_protection
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
