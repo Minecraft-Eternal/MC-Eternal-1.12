@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: -3.5d,
+	description: "This book keeps record of everything you've ever eaten and its nutritional values. *It also keeps a record of how close you are to unlocking more hearts*",
+	tasks: [{
+		uid: "29a11025",
+		type: "item",
+		items: [{
+			item: "solcarrot:food_book"
+		}]
+	}],
+	rewards: [{
+		uid: "f25ac229",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7df02205",
+		type: "item",
+		item: "quark:golden_frog_leg"
+	}]
+}

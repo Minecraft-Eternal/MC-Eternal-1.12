@@ -1,0 +1,37 @@
+{
+	title: "&4&lThe Nether",
+	icon: "bewitchment:nether_brick_baphomet_statue",
+	x: -7.0d,
+	y: -9.0d,
+	shape: "octagon",
+	description: "Nobody's gonna mess me around - Hey Satan, paid my dues - Playing in a rocking band - Hey mama, look at me I'm on my way to the promised land, whoo!",
+	dependencies: [
+		"69d2c7f8"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "ad09356c",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "c57c5476",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "fa6a7cd4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "f9b5c251",
+		type: "item",
+		item: "minecraft:golden_apple"
+	}]
+}

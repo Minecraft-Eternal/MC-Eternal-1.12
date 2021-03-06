@@ -1,0 +1,24 @@
+{
+	x: -10.0d,
+	y: -12.0d,
+	dependencies: [
+		"9ade9f7e"
+	],
+	tasks: [{
+		uid: "a8c3c0c1",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:fan"
+		}]
+	}],
+	rewards: [{
+		uid: "dc540218",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "08dd809e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

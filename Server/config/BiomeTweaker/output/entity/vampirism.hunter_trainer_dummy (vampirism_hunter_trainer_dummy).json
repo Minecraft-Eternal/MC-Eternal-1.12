@@ -1,0 +1,6 @@
+
+{
+  "Name": "vampirism.hunter_trainer_dummy",
+  "Registry ID": "vampirism:hunter_trainer_dummy",
+  "Class": "de.teamlapen.vampirism.entity.hunter.EntityHunterTrainerDummy"
+}

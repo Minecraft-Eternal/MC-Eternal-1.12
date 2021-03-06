@@ -1,0 +1,19 @@
+{
+	x: -10.5d,
+	y: -3.5d,
+	dependencies: [
+		"c6a58218"
+	],
+	tasks: [{
+		uid: "d9f3c07a",
+		type: "item",
+		items: [{
+			item: "futuremc:stonecutter"
+		}]
+	}],
+	rewards: [{
+		uid: "75cbd403",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

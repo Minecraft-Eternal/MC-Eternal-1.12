@@ -1,0 +1,24 @@
+{
+	x: -17.0d,
+	y: -1.0d,
+	dependencies: [
+		"e637d2e0"
+	],
+	tasks: [{
+		uid: "d9d816c7",
+		type: "item",
+		items: [{
+			item: "rats:psionic_rat_brain"
+		}]
+	}],
+	rewards: [{
+		uid: "15148359",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "79431b19",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	x: -4.5d,
+	y: -5.0d,
+	shape: "square",
+	description: "Their origins are shrouded in mystery, but it seems their goal is the perfection of a ritual they refer to as \"Apertis Oculis\" Opening the Eye. What it does is unclear, but you doubt it is anything good. Only a madman would persue this line of study",
+	dependencies: [
+		"19a1105b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dc29405d",
+		type: "kill",
+		title: "Bounty: Crimson Knight",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "thaumcraft:cultistknight",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d318d2b3",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "95877b1c",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "36325599",
+		type: "item",
+		item: "minecraft:gold_block"
+	},
+	{
+		uid: "72462cad",
+		type: "item",
+		item: "thaumcraft:banner_crimson_cult"
+	}]
+}

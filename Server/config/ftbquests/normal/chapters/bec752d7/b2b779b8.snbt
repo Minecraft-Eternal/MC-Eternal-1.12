@@ -1,0 +1,25 @@
+{
+	x: 13.0d,
+	y: 10.5d,
+	description: "Uncover the ancient art of slaying unholy vampire scum!",
+	dependencies: [
+		"1ae749b8"
+	],
+	tasks: [{
+		uid: "94314d8c",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_table"
+		}]
+	}],
+	rewards: [{
+		uid: "bf1bf037",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1de89086",
+		type: "loot",
+		table: 1
+	}]
+}

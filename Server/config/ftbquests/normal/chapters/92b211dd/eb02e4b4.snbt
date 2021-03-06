@@ -1,0 +1,38 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	description: "&lThe Chemical Reactor&r is a multi-block construction which processes fluids, most commonly hydrogen and oxygen, and creates outputs. Hydrogen and Oxygen, typically pumped in from the Electrolyser, creates Rocket Fuel!",
+	text: [
+		"The rocket fuel can be transported out of the liquid output hatch to either a liquid container or a &lFuelling Station."
+	],
+	dependencies: [
+		"83f8b95d"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "6ac2c459",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:chemicalreactor"
+		}]
+	}],
+	rewards: [{
+		uid: "95309937",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "d8c7cd87",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: 12.0d,
+	y: 6.0d,
+	dependencies: [
+		"02ff2f95"
+	],
+	tasks: [{
+		uid: "58e74235",
+		type: "advancement",
+		title: "Discover the Vampire Forest",
+		icon: "vampirism:vampirism_flower",
+		advancement: "vampirism:main/vampire_forest",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "535fdea4",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "d0558709",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "e5bdac19",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:blood_bottle",
+			Damage: 9s
+		}
+	}]
+}

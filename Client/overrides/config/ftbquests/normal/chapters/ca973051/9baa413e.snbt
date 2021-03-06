@@ -1,0 +1,22 @@
+{
+	title: "Snap back to reality, ope there goes gravity",
+	icon: "dimdoors:eternal_fabric",
+	x: -5.5d,
+	y: -4.5d,
+	description: "I should find a way to go deeper...",
+	dependencies: [
+		"c24f1670"
+	],
+	tasks: [{
+		uid: "89c25817",
+		type: "observation",
+		match_type: "block_id",
+		match: "dimdoors:eternal_fabric",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "6876d027",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

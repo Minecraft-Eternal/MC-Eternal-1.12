@@ -1,0 +1,25 @@
+{
+	title: "Top Tier Food: Korean Dinner",
+	x: 0.0d,
+	y: -5.5d,
+	text: [
+		"Don’t eat to much!"
+	],
+	tasks: [{
+		uid: "3469e676",
+		type: "item",
+		items: [{
+			item: "harvestcraft:koreandinneritem"
+		}]
+	}],
+	rewards: [{
+		uid: "f1ed16fb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "75cfd907",
+		type: "loot",
+		table: 1
+	}]
+}

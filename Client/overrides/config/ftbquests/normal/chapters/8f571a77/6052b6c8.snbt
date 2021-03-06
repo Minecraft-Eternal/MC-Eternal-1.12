@@ -1,0 +1,27 @@
+{
+	icon: "ghostsexplosives:gunpowder_charged",
+	x: 3.0d,
+	y: -3.5d,
+	description: "Drop",
+	can_repeat: true,
+	tasks: [{
+		uid: "3640eecf",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "5755a009",
+		type: "item",
+		title: "50 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 50L
+			}
+		}
+	}]
+}

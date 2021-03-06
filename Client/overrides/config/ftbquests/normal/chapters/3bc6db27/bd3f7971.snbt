@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: -3.0d,
+	description: "Efficient Steel production",
+	dependencies: [
+		"e9d7985e"
+	],
+	tasks: [{
+		uid: "156f145f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "189c351f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

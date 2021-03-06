@@ -1,0 +1,54 @@
+{
+	title: "Player Transport",
+	x: -1.0d,
+	y: -5.0d,
+	description: "What was the point of all of this you might ask. you will soon find out, yes this rabbit-hole of a machine chain will be &ouseful",
+	text: [
+		"Players can ride rockets to different planets and rockets are the only way to get to orbiting space stations. To be able to ride a rocket, the rocket must have a guidance computer with some destination programmed into it with a chip and a seat",
+		"Once assembled and fueled, a player can right click on the rocket to ride it and press space to take off."
+	],
+	dependencies: [
+		"833dc5fb"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "36d02546",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:guidancecomputer"
+		}]
+	},
+	{
+		uid: "ce9fc04c",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:seat"
+		}]
+	},
+	{
+		uid: "02a49a04",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetidchip"
+		}]
+	}],
+	rewards: [{
+		uid: "b4fbebc8",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "873d8bd3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

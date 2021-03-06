@@ -1,0 +1,22 @@
+{
+	x: -12.5d,
+	y: -3.0d,
+	description: " A frightful reptilian sea monster that relentlessly attacks all smaller creatures on sight.",
+	tasks: [{
+		uid: "667af1d0",
+		type: "kill",
+		icon: "iceandfire:sea_serpent_scales_blue",
+		entity: "iceandfire:seaserpent",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9d352abe",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "60bd98b6",
+		type: "loot",
+		table: 1
+	}]
+}

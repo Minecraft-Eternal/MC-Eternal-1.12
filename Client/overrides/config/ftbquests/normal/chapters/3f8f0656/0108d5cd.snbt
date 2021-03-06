@@ -1,0 +1,29 @@
+{
+	x: 13.5d,
+	y: 3.5d,
+	description: "Conduits are used to transfer items/fluid/power to selected destinations. Note: Use color coding to sort input/output",
+	dependencies: [
+		"bde05be8"
+	],
+	tasks: [{
+		uid: "04f5ed5d",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "dd8ef7d2",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 1 1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "f497bfa6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

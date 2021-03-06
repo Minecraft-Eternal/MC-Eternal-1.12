@@ -1,0 +1,24 @@
+{
+	x: 7.5d,
+	y: 1.0d,
+	dependencies: [
+		"5ea6fbc6"
+	],
+	tasks: [{
+		uid: "ddf46336",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:isotope_separator_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "a986be0d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4b2ed252",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "vampirism.dummy_creature",
+  "Registry ID": "vampirism:dummy_creature",
+  "Class": "de.teamlapen.vampirism.entity.vampire.EntityDummyBittenAnimal"
+}

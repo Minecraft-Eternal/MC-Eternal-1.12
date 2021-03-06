@@ -1,0 +1,116 @@
+
+{
+  "ID": 216,
+  "Name": "Sludge Plains",
+  "Resource Location": "thebetweenlands:sludge_plains",
+  "Class": "thebetweenlands.common.world.biome.BiomeSludgePlains",
+  "Root Height": 115.0,
+  "Height Variation": 3.0,
+  "Top Block": "thebetweenlands:mud",
+  "Filler Block": "thebetweenlands:swamp_dirt",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "3813131",
+  "Temperature": 0.8,
+  "Humidity": 0.9,
+  "Water Tint": 3813131,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "WET",
+    "DEAD",
+    "WASTELAND",
+    "SWAMP"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityZombieMushroom",
+      "Weight": 40,
+      "Min Group Count": 8,
+      "Max Group Count": 16
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityFoglet",
+      "Weight": 20,
+      "Min Group Count": 8,
+      "Max Group Count": 16
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.tameable.EntityMimic",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityUndertaker",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntitySludgeLord",
+      "Weight": 15,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+      "Weight": 22,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

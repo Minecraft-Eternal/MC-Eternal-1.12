@@ -1,0 +1,29 @@
+{
+	x: -10.0d,
+	y: -21.5d,
+	dependencies: [
+		"eaed8a89"
+	],
+	tasks: [{
+		uid: "c1b9ea4c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:seeker_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "136a4168",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "34253694",
+		type: "loot",
+		table: 1
+	}]
+}

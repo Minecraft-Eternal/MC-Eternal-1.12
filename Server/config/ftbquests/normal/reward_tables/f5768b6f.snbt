@@ -1,0 +1,41 @@
+{
+	title: "Space ",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"Didn\\u0027t know what time it was and the lights were low\\nI leaned back on my radio\\nSome cat was layin\\u0027 down some get it on rock \\u0027n\\u0027 roll, he said\\nThen the loud sound did seem to fade \"}",
+					"{\"text\":\"Came back like a slow voice on a wave of phase haze\\nThat weren\\u0027t no D.J. that was hazy cosmic jive\\nThere\\u0027s a starman waiting in the sky\\nHe\\u0027d like to come and meet us\\nBut he thinks he\\u0027d blow our minds\"}",
+					"{\"text\":\"There\\u0027s a starman waiting in the sky\\nHe\\u0027s told us not to blow it\\nCause he knows it\\u0027s all worthwhile\\nHe told me:\\nLet the children lose it\\nLet the children use it\\nLet all the children boogie\"}",
+					"{\"text\":\"I had to phone someone so I picked on you\\nHey, that\\u0027s far out so you heard him too\\nSwitch on the TV we may pick him up on channel two\\n\\nLook out your window I can see his light\\nIf we can sparkle he may land tonight\"}",
+					"{\"text\":\"Don\\u0027t tell your poppa or he\\u0027ll get us locked up in fright\\nThere\\u0027s a starman waiting in the sky\\nHe\\u0027d like to come and meet us\\nBut he thinks he\\u0027d blow our minds\\n\\nThere\\u0027s a starman waiting in the sky\\nHe\\u0027s told us not to blow it\"}",
+					"{\"text\":\"Cause he knows it\\u0027s all worthwhile\\nHe told me:\\nLet the children lose it\\nLet the children use it\\nLet all the children boogie\\n\\nThere\\u0027s a starman waiting in the sky\\nHe\\u0027d like to come and meet us\\nBut he thinks he\\u0027d blow our minds\"}",
+					"{\"text\":\"There\\u0027s a starman waiting in the sky\\nHe\\u0027s told us not to blow it\\nCause he knows it\\u0027s all worthwhile\\nHe told me:\\n\\nLet the children lose it\\nLet the children use it\\nLet all the children boogie\"}"
+				],
+				author: "adam98991",
+				title: "Space Journal",
+				resolved: 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"Ground Control to Major Tom\\nGround Control to Major Tom\\nTake your protein pills and put your helmet on\\nGround Control to Major Tom (ten, nine, eight, seven, six)\"}",
+					"{\"text\":\"Commencing countdown, engines on (five, four, three)\\nCheck ignition and may God\\u0027s love be with you (two, one, liftoff)\\n\\nThis is Ground Control to Major Tom\\nYou\\u0027ve really made the grade\\nAnd the papers want to know whose shirts you wear\"}",
+					"{\"text\":\"Now it\\u0027s time to leave the capsule if you dare\\n\\\"This is Major Tom to Ground Control\\nI\\u0027m stepping through the door\\nAnd I\\u0027m floating in a most peculiar way\\n\\nAnd the stars look very different today\\nFor here\"}",
+					"{\"text\":\"Am I sitting in a tin can\\nFar above the world\\nPlanet Earth is blue\\nAnd there\\u0027s nothing I can do\\n\\nThough I\\u0027m past one hundred thousand miles\\nI\\u0027m feeling very still\\n\\nAnd I think my spaceship knows which way to go\"}",
+					"{\"text\":\"Tell my wife I love her very much she knows\\nGround Control to Major Tom\\nYour circuit\\u0027s dead, there\\u0027s something wrong\\n\\nCan you hear me, Major Tom?\\nCan you hear me, Major Tom?\\nCan you hear me, Major Tom?\"}",
+					"{\"text\":\"Can you \\\"Here am I floating \\u0027round my tin can\\nFar above the moon\\n\\n\\n\\n\\nPlanet Earth is blue\\nAnd there\\u0027s nothing I can do\\\"\"}"
+				],
+				author: "adam98991",
+				title: "Journey To Space",
+				resolved: 1b
+			}
+		}
+	}]
+}

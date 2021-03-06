@@ -1,0 +1,29 @@
+{
+	x: 11.0d,
+	y: 0.5d,
+	dependencies: [
+		"cb9faa4a"
+	],
+	tasks: [{
+		uid: "8e8711fa",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:toaster"
+		}]
+	}],
+	rewards: [{
+		uid: "32e6cad5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d182a499",
+		type: "item",
+		item: "harvestcraft:ironbrewitem"
+	},
+	{
+		uid: "c647e6da",
+		type: "item",
+		item: "minecraft:bread"
+	}]
+}

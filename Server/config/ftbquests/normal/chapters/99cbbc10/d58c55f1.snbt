@@ -1,0 +1,24 @@
+{
+	title: "Enderios",
+	x: 2.0d,
+	y: -6.5d,
+	text: [
+		"Part of a balanced breakfast! Not actually healthy… be careful you will get nausea, dizziness, confusion and random teleportation!"
+	],
+	tasks: [{
+		uid: "0e552e89",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_ender_food"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "16cf114d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

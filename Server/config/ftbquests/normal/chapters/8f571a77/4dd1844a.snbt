@@ -1,0 +1,35 @@
+{
+	title: "16x Raw Meat",
+	x: -0.5d,
+	y: -3.0d,
+	shape: "octagon",
+	description: "Hunter",
+	can_repeat: true,
+	tasks: [{
+		uid: "b2076dad",
+		type: "item",
+		title: "16x Raw Meat",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllmeatraw",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f604ac8d",
+		type: "item",
+		title: "25 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 25L
+			}
+		}
+	}]
+}

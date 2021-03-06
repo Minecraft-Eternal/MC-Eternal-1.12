@@ -1,0 +1,163 @@
+{
+	title: "&e&lRare Moon Artifacts",
+	x: 3.2d,
+	y: -0.4d,
+	shape: "octagon",
+	description: "&oMoonlight drowns out all but the brightest stars",
+	size: 0.8d,
+	tasks: [{
+		uid: "d5752780",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:glass_sword",
+			tag: {
+				ench: [{
+					lvl: 8,
+					id: 21
+				},
+				{
+					lvl: 19,
+					id: 16
+				},
+				{
+					lvl: 8,
+					id: 22
+				}],
+				Unbreakable: 1,
+				display: {
+					Lore: [
+						"§8§k232!§r§l§8It yearns to be returned to its home planet§8§k3242",
+						"§l§e(Rare Moon Artifact)"
+					],
+					Name: "§9Frozen Blade §rof the §4Unholy Prince"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "87f1d317",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:giant_sword",
+			tag: {
+				ench: [{
+					lvl: 8,
+					id: 29
+				},
+				{
+					lvl: 19,
+					id: 16
+				},
+				{
+					lvl: 8,
+					id: 27
+				}],
+				Unbreakable: 1,
+				display: {
+					Lore: [
+						"§8§r§lAncient Tarnished Blade",
+						"§l§e(Rare Moon Artifact)"
+					],
+					Name: "§3Giant's Bane"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "3c923620",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonbone_sword",
+			tag: {
+				ench: [{
+					lvl: 13,
+					id: 16
+				},
+				{
+					lvl: 19,
+					id: 19
+				},
+				{
+					lvl: 8,
+					id: 43
+				}],
+				Unbreakable: 1,
+				display: {
+					Lore: [
+						"§8§r§rTriple Compressed Cheese",
+						"§l§e(Rare Moon Artifact)"
+					],
+					Name: "§6§lMoon King"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "540a45e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:armor_silver_metal_helmet",
+			tag: {
+				ench: [{
+					lvl: 10,
+					id: 0
+				}],
+				Unbreakable: 1,
+				display: {
+					Lore: [
+						"§aThree things are certain in life: death, taxes and opening a bad chancecube",
+						"§e(§R§eRare Moon Artifact)"
+					],
+					Name: "§9God-King's Grace, Breath of Life"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 193404700,
+					Amount: 25,
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "e1bb9d6a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "4a72897d",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

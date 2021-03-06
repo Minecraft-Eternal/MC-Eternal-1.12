@@ -1,0 +1,32 @@
+{
+	x: -9.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "708aab03",
+		type: "kill",
+		title: "&6&lBounty: Midge Swarm",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:wasp_sword"
+		},
+		entity: "erebus:erebus.midge_swarm",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "e8a00cb2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "4334a126",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

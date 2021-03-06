@@ -1,0 +1,31 @@
+{
+	x: -21.0d,
+	y: -4.0d,
+	dependencies: [
+		"db3d34ad"
+	],
+	tasks: [{
+		uid: "8ff33256",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "e8104591",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "f4120935",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "00ad9dac",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 10
+	}]
+}

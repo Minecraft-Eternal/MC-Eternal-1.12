@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "Place a skull on the Guardian Alter, after a moment, the arena will be spawned, where you will fight the Tower Guardian *Deals additional magic damage at higher difficulties*",
+	tasks: [{
+		uid: "2ada0cdf",
+		type: "kill",
+		icon: "enderio:item_material 1 56",
+		entity: "dungeontactics:towerguardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "77578fc0",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "a5b8a16f",
+		type: "loot",
+		table: 1
+	}]
+}

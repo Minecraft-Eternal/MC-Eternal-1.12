@@ -1,0 +1,66 @@
+{
+	title: "&7&lWar &kdestruction",
+	x: -3.5d,
+	y: 2.0d,
+	description: "What is it good for?",
+	dependencies: [
+		"f687915f"
+	],
+	tasks: [{
+		uid: "b2b59b2b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:war"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "443ae833",
+		type: "ftbmoney:money",
+		ftb_money: 666L
+	},
+	{
+		uid: "040b1638",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "9741a73d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dread_knight_sword",
+			tag: {
+				ench: [{
+					lvl: 15,
+					id: 16
+				},
+				{
+					lvl: 10,
+					id: 20
+				},
+				{
+					lvl: 10,
+					id: 34
+				}],
+				display: {
+					Lore: [
+						"Forged to destroy life, created to bring about the end of the world. You feel a sense of duty after placing your hands on the hilt. All life must die."
+					],
+					Name: "Apocalypse"
+				}
+			}
+		}
+	}]
+}

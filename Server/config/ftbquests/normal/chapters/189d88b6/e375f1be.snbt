@@ -1,0 +1,73 @@
+{
+	title: "Mother of Dragons",
+	x: -12.0d,
+	y: -10.0d,
+	description: "Dracarys? ",
+	dependencies: [
+		"a9d286cd"
+	],
+	tasks: [{
+		uid: "8a414f9d",
+		type: "item",
+		title: "Collect a dragon egg",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_red"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_blue"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_white"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_green"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_gray"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_bronze"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b6bab62",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "f8635078",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "70c468ee",
+		type: "item",
+		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "99ab80b3",
+		type: "item",
+		item: "iceandfire:goldpile",
+		count: 32
+	}]
+}

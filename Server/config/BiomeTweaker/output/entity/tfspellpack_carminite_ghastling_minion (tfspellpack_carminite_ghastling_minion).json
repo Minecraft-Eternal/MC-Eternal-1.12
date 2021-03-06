@@ -1,0 +1,6 @@
+
+{
+  "Name": "tfspellpack:carminite_ghastling_minion",
+  "Registry ID": "tfspellpack:carminite_ghastling_minion",
+  "Class": "electroblob.tfspellpack.entity.living.EntityMiniGhastMinion"
+}

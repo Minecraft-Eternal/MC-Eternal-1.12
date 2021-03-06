@@ -1,0 +1,25 @@
+{
+	x: 11.5d,
+	y: -0.5d,
+	description: "&oMoo?",
+	dependencies: [
+		"0a5005e1"
+	],
+	tasks: [{
+		uid: "20c81d46",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cow_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "901808eb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "bb9e5e0e",
+		type: "loot",
+		table: 1
+	}]
+}

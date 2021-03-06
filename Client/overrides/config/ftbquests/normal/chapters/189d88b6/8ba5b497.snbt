@@ -1,0 +1,57 @@
+{
+	title: "We are going on an adventure!",
+	x: -12.0d,
+	y: -6.0d,
+	description: "Contruct a ship and assemble the structure",
+	text: [
+		"&l*Exiting the menu after pressing assemble will result in a crash*"
+	],
+	dependencies: [
+		"915cf001"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "abe2da0e",
+		type: "item",
+		items: [{
+			item: "davincisvessels:marker"
+		}]
+	},
+	{
+		uid: "0084b18b",
+		type: "item",
+		items: [{
+			item: "davincisvessels:balloon"
+		}],
+		count: 16L
+	},
+	{
+		uid: "957f56e8",
+		type: "item",
+		items: [{
+			item: "davincisvessels:seat"
+		}]
+	},
+	{
+		uid: "e8b32e47",
+		type: "item",
+		items: [{
+			item: "davincisvessels:engine"
+		}]
+	}],
+	rewards: [{
+		uid: "3362ab6b",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "3cc5235c",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "949def2b",
+		type: "item",
+		item: "actuallyadditions:item_food 1 11"
+	}]
+}

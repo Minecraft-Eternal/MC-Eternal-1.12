@@ -1,0 +1,24 @@
+{
+	x: -10.5d,
+	y: -2.5d,
+	dependencies: [
+		"c6a58218"
+	],
+	tasks: [{
+		uid: "57d71d2c",
+		type: "item",
+		items: [{
+			item: "futuremc:campfire"
+		}]
+	}],
+	rewards: [{
+		uid: "256aeeaf",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "3934979d",
+		type: "loot",
+		table: 1
+	}]
+}

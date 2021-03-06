@@ -1,0 +1,20 @@
+{
+	x: -9.5d,
+	y: -0.5d,
+	description: "Create custom doors out of any block and combine any animation you want to create the perfect personalised door!",
+	dependencies: [
+		"14b54c00"
+	],
+	tasks: [{
+		uid: "54c3e03d",
+		type: "item",
+		items: [{
+			item: "malisisdoors:door_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "3486d963",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

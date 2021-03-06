@@ -1,0 +1,119 @@
+{
+	title: "Forgotten trash can",
+	icon: "extrautils2:trashcan",
+	empty_weight: 1,
+	loot_size: 34,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:leather_chestplate"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:leather_leggings"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dungeontactics:studded_boots"
+		},
+		only_one: true
+	},
+	{
+		item: "rats:rat_burger",
+		count: 3,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:longsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 78,
+					HarvestLevel: 0,
+					Attack: 2.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 78,
+					HarvestLevel: 0,
+					Attack: 2.5f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				}],
+				Traits: [
+					"ecological"
+				]
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "rats:cheese",
+		count: 2
+	},
+	{
+		item: "mod_lavacow:intestine",
+		random_bonus: 3,
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:paper",
+			tag: {
+				display: {
+					Name: "fallout 76 game key"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "harvestcraft:kungpaochickenitem"
+	}],
+	loot_crate: {
+		string_id: "starting_gear",
+		color: 8421504,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

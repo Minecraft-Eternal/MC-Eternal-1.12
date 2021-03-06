@@ -1,0 +1,6 @@
+
+{
+  "Name": "mod_lavacow.salamander",
+  "Registry ID": "mod_lavacow:salamander",
+  "Class": "com.Fishmod.mod_LavaCow.entities.tameable.EntitySalamander"
+}

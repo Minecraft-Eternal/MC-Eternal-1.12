@@ -1,0 +1,39 @@
+{
+	x: -5.75d,
+	y: -1.5d,
+	shape: "square",
+	description: "&oHorrific mutated beast created by multiple detatched bodyparts and shaped into a wolf-like creature by the most twisted and corrupt Necromancers in the Undying",
+	size: 0.5d,
+	tasks: [{
+		uid: "3d1b4547",
+		type: "kill",
+		title: "&6&lBounty: &r&8Undying Bloodhound",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dread_sword"
+		},
+		entity: "iceandfire:dread_beast",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "f09f61c5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "450cf024",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

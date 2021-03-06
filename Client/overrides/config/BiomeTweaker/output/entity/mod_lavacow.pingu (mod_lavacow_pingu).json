@@ -1,0 +1,6 @@
+
+{
+  "Name": "mod_lavacow.pingu",
+  "Registry ID": "mod_lavacow:pingu",
+  "Class": "com.Fishmod.mod_LavaCow.entities.EntityPingu"
+}

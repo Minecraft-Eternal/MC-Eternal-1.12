@@ -1,0 +1,6 @@
+
+{
+  "Name": "Citizen",
+  "Registry ID": "minecolonies:citizen",
+  "Class": "com.minecolonies.coremod.entity.citizen.EntityCitizen"
+}

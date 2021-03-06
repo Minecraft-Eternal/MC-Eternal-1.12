@@ -1,0 +1,24 @@
+{
+	x: -11.5d,
+	y: 6.5d,
+	dependencies: [
+		"e3372ef6"
+	],
+	tasks: [{
+		uid: "4adc7baf",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "1d26abf1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e7b04152",
+		type: "loot",
+		table: 1
+	}]
+}

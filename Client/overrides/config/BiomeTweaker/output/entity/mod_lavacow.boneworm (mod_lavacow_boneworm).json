@@ -1,0 +1,6 @@
+
+{
+  "Name": "mod_lavacow.boneworm",
+  "Registry ID": "mod_lavacow:boneworm",
+  "Class": "com.Fishmod.mod_LavaCow.entities.EntityBoneWorm"
+}

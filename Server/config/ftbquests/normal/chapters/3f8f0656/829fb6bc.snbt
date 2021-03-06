@@ -1,0 +1,24 @@
+{
+	x: 12.5d,
+	y: -1.5d,
+	description: "I shall return",
+	dependencies: [
+		"60355bd7"
+	],
+	tasks: [{
+		uid: "24df8322",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_rod_of_return"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dd5cd274",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: -11.0d,
+	y: -22.5d,
+	shape: "octagon",
+	dependencies: [
+		"eaed8a89"
+	],
+	tasks: [{
+		uid: "56dd8f9f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:lamp_of_cinders"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "595e5691",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "78b50a1a",
+		type: "item",
+		title: "Golden Lootbox",
+		icon: "treasure2:gold_strongbox",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_lootbox"
+			}
+		}
+	}]
+}

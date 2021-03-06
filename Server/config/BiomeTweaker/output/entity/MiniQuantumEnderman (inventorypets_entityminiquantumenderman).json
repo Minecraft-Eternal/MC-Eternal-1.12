@@ -1,0 +1,6 @@
+
+{
+  "Name": "MiniQuantumEnderman",
+  "Registry ID": "inventorypets:entityminiquantumenderman",
+  "Class": "com.inventorypets.entities.EntityMiniQuantumEnderman"
+}

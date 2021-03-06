@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	dependencies: [
+		"281d36be"
+	],
+	tasks: [{
+		uid: "dcb48c41",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:tool.fishing_rod_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "287e71c2",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "c66e6b24",
+		type: "loot",
+		table: 1
+	}]
+}

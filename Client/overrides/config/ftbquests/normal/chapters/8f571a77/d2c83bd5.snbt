@@ -1,0 +1,26 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	description: "Farming",
+	can_repeat: true,
+	tasks: [{
+		uid: "2b9a1ceb",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:dark_chocolate"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "082db04c",
+		type: "item",
+		title: "10 Coins",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10L
+			}
+		}
+	}]
+}

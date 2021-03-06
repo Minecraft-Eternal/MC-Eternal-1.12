@@ -1,0 +1,100 @@
+{
+	x: -4.25d,
+	y: 0.0d,
+	shape: "square",
+	description: "&oThe Feral Ratlantean is a monstrous giant rodent that can only be assumed to be the direct ancestor of the once civilized Ratlanteans.",
+	size: 0.5d,
+	tasks: [{
+		uid: "28117dd7",
+		type: "kill",
+		title: "&6&lBounty: &eFeral Ratlantean",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.0f,
+					FreeModifiers: 3,
+					Durability: 1074,
+					HarvestLevel: 1,
+					Attack: 4.95f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.0f,
+					FreeModifiers: 3,
+					Durability: 1074,
+					HarvestLevel: 1,
+					Attack: 4.95f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"cheese",
+						"cheese",
+						"cheese",
+						"cheese"
+					],
+					Modifiers: [
+						"beheading_cleaver",
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ratty",
+					color: -868046,
+					level: 1
+				},
+				{
+					identifier: "tasty",
+					color: -868046,
+					level: 1
+				},
+				{
+					identifier: "beheading_cleaver",
+					color: 1070923,
+					level: 2
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ratty",
+					"tasty",
+					"toolleveling"
+				]
+			}
+		},
+		entity: "rats:feral_ratlantean",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "4daacf62",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "41d2c09a",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

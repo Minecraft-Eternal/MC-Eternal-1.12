@@ -1,0 +1,6 @@
+
+{
+  "Name": "vampirism.vampire_hunter",
+  "Registry ID": "vampirism:vampire_hunter",
+  "Class": "de.teamlapen.vampirism.entity.hunter.EntityBasicHunter"
+}

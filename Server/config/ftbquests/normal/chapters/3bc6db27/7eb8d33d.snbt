@@ -1,0 +1,24 @@
+{
+	x: 3.5d,
+	y: -5.0d,
+	dependencies: [
+		"37cf225d"
+	],
+	tasks: [{
+		uid: "c6f905ed",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:block_destroyer"
+		}]
+	}],
+	rewards: [{
+		uid: "d464ebe2",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "59689894",
+		type: "loot",
+		table: 1
+	}]
+}

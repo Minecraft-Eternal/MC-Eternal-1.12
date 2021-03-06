@@ -1,0 +1,26 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	description: "Farming",
+	can_repeat: true,
+	tasks: [{
+		uid: "8583278d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cucumberitem"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "787c95dc",
+		type: "item",
+		title: "25 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 25L
+			}
+		}
+	}]
+}

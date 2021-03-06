@@ -1,0 +1,49 @@
+{
+	x: -4.5d,
+	y: -7.5d,
+	shape: "square",
+	description: "A hostile mob that spawns only in coniferous forests. It will hit and knock players back with strong force.",
+	dependencies: [
+		"92efe452"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8ce8942a",
+		type: "kill",
+		title: "Bounty: Undead Swine",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "mod_lavacow:undeadswine",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "84084f4a",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "c71f2a5f",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "b23773c0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:dreamcatcher"
+		}
+	},
+	{
+		uid: "85130a08",
+		type: "item",
+		item: "minecraft:emerald_block",
+		count: 2
+	}]
+}

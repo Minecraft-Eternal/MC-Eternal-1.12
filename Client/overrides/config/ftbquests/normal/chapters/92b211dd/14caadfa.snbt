@@ -1,0 +1,44 @@
+{
+	x: -2.0d,
+	y: -5.5d,
+	description: "&oI'll be seeing you again real soon",
+	text: [
+		"&6&lGETTING TO THE MOON FOR DUMMIES&r &o(Incase you ignored all the quest text earlier)",
+		"1. Build a Rocket",
+		"2. Include a guidance computer and a seat.",
+		"3. Fuel the Rocket",
+		"4. Put on oxygen-filled Spacesuit ",
+		"5. Enter the Rocket, hit 'C' for rocket menu (check keybindings)",
+		"6. Select Moon from Destinations",
+		"7. Hit 'Spacebar' to BLAST OFF!!"
+	],
+	dependencies: [
+		"57a0e1f7"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "4c5e4add",
+		type: "checkmark",
+		title: "Lesson over, for now...",
+		icon: "rats:cheese_cannonball"
+	}],
+	rewards: [{
+		uid: "f2a80411",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "4ba6e9df",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

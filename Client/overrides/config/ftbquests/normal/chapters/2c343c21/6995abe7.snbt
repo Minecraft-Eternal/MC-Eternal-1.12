@@ -1,0 +1,253 @@
+{
+	title: "&c&lCorruption Set",
+	x: 3.2d,
+	y: -1.2d,
+	shape: "octagon",
+	description: "&oIt is not power that corrupts but fear. Fear of losing power corrupts those who wield it and fear of the scourge of power corrupts those who are subject to it.",
+	size: 0.8d,
+	tasks: [{
+		uid: "75430e96",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_robe_chest",
+			tag: {
+				ench: [{
+					lvl: 8,
+					id: 0
+				}],
+				Unbreakable: 1,
+				HideFlags: 33,
+				display: {
+					Lore: [
+						"§8The means to prolong one's life is corrupting, unnatural and not without cost...",
+						"§c(Part of the Corruption set)"
+					],
+					Name: "§4§lGrasp of Death"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 193154400,
+					Amount: 8,
+					Slot: "chest",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "Sorrow"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 193154500,
+					Amount: 30,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "Sorrow"
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "97aae3ff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_robe_legs",
+			tag: {
+				ench: [{
+					lvl: 8,
+					id: 0
+				}],
+				Unbreakable: 1,
+				HideFlags: 33,
+				display: {
+					Lore: [
+						"§8The means to prolong one's life is corrupting, unnatural and not without cost...",
+						"§c(Part of the Corruption set)"
+					],
+					Name: "§4§lGrasp of Suffering"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 193034900,
+					Amount: 1,
+					Slot: "chest",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "Sorrow"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 193035000,
+					Amount: 15,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "Sorrow"
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "e9f9b155",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_sword",
+			tag: {
+				ench: [{
+					lvl: 20,
+					id: 0
+				},
+				{
+					lvl: 7,
+					id: 16
+				},
+				{
+					lvl: 16,
+					id: 17
+				}],
+				Unbreakable: 1,
+				HideFlags: 39,
+				display: {
+					Lore: [
+						"§8All that's left is a Nightmare...",
+						"§c(Part of the Corruption Set)",
+						"§e(Rare Moon Artifact)"
+					],
+					Name: "§7Dream Eater"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 193293800,
+					Amount: 100,
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 193293900,
+					Amount: 1,
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "51644707",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_blade",
+			tag: {
+				ench: [{
+					lvl: 20,
+					id: 0
+				},
+				{
+					lvl: 7,
+					id: 16
+				},
+				{
+					lvl: 16,
+					id: 17
+				}],
+				Unbreakable: 1,
+				HideFlags: 39,
+				display: {
+					Lore: [
+						"§8\"But what we call our despair is often only the painful eagerness of unfed hope.\"",
+						"§c(Part of the Corruption Set)",
+						"§e(Rare Moon Artifact)"
+					],
+					Name: "§5Despair"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 193433200,
+					Amount: 66,
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "7a93ccbb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_boots",
+			tag: {
+				HideFlags: 37,
+				display: {
+					Lore: [
+						"§8You have plenty of courage, I am sure",
+						"§c(Part of the Corruption Set)"
+					],
+					Name: "§7Ruby Slippers"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 193253600,
+					Amount: 8,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "Sorrow"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 193253700,
+					Amount: 13,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "Sorrow"
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "d50e3853",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "5cb46369",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

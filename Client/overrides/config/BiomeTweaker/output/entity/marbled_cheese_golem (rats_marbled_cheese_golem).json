@@ -1,0 +1,6 @@
+
+{
+  "Name": "marbled_cheese_golem",
+  "Registry ID": "rats:marbled_cheese_golem",
+  "Class": "com.github.alexthe666.rats.server.entity.EntityMarbleCheeseGolem"
+}

@@ -1,0 +1,27 @@
+{
+	x: -8.5d,
+	y: 1.0d,
+	shape: "circle",
+	description: "Block",
+	can_repeat: true,
+	tasks: [{
+		uid: "a0cc0e14",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "b782ab4e",
+		type: "item",
+		title: "50 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 50L
+			}
+		}
+	}]
+}

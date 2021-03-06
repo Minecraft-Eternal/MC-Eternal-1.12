@@ -1,0 +1,106 @@
+[{
+		"key": "Beast",
+		"bossInfo": {
+			"domain": "rats",
+			"name": "neo_ratlantean",
+			"displayName": "God-King Julius Cheesar, Eater of Cheese",
+			"maxHealth": 10500,
+			"attackDamage": 800,
+			"alwaysShowDisplayName": true
+		},
+		"bossAddInfo": {
+			"domain": "rats",
+			"name": "marbled_cheese_golem",
+			"displayName": "Loyal Cheese Guard",
+			"maxHealth": 6750,
+			"attackDamage": 250,
+			"alwaysShowDisplayName": true,
+			"spawnFrequency": 8,
+			"totalSpawnDuration": 30
+		}
+	},
+	{
+		"key": "PETA",
+		"bossInfo": {
+			"domain": "thebetweenlands",
+			"name": "tar_beast",
+			"displayName": "Undying Abomination",
+			"maxHealth": 8500,
+			"attackDamage": 100,
+			"alwaysShowDisplayName": true
+		},
+		"bossAddInfo": {
+			"domain": "midnight",
+			"name": "hunter",
+			"displayName": "Nightmare Fiend",
+			"maxHealth": 100,
+			"attackDamage": 800,
+			"alwaysShowDisplayName": true,
+			"spawnFrequency": 1,
+			"totalSpawnDuration": 15
+		}
+	},
+	{
+		"key": "Ares",
+		"bossInfo": {
+			"domain": "minecraft",
+			"name": "illusion_illager",
+			"displayName": "Loki",
+			"maxHealth": 8500,
+			"attackDamage": 350,
+			"alwaysShowDisplayName": true
+		},
+		"bossAddInfo": {
+			"domain": "mod_lavacow",
+			"name": "boneworm",
+			"displayName": "Reanimated Corpse",
+			"maxHealth": 150,
+			"attackDamage": 250,
+			"alwaysShowDisplayName": true,
+			"spawnFrequency": 8,
+			"totalSpawnDuration": 150
+		}
+	},
+	{
+		"key": "Aphrodite",
+		"bossInfo": {
+			"domain": "harvestersnight",
+			"name": "harvester",
+			"displayName": "Death, Reaper of Souls",
+			"maxHealth": 45500,
+			"attackDamage": 950,
+			"alwaysShowDisplayName": true
+		},
+		"bossAddInfo": {
+			"domain": "mod_lavacow",
+			"name": "scarecrow",
+			"displayName": "Death's Grasp",
+			"maxHealth": 2500,
+			"attackDamage": 250,
+			"alwaysShowDisplayName": false,
+			"spawnFrequency": 5,
+			"totalSpawnDuration": 100
+		}
+	},
+	{
+		"key": "Poseidon",
+		"bossInfo": {
+			"domain": "iceandfire",
+			"name": "dread_lich",
+			"displayName": "Dawnstar, Ruler of the Undying",
+			"maxHealth": 4500,
+			"attackDamage": 620,
+			"alwaysShowDisplayName": true
+		},
+		"bossAddInfo": {
+			"domain": "iceandfire",
+			"name": "dread_knight",
+			"displayName": "Eternal Royal Kings Guard",
+			"maxHealth": 800,
+			"attackDamage": 350,
+			"alwaysShowDisplayName": true,
+			"spawnFrequency": 10,
+			"totalSpawnDuration":150 
+		}
+	}
+]

@@ -1,0 +1,16 @@
+{
+	x: -18.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "e80f7631",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:platinum_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "d5ff7e9d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

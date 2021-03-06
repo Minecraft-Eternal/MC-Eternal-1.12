@@ -1,0 +1,101 @@
+{
+	title: "Moon Master",
+	x: -5.0d,
+	y: 1.5d,
+	shape: "diamond",
+	description: "&eThe Moon is mine! Muahah!",
+	dependencies: [
+		"92b211dd"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "03783b8e",
+		type: "item",
+		items: [{
+			item: "rats:block_of_cheese"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f8b1a670",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:armor_silver_metal_helmet",
+			tag: {
+				ench: [{
+					lvl: 10,
+					id: 0
+				}],
+				Unbreakable: 1,
+				display: {
+					Lore: [
+						"§aThree things are certain in life: death, taxes and opening a bad chancecube",
+						"§e(§R§eRare Moon Artifact)"
+					],
+					Name: "§9God-King's Grace, Breath of Life"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 193404700,
+					Amount: 25,
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "b099a2c0",
+		type: "item",
+		item: {
+			id: "rats:cheese",
+			tag: {
+				ench: [{
+					lvl: 20,
+					id: 19
+				}],
+				display: {
+					Lore: [
+						"§eBlessed by the Rat King himself",
+						"§eI wouldn't suggest eating this.."
+					],
+					Name: "§lThe §6§lHoly Cheese"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 199651500,
+					Amount: 62,
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 199651600,
+					Amount: 0.9d,
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				}]
+			}
+		}
+	},
+	{
+		uid: "8ce71407",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		},
+		count: 16
+	}]
+}

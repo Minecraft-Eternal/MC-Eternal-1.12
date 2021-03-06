@@ -1,0 +1,73 @@
+{
+	x: -8.5d,
+	y: 1.0d,
+	dependencies: [
+		"14b54c00"
+	],
+	tasks: [{
+		uid: "f082b29e",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "9b7c0156",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}],
+		count: 32L
+	},
+	{
+		uid: "35ca9307",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "99f9b8f9",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "ac57d6ba",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "81e6fc7d",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "2b7494ac",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "4d828d3e",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 8
+	},
+	{
+		uid: "b6d427fb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1f687928",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -12.5d,
+	y: -5.0d,
+	tasks: [{
+		uid: "00f83d3e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ice_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "b5a2a918",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "aa81f04e",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "69b8c01c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:wrought_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7134c23",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "5a037ad6",
+		type: "loot",
+		table: 1
+	}]
+}

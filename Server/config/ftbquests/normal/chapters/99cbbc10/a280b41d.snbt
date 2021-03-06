@@ -1,0 +1,23 @@
+{
+	x: 10.0d,
+	y: -8.0d,
+	text: [
+		"Me love COOKIES!"
+	],
+	dependencies: [
+		"17f50c84"
+	],
+	tasks: [{
+		uid: "a4f51e47",
+		type: "item",
+		items: [{
+			item: "harvestcraft:fortunecookieitem"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c3485fe1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

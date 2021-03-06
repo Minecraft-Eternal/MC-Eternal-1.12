@@ -1,0 +1,33 @@
+{
+	title: "An Introduction to Thaumcraft",
+	x: 16.5d,
+	y: 7.0d,
+	description: "Gather any of the Thaumcraft crystals you might find while mining and go for a sleep after... Who knows what ones subconscious mind might conjure",
+	text: [
+		""
+	],
+	dependencies: [
+		"5edf15e4"
+	],
+	tasks: [{
+		uid: "9af5a901",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c0a697c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5886f607",
+		type: "loot",
+		table: 1
+	}]
+}

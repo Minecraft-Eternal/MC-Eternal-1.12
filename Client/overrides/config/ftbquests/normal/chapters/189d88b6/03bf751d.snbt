@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	description: "&oDrops from the Ithaqua. A cursed being that thrives in the coniferous forest. &cPlayers should prepare themselves when they hear its horrifying howls. &k12&r",
+	dependencies: [
+		"55a5150c"
+	],
+	tasks: [{
+		uid: "b3ffe109",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:scythe_claw"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "8ba82486",
+		type: "ftbmoney:money",
+		ftb_money: 66L
+	},
+	{
+		uid: "ef3a6448",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "3e5630bd",
+		type: "item",
+		item: "bewitchment:box_of_sealed_evil"
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -7.5d,
+	y: 4.0d,
+	shape: "hexagon",
+	dependencies: [
+		"4837a5ed"
+	],
+	tasks: [{
+		uid: "a6b8f490",
+		type: "fluid",
+		fluid: "manyullyn"
+	}],
+	rewards: [{
+		uid: "3c16e7d1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a138e9f9",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "It feels so slimy...",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"You can turn jellyfish in to slime balls!"
+	],
+	tasks: [{
+		uid: "0e9ec042",
+		type: "item",
+		items: [{
+			item: "harvestcraft:frograwitem"
+		}]
+	},
+	{
+		uid: "eda3f218",
+		type: "item",
+		items: [{
+			item: "harvestcraft:eelrawitem"
+		}]
+	},
+	{
+		uid: "ac8f81e9",
+		type: "item",
+		items: [{
+			item: "harvestcraft:jellyfishrawitem"
+		}]
+	},
+	{
+		uid: "9c88088e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:snailrawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "1e3805b3",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "d66530e1",
+		type: "loot",
+		table: 1
+	}]
+}

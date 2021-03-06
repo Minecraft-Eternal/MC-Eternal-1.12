@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	dependencies: [
+		"3f12e68a"
+	],
+	tasks: [{
+		uid: "d80b458b",
+		type: "item",
+		items: [{
+			item: "buildcraftfactory:distiller"
+		}]
+	}],
+	rewards: [{
+		uid: "92a051c6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f77f29df",
+		type: "loot",
+		table: 1
+	}]
+}

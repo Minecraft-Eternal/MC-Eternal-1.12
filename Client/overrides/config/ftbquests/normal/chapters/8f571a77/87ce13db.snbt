@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -7.0d,
+	description: "*Can not be automated*",
+	can_repeat: true,
+	tasks: [{
+		uid: "65b22cc7",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f14adafe",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

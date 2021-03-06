@@ -1,0 +1,46 @@
+{
+	title: "&lThe Millionare",
+	x: -1.5d,
+	y: 1.0d,
+	description: "*\"I've earned this fortune fair and square! You should just try a little harder!\"*",
+	tasks: [{
+		uid: "ef34bac9",
+		type: "ftbmoney:money",
+		value: 3500000L
+	}],
+	rewards: [{
+		uid: "c0bdbe87",
+		type: "item",
+		item: "mysticalagradditions:nether_star_seeds"
+	},
+	{
+		uid: "5ac9d2a1",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "c538a9bc",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "1d9b81ba",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "0586e814",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "8d301dab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

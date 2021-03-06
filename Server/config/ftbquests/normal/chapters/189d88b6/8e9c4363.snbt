@@ -1,0 +1,26 @@
+{
+	x: -11.5d,
+	y: -7.0d,
+	description: "Baby tamed cockatrices can be hatched by throwing a &lrotten egg.",
+	dependencies: [
+		"a9d286cd"
+	],
+	tasks: [{
+		uid: "00122728",
+		type: "item",
+		items: [{
+			item: "iceandfire:rotten_egg"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "e1734d19",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "5d31cfb3",
+		type: "loot",
+		table: 1
+	}]
+}

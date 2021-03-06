@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	description: "Ratlantean Automatons are ancient machines created by the Ratlanteans. They can be made in the world similar to an iron golem.",
+	tasks: [{
+		uid: "7059b924",
+		type: "kill",
+		icon: "rats:marbled_cheese_rat_head",
+		entity: "rats:marbled_cheese_golem",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f613d44b",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "74037650",
+		type: "loot",
+		table: 1
+	}]
+}

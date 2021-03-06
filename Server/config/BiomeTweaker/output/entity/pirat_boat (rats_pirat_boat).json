@@ -1,0 +1,6 @@
+
+{
+  "Name": "pirat_boat",
+  "Registry ID": "rats:pirat_boat",
+  "Class": "com.github.alexthe666.rats.server.entity.EntityPiratBoat"
+}

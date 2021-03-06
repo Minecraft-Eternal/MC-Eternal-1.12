@@ -1,0 +1,21 @@
+{
+	x: -18.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "4e664dc9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:enderman_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "bec14156",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4e3d9ac9",
+		type: "loot",
+		table: 1
+	}]
+}

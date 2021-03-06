@@ -1,0 +1,6 @@
+
+{
+  "Name": "mod_lavacow.foglet",
+  "Registry ID": "mod_lavacow:foglet",
+  "Class": "com.Fishmod.mod_LavaCow.entities.EntityFoglet"
+}

@@ -1,0 +1,29 @@
+{
+	x: -18.0d,
+	y: -7.0d,
+	dependencies: [
+		"6da2b354"
+	],
+	tasks: [{
+		uid: "fe371002",
+		type: "item",
+		items: [{
+			item: "rats:arcane_technology"
+		}]
+	}],
+	rewards: [{
+		uid: "14accf52",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7c951b40",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6508241c",
+		type: "item",
+		item: "rats:rat_upgrade_tnt"
+	}]
+}

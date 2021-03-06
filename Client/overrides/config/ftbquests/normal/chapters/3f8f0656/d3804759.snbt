@@ -1,0 +1,27 @@
+{
+	title: "Starting Chassis",
+	x: 8.5d,
+	y: 6.5d,
+	description: "Base crafting component of all EnderIO machinery",
+	dependencies: [
+		"57e06d6f"
+	],
+	tasks: [{
+		uid: "1e13f7d3",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "4d124911",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "446495d7",
+		type: "loot",
+		table: 1
+	}]
+}

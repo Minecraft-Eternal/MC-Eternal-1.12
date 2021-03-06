@@ -1,0 +1,26 @@
+{
+	x: -8.0d,
+	y: -2.0d,
+	description: "Lumberjack",
+	can_repeat: true,
+	tasks: [{
+		uid: "627cc296",
+		type: "item",
+		items: [{
+			item: "minecraft:log 1 3"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "b5358492",
+		type: "item",
+		title: "25 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 25L
+			}
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "fbe80735",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:pixie_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "faf36ae1",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "d60600e5",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "blockBomb",
+  "Registry ID": "stupidthings:blockbomb",
+  "Class": "furgl.stupidThings.common.entity.EntityBlockBomb"
+}

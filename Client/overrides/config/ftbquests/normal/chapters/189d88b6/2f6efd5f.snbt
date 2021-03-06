@@ -1,0 +1,41 @@
+{
+	x: -15.5d,
+	y: 1.0d,
+	description: "Beds? Who needs em",
+	dependencies: [
+		"63c7ef68"
+	],
+	tasks: [{
+		uid: "e01d9d5c",
+		type: "item",
+		items: [{
+			item: "randomthings:eclipsedclock"
+		}]
+	}],
+	rewards: [{
+		uid: "e652dda0",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "4bbc886b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_chestplate",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 3s
+				}]
+			}
+		}
+	},
+	{
+		uid: "6dae3d8f",
+		type: "loot",
+		table: 1
+	}]
+}

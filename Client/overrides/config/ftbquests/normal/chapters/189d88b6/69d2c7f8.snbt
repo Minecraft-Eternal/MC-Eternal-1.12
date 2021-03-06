@@ -1,0 +1,49 @@
+{
+	title: "Nether Adventurer",
+	x: -9.5d,
+	y: -7.5d,
+	description: "&oIt's deep underground, Past the bedrock, But don't dig straight down, You'll regret that",
+	dependencies: [
+		"d22a6b71"
+	],
+	tasks: [{
+		uid: "c7f0083f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "32da09a2",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "35d0c336",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b82ae286",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a09478db",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:long_fire_resistance"
+			}
+		}
+	}]
+}

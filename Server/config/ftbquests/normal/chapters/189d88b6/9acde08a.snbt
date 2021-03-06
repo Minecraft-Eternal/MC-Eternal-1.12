@@ -1,0 +1,31 @@
+{
+	x: -5.0d,
+	y: -1.5d,
+	shape: "octagon",
+	description: "&oIt's just as amazing as you pictured in that little brain of yours",
+	dependencies: [
+		"b102924c"
+	],
+	tasks: [{
+		uid: "ea447a55",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:piranhalauncher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b083fa76",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "58f890e0",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 14.0d,
+	y: 13.0d,
+	dependencies: [
+		"1ae749b8"
+	],
+	tasks: [{
+		uid: "475d54c4",
+		type: "item",
+		items: [{
+			item: "vampirism:alchemical_cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "78ca4bf0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

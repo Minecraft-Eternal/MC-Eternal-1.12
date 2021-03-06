@@ -1,0 +1,49 @@
+{
+	title: "&6&lBounty: &c&l5th Legion",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "iceandfire:dread_knight_sword"
+	},
+	x: -5.0d,
+	y: -1.5d,
+	shape: "square",
+	description: "&oAn undead twisted abomination sent to take over planets by raw force. One of the highest military ranks in the Undying army. It is rumoured that in order for an Undying Soldier to be promoted it must have committed an act so unbelievably heinous...",
+	text: [
+		""
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "72f4d886",
+		type: "kill",
+		title: "&6&lBounty: &c&l5th Legion",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dread_sword"
+		},
+		entity: "iceandfire:dread_knight",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "d9b04622",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "ac722ab9",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

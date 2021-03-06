@@ -1,0 +1,39 @@
+{
+	title: "Basic Infrastructure 3.",
+	x: 2.5d,
+	y: -2.0d,
+	description: "&rThe &lCutting Machine's &rprimary purpose is to cut silicon boules into silicon wafers and circuit plates into basic circuits.",
+	text: [
+		"&c&lReminder to use the Holo-Projector to complete the structure, then right click the Cutting machine block."
+	],
+	dependencies: [
+		"1a28fee1"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "3fd16dbb",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:cuttingmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "db08084e",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "270cbda9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

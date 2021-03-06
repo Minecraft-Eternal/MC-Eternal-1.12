@@ -1,0 +1,22 @@
+{
+	x: -11.0d,
+	y: 3.0d,
+	description: "The Questing Ram is a very rare and special mob that spawns in a Quest Grove. It appears as a large ram with glowing stripes on its body. Questing Rams are useful for when they are fed one of each of the 16 colors of Wool, it will grant great riches!",
+	tasks: [{
+		uid: "b8e73222",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "37fe2e85",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "b1a958ac",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -12.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "dfac9d02",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:soularium_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "d9810b2c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7da553d7",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -43,15 +43,6 @@ thaumcraft:deathgaze
 thaumcraft:blurredvision
 thaumcraft:sunscorned
 thaumcraft:thaumarhia
-tombstone:ghostly_shape
-tombstone:preservation
-tombstone:unstable_intangibleness
-tombstone:diversion
-tombstone:feather_fall
-tombstone:purification
-tombstone:true_sight
-tombstone:exorcism
-tombstone:reach
 twilightforest:frosted
 tconstruct:carry
 tconstruct:enderference

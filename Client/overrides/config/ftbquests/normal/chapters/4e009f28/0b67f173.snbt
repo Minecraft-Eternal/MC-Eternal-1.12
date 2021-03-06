@@ -1,0 +1,16 @@
+{
+	x: -16.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "c5e74dbd",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:basalz_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "bc80fcbe",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

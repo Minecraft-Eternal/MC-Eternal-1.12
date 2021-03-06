@@ -1,0 +1,20 @@
+{
+	x: -12.0d,
+	y: 5.5d,
+	dependencies: [
+		"ea1f3325"
+	],
+	tasks: [{
+		uid: "98a4fd8a",
+		type: "item",
+		items: [{
+			item: "forestry:sturdy_machine"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "c63f43ff",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

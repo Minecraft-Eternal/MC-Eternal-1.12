@@ -1,0 +1,106 @@
+{
+	title: "&9&lExtraterrestrial Artifacts",
+	x: 3.2d,
+	y: 0.4d,
+	shape: "octagon",
+	description: "&oI'm sure the universe is full of intelligent life. It's just been too intelligent to come here - Arthur C. Clarke",
+	size: 0.8d,
+	tasks: [{
+		uid: "b12c2066",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dungeontactics:high_striker",
+			tag: {
+				ench: [{
+					lvl: 20,
+					id: 0
+				},
+				{
+					lvl: 7,
+					id: 16
+				},
+				{
+					lvl: 16,
+					id: 17
+				}],
+				HideFlags: 39,
+				display: {
+					Lore: [
+						"§8From a faraway land where the dead stay awake and the living are most unwelcome",
+						"§e(Rare Extraterrestrial Artifact)"
+					],
+					Name: "§7Hammer of the Undying"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 193260200,
+					Amount: 144,
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 193260300,
+					Amount: 5,
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 99,
+					UUIDLeast: 193260400,
+					Amount: 5,
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "be00df23",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dread_queen_sword",
+			tag: {
+				HideFlags: 4,
+				display: {
+					Lore: [
+						"Blue in the darkness",
+						"Like a sickly diamond"
+					]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5325db98",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "97c3f37b",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	title: "Challenges",
+	icon: "mod_lavacow:mootenheart",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 1.0d,
+		y: -5.5d,
+		width: 6.0d,
+		height: 0.9d,
+		rotation: -2.0d,
+		image: "assets:challenges.png",
+		hover: [
+			"Thanks for playing! If you've enjoyed the experience so far why not leave a review on CurseForge. It really does make a difference! :D (Click to be redirected)"
+		],
+		click: "https://www.curseforge.com/minecraft/modpacks/minecraft-eternal",
+		dev: false
+	},
+	{
+		x: 2.0d,
+		y: -4.0d,
+		width: 0.8d,
+		height: 0.8d,
+		rotation: 30.0d,
+		image: "assets:chance.png",
+		hover: [],
+		click: "https://www.google.com/search?q=dice+roller",
+		dev: false
+	},
+	{
+		x: 1.0d,
+		y: -4.5d,
+		width: 1.0d,
+		height: 1.5d,
+		rotation: 0.0d,
+		image: "assets:skull.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: -4.0d,
+		width: 0.8d,
+		height: 0.8d,
+		rotation: 80.0d,
+		image: "assets:chance.png",
+		hover: [],
+		click: "https://www.google.com/search?q=dice+roller",
+		dev: false
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -5.0d,
+	y: 7.0d,
+	dependencies: [
+		"c9f8530f"
+	],
+	tasks: [{
+		uid: "8f8febf9",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutflorist"
+		}]
+	}],
+	rewards: [{
+		uid: "682fed22",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "39793350",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "2af645aa",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -13.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "e72bb0b2",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dye_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "a568ac6e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

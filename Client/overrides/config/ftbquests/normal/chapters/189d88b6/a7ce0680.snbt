@@ -1,0 +1,55 @@
+{
+	x: -14.0d,
+	y: -6.0d,
+	shape: "circle",
+	description: "Amphitheres are mystical feathered serpents that soar through the dense jungle and can be tackled and cowed into fast flying mounts.",
+	text: [
+		"First, one must catch up with the amphithere's quick slithering speed and mount it by interacting with it with an empty hand; if it is found flying, one must knock it out of the sky with a projectile before initiating the chase.",
+		"Once the amphithere is mounted, it will repeatedly turn its head over its side to bite its rider; in order to tame it, one must survive its bite attacks long enough before it begins to listen to commands",
+		"Feeding a tamed amphithere cocoa beans will heal it.",
+		"The dragon command staff can be used to set home and to command the beast",
+		"They can be bred using cookies!"
+	],
+	dependencies: [
+		"a9d286cd"
+	],
+	tasks: [{
+		uid: "ec75856a",
+		type: "advancement",
+		title: "Tame a Amphithere",
+		icon: "iceandfire:amphithere_feather",
+		advancement: "iceandfire:iceandfire/tame_amphithere",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "31ae2bed",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "8507270f",
+		type: "item",
+		item: "minecraft:golden_apple 1 1"
+	},
+	{
+		uid: "e68e0b7c",
+		type: "item",
+		item: "iceandfire:amphithere_arrow",
+		count: 64
+	},
+	{
+		uid: "042fc59c",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "db1b74e3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragon_stick"
+		}
+	}]
+}

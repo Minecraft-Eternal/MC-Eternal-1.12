@@ -1,0 +1,21 @@
+{
+	x: -18.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "bb380691",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:invar_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "fbb36d65",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9f8984b7",
+		type: "loot",
+		table: 1
+	}]
+}

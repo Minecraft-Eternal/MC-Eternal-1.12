@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	description: "Drop",
+	can_repeat: true,
+	tasks: [{
+		uid: "22be95c8",
+		type: "item",
+		items: [{
+			item: "minecraft:bone_block"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "1240d09a",
+		type: "item",
+		title: "50 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 50L
+			}
+		}
+	}]
+}

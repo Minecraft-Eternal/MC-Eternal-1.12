@@ -1,0 +1,35 @@
+{
+	title: "&c&lComplete all challenges and reclaim your soul from the modpack author",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:enderdagger"
+	},
+	x: 0.0d,
+	y: -1.5d,
+	shape: "hexagon",
+	description: "&oSo uh... I guess you've earned it? I'll get you next time! Yeah that sounds good, I mean congrats on completing all of these ridiculous challenges. Keep the soul.. Until you willfully give it to me again the next time you get easily fooled.",
+	dependencies: [
+		"03049ff4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "795cbb16",
+		type: "checkmark",
+		title: "It's totally safe to press me"
+	}],
+	rewards: [{
+		uid: "b5431f8c",
+		type: "item",
+		item: {
+			id: "botania:corporeaspark",
+			tag: {
+				display: {
+					Name: "Player Soul"
+				}
+			},
+			Damage: 1s
+		}
+	}]
+}

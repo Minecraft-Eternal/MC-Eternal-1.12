@@ -1,0 +1,50 @@
+{
+	title: "Become a Vampire Hunter",
+	icon: "vampirism:garlic_bread",
+	x: 12.5d,
+	y: 12.0d,
+	dependencies: [
+		"fee8fa16"
+	],
+	tasks: [{
+		uid: "66cbb44e",
+		type: "advancement",
+		advancement: "vampirism:hunter/become_hunter",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "abe105a2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:holy_water_splash_bottle",
+			tag: {
+				tier: "ULTIMATE"
+			}
+		}
+	},
+	{
+		uid: "90773ab8",
+		type: "item",
+		item: "vampirism:item_garlic",
+		count: 8
+	},
+	{
+		uid: "bc4fe0bf",
+		type: "item",
+		item: {
+			id: "vampirism:crossbow_arrow",
+			tag: {
+				type: "vampire_killer"
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "695b33ca",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

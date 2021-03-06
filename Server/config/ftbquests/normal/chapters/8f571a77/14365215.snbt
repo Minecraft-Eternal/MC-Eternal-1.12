@@ -1,0 +1,27 @@
+{
+	icon: "mysticalagriculture:crafting 1 24",
+	x: 3.0d,
+	y: -2.5d,
+	description: "Drop",
+	can_repeat: true,
+	tasks: [{
+		uid: "f9355618",
+		type: "item",
+		items: [{
+			item: "minecraft:feather"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "5445623e",
+		type: "item",
+		title: "50 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 50L
+			}
+		}
+	}]
+}

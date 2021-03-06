@@ -1,0 +1,93 @@
+{
+	title: "A Song of &1Water &fand &4Lava",
+	x: -13.0d,
+	y: -7.5d,
+	description: "This book holds and collects records of ellusive and potencially dangerous creatures you have uncovered",
+	min_required_dependencies: 1,
+	dependencies: [
+		"00fa1d66",
+		"915cf001"
+	],
+	tasks: [{
+		uid: "64dc9bdd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:bestiary",
+			tag: {
+				Pages: [I;
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11,
+					12,
+					13,
+					14,
+					15,
+					16,
+					17,
+					18,
+					19,
+					20,
+					21,
+					22
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "21ce0a19",
+		type: "item",
+		items: [{
+			item: "iceandfire:lectern"
+		}]
+	},
+	{
+		uid: "f3564ab8",
+		type: "item",
+		items: [{
+			item: "iceandfire:manuscript"
+		}],
+		count: 7L
+	}],
+	rewards: [{
+		uid: "ee2966a1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "b5e18009",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:deathworm_yellow_helmet"
+		}
+	},
+	{
+		uid: "4f7e757a",
+		type: "item",
+		title: "Promised Prince",
+		item: {
+			id: "minecraft:obsidian",
+			tag: {
+				display: {
+					Name: "Promised Prince"
+				}
+			}
+		}
+	}]
+}

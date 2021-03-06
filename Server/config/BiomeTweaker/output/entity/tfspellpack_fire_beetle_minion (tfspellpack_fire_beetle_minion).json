@@ -1,0 +1,6 @@
+
+{
+  "Name": "tfspellpack:fire_beetle_minion",
+  "Registry ID": "tfspellpack:fire_beetle_minion",
+  "Class": "electroblob.tfspellpack.entity.living.EntityFireBeetleMinion"
+}

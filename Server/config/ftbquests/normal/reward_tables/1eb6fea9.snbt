@@ -1,0 +1,24 @@
+{
+	title: "Signing Bonus",
+	loot_size: 3,
+	rewards: [{
+		item: "minecraft:diamond",
+		only_one: true
+	},
+	{
+		item: "harvestcraft:patreonpieitem",
+		only_one: true
+	},
+	{
+		item: "harvestcraft:orange_sapling"
+	}],
+	loot_crate: {
+		string_id: "signing_bonus",
+		color: 11259375,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

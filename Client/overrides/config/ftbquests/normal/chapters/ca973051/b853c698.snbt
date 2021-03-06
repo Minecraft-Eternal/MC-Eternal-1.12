@@ -1,0 +1,29 @@
+{
+	x: -19.0d,
+	y: -1.0d,
+	dependencies: [
+		"af8a9ce0"
+	],
+	tasks: [{
+		uid: "403425ed",
+		type: "item",
+		items: [{
+			item: "rats:rat_upgrade_archeologist"
+		}]
+	}],
+	rewards: [{
+		uid: "c6d4acfe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cheesy_cache"
+			}
+		}
+	},
+	{
+		uid: "eb5fe1ba",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

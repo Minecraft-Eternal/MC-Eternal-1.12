@@ -1,0 +1,82 @@
+{
+	title: "&lSince Last Death",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "rats:plague_scythe"
+	},
+	x: 4.0d,
+	y: -1.0d,
+	description: "&c&oHardcore mode without the hardcore ",
+	tasks: [{
+		uid: "125c1d87",
+		type: "stat",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:plague_scythe"
+		},
+		stat: "stat.timeSinceDeath",
+		value: 6900000
+	}],
+	rewards: [{
+		uid: "f974697f",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "b209ab07",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "4688bcc6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dungeontactics:lithen_scythe",
+			tag: {
+				ench: [{
+					lvl: 18,
+					id: 17
+				},
+				{
+					lvl: 10,
+					id: 20
+				},
+				{
+					lvl: 10,
+					id: 21
+				},
+				{
+					lvl: 10,
+					id: 22
+				},
+				{
+					lvl: 10,
+					id: 34
+				},
+				{
+					lvl: 10,
+					id: 70
+				}],
+				display: {
+					Lore: [
+						"Patrick: Life! Death! Life! Death! Life!"
+					],
+					Name: "Death"
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Mining without mining",
+	x: -4.5d,
+	y: 3.0d,
+	description: "&oBoom Boom Boom",
+	dependencies: [
+		"3b41a4ca"
+	],
+	tasks: [{
+		uid: "d4822dbe",
+		type: "item",
+		items: [{
+			item: "tconstruct:throwball 1 1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "27c4b213",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7b6ba844",
+		type: "loot",
+		table: 1
+	}]
+}

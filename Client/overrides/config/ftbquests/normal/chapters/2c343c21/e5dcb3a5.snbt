@@ -1,0 +1,36 @@
+{
+	title: "&8Discover a Ratlantean Landfill",
+	x: -2.4d,
+	y: 0.4d,
+	description: "&rRats! such messy creatures. On the bright side however, these dumpsites seem to be an excellent source of &lrat upgrades&r and &lloot&r if you are willing to get your hands a &olittle dirty",
+	dependencies: [
+		"9c87f669"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "c3859737",
+		type: "item",
+		items: [{
+			item: "rats:garbage_pile"
+		}]
+	}],
+	rewards: [{
+		uid: "e54271a1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "149ddae4",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

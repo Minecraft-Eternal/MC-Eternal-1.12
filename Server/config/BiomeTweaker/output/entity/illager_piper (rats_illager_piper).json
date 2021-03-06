@@ -1,0 +1,6 @@
+
+{
+  "Name": "illager_piper",
+  "Registry ID": "rats:illager_piper",
+  "Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper"
+}

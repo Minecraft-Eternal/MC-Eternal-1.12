@@ -1,0 +1,27 @@
+{
+	x: -7.0d,
+	y: -7.5d,
+	description: "Nether Resource",
+	dependencies: [
+		"36443d40"
+	],
+	size: 0.6d,
+	tasks: [{
+		uid: "ed0551d4",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b1215c76",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "f547ec32",
+		type: "loot",
+		table: 1
+	}]
+}

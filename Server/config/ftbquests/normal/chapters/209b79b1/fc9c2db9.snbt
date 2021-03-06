@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 8.5d,
+	description: "The Biome Staff can be used to transport a biome unique identifer number to a specific location, causing effected blocks to become that biome. ",
+	tasks: [{
+		uid: "a8854afc",
+		type: "item",
+		items: [{
+			item: "biomestaff:biome_staff"
+		}]
+	}],
+	rewards: [{
+		uid: "29e143c9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "0ec7fc06",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -157,32 +157,32 @@
 			"generator": {
 				"block": [
 					{
-						"name": "minecraft:diamond_ore",
+						"name": "",
 						"properties": {
 							"type": ""
 						},
 						"weight": 40
 					},
 					{
-						"name": "minecraft:emerald_ore",
+						"name": "mekanism:oreblock",
 						"properties": {
-							"type": "nickel"
+							"type": "osmium"
 						},
-						"weight": 80
+						"weight": 60
 					}
 				],
 				"material": "minecraft:stone",
 				"cluster-size": 4
 			},
 			"cluster-count": 1,
-			"min-height": 5,
-			"max-height": 25,
+			"min-height": 20,
+			"max-height": 30,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
+					1000,
 					10
 				]
 			}
@@ -192,24 +192,24 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "minecraft:gold_ore",
+					"name": "rats:block_of_cheese",
 					"properties": {
 						"type": ""
 					}
 				},
-				"material": "minecraft:stone",
-				"cluster-size": 8
+				"material": "rats:marbled_cheese_raw",
+				"cluster-size": 32
 			},
 			"cluster-count": 8,
 			"min-height": 40,
-			"max-height": 75,
+			"max-height": 64,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					-8,
-					10
+					1000,
+					1010
 				]
 			}
 		},
@@ -219,33 +219,33 @@
 			"generator": {
 				"block": [
 					{
-						"name": "thermalfoundation:ore",
+						"name": "libvulpes:ore0",
 						"properties": {
-							"type": "iridium"
+							"type": "0"
 						},
 						"weight": 40
 					},
 					{
-						"name": "thermalfoundation:ore",
+						"name": "minecraft:gold_block",
 						"properties": {
-							"type": "platinum"
+							"type": ""
 						},
 						"weight": 60
 					}
 				],
-				"material": "minecraft:stone",
-				"cluster-size": 4
+				"material": "rats:marbled_cheese_raw",
+				"cluster-size": 16
 			},
 			"cluster-count": 1,
-			"min-height": 5,
-			"max-height": 25,
+			"min-height": 2,
+			"max-height": 8,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					1000,
+					1010
 				]
 			}
 		},
@@ -254,20 +254,20 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "thermalfoundation:ore",
+					"name": "minecraft:iron_block",
 					"properties": {
-						"type": "copper"
+						"type": ""
 					}
 				},
-				"material": "minecraft:stone",
-				"cluster-size": 8
+				"material": "rats:marbled_cheese_raw",
+				"cluster-size": 20
 			},
 			"cluster-count": 4,
-			"min-height": 20,
-			"max-height": 55,
+			"min-height": 3,
+			"max-height": 51,
 			"retrogen": "true",
 			"biome": {
-				"restriction": "whitelist",
+				"restriction": "blacklist",
 				"value": [
 					{
 						"type": "dictionary",
@@ -276,10 +276,10 @@
 				]
 			},
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					1010,
+					1000
 				]
 			}
 		},
@@ -288,23 +288,24 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "mekanism:oreblock",
+					"name": "minecraft:emerald_block",
 					"properties": {
-						"type": "osmium"
+						"type": ""
 					}
 				},
-				"material": "minecraft:stone",
-				"cluster-size": 8
+				"material": "rats:marbled_cheese_raw",
+				"cluster-size": 22
 			},
-			"cluster-count": 3,
-			"min-height": 20,
-			"max-height": 30,
+			"cluster-count": 8,
+			"min-height": 2,
+			"max-height": 34,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					10
+					1000,
+					1001
 				]
 			}
 		}

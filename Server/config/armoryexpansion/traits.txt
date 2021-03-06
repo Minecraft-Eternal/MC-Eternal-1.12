@@ -90,6 +90,7 @@
   "splitting2",
   "poisonous",
   "poisonous_armor",
+  "aurorianempowered",
   "vengeful_armor",
   "botanical2",
   "botanical1",
@@ -117,6 +118,7 @@
   "fractured",
   "naturesblessing",
   "steady_armor",
+  "conarmmoonlit_armor",
   "darkness",
   "ratty",
   "splitting",
@@ -158,6 +160,7 @@
   "coldblooded",
   "bouncy_armor",
   "sharp",
+  "jaded",
   "flame2",
   "apocalypse",
   "spades",
@@ -221,5 +224,6 @@
   "lightboost",
   "freezing",
   "rough_armor",
-  "crumbling"
+  "crumbling",
+  "tamoonlit"
 ]

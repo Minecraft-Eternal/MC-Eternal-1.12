@@ -1,0 +1,40 @@
+{
+	title: "&6&lBounty: &c&lWretched Abomination",
+	x: -5.0d,
+	y: -0.75d,
+	shape: "square",
+	description: "&r&c&kwiwjiwsiswi&rDo not&k1237e8qde8iuywu8eyww88&rengage&kreure8f7f7fe88rer8r8ef8&r&cdeath&kajidsi8du8w9ur9wuiwauaoruw9iruwuf9e89r&r&cfollows&k89578788",
+	size: 0.5d,
+	tasks: [{
+		uid: "7a7054c0",
+		type: "kill",
+		title: "&6&lBounty: &c&lWretched Abomination",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dread_knight_sword"
+		},
+		entity: "iceandfire:dread_scuttler",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "4fe7777b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "4e1a751b",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

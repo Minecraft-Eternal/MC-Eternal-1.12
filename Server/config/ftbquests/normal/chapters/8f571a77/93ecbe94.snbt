@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	description: "Baking",
+	can_repeat: true,
+	tasks: [{
+		uid: "dd46218b",
+		type: "item",
+		items: [{
+			item: "minecraft:bread"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a25c8945",
+		type: "item",
+		title: "50 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 50L
+			}
+		}
+	}]
+}

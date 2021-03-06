@@ -1,0 +1,44 @@
+{
+	title: "Assembly",
+	x: -1.5d,
+	y: -4.0d,
+	description: "Now, we can finally begin to build the rocket. There are a few things to consider before we begin, after all, this &oIS rocket science.",
+	text: [
+		"&oEvery block you put on your rocket has a mass and more mass requires more thrust to escape the planet's gravity well.",
+		"&oFuel is required for any rocket transport. Be sure you have enough fuel to make it back home.",
+		"&oA successful build requires a balance between mass, thrust, and fuel carrying capability.",
+		"&oRockets can only fly between a planet and its moon, or much later, a space station and other planetary beings. A rocket CANNOT transport from planet to planet.",
+		"&lA rocket &rcan be built from &lany block&r in the game but must contain a number of &lEngines and Fuel Tanks&r Engines provide thrust, and the number of engines needed is based on the mass. They also consume fuel, which is stored in the fuel tanks.",
+		"The \"Dissassemble\" button will convert the rocket back into blocks, but careful, you need a rocket assembling machine to reassemble the rocket again!"
+	],
+	dependencies: [
+		"833dc5fb"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "f7cf6b16",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	}],
+	rewards: [{
+		uid: "af389bd5",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "0af41a33",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

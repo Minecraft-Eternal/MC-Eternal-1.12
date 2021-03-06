@@ -1,0 +1,6 @@
+
+{
+  "Name": "tfspellpack:cave_troll_minion",
+  "Registry ID": "tfspellpack:cave_troll_minion",
+  "Class": "electroblob.tfspellpack.entity.living.EntityCaveTrollMinion"
+}

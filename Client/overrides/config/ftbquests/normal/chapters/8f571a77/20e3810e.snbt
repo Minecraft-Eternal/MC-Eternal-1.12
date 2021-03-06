@@ -1,0 +1,27 @@
+{
+	icon: "botania:manaresource 1 16",
+	x: 4.0d,
+	y: -7.0d,
+	description: "Drop",
+	can_repeat: true,
+	tasks: [{
+		uid: "a0cbc4ea",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "339d6b5a",
+		type: "item",
+		title: "50 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 50L
+			}
+		}
+	}]
+}

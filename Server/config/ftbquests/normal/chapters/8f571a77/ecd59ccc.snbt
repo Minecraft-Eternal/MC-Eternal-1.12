@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -6.0d,
+	description: "*Can not be automated*",
+	can_repeat: true,
+	tasks: [{
+		uid: "bfafc218",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "48462fb9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

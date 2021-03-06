@@ -1,0 +1,38 @@
+{
+	title: "&c&l&nStarting Quest",
+	icon: "extrautils2:contract",
+	x: -18.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "Before you can begin your new adventure! you have to sign a contract which essentially says your soul belongs to me for all eternity blah blah everything you ever create is proprietary property of me &o*The writing becomes so small its unreadable*",
+	hide_dependency_lines: true,
+	size: 1.4d,
+	tasks: [{
+		uid: "3e8f72d9",
+		type: "checkmark",
+		title: "Sign here ... here... ... here ... and here ..."
+	}],
+	rewards: [{
+		uid: "a9a98dc6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sewage",
+				Amount: 1000,
+				display: {
+					Name: "Copy of contract "
+				}
+			}
+		}
+	},
+	{
+		uid: "29145916",
+		type: "loot",
+		title: "&7Common Lootbox &8&o&l(Random Reward)",
+		table: 1
+	}]
+}

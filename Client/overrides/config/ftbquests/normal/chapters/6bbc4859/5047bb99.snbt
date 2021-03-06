@@ -1,0 +1,22 @@
+{
+	title: "Diamond Seeds",
+	icon: "mysticalagriculture:diamond_seeds",
+	x: 1.5d,
+	y: -0.5d,
+	shape: "diamond",
+	description: "*Unlocked from completing the Mystical Agriculture chapter*",
+	can_repeat: true,
+	dependencies: [
+		"4e009f28"
+	],
+	tasks: [{
+		uid: "6f20a72f",
+		type: "ftbmoney:money",
+		value: 80000L
+	}],
+	rewards: [{
+		uid: "b77fd009",
+		type: "item",
+		item: "mysticalagriculture:diamond_seeds"
+	}]
+}

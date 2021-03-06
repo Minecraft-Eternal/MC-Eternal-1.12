@@ -1,0 +1,22 @@
+{
+	icon: "thebetweenlands:pyrad_flame",
+	x: -1.0d,
+	y: -2.0d,
+	description: "A sphere of malignant energy found atop the Wight Fortress",
+	tasks: [{
+		uid: "a61c634a",
+		type: "kill",
+		entity: "thebetweenlands:fortress_boss",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "bfd0374f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "9b102fc8",
+		type: "loot",
+		table: 1
+	}]
+}

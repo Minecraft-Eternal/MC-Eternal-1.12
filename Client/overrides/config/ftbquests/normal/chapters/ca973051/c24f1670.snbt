@@ -1,0 +1,32 @@
+{
+	icon: "mysticalagriculture:crafting 1 29",
+	x: -5.5d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "'Deep sorrow crushed my heart when I heard him, / Because both men and women of great worth / I knew to be suspended here in limbo'' (IV.43-45).",
+	tasks: [{
+		uid: "e23c91f6",
+		type: "dimension",
+		dim: 684
+	}],
+	rewards: [{
+		uid: "5f95630c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dimdoors:record_creepy"
+		}
+	},
+	{
+		uid: "3214a25d",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "dc6f4f28",
+		type: "loot",
+		table: 1
+	}]
+}

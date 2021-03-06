@@ -1,0 +1,6 @@
+
+{
+  "Name": "instrumentalmobs:FrenchHornCreeper",
+  "Registry ID": "instrumentalmobs:french_horn_creeper",
+  "Class": "com.mrbysco.instrumentalmobs.entities.EntityFrenchHornCreeper"
+}

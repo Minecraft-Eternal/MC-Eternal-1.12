@@ -1,0 +1,6 @@
+
+{
+  "Name": "vampirism.villager_hunter_faction",
+  "Registry ID": "vampirism:villager_hunter_faction",
+  "Class": "de.teamlapen.vampirism.entity.hunter.EntityHunterFactionVillager"
+}

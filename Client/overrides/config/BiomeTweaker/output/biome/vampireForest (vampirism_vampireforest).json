@@ -1,0 +1,180 @@
+
+{
+  "ID": 180,
+  "Name": "vampireForest",
+  "Resource Location": "vampirism:vampireforest",
+  "Class": "de.teamlapen.vampirism.biome.BiomeGenVampireForest",
+  "Root Height": 0.1,
+  "Height Variation": 0.025,
+  "Top Block": "vampirism:cursed_earth",
+  "Filler Block": "vampirism:cursed_earth",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "15607045",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 15607045,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "DENSE",
+    "SPOOKY",
+    "FOREST",
+    "MAGICAL"
+  ],
+  "BiomeManager Entries": {
+    "WARM Weights": [
+      3
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityDummyBittenAnimal",
+      "Weight": 15,
+      "Min Group Count": 3,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.tameable.EntityRaven",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "de.teamlapen.vampirism.entity.EntityGhost",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityBasicVampire",
+      "Weight": 75,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityVampireBaron",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityUndeadSwine",
+      "Weight": 15,
+      "Min Group Count": 4,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.tameable.EntityMimic",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityUndertaker",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityAdvancedVampire",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+      "Weight": 66,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "de.teamlapen.vampirism.entity.EntityBlindingBat",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "WET_TEMPERATE": [
+      3
+    ],
+    "DRY_TEMPERATE": [
+      3
+    ],
+    "WARM_TEMPERATE": [
+      3
+    ],
+    "HOT_SWAMP": [
+      3
+    ],
+    "MEDITERANEAN": [
+      3
+    ]
+  },
+  "BOP Island Weight": 0
+}

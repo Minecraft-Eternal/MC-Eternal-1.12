@@ -38,11 +38,11 @@ minecraft:luck
 randomthings:collapse
 randomthings:long_collapse
 randomthings:strong_collapse
-enderio:withering
-enderio:long_withering
 enderio:floating
 enderio:strong_floating
 enderio:long_floating
+enderio:withering
+enderio:long_withering
 enderio:confusion
 enderio:long_confusion
 quark:resilience

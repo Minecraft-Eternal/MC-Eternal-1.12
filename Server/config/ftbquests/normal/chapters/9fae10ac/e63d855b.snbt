@@ -1,0 +1,27 @@
+{
+	x: -10.5d,
+	y: -2.0d,
+	description: "A hideous brute that lurks in caves and savagely bludgeons any trespassers upon its turf.",
+	tasks: [{
+		uid: "b1e1743e",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:troll_skull"
+		},
+		entity: "iceandfire:if_troll",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "793a23a7",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "fe97e688",
+		type: "loot",
+		table: 1
+	}]
+}

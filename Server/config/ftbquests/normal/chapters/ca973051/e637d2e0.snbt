@@ -1,0 +1,35 @@
+{
+	x: -16.5d,
+	y: -2.5d,
+	description: "50000,IQ",
+	dependencies: [
+		"fc9d0886"
+	],
+	tasks: [{
+		uid: "8e0e1251",
+		type: "item",
+		items: [{
+			item: "rats:vial_of_sentience"
+		}]
+	}],
+	rewards: [{
+		uid: "ab26a2f1",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "a7b33439",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "712fc3a0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cheesy_cache"
+			}
+		}
+	}]
+}

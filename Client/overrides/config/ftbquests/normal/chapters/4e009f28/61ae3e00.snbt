@@ -1,0 +1,21 @@
+{
+	x: -13.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "9ebb59a6",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dark_steel_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "14c962d3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9bce60ee",
+		type: "loot",
+		table: 1
+	}]
+}

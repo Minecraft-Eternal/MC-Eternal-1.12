@@ -1,0 +1,21 @@
+{
+	x: -11.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "c7235a8b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:pulsating_iron_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "096bb707",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "885970dc",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 1.0d,
+	y: 3.5d,
+	dependencies: [
+		"9e4d7493"
+	],
+	tasks: [{
+		uid: "ab6dbfe2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "bewitchment:book_of_shadows"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da24f25f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0a75e012",
+		type: "loot",
+		table: 1
+	}]
+}

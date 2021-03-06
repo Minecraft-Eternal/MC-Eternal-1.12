@@ -1,0 +1,32 @@
+{
+	title: "Pocket Dimension",
+	x: -2.5d,
+	y: -11.5d,
+	shape: "diamond",
+	description: "&oPortable pocket dimension localized entirely within your pocket?",
+	dependencies: [
+		"3b41a4ca"
+	],
+	tasks: [{
+		uid: "48696d7b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:spectrekey"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b2da595",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "3282f008",
+		type: "loot",
+		table: 1
+	}]
+}

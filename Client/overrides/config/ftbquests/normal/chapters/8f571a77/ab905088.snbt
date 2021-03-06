@@ -1,0 +1,35 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "immersiveengineering:powerpack"
+	},
+	x: 1.0d,
+	y: -6.5d,
+	description: "*Energy* *Input into Task Screen* ",
+	text: [
+		"*Unlocked after completing Introduction to Science*"
+	],
+	can_repeat: true,
+	dependencies: [
+		"3bc6db27"
+	],
+	tasks: [{
+		uid: "1958b0f4",
+		type: "forge_energy",
+		value: 10000000L
+	}],
+	rewards: [{
+		uid: "b65b8a2f",
+		type: "item",
+		title: "50 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 50L
+			}
+		}
+	}]
+}

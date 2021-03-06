@@ -1,0 +1,39 @@
+{
+	x: -4.25d,
+	y: -0.75d,
+	shape: "square",
+	description: "&oAn undead Mage who was raised by another Necromancer. This particular variant is rumoured to be especially dangerous due to its innate affinity for magic. With its corrupted and wretched mind, it can raise the terrors of the Earth... ",
+	size: 0.5d,
+	tasks: [{
+		uid: "1df44e96",
+		type: "kill",
+		title: "&6&lBounty: &r&dTwisted Ethereal Necromancer",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dread_sword"
+		},
+		entity: "iceandfire:dread_lich",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "ecfdf326",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "7984b769",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

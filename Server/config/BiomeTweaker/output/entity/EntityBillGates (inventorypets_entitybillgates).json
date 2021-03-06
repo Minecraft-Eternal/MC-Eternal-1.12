@@ -1,0 +1,6 @@
+
+{
+  "Name": "EntityBillGates",
+  "Registry ID": "inventorypets:entitybillgates",
+  "Class": "com.inventorypets.entities.EntityBillGates"
+}

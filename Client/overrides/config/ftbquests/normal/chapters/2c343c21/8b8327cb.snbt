@@ -1,0 +1,39 @@
+{
+	x: -4.25d,
+	y: -1.5d,
+	shape: "square",
+	description: "&oOne of the more violent monsters from the planet of Primordium. Lower ranked than its undying soldier cousin, this beast makes up for it in speed and its unwillingness to die. Some reports claim this creature enjoys to torture its enemy brutally...",
+	size: 0.5d,
+	tasks: [{
+		uid: "47a0426c",
+		type: "kill",
+		title: "&6&lBounty: &r&8Enraged Fleshripper",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dread_sword"
+		},
+		entity: "iceandfire:dread_beast",
+		value: 40L
+	}],
+	rewards: [{
+		uid: "b42f4743",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "9e5eb326",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

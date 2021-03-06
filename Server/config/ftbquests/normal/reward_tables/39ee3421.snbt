@@ -1,0 +1,593 @@
+{
+	title: "Rare lootbox",
+	icon: "treasure2:gold_strongbox",
+	loot_size: 1,
+	rewards: [{
+		item: "ghostsexplosives:tnt_x1000"
+	},
+	{
+		item: "minecraft:diamond_block",
+		count: 16
+	},
+	{
+		item: "openblocks:golden_egg",
+		count: 32
+	},
+	{
+		ftb_money: 5000L,
+		type: "ftbmoney:money",
+		weight: 3000
+	},
+	{
+		item: "minecraft:gold_block",
+		count: 32
+	},
+	{
+		item: "tconstruct:materials 1 50",
+		random_bonus: 2
+	},
+	{
+		item: "minecraft:nether_star",
+		random_bonus: 20,
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "twilightforest:hydra"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:hammer_head",
+			tag: {
+				Material: "ebonypsi"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:glass_sword",
+			tag: {
+				Unbreakable: 1b
+			}
+		}
+	},
+	{
+		item: "ghostsexplosives:tnt_nuclear"
+	},
+	{
+		item: "rats:creative_cheese"
+	},
+	{
+		item: "rats:rat_upgrade_god"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 16.74f,
+					FreeModifiers: 3,
+					Durability: 2400,
+					HarvestLevel: 4,
+					Attack: 16.07f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 16.74f,
+					FreeModifiers: 3,
+					Durability: 2400,
+					HarvestLevel: 4,
+					Attack: 16.07f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"no_melee",
+						"projectile"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"redmatter",
+						"redmatter",
+						"redmatter",
+						"redmatter"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "weee",
+					color: -1900544,
+					level: 1
+				}],
+				Traits: [
+					"weee"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "conarm:leggings",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 109590,
+					Defense: 50.0f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 109590,
+					Defense: 50.0f
+				},
+				TinkerData: {
+					Materials: [
+						"redmatter",
+						"redmatter",
+						"redmatter"
+					],
+					Modifiers: []
+				}
+			}
+		}
+	},
+	{
+		item: "chancecubes:compact_giant_chance_cube",
+		count: 32
+	},
+	{
+		item: "chancecubes:chance_icosahedron",
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "powersuits:power_fist",
+			tag: {
+				MMModItem: {
+					commonValues: {},
+					render: {
+						powerfist_left.supportrightfront: {
+							part: "supportrightfront",
+							model: "powerfist_left"
+						},
+						powerfist.palm: {
+							part: "palm",
+							model: "powerfist"
+						},
+						powerfist_fingers_normal.middlefinger2: {
+							part: "middlefinger2",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal_left.ringfinger2: {
+							part: "ringfinger2",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist.mainarm: {
+							part: "mainarm",
+							model: "powerfist"
+						},
+						powerfist_fingers_normal_left.ringfinger1: {
+							part: "ringfinger1",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_firing_left.middlefinger1: {
+							part: "middlefinger1",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist.supportbaseright: {
+							part: "supportbaseright",
+							model: "powerfist"
+						},
+						powerfist_fingers_normal.index2: {
+							part: "index2",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_firing_left.middlefinger2: {
+							part: "middlefinger2",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist_fingers_normal.middlefinger1: {
+							part: "middlefinger1",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal.pinky1: {
+							part: "pinky1",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_left.palm: {
+							part: "palm",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_normal.index1: {
+							part: "index1",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal.pinky2: {
+							part: "pinky2",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal_left.middlefinger1: {
+							part: "middlefinger1",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_firing_left.pinky1: {
+							part: "pinky1",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist_fingers_normal.thumb2: {
+							part: "thumb2",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal_left.middlefinger2: {
+							part: "middlefinger2",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_firing_left.pinky2: {
+							part: "pinky2",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist_fingers_normal.thumb1: {
+							part: "thumb1",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_left.crystalholder: {
+							part: "crystalholder",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportright5: {
+							part: "supportright5",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportright4: {
+							part: "supportright4",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportright3: {
+							part: "supportright3",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportright2: {
+							part: "supportright2",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportright1: {
+							part: "supportright1",
+							model: "powerfist_left"
+						},
+						powerfist.supportleftfront: {
+							part: "supportleftfront",
+							model: "powerfist"
+						},
+						powerfist.crystalholder: {
+							part: "crystalholder",
+							model: "powerfist"
+						},
+						powerfist_fingers_firing_left.thumb2: {
+							part: "thumb2",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist_left.fingerguard: {
+							part: "fingerguard",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_firing_left.thumb1: {
+							part: "thumb1",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist.armorright: {
+							part: "armorright",
+							model: "powerfist"
+						},
+						powerfist_left.crystal: {
+							part: "crystal",
+							model: "powerfist_left"
+						},
+						powerfist.wristtopright: {
+							part: "wristtopright",
+							model: "powerfist"
+						},
+						powerfist_fingers_firing.thumb1: {
+							part: "thumb1",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_fingers_firing_left.index2: {
+							part: "index2",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist_left.armorright: {
+							part: "armorright",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_firing.thumb2: {
+							part: "thumb2",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_fingers_firing_left.index1: {
+							part: "index1",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist.supportbaseleft: {
+							part: "supportbaseleft",
+							model: "powerfist"
+						},
+						powerfist.wristbottomleft: {
+							part: "wristbottomleft",
+							model: "powerfist"
+						},
+						powerfist_left.supportbaseright: {
+							part: "supportbaseright",
+							model: "powerfist_left"
+						},
+						colours: [I;
+							-1
+						],
+						powerfist_left.wristbottomright: {
+							part: "wristbottomright",
+							model: "powerfist_left"
+						},
+						powerfist.supportright1: {
+							part: "supportright1",
+							model: "powerfist"
+						},
+						powerfist_left.supportleftfront: {
+							part: "supportleftfront",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_firing.pinky1: {
+							part: "pinky1",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_fingers_normal_left.index2: {
+							part: "index2",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_firing.index1: {
+							part: "index1",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_fingers_firing.pinky2: {
+							part: "pinky2",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_fingers_normal_left.pinky1: {
+							part: "pinky1",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_normal_left.index1: {
+							part: "index1",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_normal_left.pinky2: {
+							part: "pinky2",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist.fingerguard: {
+							part: "fingerguard",
+							model: "powerfist"
+						},
+						powerfist_fingers_firing.index2: {
+							part: "index2",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_left.mainarm: {
+							part: "mainarm",
+							model: "powerfist_left"
+						},
+						powerfist.wristtopleft: {
+							part: "wristtopleft",
+							model: "powerfist"
+						},
+						powerfist.crystal: {
+							part: "crystal",
+							model: "powerfist"
+						},
+						powerfist_fingers_normal.ringfinger1: {
+							part: "ringfinger1",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal.ringfinger2: {
+							part: "ringfinger2",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal_left.thumb2: {
+							part: "thumb2",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_normal_left.thumb1: {
+							part: "thumb1",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_left.wristtopright: {
+							part: "wristtopright",
+							model: "powerfist_left"
+						},
+						powerfist.armorleft: {
+							part: "armorleft",
+							model: "powerfist"
+						},
+						powerfist_left.wristtopleft: {
+							part: "wristtopleft",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_firing_left.ringfinger1: {
+							part: "ringfinger1",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist_fingers_firing.middlefinger2: {
+							part: "middlefinger2",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_left.supportbaseleft: {
+							part: "supportbaseleft",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_firing_left.ringfinger2: {
+							part: "ringfinger2",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist.supportrightfront: {
+							part: "supportrightfront",
+							model: "powerfist"
+						},
+						powerfist_fingers_firing.middlefinger1: {
+							part: "middlefinger1",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_left.supportleft5: {
+							part: "supportleft5",
+							model: "powerfist_left"
+						},
+						powerfist.wristbottomright: {
+							part: "wristbottomright",
+							model: "powerfist"
+						},
+						powerfist_fingers_firing.ringfinger1: {
+							part: "ringfinger1",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_left.wristbottomleft: {
+							part: "wristbottomleft",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_firing.ringfinger2: {
+							part: "ringfinger2",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_left.supportleft4: {
+							part: "supportleft4",
+							model: "powerfist_left"
+						},
+						powerfist.supportleft5: {
+							part: "supportleft5",
+							model: "powerfist"
+						},
+						powerfist_left.armorleft: {
+							part: "armorleft",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportleft3: {
+							part: "supportleft3",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportleft2: {
+							part: "supportleft2",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportleft1: {
+							part: "supportleft1",
+							model: "powerfist_left"
+						},
+						powerfist.supportright3: {
+							part: "supportright3",
+							model: "powerfist"
+						},
+						powerfist.supportleft2: {
+							part: "supportleft2",
+							model: "powerfist"
+						},
+						powerfist.supportright2: {
+							part: "supportright2",
+							model: "powerfist"
+						},
+						powerfist.supportleft1: {
+							part: "supportleft1",
+							model: "powerfist"
+						},
+						powerfist.supportright5: {
+							part: "supportright5",
+							model: "powerfist"
+						},
+						powerfist.supportleft4: {
+							part: "supportleft4",
+							model: "powerfist"
+						},
+						powerfist.supportright4: {
+							part: "supportright4",
+							model: "powerfist"
+						},
+						powerfist.supportleft3: {
+							part: "supportleft3",
+							model: "powerfist"
+						}
+					}
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "powersuits:powerarmor_torso",
+			tag: {
+				MMModItem: {
+					commonValues: {}
+				}
+			}
+		}
+	},
+	{
+		item: "mysticalagriculture:crafting 1 37",
+		count: 64
+	},
+	{
+		item: "ghostsexplosives:tnt_nuclear"
+	},
+	{
+		item: "rats:arcane_technology"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "icbmclassic:missile",
+			Damage: 28s
+		}
+	},
+	{
+		item: "naturesaura:ancient_sapling"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dread_queen_sword"
+		}
+	}],
+	loot_crate: {
+		string_id: "rare_lootbox",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

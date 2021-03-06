@@ -1,0 +1,48 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	description: "Nothing but madness...",
+	tasks: [{
+		uid: "3a0b80a3",
+		type: "item",
+		items: [{
+			item: "chancecubes:chance_cube"
+		}],
+		count: 500L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8516e6f8",
+		type: "item",
+		item: "chancecubes:chance_icosahedron"
+	},
+	{
+		uid: "64bc6efd",
+		type: "item",
+		item: "chancecubes:compact_giant_chance_cube",
+		count: 64
+	},
+	{
+		uid: "a9364027",
+		type: "item",
+		item: "chancecubes:compact_giant_chance_cube",
+		count: 64
+	},
+	{
+		uid: "e0283da8",
+		type: "item",
+		item: "chancecubes:compact_giant_chance_cube",
+		count: 64
+	},
+	{
+		uid: "0506d4e4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		},
+		count: 3
+	}]
+}

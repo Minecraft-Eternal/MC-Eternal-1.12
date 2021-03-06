@@ -1,0 +1,36 @@
+{
+	x: -4.0d,
+	y: 7.0d,
+	description: "*Click to read description*",
+	text: [
+		"Vacuum freezer is required to cool hot tungstensteel ingots. It requires 9 reinforced machine casing in a 3x3 pattern below it, with the main machine at the top of the center casing."
+	],
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "e0e2d51f",
+		type: "item",
+		items: [{
+			item: "techreborn:vacuum_freezer"
+		}]
+	},
+	{
+		uid: "902c802c",
+		type: "item",
+		items: [{
+			item: "techreborn:machine_casing 1 1"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "93256dce",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "fea8f023",
+		type: "loot",
+		table: 1
+	}]
+}

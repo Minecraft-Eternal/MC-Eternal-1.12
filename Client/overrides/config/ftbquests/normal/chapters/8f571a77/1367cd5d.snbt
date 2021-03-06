@@ -1,0 +1,34 @@
+{
+	x: -12.5d,
+	y: -4.5d,
+	shape: "rsquare",
+	description: "*Read Description*",
+	text: [
+		"The task screen will become your best friend, to begin automating simply open the gui and pick a task. Pipe the items into the task screen and watch the coins flow!"
+	],
+	dependencies: [
+		"cb3bf98e"
+	],
+	tasks: [{
+		uid: "04c84cf4",
+		type: "checkmark",
+		title: "Task Screen",
+		icon: "ftbquests:screen"
+	}],
+	rewards: [{
+		uid: "8e36a700",
+		type: "item",
+		item: "ftbquests:screen"
+	},
+	{
+		uid: "8e88bc09",
+		type: "item",
+		item: "thermaldynamics:duct_32",
+		count: 6
+	},
+	{
+		uid: "a7209431",
+		type: "item",
+		item: "thermaldynamics:servo 1 1"
+	}]
+}

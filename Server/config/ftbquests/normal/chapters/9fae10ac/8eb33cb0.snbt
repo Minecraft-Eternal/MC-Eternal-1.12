@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: 2.0d,
+	description: "*Must be summoned*",
+	tasks: [{
+		uid: "2971733c",
+		type: "kill",
+		icon: "botania:gaiahead",
+		entity: "botania:doppleganger",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "7ca34b4e",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "09908b22",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

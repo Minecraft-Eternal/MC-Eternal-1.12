@@ -1,0 +1,25 @@
+{
+	x: 15.5d,
+	y: 3.0d,
+	description: "Pick whatever enchant your heart desires!",
+	dependencies: [
+		"20e40ad0"
+	],
+	tasks: [{
+		uid: "00b599e9",
+		type: "item",
+		items: [{
+			item: "enderio:block_enchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "dde653aa",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "4dc0859b",
+		type: "loot",
+		table: 1
+	}]
+}

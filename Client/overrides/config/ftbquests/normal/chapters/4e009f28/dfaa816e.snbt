@@ -1,0 +1,21 @@
+{
+	x: -17.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "6bdd8d58",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:electrum_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "bfe75c8b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "68c0a779",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: 2.5d,
+	y: -5.0d,
+	description: "These trees would make for a perfect courtyard!",
+	dependencies: [
+		"25cd07cd"
+	],
+	tasks: [{
+		uid: "082132f0",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "06c2d691",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfspellpack:charm_goblin"
+		}
+	},
+	{
+		uid: "18186a24",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d0a150ca",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:shield_scepter"
+		}
+	}]
+}

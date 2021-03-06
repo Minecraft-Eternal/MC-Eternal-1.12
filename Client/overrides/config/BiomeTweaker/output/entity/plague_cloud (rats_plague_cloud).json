@@ -1,0 +1,6 @@
+
+{
+  "Name": "plague_cloud",
+  "Registry ID": "rats:plague_cloud",
+  "Class": "com.github.alexthe666.rats.server.entity.EntityPlagueCloud"
+}

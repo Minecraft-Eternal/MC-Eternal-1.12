@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: 7.0d,
+	dependencies: [
+		"c9f8530f"
+	],
+	tasks: [{
+		uid: "d909eece",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutblacksmith"
+		}]
+	}],
+	rewards: [{
+		uid: "4c918890",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "147d1127",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "e3b2b8a5",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

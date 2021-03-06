@@ -1,0 +1,39 @@
+{
+	x: -5.75d,
+	y: -0.75d,
+	shape: "square",
+	description: "&oThe most common ground infantry unit sent into battle during an invasion by the Undying forces. Unfortunately for the living, their numbers only keep growing as people perish...",
+	size: 0.5d,
+	tasks: [{
+		uid: "a26a499c",
+		type: "kill",
+		title: "&6&lBounty: &r&8Undying Soldier",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dread_sword"
+		},
+		entity: "iceandfire:dread_thrall",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "fbbaffae",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "9e652fe8",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

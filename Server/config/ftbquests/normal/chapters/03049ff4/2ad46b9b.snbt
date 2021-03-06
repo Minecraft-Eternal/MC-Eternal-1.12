@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "5c7e9e5a",
+		type: "stat",
+		icon: "cyclicmagic:heart_food",
+		stat: "stat.animalsBred",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "376ab1af",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "200527a1",
+		type: "item",
+		item: "harvestcraft:cheesesteakitem",
+		count: 32
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	dependencies: [
+		"5ea6fbc6"
+	],
+	tasks: [{
+		uid: "31b442e6",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:nuclear_furnace_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "b8c5a725",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b569c9cc",
+		type: "loot",
+		table: 1
+	}]
+}

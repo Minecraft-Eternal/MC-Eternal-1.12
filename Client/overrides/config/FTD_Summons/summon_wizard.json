@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "Summon",
+    "pattern": [
+        "aaa",
+        "aaa",
+        "aaa"
+    ],
+    "key": {
+        "a": {
+            "item": ""
+        }
+    },
+    "result": {
+        "item": "from_the_depths:item_totem_of_summoning",
+        "data": 0,
+        "nbt": {
+			"entityInfo": {
+				"entityKey": "Summon the Ethereal Wizard"
+			}
+        },
+        "count": 1
+    }
+}

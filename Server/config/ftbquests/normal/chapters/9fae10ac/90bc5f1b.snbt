@@ -1,0 +1,27 @@
+{
+	icon: "iceandfire:ice_dragon_heart",
+	x: -8.5d,
+	y: -2.0d,
+	description: "A wintry, amphibious cousin of the fire dragon that exudes an icy gale from its mouth.",
+	tasks: [{
+		uid: "5c1530c6",
+		type: "kill",
+		entity: "iceandfire:icedragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "17554366",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "7e45013c",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "8de1d665",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	x: -11.0d,
+	y: -9.0d,
+	shape: "octagon",
+	description: "Befriended pixies provide certain positive status to the player, depending on their color.",
+	text: [
+		"Pixies can be befriended with cake. In order to befriend a pixie, all one has to do is drop a cake near it, and it will eat the treat and become your friend."
+	],
+	dependencies: [
+		"a9d286cd"
+	],
+	tasks: [{
+		uid: "0491c7d9",
+		type: "item",
+		title: "Tame a Pixie using a Cake",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:pixie_wand"
+		},
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:cake"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "35973190",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "04a9e6bb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:ambrosia"
+		}
+	},
+	{
+		uid: "34c8e98d",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -8.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "48a519c7",
+		type: "kill",
+		title: "&6&lBounty: Scorpion",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:wasp_sword"
+		},
+		entity: "erebus:erebus.scorpion",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "e715cb28",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "9d817b7d",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

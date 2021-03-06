@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "80eed281",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:conductive_iron_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "3e6215de",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

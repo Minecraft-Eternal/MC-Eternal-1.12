@@ -1,0 +1,21 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "33d0e93f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "agricraft:trowel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2af3d124",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

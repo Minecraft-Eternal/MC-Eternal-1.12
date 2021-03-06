@@ -1,0 +1,95 @@
+{
+	title: "Farming and Agriculture",
+	icon: "harvestcraft:seedsoupitem",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 1.0d,
+		y: -8.5d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:hoe.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.0d,
+		y: -7.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: -11.0d,
+		image: "assets:seeds.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: -7.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 11.0d,
+		image: "assets:seeds.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.0d,
+		y: -8.0d,
+		width: 0.5d,
+		height: 0.5d,
+		rotation: -13.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.0d,
+		y: -7.5d,
+		width: 0.6d,
+		height: 0.6d,
+		rotation: 0.0d,
+		image: "assets:mseed.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: -8.0d,
+		width: 0.5d,
+		height: 0.5d,
+		rotation: 12.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -3.5d,
+		y: -4.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:cake.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 10.0d,
+		y: -2.0d,
+		width: 0.3d,
+		height: 0.9d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

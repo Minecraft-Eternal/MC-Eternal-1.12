@@ -1,0 +1,36 @@
+{
+	title: "Genocide",
+	x: -6.0d,
+	y: -1.0d,
+	dependencies: [
+		"eff24e31"
+	],
+	tasks: [{
+		uid: "14f6f0ac",
+		type: "kill",
+		title: "Murder 50 Innocent Citizens",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:diagram_redprint"
+		},
+		entity: "minecolonies:citizen",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "a897b305",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "ec3ce099",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

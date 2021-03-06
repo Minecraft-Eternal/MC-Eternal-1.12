@@ -1,0 +1,27 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	description: "The Neo-Ratlantean does not spawn normally and must be created by a player. This can be done by throwing a Vial of Consciousness at a Feral Ratlantean.",
+	tasks: [{
+		uid: "86f3d522",
+		type: "kill",
+		icon: "rats:psionic_rat_brain",
+		entity: "rats:neo_ratlantean",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "32b0cb6b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "80d0c7fc",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

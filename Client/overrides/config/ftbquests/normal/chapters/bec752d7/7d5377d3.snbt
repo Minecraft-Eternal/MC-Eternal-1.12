@@ -1,0 +1,36 @@
+{
+	x: 18.0d,
+	y: 11.0d,
+	dependencies: [
+		"cbeacc4f"
+	],
+	tasks: [{
+		uid: "49636efa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:hunter_axe",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 19s
+				}],
+				tier: "NORMAL"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "66d0a19c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "88e7e1ce",
+		type: "loot",
+		table: 1
+	}]
+}

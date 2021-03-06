@@ -1,0 +1,76 @@
+{
+	title: "Cultist",
+	icon: "thaumcraft:banner_crimson_cult",
+	loot_size: 22,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_robe_helm"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_robe_chest"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_robe_legs"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_boots"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_blade"
+		},
+		only_one: true
+	},
+	{
+		item: "harvestcraft:rainbowcurryitem",
+		only_one: true
+	},
+	{
+		item: "thaumcraft:banner_crimson_cult",
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_plate_helm"
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "cultist",
+		color: 0,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

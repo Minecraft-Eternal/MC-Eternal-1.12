@@ -207,11 +207,11 @@
 		},
 
 		"diamond": {
-			"distribution": "cave",
+			"distribution": "uniform",
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 3
+				"cluster-size": 8
 			},
 			"cluster-count": 1,
 			"min-height": 0,

@@ -7,7 +7,7 @@ print("--- loading Tooltip.zs ---");
 <extrautils2:bagofholding>.addTooltip(format.red("WARNING! Deletes items when switching gamemodes"));
 <improvedbackpacks:backpack>.addTooltip(format.red("WARNING! Do not SHIFT+Click place into the world"));
 <ftbquests:lootcrate>.withTag({type: "cultist"}).addTooltip(format.darkRed("Step one... Dress to impress!"));
-<improvedbackpacks:ender_backpack>.addTooltip(format.red("WARNING! Do not SHIFT+Click place into the world"));
+<ftbquests:lootcrate>.withTag({type: "extraterrestrial_cache"}).addTooltip(format.gold("Keep your eyes on the stars, and your feet on the ground. -Theodore Roosevelt"));
 <mysticalagriculture:diamond_seeds>.addTooltip(format.darkPurple("Do all Mystical Agriculture quests to unlock"));
 <mysticalagriculture:gold_seeds>.addTooltip(format.darkPurple("Do all Farming and Agriculture quests to unlock"));
 <minecolonies:blockhuttownhall>.addTooltip(format.darkPurple("Use a supplyship or supplycamp to obtain"));

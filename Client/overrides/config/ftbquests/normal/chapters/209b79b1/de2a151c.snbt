@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "a1fff965",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "treasure2:jewelled_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ce218504",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a183dd4e",
+		type: "loot",
+		table: 1
+	}]
+}

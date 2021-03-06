@@ -1,0 +1,26 @@
+{
+	x: -4.5d,
+	y: 1.0d,
+	shape: "octagon",
+	description: "Non-Sanctioned Nuclear Fission",
+	can_repeat: true,
+	tasks: [{
+		uid: "a04b3dcc",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_uranium 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "756f875f",
+		type: "item",
+		title: "100 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 100L
+			}
+		}
+	}]
+}

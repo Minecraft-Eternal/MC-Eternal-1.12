@@ -1,0 +1,6 @@
+
+{
+  "Name": "mod_lavacow.mimic",
+  "Registry ID": "mod_lavacow:mimic",
+  "Class": "com.Fishmod.mod_LavaCow.entities.tameable.EntityMimic"
+}

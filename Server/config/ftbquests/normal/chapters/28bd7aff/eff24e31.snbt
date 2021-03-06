@@ -1,0 +1,23 @@
+{
+	title: "Down a dark path",
+	x: -7.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "bc7b6a1e",
+		type: "kill",
+		title: "Murder a Innocent Citizen",
+		icon: "witherskelefix:fragment",
+		entity: "minecolonies:citizen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "518c8baf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ef9cdcb0",
+		type: "loot",
+		table: 1
+	}]
+}

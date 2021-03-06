@@ -1,0 +1,47 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "mowziesmobs:ice_crystal"
+	},
+	x: -5.5d,
+	y: 0.5d,
+	shape: "pentagon",
+	description: "Frostmaws are dangerous beasts found rarely in snowy areas. Their massive size, impressive speed, and powerful ice breath make them near-impossible opponents. If, on your travels, you encounter one sleeping in your path, its best to let it nap.",
+	text: [
+		"The beast guards a precious ice crystal that can unleash pure winter energy when wielded."
+	],
+	tasks: [{
+		uid: "25718985",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_lava_walking"
+		},
+		entity: "mowziesmobs:frostmaw",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0e07c21e",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "4c76db6e",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "49cb8fdc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

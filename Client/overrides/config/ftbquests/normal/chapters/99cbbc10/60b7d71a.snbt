@@ -1,0 +1,25 @@
+{
+	title: "Top tier food: Meat Feast Pizza",
+	x: 3.0d,
+	y: -5.5d,
+	text: [
+		"That’s one of a kind pizza…"
+	],
+	tasks: [{
+		uid: "5ef9bf1e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:meatfeastpizzaitem"
+		}]
+	}],
+	rewards: [{
+		uid: "725a9ede",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "b7910c0f",
+		type: "loot",
+		table: 1
+	}]
+}

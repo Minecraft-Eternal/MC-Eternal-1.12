@@ -1,0 +1,30 @@
+{
+	icon: "immersiveengineering:metal_device0 1 2",
+	x: 1.0d,
+	y: -5.5d,
+	description: "*Energy* *Input into Task Screen* ",
+	text: [
+		"*Unlocked after completing Advanced Science*"
+	],
+	can_repeat: true,
+	dependencies: [
+		"3f8f0656"
+	],
+	tasks: [{
+		uid: "4668bf27",
+		type: "forge_energy",
+		value: 195000000L
+	}],
+	rewards: [{
+		uid: "a10dd060",
+		type: "item",
+		title: "1000 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 1000L
+			}
+		}
+	}]
+}

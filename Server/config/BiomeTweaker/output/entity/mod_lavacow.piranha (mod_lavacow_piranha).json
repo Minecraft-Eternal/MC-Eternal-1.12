@@ -1,0 +1,6 @@
+
+{
+  "Name": "mod_lavacow.piranha",
+  "Registry ID": "mod_lavacow:piranha",
+  "Class": "com.Fishmod.mod_LavaCow.entities.aquatic.EntityPiranha"
+}

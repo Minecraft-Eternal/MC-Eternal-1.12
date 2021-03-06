@@ -1,0 +1,6 @@
+
+{
+  "Name": "vampirism.converted_creature",
+  "Registry ID": "vampirism:converted_creature",
+  "Class": "de.teamlapen.vampirism.entity.converted.EntityConvertedCreature"
+}

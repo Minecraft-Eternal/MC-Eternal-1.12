@@ -1,0 +1,59 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	shape: "square",
+	description: "An unfortunate zombie infected with dreadful cordyceps. It emits poisonous gas and will poison creatures all around them.",
+	dependencies: [
+		"703e6bc2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "47185ba9",
+		type: "kill",
+		title: "Bounty: Ciuperca",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "mod_lavacow:zombiemushroom",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "2b119e0a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "760bd244",
+		type: "item",
+		item: "minecraft:mushroom_stew"
+	},
+	{
+		uid: "fa6da100",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "8cb0a91b",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 6
+	},
+	{
+		uid: "e0eba2bf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "stupidthings:paper_bag_hat",
+			tag: {
+				display: {
+					Name: "Bounty Hunter Mask"
+				}
+			}
+		}
+	}]
+}

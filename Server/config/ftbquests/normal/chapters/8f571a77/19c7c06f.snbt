@@ -1,0 +1,26 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	description: "Farming",
+	can_repeat: true,
+	tasks: [{
+		uid: "49141d66",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "dbf06e06",
+		type: "item",
+		title: "25 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 25L
+			}
+		}
+	}]
+}

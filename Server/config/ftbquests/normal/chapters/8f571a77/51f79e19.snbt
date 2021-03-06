@@ -1,0 +1,29 @@
+{
+	title: "Dragon Head",
+	x: 0.0d,
+	y: -5.0d,
+	shape: "diamond",
+	description: "Exotic",
+	can_repeat: true,
+	tasks: [{
+		uid: "4b694e1c",
+		type: "item",
+		title: "Sell 1x Dragon Head",
+		items: [{
+			item: "minecraft:skull 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "74a4f114",
+		type: "item",
+		title: "500 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 500L
+			}
+		}
+	}]
+}

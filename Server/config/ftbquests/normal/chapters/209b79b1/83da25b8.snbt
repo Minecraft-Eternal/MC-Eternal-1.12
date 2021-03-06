@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: 8.5d,
+	tasks: [{
+		uid: "ea845516",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:upgrade 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "2ab6f7bd",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "3d8767ae",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

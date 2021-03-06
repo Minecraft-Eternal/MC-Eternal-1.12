@@ -1,0 +1,22 @@
+{
+	x: -21.0d,
+	y: -5.0d,
+	shape: "gear",
+	description: "**Should be disabled on populated servers**",
+	text: [
+		"The Summoner Orb has a small chance to capture a soul when placed on the players hotbar, the soul will enter the orb and then be able to be summoned at the users request. Stronger mobs have a smaller chance to be captured, all nonboss mobs have souls"
+	],
+	dependencies: [
+		"293de08c"
+	],
+	tasks: [{
+		uid: "9f9902f8",
+		type: "checkmark",
+		title: "What is a Summoner Orb?"
+	}],
+	rewards: [{
+		uid: "740dad97",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

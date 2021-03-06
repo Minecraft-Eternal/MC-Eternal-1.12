@@ -1,0 +1,35 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	description: "&rThe &lHolo-Projector&r is a handheld hologram projecting device that allows you to see a projection of a selected structure to aid you in building of large machines.",
+	dependencies: [
+		"5da8bdff"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "13fa25a0",
+		type: "item",
+		items: [{
+			item: "libvulpes:holoprojector"
+		}]
+	}],
+	rewards: [{
+		uid: "75bf762b",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "8b006b26",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

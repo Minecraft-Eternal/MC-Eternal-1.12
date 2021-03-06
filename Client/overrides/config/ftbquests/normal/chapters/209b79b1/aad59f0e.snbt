@@ -1,0 +1,53 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	shape: "square",
+	description: "An illusioner is a illager that casts spells and is armed with a bow. The spell is used on itself for defense or on a player while it is attacking.",
+	dependencies: [
+		"05ce51d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6ab3b372",
+		type: "kill",
+		title: "Bounty: Illusioner",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "minecraft:illusion_illager",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "1beb5650",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "b0e055e1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "323407af",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "charm:cake_invisibility"
+		}
+	},
+	{
+		uid: "7d80b3a9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:predator_bow"
+		}
+	}]
+}

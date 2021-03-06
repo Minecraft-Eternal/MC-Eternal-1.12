@@ -1,0 +1,59 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	shape: "square",
+	description: "&oAn ancient story told that: when you gaze into the Scarcrow's hollow eye, your soul will be taken. Luckily, that's just a story. The Scarecrow takes your soul using its scythe instead...",
+	text: [
+		"*Only a brave soul would challenge a scarecrow at night, *cough* I mean a fool*"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8852201"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fe0ed182",
+		type: "kill",
+		title: "Bounty: Scarecrow",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "mod_lavacow:scarecrow",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "75b5f6ca",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "679aeb19",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "f60daef4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "2a2f645f",
+		type: "item",
+		item: {
+			id: "minecraft:tnt",
+			tag: {
+				display: {
+					Name: "This might come in handy later?"
+				}
+			}
+		}
+	}]
+}

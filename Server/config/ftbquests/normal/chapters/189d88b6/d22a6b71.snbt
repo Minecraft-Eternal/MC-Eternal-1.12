@@ -1,0 +1,43 @@
+{
+	title: "&b&lDiamonds are Forever",
+	x: -10.5d,
+	y: -4.5d,
+	description: "Collect 5x Diamonds",
+	dependencies: [
+		"915cf001"
+	],
+	tasks: [{
+		uid: "028c712b",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "ba056345",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7cc9a961",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "fd1356f7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_leggings",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 1s
+				}]
+			}
+		}
+	}]
+}

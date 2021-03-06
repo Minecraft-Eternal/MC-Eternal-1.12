@@ -1,0 +1,26 @@
+{
+	x: -5.0d,
+	y: -1.5d,
+	shape: "gear",
+	tasks: [{
+		uid: "d8757dd2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "jecalculation:item_calculator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0db1bcab",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0c228387",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

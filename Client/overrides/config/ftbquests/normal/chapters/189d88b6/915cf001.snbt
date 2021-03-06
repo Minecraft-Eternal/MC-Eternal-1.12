@@ -1,0 +1,38 @@
+{
+	x: -13.5d,
+	y: -4.5d,
+	shape: "octagon",
+	description: "This book can be placed in your crafting window with any guide book you may have to create a personal library on the go. *Right click to change guides. left click to revert back* *Don't look at a block while clicking*",
+	min_required_dependencies: 1,
+	dependencies: [
+		"87cb3976"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "3dc4d89a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "akashictome:tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4d43014d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "03cbee30",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "412e2e84",
+		type: "item",
+		item: "bibliocraft:bookcase 1 5"
+	}]
+}

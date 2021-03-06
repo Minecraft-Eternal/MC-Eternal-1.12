@@ -1,0 +1,50 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "atum:ras_fury"
+	},
+	x: 0.0d,
+	y: -2.0d,
+	shape: "diamond",
+	description: "&oCollect all of the powerful artifacts from Atum",
+	hide_dependency_lines: true,
+	dependencies: [
+		"99a4bfed"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "f39ab103",
+		type: "advancement",
+		title: "&e&lThat belongs in a museum!",
+		advancement: "atum:core/thefullmuseum",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "ff210ed3",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "ec85b6b0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "0cf46af0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

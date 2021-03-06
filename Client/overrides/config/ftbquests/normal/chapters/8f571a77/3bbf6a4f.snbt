@@ -1,0 +1,33 @@
+{
+	icon: "charm:ender_pearl_block",
+	x: 4.0d,
+	y: -5.0d,
+	description: "Drop",
+	text: [
+		"*Unlocked after defeating the Ender Dragon*"
+	],
+	can_repeat: true,
+	dependencies: [
+		"0739b5ef"
+	],
+	tasks: [{
+		uid: "d198428d",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a753cf61",
+		type: "item",
+		title: "200 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 200L
+			}
+		}
+	}]
+}

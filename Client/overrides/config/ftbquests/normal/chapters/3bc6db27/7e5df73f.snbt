@@ -1,0 +1,34 @@
+{
+	title: "Energized Crystals",
+	x: 0.0d,
+	y: 3.0d,
+	description: "Used to craft advance items and machines.",
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "94cf8aba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "techreborn:lapotroncrystal",
+			tag: {
+				energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2cd0e624",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "0fb654ff",
+		type: "loot",
+		table: 1
+	}]
+}

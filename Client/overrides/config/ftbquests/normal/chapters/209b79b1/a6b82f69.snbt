@@ -1,0 +1,55 @@
+{
+	x: 0.5d,
+	y: -7.0d,
+	shape: "square",
+	description: "Unholy abomination sent to our world with one purpose... To wreak unrelenting havoc, unequivocal to anything you've ever seen. Desolate winter, sorrow and hopelessness is all you see when you look into the fiends undead eyes",
+	dependencies: [
+		"3b74e727"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e030061e",
+		type: "kill",
+		title: "Bounty: Dread Knight",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "iceandfire:dread_knight",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0b5e8121",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "ef8d21fe",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "f75d8787",
+		type: "item",
+		item: "minecraft:diamond_block",
+		count: 3
+	},
+	{
+		uid: "4ab02ede",
+		type: "item",
+		item: "iceandfire:dragonbone_arrow",
+		count: 32
+	},
+	{
+		uid: "aa2b2481",
+		type: "item",
+		item: "minecraft:emerald_block"
+	},
+	{
+		uid: "ce7a1f82",
+		type: "item",
+		item: "iceandfire:dread_key"
+	}]
+}

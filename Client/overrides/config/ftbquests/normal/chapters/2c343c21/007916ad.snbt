@@ -1,0 +1,44 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	shape: "octagon",
+	description: "&e&oStories tell of an ancient Mage who travelled alongside the Ratlanteans on their journey to the Moon. What he discovered there and what he became is unknown. Of course this is all just a myth. Or is it?",
+	text: [
+		"&4&o&l*This item can be used in conjunction with its summoning Altar*"
+	],
+	dependencies: [
+		"19f25282"
+	],
+	size: 0.6d,
+	tasks: [{
+		uid: "3cd2437f",
+		type: "item",
+		items: [{
+			id: "from_the_depths:item_totem_of_summoning_summon_the_ethereal_wizard",
+			tag: {
+				id: "from_the_depths:item_totem_of_summoning_summon_the_ethereal_wizard",
+				Count: 1b,
+				Damage: 0s
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d83c63bc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "df7c1217",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

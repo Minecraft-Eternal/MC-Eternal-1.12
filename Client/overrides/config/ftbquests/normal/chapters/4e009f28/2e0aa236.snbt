@@ -1,0 +1,21 @@
+{
+	x: -13.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "0216c06e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:electrical_steel_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "da4da6ea",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "179900ce",
+		type: "loot",
+		table: 1
+	}]
+}

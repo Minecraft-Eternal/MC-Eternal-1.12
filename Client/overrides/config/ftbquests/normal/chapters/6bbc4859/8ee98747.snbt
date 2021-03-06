@@ -1,0 +1,268 @@
+{
+	title: "Bane of Pigs",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "tconstruct:frypan",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 9.0f,
+				FreeModifiers: 3,
+				Durability: 410,
+				HarvestLevel: 4,
+				Attack: 2.665f
+			},
+			display: {
+				NoRename: 1b,
+				Name: "Bane of Pigs"
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 999999.0f,
+				FreeModifiers: 0,
+				Durability: 999999,
+				HarvestLevel: 4,
+				Attack: 999999.0f
+			},
+			Special: {
+				Categories: [
+					"weapon",
+					"tool"
+				]
+			},
+			TinkerData: {
+				UsedModifiers: 5,
+				Materials: [
+					"slime",
+					"cobalt"
+				],
+				Modifiers: [
+					"toolleveling",
+					"infitool",
+					"fiery"
+				]
+			},
+			Modifiers: [{
+				identifier: "slimey_green",
+				color: -8206221,
+				level: 1
+			},
+			{
+				identifier: "momentum",
+				color: -14122284,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			},
+			{
+				identifier: "infitool",
+				color: 16777215,
+				level: 1
+			},
+			{
+				identifier: "fiery",
+				current: 125,
+				color: 15375922,
+				level: 5,
+				max: 125,
+				extraInfo: "124 / 125"
+			}],
+			Traits: [
+				"slimey_green",
+				"momentum",
+				"toolleveling",
+				"infitool",
+				"fiery"
+			]
+		}
+	},
+	x: 0.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "*Unlocked from completing the Challenge chapter*",
+	can_repeat: true,
+	dependencies: [
+		"03049ff4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a8b57417",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:frypan",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 9.0f,
+					FreeModifiers: 3,
+					Durability: 410,
+					HarvestLevel: 4,
+					Attack: 2.665f
+				},
+				display: {
+					NoRename: 1b,
+					Name: "Bane of Pigs"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 999999.0f,
+					FreeModifiers: 0,
+					Durability: 999999,
+					HarvestLevel: 4,
+					Attack: 999999.0f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 5,
+					Materials: [
+						"slime",
+						"cobalt"
+					],
+					Modifiers: [
+						"toolleveling",
+						"infitool",
+						"fiery"
+					]
+				},
+				Modifiers: [{
+					identifier: "slimey_green",
+					color: -8206221,
+					level: 1
+				},
+				{
+					identifier: "momentum",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "infitool",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "fiery",
+					current: 125,
+					color: 15375922,
+					level: 5,
+					max: 125,
+					extraInfo: "124 / 125"
+				}],
+				Traits: [
+					"slimey_green",
+					"momentum",
+					"toolleveling",
+					"infitool",
+					"fiery"
+				]
+			}
+		}
+	},
+	{
+		uid: "405d4936",
+		type: "ftbmoney:money",
+		value: 80000000000L
+	}],
+	rewards: [{
+		uid: "d3dbf4c5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:frypan",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 9.0f,
+					FreeModifiers: 3,
+					Durability: 410,
+					HarvestLevel: 4,
+					Attack: 2.665f
+				},
+				display: {
+					NoRename: 1b,
+					Name: "Bane of Pigs"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 999999.0f,
+					FreeModifiers: 0,
+					Durability: 999999,
+					HarvestLevel: 4,
+					Attack: 999999.0f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 5,
+					Materials: [
+						"slime",
+						"cobalt"
+					],
+					Modifiers: [
+						"toolleveling",
+						"infitool",
+						"fiery"
+					]
+				},
+				Modifiers: [{
+					identifier: "slimey_green",
+					color: -8206221,
+					level: 1
+				},
+				{
+					identifier: "momentum",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "infitool",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "fiery",
+					current: 125,
+					color: 15375922,
+					level: 5,
+					max: 125,
+					extraInfo: "124 / 125"
+				}],
+				Traits: [
+					"slimey_green",
+					"momentum",
+					"toolleveling",
+					"infitool",
+					"fiery"
+				]
+			}
+		}
+	}]
+}

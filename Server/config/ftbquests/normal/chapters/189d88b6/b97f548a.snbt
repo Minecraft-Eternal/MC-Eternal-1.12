@@ -1,0 +1,27 @@
+{
+	title: "&cAre you &kaaa &rstill sane? &k3918&r",
+	x: 0.5d,
+	y: -0.5d,
+	description: "&k315dd&rWe're all &kaser&r&cmad here &kt3df&r",
+	dependencies: [
+		"996f6a7a"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "24b9b885",
+		type: "checkmark",
+		title: "&kwewfh&r &cSanity Check &k--  &r(Click me if &kwrw&r insane)",
+		icon: "midnight:tendrilweed"
+	}],
+	rewards: [{
+		uid: "903f04af",
+		type: "item",
+		item: "harvestcraft:caramelappleitem"
+	},
+	{
+		uid: "1210d996",
+		type: "item",
+		item: "bewitchment:box_of_sealed_evil"
+	}]
+}

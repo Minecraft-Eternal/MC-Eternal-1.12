@@ -1,0 +1,32 @@
+{
+	title: "Visit &l&6&lThe Moon",
+	icon: "rats:marbled_cheese_raw",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "&oI wonder what happened to the Ratlanteans?",
+	tasks: [{
+		uid: "a1d9a0bd",
+		type: "dimension",
+		dim: 1000
+	}],
+	rewards: [{
+		uid: "967c15b8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "83e2889d",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

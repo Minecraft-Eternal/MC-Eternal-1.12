@@ -1,0 +1,16 @@
+{
+	x: -12.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "40fe5653",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:vibrant_alloy_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "44f5a90c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

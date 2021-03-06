@@ -1,0 +1,6 @@
+
+{
+  "Name": "instrumentalmobs:DrumZombie",
+  "Registry ID": "instrumentalmobs:drum_zombie",
+  "Class": "com.mrbysco.instrumentalmobs.entities.EntityDrumZombie"
+}

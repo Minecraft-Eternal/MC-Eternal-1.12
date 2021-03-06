@@ -1,0 +1,39 @@
+{
+	icon: {
+		id: "minecraft:enchanted_book",
+		tag: {
+			StoredEnchantments: [{
+				lvl: 2s,
+				id: 74s
+			}]
+		}
+	},
+	x: -16.5d,
+	y: -7.5d,
+	dependencies: [
+		"e2e9e16e"
+	],
+	tasks: [{
+		uid: "ae5ff32f",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativesolidwood 1 1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "fa70bee1",
+		type: "item",
+		title: "Kaboomerang II",
+		auto: "no_toast",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 74s
+				}]
+			}
+		}
+	}]
+}

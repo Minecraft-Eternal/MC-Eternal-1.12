@@ -1,0 +1,6 @@
+
+{
+  "Name": "ChiefPirate",
+  "Registry ID": "minecolonies:chiefpirate",
+  "Class": "com.minecolonies.coremod.entity.mobs.pirates.EntityCaptainPirate"
+}

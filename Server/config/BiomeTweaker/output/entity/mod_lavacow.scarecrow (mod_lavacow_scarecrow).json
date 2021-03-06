@@ -1,0 +1,6 @@
+
+{
+  "Name": "mod_lavacow.scarecrow",
+  "Registry ID": "mod_lavacow:scarecrow",
+  "Class": "com.Fishmod.mod_LavaCow.entities.tameable.EntityScarecrow"
+}

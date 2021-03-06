@@ -1,0 +1,25 @@
+{
+	x: -15.5d,
+	y: 2.5d,
+	dependencies: [
+		"cc3f3c37"
+	],
+	tasks: [{
+		uid: "3c32e8d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:storage_bag",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "de51b620",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

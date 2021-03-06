@@ -1,0 +1,25 @@
+{
+	title: "Steel and Titanium",
+	x: -0.5d,
+	y: -2.0d,
+	description: "Steel is another important ingredient in Advanced Rocketry recipes and must be made in the Electric Arc Furnance.",
+	text: [
+		"You will need a power source to supply it with power vis the input plugs. Items can be inserted via the input hatch(s). An iron ingot and coal takes 300s, 5 minutes, to produce 1 steel. It is recommended you start early with this step!"
+	],
+	dependencies: [
+		"bb74b9fa"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "74262f13",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:arcfurnace"
+		}]
+	}],
+	rewards: [{
+		uid: "2defe646",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

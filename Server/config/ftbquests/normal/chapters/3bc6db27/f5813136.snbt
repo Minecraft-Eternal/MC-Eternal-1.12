@@ -1,0 +1,38 @@
+{
+	x: -4.0d,
+	y: 1.5d,
+	dependencies: [
+		"0c2973bb"
+	],
+	tasks: [{
+		uid: "e6f26d77",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "cdb80c79",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "92eb8b93",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "4a2ac294",
+		type: "item",
+		item: {
+			id: "immersiveengineering:material",
+			tag: {
+				perks: {
+					luck: -1.84d,
+					cooldown: 0.72d
+				}
+			},
+			Damage: 15s
+		}
+	}]
+}

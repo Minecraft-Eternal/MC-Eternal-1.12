@@ -1,0 +1,24 @@
+{
+	x: -8.5d,
+	y: -13.0d,
+	dependencies: [
+		"bc9c4ee1"
+	],
+	tasks: [{
+		uid: "8861b0e9",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:absorption_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "42a79e14",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "306d9bb8",
+		type: "loot",
+		table: 1
+	}]
+}

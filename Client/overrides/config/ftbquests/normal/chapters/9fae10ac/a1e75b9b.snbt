@@ -1,0 +1,42 @@
+{
+	x: -5.5d,
+	y: -1.5d,
+	shape: "pentagon",
+	description: "Lost underground many years ago, these heavily armored knights are not men nor are they statues. Are they guarding something? Only the bravest of adventurers would dare to challenge a Ferrous Wroughtnaut.",
+	text: [
+		"Upon defeat, the Wroughtnaut will drop its Wrought Helm and its Axe of a Thousand Metals for the victor. Right clicking with the axe attacks in a large arc, and shift-right clicking will create a shockwave that brings targets closer to you. "
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "202dac90",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:wrought_helmet"
+		},
+		entity: "mowziesmobs:ferrous_wroughtnaut",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "133678f7",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "b415df68",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "c4ba5430",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

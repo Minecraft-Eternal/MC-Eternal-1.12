@@ -1,0 +1,39 @@
+{
+	title: "Cooking Part 2.",
+	x: 10.0d,
+	y: 0.5d,
+	description: "&oIf the way is hazy",
+	dependencies: [
+		"0a5005e1"
+	],
+	tasks: [{
+		uid: "ac950b1d",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:counter"
+		}]
+	},
+	{
+		uid: "4677202c",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cabinet"
+		}]
+	}],
+	rewards: [{
+		uid: "39e65a90",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "f1c2a02f",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "175fc72e",
+		type: "item",
+		item: "minecraft:sugar",
+		count: 2
+	}]
+}

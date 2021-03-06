@@ -1,0 +1,57 @@
+{
+	title: "Ingots, Ingots, Ingots!",
+	x: -3.5d,
+	y: 4.5d,
+	shape: "circle",
+	description: "Part Tres",
+	dependencies: [
+		"e479f7e1"
+	],
+	tasks: [{
+		uid: "ae318d2d",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 17"
+		}],
+		count: 32L
+	},
+	{
+		uid: "be6f53d4",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 11"
+		}],
+		count: 32L
+	},
+	{
+		uid: "7619703c",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 12"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "077b8feb",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "885bd0b5",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "72f946c6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				display: {
+					Name: "Unclaimed Black Market Container "
+				},
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

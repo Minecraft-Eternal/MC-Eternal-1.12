@@ -1,0 +1,27 @@
+{
+	x: -13.0d,
+	y: -3.0d,
+	shape: "diamond",
+	tasks: [{
+		uid: "34de6cad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:hydra_heart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "674c8524",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "89138ac4",
+		type: "loot",
+		table: 1
+	}]
+}

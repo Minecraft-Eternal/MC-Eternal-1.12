@@ -1,0 +1,114 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	shape: "hexagon",
+	description: "&oThere are many unique structures and rare items to find on the Moon. Item sets can be found with different degrees of rarity and power",
+	dependencies: [
+		"2b45993e"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "94620ae4",
+		type: "checkmark",
+		title: "Exploration",
+		icon: "rats:string_cheese"
+	},
+	{
+		uid: "78ccca2c",
+		type: "item",
+		title: "Moon Weapon ",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dungeontactics:golden_knife",
+			tag: {
+				HideFlags: 39,
+				display: {
+					Lore: [
+						"§8Rusted and uncomfortable to hold, unlikely to last very long",
+						"§e(Part of the Moon set)"
+					],
+					Name: "§7Ratlantean Dagger"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 193291300,
+					Amount: 30,
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dungeontactics:pirate_hook",
+			tag: {
+				HideFlags: 39,
+				display: {
+					Lore: [
+						"§8Rusted and uncomfortable to hold, unlikely to last very long (aaarrg)",
+						"§e(Part of the Moon set)"
+					],
+					Name: "§7Pirat Hook"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 193141800,
+					Amount: 40,
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:pirat_cutlass",
+			tag: {
+				HideFlags: 39,
+				display: {
+					Lore: [
+						"§8Made completely out of 100% cheese sourced locally from the Moon.",
+						"§e(Part of the Moon set)"
+					],
+					Name: "§7Cheese Blade"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 99,
+					UUIDLeast: 193352200,
+					Amount: 50,
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b937fcd0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "327b84cf",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

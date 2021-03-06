@@ -1,0 +1,16 @@
+{
+	x: -16.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "240feaa6",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:fiery_ingot_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "80e5c171",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

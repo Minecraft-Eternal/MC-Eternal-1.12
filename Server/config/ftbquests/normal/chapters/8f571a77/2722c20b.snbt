@@ -1,0 +1,32 @@
+{
+	x: -2.0d,
+	y: -7.0d,
+	description: "Mining",
+	text: [
+		"*Unlocked after completing Bosses*"
+	],
+	can_repeat: true,
+	dependencies: [
+		"9fae10ac"
+	],
+	tasks: [{
+		uid: "e4cec100",
+		type: "item",
+		icon: "tconstruct:nuggets 1 2",
+		items: [{
+			item: "tconstruct:ingots 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "900f9a30",
+		type: "item",
+		title: "10 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10L
+			}
+		}
+	}]
+}

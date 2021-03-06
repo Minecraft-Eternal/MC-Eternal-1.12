@@ -1,0 +1,35 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	description: "Adult Salamanders cannot be tamed; however, a player can use a Cane Beef on a baby Salamander to have a 33% chance of taming the fiery beast",
+	text: [
+		"Once tamed, interacting with a Salamander while holding a Stick will set it to sit, follow or patrol mode. Tamed Salamanders will slowly regenerate their health, and faster if submerged into lava. Water on the other hand will harm the creature.",
+		"&oA Player can ride a tamed Salamander by putting a Saddle on it. In addition you can press G to shot 8 fireballs in the facing direction."
+	],
+	dependencies: [
+		"4cac20d0"
+	],
+	tasks: [{
+		uid: "4e974ea1",
+		type: "advancement",
+		title: "The only mount suitable for the bringer of &cDeath and Destruction",
+		icon: "mod_lavacow:mootenheart",
+		advancement: "mod_lavacow:mod_lavacow/tame_salamander",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "4a1508f2",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "9c352bba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

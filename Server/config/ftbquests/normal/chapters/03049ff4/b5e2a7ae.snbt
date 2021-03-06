@@ -1,0 +1,40 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "da5ea75b",
+		type: "xp",
+		value: 5000L,
+		points: false
+	}],
+	rewards: [{
+		uid: "19b7666d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalcultivation:watering_can",
+			tag: {
+				Water: 60000,
+				Mode: 4
+			},
+			Damage: 32000s
+		}
+	},
+	{
+		uid: "85992833",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "7db39945",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

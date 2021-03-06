@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"d256da0e"
+	],
+	tasks: [{
+		uid: "685196c5",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "efbb3471",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

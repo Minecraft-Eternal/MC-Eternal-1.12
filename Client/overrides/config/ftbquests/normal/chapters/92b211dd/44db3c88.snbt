@@ -1,0 +1,25 @@
+{
+	title: "Basic Infrastructure 4.",
+	x: 3.5d,
+	y: -2.5d,
+	description: "&rThe &lPrecision Assembler&r is the workhorse of your infrastructure set-up. Many of the crafting items you need to craft the other blocks are made with this machine cheaper and more efficiently",
+	text: [
+		"&oYou will use this machine to assemble upgrades for your space suit, assemble functional scanners for your ore mapping satellites, and create many of the circuits ubiquitous within the mod for cheaper"
+	],
+	dependencies: [
+		"a46c1855"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "db1d5bd8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:precisionassemblingmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "470359ed",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

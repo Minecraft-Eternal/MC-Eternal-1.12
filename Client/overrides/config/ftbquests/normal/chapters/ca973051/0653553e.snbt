@@ -1,0 +1,25 @@
+{
+	x: -10.0d,
+	y: -5.0d,
+	shape: "diamond",
+	dependencies: [
+		"8b2bcc08"
+	],
+	tasks: [{
+		uid: "27812951",
+		type: "item",
+		items: [{
+			item: "twilightforest:magic_map_focus"
+		}]
+	}],
+	rewards: [{
+		uid: "9c92e9e6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "2b85994e",
+		type: "loot",
+		table: 1
+	}]
+}

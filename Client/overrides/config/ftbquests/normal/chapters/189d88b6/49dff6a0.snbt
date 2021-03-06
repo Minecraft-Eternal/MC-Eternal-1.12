@@ -1,0 +1,19 @@
+{
+	x: -12.0d,
+	y: 1.5d,
+	dependencies: [
+		"14b54c00"
+	],
+	tasks: [{
+		uid: "e586b499",
+		type: "item",
+		items: [{
+			item: "malisisdoors:rustyhatch"
+		}]
+	}],
+	rewards: [{
+		uid: "e345e695",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

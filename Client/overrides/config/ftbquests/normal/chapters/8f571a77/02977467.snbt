@@ -1,0 +1,32 @@
+{
+	x: 3.5d,
+	y: 1.0d,
+	description: "Drop",
+	text: [
+		"*Unlocked from completing Essence of Magic*"
+	],
+	can_repeat: true,
+	dependencies: [
+		"052b94f7"
+	],
+	tasks: [{
+		uid: "91ef5d78",
+		type: "item",
+		items: [{
+			item: "ebwizardry:magic_crystal"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "b5eea968",
+		type: "item",
+		title: "200 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 200L
+			}
+		}
+	}]
+}

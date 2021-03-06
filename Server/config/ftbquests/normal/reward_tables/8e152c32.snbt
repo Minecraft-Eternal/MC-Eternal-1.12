@@ -1,0 +1,2987 @@
+{
+	title: "Unclaimed Blackmarket Cache",
+	icon: "treasure2:dread_pirate_chest",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_white"
+		}
+	},
+	{
+		item: "inventorypets:candy_cane",
+		weight: 2
+	},
+	{
+		item: "inventorypets:holiday_cookie",
+		weight: 2
+	},
+	{
+		item: "inventorypets:easter_egg"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:meta_pet"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:patreon_head"
+		}
+	},
+	{
+		item: "minecraft:nether_star",
+		weight: 2
+	},
+	{
+		item: "treasure2:compressor_chest",
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "techreborn:diamonddrill",
+			tag: {
+				energy: 400000
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 4s
+		}
+	},
+	{
+		item: "techreborn:uumatter",
+		count: 32,
+		weight: 2
+	},
+	{
+		item: "minecraft:bedrock"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_sapphire"
+		}
+	},
+	{
+		item: "techreborn:ingot 1 14",
+		count: 16,
+		weight: 2
+	},
+	{
+		item: "minecraft:golden_apple 1 1",
+		count: 16,
+		weight: 2
+	},
+	{
+		item: "ghostsexplosives:tnt_x1000"
+	},
+	{
+		item: "mysticalagriculture:supremium_apple",
+		count: 16
+	},
+	{
+		item: "minecraft:diamond",
+		count: 32,
+		weight: 2
+	},
+	{
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "xu_evil_metal"
+			}
+		}
+	},
+	{
+		item: "extrautils2:ingredients 1 10",
+		weight: 2
+	},
+	{
+		item: "extrautils2:ingredients 1 17",
+		count: 4
+	},
+	{
+		item: "minecraft:dragon_breath",
+		count: 3,
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonbone_sword_fire"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:flamethrower",
+			tag: {
+				mekData: {
+					stored: {
+						amount: 24000,
+						gasName: "hydrogen"
+					}
+				}
+			}
+		},
+		weight: 2
+	},
+	{
+		item: "rats:dragon_wing",
+		weight: 3
+	},
+	{
+		item: "rats:rat_upgrade_extreme_energy"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:plague_scythe"
+		}
+	},
+	{
+		item: "rats:creative_cheese"
+	},
+	{
+		item: "rats:arcane_technology"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:plague_doctor_mask"
+		}
+	},
+	{
+		item: "rats:chunky_cheese_token"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "portalgun:item_portalgun",
+			tag: {
+				lastFired: 1b,
+				width: 1,
+				channelName: "Chell",
+				grabStrength: 4,
+				uuid: "Global",
+				username: "Global",
+				height: 2
+			}
+		}
+	},
+	{
+		item: "twilightforest:twilight_sapling 1 9",
+		weight: 2
+	},
+	{
+		item: "witherskelefix:fragment",
+		count: 19,
+		weight: 2
+	},
+	{
+		ftb_money: 2000L,
+		type: "ftbmoney:money",
+		weight: 2
+	},
+	{
+		ftb_money: 1L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 3000L,
+		type: "ftbmoney:money",
+		weight: 2
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "mowziesmobs:ferrous_wroughtnaut"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "iceandfire:cyclops"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_lootbox"
+			}
+		},
+		count: 3,
+		weight: 2
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "adventuring_master_cache_4000"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_spell_book"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "master_spell_book"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:advanced_necromancy_wand"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_condensing"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_defender"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:pixie_wand"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:troll_weapon.column"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:armor_red_chestplate"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:tide_purple_helmet"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:tide_trident"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonsteel_fire_chestplate"
+		}
+	},
+	{
+		item: "iceandfire:stymphalian_feather_bundle"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:myrmex_jungle_egg",
+			Damage: 4s
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:hippocampus_slapper"
+		},
+		weight: 2
+	},
+	{
+		item: "iceandfire:rotten_egg",
+		random_bonus: 8,
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:iceandfire.deathworm_egg",
+			Damage: 1s
+		},
+		weight: 2
+	},
+	{
+		item: "iceandfire:fire_dragon_heart",
+		weight: 2
+	},
+	{
+		item: "iceandfire:amphithere_arrow",
+		count: 16,
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:myrmex_desert_swarm"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "tconstruct:shard",
+			tag: {
+				Material: "xu_demonic_metal"
+			}
+		},
+		count: 16
+	},
+	{
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 200000,
+				JetpackParticleType: 0
+			}
+		}
+	},
+	{
+		item: "twilightforest:hydra_chop",
+		count: 64
+	},
+	{
+		item: {
+			id: "minecraft:dirt",
+			tag: {
+				display: {
+					Name: "SipsCo. Quality Dirt"
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:wrought_axe"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:ore_meter"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:triple_bow"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:ice_bow"
+		}
+	},
+	{
+		item: "twilightforest:fiery_blood",
+		count: 16
+	},
+	{
+		item: "twilightforest:miniature_structure 1 5"
+	},
+	{
+		item: "twilightforest:miniature_structure 1 6"
+	},
+	{
+		item: "twilightforest:miniature_structure"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:glass_sword"
+		}
+	},
+	{
+		item: "twilightforest:aurora_block",
+		count: 64
+	},
+	{
+		item: "chancecubes:compact_giant_chance_cube",
+		count: 3
+	},
+	{
+		item: "chancecubes:chance_cube",
+		count: 16,
+		weight: 2
+	},
+	{
+		item: "chancecubes:chance_icosahedron"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:goldenheart"
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shard",
+			tag: {
+				Material: "knightmetal"
+			}
+		},
+		count: 64
+	},
+	{
+		item: "iceandfire:ice_dragon_blood",
+		weight: 2
+	},
+	{
+		item: "twilightforest:fiery_tears",
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "witherskelefix:blade2"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "witherskelefix:blade"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "conarm:boots",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 25046,
+					Defense: 50.0f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 25046,
+					Defense: 50.0f
+				},
+				TinkerData: {
+					Materials: [
+						"xu_evil_metal",
+						"xu_evil_metal",
+						"xu_evil_metal"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "xu_withering",
+					color: -131160,
+					level: 1
+				}],
+				Traits: [
+					"xu_withering"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "milk_chocolate"
+			}
+		},
+		count: 16,
+		weight: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:top_hat"
+		},
+		weight: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:fisherman_hat"
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "cyclicmagic:healthboost"
+			}
+		}
+	},
+	{
+		item: "minecraft:sponge"
+	},
+	{
+		item: "ghostsexplosives:tnt_nuclear"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:glass_sword"
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "iceandfire:firedragon"
+			}
+		}
+	},
+	{
+		item: "ghostsexplosives:tnt_nuclear"
+	},
+	{
+		item: "techreborn:ingot 1 25",
+		count: 32
+	},
+	{
+		item: "techreborn:part 1 39",
+		count: 16
+	},
+	{
+		item: "techreborn:part 1 43",
+		count: 16,
+		weight: 2
+	},
+	{
+		xp_levels: 100,
+		type: "xp_levels"
+	},
+	{
+		ftb_money: 20000L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "twilightforest:naga"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "rats:marbled_cheese_golem"
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "totemic:baykok"
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "twilightforest:knight_phantom"
+			}
+		}
+	},
+	{
+		item: "cyclicmagic:glowing_chorus",
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalcultivation:watering_can",
+			tag: {
+				Water: 60000,
+				Mode: 4
+			},
+			Damage: 32000s
+		}
+	},
+	{
+		item: "storagedrawers:upgrade_creative"
+	},
+	{
+		item: "ebwizardry:spell_book 1 101"
+	},
+	{
+		item: "ebwizardry:spell_book 1 105"
+	},
+	{
+		item: "ebwizardry:spell_book 1 100"
+	},
+	{
+		item: "ebwizardry:spell_book 1 98"
+	},
+	{
+		item: "ebwizardry:spell_book 1 94"
+	},
+	{
+		item: "ebwizardry:spell_book 1 55"
+	},
+	{
+		item: "ebwizardry:spell_book 1 169"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_stop_time"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_hammer"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:amulet_resurrection"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_haggler"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:master_lightning_wand"
+		}
+	},
+	{
+		item: "cyclicmagic:crystallized_obsidian",
+		count: 32
+	},
+	{
+		item: "cyclicmagic:dynamite_mining",
+		count: 16,
+		weight: 2
+	},
+	{
+		item: "cyclicmagic:ender_tnt_6",
+		count: 32
+	},
+	{
+		item: "cyclicmagic:crafting_food"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:ender_lightning",
+			tag: {}
+		},
+		weight: 2
+	},
+	{
+		command: "summon giant",
+		type: "command"
+	},
+	{
+		item: "icbmclassic:explosives",
+		count: 8
+	},
+	{
+		item: "icbmclassic:explosives 1 15"
+	},
+	{
+		item: "mekanism:ingot",
+		count: 16,
+		weight: 2
+	},
+	{
+		item: {
+			id: "culinaryconstruct:sandwich",
+			tag: {
+				Size: 5,
+				Saturation: 1.0f,
+				Ingredients: {
+					Items: [{
+						Slot: 0b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 5b,
+						id: "minecraft:bread",
+						Count: 1b,
+						Damage: 0s
+					}]
+				},
+				Bonus: 2,
+				Depth: 0,
+				Food: 20
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluidmethane",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		item: "bibliocraft:cookiejar",
+		weight: 2
+	},
+	{
+		item: "minecraft:dragon_breath"
+	},
+	{
+		item: "minecraft:skull 1 5"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:railgun"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "waystones:warp_stone"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ancient_greatsword"
+		}
+	},
+	{
+		item: "twilightforest:charm_of_keeping_3"
+	},
+	{
+		item: "twilightforest:twilight_sapling 1 4",
+		weight: 2
+	},
+	{
+		item: "twilightforest:trophy_pedestal"
+	},
+	{
+		item: "bewitchment:gold_herne_statue",
+		weight: 2
+	},
+	{
+		item: "icbmclassic:launcherbase 1 1"
+	},
+	{
+		item: "techreborn:plates 1 38",
+		count: 3
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "dragonsteel_ice"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonsteel_fire_axe"
+		}
+	},
+	{
+		item: "icbmclassic:rocketlauncher",
+		weight: 3
+	},
+	{
+		item: "quark:paper_wall_sakura"
+	},
+	{
+		item: "minecraft:diamond",
+		count: 32
+	},
+	{
+		item: "minecraft:gold_block",
+		count: 16
+	},
+	{
+		item: "stevescarts:cartmodule 1 76"
+	},
+	{
+		item: "extrautils2:spike_creative"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:piranhalauncher"
+		},
+		weight: 2
+	},
+	{
+		item: "lootgames:gol_master",
+		weight: 2
+	},
+	{
+		item: "mowziesmobs:grant_suns_blessing"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thesummoner:enhanced_summoner_orb"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thesummoner:summoner_orb"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "thesummoner:summoner"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:earth_talisman"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 80000000L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0b,
+				Selected: "RARE"
+			}
+		}
+	},
+	{
+		item: {
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "hot_spring_water",
+					Amount: 16000
+				}
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:obsidian_armor_chest",
+			tag: {
+				tier: "ULTIMATE"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "techreborn:rockcutter",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 33s
+				}],
+				energy: 400000
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:thorring",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 9s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:sun_pet"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:scythe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 9.75f,
+					FreeModifiers: 3,
+					Durability: 1210,
+					HarvestLevel: 4,
+					Attack: 8.45f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 9.75f,
+					FreeModifiers: 3,
+					Durability: 1210,
+					HarvestLevel: 4,
+					Attack: 8.45f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"weapon",
+						"aoe",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"xu_evil_metal",
+						"xu_evil_metal",
+						"xu_evil_metal",
+						"xu_evil_metal"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "xu_withering",
+					color: -131160,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"xu_withering",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:reapers_scythe"
+		}
+	},
+	{
+		item: "harvestcraft:szechuaneggplantitem",
+		count: 64
+	},
+	{
+		item: "randomthings:weatheregg",
+		count: 32
+	},
+	{
+		item: "openblocks:golden_egg"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:yeti_leggings",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 0s
+				}]
+			}
+		},
+		weight: 2
+	},
+	{
+		item: "quark:parrot_egg",
+		weight: 2
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 6",
+		weight: 2
+	},
+	{
+		item: "minecraft:beacon"
+	},
+	{
+		item: "techreborn:nuke"
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "bewitchment:demon"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "forestry:refractory",
+			tag: {
+				Fluid: {
+					FluidName: "xu_demonic_metal",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "thaumcraft:taintaclegiant"
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "iceandfire:gorgon"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:blazeandsteel"
+		}
+	},
+	{
+		item: "thermalfoundation:material 1 2048",
+		count: 16,
+		weight: 3
+	},
+	{
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "psigem"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "dragonsteel_fire"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hydrogen",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		item: "minecraft:dragon_egg"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:creative_flux_sponge"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:earth_talisman"
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "icbmclassic:skeleton.xmas.boss"
+				}
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "icbmclassic:skeleton.xmas.snowman"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "icbmclassic:zombie.xmas.boss"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "icbmclassic:zombie.xmas.creeper"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "techreborn:nanosaber",
+			tag: {
+				isActive: 1b,
+				energy: 640000
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "techreborn:advancedchainsaw",
+			tag: {
+				energy: 4000000
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "techreborn:advanceddrill",
+			tag: {
+				energy: 4000000
+			}
+		},
+		weight: 3
+	},
+	{
+		item: "techreborn:cable 1 8",
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:cube_of_annihilation"
+		}
+	},
+	{
+		item: "twilightforest:experiment_115",
+		count: 16
+	},
+	{
+		item: "thebetweenlands:gallery_frame_very_large"
+	},
+	{
+		item: {
+			id: "minecraft:paper",
+			tag: {
+				display: {
+					Name: "Oh.. You've found a secret! Message me on Discord to unlock a special role!"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mowziesmobs:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "mowziesmobs:lantern"
+				}
+			}
+		},
+		count: 16
+	},
+	{
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "solarium"
+			}
+		},
+		weight: 2
+	},
+	{
+		item: "tconstruct:slime 1 2",
+		count: 64,
+		weight: 2
+	},
+	{
+		item: "tconstruct:materials 1 19"
+	},
+	{
+		item: "tconstruct:materials 1 16",
+		weight: 2
+	},
+	{
+		item: {
+			id: "tconstruct:shard",
+			tag: {
+				Material: "xu_evil_metal"
+			}
+		},
+		count: 16
+	},
+	{
+		item: {
+			id: "tconstruct:bow_limb",
+			tag: {
+				Material: "electrumflux"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:hammer_head",
+			tag: {
+				Material: "weezer"
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "tconstruct:tough_binding",
+			tag: {
+				Material: "mod_lavacow.moltenbeef"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:longsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.85f,
+					FreeModifiers: 3,
+					Durability: 829,
+					HarvestLevel: 4,
+					Attack: 2.9375f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.85f,
+					FreeModifiers: 3,
+					Durability: 829,
+					HarvestLevel: 4,
+					Attack: 2.9375f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"violium",
+						"violium",
+						"violium"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "arcane",
+					color: -5635926,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"arcane",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: "mod_lavacow:netherstew",
+		count: 8,
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:dreamcatcher"
+		}
+	},
+	{
+		item: "mod_lavacow:burntovipositor",
+		weight: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:bonesword"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:halo_necklace"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:potion_of_mooten_lava"
+		},
+		weight: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:swinearmor_chestplate"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:goldenheart"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:electricbow",
+			tag: {
+				mekData: {
+					energyStored: 120000.0d
+				}
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:robit",
+			tag: {
+				mekData: {
+					energyStored: 100000.0d
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:atomicdisassembler",
+			tag: {
+				mekData: {
+					energyStored: 1000000.0d
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:scubatank",
+			tag: {
+				mekData: {
+					stored: {
+						amount: 24000,
+						gasName: "oxygen"
+					}
+				}
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:jetpack",
+			tag: {
+				mekData: {
+					stored: {
+						amount: 24000,
+						gasName: "hydrogen"
+					}
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:freerunners",
+			tag: {
+				mekData: {
+					energyStored: 64000.0d
+				}
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:meta_pet"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:chicken_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		},
+		weight: 2
+	},
+	{
+		item: "cyclicmagic:beacon_potion",
+		weight: 2
+	},
+	{
+		item: {
+			id: "minecraft:red_flower",
+			tag: {
+				display: {
+					Name: "<3"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "chancecubes:compact_giant_chance_cube",
+			tag: {
+				display: {
+					Name: "So I heard you like RNG?"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "chancecubes:chance_cube",
+			tag: {
+				display: {
+					Name: ":)"
+				}
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "minecraft:fish",
+			tag: {
+				display: {
+					Name: ":O"
+				}
+			},
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			id: "vampirism:human_heart",
+			tag: {
+				display: {
+					Name: "</3"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_combined_creative"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:black_death_mask"
+		},
+		weight: 2
+	},
+	{
+		item: "rats:rat_upgrade_god"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_combined"
+		}
+	},
+	{
+		item: "rats:confit_byaldi"
+	},
+	{
+		item: "rats:rat_upgrade_dragon"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_miner"
+		},
+		weight: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "conarm:helmet",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 2220,
+					Defense: 37.4625f
+				},
+				display: {
+					Name: "Not so evil helmet that is totally safe and friendly"
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 2220,
+					Defense: 37.4625f
+				},
+				TinkerData: {
+					Materials: [
+						"xu_demonic_metal",
+						"xu_demonic_metal",
+						"xu_demonic_metal"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "xu_whispering",
+					color: -6079744,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"xu_whispering",
+					"leveling_armor"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_experience_tome"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:master_sorcery_wand"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_storm"
+		}
+	},
+	{
+		item: "ebwizardry:astral_diamond",
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_mana_return"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:amulet_arcane_defence"
+		}
+	},
+	{
+		item: "bewitchment:nether_brick_leonard_statue"
+	},
+	{
+		item: "bewitchment:block_of_garnet",
+		count: 32
+	},
+	{
+		item: "bewitchment:gold_baphomet_statue"
+	},
+	{
+		item: "bewitchment:sanguine_cloth",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:poppet_vampiric"
+		}
+	},
+	{
+		item: "bewitchment:bottled_hellfire"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:contract"
+		}
+	},
+	{
+		item: "bewitchment:box_of_sealed_evil",
+		count: 6,
+		weight: 3
+	},
+	{
+		item: "harvestcraft:swedishmeatballsitem"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			tag: {
+				playerHashcode: 7037040
+			},
+			Damage: 30s
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "fancy_dress_box"
+			}
+		}
+	},
+	{
+		item: {
+			id: "biomestaff:biome_staff",
+			tag: {
+				biome: -115b
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "xu_demonic_metal"
+			}
+		},
+		weight: 3
+	},
+	{
+		item: "mysticalagriculture:fiery_ingot_seeds"
+	},
+	{
+		item: {
+			id: "biomestaff:biome_staff",
+			tag: {
+				biome: -72b
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:boomerang"
+		},
+		weight: 3
+	},
+	{
+		item: "iceandfire:dragon_bone_block",
+		weight: 2
+	},
+	{
+		item: "vampirism:sunscreen_beacon"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:invisibilitycloak",
+			tag: {}
+		}
+	},
+	{
+		item: "waystones:waystone",
+		count: 2,
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "conarm:helmet",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 39215,
+					Defense: 37.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 0.0f,
+					Toughness: 0.0f,
+					MiningSpeed: 0.0f,
+					FreeModifiers: 3,
+					Durability: 39215,
+					HarvestLevel: 0,
+					Attack: 0.0f,
+					Defense: 37.5f
+				},
+				TinkerData: {
+					Materials: [
+						"gaia",
+						"gaia",
+						"gaia"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "alien",
+					color: -7252043,
+					level: 1
+				},
+				{
+					identifier: "payback",
+					color: -7252043,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"alien",
+					"payback",
+					"leveling_armor"
+				]
+			}
+		}
+	},
+	{
+		item: "twilightforest:castle_door 1 3",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "nuclearcraft:legs_hard_carbon"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_blue"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "nuclearcraft:legs_tough"
+		},
+		weight: 2
+	},
+	{
+		item: "harvestcraft:deviledeggitem",
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:pet_christmas_tree"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:pet_mishumaa_saba"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:pet_menorah"
+		}
+	},
+	{
+		xp_levels: 80,
+		type: "xp_levels"
+	},
+	{
+		item: "randomthings:spectrecoil_number"
+	},
+	{
+		item: {
+			id: "biomestaff:biome_staff",
+			tag: {
+				biome: -72b
+			}
+		}
+	},
+	{
+		item: "harvestcraft:blueberrypancakesitem",
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:cake"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:plague_scythe"
+		}
+	},
+	{
+		item: "stupidthings:balloon_deflated 1 15",
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:exchangertool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:amphithere_macuahuitl"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:armour_upgrade"
+		}
+	},
+	{
+		item: "iceandfire:dragonforge_ice_brick",
+		count: 3
+	},
+	{
+		item: "iceandfire:dragonforge_fire_brick",
+		count: 3
+	},
+	{
+		item: "iceandfire:dragonbone_arrow",
+		count: 32,
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:troll_weapon.hammer"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:battlesign",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 38,
+					HarvestLevel: 1,
+					Attack: 3.9f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 38,
+					HarvestLevel: 1,
+					Attack: 3.9f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"mod_lavacow.scythe_claw",
+						"mod_lavacow.scythe_claw"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "coldblooded",
+					color: -10330530,
+					level: 1
+				},
+				{
+					identifier: "mod_lavacow.famine",
+					color: -10330530,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"coldblooded",
+					"mod_lavacow.famine",
+					"toolleveling"
+				]
+			}
+		},
+		weight: 2
+	},
+	{
+		item: "randomthings:beans 1 2",
+		weight: 2
+	},
+	{
+		item: "icbmclassic:grenade",
+		count: 3
+	},
+	{
+		item: "icbmclassic:grenade 1 1",
+		count: 3
+	},
+	{
+		item: "icbmclassic:grenade 1 2",
+		count: 2,
+		weight: 2
+	},
+	{
+		item: "icbmclassic:grenade 1 3",
+		count: 3
+	},
+	{
+		item: "icbmclassic:grenade 1 4",
+		count: 3
+	},
+	{
+		item: "icbmclassic:grenade 1 5",
+		count: 3,
+		weight: 3
+	},
+	{
+		item: "icbmclassic:grenade 1 7",
+		count: 3
+	},
+	{
+		item: "icbmclassic:grenade 1 29",
+		count: 3
+	},
+	{
+		item: "icbmclassic:grenade 1 30",
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "icbmclassic:tracker"
+		}
+	},
+	{
+		item: "icbmclassic:launcherbase 1 2"
+	},
+	{
+		item: "icbmclassic:cruiselauncher",
+		weight: 2
+	},
+	{
+		item: "harvestcraft:swedishmeatballsitem",
+		count: 16
+	},
+	{
+		item: "nuclearcraft:rtg_uranium"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:shovel",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.625f,
+					FreeModifiers: 3,
+					Durability: 672,
+					HarvestLevel: 4,
+					Attack: 4.55f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.625f,
+					FreeModifiers: 3,
+					Durability: 672,
+					HarvestLevel: 4,
+					Attack: 4.55f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"harvest",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"enderium_plustic",
+						"enderium_plustic",
+						"enderium_plustic"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "global",
+					color: -16733696,
+					level: 1
+				},
+				{
+					identifier: "enderference",
+					color: -16733696,
+					level: 1
+				},
+				{
+					identifier: "portly",
+					color: -16733696,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"global",
+					"enderference",
+					"portly",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:pan_head",
+			tag: {
+				Material: "electrumflux"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:broad_axe_head",
+			tag: {
+				Material: "electrumflux"
+			}
+		}
+	},
+	{
+		item: "conarm:resist_mat"
+	},
+	{
+		item: "icbmclassic:explosives",
+		count: 3,
+		weight: 3
+	},
+	{
+		item: "icbmclassic:explosives 1 3",
+		count: 4
+	},
+	{
+		item: "icbmclassic:explosives 1 4",
+		count: 3
+	},
+	{
+		item: "icbmclassic:explosives 1 6",
+		count: 3
+	},
+	{
+		item: "icbmclassic:explosives 1 18",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "icbmclassic:explosives 1 20",
+		count: 4
+	},
+	{
+		item: "icbmclassic:explosives 1 19",
+		count: 4,
+		weight: 2
+	},
+	{
+		item: "icbmclassic:explosives 1 21",
+		count: 5,
+		weight: 2
+	},
+	{
+		item: "icbmclassic:explosives 1 17",
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonbone_sword_fire"
+		}
+	},
+	{
+		item: "minecraft:dirt 1 2",
+		weight: 2
+	},
+	{
+		item: "minecraft:sponge",
+		count: 16,
+		weight: 2
+	},
+	{
+		item: "extrautils2:enderlilly",
+		weight: 3
+	},
+	{
+		item: "minecraft:end_portal_frame"
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "thaumcraft:cultistportalgreater"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "thaumcraft:cultistleader"
+				}
+			}
+		}
+	},
+	{
+		item: "thermalfoundation:material 1 130",
+		count: 34
+	},
+	{
+		item: "thermalfoundation:material 1 2048",
+		weight: 3
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "instrumentalmobs:cymbal_husk"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ghostsexplosives:bazooka"
+		}
+	},
+	{
+		item: "thermalfoundation:material 1 2050",
+		weight: 2
+	},
+	{
+		item: "thermalfoundation:material 1 2052",
+		weight: 2
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cheesy_cache"
+			}
+		}
+	},
+	{
+		item: "stevescarts:cartmodule 1 96"
+	},
+	{
+		item: "stevescarts:cartmodule 1 61"
+	},
+	{
+		item: "stevescarts:upgrade 1 14"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "charm:record_creative5"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "charm:record_creative3"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "charm:record_creative6"
+		}
+	},
+	{
+		item: "icbmclassic:spikes 1 2",
+		count: 32
+	},
+	{
+		item: "icbmclassic:spikes 1 1",
+		count: 32
+	},
+	{
+		item: "icbmclassic:spikes",
+		count: 32
+	},
+	{
+		item: "icbmclassic:concrete 1 2",
+		count: 64
+	},
+	{
+		item: "icbmclassic:emptower"
+	},
+	{
+		item: "icbmclassic:launcherbase 1 1"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampiresneedumbrellas:creative_umbrella"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampiresneedumbrellas:iron_umbrella",
+			tag: {
+				display: {
+					Name: "Sun Blocker 5000"
+				}
+			},
+			Damage: 30s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:tool_spawn_inspect"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:fiery_chestplate"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:fiery_sword",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 20s
+				}]
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:block_and_chain"
+		},
+		weight: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:peacock_fan"
+		},
+		weight: 2
+	},
+	{
+		item: "twilightforest:magic_beans"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:giant_pickaxe"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:giant_sword"
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "bewitchment:baphomet"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:caduceus"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:lore_scrap",
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:lore_scrap",
+			Damage: 9s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:lore_scrap",
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:spirit_tree_face_large_mask"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:skull_mask"
+		},
+		weight: 3
+	},
+	{
+		item: "thebetweenlands:tarminion"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:lore_scrap",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:lore_scrap"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:lore_scrap",
+			Damage: 1s
+		},
+		weight: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:valonite_shield"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:shockwave_sword",
+			tag: {
+				cooldown: 0,
+				uses: 0
+			}
+		}
+	},
+	{
+		item: "thebetweenlands:moss_bed_item"
+	},
+	{
+		item: "thebetweenlands:mummy_bait",
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manabottle"
+		},
+		weight: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:lich_staff"
+		}
+	},
+	{
+		item: "iceandfire:dread_stone_bricks_cracked",
+		count: 64
+	},
+	{
+		item: "iceandfire:dread_stone_bricks_mossy",
+		count: 64
+	},
+	{
+		item: "iceandfire:dread_stone_tile",
+		count: 64
+	},
+	{
+		item: "iceandfire:dread_torch",
+		count: 64
+	},
+	{
+		item: "iceandfire:sea_serpent_scale_block_purple",
+		count: 3
+	},
+	{
+		item: "iceandfire:dread_stone_face",
+		count: 64
+	},
+	{
+		item: "iceandfire:dread_stone_bricks",
+		count: 64
+	},
+	{
+		item: "iceandfire:dread_shard",
+		count: 4
+	},
+	{
+		item: "iceandfire:fire_stew"
+	},
+	{
+		item: "iceandfire:hydra_arrow",
+		count: 17,
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonsteel_fire_shovel"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonsteel_fire_hoe"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:tide_trident"
+		}
+	},
+	{
+		item: "iceandfire:cockatrice_eye"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfspellpack:ring_hydra_kaboom"
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "twilightforest:hydra"
+				}
+			}
+		}
+	},
+	{
+		item: "rats:ratlantean_flame",
+		count: 4,
+		weight: 20
+	},
+	{
+		item: "stevescarts:upgrade 1 5"
+	}],
+	loot_crate: {
+		string_id: "unclaimed_black_market_container",
+		item_name: "Unclaimed Black Market Container",
+		color: 0,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

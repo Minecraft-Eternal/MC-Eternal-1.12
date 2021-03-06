@@ -1,0 +1,21 @@
+{
+	x: -17.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "771e5572",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:blitz_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "c3a88880",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8e517899",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: -5.5d,
+	y: -3.5d,
+	shape: "pentagon",
+	description: "Barako is the chief of the Barakoa tribe, residing in a stationary seat upon a throne in Barakoa villages. He draws his power from the sun, calling forth sunstrikes, solar flares, and massive solar beams.",
+	text: [
+		"Those strong enough to face and defeat him, however, are rewarded with his mask: the Sol Visage. This mask allows its wearers to breathe life into masks to create Barakoa followers. "
+	],
+	tasks: [{
+		uid: "155a9b2b",
+		type: "kill",
+		icon: "mowziesmobs:grant_suns_blessing",
+		entity: "mowziesmobs:barako",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "046baf03",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "40b2eb24",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "d1103b85",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

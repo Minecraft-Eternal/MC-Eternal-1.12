@@ -1,0 +1,28 @@
+{
+	x: -9.5d,
+	y: -2.0d,
+	description: "A ruthless winged reptile that travels far and wide to raze villages with its fiery breath.",
+	tasks: [{
+		uid: "8dc5fce4",
+		type: "kill",
+		icon: "iceandfire:fire_dragon_heart",
+		entity: "iceandfire:firedragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "5aaec0ab",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "d0b4caab",
+		type: "loot",
+		icon: "bibliocraft:framedchest 1 6",
+		table: 1
+	},
+	{
+		uid: "43a0f892",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	shape: "hexagon",
+	description: "These strange but powerful crystals hold the key to interplanet travel and the path that opens up the universe for further exploration!",
+	dependencies: [
+		"2b45993e"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "7a4616b2",
+		type: "item",
+		items: [{
+			item: "libvulpes:productgem"
+		}]
+	}],
+	rewards: [{
+		uid: "be8632af",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "fc282548",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

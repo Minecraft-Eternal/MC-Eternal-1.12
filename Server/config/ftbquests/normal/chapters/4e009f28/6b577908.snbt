@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "af5a296a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:coal_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "169e56a7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

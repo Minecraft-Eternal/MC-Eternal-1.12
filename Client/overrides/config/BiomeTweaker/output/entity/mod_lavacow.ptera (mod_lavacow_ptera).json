@@ -1,0 +1,6 @@
+
+{
+  "Name": "mod_lavacow.ptera",
+  "Registry ID": "mod_lavacow:ptera",
+  "Class": "com.Fishmod.mod_LavaCow.entities.flying.EntityPtera"
+}

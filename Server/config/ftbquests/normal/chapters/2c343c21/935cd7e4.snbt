@@ -1,0 +1,44 @@
+{
+	x: -1.4d,
+	y: 1.4d,
+	shape: "octagon",
+	description: "&eAll praise the King of the rats! Our glorious omnipotent leader.",
+	text: [
+		"&4&o&l*This item can be used in conjunction with its summoning Altar*"
+	],
+	dependencies: [
+		"19f25282"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "39773170",
+		type: "item",
+		items: [{
+			id: "from_the_depths:item_totem_of_summoning_summon_the_god_king,_leader_of_the_rats",
+			tag: {
+				id: "from_the_depths:item_totem_of_summoning_summon_the_god_king,_leader_of_the_rats",
+				Count: 1b,
+				Damage: 0s
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "00bd7bc4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "6b6d3173",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

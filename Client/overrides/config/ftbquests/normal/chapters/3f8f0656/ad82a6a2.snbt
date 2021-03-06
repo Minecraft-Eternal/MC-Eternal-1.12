@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: -1.5d,
+	dependencies: [
+		"5ea6fbc6"
+	],
+	tasks: [{
+		uid: "3ab9eb54",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:melter_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "7fd55f45",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	description: "&o\"Giants are not what we think they are. The same qualities that appear to give them strength are often the sources of great weakness.\" -David and Goliath",
+	hide_dependency_lines: true,
+	dependencies: [
+		"87cb3976"
+	],
+	size: 1.1d,
+	tasks: [{
+		uid: "d76ba6d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:bonesword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a1274cb9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1aa416c9",
+		type: "loot",
+		table: 1
+	}]
+}

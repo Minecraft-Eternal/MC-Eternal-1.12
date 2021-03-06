@@ -1,0 +1,20 @@
+{
+	x: -15.0d,
+	y: 2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"168ab840"
+	],
+	tasks: [{
+		uid: "82124b32",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:supremium_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "35831b49",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

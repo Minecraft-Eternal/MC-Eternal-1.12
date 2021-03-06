@@ -1,0 +1,27 @@
+{
+	icon: "charm:rotten_flesh_block",
+	x: 4.0d,
+	y: -6.0d,
+	description: "Drop",
+	can_repeat: true,
+	tasks: [{
+		uid: "a26c01c5",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "7245e5c9",
+		type: "item",
+		title: "25 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 25L
+			}
+		}
+	}]
+}

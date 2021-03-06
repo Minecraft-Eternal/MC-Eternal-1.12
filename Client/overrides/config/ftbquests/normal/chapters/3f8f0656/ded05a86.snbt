@@ -1,0 +1,32 @@
+{
+	x: 3.0d,
+	y: 5.0d,
+	shape: "diamond",
+	tasks: [{
+		uid: "022b7c0d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "powersuits:powerarmor_legs",
+			tag: {
+				MMModItem: {
+					commonValues: {}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fac24b8e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "bdb1ce10",
+		type: "loot",
+		table: 1
+	}]
+}

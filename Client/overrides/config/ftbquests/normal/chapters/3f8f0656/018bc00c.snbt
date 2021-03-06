@@ -1,0 +1,30 @@
+{
+	title: "Space Exploration ",
+	x: -14.5d,
+	y: 1.5d,
+	text: [
+		"Coming real soon™! ;)"
+	],
+	tasks: [{
+		uid: "0b335bea",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "8aeca35c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:apiarist_chest",
+			tag: {
+				display: {
+					Name: "I went to the moon and all I got was this stupid shirt "
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	min_required_dependencies: 1,
+	dependencies: [
+		"8f450651"
+	],
+	tasks: [{
+		uid: "362b5672",
+		type: "item",
+		items: [{
+			item: "ebwizardry:crystal_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "80e4704d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

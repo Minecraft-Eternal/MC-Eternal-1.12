@@ -1,0 +1,46 @@
+{
+	title: "&lSo you wanna build rockets eh?",
+	x: -1.5d,
+	y: -2.0d,
+	description: "To begin, you'll need a healthy stockpile of copper, iron, redstone, titanium, tungsten and rubber",
+	text: [
+		"Plates and rods are vital for building your infrastructure. The most basic construction block, Machine Structure, requires 4 of each",
+		"Early game plates can be made via the Small Plate Presser. However, it only presses a block of metal into 3 plates of the same type of metal."
+	],
+	tasks: [{
+		uid: "c914c1aa",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:platepress"
+		}]
+	}],
+	rewards: [{
+		uid: "a8412b61",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "b5ab1d5a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "a24a9443",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pigstep:pigstep"
+		}
+	}]
+}

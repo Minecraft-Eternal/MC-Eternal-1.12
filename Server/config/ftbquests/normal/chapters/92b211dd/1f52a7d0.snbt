@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -4.5d,
+	description: "&oFree Energy!",
+	dependencies: [
+		"e51a5fcb"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "efd5769a",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:solarpanel"
+		}]
+	}],
+	rewards: [{
+		uid: "f502540b",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

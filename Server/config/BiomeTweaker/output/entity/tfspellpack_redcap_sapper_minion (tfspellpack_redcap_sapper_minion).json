@@ -1,0 +1,6 @@
+
+{
+  "Name": "tfspellpack:redcap_sapper_minion",
+  "Registry ID": "tfspellpack:redcap_sapper_minion",
+  "Class": "electroblob.tfspellpack.entity.living.EntityRedcapSapperMinion"
+}

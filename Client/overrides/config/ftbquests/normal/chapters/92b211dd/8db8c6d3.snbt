@@ -1,0 +1,40 @@
+{
+	title: "Basic Infrastructure 1.",
+	x: 0.5d,
+	y: -2.0d,
+	description: "Creating the means to travel to the stars and beyond is no easy task. You will need to craft and build multiple multi-block machines before even considering leaving the Overworld",
+	text: [
+		"&lThe Lathe &ris a &lmulti-block &rconstruction which allows for faster and cheaper construction of rods. The Lathe allows rods at a 2:1 from ingots, making the creation of machine structures much cheaper.",
+		"Items are inserted via the input hatch and the rods can be retrieved from the output hatch."
+	],
+	dependencies: [
+		"5da8bdff"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "f2f507cc",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:lathe"
+		}]
+	}],
+	rewards: [{
+		uid: "ccb43067",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "f49c4f37",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

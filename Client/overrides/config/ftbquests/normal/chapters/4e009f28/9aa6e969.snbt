@@ -1,0 +1,16 @@
+{
+	x: -12.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "d66ca8c8",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:redstone_alloy_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "686f1c3f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

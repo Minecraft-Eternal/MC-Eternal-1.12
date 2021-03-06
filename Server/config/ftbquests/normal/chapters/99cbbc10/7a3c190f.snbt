@@ -1,0 +1,93 @@
+{
+	title: "Tofu Tofu Tofu!",
+	x: -2.0d,
+	y: -6.0d,
+	text: [
+		"What if I tofu you?"
+	],
+	tasks: [{
+		uid: "c11bf97d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cookedtofuttonitem"
+		}]
+	},
+	{
+		uid: "5d8a7454",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cookedtofurkeyitem"
+		}]
+	},
+	{
+		uid: "f5d6e267",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cookedtofuduckitem"
+		}]
+	},
+	{
+		uid: "569d49eb",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cookedtofeakitem"
+		}]
+	},
+	{
+		uid: "2b0c86bb",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cookedtofeegitem"
+		}]
+	},
+	{
+		uid: "649f5b9c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cookedtofenisonitem"
+		}]
+	},
+	{
+		uid: "0a8bc6ee",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cookedtofaconitem"
+		}]
+	},
+	{
+		uid: "703deb14",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cookedtofabbititem"
+		}]
+	},
+	{
+		uid: "f60c3af4",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cookedtofishitem"
+		}]
+	},
+	{
+		uid: "7a57e89d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cookedtofickenitem"
+		}]
+	}],
+	rewards: [{
+		uid: "513eaaf5",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e3e7fab8",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "59ee2d84",
+		type: "loot",
+		table: 1
+	}]
+}

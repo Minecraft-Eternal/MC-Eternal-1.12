@@ -1,0 +1,6 @@
+
+{
+  "Name": "EntityAnvilPet",
+  "Registry ID": "inventorypets:entitylivinganvil",
+  "Class": "com.inventorypets.entities.EntityAnvilPet"
+}

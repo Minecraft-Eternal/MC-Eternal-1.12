@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 8.5d,
+	tasks: [{
+		uid: "919ffd2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:goldenlasso"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8e6b2bcb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

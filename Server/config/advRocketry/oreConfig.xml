@@ -1,0 +1,8 @@
+<OreConfig>
+ <oreGen temp="2">
+  <ore block="minecraft:emerald_block" minHeight="5" maxHeight="80" clumpSize="32" chancePerChunk="64" />
+ </oreGen>
+ <oreGen temp="2">
+  <ore block="minecraft:gold_block" minHeight="5" maxHeight="80" clumpSize="32" chancePerChunk="64" />
+ </oreGen>
+</OreConfig>

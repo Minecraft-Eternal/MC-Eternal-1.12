@@ -1,0 +1,27 @@
+{
+	x: 10.5d,
+	y: 3.0d,
+	dependencies: [
+		"81c35ead"
+	],
+	tasks: [{
+		uid: "d1722a77",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "bellethorn"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8fa48480",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "0c57e1a5",
+		type: "loot",
+		table: 1
+	}]
+}

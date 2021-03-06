@@ -1,0 +1,32 @@
+{
+	x: -8.0d,
+	y: 0.0d,
+	dependencies: [
+		"478ee4b5"
+	],
+	tasks: [{
+		uid: "e2c0c368",
+		type: "item",
+		items: [{
+			id: "conarm:armorforge",
+			tag: {
+				textureBlock: {
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aef0eb28",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ded31f66",
+		type: "loot",
+		table: 1
+	}]
+}

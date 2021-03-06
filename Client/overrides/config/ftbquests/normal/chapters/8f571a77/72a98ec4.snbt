@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -2.5d,
+	description: "*Can not be automated*",
+	can_repeat: true,
+	tasks: [{
+		uid: "5cc1babb",
+		type: "item",
+		items: [{
+			item: "minecraft:feather"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c6285d02",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

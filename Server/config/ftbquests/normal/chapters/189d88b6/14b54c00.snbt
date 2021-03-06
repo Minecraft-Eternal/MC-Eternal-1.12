@@ -1,0 +1,35 @@
+{
+	title: "Make a house a home",
+	x: -12.0d,
+	y: -0.5d,
+	description: "Create a team and claim the land around where you want to build. *This also protects you from mob griefing*",
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "cb9727de",
+		type: "checkmark",
+		title: "Create a team and claim land",
+		icon: "openblocks:village_highlighter"
+	}],
+	rewards: [{
+		uid: "30b30251",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6cbebd0b",
+		type: "item",
+		item: "biomesoplenty:terrarium 1 4"
+	},
+	{
+		uid: "c3c04717",
+		type: "item",
+		item: "randomthings:peacecandle"
+	},
+	{
+		uid: "9a0d599c",
+		type: "item",
+		item: "malisisdoors:shoji_door"
+	}]
+}

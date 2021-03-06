@@ -1,0 +1,63 @@
+{
+	x: -7.0d,
+	y: -1.5d,
+	dependencies: [
+		"7eee0151"
+	],
+	tasks: [{
+		uid: "3b1f31b0",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7017984c",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "8c17ba04",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4efd4687",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "62ec9391",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ad8f2ca9",
+		type: "loot",
+		table: 1
+	}]
+}

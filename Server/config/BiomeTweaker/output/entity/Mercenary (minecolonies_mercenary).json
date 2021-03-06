@@ -1,0 +1,6 @@
+
+{
+  "Name": "Mercenary",
+  "Registry ID": "minecolonies:mercenary",
+  "Class": "com.minecolonies.coremod.entity.mobs.EntityMercenary"
+}

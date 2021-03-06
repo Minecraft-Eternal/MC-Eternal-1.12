@@ -1,0 +1,42 @@
+{
+	x: -11.5d,
+	y: -13.0d,
+	description: "*Right click an enclosed dirt area with the Drop of Evil to create a rudimentary method of spawning evil creatures*",
+	dependencies: [
+		"bc9c4ee1"
+	],
+	tasks: [{
+		uid: "ee32dab8",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:saw"
+		}]
+	},
+	{
+		uid: "edb2c72c",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:absorption_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "45bbd2a4",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "9921ccff",
+		type: "item",
+		item: "extrautils2:ingredients 1 10"
+	},
+	{
+		uid: "ad95decc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

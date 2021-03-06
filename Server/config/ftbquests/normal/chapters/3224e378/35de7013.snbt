@@ -1,0 +1,32 @@
+{
+	x: -7.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "180da69c",
+		type: "kill",
+		title: "&6&lBounty: Bombardier Beetle",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:wasp_sword"
+		},
+		entity: "erebus:erebus.bombardier_beetle",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "c6d6989f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "c1f4a7d2",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "Water Grinding",
+	x: -5.0d,
+	y: 6.5d,
+	description: "*Click to read description*",
+	text: [
+		"Note this is a 3x3 multi-block structure using 9 standard machine casing for both bottom and top layer, while 8 reinforced machine casing is used in the middle layer along with a water source in the center."
+	],
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "dc96e0a8",
+		type: "item",
+		items: [{
+			item: "techreborn:machine_casing"
+		}],
+		count: 18L
+	},
+	{
+		uid: "856b2ef2",
+		type: "item",
+		items: [{
+			item: "techreborn:machine_casing 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "491f3b8e",
+		type: "item",
+		items: [{
+			item: "techreborn:industrial_grinder"
+		}]
+	}],
+	rewards: [{
+		uid: "c98e1db6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "08a780c9",
+		type: "loot",
+		table: 1
+	}]
+}

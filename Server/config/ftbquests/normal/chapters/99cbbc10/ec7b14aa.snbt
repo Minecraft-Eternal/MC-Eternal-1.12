@@ -1,0 +1,25 @@
+{
+	title: "Top Tier Food: Miner’s Stew",
+	x: 2.0d,
+	y: -5.5d,
+	text: [
+		"It is edible… but is it tasty?"
+	],
+	tasks: [{
+		uid: "3e110cdc",
+		type: "item",
+		items: [{
+			item: "harvestcraft:minerstewitem"
+		}]
+	}],
+	rewards: [{
+		uid: "602d2f6e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "9482caa2",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -8.0d,
+	y: -1.0d,
+	description: "Lumberjack",
+	can_repeat: true,
+	tasks: [{
+		uid: "90b8887b",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:log_3 1 6"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "8bf9f02c",
+		type: "item",
+		title: "25 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 25L
+			}
+		}
+	}]
+}

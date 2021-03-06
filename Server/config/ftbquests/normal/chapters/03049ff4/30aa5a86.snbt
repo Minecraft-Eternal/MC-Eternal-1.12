@@ -1,0 +1,98 @@
+{
+	title: "&d&lPowering the entire planet ",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "techreborn:lithiumbattery",
+		tag: {
+			energy: 400000
+		}
+	},
+	x: -2.5d,
+	y: 0.5d,
+	shape: "diamond",
+	description: "Finally! Something to spend my billions of RF on...",
+	dependencies: [
+		"fa85c35a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b247e37d",
+		type: "forge_energy",
+		value: 10000000000000000L
+	}],
+	rewards: [{
+		uid: "c812e7b5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "conarm:chestplate",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 46720,
+					Defense: 37.5f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 46720,
+					Defense: 37.5f
+				},
+				TinkerData: {
+					Materials: [
+						"electrumflux",
+						"electrumflux",
+						"electrumflux"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"leveling_armor"
+				]
+			}
+		}
+	},
+	{
+		uid: "88dc49a6",
+		type: "loot",
+		table: 20
+	},
+	{
+		uid: "82890cac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "5c4d1108",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "heavenly_box"
+			}
+		}
+	},
+	{
+		uid: "237d8913",
+		type: "item",
+		item: "buildcraftcore:engine 1 3"
+	}]
+}

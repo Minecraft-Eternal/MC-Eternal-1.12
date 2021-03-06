@@ -1,0 +1,6 @@
+
+{
+  "Name": "tfspellpack:skeleton_druid_minion",
+  "Registry ID": "tfspellpack:skeleton_druid_minion",
+  "Class": "electroblob.tfspellpack.entity.living.EntitySkeletonDruidMinion"
+}

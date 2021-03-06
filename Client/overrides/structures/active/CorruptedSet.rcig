@@ -1,0 +1,558 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "CorruptedSet",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "thaumcraft:void_robe_chest",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "ench": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "lvl": {
+                      "nbtType": "int",
+                      "nbt": 8
+                    },
+                    "id": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    }
+                  }
+                }
+              ]
+            },
+            "Unbreakable": {
+              "nbtType": "int",
+              "nbt": 1
+            },
+            "HideFlags": {
+              "nbtType": "int",
+              "nbt": 33
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§8The means to prolong one\u0027s life is corrupting, unnatural and not without cost..."
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§c(Part of the Corruption set)"
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "§4§lGrasp of Death"
+                }
+              }
+            },
+            "AttributeModifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193154400
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 8
+                    },
+                    "Slot": {
+                      "nbtType": "string",
+                      "nbt": "chest"
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.armorToughness"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "Sorrow"
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193154500
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 30
+                    },
+                    "Slot": {
+                      "nbtType": "string",
+                      "nbt": "chest"
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.armor"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "Sorrow"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "thaumcraft:void_sword",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "ench": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "lvl": {
+                      "nbtType": "int",
+                      "nbt": 20
+                    },
+                    "id": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "lvl": {
+                      "nbtType": "int",
+                      "nbt": 7
+                    },
+                    "id": {
+                      "nbtType": "int",
+                      "nbt": 16
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "lvl": {
+                      "nbtType": "int",
+                      "nbt": 16
+                    },
+                    "id": {
+                      "nbtType": "int",
+                      "nbt": 17
+                    }
+                  }
+                }
+              ]
+            },
+            "Unbreakable": {
+              "nbtType": "int",
+              "nbt": 1
+            },
+            "HideFlags": {
+              "nbtType": "int",
+              "nbt": 39
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§8All that\u0027s left is a Nightmare..."
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§c(Part of the Corruption Set)"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§e(Rare Moon Artifact)"
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "§7Dream Eater"
+                }
+              }
+            },
+            "AttributeModifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193293800
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 100
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackDamage"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackDamage"
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193293900
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackSpeed"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackSpeed"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "thaumcraft:void_robe_legs",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "ench": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "lvl": {
+                      "nbtType": "int",
+                      "nbt": 8
+                    },
+                    "id": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    }
+                  }
+                }
+              ]
+            },
+            "Unbreakable": {
+              "nbtType": "int",
+              "nbt": 1
+            },
+            "HideFlags": {
+              "nbtType": "int",
+              "nbt": 33
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§8The means to prolong one\u0027s life is corrupting, unnatural and not without cost..."
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§c(Part of the Corruption set)"
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "§4§lGrasp of Suffering"
+                }
+              }
+            },
+            "AttributeModifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193034900
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    },
+                    "Slot": {
+                      "nbtType": "string",
+                      "nbt": "chest"
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.armorToughness"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "Sorrow"
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193035000
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 15
+                    },
+                    "Slot": {
+                      "nbtType": "string",
+                      "nbt": "chest"
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.armor"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "Sorrow"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "thaumcraft:crimson_blade",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "ench": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "lvl": {
+                      "nbtType": "int",
+                      "nbt": 20
+                    },
+                    "id": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "lvl": {
+                      "nbtType": "int",
+                      "nbt": 7
+                    },
+                    "id": {
+                      "nbtType": "int",
+                      "nbt": 16
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "lvl": {
+                      "nbtType": "int",
+                      "nbt": 16
+                    },
+                    "id": {
+                      "nbtType": "int",
+                      "nbt": 17
+                    }
+                  }
+                }
+              ]
+            },
+            "Unbreakable": {
+              "nbtType": "int",
+              "nbt": 1
+            },
+            "HideFlags": {
+              "nbtType": "int",
+              "nbt": 39
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§8\"But what we call our despair is often only the painful eagerness of unfed hope.\""
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§c(Part of the Corruption Set)"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§e(Rare Moon Artifact)"
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "§5Despair"
+                }
+              }
+            },
+            "AttributeModifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193433200
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 66
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackDamage"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackDamage"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

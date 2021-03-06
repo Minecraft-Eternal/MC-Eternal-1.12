@@ -1,0 +1,70 @@
+{
+	title: "&c&lRed Matter Explosives",
+	x: -1.5d,
+	y: -4.5d,
+	description: "*I hear its excellent for mining copper*",
+	tasks: [{
+		uid: "df0d5fff",
+		type: "item",
+		items: [{
+			item: "icbmclassic:explosives 1 23"
+		}]
+	}],
+	rewards: [{
+		uid: "7073391a",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "adc78d71",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "conarm:boots",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 71396,
+					Defense: 37.5f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 71396,
+					Defense: 37.5f
+				},
+				TinkerData: {
+					Materials: [
+						"redmatter",
+						"redmatter",
+						"redmatter"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"leveling_armor"
+				]
+			}
+		}
+	},
+	{
+		uid: "51e19bcf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

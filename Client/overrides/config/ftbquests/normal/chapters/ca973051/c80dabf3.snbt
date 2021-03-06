@@ -1,0 +1,24 @@
+{
+	x: -16.5d,
+	y: -5.5d,
+	dependencies: [
+		"fc9d0886"
+	],
+	tasks: [{
+		uid: "d738b99c",
+		type: "item",
+		items: [{
+			item: "rats:ratlantean_flame"
+		}]
+	}],
+	rewards: [{
+		uid: "3d0aadd7",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "5b4a4b23",
+		type: "loot",
+		table: 1
+	}]
+}

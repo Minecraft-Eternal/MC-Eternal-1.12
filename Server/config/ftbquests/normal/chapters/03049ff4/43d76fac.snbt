@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "a3a19342",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "3b4ff331",
+		type: "item",
+		item: "storagedrawers:upgrade_creative"
+	},
+	{
+		uid: "8b457af8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

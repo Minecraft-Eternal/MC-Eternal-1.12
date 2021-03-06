@@ -1,0 +1,22 @@
+<Asteroids>
+	<asteroid name="Small Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="minecraft:diamond_block" chance="8" />
+		<ore itemStack="minecraft:gold_block" chance="10" />
+		<ore itemStack="minecraft:redstone_block" chance="10" />
+		<ore itemStack="minecraft:emerald_block" chance="10" />
+	</asteroid>
+	<asteroid name="Iridium Enriched asteroid" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
+		<ore itemStack="minecraft:iron_block" chance="25" />
+		<ore itemStack="libvulpes:ore0 10" chance="5" />
+	</asteroid>
+	<asteroid name="Ratlantean Space Junk" distance="30" mass="50" massVariability="0.2" probability="15" richness="1.0" richnessVariability="0.0" timeMultiplier="8">
+        <ore itemStack="rats:rat_nugget" chance="30"/>
+        <ore itemStack="rats:garbage_pile" chance="5"/>
+        <ore itemStack="rats:arcane_technology" chance="5"/>
+        <ore itemStack="rats:top_hat" chance="45"/>
+        <ore itemStack="rats:little_black_worm" chance="5"/>
+        <ore itemStack="rats:music_disk_mice_on_venus" chance="5"/>
+        <ore itemStack="rats:plague_essence" chance="2.5"/>
+        <ore itemStack="rats:ancient_sawblade" chance="45.5"/>
+    </asteroid>
+</Asteroids>

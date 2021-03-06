@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "5b516987",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:hippogryph_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "327d3635",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "d0acbc1c",
+		type: "loot",
+		table: 1
+	}]
+}

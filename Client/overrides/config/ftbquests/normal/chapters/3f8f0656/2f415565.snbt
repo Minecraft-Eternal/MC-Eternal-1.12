@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"567a3a9f"
+	],
+	tasks: [{
+		uid: "8523417c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:electricbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e83c7600",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e190afcd",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "tfspellpack:stable_ice_core_minion",
+  "Registry ID": "tfspellpack:stable_ice_core_minion",
+  "Class": "electroblob.tfspellpack.entity.living.EntityStableIceCoreMinion"
+}

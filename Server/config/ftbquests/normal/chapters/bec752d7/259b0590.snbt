@@ -1,0 +1,29 @@
+{
+	x: 8.0d,
+	y: 4.5d,
+	dependencies: [
+		"ab9e0021"
+	],
+	tasks: [{
+		uid: "6bef8f7e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:girdle_of_the_dryads"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52025efe",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e4b54f8b",
+		type: "loot",
+		table: 1
+	}]
+}

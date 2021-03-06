@@ -1,0 +1,54 @@
+{
+	title: "Bounty: Stymphalian Bird",
+	x: 1.5d,
+	y: -6.5d,
+	shape: "square",
+	description: "A fierce raptor that descends upon prey with a bronze beak and sharp, metallic pinions.",
+	text: [
+		"Stymphalian Birds are bloodthirsty carnivorous birds that fly above swampy environments and fire metallic feathers at their prey."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8852201"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8f27dd96",
+		type: "kill",
+		title: "Stymphalian Bird",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "iceandfire:stymphalianbird",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "01ea6aa5",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "7edcf4cc",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "cee1811b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:moltenpan"
+		}
+	},
+	{
+		uid: "713f66d5",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 8
+	}]
+}

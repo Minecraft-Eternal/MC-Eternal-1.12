@@ -1,0 +1,29 @@
+{
+	x: -14.5d,
+	y: 3.0d,
+	dependencies: [
+		"cc3f3c37"
+	],
+	tasks: [{
+		uid: "742efa7b",
+		type: "item",
+		items: [{
+			item: "tconstruct:piggybackpack"
+		}]
+	}],
+	rewards: [{
+		uid: "f3de857a",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a7137819",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "80d31bf7",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

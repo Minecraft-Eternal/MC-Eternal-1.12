@@ -1,0 +1,6 @@
+
+{
+  "Name": "vampirism.villager_converted",
+  "Registry ID": "vampirism:villager_converted",
+  "Class": "de.teamlapen.vampirism.entity.converted.EntityConvertedVillager"
+}

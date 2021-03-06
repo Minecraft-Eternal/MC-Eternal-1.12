@@ -1,0 +1,40 @@
+{
+	x: 4.5d,
+	y: 2.0d,
+	description: "If you are what you eat, then I only want to eat the good stuff.",
+	dependencies: [
+		"7fe7ff02"
+	],
+	tasks: [{
+		uid: "28ea240b",
+		type: "item",
+		items: [{
+			item: "rats:rat_upgrade_chef"
+		}]
+	}],
+	rewards: [{
+		uid: "7b3e5e2c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:chef_toque"
+		}
+	},
+	{
+		uid: "d97b14de",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "fa2e5213",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

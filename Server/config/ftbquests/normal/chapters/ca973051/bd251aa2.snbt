@@ -1,0 +1,33 @@
+{
+	x: -12.0d,
+	y: -1.5d,
+	dependencies: [
+		"5026368e"
+	],
+	tasks: [{
+		uid: "c178283e",
+		type: "item",
+		items: [{
+			item: "midnight:shadowroot_log"
+		}]
+	},
+	{
+		uid: "0e9f2c2a",
+		type: "item",
+		items: [{
+			item: "midnight:dark_willow_log"
+		}]
+	},
+	{
+		uid: "759dc923",
+		type: "item",
+		items: [{
+			item: "midnight:dead_wood_log"
+		}]
+	}],
+	rewards: [{
+		uid: "12dfbfba",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

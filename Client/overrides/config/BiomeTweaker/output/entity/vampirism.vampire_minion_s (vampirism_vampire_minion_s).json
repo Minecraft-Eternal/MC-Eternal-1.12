@@ -1,0 +1,6 @@
+
+{
+  "Name": "vampirism.vampire_minion_s",
+  "Registry ID": "vampirism:vampire_minion_s",
+  "Class": "de.teamlapen.vampirism.entity.minions.vampire.EntityVampireMinionSaveable"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "thesummoner.summoner",
+  "Registry ID": "thesummoner:summoner",
+  "Class": "net.daveyx0.summoner.entity.EntitySummoner"
+}

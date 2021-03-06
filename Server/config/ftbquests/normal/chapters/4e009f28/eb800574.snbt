@@ -1,0 +1,31 @@
+{
+	x: -16.5d,
+	y: -5.0d,
+	tasks: [{
+		uid: "344fb9c6",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:uranium_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "8c5b4007",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "50f6f297",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "bfde9229",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

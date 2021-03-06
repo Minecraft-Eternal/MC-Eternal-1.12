@@ -1,0 +1,25 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "89b9a3c2",
+		type: "item",
+		items: [{
+			item: "minecraft:beetroot"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "91de65e9",
+		type: "item",
+		title: "25 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 25L
+			}
+		}
+	}]
+}

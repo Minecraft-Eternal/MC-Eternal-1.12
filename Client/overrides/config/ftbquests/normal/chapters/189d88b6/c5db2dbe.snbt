@@ -1,0 +1,31 @@
+{
+	x: -9.0d,
+	y: -6.5d,
+	description: "&oWarm to the touch...",
+	dependencies: [
+		"69d2c7f8"
+	],
+	tasks: [{
+		uid: "999145ec",
+		type: "item",
+		items: [{
+			item: "futuremc:netherite_ingot"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1f49ccde",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "fe4b3c0e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

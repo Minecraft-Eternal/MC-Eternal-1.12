@@ -1,0 +1,35 @@
+{
+	title: "10x Raw Fish",
+	x: 1.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "Fishing",
+	can_repeat: true,
+	tasks: [{
+		uid: "571c88b6",
+		type: "item",
+		title: "10x Raw Fish",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllfishfresh",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "ba26b016",
+		type: "item",
+		title: "25 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 25L
+			}
+		}
+	}]
+}

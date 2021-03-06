@@ -1,0 +1,42 @@
+{
+	title: "Defeat the Advanced Summoner in The Beneath!",
+	x: -20.0d,
+	y: -5.0d,
+	description: "*Summoners will only spawn on a Dragon Bone Block in The Beneath*",
+	text: [
+		"*Right click a regular summoner with an eye of ender to begin the boss battle, only works in The Beneath*"
+	],
+	dependencies: [
+		"db3d34ad"
+	],
+	tasks: [{
+		uid: "d0913d2c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5863096196267452682L,
+					AS_Amulet_HolderMost: -2754331757198947019L
+				}
+			},
+			id: "thesummoner:enhanced_summoner_orb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0edbaf52",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "b8e6c7c7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

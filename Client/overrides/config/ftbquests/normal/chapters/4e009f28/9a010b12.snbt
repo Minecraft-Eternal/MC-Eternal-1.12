@@ -1,0 +1,21 @@
+{
+	x: -18.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "2341cf7c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:signalum_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "558fade8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4d1f4172",
+		type: "loot",
+		table: 1
+	}]
+}

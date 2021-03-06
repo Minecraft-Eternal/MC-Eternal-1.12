@@ -1,0 +1,46 @@
+{
+	title: "Fueling and Launching",
+	x: -2.5d,
+	y: -4.0d,
+	description: "The linker is your best friend. It connects the rocket to the various infrastructures. Later, you can expand this idea and connect the infrastructures to a docking pad and any rocket using the docking pad will be linked to the infrastructures as well",
+	text: [
+		"To fuel a rocket you can either bucket the rocket fuel in. A better alternative, is to use a Fueling Station. Once you have the fueling stations set-up and filled with rocket fuel, shift-right-click the fuelling station with the Linker",
+		"Then shift-right-click a rocket. If the linked is done successfully, a dotted white line should appear from the fuelling station to the rocket, and the rocket will begin filling with fuel.",
+		"As long as that rocket remains built, it will remain connected to linked infrastructure, and in this case, will re-fuel itself upon landing if there is fuel available in the fuelling station."
+	],
+	dependencies: [
+		"3b60b0dc"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "3ed6c78c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "libvulpes:linker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2e6c8f48",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "65e866b3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

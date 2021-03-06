@@ -1,0 +1,49 @@
+{
+	title: "&lRockets - Journey to the Moon",
+	icon: "openmodularturrets:ammo_meta 1 4",
+	x: -0.5d,
+	y: -4.0d,
+	description: "Rockets are key to your space program's success. They can act as cargo shuttles, launch satellites, go on mining missions and transport you to a planet's moon and back. The rocket will need to be assembled, fueled, launched and recovered.",
+	text: [
+		"A concrete block that serves as the base for the rocket assembly platform, which is constructed from Launch Pad blocks, Structure Tower Blocks, and a Rocket Assembling Machine."
+	],
+	dependencies: [
+		"eb02e4b4"
+	],
+	size: 0.9d,
+	tasks: [{
+		uid: "e68354be",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:launchpad"
+		}],
+		count: 8L
+	},
+	{
+		uid: "248b1b3a",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "3fb83a62",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "77c26ea7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "An Introduction to Applied Energistics",
+	x: -6.5d,
+	y: 9.5d,
+	shape: "diamond",
+	description: "Charged Quartz is quite common in the twilight forest!",
+	tasks: [{
+		uid: "3bf6b9e3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7f1e3c20",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

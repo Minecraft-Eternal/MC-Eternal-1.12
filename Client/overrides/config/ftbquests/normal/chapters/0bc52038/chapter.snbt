@@ -1,0 +1,15 @@
+{
+	title: "&8Primordium",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "iceandfire:dread_knight_sword"
+	},
+	description: [
+		"&8Coming Soon!"
+	],
+	always_invisible: false,
+	group: -1833823779,
+	default_quest_shape: ""
+}

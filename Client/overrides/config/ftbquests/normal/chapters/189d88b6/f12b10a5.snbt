@@ -1,0 +1,100 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "witherskelefix:blade"
+	},
+	x: -5.5d,
+	y: -9.0d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"36443d40"
+	],
+	hide: true,
+	size: 0.6d,
+	tasks: [{
+		uid: "8ff9899e",
+		type: "kill",
+		title: "&c&lNether Bounty: &4Wither Skeleton",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:broadsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.0f,
+					FreeModifiers: 3,
+					Durability: 536,
+					HarvestLevel: 3,
+					Attack: 5.125f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.0f,
+					FreeModifiers: 3,
+					Durability: 536,
+					HarvestLevel: 3,
+					Attack: 5.125f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"mod_lavacow.moltenbeef",
+						"mod_lavacow.moltenbeef",
+						"mod_lavacow.moltenbeef"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "superheat",
+					color: -43989,
+					level: 1
+				},
+				{
+					identifier: "autosmelt",
+					color: -43989,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"superheat",
+					"autosmelt",
+					"toolleveling"
+				]
+			}
+		},
+		entity: "minecraft:wither_skeleton",
+		value: 8L
+	}],
+	rewards: [{
+		uid: "3eb7e996",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "131fdb99",
+		type: "item",
+		item: "witherskelefix:fragment",
+		count: 7
+	},
+	{
+		uid: "a13eaf73",
+		type: "loot",
+		table: 1
+	}]
+}

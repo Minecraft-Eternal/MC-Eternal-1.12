@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "e3a86a02",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slime_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1bc1ad4c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

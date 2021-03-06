@@ -1,0 +1,6 @@
+
+{
+  "Name": "black_death",
+  "Registry ID": "rats:black_death",
+  "Class": "com.github.alexthe666.rats.server.entity.EntityBlackDeath"
+}

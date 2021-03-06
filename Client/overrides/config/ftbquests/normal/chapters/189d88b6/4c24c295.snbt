@@ -1,0 +1,41 @@
+{
+	title: "Aqua Buddy!",
+	x: -19.5d,
+	y: 0.5d,
+	shape: "circle",
+	description: "Hippocampi can be found swimming around in Ocean and Deep Ocean biomes. A graceful seafaring beast that can be tamed and handled as a versatile speed mount!",
+	text: [
+		"*Tame a Hippocampus using Sponge blocks*"
+	],
+	dependencies: [
+		"51b6044a"
+	],
+	tasks: [{
+		uid: "2e7373d9",
+		type: "advancement",
+		title: "Tame a Hippocampus",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:hippocampus_slapper"
+		},
+		advancement: "iceandfire:iceandfire/tame_hippocampus",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "ee38d003",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "5e325a12",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "c1b789cc",
+		type: "item",
+		item: "minecraft:name_tag"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Futuristic developments",
+	x: 0.0d,
+	y: -4.0d,
+	shape: "gear",
+	description: "*Needed to progress*",
+	text: [
+		"The start of it all"
+	],
+	dependencies: [
+		"aa690e30"
+	],
+	tasks: [{
+		uid: "b1ddcfe3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e9b41042",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

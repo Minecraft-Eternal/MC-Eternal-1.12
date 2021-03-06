@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "7baa7e79",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:stymphalian_bird_dagger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8f0c3b0",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "6f7a1488",
+		type: "loot",
+		table: 1
+	}]
+}

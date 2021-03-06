@@ -1,0 +1,6 @@
+
+{
+  "Name": "mod_lavacow.parasite",
+  "Registry ID": "mod_lavacow:parasite",
+  "Class": "com.Fishmod.mod_LavaCow.entities.EntityParasite"
+}

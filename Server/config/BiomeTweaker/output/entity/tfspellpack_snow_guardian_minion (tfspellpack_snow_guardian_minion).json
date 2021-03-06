@@ -1,0 +1,6 @@
+
+{
+  "Name": "tfspellpack:snow_guardian_minion",
+  "Registry ID": "tfspellpack:snow_guardian_minion",
+  "Class": "electroblob.tfspellpack.entity.living.EntitySnowGuardianMinion"
+}

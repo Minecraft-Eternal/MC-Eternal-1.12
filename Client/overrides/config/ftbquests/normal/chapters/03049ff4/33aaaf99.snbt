@@ -1,0 +1,50 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "4b2b221f",
+		type: "item",
+		title: "Catch 1500x Fish",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllfishraw",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 1500L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "891da324",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "6a0eb912",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mysticalagriculture:supremium_fishing_rod",
+			tag: {
+				display: {
+					Name: "Nat Pagle's Extreme Angler FC-5000"
+				}
+			}
+		}
+	},
+	{
+		uid: "67f74a89",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

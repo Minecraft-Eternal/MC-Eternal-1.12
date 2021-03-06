@@ -1,0 +1,26 @@
+{
+	x: -7.5d,
+	y: 1.0d,
+	description: "Block",
+	can_repeat: true,
+	tasks: [{
+		uid: "50f9c354",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "cf599338",
+		type: "item",
+		title: "1 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 1L
+			}
+		}
+	}]
+}

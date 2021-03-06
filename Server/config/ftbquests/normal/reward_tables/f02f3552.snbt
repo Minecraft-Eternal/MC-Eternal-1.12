@@ -1,0 +1,26 @@
+{
+	title: "Violin",
+	loot_size: 27,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "stupidthings:worlds_smallest_violin"
+		}
+	},
+	{
+		item: "stupidthings:balloon 1 6"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "stupidthings:rubber_chicken"
+		}
+	},
+	{
+		item: "harvestcraft:swedishmeatballsitem"
+	}]
+}

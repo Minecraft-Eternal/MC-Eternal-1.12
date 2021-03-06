@@ -1,0 +1,103 @@
+{
+  "_comment": "Spawn some pre-boss monsters then the boss, then some creepers.",
+  "key": "Summon the Ratlantean Experiment",
+  "bossInfo": {
+    "domain": "mod_lavacow",
+    "name": "boneworm",
+    "displayName": "§cExperiment §c§lEE21-32C",
+    "maxHealth": 9213,
+    "attackDamage": 900.5,
+	"commandToRunAtSpawn": "say @p §cagg §c§lduuu--HFij §cMmaAMM §cDuuuuhhshsh §cmaster?...§k53fsg §r§cyou §c§lKILLED §cmy.. §c§lMASTER §cDIE §cDEATH §cDIE!",
+    "alwaysShowDisplayName": true,
+    "additionalDrops": [{
+        "item": "rats:arcane_technology",
+        "minDrops": 8,
+        "maxDrops": 16,
+        "dropChance": 100
+      },
+      {
+        "item": "lodsofmoney:coin_big",
+        "minDrops": 1,
+        "maxDrops": 16,
+        "dropChance": 100
+      },
+      {
+        "item": "rats:ancient_sawblade",
+        "minDrops": 1,
+        "maxDrops": 16,
+        "dropChance": 100
+      }
+    ]
+  },
+  "bossAddInfo": [{
+      "_comment": "Spawns a bunch of silverfish, after that is done. Wait 10 (200 ticks) seconds and spawn a big slime.",
+      "_comment2": "After that spawn a random amount of chickens.",
+      "domain": "midnight",
+      "name": "nova",
+	  "displayName": "§3Unstable Elemental",
+	  "commandToRunAtSpawn": "say §5§l(§5§lTime §5§lEcho) We've done it! We've created a being of pure destruction!",
+      "minSpawns": 1,
+      "maxSpawns": 1,
+      "timeBetweenSpawns": 500,
+	  "maxHealth": 250,
+      "spawnBeforeBoss": true,
+      "_comment3": "The next wave of adds will start spawning after these adds have been spawned",
+      "nextWaveOfAdds": {
+        "domain": "thebetweenlands",
+        "name": "large_sludge_worm",
+		"displayName": "§cHorrific §cAbomination",
+		"commandToRunAtSpawn": "say §5§l(§5§lTime §5§lEcho) The God-King will commend us personally!",
+        "minSpawns": 1,
+        "maxSpawns": 1,
+        "timeToWaitBeforeSpawn": 500,
+        "maxHealth": 1850,
+		"attackDamage": 750.5,
+        "nextWaveOfAdds": {
+          "domain": "thaumcraft",
+          "name": "taintacle",
+		  "commandToRunAtSpawn": "say *§4 §4You §4feel §4a §4cold §4chill §4go §4through §4your §4body §4momentarily §4as §4if §4something §4is §4not §4quite §4right...*",
+		  "displayName": "§cDream §cEater",
+		  "maxHealth": 5850,
+		  "attackDamage": 550,
+          "minSpawns": 1,
+          "maxSpawns": 1,
+          "timeBetweenSpawns": 20,
+          "timeToWaitBeforeSpawn": 800
+        }
+      }
+    },
+    {
+      "_comment": "Spawns some creepers while the boss is around to make the fight crazy.",
+      "_comment2": "They start spawning 15 (300 ticks) seconds after the boss spawns.",
+      "domain": "mod_lavacow",
+      "name": "undeadswine",
+      "displayName": "§3§lUndying §3§lNightmare §k!",
+	  "commandToRunAtSpawn": "say (§5§lTime §5§lEcho) Wait! stop! what are you doing!!! I am your mas- §k!12",
+      "maxHealth": 2500,
+      "attackDamage": 1000,
+      "alwaysShowDisplayName": true,
+      "minSpawns": 1,
+      "maxSpawns": 2,
+      "timeBetweenSpawns": 4,
+      "timeToWaitBeforeSpawn": 300
+    }
+  ],
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "group": "Summon",
+    "pattern": ["aaa", "aaa", "aaa"],
+    "key": {
+      "a": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "result": {
+      "item": "from_the_depths:item_totem_of_summoning",
+      "data": 0,
+      "nbt": {
+        "spawn_info": "Custom_Zombie"
+      },
+      "count": 1
+    }
+  }
+}

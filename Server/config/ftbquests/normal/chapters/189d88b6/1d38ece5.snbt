@@ -1,0 +1,26 @@
+{
+	x: -6.5d,
+	y: 4.0d,
+	shape: "diamond",
+	dependencies: [
+		"4837a5ed"
+	],
+	tasks: [{
+		uid: "6ff7fa53",
+		type: "item",
+		items: [{
+			item: "tconstruct:ore"
+		}],
+		count: 15L
+	}],
+	rewards: [{
+		uid: "042a0f53",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7131233d",
+		type: "loot",
+		table: 1
+	}]
+}

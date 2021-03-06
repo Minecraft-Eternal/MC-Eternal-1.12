@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "d21955fd",
+		type: "item",
+		title: "Death Worm Gauntlet",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:deathworm_gauntlet_yellow"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:deathworm_gauntlet_red"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:deathworm_gauntlet_white"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e65a2681",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "fab721a9",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 8.0d,
+	y: 3.0d,
+	dependencies: [
+		"1aa705b9"
+	],
+	tasks: [{
+		uid: "67ad245b",
+		type: "item",
+		items: [{
+			item: "ebwizardry:attunement_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "ebb93660",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "79cedb33",
+		type: "loot",
+		table: 1
+	}]
+}

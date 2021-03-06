@@ -1,0 +1,29 @@
+{
+	x: 10.0d,
+	y: 10.0d,
+	dependencies: [
+		"a1cb5430"
+	],
+	tasks: [{
+		uid: "fd044850",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "totemic:medicine_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "09aad842",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "be2c7035",
+		type: "loot",
+		table: 1
+	}]
+}

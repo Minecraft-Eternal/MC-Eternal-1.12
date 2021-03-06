@@ -1,0 +1,26 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	description: "Cheesemaker",
+	can_repeat: true,
+	tasks: [{
+		uid: "69dff4a8",
+		type: "item",
+		items: [{
+			item: "rats:block_of_cheese"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "03e8ffae",
+		type: "item",
+		title: "50 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 50L
+			}
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "7f6971b7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:end_steel_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "ffdaee1c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

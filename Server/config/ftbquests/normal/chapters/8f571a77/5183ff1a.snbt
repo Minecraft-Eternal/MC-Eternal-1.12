@@ -1,0 +1,32 @@
+{
+	x: 0.0d,
+	y: -7.0d,
+	shape: "diamond",
+	description: "Exotic",
+	text: [
+		"Unlocked from completing the Introduction chapter"
+	],
+	can_repeat: true,
+	dependencies: [
+		"189d88b6"
+	],
+	tasks: [{
+		uid: "91199f79",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}],
+	rewards: [{
+		uid: "1251fbfd",
+		type: "item",
+		title: "200 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 200L
+			}
+		}
+	}]
+}

@@ -1,0 +1,95 @@
+{
+	title: "Basic Infrastructure 5.",
+	x: 3.0d,
+	y: -3.5d,
+	description: "&lModular Space Suits&r not only protect players from the vacuum of space, but also offer various components that can be used to enhance the player in other ways.",
+	text: [
+		"The Space Suits themselves can be crafted in a crafting table, however components must be added to the suit in the &lSuit Workstation.",
+		"Once you have completed your spacesuit, you can add oxygen to it by standing on a Gas Charge Pad filled with oxygen. The space suit has enough oxygen to last 30 minutes in a vacuum. Once the suit is out of oxygen you will begin to take damage."
+	],
+	dependencies: [
+		"44db3c88"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "ca5d8525",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:suitworkstation"
+		}]
+	},
+	{
+		uid: "4b5b3f50",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygencharger"
+		}]
+	},
+	{
+		uid: "eb610b0e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spacechestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7c1e74b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spaceleggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1787c8de",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spacehelmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bb74e678",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:spaceboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e81abe16",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "88d4c77d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

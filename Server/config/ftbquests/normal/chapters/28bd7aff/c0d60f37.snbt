@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: 8.0d,
+	dependencies: [
+		"c9f8530f"
+	],
+	tasks: [{
+		uid: "7a176942",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutlibrary"
+		}]
+	}],
+	rewards: [{
+		uid: "2a7fa7f4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a3ee1488",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "51ef15e6",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "2fbb5b80",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "treasure2:emerald_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2ea49fcd",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

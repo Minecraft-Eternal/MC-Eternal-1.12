@@ -1,0 +1,51 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	shape: "square",
+	description: "Wait why did we add Seagulls to Minecraft again? Spawns at the Beach, kill them all",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8852201"
+	],
+	tasks: [{
+		uid: "1c78efd9",
+		type: "kill",
+		title: "Bounty: Seagull",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "mod_lavacow:raven",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9705313a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c0dba44e",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "9c2e4de1",
+		type: "item",
+		item: "harvestcraft:honeybreaditem",
+		count: 3
+	},
+	{
+		uid: "d54669fc",
+		type: "item",
+		item: "minecraft:feather",
+		count: 16
+	},
+	{
+		uid: "1425a398",
+		type: "item",
+		item: "rats:garbage_pile",
+		count: 3
+	}]
+}

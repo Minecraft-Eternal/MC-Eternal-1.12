@@ -1,0 +1,41 @@
+{
+	title: "&eUncover an ancient &lBoss Summoning Altar",
+	x: -1.0d,
+	y: 0.5d,
+	description: "Summoning Altars can only be found under very spesific circumstances. There are three bosses currently present on the Moon, to summon you must find the Altar spesific to the creature and use the &lSummoning item on it ",
+	text: [
+		"Each and every planet has raw primordial energies that can manifest itself in numerous ways which are alien to you",
+		"&rThe &lsummoning altar&r concentrates the power into a burst of pure energy, the boss will be forced to accept the battle."
+	],
+	dependencies: [
+		"2b45993e"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "e681a929",
+		type: "observation",
+		icon: "from_the_depths:block_altar_of_summoning",
+		match_type: "block_id",
+		match: "",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "a0476646",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "§dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "2a97eb97",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

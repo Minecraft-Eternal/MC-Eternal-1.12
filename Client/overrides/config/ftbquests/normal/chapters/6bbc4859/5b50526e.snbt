@@ -1,0 +1,22 @@
+{
+	title: "Gold Seeds",
+	icon: "mysticalagriculture:gold_seeds",
+	x: 0.0d,
+	y: -0.5d,
+	shape: "diamond",
+	description: "*Unlocked from completing the Farming chapter*",
+	can_repeat: true,
+	dependencies: [
+		"99cbbc10"
+	],
+	tasks: [{
+		uid: "35dfb5fb",
+		type: "ftbmoney:money",
+		value: 40000L
+	}],
+	rewards: [{
+		uid: "f527e159",
+		type: "item",
+		item: "mysticalagriculture:gold_seeds"
+	}]
+}

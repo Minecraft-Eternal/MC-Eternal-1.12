@@ -1,0 +1,6 @@
+
+{
+  "Name": "mod_lavacow.zombiemushroom",
+  "Registry ID": "mod_lavacow:zombiemushroom",
+  "Class": "com.Fishmod.mod_LavaCow.entities.EntityZombieMushroom"
+}

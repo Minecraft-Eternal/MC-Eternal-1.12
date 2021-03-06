@@ -1,0 +1,45 @@
+{
+	icon: "extrautils2:playerchest",
+	x: -12.5d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "*Place the Water Mills within water to power the block*",
+	text: [
+		"This device (player chest) can draw out coins automatically from a player inventory if prompted to do so *Give the slot where the coin is located full access* "
+	],
+	dependencies: [
+		"1367cd5d"
+	],
+	tasks: [{
+		uid: "5bd02614",
+		type: "checkmark",
+		title: "Outputting currency into storage"
+	}],
+	rewards: [{
+		uid: "16c9204c",
+		type: "item",
+		item: "extrautils2:playerchest"
+	},
+	{
+		uid: "ca88a585",
+		type: "item",
+		item: "thermaldynamics:servo 1 1"
+	},
+	{
+		uid: "71e9831d",
+		type: "item",
+		item: "extrautils2:passivegenerator 1 3",
+		count: 3
+	},
+	{
+		uid: "307aa7b1",
+		type: "item",
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 1s
+		}
+	}]
+}
