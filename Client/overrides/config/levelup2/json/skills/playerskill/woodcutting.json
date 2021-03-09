@@ -16,6 +16,7 @@
   "prerequisites": [
 
   ],
+  "divisor": 4,
   "stack": {
     "item": "minecraft:iron_axe"
   },

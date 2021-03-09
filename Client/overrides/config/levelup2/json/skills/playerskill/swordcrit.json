@@ -11,6 +11,7 @@
   "prerequisites": [
 
   ],
+  "divisor": 20,
   "stack": {
     "item": "minecraft:iron_sword"
   },
