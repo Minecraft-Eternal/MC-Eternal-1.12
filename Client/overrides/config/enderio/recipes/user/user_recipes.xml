@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
-
+	<recipe name="Soul Binder: Flight Control Unit" required="true">    
+		<soulbinding energy="100000" levels="8">      
+			<input name="item:simplyjetpacks:metaitemmods:14" />      
+			<soul name="minecraft:bat" />      
+			<output name="item:simplyjetpacks:metaitemmods:15" />    
+		</soulbinding>  
+	</recipe>
 </enderio:recipes>
