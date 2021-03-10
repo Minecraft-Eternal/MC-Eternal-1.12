@@ -16,6 +16,7 @@
   "prerequisites": [
 
   ],
+  "divisor": 20,
   "stack": {
     "item": "minecraft:fishing_rod"
   },

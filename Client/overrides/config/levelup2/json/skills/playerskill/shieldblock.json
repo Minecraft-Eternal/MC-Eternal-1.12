@@ -11,6 +11,7 @@
   "prerequisites": [
 
   ],
+  "divisor": 10,
   "stack": {
     "item": "minecraft:shield"
   },

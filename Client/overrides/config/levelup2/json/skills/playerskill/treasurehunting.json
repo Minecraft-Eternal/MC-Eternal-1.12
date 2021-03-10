@@ -11,6 +11,7 @@
   "prerequisites": [
     "levelup:flintloot"
   ],
+  "divisor": 20,
   "stack": {
     "item": "minecraft:diamond"
   },

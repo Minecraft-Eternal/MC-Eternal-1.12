@@ -16,6 +16,7 @@
   "prerequisites": [
 
   ],
+  "divisor": 6,
   "stack": {
     "item": "minecraft:iron_pickaxe"
   },
