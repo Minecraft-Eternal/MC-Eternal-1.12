@@ -6,7 +6,10 @@ print("--- loading Tooltip.zs ---");
 #Add tooltip
 <extrautils2:bagofholding>.addTooltip(format.red("WARNING! Deletes items when switching gamemodes"));
 <rats:arcane_technology>.addTooltip(format.gold("Drops from the Ratlantean Automaton"));
-<wings:fairy_dust>.addTooltip(format.gold("Can be used to transmute certain metals. This dust radiates powerful magic energy"));
+<ftbquests:book>.addTooltip(format.gold("A new beginning, Open me!"));
+<minecraft:nether_star>.addTooltip(format.gold("Earth below us, Drifting falling"));
+<ebwizardry:crystal_block>.addTooltip(format.gold("Can be used to ward off Nether Portal Corruption"));
+<wings:fairy_dust>.addTooltip(format.gold("Can be used to transmute certain metals. This dust radiates primal magic energy"));
 <mekanismgenerators:reactor>.addTooltip(format.gold("Only requires one Chemical Reactor for recipe"));
 <ftbquests:lootcrate>.withTag({type: "cultist"}).addTooltip(format.darkRed("Step one... Dress to impress!"));
 <ftbquests:lootcrate>.withTag({type: "extraterrestrial_cache"}).addTooltip(format.gold("Keep your eyes on the stars, and your feet on the ground. -Theodore Roosevelt"));
