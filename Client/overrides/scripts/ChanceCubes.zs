@@ -6,6 +6,6 @@ print("--- loading ChanceCubes.zs ---");
 recipes.remove(<chancecubes:chance_cube>);
 
 #Add Recipe
-recipes.addShaped(<chancecubes:chance_cube>, [[<ore:blockLapis>, <minecraft:lapis_block>, <minecraft:lapis_block>], [<minecraft:lapis_block>, <ore:netherStar>, <ore:blockLapis>], [<minecraft:lapis_block>, <minecraft:lapis_block>, <ore:blockLapis>]]);
+recipes.addShaped(<chancecubes:chance_cube>, [[<ore:blockLapis>, <ore:blockLapis>, <ore:blockLapis>], [<ore:blockLapis>, <ore:netherStar>, <ore:blockLapis>], [<ore:blockLapis>, <ore:blockLapis>, <ore:blockLapis>]]);
 
 print("--- ChanceCubes.zs initialized ---");	
