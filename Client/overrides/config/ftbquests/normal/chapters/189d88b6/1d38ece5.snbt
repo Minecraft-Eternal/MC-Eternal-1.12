@@ -2,6 +2,7 @@
 	x: -6.5d,
 	y: 4.0d,
 	shape: "diamond",
+	description: "&lCombine",
 	dependencies: [
 		"4837a5ed"
 	],

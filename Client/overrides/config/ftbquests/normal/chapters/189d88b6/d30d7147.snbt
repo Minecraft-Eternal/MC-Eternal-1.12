@@ -1,6 +1,7 @@
 {
 	x: -10.5d,
 	y: -3.5d,
+	description: "&o&nCan be used to cut stone into stairs, walls and more for less!",
 	dependencies: [
 		"c6a58218"
 	],

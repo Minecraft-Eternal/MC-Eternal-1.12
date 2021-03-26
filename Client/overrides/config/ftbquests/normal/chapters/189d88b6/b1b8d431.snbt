@@ -1,6 +1,7 @@
 {
 	x: -7.0d,
 	y: -1.5d,
+	description: "&oCreating patterns is the first step to powerful tools. First comes the patterns, then comes the power",
 	dependencies: [
 		"7eee0151"
 	],

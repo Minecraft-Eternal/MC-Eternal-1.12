@@ -1,2 +1,0 @@
-weight=0
-can_buy=false

@@ -18,22 +18,6 @@
 		ftb_money: 250L
 	},
 	{
-		uid: "4bbc886b",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "twilightforest:steeleaf_chestplate",
-			tag: {
-				ench: [{
-					lvl: 2s,
-					id: 3s
-				}]
-			}
-		}
-	},
-	{
 		uid: "6dae3d8f",
 		type: "loot",
 		table: 1

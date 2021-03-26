@@ -30,8 +30,16 @@
 		}
 	},
 	{
-		uid: "f9b5c251",
+		uid: "0d959f13",
 		type: "item",
-		item: "minecraft:golden_apple"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8940463668607302781L,
+					AS_Amulet_HolderMost: -5272402051974608774L
+				}
+			},
+			id: "futuremc:record_pigstep"
+		}
 	}]
 }

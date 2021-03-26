@@ -19,7 +19,7 @@
 	rewards: [{
 		uid: "6aa2da3a",
 		type: "item",
-		item: "hole_filler_mod:item_throwable_hole_filler"
+		item: "hole_filler_mod:throwable_hole_filler"
 	},
 	{
 		uid: "89a5526f",

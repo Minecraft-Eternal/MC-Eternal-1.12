@@ -1,6 +1,7 @@
 {
 	x: -14.5d,
 	y: 3.0d,
+	description: "&oRight click on an entity (such as a cow, pig or sheep) to pick them up and bring them with you",
 	dependencies: [
 		"cc3f3c37"
 	],

@@ -1,6 +1,7 @@
 {
 	x: -10.5d,
 	y: -2.5d,
+	description: "&o&nNice and toasty! Can be used to cook food and looks delightful",
 	dependencies: [
 		"c6a58218"
 	],

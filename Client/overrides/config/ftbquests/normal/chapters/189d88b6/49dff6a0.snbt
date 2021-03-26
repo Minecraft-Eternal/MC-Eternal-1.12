@@ -1,6 +1,7 @@
 {
 	x: -12.0d,
 	y: 1.5d,
+	description: "&oMining with style!",
 	dependencies: [
 		"14b54c00"
 	],
@@ -8,9 +9,6 @@
 		uid: "e586b499",
 		type: "item",
 		items: [{
-			item: "malisisdoors:rustyhatch"
-		},
-		{
 			item: "ghostsexplosives:tnt_mining"
 		}]
 	}],

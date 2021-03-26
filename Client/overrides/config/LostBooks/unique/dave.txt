@@ -1,2 +1,0 @@
-whitelist=Zombie
-can_buy=false

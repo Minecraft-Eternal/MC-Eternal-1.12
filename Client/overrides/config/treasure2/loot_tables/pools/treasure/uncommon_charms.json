@@ -1,5 +1,5 @@
 {
-	"version": "2.0",
+	"version": "2.1",
 	"pools": [{
 		"name": "uncommon_charms",
 		"rolls": 1,
@@ -52,6 +52,24 @@
 				"entryName": "adornment1",
 				"type": "item",
 				"name": "treasure2:silver_ring",
+				"weight": 3,
+				"quality": 3,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.3
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 0,
+						"max": 0
+					}
+				}]
+			},
+			{
+				"entryName": "adornment_silver_necklace",
+				"type": "item",
+				"name": "treasure2:silver_silver_necklace",
 				"weight": 3,
 				"quality": 3,
 				"conditions": [{
