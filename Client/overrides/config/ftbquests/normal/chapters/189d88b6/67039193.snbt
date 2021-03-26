@@ -18,15 +18,5 @@
 		uid: "ce2085c4",
 		type: "ftbmoney:money",
 		ftb_money: 750L
-	},
-	{
-		uid: "6ec5ff0b",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "futuremc:record_pigstep"
-		}
 	}]
 }

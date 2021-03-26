@@ -1,5 +1,5 @@
 {
-	"version": "2.0",
+	"version": "2.1",
 	"pools": [{
 		"name": "rare_charms",
 		"rolls": 1,
@@ -109,11 +109,27 @@
 					"chance": 0.15
 				}]
 			},
-
 			{
 				"entryName": "adornment1",
 				"type": "item",
 				"name": "treasure2:gold_ring",
+				"weight": 15,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.5
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 1,
+						"max": 2
+					}
+				}]
+			},
+			{
+				"entryName": "adornment_gold_necklace",
+				"type": "item",
+				"name": "treasure2:gold_necklace",
 				"weight": 15,
 				"conditions": [{
 					"condition": "random_chance",
@@ -179,17 +195,102 @@
 						"max": 2
 					}
 				}]
-            },
-    		{
+			},
+			{
 				"entryName": "adornment5",
 				"type": "item",
 				"name": "treasure2:gold_bracelet",
-                "weight": 10,
+				"weight": 10,
+				"quality": 2,
 				"conditions": [{
 					"condition": "random_chance",
 					"chance": 0.3
-				}]       
-            },      
+				}]
+			},
+			{
+				"entryName": "adornment6",
+				"type": "item",
+				"name": "treasure2:pocket_watch",
+				"weight": 10,
+				"quality": 2,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.3
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 0,
+						"max": 2
+					}
+				}]
+			},
+			{
+				"entryName": "adornment7",
+				"type": "item",
+				"name": "treasure2:amythest_gold_amulet",
+				"weight": 8,
+				"quality": 2,
+				"functions": [{
+						"function": "treasure2:set_slots",
+						"slots": {
+							"min": 0,
+							"max": 1
+						}
+					},
+					{
+						"function": "treasure2:charm_randomly",
+						"levels": {
+							"min": 1,
+							"max": 10
+						}
+					}
+				]
+			},
+			{
+				"entryName": "adornment8",
+				"type": "item",
+				"name": "treasure2:onyx_gold_amulet",
+				"weight": 8,
+				"quality": 2,
+				"functions": [{
+						"function": "treasure2:set_slots",
+						"slots": {
+							"min": 0,
+							"max": 1
+						}
+					},
+					{
+						"function": "treasure2:charm_randomly",
+						"levels": {
+							"min": 1,
+							"max": 11
+						}
+					}
+				]
+			},
+			{
+				"entryName": "adornment10",
+				"type": "item",
+				"name": "treasure2:sapphire_silver_amulet",
+				"weight": 8,
+				"quality": 2,
+				"functions": [{
+						"function": "treasure2:set_slots",
+						"slots": {
+							"min": 0,
+							"max": 1
+						}
+					},
+					{
+						"function": "treasure2:charm_randomly",
+						"levels": {
+							"min": 1,
+							"max": 13
+						}
+					}
+				]
+			},
 			{
 				"entryName": "apprentices_pouch",
 				"type": "item",

@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: 3.0d,
-	description: "&6Diggy diggy hole!?????????",
+	description: "&6\"I am a dwarf and I'm digging a hole\"",
 	dependencies: [
 		"49dff6a0"
 	],
@@ -12,7 +12,7 @@
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "mekanismtools:ironpaxel"
+			id: "thermalfoundation:tool.hammer_diamond"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

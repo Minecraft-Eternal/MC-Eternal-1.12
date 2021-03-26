@@ -11,7 +11,7 @@
   },
   {
     "content": "iceandfire:ice_dragon_blood",
-    "unitWorth": 2400,
+    "unitWorth": 800,
     "weight": 10
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "content": "iceologer:ice_wand",
-    "unitWorth": 2000,
+    "unitWorth": 900,
     "weight": 5,
     "amount": {
       "min": 1,

@@ -2,7 +2,7 @@
 	title: "Make a house a home",
 	x: -12.0d,
 	y: -0.5d,
-	description: "Create a team and claim the land around where you want to build. *This also protects you from mob griefing*",
+	description: "&o&nCreate a team and claim the land around where you want to build. *This also protects you from mob griefing, you can do so by opening up your inventory and navigating to the \"claimed chunks\" gui on the top left",
 	dependencies: [
 		"a2b4f121"
 	],
@@ -26,10 +26,5 @@
 		uid: "c3c04717",
 		type: "item",
 		item: "randomthings:peacecandle"
-	},
-	{
-		uid: "9a0d599c",
-		type: "item",
-		item: "malisisdoors:shoji_door"
 	}]
 }

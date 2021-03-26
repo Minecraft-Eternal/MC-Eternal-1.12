@@ -1,5 +1,5 @@
 {
-	"version": "2.0",
+	"version": "2.1",
 	"pools": [{
 		"name": "scarce_charms",
 		"rolls": 1,
@@ -61,7 +61,21 @@
 				}],
 				"functions": [{
 					"function": "treasure2:set_slots",
-					"slots": 0
+					"slots": 1
+				}]
+			},
+			{
+				"entryName": "adornment_silver_necklace",
+				"type": "item",
+				"name": "treasure2:silver_necklace",
+				"weight": 15,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.5
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": 1
 				}]
 			},
 			{
@@ -77,6 +91,40 @@
 					"function": "treasure2:set_slots",
 					"slots": {
 						"min": 1,
+						"max": 2
+					}
+				}]
+			},
+			{
+				"entryName": "adornment_gold_necklace",
+				"type": "item",
+				"name": "treasure2:gold_necklace",
+				"weight": 15,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.5
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 1,
+						"max": 2
+					}
+				}]
+			},
+			{
+				"entryName": "adornment_amethyst_silver_ring",
+				"type": "item",
+				"name": "treasure2:amethyst_silver_ring",
+				"weight": 15,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.5
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 0,
 						"max": 2
 					}
 				}]
@@ -133,12 +181,30 @@
 						"max": 2
 					}
 				}]
-            },
-            {
+			},
+			{
 				"entryName": "adornment5",
 				"type": "item",
 				"name": "treasure2:silver_signet_ring",
 				"weight": 10,
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.5
+				}],
+				"functions": [{
+					"function": "treasure2:set_slots",
+					"slots": {
+						"min": 0,
+						"max": 1
+					}
+				}]
+			},
+			{
+				"entryName": "adornment6",
+				"type": "item",
+				"name": "treasure2:pocket_watch",
+				"weight": 5,
+				"quality": 2,
 				"conditions": [{
 					"condition": "random_chance",
 					"chance": 0.5

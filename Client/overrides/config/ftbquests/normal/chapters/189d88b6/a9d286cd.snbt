@@ -60,7 +60,7 @@
 		items: [{
 			item: "iceandfire:manuscript"
 		}],
-		count: 7L
+		count: 3L
 	}],
 	rewards: [{
 		uid: "ee2966a1",
