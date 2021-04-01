@@ -3,7 +3,7 @@
 	x: -1.0d,
 	y: -5.5d,
 	text: [
-		"Bet you can’t eat 5 of them! No no! Stop, don’t eat 5 of them! "
+		"Bet you canï¿½t eat 5 of them! No no! Stop, donï¿½t eat 5 of them! "
 	],
 	tasks: [{
 		uid: "5639618b",

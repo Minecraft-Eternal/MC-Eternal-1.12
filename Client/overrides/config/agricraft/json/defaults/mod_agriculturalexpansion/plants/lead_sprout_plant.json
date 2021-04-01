@@ -1,6 +1,6 @@
 {
   "path": "mod_agriculturalexpansion/plants/lead_sprout_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "agriculturalexpansion:lead_sprout_plant",
   "plant_name": "Lead Crop",
   "seed_name": "Lead Sprout",

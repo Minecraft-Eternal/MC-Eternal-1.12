@@ -1,0 +1,10 @@
+{
+  "name" : "dungeon:desert_builtin_no_loot",
+  "exclusive": false,
+  "inherit" : [
+    "builtin:desert"
+  ],
+  "overrides": [
+    "LOOTRULES"
+  ]
+}

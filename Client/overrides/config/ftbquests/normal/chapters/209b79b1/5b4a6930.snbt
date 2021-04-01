@@ -6,6 +6,9 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				Parent: {
+					effectiveMaxDamage: 20
+				},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "treasure2:diamond_key"

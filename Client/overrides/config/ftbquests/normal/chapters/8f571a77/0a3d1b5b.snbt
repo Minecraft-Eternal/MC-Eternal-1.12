@@ -19,15 +19,8 @@
 		count: 16L
 	}],
 	rewards: [{
-		uid: "7956c507",
-		type: "item",
-		title: "50 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_small",
-			tag: {
-				value: 50L
-			}
-		}
+		uid: "36459577",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

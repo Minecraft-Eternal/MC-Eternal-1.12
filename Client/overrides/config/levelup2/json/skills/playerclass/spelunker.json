@@ -1,6 +1,8 @@
 {
   "name": "levelup:spelunker",
   "bonus": "levelup:mining_bonus",
+  "localized_name": "Spelunker",
+  "description": "Branch mining is for cowards",
   "skills": [
     {
       "name": "levelup:furnacebonus",

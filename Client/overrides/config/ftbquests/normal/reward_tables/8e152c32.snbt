@@ -832,11 +832,22 @@
 		type: "command"
 	},
 	{
-		item: "icbmclassic:explosives",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives"
+		},
 		count: 8
 	},
 	{
-		item: "icbmclassic:explosives 1 15"
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives",
+			Damage: 15s
+		}
 	},
 	{
 		item: "mekanism:ingot",
@@ -2235,7 +2246,8 @@
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "ebwizardry:armour_upgrade"
+			id: "ebwizardry:armour_upgrade",
+			Count: 1b
 		}
 	},
 	{
@@ -2326,41 +2338,94 @@
 		weight: 2
 	},
 	{
-		item: "icbmclassic:grenade",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade"
+		},
 		count: 3
 	},
 	{
-		item: "icbmclassic:grenade 1 1",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade",
+			Damage: 1s
+		},
 		count: 3
 	},
 	{
-		item: "icbmclassic:grenade 1 2",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade",
+			Damage: 2s
+		},
 		count: 2,
 		weight: 2
 	},
 	{
-		item: "icbmclassic:grenade 1 3",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade",
+			Damage: 3s
+		},
 		count: 3
 	},
 	{
-		item: "icbmclassic:grenade 1 4",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade",
+			Damage: 4s
+		},
 		count: 3
 	},
 	{
-		item: "icbmclassic:grenade 1 5",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade",
+			Damage: 5s
+		},
 		count: 3,
 		weight: 3
 	},
 	{
-		item: "icbmclassic:grenade 1 7",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade",
+			Damage: 7s
+		},
 		count: 3
 	},
 	{
-		item: "icbmclassic:grenade 1 29",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade",
+			Damage: 29s
+		},
 		count: 3
 	},
 	{
-		item: "icbmclassic:grenade 1 30",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:grenade",
+			Damage: 30s
+		},
 		count: 3
 	},
 	{
@@ -2474,43 +2539,96 @@
 		item: "conarm:resist_mat"
 	},
 	{
-		item: "icbmclassic:explosives",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives"
+		},
 		count: 3,
 		weight: 3
 	},
 	{
-		item: "icbmclassic:explosives 1 3",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives",
+			Damage: 3s
+		},
 		count: 4
 	},
 	{
-		item: "icbmclassic:explosives 1 4",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives",
+			Damage: 4s
+		},
 		count: 3
 	},
 	{
-		item: "icbmclassic:explosives 1 6",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives",
+			Damage: 6s
+		},
 		count: 3
 	},
 	{
-		item: "icbmclassic:explosives 1 18",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives",
+			Damage: 18s
+		},
 		count: 4,
 		weight: 3
 	},
 	{
-		item: "icbmclassic:explosives 1 20",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives",
+			Damage: 20s
+		},
 		count: 4
 	},
 	{
-		item: "icbmclassic:explosives 1 19",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives",
+			Damage: 19s
+		},
 		count: 4,
 		weight: 2
 	},
 	{
-		item: "icbmclassic:explosives 1 21",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives",
+			Damage: 21s
+		},
 		count: 5,
 		weight: 2
 	},
 	{
-		item: "icbmclassic:explosives 1 17",
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "icbmclassic:explosives",
+			Damage: 17s
+		},
 		count: 4
 	},
 	{

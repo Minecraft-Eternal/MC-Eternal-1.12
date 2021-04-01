@@ -1,6 +1,7 @@
 {
 	x: -8.0d,
 	y: 0.0d,
+	description: "&oCreate powerful and unique custom armor using the armor forge! refer to the \"tinkers armory\" guide for more info",
 	dependencies: [
 		"478ee4b5"
 	],

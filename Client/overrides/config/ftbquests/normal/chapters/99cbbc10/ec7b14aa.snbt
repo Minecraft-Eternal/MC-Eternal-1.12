@@ -1,9 +1,9 @@
 {
-	title: "Top Tier Food: Miner’s Stew",
+	title: "Top Tier Food: Minerï¿½s Stew",
 	x: 2.0d,
 	y: -5.5d,
 	text: [
-		"It is edible… but is it tasty?"
+		"It is edibleï¿½ but is it tasty?"
 	],
 	tasks: [{
 		uid: "3e110cdc",

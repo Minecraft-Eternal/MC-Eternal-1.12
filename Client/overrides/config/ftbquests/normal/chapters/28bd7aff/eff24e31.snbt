@@ -2,6 +2,7 @@
 	title: "Down a dark path",
 	x: -7.0d,
 	y: -1.0d,
+	optional: true,
 	tasks: [{
 		uid: "bc7b6a1e",
 		type: "kill",
@@ -19,5 +20,18 @@
 		uid: "ef9cdcb0",
 		type: "loot",
 		table: 1
+	},
+	{
+		uid: "746fec5b",
+		type: "item",
+		item: {
+			id: "ancientspellcraft:ancient_spellcraft_scroll",
+			tag: {
+				display: {
+					Name: "Summon Undead Wizard"
+				}
+			},
+			Damage: 208s
+		}
 	}]
 }

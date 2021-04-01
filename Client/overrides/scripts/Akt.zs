@@ -40,7 +40,7 @@ import crafttweaker.oredict.IOreDictEntry;
 				},
 				Damage: 0 as short
 			},
-			cyclicmagic: {
+			vampirism: {
 				id: "guideapi:vampirism-guide",
 				Count: 1 as byte,
 				tag: {
@@ -88,19 +88,19 @@ import crafttweaker.oredict.IOreDictEntry;
 				},
 				Damage: 0 as short
 			},
-			rftoolsdim: {
-				id: "rftoolsdim:rftoolsdim_manual",
+			ancientwarfare: {
+				id: "ancientwarefare:manual",
 				Count: 1 as byte,
 				tag: {
-					"akashictome:definedMod": "rftoolsdim"
+					"akashictome:definedMod": "ancientwarfare"
 				},
 				Damage: 0 as short
 			},
-			rftools1: {
-				id: "rftools:rftools_shape_manual",
+			bloodmagic: {
+				id: "guideapi:bloodmagic-guide",
 				Count: 1 as byte,
 				tag: {
-					"akashictome:definedMod": "rftools1"
+					"akashictome:definedMod": "guideapi"
 				},
 				Damage: 0 as short
 			},
@@ -154,21 +154,23 @@ import crafttweaker.oredict.IOreDictEntry;
 
 	var addedBooks = [
 		<tconstruct:book>, 
+		<conarm:book>,
+		<ancientwarfare:manual>, 
+		<ebwizardry:wizard_handbook>,
+		<guideapi:bloodmagic-guide>, 
+		<forestry:book_forester>, 
+		<botania:lexicon>, 
 		<industrialforegoing:book_manual>, 
 		<astralsorcery:itemjournal>, 
 		<immersiveengineering:tool:3>, 
 		<rftools:rftools_manual>, 
-		<guideapi:cyclicmagic-guide>, 
-		<botania:lexicon>, 
+		<guideapi:vampirism-guide>, 
 		<extrautils2:book>, 
 		<thermalfoundation:tome_lexicon>, 
 		<actuallyadditions:item_booklet>, 
 		<integrateddynamics:on_the_dynamics_of_integration>, 
 		<rftoolsdim:rftoolsdim_manual>,  
 		<openblocks:info_book>,
-		<forestry:book_forester>,
-		<ebwizardry:wizard_handbook>,
-		<conarm:book>,
 		<thebetweenlands:manual_hl>
 		] as IItemStack[];
 

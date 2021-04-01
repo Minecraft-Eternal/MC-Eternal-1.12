@@ -16,7 +16,7 @@
 	rewards: [{
 		uid: "046baf03",
 		type: "ftbmoney:money",
-		ftb_money: 150L
+		ftb_money: 1500L
 	},
 	{
 		uid: "40b2eb24",

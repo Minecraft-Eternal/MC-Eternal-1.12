@@ -29,10 +29,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"§8§k232!§r§l§8It yearns to be returned to its home planet§8§k3242",
-						"§l§e(Rare Moon Artifact)"
+						"ï¿½8ï¿½k232!ï¿½rï¿½lï¿½8It yearns to be returned to its home planetï¿½8ï¿½k3242",
+						"ï¿½lï¿½e(Rare Moon Artifact)"
 					],
-					Name: "§9Frozen Blade §rof the §4Unholy Prince"
+					Name: "ï¿½9Frozen Blade ï¿½rof the ï¿½4Unholy Prince"
 				}
 			}
 		}],
@@ -63,10 +63,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"§8§r§lAncient Tarnished Blade",
-						"§l§e(Rare Moon Artifact)"
+						"ï¿½8ï¿½rï¿½lAncient Tarnished Blade",
+						"ï¿½lï¿½e(Rare Moon Artifact)"
 					],
-					Name: "§3Giant's Bane"
+					Name: "ï¿½3Giant's Bane"
 				}
 			}
 		}],
@@ -97,10 +97,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"§8§r§rTriple Compressed Cheese",
-						"§l§e(Rare Moon Artifact)"
+						"ï¿½8ï¿½rï¿½rTriple Compressed Cheese",
+						"ï¿½lï¿½e(Rare Moon Artifact)"
 					],
-					Name: "§6§lMoon King"
+					Name: "ï¿½6ï¿½lMoon King"
 				}
 			}
 		}],
@@ -123,10 +123,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"§aThree things are certain in life: death, taxes and opening a bad chancecube",
-						"§e(§R§eRare Moon Artifact)"
+						"ï¿½aThree things are certain in life: death, taxes and opening a bad chancecube",
+						"ï¿½e(ï¿½Rï¿½eRare Moon Artifact)"
 					],
-					Name: "§9God-King's Grace, Breath of Life"
+					Name: "ï¿½9God-King's Grace, Breath of Life"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -149,7 +149,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§dExterrestrial Cache"
+					Name: "ï¿½dExterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}

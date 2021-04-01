@@ -12,15 +12,8 @@
 		count: 16L
 	}],
 	rewards: [{
-		uid: "8e8c2d01",
-		type: "item",
-		title: "25 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_small",
-			tag: {
-				value: 25L
-			}
-		}
+		uid: "bc42b2a6",
+		type: "ftbmoney:money",
+		ftb_money: 2L
 	}]
 }

@@ -16,6 +16,7 @@
   "prerequisites": [
     "levelup:cropgrowth"
   ],
+  "divisor": 10,
   "stack": {
     "item": "minecraft:wheat"
   },

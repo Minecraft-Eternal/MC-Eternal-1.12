@@ -1,13 +1,14 @@
 {
 	title: "Basic Automated Mob Farm",
 	icon: "iceandfire:dread_key",
-	x: -10.0d,
-	y: -10.0d,
+	x: -9.45d,
+	y: -9.45d,
 	shape: "hexagon",
 	description: "&cIt was a graveyard smash!",
 	dependencies: [
 		"3b41a4ca"
 	],
+	size: 0.9d,
 	tasks: [{
 		uid: "edf10fd6",
 		type: "item",

@@ -1,7 +1,7 @@
 {
 	title: "&5&lThe Beneath",
-	x: -3.5d,
-	y: -7.5d,
+	x: -4.550000000000001d,
+	y: -7.800000000000001d,
 	shape: "hexagon",
 	description: "Come one, come all and let the darkness consume you!",
 	dependencies: [

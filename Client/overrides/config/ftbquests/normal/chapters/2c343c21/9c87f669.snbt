@@ -26,10 +26,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8Rusted and uncomfortable to hold, unlikely to last very long",
-						"§e(Part of the Moon set)"
+						"ï¿½8Rusted and uncomfortable to hold, unlikely to last very long",
+						"ï¿½e(Part of the Moon set)"
 					],
-					Name: "§7Ratlantean Dagger"
+					Name: "ï¿½7Ratlantean Dagger"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -50,10 +50,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8Rusted and uncomfortable to hold, unlikely to last very long (aaarrg)",
-						"§e(Part of the Moon set)"
+						"ï¿½8Rusted and uncomfortable to hold, unlikely to last very long (aaarrg)",
+						"ï¿½e(Part of the Moon set)"
 					],
-					Name: "§7Pirat Hook"
+					Name: "ï¿½7Pirat Hook"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -74,10 +74,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8Made completely out of 100% cheese sourced locally from the Moon.",
-						"§e(Part of the Moon set)"
+						"ï¿½8Made completely out of 100% cheese sourced locally from the Moon.",
+						"ï¿½e(Part of the Moon set)"
 					],
-					Name: "§7Cheese Blade"
+					Name: "ï¿½7Cheese Blade"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -100,7 +100,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§dExterrestrial Cache"
+					Name: "ï¿½dExterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}

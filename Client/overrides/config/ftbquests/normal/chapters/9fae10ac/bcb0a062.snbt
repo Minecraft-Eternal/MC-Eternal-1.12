@@ -1,6 +1,6 @@
 {
-	x: -12.5d,
-	y: -3.0d,
+	x: -13.5d,
+	y: -2.0d,
 	description: " A frightful reptilian sea monster that relentlessly attacks all smaller creatures on sight.",
 	tasks: [{
 		uid: "667af1d0",

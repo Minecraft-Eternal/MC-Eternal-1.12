@@ -19,15 +19,8 @@
 		count: 16L
 	}],
 	rewards: [{
-		uid: "53548399",
-		type: "item",
-		title: "100 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_big",
-			tag: {
-				value: 100L
-			}
-		}
+		uid: "51de217f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

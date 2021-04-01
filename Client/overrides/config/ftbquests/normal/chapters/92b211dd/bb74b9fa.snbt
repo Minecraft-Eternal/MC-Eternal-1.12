@@ -27,20 +27,10 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§dExterrestrial Cache"
+					Name: "ï¿½dExterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}
-		}
-	},
-	{
-		uid: "a24a9443",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "pigstep:pigstep"
 		}
 	}]
 }

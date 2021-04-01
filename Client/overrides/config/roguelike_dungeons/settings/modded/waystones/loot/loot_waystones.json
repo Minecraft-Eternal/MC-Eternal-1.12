@@ -1,0 +1,17 @@
+{
+  "name": "loot:waystones",
+  "requires": ["waystones"],
+  "lootRules": [
+    {
+      "level": [0, 1, 2, 3, 4],
+      "each": false,
+      "quantity": 1,
+      "loot": [
+        {"data" : {"name" : "waystones:return_scroll"}, "weight" : 64},
+        {"data" : {"name" : "waystones:bound_scroll"}, "weight" : 16},
+        {"data" : {"name" : "waystones:warp_scroll"}, "weight" : 4},
+        {"data" : {"name" : "waystones:warp_stone"}, "weight" : 1}
+      ]
+    }
+  ]
+}

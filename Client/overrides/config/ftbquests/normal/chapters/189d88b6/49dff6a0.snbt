@@ -1,6 +1,7 @@
 {
 	x: -12.0d,
 	y: 1.5d,
+	description: "&oMining with style!",
 	dependencies: [
 		"14b54c00"
 	],
@@ -8,12 +9,17 @@
 		uid: "e586b499",
 		type: "item",
 		items: [{
-			item: "malisisdoors:rustyhatch"
+			item: "ghostsexplosives:tnt_mining"
 		}]
 	}],
 	rewards: [{
 		uid: "e345e695",
 		type: "ftbmoney:money",
-		ftb_money: 50L
+		ftb_money: 500L
+	},
+	{
+		uid: "51ee6b64",
+		type: "loot",
+		table: 1
 	}]
 }

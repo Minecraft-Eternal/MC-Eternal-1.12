@@ -32,10 +32,5 @@
 		uid: "5e325a12",
 		type: "loot",
 		table: 1
-	},
-	{
-		uid: "c1b789cc",
-		type: "item",
-		item: "minecraft:name_tag"
 	}]
 }

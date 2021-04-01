@@ -11,6 +11,7 @@
   "prerequisites": [
     "levelup:woodcutting"
   ],
+  "divisor": 30,
   "stack": {
     "item": "minecraft:log",
     "data": 0

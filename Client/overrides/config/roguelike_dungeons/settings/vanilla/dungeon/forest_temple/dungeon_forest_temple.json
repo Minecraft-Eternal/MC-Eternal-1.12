@@ -1,0 +1,19 @@
+{
+  "name" : "dungeon:forest_temple",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["FOREST"]},
+  "inherit" : [
+    "dungeon:common",
+    "theme:forest",
+    "tower:rogue_forest",
+    "segments:inhabited_trapped_sewers",
+    "rooms:forest_temple",
+    "spawners:eb",
+    "spawners:evil_humanoids"
+  ],
+  "filters": [
+    {"name": "vine", "level": [1,2,3]},
+    {"name": "cobweb", "level": [2]},
+    {"name": "mud", "level": [3,4]}
+  ]
+}

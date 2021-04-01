@@ -1,0 +1,34 @@
+{
+  "name": "dungeon:villager_house_sandy",
+  "exclusive": true,
+  "criteria" : {"biomeTypes" : ["SANDY"]},
+  "inherit": [
+    "dungeon:common",
+    "rooms:traps_few",
+    "rooms:undead",
+    "segments:traps_few",
+    "spawners:evil_humanoids",
+    "spawners:undead"
+  ],
+  "filters": [
+    {"level": [1, 2, 3], "name": "vine"},
+    {"level": [1, 3], "name": "cobweb"},
+    {"level": [4], "name": "mud"}
+  ],
+  "rooms": [
+    {"level": [4], "frequency": "random", "type": "BLAZE", "weight": 10}
+  ],
+  "themes": [
+    {"level": [0, 1], "base": "PYRAMID"},
+    {"level": [1], "base": "SANDSTONE"},
+    {"level": [2], "base": "SANDSTONERED"},
+    {"level": [3], "base": "ETHOTOWER"},
+    {"level": [4], "base": "CRYPT"}
+  ],
+  "tower": {
+    "type": "VILLAGER_HOUSE",
+    "theme": {
+      "base": "PYRAMID"
+    }
+  }
+}

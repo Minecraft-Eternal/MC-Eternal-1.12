@@ -22,10 +22,10 @@
 				HideFlags: 33,
 				display: {
 					Lore: [
-						"§8The means to prolong one's life is corrupting, unnatural and not without cost...",
-						"§c(Part of the Corruption set)"
+						"ï¿½8The means to prolong one's life is corrupting, unnatural and not without cost...",
+						"ï¿½c(Part of the Corruption set)"
 					],
-					Name: "§4§lGrasp of Death"
+					Name: "ï¿½4ï¿½lGrasp of Death"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -67,10 +67,10 @@
 				HideFlags: 33,
 				display: {
 					Lore: [
-						"§8The means to prolong one's life is corrupting, unnatural and not without cost...",
-						"§c(Part of the Corruption set)"
+						"ï¿½8The means to prolong one's life is corrupting, unnatural and not without cost...",
+						"ï¿½c(Part of the Corruption set)"
 					],
-					Name: "§4§lGrasp of Suffering"
+					Name: "ï¿½4ï¿½lGrasp of Suffering"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -120,11 +120,11 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8All that's left is a Nightmare...",
-						"§c(Part of the Corruption Set)",
-						"§e(Rare Moon Artifact)"
+						"ï¿½8All that's left is a Nightmare...",
+						"ï¿½c(Part of the Corruption Set)",
+						"ï¿½e(Rare Moon Artifact)"
 					],
-					Name: "§7Dream Eater"
+					Name: "ï¿½7Dream Eater"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -172,11 +172,11 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8\"But what we call our despair is often only the painful eagerness of unfed hope.\"",
-						"§c(Part of the Corruption Set)",
-						"§e(Rare Moon Artifact)"
+						"ï¿½8\"But what we call our despair is often only the painful eagerness of unfed hope.\"",
+						"ï¿½c(Part of the Corruption Set)",
+						"ï¿½e(Rare Moon Artifact)"
 					],
-					Name: "§5Despair"
+					Name: "ï¿½5Despair"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -203,10 +203,10 @@
 				HideFlags: 37,
 				display: {
 					Lore: [
-						"§8You have plenty of courage, I am sure",
-						"§c(Part of the Corruption Set)"
+						"ï¿½8You have plenty of courage, I am sure",
+						"ï¿½c(Part of the Corruption Set)"
 					],
-					Name: "§7Ruby Slippers"
+					Name: "ï¿½7Ruby Slippers"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -239,7 +239,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§dExterrestrial Cache"
+					Name: "ï¿½dExterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}

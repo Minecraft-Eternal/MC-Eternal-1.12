@@ -1,6 +1,0 @@
-
-{
-  "Name": "mod_lavacow.zombiefrozen",
-  "Registry ID": "mod_lavacow:zombiefrozen",
-  "Class": "com.Fishmod.mod_LavaCow.entities.EntityZombieFrozen"
-}

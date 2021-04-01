@@ -1,0 +1,125 @@
+// if you've found this, hit me up and send me a pull request. Let's add some fun flavor text to these.
+{
+  "name": "loot:trading_cards",
+  "lootRules": [
+    {
+      "level": [4],
+      "loot": [
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Desert\",\"Land\",\"Uncommon\",\"#1\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Forest\",\"Land\",\"Common\",\"#2\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Jungle\",\"Land\",\"Uncommon\",\"#3\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Mountain\",\"Land\",\"Common\",\"#4\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Ocean\",\"Land\",\"Common\",\"#5\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Plains\",\"Land\",\"Common\",\"#6\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"River\",\"Land\",\"Common\",\"#7\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Swamp\",\"Land\",\"Uncommon\",\"#8\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Tundra\",\"Land\",\"Rare\",\"#9\"]}}"}, "weight": 1},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Air\",\"Element\",\"Common\",\"#10\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Fire\",\"Element\",\"Common\",\"#11\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Earth\",\"Element\",\"Common\",\"#12\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Water\",\"Element\",\"Common\",\"#13\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Spirit\",\"Element\",\"Rare\",\"#14\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Electric\",\"Element\",\"Uncommon\",\"#15\"]}}"}, "weight": 3},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Aqua\",\"Elemental\",\"Common\",\"#16\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Flame\",\"Elemental\",\"Common\",\"#17\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Lightning\",\"Elemental\",\"Uncommon\",\"#18\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Soul\",\"Elemental\",\"Rare\",\"#19\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Terra\",\"Elemental\",\"Common\",\"#20\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Wind\",\"Elemental\",\"Common\",\"#21\"]}}"}, "weight": 5},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Sun\",\"Heavens\",\"Uncommon\",\"#22\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Full Moon\",\"Heavens\",\"Rare\",\"#23\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Waning Moon\",\"Heavens\",\"Common\",\"#24\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"New Moon\",\"Heavens\",\"Uncommon\",\"#25\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Waxing Moon\",\"Heavens\",\"Common\",\"#26\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Eclipse\",\"Heavens\",\"Common\",\"#27\"]}}"}, "weight": 5},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Spring\",\"Season\",\"Common\",\"#28\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Summer\",\"Season\",\"Common\",\"#29\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Autumn\",\"Season\",\"Uncommon\",\"#30\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Winter\",\"Season\",\"Rare\",\"#31\"]}}"}, "weight": 1},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Bat\",\"Mob\",\"Common\",\"#32\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Chicken\",\"Mob\",\"Common\",\"#33\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Cow\",\"Mob\",\"Common\",\"#34\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Horse\",\"Mob\",\"Common\",\"#35\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Pig\",\"Mob\",\"Common\",\"#36\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Rabbit\",\"Mob\",\"Common\",\"#37\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Sheep\",\"Mob\",\"Common\",\"#38\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Squid\",\"Mob\",\"Common\",\"#39\"]}}"}, "weight": 5},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Wolf\",\"Mob\",\"Uncommon\",\"#40\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Ocelot\",\"Mob\",\"Uncommon\",\"#41\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Parrot\",\"Mob\",\"Uncommon\",\"#42\"]}}"}, "weight": 3},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Fox\",\"Mob\",\"Rare\",\"#43\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Panda\",\"Mob\",\"Rare\",\"#44\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Turtle\",\"Mob\",\"Rare\",\"#45\"]}}"}, "weight": 1},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Zombie\",\"Mob\",\"Common\",\"#46\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Skeleton\",\"Mob\",\"Common\",\"#47\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Creeper\",\"Mob\",\"Common\",\"#48\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Spider\",\"Mob\",\"Common\",\"#49\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Slime\",\"Mob\",\"Common\",\"#50\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Zombie Piglin\",\"Mob\",\"Common\",\"#51\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Ghast\",\"Mob\",\"Common\",\"#52\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Blaze\",\"Mob\",\"Common\",\"#53\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Silverfish\",\"Mob\",\"Common\",\"#54\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Enderman\",\"Mob\",\"Common\",\"#55\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Phantom\",\"Mob\",\"Common\",\"#56\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Villager\",\"Mob\",\"Common\",\"#57\"]}}"}, "weight": 5},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Witch\",\"Mob\",\"Uncommon\",\"#58\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Endermite\",\"Mob\",\"Uncommon\",\"#59\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Shulker\",\"Mob\",\"Uncommon\",\"#60\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Guardian\",\"Mob\",\"Uncommon\",\"#61\"]}}"}, "weight": 3},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Wither\",\"Boss Mob\",\"Rare\",\"#62\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Enderdragon\",\"Boss Mob\",\"Rare\",\"#63\"]}}"}, "weight": 1},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Armorsmith\",\"Profession\",\"Uncommon\",\"#64\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Butcher\",\"Profession\",\"Common\",\"#65\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Cartographer\",\"Profession\",\"Uncommon\",\"#67\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Cleric\",\"Profession\",\"Rare\",\"#68\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Farmer\",\"Profession\",\"Common\",\"#69\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Fisher\",\"Profession\",\"Common\",\"#70\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Fletcher\",\"Profession\",\"Common\",\"#71\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Leatherworker\",\"Profession\",\"Common\",\"#72\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Librarian\",\"Profession\",\"Rare\",\"#73\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Mason\",\"Profession\",\"Common\",\"#74\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Nitwit\",\"Profession\",\"Common\",\"#75\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Shepherd\",\"Profession\",\"Common\",\"#76\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Toolsmith\",\"Profession\",\"Uncommon\",\"#77\"]}}"}, "weight": 3},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Weaposmith\",\"Profession\",\"Uncommon\",\"#78\"]}}"}, "weight": 3},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Dwarf\",\"Humanoid\",\"Common\",\"#79\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Elf\",\"Humanoid\",\"Common\",\"#80\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Fairy\",\"Humanoid\",\"Common\",\"#81\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Gnome\",\"Humanoid\",\"Common\",\"#82\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Orc\",\"Humanoid\",\"Common\",\"#83\"]}}"}, "weight": 5},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Goblin\",\"Beast\",\"Common\",\"#84\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Kobold\",\"Beast\",\"Common\",\"#85\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Troll\",\"Beast\",\"Common\",\"#86\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Gorgon\",\"Beast\",\"Common\",\"#87\"]}}"}, "weight": 5},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Minotaur\",\"Beast\",\"Common\",\"#88\"]}}"}, "weight": 5},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Wyrm\",\"Beast\",\"Rare\",\"#89\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Sea Serpent\",\"Beast\",\"Rare\",\"#90\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Fire Dragon\",\"Beast\",\"Rare\",\"#91\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Ice Dragon\",\"Beast\",\"Rare\",\"#92\"]}}"}, "weight": 1},
+
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Amethyst\",\"Gemstone\",\"Rare\",\"#93\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Diamond\",\"Gemstone\",\"Rare\",\"#94\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Emerald\",\"Gemstone\",\"Rare\",\"#95\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Garnet\",\"Gemstone\",\"Rare\",\"#96\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Sapphire\",\"Gemstone\",\"Rare\",\"#97\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:Paper", "nbt": "{display:{Name:\"Trading Card\",Lore:[\"Ruby\",\"Gemstone\",\"Rare\",\"#98\"]}}"}, "weight": 1}
+      ],
+      "each": false,
+      "quantity": 1
+    }
+  ]
+}

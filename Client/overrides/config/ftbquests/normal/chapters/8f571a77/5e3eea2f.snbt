@@ -2,7 +2,7 @@
 	disable_toast: true,
 	x: -3.5d,
 	y: -5.0d,
-	description: "Mining",
+	description: "Mining `",
 	text: [
 		"*Unlocked after completing the Introduction chapter*"
 	],
@@ -19,15 +19,8 @@
 		count: 32L
 	}],
 	rewards: [{
-		uid: "976b438d",
-		type: "item",
-		title: "1000 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_big",
-			tag: {
-				value: 1000L
-			}
-		}
+		uid: "26cef7ba",
+		type: "ftbmoney:money",
+		ftb_money: 150L
 	}]
 }

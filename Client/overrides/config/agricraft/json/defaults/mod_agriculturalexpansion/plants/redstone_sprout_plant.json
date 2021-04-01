@@ -1,6 +1,6 @@
 {
   "path": "mod_agriculturalexpansion/plants/redstone_sprout_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "agriculturalexpansion:redstone_sprout_plant",
   "plant_name": "Redstone Crop",
   "seed_name": "Redstone Sprout",

@@ -1,0 +1,33 @@
+{
+  "name": "loot:starter",
+  "lootRules": [
+    {
+      "level": [0,1,2,3,4], "type": "STARTER", "each": true, "quantity": 1,
+      "loot": [
+        {"data": {"type": "specialty", "equipment": "helmet", "level": 1}, "weight": 1},
+        {"data": {"type": "specialty", "equipment": "chest", "level": 1}, "weight": 1},
+        {"data": {"type": "specialty", "equipment": "legs", "level": 1}, "weight": 1},
+        {"data": {"type": "specialty", "equipment": "feet", "level": 1}, "weight": 1}
+      ]
+    },
+
+    {"level": [0, 1, 2, 3, 4], "type": "STARTER", "loot": [{"data": {"name": "minecraft:torch", "min": 16, "max": 64}, "weight": 1}], "each": true, "quantity": 2},
+    {"level": [0, 1, 2, 3, 4], "type": "STARTER", "loot": [{"data": {"type": "mixture", "name": "coffee"}, "weight": 1}], "each": true, "quantity": 1},
+    {"level": [0, 1, 2, 3, 4], "type": "STARTER", "loot": [{"data": {"name": "minecraft:flint_and_steel" }, "weight": 1}], "each": true, "quantity": 1},
+
+    {"level": 0, "type": "STARTER", "loot": [{"data": {"type": "tool", "level": 1}}], "each": true, "quantity": 2},
+    {"level": 0, "type": "STARTER", "loot": [{"data": {"type": "weapon", "level": 1}}], "each": true, "quantity": 2},
+
+    {"level": 1, "type": "STARTER", "loot": [{"data": {"type": "tool", "level": 2}}], "each": true, "quantity": 1},
+    {"level": 1, "type": "STARTER", "loot": [{"data": {"type": "weapon", "level": 2}}], "each": true, "quantity": 1},
+
+    {"level": 2, "type": "STARTER", "loot": [{"data": {"type": "tool", "level": 2}}], "each": true, "quantity": 1},
+    {"level": 2, "type": "STARTER", "loot": [{"data": {"type": "weapon", "level": 2}}], "each": true, "quantity": 1},
+
+    {"level": 3, "type": "STARTER", "loot": [{"data": {"type": "tool", "level": 3}}], "each": true, "quantity": 1},
+    {"level": 3, "type": "STARTER", "loot": [{"data": {"type": "weapon", "level": 3}}], "each": true, "quantity": 1},
+
+    {"level": 4, "type": "STARTER", "loot": [{"data": {"type": "tool", "level": 4}}], "each": true, "quantity": 1},
+    {"level": 4, "type": "STARTER", "loot": [{"data": {"type": "weapon", "level": 4}}], "each": true, "quantity": 1}
+  ]
+}

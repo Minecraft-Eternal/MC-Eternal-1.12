@@ -1,0 +1,7 @@
+{
+  "name": "spawners:minotaur",
+  "requires": ["twilightforest"],
+  "spawners": [
+    {"level": [0, 1, 2, 3, 4], "potentials": [{"name": "twilightforest:minotaur", "equip": true}]}
+  ]
+}

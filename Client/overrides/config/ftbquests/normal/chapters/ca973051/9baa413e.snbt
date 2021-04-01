@@ -1,7 +1,15 @@
 {
 	title: "Snap back to reality, ope there goes gravity",
-	icon: "dimdoors:eternal_fabric",
-	x: -5.5d,
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "bloodmagic:blood_orb",
+		tag: {
+			orb: "bloodmagic:archmage"
+		}
+	},
+	x: -4.0d,
 	y: -4.5d,
 	description: "I should find a way to go deeper...",
 	dependencies: [

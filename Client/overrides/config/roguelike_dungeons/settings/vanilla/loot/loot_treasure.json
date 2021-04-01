@@ -1,0 +1,46 @@
+{
+  "name": "loot:treasure",
+  "lootRules": [
+    {
+      "level": [1, 2, 3, 4],
+      "type": "REWARD",
+      "loot": [
+        {"data": {"type": "enchanted_book", "ench": 5}, "weight": 32},
+        {"data": {"type": "enchanted_book", "ench": 10}, "weight": 24},
+        {"data": {"type": "enchanted_book", "ench": 15}, "weight": 16},
+        {"data": {"type": "enchanted_book", "ench": 20}, "weight": 8},
+        {"data": {"type": "enchanted_book", "ench": 30}, "weight": 4},
+        {"data": {"type": "enchanted_book", "ench": 35}, "weight": 1},
+
+        {"data": {"type": "specialty", "level": 0}, "weight": 32},
+        {"data": {"type": "specialty", "level": 1}, "weight": 24},
+        {"data": {"type": "specialty", "level": 2}, "weight": 16},
+        {"data": {"type": "specialty", "level": 3}, "weight": 8},
+        {"data": {"type": "specialty", "level": 4}, "weight": 4},
+
+        {"data": {"name": "minecraft:enchanted_book", "nbt": "{\"StoredEnchantments\": [{\"lvl\": 4, \"id\": \"protection\"}]}"}, "weight": 1},
+        {"data": {"name": "minecraft:enchanted_book", "nbt": "{\"StoredEnchantments\": [{\"lvl\": 5, \"id\": \"sharpness\"}]}"}, "weight": 1},
+        {"data": {"name": "minecraft:enchanted_book", "nbt": "{\"StoredEnchantments\": [{\"lvl\": 3, \"id\": \"looting\"}]}"}, "weight": 1},
+        {"data": {"name": "minecraft:enchanted_book", "nbt": "{\"StoredEnchantments\": [{\"lvl\": 1, \"id\": \"silk_touch\"}]}"}, "weight": 1},
+        {"data": {"name": "minecraft:enchanted_book", "nbt": "{\"StoredEnchantments\": [{\"lvl\": 3, \"id\": \"fortune\"}]}"}, "weight": 1},
+
+        {"data": {"name": "minecraft:painting", "nbt": "{display:{Name:\"American Gothic\",Lore:[\"But what does it /mean/?.\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:painting", "nbt": "{display:{Name:\"The Last Supper\",Lore:[\"Allegedly.\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:painting", "nbt": "{display:{Name:\"The Creation of Adam\",Lore:[\"Two dudes touching tips.\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:painting", "nbt": "{display:{Name:\"Mona Lisa\",Lore:[\"She's smiling! Is that good?\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:painting", "nbt": "{display:{Name:\"The Scream\",Lore:[\"We all scream for ice cream.\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:painting", "nbt": "{display:{Name:\"Girl with a Pearl Earring\",Lore:[\"Absolutely stunning.\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:painting", "nbt": "{display:{Name:\"The Starry Night\",Lore:[\"They say he was on drugs.\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:painting", "nbt": "{display:{Name:\"Portrait of a Man\",Lore:[\"He looks really lonely.\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:painting", "nbt": "{display:{Name:\"XXX\",Lore:[\"You probably weren't meant to find this.\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:painting", "nbt": "{display:{Name:\"Piglet\",Lore:[\"It looks like a child painted this. How is this art?\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:book", "nbt": "{display:{Name:\"XXX\",Lore:[\"You probably weren't meant to find this.\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:book", "nbt": "{display:{Name:\"Streaming for beginners\",Lore:[\"A practical guide to getting famous on Twitch\"]}}"}, "weight": 1},
+        {"data": {"name": "minecraft:nether_star"}, "weight": 2},
+        {"data": {"name": "minecraft:elytra"}, "weight": 8}
+      ],
+      "each": true,
+      "quantity": 1
+    }
+  ]
+}

@@ -8,6 +8,7 @@
     7,
     8
   ],
+  "divisor": 10,
   "prerequisites": [
     "levelup:sprintspeed"
   ],

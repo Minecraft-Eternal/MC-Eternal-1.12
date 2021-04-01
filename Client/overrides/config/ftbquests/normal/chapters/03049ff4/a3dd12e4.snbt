@@ -3,10 +3,12 @@
 	y: 2.0d,
 	shape: "diamond",
 	description: "&oWe really need to consider taxing the rich in Minecraft",
+	can_repeat: true,
 	dependencies: [
 		"fa85c35a"
 	],
 	hide: true,
+	optional: true,
 	tasks: [{
 		uid: "e9ee4a0a",
 		type: "ftbmoney:money",

@@ -1,0 +1,6 @@
+{
+  "name": "theme:ice",
+  "themes": [
+    {"base": "ICE"}
+  ]
+}

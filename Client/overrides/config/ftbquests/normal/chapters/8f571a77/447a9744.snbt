@@ -20,15 +20,8 @@
 		amount: 20000
 	}],
 	rewards: [{
-		uid: "846d1b87",
-		type: "item",
-		title: "200 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_big",
-			tag: {
-				value: 200L
-			}
-		}
+		uid: "374319c6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }

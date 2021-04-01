@@ -1,6 +1,11 @@
 {
 	title: "Cultist",
-	icon: "thaumcraft:banner_crimson_cult",
+	icon: {
+		ForgeCaps: {
+			"thaumicaugmentation:elytra_harness_augment": {}
+		},
+		id: "thaumcraft:banner_crimson_cult"
+	},
 	loot_size: 22,
 	rewards: [{
 		item: {
@@ -52,7 +57,12 @@
 		only_one: true
 	},
 	{
-		item: "thaumcraft:banner_crimson_cult",
+		item: {
+			ForgeCaps: {
+				"thaumicaugmentation:elytra_harness_augment": {}
+			},
+			id: "thaumcraft:banner_crimson_cult"
+		},
 		only_one: true
 	},
 	{

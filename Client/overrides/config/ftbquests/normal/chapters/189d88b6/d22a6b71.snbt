@@ -25,19 +25,8 @@
 		table: 1
 	},
 	{
-		uid: "fd1356f7",
+		uid: "9cdc88f4",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "twilightforest:steeleaf_leggings",
-			tag: {
-				ench: [{
-					lvl: 2s,
-					id: 1s
-				}]
-			}
-		}
+		item: "arcaneworld:levitator"
 	}]
 }

@@ -7,9 +7,27 @@
 		uid: "b3614a7f",
 		type: "item",
 		items: [{
-			item: "davincisvessels:balloon"
+			item: "vs_control:giant_propeller_part"
+		},
+		{
+			item: "vs_control:ultimate_engine"
+		},
+		{
+			item: "vs_control:gearbox"
+		},
+		{
+			ForgeCaps: {
+				"vs_world:levitation_strength_capability": 1.0d
+			},
+			id: "vs_world:valkyrium_crystal"
+		},
+		{
+			item: "vs_control:valkyrium_compressor_part"
+		},
+		{
+			item: "vs_control:compacted_valkyrium"
 		}],
-		count: 300L
+		count: 3L
 	}],
 	rewards: [{
 		uid: "a3df2e8b",

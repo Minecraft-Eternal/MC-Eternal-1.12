@@ -1,6 +1,7 @@
 {
 	x: -7.0d,
 	y: 1.0d,
+	description: "&oItems can be added to Tinker Tools to give them special abilities! Mending Moss will heal the tool it is applied to and a Silky Jewel will give the item silk touch! There are many, many items that can be applied and it is up to you to discover them",
 	dependencies: [
 		"478ee4b5"
 	],

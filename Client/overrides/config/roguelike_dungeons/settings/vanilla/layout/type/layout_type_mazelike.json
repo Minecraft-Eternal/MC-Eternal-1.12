@@ -1,0 +1,16 @@
+{
+  "name": "layout:type_maze",
+
+  "layouts": [
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "type": "mst"
+    }
+  ]
+}

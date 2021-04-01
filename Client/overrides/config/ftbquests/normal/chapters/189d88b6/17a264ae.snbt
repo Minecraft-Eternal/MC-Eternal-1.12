@@ -2,7 +2,7 @@
 	title: "Mining without mining",
 	x: -4.5d,
 	y: 3.0d,
-	description: "&oBoom Boom Boom",
+	description: "&oBoom Boom Boom, I want you in my mineshaft?",
 	dependencies: [
 		"3b41a4ca"
 	],

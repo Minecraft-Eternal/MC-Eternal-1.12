@@ -1,6 +1,6 @@
 {
   "path": "mod_agriculturalexpansion/plants/coal_sprout_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "agriculturalexpansion:coal_sprout_plant",
   "plant_name": "Coal Crop",
   "seed_name": "Coal Sprout",

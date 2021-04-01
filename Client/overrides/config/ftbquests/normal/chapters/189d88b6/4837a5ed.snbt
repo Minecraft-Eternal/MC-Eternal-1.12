@@ -1,6 +1,7 @@
 {
 	x: -8.5d,
 	y: 1.0d,
+	description: "&oThe smeltery is a wonderful multiblock that allows you to ore double and create custom tools. Check the guide \"materials and you\" for more details",
 	dependencies: [
 		"14b54c00"
 	],

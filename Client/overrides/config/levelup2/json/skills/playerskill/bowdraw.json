@@ -16,6 +16,7 @@
   "prerequisites": [
 
   ],
+  "divisor": 1,
   "stack": {
     "item": "minecraft:bow"
   },

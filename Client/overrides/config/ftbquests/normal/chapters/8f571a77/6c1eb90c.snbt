@@ -1,7 +1,7 @@
 {
 	x: -8.0d,
 	y: -5.0d,
-	description: "Mining",
+	description: "Mining `",
 	text: [
 		"*Unlocked after completing the Introduction chapter*"
 	],
@@ -18,15 +18,8 @@
 		count: 32L
 	}],
 	rewards: [{
-		uid: "5812e971",
-		type: "item",
-		title: "500 Currency",
-		auto: "no_toast",
-		item: {
-			id: "lodsofemone:coin_big",
-			tag: {
-				value: 500L
-			}
-		}
+		uid: "fc704452",
+		type: "ftbmoney:money",
+		ftb_money: 150L
 	}]
 }

@@ -1,6 +1,6 @@
 {
 	x: 1.0d,
-	y: 5.0d,
+	y: 8.5d,
 	description: "Pain and Suffering",
 	dependencies: [
 		"ca973051"

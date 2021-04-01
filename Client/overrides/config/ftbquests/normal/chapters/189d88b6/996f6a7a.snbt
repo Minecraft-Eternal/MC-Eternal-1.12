@@ -13,7 +13,12 @@
 		uid: "4e974ea1",
 		type: "advancement",
 		title: "The only mount suitable for the bringer of &cDeath and Destruction",
-		icon: "mod_lavacow:mootenheart",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:mootenheart"
+		},
 		advancement: "mod_lavacow:mod_lavacow/tame_salamander",
 		criterion: ""
 	}],

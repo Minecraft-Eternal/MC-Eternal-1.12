@@ -1,0 +1,10 @@
+{
+  "name": "spawners:nether",
+  "spawners": [
+    {"potentials": [{"name": "minecraft:blaze"}], "level": [0, 1, 2, 3, 4]},
+    {"potentials": [{"name": "minecraft:zombie_pigman"}], "level": [0, 1, 2, 3, 4]},
+    {"potentials": [{"name": "minecraft:magma_cube"}], "level": [2, 3, 4]},
+    {"potentials": [{"name": "minecraft:wither_skeleton"}], "level": [1, 2, 3, 4]},
+    {"potentials": [{"name": "minecraft:wither_skeleton"}], "level": [1, 2, 3, 4]}
+  ]
+}

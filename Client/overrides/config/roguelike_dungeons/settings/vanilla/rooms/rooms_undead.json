@@ -1,0 +1,12 @@
+{
+  "name": "rooms:undead",
+  "rooms": [
+    {"level": [2, 3], "frequency": "single", "type": "OSSUARY"},
+    {"level": [2, 3, 4], "frequency": "single", "type": "CRYPT"},
+    {"level": 4, "frequency": "single", "type": "OBSIDIAN"},
+    {"level": 4, "frequency": "single", "type": "DARKHALL"},
+
+    {"level": [2, 3, 4], "frequency": "random", "type": "CRYPT", "weight": 10},
+    {"level": [2], "frequency": "random", "type": "PRISON", "weight": 10}
+  ]
+}

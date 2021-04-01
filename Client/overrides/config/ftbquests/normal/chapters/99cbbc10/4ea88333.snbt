@@ -3,7 +3,7 @@
 	x: 0.0d,
 	y: -5.5d,
 	text: [
-		"Don’t eat to much!"
+		"Donï¿½t eat to much!"
 	],
 	tasks: [{
 		uid: "3469e676",

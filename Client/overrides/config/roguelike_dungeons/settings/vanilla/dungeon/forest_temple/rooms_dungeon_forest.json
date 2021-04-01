@@ -1,0 +1,15 @@
+{
+  "name" : "rooms:forest_temple",
+  "inherit": [
+    "rooms:generic"
+  ],
+  "rooms": [
+    {"level": [0,1,2,3,4], "frequency": "single", "type": "MESS", "count": 1},
+    {"level": [0,1,2,3,4], "frequency": "single", "type": "STORAGE", "count": 1},
+
+    {"level": 0, "frequency": "secret", "type": "LIBRARY", "count": 1},
+    {"level": 1, "frequency": "single", "type": "NETHERFORT", "count": 1},
+    {"level": [1,2,3], "frequency": "random", "type": "PRISON", "spawnerId": "spawners:undead", "weight": 2},
+    {"level": [2,3,4], "frequency": "random", "type": "NETHERFORT", "spawnerId": "spawners:spiders", "weight": 2}
+  ]
+}

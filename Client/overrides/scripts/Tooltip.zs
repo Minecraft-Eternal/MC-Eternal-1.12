@@ -5,7 +5,12 @@ print("--- loading Tooltip.zs ---");
 
 #Add tooltip
 <extrautils2:bagofholding>.addTooltip(format.red("WARNING! Deletes items when switching gamemodes"));
-<improvedbackpacks:backpack>.addTooltip(format.red("WARNING! Do not SHIFT+Click place into the world"));
+<rats:arcane_technology>.addTooltip(format.gold("Drops from the Ratlantean Automaton"));
+<ftbquests:book>.addTooltip(format.gold("A new beginning, Open me!"));
+<minecraft:nether_star>.addTooltip(format.gold("Earth below us, Drifting falling"));
+<ebwizardry:crystal_block>.addTooltip(format.gold("Can be used to ward off Nether Portal Corruption"));
+<wings:fairy_dust>.addTooltip(format.gold("Can be used to transmute certain metals. This dust radiates primal magic energy"));
+<mekanismgenerators:reactor>.addTooltip(format.gold("Only requires one Chemical Reactor for recipe"));
 <ftbquests:lootcrate>.withTag({type: "cultist"}).addTooltip(format.darkRed("Step one... Dress to impress!"));
 <ftbquests:lootcrate>.withTag({type: "extraterrestrial_cache"}).addTooltip(format.gold("Keep your eyes on the stars, and your feet on the ground. -Theodore Roosevelt"));
 <mysticalagriculture:diamond_seeds>.addTooltip(format.darkPurple("Do all Mystical Agriculture quests to unlock"));
@@ -26,6 +31,5 @@ print("--- loading Tooltip.zs ---");
 <mysticalagriculture:supremium_chestplate>.addTooltip(format.red("Disabled Flight"));
 <mysticalagriculture:supremium_leggings>.addTooltip(format.red("Disabled Flight"));
 <mysticalagriculture:supremium_boots>.addTooltip(format.red("Disabled Flight"));
-<icbmclassic:batterybox>.addTooltip(format.red("DO NOT USE!"));
 
 print("--- Tooltip.zs initialized ---");	

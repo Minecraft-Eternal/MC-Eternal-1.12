@@ -48,11 +48,6 @@
 		}
 	},
 	{
-		uid: "78f6b504",
-		type: "item",
-		item: "doggytalents:sunglasses"
-	},
-	{
 		uid: "fd1f71f7",
 		type: "item",
 		item: {

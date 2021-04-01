@@ -1,6 +1,6 @@
 [
   {
-    "content": "minecraft:dirt",
+    "content": "rats:cheese",
     "amount": {
       "min": 16,
       "max": 128
@@ -9,22 +9,22 @@
     "weight": 100
   },
   {
-    "content": "minecraft:stone",
+    "content": "harvestcraft:thankfuldinneritem",
     "amount": {
-      "min": 16,
-      "max": 128
+      "min": 1,
+      "max": 3
     },
-    "unitWorth": 10,
+    "unitWorth": 100,
     "weight": 100
   },
   {
-    "content": "minecraft:cobblestone",
+    "content": "mowziesmobs:ice_crystal",
     "amount": {
-      "min": 16,
-      "max": 128
+      "min": 1,
+      "max": 1
     },
-    "unitWorth": 7,
-    "weight": 100
+    "unitWorth": 7000,
+    "weight": 10
   },
   {
     "content": "minecraft:fish",
@@ -36,166 +36,166 @@
     "weight": 100
   },
   {
-    "content": "minecraft:apple",
+    "content": "iceandfire:siren_tear",
     "amount": {
-      "min": 2,
-      "max": 32
+      "min": 1,
+      "max": 1
     },
-    "unitWorth": 70,
+    "unitWorth": 500,
+    "weight": 50
+  },
+  {
+    "content": "iceandfire:cockatrice_eye",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },
+    "unitWorth": 500,
     "weight": 100
   },
   {
-    "content": "minecraft:book",
+    "content": "futuremc:netherite_scrap",
     "amount": {
-      "min": 2,
-      "max": 16
+      "min": 1,
+      "max": 2
     },
-    "unitWorth": 80,
-    "weight": 100
+    "unitWorth": 3500,
+    "weight": 20
   },
   {
-    "content": "minecraft:cactus",
-    "amount": {
-      "min": 2,
-      "max": 32
-    },
-    "unitWorth": 80,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:diamond",
+    "content": "rats:rat_pelt",
     "amount": {
       "min": 1,
       "max": 8
-    },
-    "unitWorth": 1600,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:dispenser",
-    "amount": {
-      "min": 1,
-      "max": 6
-    },
-    "unitWorth": 200,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:iron_ingot",
-    "amount": {
-      "min": 1,
-      "max": 32
-    },
-    "unitWorth": 200,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:bread",
-    "amount": {
-      "min": 1,
-      "max": 12
     },
     "unitWorth": 60,
     "weight": 100
   },
   {
-    "content": "minecraft:rotten_flesh",
+    "content": "iceandfire:cyclops_skull",
     "amount": {
       "min": 1,
-      "max": 24
+      "max": 1
     },
-    "unitWorth": 55,
-    "weight": 100
+    "unitWorth": 900,
+    "weight": 50
   },
   {
-    "content": "minecraft:sign",
-    "amount": {
-      "min": 1,
-      "max": 16
-    },
-    "unitWorth": 65,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:slime_ball",
-    "amount": {
-      "min": 1,
-      "max": 32
-    },
-    "unitWorth": 60,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:spider_eye",
-    "amount": {
-      "min": 1,
-      "max": 16
-    },
-    "unitWorth": 75,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:string",
-    "amount": {
-      "min": 1,
-      "max": 24
-    },
-    "unitWorth": 35,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:sugar",
-    "amount": {
-      "min": 1,
-      "max": 64
-    },
-    "unitWorth": 55,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:tripwire_hook",
+    "content": "fossil:shell",
     "amount": {
       "min": 1,
       "max": 8
     },
-    "unitWorth": 70,
+    "unitWorth": 200,
     "weight": 100
   },
   {
-    "content": "minecraft:wheat",
+    "content": "futuremc:honey_block",
     "amount": {
       "min": 1,
-      "max": 48
+      "max": 4
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "futuremc:sweet_berries",
+    "amount": {
+      "min": 1,
+      "max": 32
     },
     "unitWorth": 20,
     "weight": 100
   },
   {
-    "content": "minecraft:leather",
+    "content": "iceandfire:seaserpent_skull",
     "amount": {
       "min": 1,
-      "max": 12
+      "max": 1
+    },
+    "unitWorth": 950,
+    "weight": 60
+  },
+  {
+    "content": "fossil:biofossil",
+    "amount": {
+      "min": 1,
+      "max": 4
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "iceandfire:jar_pixie",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },
+    "unitWorth": 75,
+    "weight": 100
+  },
+  {
+    "content": "midnight:deceitful_snapper",
+    "amount": {
+      "min": 1,
+      "max": 24
     },
     "unitWorth": 90,
     "weight": 100
   },
   {
-    "content": "entity:minecraft:zombie",
+    "content": "minecraft:log",
     "amount": {
-      "min": 1,
-      "max": 8
+      "min": 32,
+      "max": 400
     },
-    "unitWorth": 120,
-    "weight": 300
+    "unitWorth": 2,
+    "weight": 100
   },
   {
-    "content": "entity:minecraft:skeleton",
+    "content": "fossil:sturgeon_fish",
     "amount": {
       "min": 1,
-      "max": 6
+      "max": 16
     },
-    "unitWorth": 140,
-    "weight": 250
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "mod_lavacow:banshee_vocal_cord",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },
+    "unitWorth": 100,
+    "weight": 50
+  },
+  {
+    "content": "fossil:stone_tablet",
+    "amount": {
+      "min": 1,
+      "max": 12
+    },
+    "unitWorth": 300,
+    "weight": 100
+  },
+  {
+    "content": "entity:thebetweenlands:dreadful_mummy",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },
+    "unitWorth": 120,
+    "weight": 50
+  },
+  {
+    "content": "wings:fairy_dust",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 30,
+    "weight": 100
   },
   {
     "content": "minecraft:potion",
