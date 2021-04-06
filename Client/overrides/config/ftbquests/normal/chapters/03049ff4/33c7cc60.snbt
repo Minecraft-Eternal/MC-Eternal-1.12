@@ -9,7 +9,7 @@
 	x: 4.0d,
 	y: -1.0d,
 	description: "&c&oHardcore mode without the hardcore ",
-	can_repeat: true,
+	can_repeat: false,
 	optional: true,
 	tasks: [{
 		uid: "125c1d87",
