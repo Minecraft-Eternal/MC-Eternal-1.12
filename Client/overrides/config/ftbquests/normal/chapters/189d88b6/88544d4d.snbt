@@ -1,5 +1,5 @@
 {
-	x: -17.15d,
+	x: -16.8d,
 	y: -4.55d,
 	description: "Press ` to Ore Excavate and mine ore veins in one fell swoop!",
 	dependencies: [
