@@ -1,0 +1,45 @@
+{
+	title: "Astral Sorcery",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemjournal"
+	},
+	always_invisible: false,
+	group: -447235898,
+	default_quest_shape: "",
+	images: [{
+		x: -2.5d,
+		y: -2.0d,
+		width: 0.75d,
+		height: 1.9d,
+		rotation: 25.0d,
+		image: "assets:crystal.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.5d,
+		y: -2.0d,
+		width: 0.75d,
+		height: 1.9d,
+		rotation: -25.0d,
+		image: "assets:crystal.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -5.0d,
+		y: -2.0d,
+		width: 3.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:starpower.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Astral tome",
+	x: -5.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "de55fbec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

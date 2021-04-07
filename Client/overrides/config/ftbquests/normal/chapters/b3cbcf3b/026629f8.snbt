@@ -1,0 +1,20 @@
+{
+	title: "Starcrafting 2",
+	x: -5.0d,
+	y: 2.5d,
+	dependencies: [
+		"d9e91708"
+	],
+	tasks: [{
+		uid: "c8ad3b56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}
