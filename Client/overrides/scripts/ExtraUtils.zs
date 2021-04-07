@@ -17,6 +17,8 @@ recipes.remove(<extrautils2:angelring:5>);
 recipes.remove(<extrautils2:angelring>);
 
 recipes.remove(<extrautils2:teleporter:1>);
+recipes.remove(<extrautils2:lawsword>);
+recipes.remove(<extrautils2:quarry>);
 
 #Add Recipes
 #Glass wings
@@ -31,5 +33,9 @@ recipes.addShaped(<extrautils2:angelring:4>, [[<extrautils2:angelblock>, <extrau
 recipes.addShaped(<extrautils2:angelring:5>, [[<midnight:nagrilite_ingot>, <extrautils2:angelring>]]);
 #Crafting recipe normal angle ring
 recipes.addShaped(<extrautils2:angelring>, [[<mekanism:crystal:1>, <mekanism:crystal:2>, <mekanism:crystal:1>], [<twilightforest:trophy:5>, <tconstruct:materials:50>, <thebetweenlands:ring_of_dispersion>], [<mekanism:crystal:1>, <simplyjetpacks:metaitemmods:29>, <mekanism:crystal:1>]]);
+#Kikoku
+recipes.addShaped(<extrautils2:lawsword>, [[<extrautils2:opinium:8>], [<extrautils2:opinium:8>], [<theaurorian:livingdiviningrod>]]);
+#Quantum Quarry
+recipes.addShaped(<extrautils2:quarry>, [[<ore:blockCerulean>, <theaurorian:moongem>, <ore:blockCerulean>], [<theaurorian:moongem>, <ore:magic_snow_globe>, <theaurorian:moongem>], [<ore:blockCerulean>, <theaurorian:moongem>, <ore:blockCerulean>]]);
 
 print("--- ExtrUtils.zs initialized ---");
