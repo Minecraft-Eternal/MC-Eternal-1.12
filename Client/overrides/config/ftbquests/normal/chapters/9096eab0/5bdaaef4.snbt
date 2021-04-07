@@ -1,0 +1,31 @@
+{
+	title: "Altar upgrade 1",
+	x: -1.0d,
+	y: 0.5d,
+	description: "Better crafting",
+	text: [
+		"unlock the first upgrade of the altar.",
+		"",
+		"you might need to pick-up the altar to finish this quest"
+	],
+	dependencies: [
+		"02033a38"
+	],
+	tasks: [{
+		uid: "fdb24e50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6c3c3ca7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

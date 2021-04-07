@@ -1,0 +1,6 @@
+{
+	title: "Read The F Manual!",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "circle"
+}
