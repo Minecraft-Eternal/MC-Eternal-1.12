@@ -1,0 +1,22 @@
+{
+	title: "done reading!",
+	x: 0.0d,
+	y: 1.5d,
+	description: "You finished the sub-chapters",
+	text: [
+		"This will unlock once you finished all sub-chapters"
+	],
+	dependencies: [
+		"b3cbcf3b",
+		"7e717a92"
+	],
+	tasks: [{
+		uid: "8acd7ec0",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6fd82810",
+		type: "loot",
+		table: 13
+	}]
+}

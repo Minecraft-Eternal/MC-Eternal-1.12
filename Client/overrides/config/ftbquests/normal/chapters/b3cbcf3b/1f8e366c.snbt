@@ -11,5 +11,10 @@
 			item: "astralsorcery:itemcraftingcomponent 1 2"
 		}],
 		count: 9L
+	}],
+	rewards: [{
+		uid: "b68ce9db",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }

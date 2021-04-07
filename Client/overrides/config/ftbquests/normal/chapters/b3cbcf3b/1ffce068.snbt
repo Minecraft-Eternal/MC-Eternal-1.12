@@ -1,19 +1,29 @@
 {
+	title: "Starcrafting 2",
 	x: -5.0d,
 	y: 4.0d,
+	description: "Getting another upgrade",
+	text: [
+		"Adding more power to your crafts"
+	],
 	dependencies: [
 		"026629f8"
 	],
 	tasks: [{
-		uid: "44ecd2ba",
-		type: "item",
-		items: [{
+		uid: "7bf975ef",
+		type: "observation",
+		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:blockaltar",
 			Damage: 2s
-		}],
-		ignore_nbt: 1b
+		},
+		match_type: "block_id",
+		match: "astralsorcery:blockaltar",
+		properties: {
+			altartype: "altar_3"
+		},
+		timer: 20L
 	}]
 }

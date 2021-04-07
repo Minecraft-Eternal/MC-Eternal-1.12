@@ -2,19 +2,28 @@
 	title: "Starcrafting 2",
 	x: -5.0d,
 	y: 2.5d,
+	description: "Getting an upgrade",
+	text: [
+		"Unlock more opportunities to harnass the power of starlight!"
+	],
 	dependencies: [
 		"d9e91708"
 	],
 	tasks: [{
-		uid: "c8ad3b56",
-		type: "item",
-		items: [{
+		uid: "17abb3e6",
+		type: "observation",
+		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:blockaltar",
 			Damage: 1s
-		}],
-		ignore_nbt: 1b
+		},
+		match_type: "block_id",
+		match: "astralsorcery:blockaltar",
+		properties: {
+			altartype: "altar_2"
+		},
+		timer: 20L
 	}]
 }

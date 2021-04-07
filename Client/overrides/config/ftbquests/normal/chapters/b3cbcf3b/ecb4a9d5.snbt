@@ -2,6 +2,12 @@
 	title: "Astral tome",
 	x: -5.0d,
 	y: -0.5d,
+	description: "The beginning",
+	text: [
+		"To start exploring astral sorcery you will need to star by crafting the tome.",
+		"The tome will be your guide trough the mod, and will be guiding you step by step.",
+		"Also, it holds a lot of the scematics from the multi-block structures you will need to build for this mod."
+	],
 	tasks: [{
 		uid: "de55fbec",
 		type: "item",
@@ -13,5 +19,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4b8101c5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }
