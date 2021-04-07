@@ -6,7 +6,7 @@
 		},
 		id: "doggytalents:treat_bag"
 	},
-	x: -16.45d,
+	x: -16.1d,
 	y: -4.55d,
 	shape: "circle",
 	description: "Right click the &lDoggy Charm&7 to summon your dog. Use the &lTraining Stick&7 on the dog to train him!",
