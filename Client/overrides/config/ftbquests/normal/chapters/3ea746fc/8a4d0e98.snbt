@@ -4,7 +4,7 @@
 	description: "Finally, at-home starmetal creation!",
 	text: [
 		"Unless you are using it for a ritual, you'll want to use a crystal attuned to one of the constellations that frequently appear in the night sky.",
-		"*Celestial Crystal require a multiblock to function, but are far more powerful and function during the day."
+		"*Celestial Collector Crystals can utilize a multiblock structure to boost their preformance and function during the day."
 	],
 	dependencies: [
 		"e0a75587",
