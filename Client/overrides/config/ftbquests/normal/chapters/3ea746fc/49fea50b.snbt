@@ -1,0 +1,27 @@
+{
+	x: -9.5d,
+	y: -7.5d,
+	text: [
+		"Trouble finding AS shrines? No problem, simply look to the night sky with this and locating them will be simple!",
+		"Also can be used to create in-world previews for Astral Sorcery multiblocks."
+	],
+	dependencies: [
+		"da94ceff"
+	],
+	optional: true,
+	tasks: [{
+		uid: "404acac3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemsextant",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

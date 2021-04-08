@@ -1,0 +1,56 @@
+{
+	x: -5.0d,
+	y: -11.0d,
+	description: "Finally, at-home starmetal creation!",
+	text: [
+		"Unless you are using it for a ritual, you'll want to use a crystal attuned to one of the constellations that frequently appear in the night sky.",
+		"*Celestial Crystal require a multiblock to function, but are far more powerful and function during the day."
+	],
+	dependencies: [
+		"e0a75587",
+		"037b5c8a"
+	],
+	tasks: [{
+		uid: "4560568a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					},
+					collectorType: 0
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockcelestialcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					},
+					collectorType: 1
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

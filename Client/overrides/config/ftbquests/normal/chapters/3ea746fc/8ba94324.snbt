@@ -1,0 +1,17 @@
+{
+	x: -8.0d,
+	y: -11.0d,
+	text: [
+		"In order to attune something, you need to first trace the constellation in the night sky. The telescope can see bright constellations, and once you attune, dim ones as well."
+	],
+	dependencies: [
+		"c733d066"
+	],
+	tasks: [{
+		uid: "3e9ee1f3",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}]
+}

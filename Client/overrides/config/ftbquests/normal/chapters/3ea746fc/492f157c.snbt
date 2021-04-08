@@ -1,0 +1,20 @@
+{
+	title: "The Beginning",
+	x: -11.5d,
+	y: -9.5d,
+	text: [
+		"The Astral Tome is your friend. This guide only covers the basics of progression, the finer points of the mod you'll have to look at the book for."
+	],
+	tasks: [{
+		uid: "6689ef97",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

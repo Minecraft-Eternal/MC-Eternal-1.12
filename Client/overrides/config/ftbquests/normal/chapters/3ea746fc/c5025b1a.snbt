@@ -1,0 +1,23 @@
+{
+	x: -6.5d,
+	y: -8.0d,
+	text: [
+		"Starmetal is created by linking a collector crystal to iron ore. Remember that collector crystal you used for the luminous crafting table?"
+	],
+	dependencies: [
+		"e6fd8a53"
+	],
+	tasks: [{
+		uid: "c847ce0b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore 1 1"
+		},
+		{
+			item: "astralsorcery:itemcraftingcomponent 1 1"
+		},
+		{
+			item: "astralsorcery:itemcraftingcomponent 1 2"
+		}]
+	}]
+}

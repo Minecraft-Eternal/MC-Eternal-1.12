@@ -1,0 +1,69 @@
+{
+	title: "Iridescent Altar",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockaltar",
+		Damage: 3s
+	},
+	x: -3.5d,
+	y: -9.5d,
+	dependencies: [
+		"8c22232a",
+		"037b5c8a"
+	],
+	tasks: [{
+		uid: "99b9e53f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 6"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0f3e8523",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 1"
+		}],
+		count: 68L
+	},
+	{
+		uid: "1edfa14d",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockblackmarble"
+		}],
+		count: 49L
+	},
+	{
+		uid: "4b09a94f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble"
+		}],
+		count: 12L
+	},
+	{
+		uid: "78b8cacc",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "b21c6d1f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c6b553b0",
+		type: "checkmark"
+	}]
+}

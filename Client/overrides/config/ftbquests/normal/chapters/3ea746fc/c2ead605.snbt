@@ -1,0 +1,20 @@
+{
+	x: -9.5d,
+	y: -9.5d,
+	text: [
+		"While the main function of this is to make liquid starlight, that isn't the only thing it can do. Check the uses in JEI for a full list.",
+		"*Note: Liquid starlight is too cold to be transported in regular fluiducts."
+	],
+	dependencies: [
+		"a4285d84",
+		"da94ceff"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "46a5ff7f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	}]
+}

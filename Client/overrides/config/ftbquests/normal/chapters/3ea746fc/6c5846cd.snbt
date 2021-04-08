@@ -1,0 +1,14 @@
+{
+	title: "Rock/Celestial Crystal Stats",
+	x: -14.5d,
+	y: -9.0d,
+	text: [
+		"The grindstone will increase the cutting on a rock crystal, but decrease the size. Soaking a rock crystal in liquid starlight will increase the size, and soaking a max size crystal in starlight has a chance of it splitting, increasing purity."
+	],
+	optional: true,
+	tasks: [{
+		uid: "6d27c7da",
+		type: "checkmark",
+		title: "But my stats..."
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -10.5d,
+	y: -10.5d,
+	text: [
+		"The resonating wand isn't just for crafting. By holding the wand at night, you'll see glimmering spots on the ground. Dig down and you'll find rock crystals."
+	],
+	dependencies: [
+		"492f157c"
+	],
+	tasks: [{
+		uid: "b073c6f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

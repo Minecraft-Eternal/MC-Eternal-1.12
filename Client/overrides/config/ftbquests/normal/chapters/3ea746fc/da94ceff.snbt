@@ -1,0 +1,26 @@
+{
+	x: -10.5d,
+	y: -8.5d,
+	text: [
+		"To craft with AS crafting tables, you need to have enough starlight for the recipe (shown by the bar at the bottom of the crafting table). Once the conditions are met, right click the table with a resonating wand to craft the item.",
+		"*Note that some recipes require it to be night before you are able to craft, regardless if you have enough starlight in the table."
+	],
+	dependencies: [
+		"492f157c"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9449c9a4",
+		type: "observation",
+		title: "Luminous Crafting Table",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar"
+		},
+		match_type: "block_id",
+		match: "",
+		timer: 0L
+	}]
+}

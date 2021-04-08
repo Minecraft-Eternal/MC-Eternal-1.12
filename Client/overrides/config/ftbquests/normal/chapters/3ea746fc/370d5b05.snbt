@@ -1,0 +1,13 @@
+{
+	x: -14.5d,
+	y: -10.5d,
+	text: [
+		"Most AS structures that use starlight opperate the most efficiently if they are at least 16 blocks from one another."
+	],
+	optional: true,
+	tasks: [{
+		uid: "71ca870b",
+		type: "checkmark",
+		title: "Starlight Cannibalization"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -8.0d,
+	y: -8.0d,
+	text: [
+		"Right click a collector crystal or lens to select it, then right click a block to link them. Switch items to stop linking."
+	],
+	dependencies: [
+		"c733d066"
+	],
+	tasks: [{
+		uid: "35884d77",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemlinkingtool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

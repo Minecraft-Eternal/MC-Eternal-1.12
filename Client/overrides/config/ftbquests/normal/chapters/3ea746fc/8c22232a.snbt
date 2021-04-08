@@ -1,0 +1,33 @@
+{
+	x: -5.0d,
+	y: -8.0d,
+	text: [
+		"Made by tossing a rock crystal and stardust into liquid starlight. Once the crystal cluster is formed, it needs time to grow.",
+		"*Note: The rock crystal stats have no effect on the resulting celestial crystal's stats."
+	],
+	dependencies: [
+		"c5025b1a"
+	],
+	tasks: [{
+		uid: "0b62096f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

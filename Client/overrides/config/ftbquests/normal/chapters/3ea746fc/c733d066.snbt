@@ -1,0 +1,62 @@
+{
+	title: "Starlight Crafting Altar",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockaltar",
+		Damage: 1s
+	},
+	x: -8.0d,
+	y: -9.5d,
+	text: [
+		"You thought I'd make you break the altar didn't you?"
+	],
+	dependencies: [
+		"c2ead605"
+	],
+	tasks: [{
+		uid: "0aebe3f9",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 4"
+		}],
+		count: 8L
+	},
+	{
+		uid: "ccd07b6c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 3"
+		}],
+		count: 28L
+	},
+	{
+		uid: "de05ca9f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 1"
+		}],
+		count: 24L
+	},
+	{
+		uid: "ec891852",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockblackmarble"
+		}],
+		count: 21L
+	},
+	{
+		uid: "90a44b99",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "d1a30206",
+		type: "checkmark"
+	}]
+}

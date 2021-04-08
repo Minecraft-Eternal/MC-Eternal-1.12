@@ -1,0 +1,23 @@
+{
+	title: "The End?",
+	x: -2.0d,
+	y: -9.5d,
+	text: [
+		"That's all for this guide, but there is a lot more that AS can offer. Read the book and you'll find there is a lot you can do with the mod that isn't covered here."
+	],
+	dependencies: [
+		"dae72e87"
+	],
+	tasks: [{
+		uid: "cda49fa7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

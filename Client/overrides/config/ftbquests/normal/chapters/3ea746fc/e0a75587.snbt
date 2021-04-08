@@ -1,0 +1,20 @@
+{
+	x: -6.5d,
+	y: -11.0d,
+	description: "Ready for some perks?",
+	text: [
+		"Hold the constellation paper of the bright constellation you want to attune to and place spectral relays onto the areas where it glows blue.",
+		"If done correctly and the constellation is in the sky, the altar will light up and by stepping into the light, you become attuned to that constellation and open up the perks tab in your astral tome.",
+		""
+	],
+	dependencies: [
+		"8ba94324"
+	],
+	tasks: [{
+		uid: "0feaa384",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}]
+}
