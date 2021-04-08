@@ -1,0 +1,20 @@
+{
+	title: "Arcane workbench",
+	x: 1.0d,
+	y: 0.0d,
+	description: "get to work!",
+	text: [
+		"With the salis mundus in hand, right-click a crafting table and watch it turn into arcane workbench"
+	],
+	dependencies: [
+		"11d900d9"
+	],
+	tasks: [{
+		uid: "d2695963",
+		type: "observation",
+		icon: "thaumcraft:arcane_workbench",
+		match_type: "block_id",
+		match: "thaumcraft:arcane_workbench",
+		timer: 20L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Arcane Workbench",
+	x: 0.0d,
+	y: 1.5d,
+	description: "Into the Looking Glass!",
+	text: [
+		"Basic thaumcraft crafting table"
+	],
+	dependencies: [
+		"2bcc8ac5",
+		"c9999c02"
+	],
+	tasks: [{
+		uid: "b936590e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

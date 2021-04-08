@@ -25,5 +25,10 @@
 			altartype: "altar_2"
 		},
 		timer: 20L
+	}],
+	rewards: [{
+		uid: "ca563910",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

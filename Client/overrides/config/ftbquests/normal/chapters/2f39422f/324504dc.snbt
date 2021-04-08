@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 7.0d,
+	dependencies: [
+		"5292a656"
+	],
+	tasks: [{
+		uid: "adcdbfa4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicperiphery:caster_elementium"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

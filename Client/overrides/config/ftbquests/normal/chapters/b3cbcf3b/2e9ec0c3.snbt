@@ -17,5 +17,10 @@
 		items: [{
 			item: "astralsorcery:blockattunementaltar"
 		}]
+	}],
+	rewards: [{
+		uid: "3f1c252a",
+		type: "ftbmoney:money",
+		ftb_money: 30L
 	}]
 }

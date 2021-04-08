@@ -1,0 +1,34 @@
+{
+	title: "Thaumcraft",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:thaumonomicon"
+	},
+	always_invisible: false,
+	group: -447235898,
+	default_quest_shape: "",
+	images: [{
+		x: 4.0d,
+		y: 1.0d,
+		width: 4.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:thaum_knight.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -4.0d,
+		y: 1.0d,
+		width: 4.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:thaum_knight_mirror.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}
