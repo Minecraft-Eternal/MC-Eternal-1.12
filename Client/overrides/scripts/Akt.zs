@@ -2,7 +2,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-
+	recipes.remove(<akashictome:tome>);
 	var finishedTome = <akashictome:tome>.withTag(
 
 	{
