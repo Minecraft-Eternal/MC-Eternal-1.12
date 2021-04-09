@@ -85,7 +85,7 @@
   },
   {
     "identifier": "shielding",
-    "enabled": true,
+    "enabled": false,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 1
