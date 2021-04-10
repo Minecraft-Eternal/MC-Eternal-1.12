@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 7.0d,
+	dependencies: [
+		"4c2636ac"
+	],
+	tasks: [{
+		uid: "999f17c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					augment: {},
+					energy: {
+						energy: 0L
+					}
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:augment_caster_rift_energy_storage"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Floating Crystal",
+	x: -6.5d,
+	y: -0.5d,
+	description: "Find and study a Floating Crystal",
+	text: [
+		"To get started, you will need to find a shrine that holds a floating crystal within.",
+		"Find the crystal and study it.",
+		"",
+		"(Look at the crystal for atleast 1 second, be close enough)"
+	],
+	dependencies: [
+		"ecb4a9d5"
+	],
+	tasks: [{
+		uid: "91b5687e",
+		type: "observation",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.octans",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					},
+					collectorType: 0
+				}
+			}
+		},
+		match_type: "block_id",
+		match: "astralsorcery:blockcollectorcrystal",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "9f1efa72",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

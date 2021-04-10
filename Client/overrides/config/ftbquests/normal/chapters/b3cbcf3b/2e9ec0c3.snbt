@@ -1,0 +1,26 @@
+{
+	title: "Attunement altar",
+	x: -3.5d,
+	y: 2.5d,
+	description: "Unlock your true power!",
+	text: [
+		"With the help of the Attunement altar you can unlock the true power of the true rising star you are!",
+		"You will unlock a perk tree that gives you a lot of advantages in game.",
+		"check the astral tome for more!"
+	],
+	dependencies: [
+		"026629f8"
+	],
+	tasks: [{
+		uid: "0818e984",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}],
+	rewards: [{
+		uid: "3f1c252a",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

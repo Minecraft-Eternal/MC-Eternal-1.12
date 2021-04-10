@@ -1,0 +1,34 @@
+{
+	title: "ReadMe",
+	icon: "minecraft:paper",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "Learn to read",
+	text: [
+		"\"I am here to lead, not to read!\"",
+		"(The simpsons, or maybe someone else)",
+		"",
+		"Within this quest section you will find some sub-chapters.",
+		"Each of the mods in these chapers have a ingame manual that explained the mod into detail.",
+		"This section therefore only helps you to get started in the basic's, and will only have a few quests for some milestones.",
+		"To really get into these mods, its best to follow the manual of the mod and optionally discover more trough youtube and/or google."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "e0c64622",
+		type: "checkmark",
+		title: "Chapter ReadMe",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemknowledgeshare",
+			tag: {
+				astralsorcery: {
+					creativeKnowledge: 1b
+				}
+			}
+		}
+	}]
+}

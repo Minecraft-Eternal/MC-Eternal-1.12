@@ -1,0 +1,34 @@
+{
+	title: "Starcrafting 3",
+	x: -5.0d,
+	y: 5.5d,
+	description: "Final upgrade",
+	text: [
+		"The last upgrade of the Altar."
+	],
+	dependencies: [
+		"026629f8"
+	],
+	tasks: [{
+		uid: "8ab34235",
+		type: "observation",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 3s
+		},
+		match_type: "block_id",
+		match: "astralsorcery:blockaltar",
+		properties: {
+			altartype: "altar_4"
+		},
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "d114866a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Research table",
+	x: 0.0d,
+	y: 3.0d,
+	description: "Knowlage is power!",
+	text: [
+		"Learn many new things; read your Thaumonomicon for more information"
+	],
+	dependencies: [
+		"26fa5b2c"
+	],
+	tasks: [{
+		uid: "70474077",
+		type: "observation",
+		icon: "thaumcraft:research_table",
+		match_type: "block_id",
+		match: "thaumcraft:research_table",
+		timer: 20L
+	}]
+}

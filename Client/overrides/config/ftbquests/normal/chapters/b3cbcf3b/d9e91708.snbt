@@ -1,0 +1,29 @@
+{
+	title: "Starcrafting 1",
+	x: -5.0d,
+	y: 1.0d,
+	description: "Start some crafting",
+	text: [
+		"You will need this first level of the altar to start some basic crafting.",
+		"Check your Astral tome how you can upgrade the altar to the next tiers"
+	],
+	dependencies: [
+		"ecb4a9d5"
+	],
+	tasks: [{
+		uid: "735659b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b96b81a8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

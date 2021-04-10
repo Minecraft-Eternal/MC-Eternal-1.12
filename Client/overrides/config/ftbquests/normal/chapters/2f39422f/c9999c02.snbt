@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	description: "An old magic book!",
+	text: [
+		"With the salis mundus in hand, right-click a book shelf and watch it turn into your Thaumonomicon"
+	],
+	dependencies: [
+		"11d900d9"
+	],
+	tasks: [{
+		uid: "86ad70e0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}]
+}

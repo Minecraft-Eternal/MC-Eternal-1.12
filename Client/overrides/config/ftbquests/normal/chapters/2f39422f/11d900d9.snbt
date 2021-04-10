@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	description: "Magic powder!",
+	text: [
+		"To get started with Thaumcraft, you will first need to craft some Salis Mundus"
+	],
+	tasks: [{
+		uid: "354027e7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}]
+}
