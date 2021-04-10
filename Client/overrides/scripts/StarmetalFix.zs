@@ -11,13 +11,13 @@ for part in mat1partnames {
 mods.tconstruct.Casting.addTableRecipe(itemUtils.getItem(part).withTag({Material: "starmetal"}),<tconstruct:cast>.withTag({PartType: part as string} as IData),<liquid:astral_starmetal>, 144, false, 85);
 }
 
-var mat2partnames = ["tconstruct:sharpening_kit","tconstruct:axe_head","tconstruct:shovel_head","tconstruct:arrow_head","tconstruct:kama_head","tconstruct:sword_blade","conarm:polishing_kit"] as string[];
+var mat2partnames = ["tconstruct:sharpening_kit","tconstruct:shovel_head","tconstruct:arrow_head","tconstruct:kama_head","tconstruct:sword_blade","conarm:polishing_kit"] as string[];
 
 for part in mat2partnames {
 mods.tconstruct.Casting.addTableRecipe(itemUtils.getItem(part).withTag({Material: "starmetal"}),<tconstruct:cast>.withTag({PartType: part as string} as IData),<liquid:astral_starmetal>, 288, false, 150);
 }
 
-var mat3partnames = ["conarm:armor_plate","tconstruct:bow_limb","tconstruct:sign_head","tconstruct:tough_tool_rod","tconstruct:tough_binding","tconstruct:pick_head"] as string[];
+var mat3partnames = ["conarm:armor_plate","tconstruct:bow_limb","tconstruct:sign_head","tconstruct:tough_tool_rod","tconstruct:tough_binding","tconstruct:pick_head","tconstruct:axe_head"] as string[];
 
 for part in mat3partnames {
 mods.tconstruct.Casting.addTableRecipe(itemUtils.getItem(part).withTag({Material: "starmetal"}),<tconstruct:cast>.withTag({PartType: part as string} as IData),<liquid:astral_starmetal>, 432, false, 210);
