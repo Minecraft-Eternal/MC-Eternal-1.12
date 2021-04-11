@@ -1,14 +1,14 @@
 {
-	x: 2.0d,
+	x: 4.0d,
 	y: 4.5d,
 	dependencies: [
-		"8c010685"
+		"45d94ea2"
 	],
 	tasks: [{
-		uid: "cf533321",
+		uid: "c2e42b78",
 		type: "item",
 		items: [{
-			item: "thaumcraft:smelter_basic"
+			item: "thaumcraft:infusion_matrix"
 		}]
 	}]
 }

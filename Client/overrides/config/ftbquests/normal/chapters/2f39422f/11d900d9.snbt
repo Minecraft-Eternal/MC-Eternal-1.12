@@ -1,6 +1,6 @@
 {
-	x: 0.0d,
-	y: -1.5d,
+	x: 1.5d,
+	y: -1.0d,
 	description: "Magic powder!",
 	text: [
 		"To get started with Thaumcraft, you will first need to craft some Salis Mundus"

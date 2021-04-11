@@ -1,16 +1,20 @@
 {
-	x: -3.5d,
-	y: 1.0d,
+	x: -6.5d,
+	y: 2.5d,
+	description: "Shiny!",
+	text: [
+		"With the linking wand and a floating crystal nearby; you can turn some iron ore into starmetal ore.",
+		"Read about it in your astral tome.."
+	],
 	dependencies: [
-		"d9e91708"
+		"026629f8"
 	],
 	tasks: [{
-		uid: "bece226a",
+		uid: "31744a87",
 		type: "item",
 		items: [{
-			item: "astralsorcery:itemcraftingcomponent 1 2"
-		}],
-		count: 9L
+			item: "astralsorcery:blockcustomore 1 1"
+		}]
 	}],
 	rewards: [{
 		uid: "b68ce9db",

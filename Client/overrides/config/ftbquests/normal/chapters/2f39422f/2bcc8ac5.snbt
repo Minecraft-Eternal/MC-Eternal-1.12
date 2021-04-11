@@ -1,6 +1,6 @@
 {
 	title: "Arcane workbench",
-	x: 1.0d,
+	x: 3.0d,
 	y: 0.0d,
 	description: "get to work!",
 	text: [
