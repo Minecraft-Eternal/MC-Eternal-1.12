@@ -1,6 +1,10 @@
 {
 	x: 2.0d,
 	y: 4.5d,
+	description: "It smells like something is burning",
+	text: [
+		"The Smeltery will break down items directly into the Essentia it is made of. Use coal or any other fuel to power it (Alumentum works best) and store them in its inventory. When you put a Alembic on top of the Furnace it will extract one type of the Essentia. The downside to the Smeltery is that it has a 25% chance of generating Flux as a byproduct. It also is only about 80% efficient (losing some Essentia in the process). "
+	],
 	dependencies: [
 		"8c010685"
 	],
@@ -10,5 +14,10 @@
 		items: [{
 			item: "thaumcraft:smelter_basic"
 		}]
+	}],
+	rewards: [{
+		uid: "2ec16211",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

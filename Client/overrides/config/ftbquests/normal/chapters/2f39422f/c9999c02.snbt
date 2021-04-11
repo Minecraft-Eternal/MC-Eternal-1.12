@@ -18,5 +18,10 @@
 			id: "thaumcraft:thaumonomicon"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fcef22fc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }

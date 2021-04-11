@@ -4,7 +4,7 @@
 	y: 4.5d,
 	description: "Get Cooking!",
 	text: [
-		""
+		"In order for the Crucible to work it will need to be filled with water and have a heat source below it. You can use fire, lava, magma, or later nitor. To insert items into the crucible you can either drop them in or right-click them onto the Crucible while in hand. Later, using Goggles of Revealing will give you the ability to tell which aspects are currently in the crucible. Be careful not to right click the water with an item as you will lose it."
 	],
 	dependencies: [
 		"71e85851"
@@ -16,5 +16,10 @@
 		match_type: "block_id",
 		match: "thaumcraft:crucible",
 		timer: 20L
+	}],
+	rewards: [{
+		uid: "246704d8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }

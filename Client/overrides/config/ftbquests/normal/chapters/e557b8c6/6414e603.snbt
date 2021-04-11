@@ -8,6 +8,7 @@
 	],
 	dependencies: [
 		"b3cbcf3b",
+		"2f39422f",
 		"7e717a92"
 	],
 	tasks: [{

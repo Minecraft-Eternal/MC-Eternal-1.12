@@ -14,5 +14,10 @@
 			id: "thaumicaugmentation:research_notes"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ca9a9f7",
+		type: "loot",
+		table: 13
 	}]
 }

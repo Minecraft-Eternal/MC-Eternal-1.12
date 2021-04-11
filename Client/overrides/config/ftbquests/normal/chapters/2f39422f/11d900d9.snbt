@@ -11,5 +11,10 @@
 		items: [{
 			item: "thaumcraft:salis_mundus"
 		}]
+	}],
+	rewards: [{
+		uid: "0f1016a6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }

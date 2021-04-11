@@ -4,7 +4,7 @@
 	y: 1.5d,
 	description: "Into the Looking Glass!",
 	text: [
-		"Basic thaumcraft crafting table"
+		"Look trough it to see the world in a different way"
 	],
 	dependencies: [
 		"2bcc8ac5",
@@ -21,5 +21,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82466cbc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }

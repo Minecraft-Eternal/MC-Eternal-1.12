@@ -16,5 +16,10 @@
 		match_type: "block_id",
 		match: "thaumcraft:arcane_workbench",
 		timer: 20L
+	}],
+	rewards: [{
+		uid: "56240737",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }

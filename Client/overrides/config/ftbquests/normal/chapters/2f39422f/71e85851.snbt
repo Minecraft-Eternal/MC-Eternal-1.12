@@ -16,5 +16,10 @@
 		match_type: "block_id",
 		match: "thaumcraft:research_table",
 		timer: 20L
+	}],
+	rewards: [{
+		uid: "c0bb0d6e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }

@@ -1,6 +1,10 @@
 {
 	x: 3.0d,
 	y: 1.5d,
+	description: "Throwing down the Gauntlet!",
+	text: [
+		"The Focal Manipulator allows you to craft a Focus that you can use with your Caster’s Gauntlet"
+	],
 	dependencies: [
 		"2bcc8ac5"
 	],

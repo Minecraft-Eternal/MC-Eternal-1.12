@@ -1,6 +1,11 @@
 {
 	x: 4.0d,
 	y: 4.5d,
+	description: "magic cube",
+	text: [
+		"The Matrix is everywhere. It is all around us. It is the world that has been pulled over your eyes to blind you from the truth. A prison for your mind.",
+		"-MORPHEUS-"
+	],
 	dependencies: [
 		"45d94ea2"
 	],
@@ -10,5 +15,10 @@
 		items: [{
 			item: "thaumcraft:infusion_matrix"
 		}]
+	}],
+	rewards: [{
+		uid: "b0cd3384",
+		type: "ftbmoney:money",
+		ftb_money: 100L
 	}]
 }
