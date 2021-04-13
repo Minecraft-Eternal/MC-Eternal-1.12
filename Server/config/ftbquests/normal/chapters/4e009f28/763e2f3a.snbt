@@ -1,0 +1,17 @@
+{
+	x: -15.0d,
+	y: -5.0d,
+	shape: "diamond",
+	tasks: [{
+		uid: "52ea9256",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ghast_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "cd3e9fd2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

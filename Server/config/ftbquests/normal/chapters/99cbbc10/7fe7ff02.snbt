@@ -1,0 +1,95 @@
+{
+	title: "Let's breed rats.",
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"You can breed rats to create new colors."
+	],
+	dependencies: [
+		"24c36876"
+	],
+	tasks: [{
+		uid: "355cc68f",
+		type: "item",
+		items: [{
+			item: "rats:rat_cage"
+		}],
+		count: 4L
+	},
+	{
+		uid: "ee0fb71e",
+		type: "item",
+		title: "Any ratTube",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ratTube",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	},
+	{
+		uid: "30c731cc",
+		type: "item",
+		title: "Any ratHammock",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ratHammock",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "c896c72c",
+		type: "item",
+		items: [{
+			item: "rats:rat_water_bottle"
+		}]
+	},
+	{
+		uid: "829631e3",
+		type: "item",
+		items: [{
+			item: "rats:rat_seed_bowl"
+		}]
+	},
+	{
+		uid: "983d099d",
+		type: "item",
+		items: [{
+			item: "rats:rat_breeding_lantern"
+		}]
+	}],
+	rewards: [{
+		uid: "4eb4ec43",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "60685a11",
+		type: "item",
+		item: "rats:rat_capture_net"
+	},
+	{
+		uid: "70643e2d",
+		type: "item",
+		item: "rats:plague_doctorate"
+	},
+	{
+		uid: "b1e99446",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cheesy_cache"
+			}
+		},
+		random_bonus: 8
+	}]
+}

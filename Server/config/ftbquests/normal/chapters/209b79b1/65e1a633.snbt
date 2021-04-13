@@ -1,0 +1,65 @@
+{
+	x: 3.5d,
+	y: 0.5d,
+	shape: "square",
+	description: "A hulk beast endemic to swampland. It has the ability to summon minions and spill out sludge to cripple it's prey.",
+	dependencies: [
+		"bcaf3639"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ab334a13",
+		type: "kill",
+		title: "Bounty: Sludge Lord",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "mod_lavacow:sludgelord",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e691b039",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "7eeda920",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "55b2864c",
+		type: "item",
+		item: "doggytalents:leather_jacket"
+	},
+	{
+		uid: "e1e96b1a",
+		type: "item",
+		item: "minecraft:slime_ball",
+		count: 16
+	},
+	{
+		uid: "3cfad337",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:sludge_wand"
+		}
+	},
+	{
+		uid: "9a9dd607",
+		type: "item",
+		item: "minecraft:gold_block",
+		count: 4
+	}]
+}

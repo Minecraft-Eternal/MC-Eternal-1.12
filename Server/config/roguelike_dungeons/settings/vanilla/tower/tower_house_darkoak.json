@@ -1,0 +1,10 @@
+{
+  "name": "tower:house_darkoak",
+
+  "tower": {
+    "type": "HOUSE",
+    "theme": {
+      "base": "DARKOAK"
+    }
+  }
+}

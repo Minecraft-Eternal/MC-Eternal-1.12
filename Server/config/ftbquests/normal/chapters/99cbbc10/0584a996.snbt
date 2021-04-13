@@ -1,0 +1,23 @@
+{
+	x: 13.0d,
+	y: -6.0d,
+	text: [
+		"Nom Nom Nom!"
+	],
+	dependencies: [
+		"17f50c84"
+	],
+	tasks: [{
+		uid: "d51f69e0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:creamcookieitem"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9d63f1d5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

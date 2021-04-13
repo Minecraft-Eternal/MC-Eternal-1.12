@@ -1,0 +1,36 @@
+{
+	title: "Wondrous Wizard Power!",
+	icon: "tfspellpack:twilight_spell_book 1 195",
+	x: 1.5d,
+	y: -2.5d,
+	shape: "hexagon",
+	description: "You sense something for which you are certain... The primal energies that exist within my world have expanded twofold within the Twilight Forest... If I am to become the most powerful wizard I must venture forth and claim this unknown power!",
+	dependencies: [
+		"ec0bd6f7"
+	],
+	tasks: [{
+		uid: "05374647",
+		type: "dimension",
+		dim: 7
+	}],
+	rewards: [{
+		uid: "96ad0695",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "f8a951c9",
+		type: "item",
+		item: "tfspellpack:twilight_spell_book 1 175"
+	},
+	{
+		uid: "05555891",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfspellpack:ring_twilight"
+		}
+	}]
+}

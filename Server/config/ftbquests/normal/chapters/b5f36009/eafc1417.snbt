@@ -1,0 +1,34 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"21d77837"
+	],
+	tasks: [{
+		uid: "c4776f8d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "theaurorian:absorptionorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9af5860d",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "27dc4789",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

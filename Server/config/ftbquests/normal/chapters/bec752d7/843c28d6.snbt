@@ -1,0 +1,26 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	description: "Wizard's can trade for exotic magical items!",
+	dependencies: [
+		"86043d1b"
+	],
+	tasks: [{
+		uid: "0e86528e",
+		type: "advancement",
+		title: "Trade with a Wizard",
+		icon: "ebwizardry:transportation_stone",
+		advancement: "ebwizardry:wizard_trade",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "77f306df",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "6211a7cc",
+		type: "loot",
+		table: 1
+	}]
+}

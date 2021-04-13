@@ -1,0 +1,122 @@
+{
+	title: "&9Erebus",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "erebus:rhino_exoskeleton_helmet"
+	},
+	always_invisible: false,
+	group: -1833823779,
+	default_quest_shape: "",
+	images: [{
+		x: -8.5d,
+		y: -2.5d,
+		width: 4.0d,
+		height: 0.8d,
+		rotation: 0.0d,
+		image: "assets:bb1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.5d,
+		y: -2.5d,
+		width: 3.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:bosses.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -6.0d,
+		y: -2.5d,
+		width: 0.8d,
+		height: 0.8d,
+		rotation: -22.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -11.0d,
+		y: -2.5d,
+		width: 0.8d,
+		height: 0.8d,
+		rotation: 22.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 8.5d,
+		y: -2.5d,
+		width: 0.8d,
+		height: 0.8d,
+		rotation: 22.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 4.5d,
+		y: -2.5d,
+		width: 0.8d,
+		height: 0.8d,
+		rotation: -22.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.5d,
+		y: -4.0d,
+		width: 0.5d,
+		height: 0.5d,
+		rotation: -180.0d,
+		image: "assets:wither.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.5d,
+		y: -4.0d,
+		width: 0.5d,
+		height: 0.5d,
+		rotation: -180.0d,
+		image: "assets:wither.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.5d,
+		y: 4.0d,
+		width: 0.5d,
+		height: 0.5d,
+		rotation: 180.0d,
+		image: "assets:wither.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.5d,
+		y: 4.0d,
+		width: 0.5d,
+		height: 0.5d,
+		rotation: 180.0d,
+		image: "assets:wither.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	x: -8.5d,
+	y: -4.0d,
+	description: "*Place the elevator block below another elevator to travel instantaneously between them (hold shift/jump)*",
+	dependencies: [
+		"d22a6b71"
+	],
+	tasks: [{
+		uid: "7440a0bf",
+		type: "item",
+		items: [{
+			item: "openblocks:elevator"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "d1ca1071",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "583315c1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "18c95f48",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_boots",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 2s
+				}]
+			}
+		}
+	}]
+}

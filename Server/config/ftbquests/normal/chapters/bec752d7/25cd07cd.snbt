@@ -1,0 +1,45 @@
+{
+	x: 1.5d,
+	y: -4.0d,
+	description: "It appears if I craft these items together to create the magic map.. I can begin my hunt for the legendary creatures that reside within this dimension.. *Refer to Twilight Forest under the dimensions questing tab*",
+	dependencies: [
+		"ac54b30d"
+	],
+	tasks: [{
+		uid: "0a15b410",
+		type: "item",
+		items: [{
+			item: "twilightforest:raven_feather"
+		}]
+	},
+	{
+		uid: "c39690cd",
+		type: "item",
+		items: [{
+			item: "twilightforest:torchberries"
+		}]
+	},
+	{
+		uid: "d4096d2b",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}]
+	}],
+	rewards: [{
+		uid: "ba4c60fb",
+		type: "choice",
+		icon: "twilightforest:huge_waterlily",
+		table: 18
+	},
+	{
+		uid: "40e985fe",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfspellpack:amulet_steeleaf"
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -9.5d,
+	shape: "octagon",
+	dependencies: [
+		"3b41a4ca"
+	],
+	tasks: [{
+		uid: "54056dc9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:totem_of_undying"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2d49fa5b",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "5ba0e302",
+		type: "loot",
+		table: 1
+	}]
+}

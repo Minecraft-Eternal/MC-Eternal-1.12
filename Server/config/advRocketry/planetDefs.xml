@@ -1,0 +1,46 @@
+<galaxy>
+    <star name="§dPrimordial Planes" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+		<planet name="§a§lEarth" DIMID="0" dimMapping="" customIcon="EarthLike">
+			<orbitalDistance>100</orbitalDistance>
+			<planet name="§6§lThe Moon" DIMID="1000" customIcon="moon">
+				<skyColor>0,0,0</skyColor>
+				<orbitalDistance>120</orbitalDistance>
+				<OreGen>/config/advancedRocketry/OreConfiguration.xml</OreGen>
+				<fillerBlock>rats:marbled_cheese_raw</fillerBlock>
+				<atmosphereDensity>5</atmosphereDensity>
+				<isKnown>True</isKnown>
+				<orbitalTheta>0</orbitalTheta>
+				<gravitationalMultiplier>8</gravitationalMultiplier>
+				<fogColor>100,65.1,0</fogColor>
+				<rotationalPeriod>29000</rotationalPeriod>
+				<artifact></artifact>
+            </planet>
+			<artifact></artifact>
+        </planet>
+		<planet name="§c§lErebus" DIMID="66" customIcon="IceWorld">
+            <skyColor>0,0,0</skyColor>
+			<atmosphereDensity>150</atmosphereDensity>
+			<gravitationalMultiplier>38</gravitationalMultiplier>
+			<orbitalDistance>130</orbitalDistance>
+			<isKnown>True</isKnown>
+			<rotationalPeriod>1400000</rotationalPeriod>
+        </planet>
+		<planet name="§b§lAurorian" DIMID="424" customIcon="GasGiantBlue">
+            <skyColor>0,0,0</skyColor>
+			<atmosphereDensity>150</atmosphereDensity>
+			<gravitationalMultiplier>38</gravitationalMultiplier>
+			<orbitalDistance>130</orbitalDistance>
+			<isKnown>True</isKnown>
+			<rotationalPeriod>1400000</rotationalPeriod>
+        </planet>
+		<planet name="§8§lAtum" DIMID="1048" customIcon="MarsLike">
+            <skyColor>0,0,0</skyColor>
+			<fogColor>0.9,0.9,0.9</fogColor>
+			<atmosphereDensity>195</atmosphereDensity>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>200</orbitalDistance>
+			<isKnown>True</isKnown>
+			<rotationalPeriod>2784000</rotationalPeriod>
+		</planet>
+	</star>
+</galaxy>

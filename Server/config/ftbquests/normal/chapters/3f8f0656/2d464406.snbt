@@ -1,0 +1,25 @@
+{
+	x: 17.5d,
+	y: -3.5d,
+	description: "Used to create fluids with different uses",
+	dependencies: [
+		"9fe352bc"
+	],
+	tasks: [{
+		uid: "c1d13ac3",
+		type: "item",
+		items: [{
+			item: "enderio:block_vat"
+		}]
+	}],
+	rewards: [{
+		uid: "f7eb2fcf",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "80687997",
+		type: "loot",
+		table: 1
+	}]
+}

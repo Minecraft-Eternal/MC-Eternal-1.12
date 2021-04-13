@@ -1,0 +1,28 @@
+{
+	x: -1.0d,
+	y: -9.0d,
+	dependencies: [
+		"3b41a4ca"
+	],
+	tasks: [{
+		uid: "06fd6425",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			}
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "0ae78968",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2c4b2d6c",
+		type: "loot",
+		table: 1
+	}]
+}

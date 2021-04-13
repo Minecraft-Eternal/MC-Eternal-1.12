@@ -1,0 +1,10 @@
+{
+  "name" : "segments:inhabited",
+
+  "segments" : [
+    {"level": [0,1,2,3,4], "type" : "BOOKS", "weight" : 10},
+    {"level": [0,1,2,3,4], "type" : "FIREPLACE", "weight" : 10},
+    {"level": [0,1,2,3,4], "type" : "FLOWERS", "weight" : 10},
+    {"level": [0,1,2,3,4], "type" : "LAMP", "weight" : 10}
+  ]
+}

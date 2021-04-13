@@ -1,0 +1,24 @@
+{
+  "name": "levelup:spelunker",
+  "bonus": "levelup:mining_bonus",
+  "localized_name": "Spelunker",
+  "description": "Branch mining is for cowards",
+  "skills": [
+    {
+      "name": "levelup:furnacebonus",
+      "level": 2
+    },
+    {
+      "name": "levelup:furnacespeed",
+      "level": 1
+    },
+    {
+      "name": "levelup:fallprotect",
+      "level": 1
+    },
+    {
+      "name": "levelup:stonecutting",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+	x: -0.5d,
+	y: -11.5d,
+	shape: "diamond",
+	description: "&o\"The soul? There's nothing but chemistry here\" - Walter White",
+	dependencies: [
+		"3b41a4ca"
+	],
+	tasks: [{
+		uid: "d9b7dd15",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:soulstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d4b8977d",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "2c347b24",
+		type: "loot",
+		table: 1
+	}]
+}

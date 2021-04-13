@@ -1,0 +1,19 @@
+{
+	x: 15.0d,
+	y: 3.5d,
+	dependencies: [
+		"4f27e276"
+	],
+	tasks: [{
+		uid: "64c1b6dd",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}]
+	}],
+	rewards: [{
+		uid: "ba4d1b56",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

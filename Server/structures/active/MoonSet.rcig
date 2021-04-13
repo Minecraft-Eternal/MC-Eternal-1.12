@@ -1,0 +1,636 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "MoonSet",
+  "items": [
+    {
+      "weight": 0.0019995670299977064,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "rats:plague_doctor_mask",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "HideFlags": {
+              "nbtType": "int",
+              "nbt": 37
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§8In my dream, I was drowning my sorrows"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§8But my sorrows they\u0027d learned to swim"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§e(Part of the Moon set)"
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "§7Mask of Sorrows"
+                }
+              }
+            },
+            "AttributeModifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193542900
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 9
+                    },
+                    "Slot": {
+                      "nbtType": "string",
+                      "nbt": "head"
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.armorToughness"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "Sorrow"
+                    }
+                  }
+                },
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193543000
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 15
+                    },
+                    "Slot": {
+                      "nbtType": "string",
+                      "nbt": "head"
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.armor"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "Sorrow"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.4858947992324829,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "rats:pirat_cutlass",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "HideFlags": {
+              "nbtType": "int",
+              "nbt": 39
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§8Made completely out of 100% cheese sourced locally from the Moon."
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§e(Part of the Moon set)"
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "§7Cheese Blade"
+                }
+              }
+            },
+            "AttributeModifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193352200
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 50
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackDamage"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackDamage"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "dungeontactics:pirate_hook",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "HideFlags": {
+              "nbtType": "int",
+              "nbt": 39
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§8Rusted and uncomfortable to hold, unlikely to last very long (aaarrg)"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§e(Part of the Moon set)"
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "§7Pirat Hook"
+                }
+              }
+            },
+            "AttributeModifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193141800
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 40
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackDamage"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackDamage"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "dungeontactics:golden_knife",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "HideFlags": {
+              "nbtType": "int",
+              "nbt": 39
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§8Rusted and uncomfortable to hold, unlikely to last very long"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§e(Part of the Moon set)"
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "§7Ratlantean Dagger"
+                }
+              }
+            },
+            "AttributeModifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193291300
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 30
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackDamage"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackDamage"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.0014766963431611657,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mod_lavacow:undertaker_shovel",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "ench": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "lvl": {
+                      "nbtType": "int",
+                      "nbt": 8
+                    },
+                    "id": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    }
+                  }
+                }
+              ]
+            },
+            "Unbreakable": {
+              "nbtType": "int",
+              "nbt": 1
+            },
+            "HideFlags": {
+              "nbtType": "int",
+              "nbt": 37
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§8Everybody Knows The Moon\u0027s Made of Cheese"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§e(Part of the Moon set)"
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "§6§lHaunted Moon Shovel "
+                }
+              }
+            },
+            "AttributeModifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "UUIDMost": {
+                      "nbtType": "int",
+                      "nbt": 99
+                    },
+                    "UUIDLeast": {
+                      "nbtType": "int",
+                      "nbt": 193185800
+                    },
+                    "Amount": {
+                      "nbtType": "int",
+                      "nbt": 40
+                    },
+                    "Slot": {
+                      "nbtType": "string",
+                      "nbt": "mainhand"
+                    },
+                    "AttributeName": {
+                      "nbtType": "string",
+                      "nbt": "generic.attackDamage"
+                    },
+                    "Operation": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    },
+                    "Name": {
+                      "nbtType": "string",
+                      "nbt": "Sorrow"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.9013646841049194,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "rats:cheese",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.202605724334717,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "rats:block_of_cheese",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "rats:cheese_stick",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {}
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "rats:auto_curdler",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.20703016221523285,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "rats:chunky_cheese_token",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 3.3419337272644043,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "rats:string_cheese",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.7249209880828857,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "rats:marbled_cheese_raw",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "twilightforest:moonworm",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "twilightforest:fiery_chestplate",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "twilightforest:seeker_bow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "twilightforest:fiery_sword",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "ench": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "lvl": {
+                      "nbtType": "short",
+                      "nbt": 2
+                    },
+                    "id": {
+                      "nbtType": "short",
+                      "nbt": 20
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "twilightforest:lifedrain_scepter",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "twilightforest:triple_bow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "twilightforest:phantom_chestplate",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "twilightforest:ice_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "twilightforest:twilight_sapling",
+        "damage": 9,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

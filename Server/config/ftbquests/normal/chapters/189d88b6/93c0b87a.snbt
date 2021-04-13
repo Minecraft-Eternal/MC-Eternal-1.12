@@ -1,0 +1,38 @@
+{
+	x: -16.0d,
+	y: -1.0d,
+	description: "Clipboards can be used to store ideas/personal goals ingame. *Very handy for the \"I don't know what to do\" type of player*",
+	min_required_dependencies: 1,
+	dependencies: [
+		"87cb3976"
+	],
+	size: 0.9d,
+	tasks: [{
+		uid: "664c4f16",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bibliocraft:biblioclipboard"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1cf12aa3",
+		type: "item",
+		item: "harvestcraft:steakandchipsitem",
+		count: 5
+	},
+	{
+		uid: "db8fbaeb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f7ffaab9",
+		type: "loot",
+		table: 1
+	}]
+}

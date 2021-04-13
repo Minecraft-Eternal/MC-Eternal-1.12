@@ -1,0 +1,22 @@
+{
+	title: "Speedy Extract",
+	x: 12.5d,
+	y: 3.0d,
+	description: "Increases extraction speed of item/fluid conduits",
+	dependencies: [
+		"0108d5cd"
+	],
+	tasks: [{
+		uid: "7fa02aca",
+		type: "item",
+		items: [{
+			item: "enderio:item_extract_speed_upgrade"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b67038f2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

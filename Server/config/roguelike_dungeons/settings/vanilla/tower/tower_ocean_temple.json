@@ -1,0 +1,26 @@
+{
+  "name": "tower:ocean_temple",
+  "tower": {
+    "type": "BUNKER",
+    "theme": {
+      "base": "TEMPLE",
+      "level": [0, 1, 2, 3, 4],
+      "primary": {
+        "lightblock": {"name":  "sea_lantern"},
+        "liquid": {"name": "minecraft:water"},
+        "door": {"name": "minecraft:iron_door"},
+        "pillar": {"name": "minecraft:prismarine", "meta": 2},
+        "walls": {"name": "minecraft:prismarine", "meta": 1},
+        "floor": {"name": "minecraft:prismarine", "meta": 0}
+      },
+      "secondary": {
+        "lightblock": {"name":  "sea_lantern"},
+        "liquid": {"name": "minecraft:water"},
+        "door": {"name": "minecraft:iron_door"},
+        "pillar": {"name": "minecraft:prismarine", "meta": 2},
+        "walls": {"name": "minecraft:prismarine", "meta": 1},
+        "floor": {"name": "minecraft:prismarine", "meta": 0}
+      }
+    }
+  }
+}

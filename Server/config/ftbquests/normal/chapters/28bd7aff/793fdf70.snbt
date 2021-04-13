@@ -1,0 +1,38 @@
+{
+	title: "New Mayor Needed!",
+	icon: "minecraft:paper",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"After our last mayor vanished due to some \"unknown\" circumstances, we lack the leadership and independence to rule ourselves and we love to be told what to do so please become our mayor, text us back when you get this. xx - your future citizens"
+	],
+	tasks: [{
+		uid: "7d7fd09c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "structurize:sceptergold"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "75113ba0",
+		type: "item",
+		title: "Signing Bonus",
+		icon: "buildcraftbuilders:snapshot 1 2",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "signing_bonus"
+			}
+		}
+	},
+	{
+		uid: "c9f376e6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

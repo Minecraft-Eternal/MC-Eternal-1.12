@@ -1,0 +1,30 @@
+{
+	x: -11.0d,
+	y: -11.0d,
+	shape: "diamond",
+	dependencies: [
+		"0647fe18"
+	],
+	tasks: [{
+		uid: "2f215d5a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:meef_stroganoff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2eceec8f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "99cea5b7",
+		type: "loot",
+		table: 1
+	}]
+}

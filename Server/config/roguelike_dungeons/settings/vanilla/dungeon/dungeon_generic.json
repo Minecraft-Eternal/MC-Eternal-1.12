@@ -1,0 +1,11 @@
+{
+  "name": "dungeon:generic",
+  "exclusive": false,
+  "inherit": [
+    "layout:size_medium",
+    "spawners:eb",
+    "rooms:generic",
+    "segments:generic",
+    "loot:eternal"
+  ]
+}

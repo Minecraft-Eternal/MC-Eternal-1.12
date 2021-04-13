@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 9.0d,
+	dependencies: [
+		"63563c0b"
+	],
+	tasks: [{
+		uid: "0a82b816",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "totemic:tipi"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5098e624",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

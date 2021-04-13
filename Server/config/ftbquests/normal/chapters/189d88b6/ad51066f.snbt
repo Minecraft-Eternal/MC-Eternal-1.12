@@ -1,0 +1,32 @@
+{
+	x: -11.0d,
+	y: -8.0d,
+	shape: "diamond",
+	description: "Interacting with a pixie with a jar in your hand will capture the pixie, dropping a jar with the pixie inside. Players can then place this jar, and, as soon as the pixie inside sits down, collect pixie dust from it. ",
+	dependencies: [
+		"a9d286cd"
+	],
+	tasks: [{
+		uid: "dc1b42fb",
+		type: "advancement",
+		title: "Trap a Pixie in a jar",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:jar_pixie"
+		},
+		advancement: "iceandfire:iceandfire/jar_pixie",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "93de7ccb",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "5f4ad612",
+		type: "loot",
+		table: 1
+	}]
+}

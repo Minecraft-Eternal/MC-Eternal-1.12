@@ -1,0 +1,33 @@
+{
+	x: 3.0d,
+	y: 3.5d,
+	dependencies: [
+		"5111a663"
+	],
+	tasks: [{
+		uid: "0ae30363",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockcargomanager"
+		}]
+	},
+	{
+		uid: "adc4e195",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockliquidmanager"
+		}]
+	},
+	{
+		uid: "1a2d24e1",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockdistributor"
+		}]
+	}],
+	rewards: [{
+		uid: "b64ca2d4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

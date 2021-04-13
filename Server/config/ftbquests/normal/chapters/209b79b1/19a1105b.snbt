@@ -1,0 +1,55 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "twilightforest:knightmetal_sword"
+	},
+	x: -5.0d,
+	y: -4.0d,
+	shape: "square",
+	description: "Battle towers are an excellent source of loot. *You will know its a tower if it has windows all along the base and an angry stone giant ontop*",
+	dependencies: [
+		"3acd3f99"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0af7f29f",
+		type: "kill",
+		title: "Bounty: Tower Golem",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "battletowers:golem",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "2c4f025d",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	},
+	{
+		uid: "77d3d177",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "237f1ade",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:bonesword"
+		}
+	},
+	{
+		uid: "7e8a964f",
+		type: "item",
+		item: "minecraft:diamond_block",
+		count: 2
+	}]
+}

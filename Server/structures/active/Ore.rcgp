@@ -1,0 +1,26 @@
+{
+  "data": {
+    "factors": [
+      {
+        "type": "limit",
+        "factor": {
+          "priority": 10.0,
+          "rays": [
+            {
+              "type": "move",
+              "ray": {
+                "distance": -28
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "title": "",
+    "description": [
+      ""
+    ]
+  }
+}

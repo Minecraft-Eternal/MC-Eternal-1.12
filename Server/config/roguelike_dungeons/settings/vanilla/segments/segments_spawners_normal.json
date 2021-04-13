@@ -1,0 +1,7 @@
+{
+  "name" : "segments:spawners_normal",
+
+  "segments" : [
+    {"level": [0,1,2,3,4], "type" : "SPAWNER", "weight" : 50}
+  ]
+}

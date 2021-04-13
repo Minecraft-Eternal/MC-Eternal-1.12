@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: -5.5d,
+	dependencies: [
+		"37cf225d"
+	],
+	tasks: [{
+		uid: "42836cf5",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_growth_increaser"
+		}]
+	}],
+	rewards: [{
+		uid: "4ee4d57b",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "63ab8029",
+		type: "loot",
+		table: 1
+	}]
+}

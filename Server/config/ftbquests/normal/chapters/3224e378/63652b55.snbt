@@ -1,0 +1,32 @@
+{
+	x: -11.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "0cfad7cb",
+		type: "kill",
+		title: "&6&lBounty: Rhinoceros Beetle",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:wasp_sword"
+		},
+		entity: "erebus:erebus.rhino_beetle",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "36da9c5e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "b5e16a06",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

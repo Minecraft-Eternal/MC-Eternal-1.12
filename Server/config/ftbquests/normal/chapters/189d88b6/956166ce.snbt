@@ -1,0 +1,25 @@
+{
+	x: -15.0d,
+	y: -8.0d,
+	dependencies: [
+		"a9d286cd"
+	],
+	tasks: [{
+		uid: "bc4f1bfb",
+		type: "item",
+		items: [{
+			item: "iceandfire:sea_serpent_arrow"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "2f4b16a2",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c7f1d075",
+		type: "loot",
+		table: 1
+	}]
+}

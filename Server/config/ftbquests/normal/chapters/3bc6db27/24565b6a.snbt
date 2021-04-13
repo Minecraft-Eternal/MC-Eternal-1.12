@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: -5.0d,
+	dependencies: [
+		"37cf225d"
+	],
+	tasks: [{
+		uid: "00032bdd",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a97eac10",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

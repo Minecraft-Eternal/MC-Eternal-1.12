@@ -1,0 +1,39 @@
+{
+	x: -12.5d,
+	y: -2.0d,
+	dependencies: [
+		"8724e544"
+	],
+	tasks: [{
+		uid: "17422dcc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0b,
+				Send: 1000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "285afe17",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

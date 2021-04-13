@@ -1,0 +1,22 @@
+{
+	icon: "thebetweenlands:items_misc 1 25",
+	x: -8.0d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "The Betweenlands dimension is a dark and mysterious realm where strange, monstrous creatures roam amongst the remnants of long lost civilisations that have succumbed to the spread of decay. As dangerous as it is beautiful, there is much to explore!",
+	tasks: [{
+		uid: "f181e24d",
+		type: "dimension",
+		dim: 20
+	}],
+	rewards: [{
+		uid: "9ac48825",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "4c408a06",
+		type: "loot",
+		table: 1
+	}]
+}

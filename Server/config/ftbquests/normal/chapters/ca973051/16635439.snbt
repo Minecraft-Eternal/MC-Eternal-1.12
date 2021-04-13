@@ -1,0 +1,24 @@
+{
+	x: -11.0d,
+	y: -17.0d,
+	dependencies: [
+		"7e91214b"
+	],
+	tasks: [{
+		uid: "fbf075ff",
+		type: "item",
+		items: [{
+			item: "twilightforest:experiment_115"
+		}]
+	}],
+	rewards: [{
+		uid: "eefbbb00",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "81d7717b",
+		type: "loot",
+		table: 1
+	}]
+}

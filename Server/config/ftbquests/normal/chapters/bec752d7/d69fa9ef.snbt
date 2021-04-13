@@ -1,0 +1,36 @@
+{
+	icon: "vampirism:pure_blood 1 4",
+	x: 16.0d,
+	y: 9.0d,
+	shape: "octagon",
+	dependencies: [
+		"216092bf"
+	],
+	tasks: [{
+		uid: "25c76bb8",
+		type: "advancement",
+		title: "Reach max level as a Vampire",
+		advancement: "vampirism:vampire/max_level",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "75ced9cd",
+		type: "item",
+		item: "vampirism:sunscreen_beacon"
+	},
+	{
+		uid: "2ab6a0c7",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "8b4a77ae",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

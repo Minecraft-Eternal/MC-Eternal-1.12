@@ -1,0 +1,150 @@
+{
+  "name": "rooms:inhabited",
+
+  "rooms": [
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "BEDROOM",
+      "weight": 10
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "CAKE",
+      "weight": 10
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "CORNER",
+      "weight": 20
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "ENCHANT",
+      "weight": 5
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "DARKHALL",
+      "weight": 20
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "FIRE",
+      "weight": 20
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "LAB",
+      "weight": 10
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "LIBRARY",
+      "weight": 10
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "MESS",
+      "weight": 20
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "MUSIC",
+      "weight": 10
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "SMITH",
+      "weight": 10
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "STORAGE",
+      "weight": 10
+    }
+  ]
+}

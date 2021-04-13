@@ -1,0 +1,69 @@
+{
+	x: -5.5d,
+	y: -8.5d,
+	shape: "square",
+	description: "&cAn irritable giant that tends to a flock of sheep in a stony, treasure-filled seaside cove.",
+	text: [
+		"Cyclopes can be located in Cyclops Coves, large, round, stony coves with sheep pens which spawn randomly in Beach biomes. They have a 50% chance to drop the eye of the cyclops"
+	],
+	dependencies: [
+		"5bd86940"
+	],
+	hide: true,
+	tasks: [{
+		uid: "22896a55",
+		type: "kill",
+		title: "Bounty: Cyclops",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "iceandfire:cyclops",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "5b2052d9",
+		type: "ftbmoney:money",
+		ftb_money: 3500L
+	},
+	{
+		uid: "2e32e84b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "b91c1430",
+		type: "item",
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "thaumcraft:taintacle"
+			}
+		}
+	},
+	{
+		uid: "e07ccac8",
+		type: "item",
+		item: "bewitchment:gold_leonard_statue"
+	},
+	{
+		uid: "73f1f4db",
+		type: "item",
+		item: "minecraft:emerald_block",
+		count: 3
+	},
+	{
+		uid: "9709ab02",
+		type: "item",
+		item: "minecraft:gold_block"
+	}]
+}

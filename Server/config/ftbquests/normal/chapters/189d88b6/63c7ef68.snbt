@@ -1,0 +1,33 @@
+{
+	x: -14.0d,
+	y: 0.0d,
+	description: "The time in a bottle will collect real world time you've spent in game and give it back to you in the form of speeding certain tasks up, using it on a furnace will cause the furnace to cook much faster. It can be used on most TileEntities.",
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "d88bdbbf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "76237e25",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "0e73b8b5",
+		type: "loot",
+		table: 1
+	}]
+}

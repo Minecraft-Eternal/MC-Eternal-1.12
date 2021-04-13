@@ -1,0 +1,54 @@
+{
+	x: -7.0d,
+	y: -6.5d,
+	description: "&oWell, I'll eat it,' said Alice, `and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door so either way I'll get into the garden, and I don't care which happens!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"36443d40"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "357f4ddc",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:netherstew"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1f025836",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "153d0379",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "7c998f64",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dungeontactics:wooden_battleaxe",
+			tag: {
+				ench: [{
+					lvl: 15,
+					id: 19
+				},
+				{
+					lvl: 8,
+					id: 34
+				}],
+				display: {
+					Lore: [
+						"You have a regrettably large head, I would very much like to bat it."
+					],
+					Name: "The Mad Batter"
+				}
+			}
+		}
+	}]
+}

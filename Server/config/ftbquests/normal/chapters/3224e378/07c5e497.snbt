@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "3c13ebcc",
+		type: "kill",
+		title: "&7&lBounty: Umbergolem",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:wasp_sword"
+		},
+		entity: "erebus:erebus.umber_golem",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "0e0b8548",
+		type: "ftbmoney:money",
+		ftb_money: 850L
+	}]
+}

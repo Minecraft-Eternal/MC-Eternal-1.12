@@ -1,0 +1,245 @@
+{
+	title: "Exploration",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thebetweenlands:explorers_hat"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -1.0d,
+		y: -9.0d,
+		width: 4.0d,
+		height: 0.8d,
+		rotation: 0.0d,
+		image: "assets:bounty.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.0d,
+		y: -9.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 22.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -3.0d,
+		y: -9.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: -22.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -3.0d,
+		y: -8.5d,
+		width: 0.8d,
+		height: 0.8d,
+		rotation: 22.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.0d,
+		y: -8.5d,
+		width: 0.8d,
+		height: 0.8d,
+		rotation: 30.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.5d,
+		y: -8.5d,
+		width: 0.7d,
+		height: 0.7d,
+		rotation: 22.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.5d,
+		y: -8.5d,
+		width: 0.7d,
+		height: 0.7d,
+		rotation: -22.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -3.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 45.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.5d,
+		y: -4.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 135.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -0.5d,
+		y: -4.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 135.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -4.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 45.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -3.5d,
+		width: 0.6d,
+		height: 0.6d,
+		rotation: 0.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -4.5d,
+		width: 0.6d,
+		height: 0.6d,
+		rotation: 0.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.5d,
+		y: -4.0d,
+		width: 0.6d,
+		height: 0.6d,
+		rotation: 0.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -0.5d,
+		y: -4.0d,
+		width: 0.6d,
+		height: 0.6d,
+		rotation: 0.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -3.0d,
+		y: -8.0d,
+		width: 0.6d,
+		height: 0.6d,
+		rotation: 54.0d,
+		image: "assets:wither.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.0d,
+		y: -8.0d,
+		width: 0.6d,
+		height: 0.6d,
+		rotation: -54.0d,
+		image: "assets:wither.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.5d,
+		y: -4.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: -135.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.5d,
+		y: -4.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: -135.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -5.5d,
+		width: 0.2d,
+		height: 0.7d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [
+			"Quest Chain Available!"
+		],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -2.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 135.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

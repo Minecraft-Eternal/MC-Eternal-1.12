@@ -1,0 +1,43 @@
+{
+  "name": "loot:blocks",
+  "lootRules": [
+    {
+      "level": [0, 1, 2, 3, 4],
+      "type": "BLOCKS",
+      "each": true,
+      "quantity": 4,
+      "loot": [
+        {"data": {"name": "minecraft:dirt", "meta": 0, "min": 16, "max": 32}},
+        {"data": {"name": "minecraft:stone", "meta": 0, "min": 16, "max": 32}},
+        {"data": {"name": "minecraft:cobblestone", "min": 16, "max": 32}},
+        {"data": {"name": "minecraft:stonebrick", "meta": 0, "min": 16, "max": 32}, "weight": 1},
+        {"data": {"name": "minecraft:stonebrick", "meta": 1, "min": 8, "max": 16}, "weight": 1},
+        {"data": {"name": "minecraft:stonebrick", "meta": 2, "min": 8, "max": 16}, "weight": 1},
+
+        {"data": {"name": "minecraft:gravel", "min": 16, "max": 32}},
+        {"data": {"name": "minecraft:sand", "min": 16, "max": 32}},
+        {"data": {"name": "minecraft:glass", "min": 8, "max": 16}},
+        {"data": {"name": "minecraft:clay", "min": 2, "max": 4}},
+
+        {"data": {"name": "minecraft:stained_glass", "meta": 0, "min": 4, "max": 8}},
+        {"data": {"name": "minecraft:stained_glass", "meta": 7, "min": 4, "max": 8}},
+        {"data": {"name": "minecraft:stained_glass", "meta": 8, "min": 4, "max": 8}},
+        {"data": {"name": "minecraft:stained_glass", "meta": 15, "min": 4, "max": 8}},
+
+        {"data": {"name": "minecraft:planks", "meta": 0, "min": 4, "max": 8}},
+        {"data": {"name": "minecraft:planks", "meta": 1, "min": 4, "max": 8}},
+        {"data": {"name": "minecraft:planks", "meta": 2, "min": 4, "max": 8}},
+        {"data": {"name": "minecraft:planks", "meta": 3, "min": 4, "max": 8}},
+
+        {"data": {"name": "minecraft:log", "meta": 0, "min": 2, "max": 4}},
+        {"data": {"name": "minecraft:log", "meta": 1, "min": 2, "max": 4}},
+        {"data": {"name": "minecraft:log", "meta": 2, "min": 2, "max": 4}},
+        {"data": {"name": "minecraft:log", "meta": 3, "min": 2, "max": 4}},
+
+        {"data": {"name": "minecraft:obsidian"}},
+        {"data": {"name": "minecraft:grass"}},
+        {"data": {"name": "minecraft:mycelium"}}
+      ]
+    }
+  ]
+}

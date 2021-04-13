@@ -1,0 +1,48 @@
+{
+	icon: "minecraft:skull 1 5",
+	x: -3.0d,
+	y: -4.0d,
+	shape: "square",
+	description: "The Ender Dragon is a hostile boss mob that appears in the End dimension. The Ender Dragon is a large dragon that breathes fire, spits fireballs, and is able to fly with great ease and maneuverability.",
+	tasks: [{
+		uid: "e21f7a78",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "cc059b29",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_ender_food"
+		}
+	},
+	{
+		uid: "6d36eb7f",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "071638f5",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "2ad3d7d1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "f15c9ce8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

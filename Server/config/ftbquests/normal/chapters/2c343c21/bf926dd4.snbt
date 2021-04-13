@@ -1,0 +1,35 @@
+{
+	x: 1.0d,
+	y: -0.5d,
+	shape: "hexagon",
+	description: "&oThe Moon has unfortunately been drained of its natural resource by those greedy rats! If you dig deep enough you may find treasure however",
+	dependencies: [
+		"2b45993e"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "2a1651e7",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald_block"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "2eb87950",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "9ff30c3b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		},
+		count: 3
+	}]
+}

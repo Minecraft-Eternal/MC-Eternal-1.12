@@ -1,0 +1,14 @@
+{
+  "name": "rooms:mobs_normal",
+
+  "rooms": [
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "BRICK", "weight": 25},
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "BLAZE", "weight": 10},
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "CRYPT", "weight": 15},
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "ENDER", "weight": 10},
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "NETHER", "weight": 15},
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "NETHERFORT", "weight": 10},
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "OBSIDIAN", "weight": 5},
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "PRISON", "weight": 15}
+  ]
+}

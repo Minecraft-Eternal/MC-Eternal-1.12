@@ -1,0 +1,29 @@
+{
+	x: 11.0d,
+	y: 13.0d,
+	dependencies: [
+		"1ae749b8"
+	],
+	tasks: [{
+		uid: "7632d0dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:stake"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "efd2bc65",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "095efc83",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

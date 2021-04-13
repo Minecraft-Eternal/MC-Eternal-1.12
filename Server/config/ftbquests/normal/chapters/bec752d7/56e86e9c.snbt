@@ -1,0 +1,75 @@
+{
+	title: "Master Wand",
+	x: 5.0d,
+	y: 2.0d,
+	description: "*Accepts any Master Wand*",
+	dependencies: [
+		"1aa705b9"
+	],
+	tasks: [{
+		uid: "579eeb0f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:master_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:master_fire_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:master_ice_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:master_lightning_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:master_necromancy_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:master_earth_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:master_sorcery_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:master_healing_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7fdc4a89",
+		type: "loot",
+		title: "Master Spell Book",
+		icon: "ebwizardry:spell_book 1 140",
+		table: 7
+	},
+	{
+		uid: "d0487bd4",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

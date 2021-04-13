@@ -1,0 +1,38 @@
+{
+	title: "What a Blast",
+	x: -5.0d,
+	y: 5.5d,
+	description: "*Click to read description*",
+	text: [
+		"Requires 34 machine casing of any kind to form the 3x4 multi-block structure with the Blast furnace machine is placed in front the center of the bottom layer."
+	],
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "0696e6fa",
+		type: "item",
+		items: [{
+			item: "techreborn:machine_casing"
+		}],
+		count: 34L
+	},
+	{
+		uid: "a3210398",
+		type: "item",
+		items: [{
+			id: "techreborn:industrial_blast_furnace",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "bba4fa82",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "3c3dfc03",
+		type: "loot",
+		table: 1
+	}]
+}

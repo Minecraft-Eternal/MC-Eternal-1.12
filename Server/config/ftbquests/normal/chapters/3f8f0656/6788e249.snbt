@@ -1,0 +1,30 @@
+{
+	x: -3.5d,
+	y: 12.0d,
+	dependencies: [
+		"9a541046"
+	],
+	tasks: [{
+		uid: "2840765c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fb2593f8",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "443926a4",
+		type: "loot",
+		table: 1
+	}]
+}

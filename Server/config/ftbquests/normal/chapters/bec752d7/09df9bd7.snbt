@@ -1,0 +1,24 @@
+{
+	x: 12.0d,
+	y: 4.5d,
+	dependencies: [
+		"c03d8e42"
+	],
+	tasks: [{
+		uid: "8c597a8a",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}],
+	rewards: [{
+		uid: "3346b464",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "52e0c1cf",
+		type: "loot",
+		table: 1
+	}]
+}

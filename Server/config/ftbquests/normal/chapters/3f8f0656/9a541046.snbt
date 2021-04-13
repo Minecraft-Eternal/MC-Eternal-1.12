@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: 10.0d,
+	dependencies: [
+		"464d17d4"
+	],
+	tasks: [{
+		uid: "381aeb4b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_compass"
+		}]
+	}],
+	rewards: [{
+		uid: "72d66a51",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

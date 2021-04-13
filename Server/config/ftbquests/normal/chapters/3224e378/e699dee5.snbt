@@ -1,0 +1,32 @@
+{
+	x: -10.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "ee2ca66d",
+		type: "kill",
+		title: "&6&lBounty: Punchroom",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:wasp_sword"
+		},
+		entity: "erebus:erebus.punchroom",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "a16a1a3b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "b3310d8d",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

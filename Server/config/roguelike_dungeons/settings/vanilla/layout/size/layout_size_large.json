@@ -1,0 +1,8 @@
+{
+  "name": "layout:size_large",
+  "inherit": [
+    "layout:roomcount_large",
+    "layout:scatter_large",
+    "layout:type_mixed"
+  ]
+}

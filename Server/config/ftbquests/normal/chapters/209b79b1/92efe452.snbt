@@ -1,0 +1,49 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "twilightforest:knightmetal_sword"
+	},
+	x: -3.5d,
+	y: -6.5d,
+	shape: "square",
+	description: "A vile chicken-like creature that brings death upon its foes with its piercing stare.",
+	text: [
+		"Sometimes when you look into the abyss, the abyss looks back into you."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8852201"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d1e78978",
+		type: "kill",
+		title: "Bounty: Cockatrice",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:cockatrice_skull"
+		},
+		entity: "iceandfire:if_cockatrice",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c4becb63",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c1c1e6f0",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "3434342f",
+		type: "item",
+		item: "iceandfire:rotten_egg",
+		count: 3
+	}]
+}

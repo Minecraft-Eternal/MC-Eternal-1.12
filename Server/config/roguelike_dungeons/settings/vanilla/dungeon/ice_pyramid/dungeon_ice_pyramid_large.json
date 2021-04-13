@@ -1,0 +1,10 @@
+{
+  "name" : "dungeon:ice_pyramid_large",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["SNOWY"]},
+  "inherit" : [
+    "dungeon:ice_pyramid",
+    "spawners:eb",
+    "layout:size_large"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: 4.5d,
+	dependencies: [
+		"6f61b5cd"
+	],
+	tasks: [{
+		uid: "8a600639",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:elder_broom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b315bdc5",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "d5d2fc2b",
+		type: "loot",
+		table: 1
+	}]
+}

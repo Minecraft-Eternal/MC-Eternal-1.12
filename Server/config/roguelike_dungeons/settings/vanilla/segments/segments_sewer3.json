@@ -1,0 +1,10 @@
+{
+	"name" : "segments:sewer3",
+
+	"segments" : [
+		{"level": 3, "type" : "SEWER", "weight" : 10},
+		{"level": 3, "type" : "SEWERARCH", "weight" : 10},
+		{"level": 3, "type" : "SEWERDOOR", "weight" : 10},
+		{"level": 3, "type" : "SEWERDRAIN", "weight" : 10}
+	]
+}

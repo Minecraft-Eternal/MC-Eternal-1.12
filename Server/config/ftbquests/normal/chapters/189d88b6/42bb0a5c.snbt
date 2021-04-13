@@ -1,0 +1,25 @@
+{
+	x: -10.5d,
+	y: -6.5d,
+	description: "Waystones can be used as a method of fast travel, all villages contain one waystone, you can place a waystone anywhere in the world and teleport to it instantly using xp ",
+	dependencies: [
+		"d22a6b71"
+	],
+	tasks: [{
+		uid: "39534956",
+		type: "item",
+		items: [{
+			item: "waystones:waystone"
+		}]
+	}],
+	rewards: [{
+		uid: "337c98f5",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "4b48e58e",
+		type: "loot",
+		table: 1
+	}]
+}

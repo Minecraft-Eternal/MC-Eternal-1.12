@@ -1,0 +1,20 @@
+{
+	x: -11.5d,
+	y: -1.0d,
+	dependencies: [
+		"862609d0"
+	],
+	tasks: [{
+		uid: "07f6df08",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_0 1 1"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "513b0c24",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

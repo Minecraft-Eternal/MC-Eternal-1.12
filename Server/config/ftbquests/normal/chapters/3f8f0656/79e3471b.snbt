@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: 10.0d,
+	dependencies: [
+		"9a541046"
+	],
+	tasks: [{
+		uid: "a4c67527",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	}],
+	rewards: [{
+		uid: "d35aa624",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "5ede6e2b",
+		type: "loot",
+		table: 1
+	}]
+}

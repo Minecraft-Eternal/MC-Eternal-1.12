@@ -1,0 +1,16 @@
+{
+  "name": "spawners:myrmex_workers",
+  "requires": ["iceandfire"],
+  "spawners": [
+    {
+      "level": [0, 1, 2, 3, 4],
+      "weight": 10,
+      "potentials": [
+        {"name": "iceandfire:myrmex_worker", "weight": 2},
+        {"name": "iceandfire:myrmex_soldier", "weight": 5},
+        {"name": "iceandfire:myrmex_sentinal", "weight": 1},
+        {"name": "iceandfire:myrmex_swarmer", "weight": 2}
+      ]
+    }
+  ]
+}

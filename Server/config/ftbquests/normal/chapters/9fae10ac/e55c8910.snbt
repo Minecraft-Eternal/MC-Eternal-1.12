@@ -1,0 +1,28 @@
+{
+	title: "Defeat Vampire Baron",
+	x: -5.5d,
+	y: 3.0d,
+	shape: "diamond",
+	description: "But my very feelings changed to repulsion and terror when I saw the whole man slowly emerge from the window, and begin to crawl down the castle wall over that dreadful abyss, face down, with his cloak spreading out around him like great wings. -3.22",
+	text: [
+		"*Only found in Vampire Forests*"
+	],
+	tasks: [{
+		uid: "d570fd4a",
+		type: "kill",
+		title: "Kill Vampire Baron",
+		icon: "vampirism:blood_infused_iron_ingot",
+		entity: "vampirism:vampire_baron",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "8cd8043f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "dabdab43",
+		type: "loot",
+		table: 1
+	}]
+}

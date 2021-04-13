@@ -1,0 +1,214 @@
+[
+  {
+    "dimension": 1000,
+    "block": [
+      "rats:marbled_cheese_raw"
+    ],
+    "mobs": [
+      {
+        "mob": "iceandfire:dread_lich",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+	  {
+        "mob": "iceandfire:dread_knight",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+	  {
+        "mob": "iceandfire:dread_ghoul",
+        "weight": 4,
+        "groupcountmin": 3,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  {
+    "dimension": [1100,1101,1102],
+    "mobs": [
+      {
+        "mob": "minecraft:slime",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ],
+	"maxheight": 50
+  },
+  {
+    "dimension": 1000,
+	"mobs": [
+      { 
+        "mob": "iceandfire:dread_thrall",
+        "weight": 10,
+        "groupcountmin": 3,
+        "groupcountmax": 9
+      },
+	  {
+        "mob": "iceandfire:dread_scuttler",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+	  {
+        "mob": "iceandfire:dread_beast",
+        "weight": 8,
+        "groupcountmin": 3,
+        "groupcountmax": 5
+      }
+    ]
+  },
+  {
+    "dimension": 1102,
+	"mobs": [
+      {
+        "mob": "minecraft:blaze",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+	  {
+        "mob": "minecraft:magma_cube",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 69,
+	"mobs": [
+      {
+        "mob": "roots:deer",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+	  {
+        "mob": "roots:sprout",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+	  {
+        "mob": "minecraft:endermite",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+	  {
+        "mob": "primitivemobs:grovesprite",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+	  {
+        "mob": "minecraft:slime",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ],
+	"minheight": 100
+  },
+  {
+    "dimension": 1202,
+	"mobs": [
+      {
+        "mob": "primitivemobs:chameleon",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+	  {
+        "mob": "primitivemobs:filch_lizard",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+	  {
+        "mob": "primitivemobs:bewitched_tome",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+	  {
+        "mob": "primitivemobs:haunted_tool",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+	  {
+        "mob": "primitivemobs:trollager",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 1203,
+	"mobs": [
+      {
+        "mob": "primitivemobs:blazing_juggernaut",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+	  {
+        "mob": "minecraft:slime",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+	  {
+        "mob": "minecraft:slime",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+	  {
+        "mob": "minecraft:slime",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 1204,
+	"mobs": [
+      {
+        "mob": "primitivemobs:treasure_slime",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+	  {
+        "mob": "primitivemobs:dodo",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  {
+    "dimension": 1205,
+	"mobs": [
+      {
+        "mob": "thermalfoundation:blizz",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+	  {
+        "mob": "minecraft:slime",
+        "weight": 6,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+{
+	title: "Mining is my passion!",
+	x: -11.5d,
+	y: 4.5d,
+	description: "Way back in the mine... ",
+	dependencies: [
+		"cf376a10"
+	],
+	tasks: [{
+		uid: "5997c10f",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 128"
+		}],
+		count: 32L
+	},
+	{
+		uid: "7ec2aad8",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 32L
+	},
+	{
+		uid: "ebc318f7",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 130"
+		}],
+		count: 32L
+	},
+	{
+		uid: "4a036cec",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 132"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "0a527278",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e9ea8845",
+		type: "loot",
+		table: 1
+	}]
+}

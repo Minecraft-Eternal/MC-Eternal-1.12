@@ -1,0 +1,20 @@
+{
+	x: 13.5d,
+	y: 5.0d,
+	description: "Basic Solar Generator",
+	dependencies: [
+		"bde05be8"
+	],
+	tasks: [{
+		uid: "e897eeb2",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel"
+		}]
+	}],
+	rewards: [{
+		uid: "964cd362",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -13.0d,
+	y: -14.0d,
+	dependencies: [
+		"3e66f170"
+	],
+	tasks: [{
+		uid: "8c40ceea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9c83469c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "30fcb8e1",
+		type: "loot",
+		table: 1
+	}]
+}

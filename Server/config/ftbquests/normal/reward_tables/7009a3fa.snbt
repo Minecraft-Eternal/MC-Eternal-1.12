@@ -1,0 +1,74 @@
+{
+	title: "How to train your dragon kit",
+	loot_size: 10,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonarmor_silver"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonarmor_silver",
+			Damage: 1s
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonarmor_silver",
+			Damage: 2s
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonarmor_silver",
+			Damage: 3s
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragon_stick"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragon_flute"
+		},
+		only_one: true
+	},
+	{
+		item: "iceandfire:dragon_meal",
+		count: 32
+	}],
+	loot_crate: {
+		string_id: "how_to_train_your_dragon_kit",
+		color: 16737095,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

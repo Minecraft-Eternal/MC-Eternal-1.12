@@ -1,0 +1,34 @@
+{
+	x: 7.5d,
+	y: -1.0d,
+	dependencies: [
+		"d3b7d3cb",
+		"0c2973bb"
+	],
+	tasks: [{
+		uid: "f5c224c0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:railgun"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "43712903",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "065d2ac9",
+		type: "loot",
+		table: 1
+	}]
+}

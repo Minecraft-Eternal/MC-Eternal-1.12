@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: 1.0d,
+	description: "The Snow Queen is found in an ice-encrusted room near the top of the Aurora Palace. She is perhaps the most human-like creature encountered in the Twilight Forest, resembling a woman, but with large violet eyes and pale blue skin.",
+	tasks: [{
+		uid: "d7c695b2",
+		type: "kill",
+		icon: "twilightforest:trophy 1 5",
+		entity: "twilightforest:snow_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "b2d10b3a",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "71507a37",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,104 @@
+{
+  "_comment": "Spawn some pre-boss monsters then the boss, then some creepers.",
+  "key": "Summon the Ethereal Wizard",
+  "bossInfo": {
+    "domain": "ebwizardry",
+    "name": "evil_wizard",
+    "displayName": "§d§lEthereal Moon Wizard",
+    "maxHealth": 15000,
+    "attackDamage": 900.5,
+	"commandToRunAtSpawn": "say @p §cyou §c§ldare §center §cmy §csanctum!!? §cYour §carrogance §cwill §cspell §cyour §cdemise!",
+    "alwaysShowDisplayName": true,
+    "additionalDrops": [{
+        "item": "ebwizardry:master_sorcery_wand",
+        "minDrops": 1,
+        "maxDrops": 1,
+        "dropChance": 100
+      },
+      {
+        "item": "ebwizardry:charm_experience_tome",
+        "minDrops": 1,
+        "maxDrops": 1,
+        "dropChance": 80
+      },
+      {
+        "item": "ebwizardry:charm_stop_time",
+        "minDrops": 1,
+        "maxDrops": 1,
+        "dropChance": 80
+      }
+    ]
+  },
+  "bossAddInfo": [{
+      "_comment": "Spawns a bunch of silverfish, after that is done. Wait 10 (200 ticks) seconds and spawn a big slime.",
+      "_comment2": "After that spawn a random amount of chickens.",
+      "domain": "ebwizardry",
+      "name": "phoenix",
+	  "displayName": "Infernal Netherwyrm",
+	  "commandToRunAtSpawn": "say §5You §5cannot §5even §5begin §5to §5comprehend §5the §5power §5I §5possess! §5It §5is §5not §5of §5your §5world!",
+      "minSpawns": 1,
+      "maxSpawns": 1,
+      "timeBetweenSpawns": 100,
+	  "attackDamage": 300.5,
+	  "maxHealth": 8500,
+      "spawnBeforeBoss": true,
+      "_comment3": "The next wave of adds will start spawning after these adds have been spawned",
+      "nextWaveOfAdds": {
+        "domain": "ebwizardry",
+        "name": "shadow_wraith",
+		"displayName": "§8Nightshade",
+		"commandToRunAtSpawn": "say §cI §cam §cthe §cmost §cpowerful §cwizard!",
+        "minSpawns": 1,
+        "maxSpawns": 3,
+        "timeToWaitBeforeSpawn": 600,
+        "maxHealth": 1850,
+		"attackDamage": 80.5,
+        "nextWaveOfAdds": {
+          "domain": "ebwizardry",
+          "name": "ice_giant",
+		  "commandToRunAtSpawn": "say §8*You §8begin §8to §8feel §8all §8of §8the §8Mana §8drain §8from §8your §8body...*",
+		  "displayName": "§bEnslaved §bFrozen §bRatlantean",
+		  "maxHealth": 8850,
+		  "attackDamage": 2500,
+          "minSpawns": 1,
+          "maxSpawns": 1,
+          "timeBetweenSpawns": 20,
+          "timeToWaitBeforeSpawn": 600
+        }
+      }
+    },
+    {
+      "_comment": "Spawns some creepers while the boss is around to make the fight crazy.",
+      "_comment2": "They start spawning 15 (300 ticks) seconds after the boss spawns.",
+      "domain": "ebwizardry",
+      "name": "storm_elemental",
+      "displayName": "§9Ethereal §9Elemental",
+	  "commandToRunAtSpawn": "say §cBehold §cthe §cpower §cof §ca §ctrue §cmaster §cof §cthe §csummoning §carts! §cYou §care §cweak §chere §cmortal! §cYou §crely §c§lsolely §con §cpathetic §ctechnology §cjust §cto §csupport §cyour §cfeeble §cbody §con §cthe §cMoon. §cMy §cpower §cis §conly §cstrengthened §cby §cthe §cethereal §cenergy §cthat §creside §chere. §cYou §cshould §crun §calong §c§lwhile §c§lyou §c§lstill §c§lcan §c§k8193",
+      "maxHealth": 8500,
+      "attackDamage": 950,
+      "alwaysShowDisplayName": true,
+      "minSpawns": 1,
+      "maxSpawns": 1,
+      "timeBetweenSpawns": 40,
+      "timeToWaitBeforeSpawn": 900
+    }
+  ],
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "group": "Summon",
+    "pattern": ["aaa", "aaa", "aaa"],
+    "key": {
+      "a": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "result": {
+      "item": "from_the_depths:item_totem_of_summoning",
+      "data": 0,
+      "nbt": {
+        "spawn_info": "Custom_Zombie"
+      },
+      "count": 1
+    }
+  }
+}

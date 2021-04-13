@@ -1,0 +1,458 @@
+{
+	title: "Player Shop",
+	icon: "twilightforest:twilight_sapling 1 9",
+	disable_toast: true,
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "hexagon",
+	images: [{
+		x: -5.5d,
+		y: -8.5d,
+		width: 8.0d,
+		height: 1.2d,
+		rotation: 0.0d,
+		image: "assets:playershop.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -11.0d,
+		y: -7.0d,
+		width: 0.4d,
+		height: 0.4d,
+		rotation: -30.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -8.5d,
+		width: 0.5d,
+		height: 0.5d,
+		rotation: 30.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -8.0d,
+		width: 0.3d,
+		height: 0.3d,
+		rotation: 22.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -9.5d,
+		y: -7.5d,
+		width: 0.3d,
+		height: 0.3d,
+		rotation: -22.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -9.5d,
+		y: -8.0d,
+		width: 0.5d,
+		height: 0.5d,
+		rotation: 130.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -7.5d,
+		width: 0.3d,
+		height: 0.3d,
+		rotation: -56.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -0.5d,
+		y: -8.5d,
+		width: 0.3d,
+		height: 0.3d,
+		rotation: 22.0d,
+		image: "assets:coin.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -10.5d,
+		y: -8.5d,
+		width: 0.3d,
+		height: 0.3d,
+		rotation: -22.0d,
+		image: "assets:coin.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -10.0d,
+		y: -7.5d,
+		width: 0.2d,
+		height: 0.2d,
+		rotation: -22.0d,
+		image: "assets:coin.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: -7.5d,
+		width: 0.3d,
+		height: 0.33d,
+		rotation: 22.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -10.5d,
+		y: -7.0d,
+		width: 0.33d,
+		height: 0.33d,
+		rotation: 22.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -7.0d,
+		width: 0.4d,
+		height: 0.4d,
+		rotation: 75.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -10.5d,
+		y: -8.0d,
+		width: 0.4d,
+		height: 0.4d,
+		rotation: -90.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -9.0d,
+		width: 0.33d,
+		height: 0.33d,
+		rotation: -34.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -10.0d,
+		y: -9.0d,
+		width: 0.33d,
+		height: 0.33d,
+		rotation: 63.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -9.5d,
+		y: -9.0d,
+		width: 0.22d,
+		height: 0.22d,
+		rotation: 24.0d,
+		image: "assets:coin.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -0.5d,
+		y: -7.5d,
+		width: 0.22d,
+		height: 0.22d,
+		rotation: 35.0d,
+		image: "assets:coin.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: -8.0d,
+		width: 0.22d,
+		height: 0.22d,
+		rotation: 52.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -10.0d,
+		y: -8.5d,
+		width: 0.44d,
+		height: 0.44d,
+		rotation: -61.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -0.5d,
+		y: -8.0d,
+		width: 0.44d,
+		height: 0.44d,
+		rotation: 42.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -9.5d,
+		y: -9.5d,
+		width: 0.33d,
+		height: 0.33d,
+		rotation: 32.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -9.5d,
+		width: 0.2d,
+		height: 0.2d,
+		rotation: 123.0d,
+		image: "assets:coin.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -10.0d,
+		y: -8.0d,
+		width: 0.33d,
+		height: 0.33d,
+		rotation: 63.0d,
+		image: "assets:pearl.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -10.5d,
+		y: -7.5d,
+		width: 0.33d,
+		height: 0.33d,
+		rotation: 31.0d,
+		image: "assets:pearl.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.5d,
+		y: -9.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 22.0d,
+		image: "assets:star.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -9.5d,
+		y: -9.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: -22.0d,
+		image: "assets:star.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -0.5d,
+		y: -6.5d,
+		width: 0.4d,
+		height: 0.4d,
+		rotation: 24.0d,
+		image: "assets:pearl.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -10.5d,
+		y: -6.5d,
+		width: 0.4d,
+		height: 0.4d,
+		rotation: -32.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -0.5d,
+		y: -7.0d,
+		width: 0.33d,
+		height: 0.33d,
+		rotation: 52.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 3.5d,
+		y: -8.0d,
+		width: 1.4d,
+		height: 1.4d,
+		rotation: 1.0d,
+		image: "assets:wither.png",
+		hover: [
+			"Hello! I'm Murray the detached skeletal head. Could you help me find my misplaced body?"
+		],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.5d,
+		y: -7.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:bone.png",
+		hover: [
+			"The rib bone is connected to the arm bone"
+		],
+		click: "",
+		dev: false
+	},
+	{
+		x: 4.5d,
+		y: -7.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: -100.0d,
+		image: "assets:bone.png",
+		hover: [
+			"The arm bone is connected to the head bone"
+		],
+		click: "",
+		dev: false
+	},
+	{
+		x: 5.0d,
+		y: -6.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 130.0d,
+		image: "assets:bone.png",
+		hover: [
+			"The leg bone is connected to the hip bone"
+		],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.0d,
+		y: -6.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 133.0d,
+		image: "assets:bone.png",
+		hover: [
+			"The head bone is connected to the leg bone"
+		],
+		click: "",
+		dev: false
+	},
+	{
+		x: -12.5d,
+		y: -7.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:cake.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -4.5d,
+		y: -9.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: -30.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -6.0d,
+		y: -9.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 44.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -5.5d,
+		y: -9.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: -10.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -5.0d,
+		y: -9.5d,
+		width: 1.1d,
+		height: 1.1d,
+		rotation: 10.0d,
+		image: "assets:diamond.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

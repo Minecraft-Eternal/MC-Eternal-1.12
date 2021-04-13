@@ -1,0 +1,21 @@
+{
+  "name": "levelup:brewingspeed",
+  "type": "levelup:craft_bonus",
+  "levels": [
+    2,
+    3,
+    5,
+    7,
+    8
+  ],
+  "prerequisites": [
+    "levelup:furnacespeed"
+  ],
+  "stack": {
+    "item": "minecraft:brewing_stand"
+  },
+  "column": 0,
+  "row": 1,
+  "enabled": true,
+  "active": true
+}

@@ -1,0 +1,41 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "dungeontactics:charm_darkened"
+	},
+	x: -20.0d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "The Beneath is a massive mining dimension ruled by dragons and cursed by darkness. I'd suggest bringing a torch, who knows? perhaps the darkness can manifest itself *Creatures here are 4 times stronger than their overworld counterpart*",
+	tasks: [{
+		uid: "052f0dfd",
+		type: "dimension",
+		dim: 10
+	}],
+	rewards: [{
+		uid: "de5f09d1",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "d6a5605d",
+		type: "item",
+		item: {
+			id: "enderio:item_soul_vial",
+			tag: {
+				display: {
+					Name: "Personal Bodyguard"
+				},
+				entityId: "minecraft:villager_golem"
+			},
+			Damage: 1s
+		}
+	},
+	{
+		uid: "cf5e5843",
+		type: "loot",
+		table: 1
+	}]
+}

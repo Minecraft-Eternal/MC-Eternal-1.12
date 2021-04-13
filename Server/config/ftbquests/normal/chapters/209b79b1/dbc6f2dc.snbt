@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 8.5d,
+	tasks: [{
+		uid: "9d9609b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dungeontactics:dungeonpedia_volume_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da6d48dd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

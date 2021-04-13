@@ -1,0 +1,35 @@
+{
+	title: "Short-range Teleportation",
+	x: 13.5d,
+	y: -2.0d,
+	description: "Craft a Staff of Travelling",
+	dependencies: [
+		"7b601388"
+	],
+	tasks: [{
+		uid: "e73f1dcc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_travel_staff",
+			tag: {
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 0
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b1a1b4e0",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e86c5f9a",
+		type: "loot",
+		table: 1
+	}]
+}

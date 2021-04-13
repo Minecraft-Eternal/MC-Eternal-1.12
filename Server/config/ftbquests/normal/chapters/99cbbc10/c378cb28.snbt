@@ -1,0 +1,16 @@
+{
+	x: 5.0d,
+	y: -8.0d,
+	tasks: [{
+		uid: "0d820f57",
+		type: "item",
+		items: [{
+			item: "harvestcraft:orangejuiceitem"
+		}]
+	}],
+	rewards: [{
+		uid: "7addf811",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,163 @@
+{
+	title: "Bosses",
+	icon: "thermalfoundation:material 1 2051",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -5.5d,
+		y: -5.5d,
+		width: 5.2d,
+		height: 1.5d,
+		rotation: 0.0d,
+		image: "assets:bosses.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.5d,
+		y: -6.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.5d,
+		y: -7.0d,
+		width: 0.3d,
+		height: 0.4d,
+		rotation: 58.0d,
+		image: "assets:redstone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.5d,
+		y: -5.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 100.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -3.0d,
+		y: -6.0d,
+		width: 0.3d,
+		height: 0.4d,
+		rotation: -62.0d,
+		image: "assets:redstone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -3.0d,
+		y: -6.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 150.0d,
+		image: "assets:diamond sword.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.5d,
+		y: -6.5d,
+		width: 1.1d,
+		height: 1.1d,
+		rotation: -30.0d,
+		image: "assets:wither.png",
+		hover: [
+			"Ouch! I've dropped my readstone "
+		],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.0d,
+		y: -6.0d,
+		width: 0.3d,
+		height: 0.4d,
+		rotation: 73.0d,
+		image: "assets:redstone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -8.0d,
+		y: -3.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 45.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -5.5d,
+		y: -0.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 45.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -5.5d,
+		y: -2.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 135.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -5.5d,
+		y: 2.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 135.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.5d,
+		y: -3.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 45.0d,
+		image: "assets:bone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -5.5d,
+		y: -4.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:star.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "spawners:undead",
+  "spawners" : [
+    {"level": [0,1,2,3,4], "potentials": [{"name": "minecraft:zombie", "equip": true}]},
+    {"level": [0,1,2,3,4], "potentials": [{"name": "minecraft:skeleton", "equip": true}]},
+    {"level": [0,1,2,3,4], "potentials": [{"name": "minecraft:wither_skeleton", "equip": true}]},
+    {"level": [0,1,2,3,4], "potentials": [
+      {"name": "minecraft:skeleton", "equip": true},
+      {"name": "minecraft:wither_skeleton", "equip": true},
+      {"name": "minecraft:zombie", "equip": true}
+    ]}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+	x: 2.5d,
+	y: -3.0d,
+	shape: "square",
+	description: "*Dimensional: Twilight Forest* The Minotaur is 50% man, 50% bull, and 100% deadly. As if their full speed charges weren't enough to deal with, they also use Gold Axes. Found only in the underground Labyrinths.",
+	dependencies: [
+		"7780b056"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0ee7357",
+		type: "kill",
+		title: "Bounty: Minotaur",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "twilightforest:minotaur",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f7415d5f",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "ce728936",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "cacf67d8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:minotaur_axe_gold"
+		}
+	}]
+}

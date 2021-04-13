@@ -1,0 +1,27 @@
+{
+	x: 2.5d,
+	y: 9.0d,
+	description: "An Introduction to Musical Magic and Ancient Rituals",
+	tasks: [{
+		uid: "7a08553b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "totemic:totempedia"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "46f68e4c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "28b22f2b",
+		type: "loot",
+		table: 1
+	}]
+}

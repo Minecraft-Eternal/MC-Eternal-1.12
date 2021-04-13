@@ -1,0 +1,67 @@
+{
+	x: 18.0d,
+	y: 7.5d,
+	description: "The elements are mine to command",
+	dependencies: [
+		"5ff4f44c"
+	],
+	tasks: [{
+		uid: "90f390ab",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crystal_aer"
+		}]
+	},
+	{
+		uid: "286163ad",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crystal_ignis"
+		}]
+	},
+	{
+		uid: "5e303129",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crystal_aqua"
+		}]
+	},
+	{
+		uid: "872cd543",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crystal_terra"
+		}]
+	},
+	{
+		uid: "308a2b13",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crystal_ordo"
+		}]
+	},
+	{
+		uid: "b299621c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crystal_perditio"
+		}]
+	},
+	{
+		uid: "dba3f298",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crystal_vitium"
+		}]
+	}],
+	rewards: [{
+		uid: "73c7f190",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "8c85ef6a",
+		type: "loot",
+		table: 1
+	}]
+}

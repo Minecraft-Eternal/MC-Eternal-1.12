@@ -1,0 +1,21 @@
+{
+	x: -3.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "856d8e77",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "agricraft:journal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fda82561",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "loot:brewing",
+
+  "lootRules": [
+    {
+      "level": [0, 1, 2, 3, 4],
+      "type": "BREWING",
+      "loot": [
+        {"data": {"name": "minecraft:brown_mushroom"}, "weight": 1},
+        {"data": {"name": "minecraft:fermented_spider_eye"}, "weight": 1},
+        {"data": {"name": "minecraft:fish"}, "weight": 1},
+        {"data": {"name": "minecraft:ghast_tear"}, "weight": 1},
+        {"data": {"name": "minecraft:glowstone_dust"}, "weight": 1},
+        {"data": {"name": "minecraft:golden_carrot"}, "weight": 1},
+        {"data": {"name": "minecraft:magma_cream"}, "weight": 1},
+        {"data": {"name": "minecraft:rabbit_foot"}, "weight": 1},
+        {"data": {"name": "minecraft:red_mushroom"}, "weight": 1},
+        {"data": {"name": "minecraft:speckled_melon"}, "weight": 1},
+        {"data": {"name": "minecraft:spider_eye"}, "weight": 1},
+        {"data": {"name": "minecraft:sugar"}, "weight": 1}
+      ],
+      "each": true,
+      "quantity": 8
+    },
+    {
+      "level": [0, 1, 2, 3, 4],
+      "type": "BREWING",
+      "loot": [
+        {"data": {"name": "minecraft:nether_wart", "min": 0, "max": 4}, "weight": 1}
+      ],
+      "each": true,
+      "quantity": 1
+    },
+    {
+      "level": [0, 1, 2, 3, 4],
+      "type": "BREWING",
+      "loot": [
+        {"data": {"name": "minecraft:glowstone_dust", "min": 0, "max": 3}, "weight": 1},
+        {"data": {"name": "minecraft:gunpowder", "min": 0, "max": 3}, "weight": 1},
+        {"data": {"name": "minecraft:redstone", "min": 0, "max": 3}, "weight": 1}
+      ],
+      "each": true,
+      "quantity": 2
+    },
+    {
+      "level": [0, 1, 2, 3, 4],
+      "type": "BREWING",
+      "loot": [
+        {"data": {"type": "potion", "name": "awkward"}, "weight": 1},
+        {"data": {"type": "potion", "name": "healing"}, "weight": 1},
+        {"data": {"type": "potion", "name": "harming"}, "weight": 1},
+        {"data": {"type": "potion", "name": "luck"}, "weight": 1},
+        {"data": {"type": "potion", "name": "mundane"}, "weight": 1},
+        {"data": {"type": "potion", "name": "thick"}, "weight": 1},
+        {"data": {"type": "potion", "name": "weakness"}, "weight": 1}
+      ],
+      "each": true,
+      "quantity": 1
+    },
+    {
+      "level": [0, 1, 2, 3, 4],
+      "type": "BREWING",
+      "loot": [
+        {"data": {"name": "minecraft:blaze_powder", "min": 0, "max": 5}, "weight": 1}
+      ],
+      "each": true,
+      "quantity": 1
+    },
+    {
+      "level": [0, 1, 2, 3, 4],
+      "type": "BREWING",
+      "loot": [
+        {"data": {"name": "minecraft:glass_bottle", "min": 0, "max": 3}, "weight": 1}
+      ],
+      "each": true,
+      "quantity": 2
+    }
+  ]
+}

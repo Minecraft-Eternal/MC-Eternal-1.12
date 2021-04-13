@@ -1,0 +1,22 @@
+{
+  "name": "levelup:fisherman",
+  "bonus": "levelup:craft_bonus",
+  "skills": [
+    {
+      "name": "levelup:fishbonus",
+      "level": 2
+    },
+    {
+      "name": "levelup:furnacebonus",
+      "level": 2
+    },
+    {
+      "name": "levelup:furnacespeed",
+      "level": 1
+    },
+    {
+      "name": "levelup:lumbering",
+      "level": 1
+    }
+  ]
+}

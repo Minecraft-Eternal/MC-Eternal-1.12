@@ -1,0 +1,40 @@
+{
+	title: "Mmmh Tasty!",
+	x: 15.0d,
+	y: 8.0d,
+	description: "Fast food but for Vampires",
+	dependencies: [
+		"b2809ac9"
+	],
+	tasks: [{
+		uid: "8c86fa4f",
+		type: "item",
+		items: [{
+			item: "vampirism:blood_grinder"
+		}]
+	},
+	{
+		uid: "5465dde9",
+		type: "item",
+		items: [{
+			item: "vampirism:blood_sieve"
+		}]
+	},
+	{
+		uid: "54953063",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:blood_container"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8774dda",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

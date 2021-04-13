@@ -1,0 +1,10 @@
+{
+  "name": "tower:house_house",
+
+  "tower": {
+    "type": "HOUSE",
+    "theme": {
+      "base": "HOUSE"
+    }
+  }
+}
