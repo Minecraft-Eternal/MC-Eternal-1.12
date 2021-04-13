@@ -1,0 +1,36 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "73976e30",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:gorgon_head"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f8b0c0da",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "9e3d3a34",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6c8db607",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "A Spooky Companion!",
+	x: -4.0d,
+	y: 0.5d,
+	shape: "heart",
+	description: " &oPut a Jack O'Lantern on top of two Hay Bales and then right-click in the middle with a Undying Heart to summon a special pet.&c This Quest Chain can't be evil! Look how cute this little guy is, oh wait nevermind",
+	dependencies: [
+		"96a8691d"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "c1bc9dc0",
+		type: "item",
+		items: [{
+			item: "minecraft:lit_pumpkin"
+		}]
+	},
+	{
+		uid: "f30585ac",
+		type: "item",
+		items: [{
+			item: "minecraft:hay_block"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "320ce60d",
+		type: "item",
+		item: "mod_lavacow:cursed_bandage",
+		count: 8
+	},
+	{
+		uid: "60e75499",
+		type: "item",
+		item: "harvestcraft:maplesyruppancakesitem"
+	}]
+}

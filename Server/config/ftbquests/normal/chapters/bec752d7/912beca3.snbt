@@ -1,0 +1,72 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	dependencies: [
+		"8160325b"
+	],
+	tasks: [{
+		uid: "d4db0257",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:wizard_hat_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6185fe74",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:wizard_robe_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "65a74a70",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:wizard_leggings_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9ebf8013",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:wizard_boots_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "888034d3",
+		type: "loot",
+		title: "Advanced Wizard Cache",
+		icon: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "spell_book"
+			}
+		},
+		table: 6
+	},
+	{
+		uid: "b77b07a1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

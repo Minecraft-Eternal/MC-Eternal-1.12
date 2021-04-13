@@ -1,0 +1,34 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "appliedenergistics2:storage_cell_64k",
+		tag: {}
+	},
+	x: 1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "279b4e29",
+		type: "stat",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:fluid_storage_cell_64k",
+			tag: {}
+		},
+		stat: "stat.ae2.ItemsInserted",
+		value: 90000
+	}],
+	rewards: [{
+		uid: "bbc5786d",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "1c85ee29",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

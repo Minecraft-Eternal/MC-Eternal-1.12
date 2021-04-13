@@ -1,0 +1,24 @@
+{
+	x: -17.5d,
+	y: 0.5d,
+	dependencies: [
+		"5ae5ed64"
+	],
+	tasks: [{
+		uid: "cd1ff338",
+		type: "item",
+		items: [{
+			item: "rats:gem_of_ratlantis"
+		}]
+	}],
+	rewards: [{
+		uid: "f400df48",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "4e7a1bea",
+		type: "loot",
+		table: 1
+	}]
+}

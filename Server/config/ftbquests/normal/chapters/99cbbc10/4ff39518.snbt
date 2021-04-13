@@ -1,0 +1,74 @@
+{
+	title: "Condiments",
+	x: -1.0d,
+	y: -6.5d,
+	text: [
+		"Let's add some flavors!"
+	],
+	tasks: [{
+		uid: "689eb539",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cranberrysauceitem"
+		}]
+	},
+	{
+		uid: "435e903b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:guacamoleitem"
+		}]
+	},
+	{
+		uid: "f8f7c780",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hoisinsauceitem"
+		}]
+	},
+	{
+		uid: "ed80503a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:ketchupitem"
+		}]
+	},
+	{
+		uid: "a769bfb8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mayoitem"
+		}]
+	},
+	{
+		uid: "98202ee0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mustarditem"
+		}]
+	},
+	{
+		uid: "f6972232",
+		type: "item",
+		items: [{
+			item: "harvestcraft:sweetandsoursauceitem"
+		}]
+	},
+	{
+		uid: "c2d3acf1",
+		type: "item",
+		items: [{
+			item: "harvestcraft:vegemiteitem"
+		}]
+	}],
+	rewards: [{
+		uid: "6c31f352",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "f7e3767c",
+		type: "loot",
+		table: 1
+	}]
+}

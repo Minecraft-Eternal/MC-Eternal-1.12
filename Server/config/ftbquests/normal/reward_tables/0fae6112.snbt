@@ -1,0 +1,277 @@
+{
+	title: "Heavenly Box",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:angelring",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:angelring",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalcultivation:watering_can",
+			tag: {
+				Water: 60000,
+				Mode: 4
+			},
+			Damage: 32000s
+		}
+	},
+	{
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		item: "rats:creative_cheese"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 200000,
+				JetpackParticleType: 0
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 600000,
+				Mode: 4
+			},
+			Damage: 32000s
+		}
+	},
+	{
+		item: "stevescarts:cartmodule 1 61"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wct:wct_creative"
+		}
+	},
+	{
+		item: "minecraft:skull 1 5"
+	},
+	{
+		item: "minecraft:dragon_egg"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 8.82f,
+					FreeModifiers: 3,
+					Durability: 1126,
+					HarvestLevel: 4,
+					Attack: 10.139f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 8.82f,
+					FreeModifiers: 3,
+					Durability: 1126,
+					HarvestLevel: 4,
+					Attack: 10.139f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"no_melee",
+						"projectile"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"ebonypsi",
+						"ebonypsi",
+						"ebonypsi",
+						"ebonypsi"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "darkness",
+					color: -16119286,
+					level: 1
+				},
+				{
+					identifier: "psieater",
+					color: -16119286,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"darkness",
+					"psieater",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:tough_tool_rod",
+			tag: {
+				Material: "electrumflux"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:scythe_head",
+			tag: {
+				Material: "electrumflux"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:frypan",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.14f,
+					FreeModifiers: 3,
+					Durability: 2185,
+					HarvestLevel: 4,
+					Attack: 9.139f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.14f,
+					FreeModifiers: 3,
+					Durability: 2185,
+					HarvestLevel: 4,
+					Attack: 9.139f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"electrumflux",
+						"electrumflux"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "energyrepair",
+					color: -2709,
+					level: 1
+				},
+				{
+					identifier: "energyeater",
+					color: -2709,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"energyrepair",
+					"energyeater",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:large_sword_blade",
+			tag: {
+				Material: "electrumflux"
+			}
+		}
+	},
+	{
+		item: "doggytalents:creative_collar"
+	},
+	{
+		item: "storagedrawers:upgrade_creative"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_combined_creative"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dread_queen_sword"
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "twilightforest:hydra"
+				}
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "heavenly_box",
+		color: 16710871,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

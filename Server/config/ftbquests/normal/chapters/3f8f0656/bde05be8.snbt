@@ -1,0 +1,27 @@
+{
+	x: 12.5d,
+	y: 4.5d,
+	description: "Basic Energy Storage",
+	dependencies: [
+		"d1dc024c"
+	],
+	tasks: [{
+		uid: "b5d7230d",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa093b6a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "186b57db",
+		type: "loot",
+		table: 1
+	}]
+}

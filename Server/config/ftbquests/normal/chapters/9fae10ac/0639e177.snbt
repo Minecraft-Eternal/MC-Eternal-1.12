@@ -1,0 +1,56 @@
+{
+	title: "&c&lThe Undertaker",
+	x: 0.5d,
+	y: 2.0d,
+	description: "The Undertaker is a powerful hostile necromancer that has the ability to summon armies of Unburied and siege upon villages. Taking no prisoners and adding to his army of undead servants, this abomination must be stopped...",
+	tasks: [{
+		uid: "5feff271",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:undertaker_shovel"
+		},
+		entity: "mod_lavacow:undertaker",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "27cf8e0d",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "169dc29e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "c8e6fb94",
+		type: "item",
+		item: {
+			id: "minecraft:emerald_block",
+			tag: {
+				display: {
+					Name: "Villager's Prize"
+				}
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "a78d0162",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:lich_staff"
+		}
+	}]
+}

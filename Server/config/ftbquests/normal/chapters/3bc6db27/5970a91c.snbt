@@ -1,0 +1,43 @@
+{
+	title: "Other ingots?",
+	x: -0.5d,
+	y: 7.5d,
+	description: "Chrome dust can be obtained by electrolyzing 9 ruby dust or 20 uvarovite dust. Combine tungsten and steel in a blast furnace housing 3,000 heat to obtain hot tungstensteel.",
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "718a5f0b",
+		type: "item",
+		items: [{
+			item: "techreborn:ingot 1 3"
+		}],
+		count: 8L
+	},
+	{
+		uid: "63a9e265",
+		type: "item",
+		items: [{
+			item: "techreborn:ingot 1 16"
+		}],
+		count: 8L
+	},
+	{
+		uid: "61b07d65",
+		type: "item",
+		items: [{
+			item: "techreborn:ingot 1 1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "cf1a2c10",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "561d9e7f",
+		type: "loot",
+		table: 1
+	}]
+}

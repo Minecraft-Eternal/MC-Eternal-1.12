@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "978909fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:hippocampus_slapper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "423fb545",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "7a1b9106",
+		type: "loot",
+		table: 1
+	}]
+}

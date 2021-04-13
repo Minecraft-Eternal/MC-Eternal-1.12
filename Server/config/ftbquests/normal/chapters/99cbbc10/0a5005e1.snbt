@@ -1,0 +1,63 @@
+{
+	title: "Cooking Part 1.",
+	x: 10.0d,
+	y: -1.0d,
+	shape: "square",
+	description: "&oIt's a piece of cake to bake a pretty cake",
+	size: 1.2d,
+	tasks: [{
+		uid: "46fa01c1",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cooking_table"
+		}]
+	},
+	{
+		uid: "93fff064",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	},
+	{
+		uid: "dcac7486",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fridge"
+		}],
+		count: 2L
+	},
+	{
+		uid: "02f321f3",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	}],
+	rewards: [{
+		uid: "5838dc99",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "b1f93f20",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "7cfff50d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cookingforblockheads:recipe_book",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "0155b14a",
+		type: "item",
+		item: "minecraft:egg"
+	}]
+}

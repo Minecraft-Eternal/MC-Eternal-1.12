@@ -1,0 +1,43 @@
+{
+	x: 1.0d,
+	y: -5.0d,
+	shape: "square",
+	description: "&oLives in the &lTwilight Forest&7&o where it gathers strength and studies forbidden ancient magic",
+	dependencies: [
+		"7780b056"
+	],
+	hide: true,
+	tasks: [{
+		uid: "338a2e0c",
+		type: "kill",
+		title: "Bounty: Druid Mage",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:staff"
+		},
+		entity: "tfspellpack:druid_mage",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4377ba9e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "91179b07",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "74eb3f8a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_stop_time"
+		}
+	}]
+}

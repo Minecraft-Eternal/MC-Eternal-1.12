@@ -1,0 +1,37 @@
+{
+	x: -8.0d,
+	y: -7.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c444ede7"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "e5f0e08e",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:moltenbeef"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9c39467c",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "529c0b5f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c7568ea4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:vespa_dagger"
+		}
+	}]
+}

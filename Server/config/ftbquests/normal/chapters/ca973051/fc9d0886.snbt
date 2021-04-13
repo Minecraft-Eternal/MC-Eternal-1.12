@@ -1,0 +1,97 @@
+{
+	icon: "rats:creative_cheese",
+	x: -17.5d,
+	y: -3.5d,
+	shape: "diamond",
+	description: "Rumor tells of a far off land, Ratlantis. This hostile land full of legendary, dangerous creatures can supposedly be accessed by gaining a magical token, an extremely rare drop from a rat. Those who tell tales of Ratlantis return with unrivaled power",
+	tasks: [{
+		uid: "289290f7",
+		type: "dimension",
+		icon: "rats:idol_of_ratlantis",
+		dim: -8
+	}],
+	rewards: [{
+		uid: "d9191393",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:scythe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					Durability: 1573,
+					HarvestLevel: 1,
+					Attack: 2.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					Durability: 1573,
+					HarvestLevel: 1,
+					Attack: 2.0f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"weapon",
+						"tool",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"cheese",
+						"cheese",
+						"cheese",
+						"cheese"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "ratty",
+					color: -868046,
+					level: 1
+				},
+				{
+					identifier: "tasty",
+					color: -868046,
+					level: 1
+				}],
+				Traits: [
+					"ratty",
+					"tasty"
+				]
+			}
+		}
+	},
+	{
+		uid: "7cf5f44c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_arrow"
+		}
+	},
+	{
+		uid: "b5c620fa",
+		type: "item",
+		item: "rats:rat_upgrade_feral_bite"
+	},
+	{
+		uid: "efac0e08",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cheesy_cache"
+			}
+		}
+	}]
+}

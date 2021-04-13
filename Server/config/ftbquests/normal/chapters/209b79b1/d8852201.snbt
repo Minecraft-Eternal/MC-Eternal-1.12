@@ -1,0 +1,37 @@
+{
+	x: -1.0d,
+	y: -4.0d,
+	shape: "gear",
+	description: "&oSo you want to become a bounty hunter eh? Hunting down some of the most hated, dangerous and feared creatures is hard work!",
+	text: [
+		"Bounties are quests that can be completed for a reward, rewards start off small but the more bounties you complete the more unlock, with every bounty you become a more seasoned hunter no doubt, of course the reward increases along with the danger..."
+	],
+	tasks: [{
+		uid: "eaa757cf",
+		type: "checkmark",
+		title: "&6&lBounties and how they work!"
+	}],
+	rewards: [{
+		uid: "01cc171b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "c918c9eb",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "fabbd448",
+		type: "item",
+		item: {
+			id: "harvestcraft:sundayroastitem",
+			tag: {
+				display: {
+					Name: "Bounty Hunters Feast"
+				}
+			}
+		},
+		count: 16
+	}]
+}

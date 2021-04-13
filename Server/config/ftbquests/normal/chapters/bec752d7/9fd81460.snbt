@@ -1,0 +1,24 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	dependencies: [
+		"179af380"
+	],
+	tasks: [{
+		uid: "6104d3fe",
+		type: "item",
+		items: [{
+			item: "ebwizardry:storage_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "10a04091",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1f2f50e9",
+		type: "loot",
+		table: 1
+	}]
+}

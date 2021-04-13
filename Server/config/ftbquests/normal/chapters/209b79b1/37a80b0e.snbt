@@ -1,0 +1,46 @@
+{
+	x: -1.0d,
+	y: -6.5d,
+	shape: "square",
+	description: "These green hulking monstrosities are considered an abomination by most, feared by villagers and capable of throwing blocks at tremendous speeds to injure its prey.",
+	text: [
+		"The sun appears to have some sort of effect on the creatures ability to maneuver itself"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8852201"
+	],
+	tasks: [{
+		uid: "fc568a13",
+		type: "kill",
+		title: "Bounty: Trollager",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "primitivemobs:trollager",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "893f5de0",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "b9548cd1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6f454c79",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "midnight:nagrilite_axe"
+		}
+	}]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "dungeon:swamp_builtin_custom_loot",
+  "exclusive": true,
+  "inherit" : [
+    "dungeon:swamp_builtin_no_loot",
+    "loot:custom"
+  ]
+}

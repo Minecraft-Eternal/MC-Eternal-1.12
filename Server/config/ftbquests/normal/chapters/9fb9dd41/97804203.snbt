@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "0b0fe732",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:troll_weapon.hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "55484477",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "db4563a0",
+		type: "loot",
+		table: 1
+	}]
+}

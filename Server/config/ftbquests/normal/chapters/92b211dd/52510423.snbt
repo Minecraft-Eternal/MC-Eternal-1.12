@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	shape: "gear",
+	description: "&lCheck out &rhttp://arwiki.dmodoomsirius.me/AdvancedRocketry/guides.php &rfor more info",
+	size: 0.5d,
+	tasks: [{
+		uid: "857bb0de",
+		type: "checkmark",
+		title: "&oCredit to the AdvancedRocketry wiki "
+	}],
+	rewards: [{
+		uid: "ab39fbf2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: -12.0d,
+	y: -4.5d,
+	dependencies: [
+		"5026368e"
+	],
+	tasks: [{
+		uid: "9862538f",
+		type: "item",
+		items: [{
+			item: "midnight:cook_stag_flank"
+		}]
+	},
+	{
+		uid: "860c7b82",
+		type: "item",
+		items: [{
+			item: "midnight:cook_suavis"
+		}]
+	},
+	{
+		uid: "adecbc94",
+		type: "item",
+		items: [{
+			item: "midnight:cook_hunter_wing"
+		}]
+	},
+	{
+		uid: "e37ab255",
+		type: "item",
+		items: [{
+			item: "midnight:deceitful_snapper"
+		}]
+	}],
+	rewards: [{
+		uid: "b4d52f36",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

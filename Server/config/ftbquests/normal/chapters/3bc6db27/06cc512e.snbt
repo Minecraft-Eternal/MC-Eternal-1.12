@@ -1,0 +1,25 @@
+{
+	title: "Sap-py Beginnings",
+	x: -2.0d,
+	y: 4.0d,
+	shape: "gear",
+	description: "Using a tree tap, gather 12 saps from Rubber trees.",
+	tasks: [{
+		uid: "da21502e",
+		type: "item",
+		items: [{
+			item: "techreborn:part 1 31"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e013d25e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "45822396",
+		type: "loot",
+		table: 1
+	}]
+}

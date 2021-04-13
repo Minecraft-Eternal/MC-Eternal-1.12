@@ -1,0 +1,4 @@
+{
+  "name": "filter:webby",
+  "filters": [{"level": [0, 1, 2, 3, 4], "name": "cobweb"}]
+}

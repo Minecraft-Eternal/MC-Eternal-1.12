@@ -1,0 +1,23 @@
+{
+	title: "Creative Cheese",
+	icon: "rats:creative_cheese",
+	x: 2.0d,
+	y: 1.0d,
+	shape: "square",
+	description: "*Unlocked by completing Secret*",
+	can_repeat: true,
+	dependencies: [
+		"09898bbf"
+	],
+	tasks: [{
+		uid: "29d66329",
+		type: "ftbmoney:money",
+		value: 2500L
+	}],
+	rewards: [{
+		uid: "d5401b01",
+		type: "item",
+		title: "Creative Cheese",
+		item: "rats:creative_cheese"
+	}]
+}

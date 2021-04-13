@@ -1,0 +1,44 @@
+{
+	title: "&a&lNuclear TNT",
+	x: 1.0d,
+	y: -2.0d,
+	description: "&o\"I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones.\"",
+	tasks: [{
+		uid: "b89ccf1c",
+		type: "item",
+		items: [{
+			item: "ghostsexplosives:tnt_nuclear"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "7eedfc4c",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "6185918c",
+		type: "item",
+		icon: "treasure2:gold_strongbox",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_lootbox"
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		uid: "f83d284a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				display: {
+					Name: "Unclaimed Black Market Container "
+				},
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

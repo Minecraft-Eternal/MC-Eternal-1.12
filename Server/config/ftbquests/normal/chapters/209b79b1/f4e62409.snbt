@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "54e87813",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slimesling"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6927e1c8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

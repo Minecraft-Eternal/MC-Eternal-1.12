@@ -1,0 +1,8 @@
+{
+  "name": "layout:size_medium",
+  "inherit": [
+    "layout:roomcount_medium",
+    "layout:scatter_medium",
+    "layout:type_mixed"
+  ]
+}

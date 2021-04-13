@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: -5.0d,
+	tasks: [{
+		uid: "7495d97d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:fire_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "018007b6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

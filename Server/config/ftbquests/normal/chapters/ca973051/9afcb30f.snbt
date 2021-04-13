@@ -1,0 +1,29 @@
+{
+	x: -11.0d,
+	y: -9.0d,
+	dependencies: [
+		"0647fe18"
+	],
+	tasks: [{
+		uid: "53e67863",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:lifedrain_scepter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d862e410",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "f5e1828e",
+		type: "loot",
+		table: 1
+	}]
+}

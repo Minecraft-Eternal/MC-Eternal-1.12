@@ -1,0 +1,45 @@
+{
+	title: "&e&lWhat an adventure!",
+	x: 0.0d,
+	y: 5.0d,
+	shape: "diamond",
+	description: "&oDiscover all of the biomes present on the planet",
+	hide_dependency_lines: true,
+	dependencies: [
+		"99a4bfed"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "b31206cc",
+		type: "advancement",
+		title: "&lExplore all biomes present on the Planet",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atum:desert_boots_gold"
+		},
+		advancement: "atum:core/ajourney",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "cf5ecd49",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "9b19ad34",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "5da273bd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

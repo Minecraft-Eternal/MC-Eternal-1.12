@@ -1,0 +1,6 @@
+{
+  "name": "main:eternal",
+  "inherit": [
+    "loot:eternal"
+  ]
+}

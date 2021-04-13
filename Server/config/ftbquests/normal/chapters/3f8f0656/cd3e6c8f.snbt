@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: -0.5d,
+	dependencies: [
+		"5ea6fbc6"
+	],
+	tasks: [{
+		uid: "3b41e846",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_reprocessor_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "1fb972d1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

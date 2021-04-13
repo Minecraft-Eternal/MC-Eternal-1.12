@@ -1,0 +1,21 @@
+{
+	x: -12.5d,
+	y: -8.5d,
+	tasks: [{
+		uid: "8007d6c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mysticalagriculture:watering_can",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9e804587",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

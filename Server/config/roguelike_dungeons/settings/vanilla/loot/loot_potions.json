@@ -1,0 +1,72 @@
+{
+  "name": "loot:potions",
+  "lootRules": [
+    {
+      "level": [0, 1, 2, 3, 4],
+      "type": "POTIONS",
+      "each": true,
+      "quantity": 6,
+      "loot": [
+        {"data": {"type": "potion", "name": "empty"}, "weight": 1},
+        {"data": {"type": "potion", "name": "water"}, "weight": 1},
+
+        {"data": {"type": "potion", "name": "mundane"}, "weight": 1},
+        {"data": {"type": "potion", "name": "thick"}, "weight": 1},
+        {"data": {"type": "potion", "name": "awkward"}, "weight": 1},
+
+        {"data": {"type": "potion", "name": "night_vision"}, "weight": 5},
+        {"data": {"type": "potion", "name": "long_night_vision"}, "weight": 1},
+
+        {"data": {"type": "potion", "name": "invisibility"}, "weight": 1},
+        {"data": {"type": "potion", "name": "long_invisibility"}, "weight": 1},
+
+        {"data": {"type": "potion", "name": "leaping"}, "weight": 5},
+        {"data": {"type": "potion", "name": "long_leaping"}, "weight": 1},
+        {"data": {"type": "potion", "name": "strong_leaping"}, "weight": 1},
+
+        {"data": {"type": "potion", "name": "fire_resistance"}, "weight": 5},
+        {"data": {"type": "potion", "name": "long_fire_resistance"}, "weight": 1},
+
+        {"data": {"type": "potion", "name": "swiftness"}, "weight": 30},
+        {"data": {"type": "potion", "name": "long_swiftness"}, "weight": 1},
+        {"data": {"type": "potion", "name": "strong_swiftness"}, "weight": 1},
+        {"data": {"type": "potion", "name": "slowness"}, "weight": 1},
+        {"data": {"type": "potion", "name": "long_slowness"}, "weight": 1},
+
+        {"data": {"type": "potion", "name": "water_breathing"}, "weight": 1},
+        {"data": {"type": "potion", "name": "long_water_breathing"}, "weight": 1},
+
+        {"data": {"type": "potion", "name": "healing"}, "weight": 30},
+        {"data": {"type": "potion", "name": "strong_healing"}, "weight": 5},
+        {"data": {"type": "potion", "name": "harming"}, "weight": 5},
+        {"data": {"type": "potion", "name": "strong_harming"}, "weight": 1},
+
+        {"data": {"type": "potion", "name": "poison"}, "weight": 5},
+        {"data": {"type": "potion", "name": "long_poison"}, "weight": 1},
+        {"data": {"type": "potion", "name": "strong_poison"}, "weight": 1},
+        {"data": {"type": "potion", "name": "regeneration"}, "weight": 10},
+        {"data": {"type": "potion", "name": "long_regeneration"}, "weight": 3},
+        {"data": {"type": "potion", "name": "strong_regeneration"}, "weight": 3},
+
+        {"data": {"type": "potion", "name": "strength"}, "weight": 30},
+        {"data": {"type": "potion", "name": "long_strength"}, "weight": 3},
+        {"data": {"type": "potion", "name": "strong_strength"}, "weight": 3},
+        {"data": {"type": "potion", "name": "weakness"}, "weight": 1},
+        {"data": {"type": "potion", "name": "long_weakness"}, "weight": 1},
+
+        {"data": {"type": "mixture", "name": "COFFEE"}, "weight": 3},
+        {"data": {"type": "mixture", "name": "VILE"}, "weight": 3},
+        {"data": {"type": "mixture", "name": "LAUDANUM"}, "weight": 3},
+        {"data": {"type": "mixture", "name": "TEQUILA"}, "weight": 3},
+        {"data": {"type": "mixture", "name": "MOONSHINE"}, "weight": 3},
+        {"data": {"type": "mixture", "name": "ABSINTHE"}, "weight": 3},
+        {"data": {"type": "mixture", "name": "RAGE"}, "weight": 3},
+        {"data": {"type": "mixture", "name": "STOUT"}, "weight": 3},
+        {"data": {"type": "mixture", "name": "STAMINA"}, "weight": 3},
+        {"data": {"type": "mixture", "name": "NECTAR"}, "weight": 3},
+        {"data": {"type": "mixture", "name": "COFFEE"}, "weight": 3},
+        {"data": {"type": "mixture", "name": "AURA"}, "weight": 3}
+      ]
+    }
+  ]
+}

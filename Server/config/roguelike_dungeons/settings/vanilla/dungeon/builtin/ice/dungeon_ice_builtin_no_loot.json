@@ -1,0 +1,10 @@
+{
+  "name" : "dungeon:ice_builtin_no_loot",
+  "exclusive": false,
+  "inherit" : [
+    "builtin:ice"
+  ],
+  "overrides": [
+    "LOOTRULES"
+  ]
+}

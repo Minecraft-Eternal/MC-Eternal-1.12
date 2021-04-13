@@ -1,0 +1,51 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "6abe261c",
+		type: "item",
+		title: "Troll's Mossy Column",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:troll_weapon.column_forest"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:troll_weapon.column"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:troll_weapon.column_frost"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:troll_weapon.trunk_frost"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:troll_weapon.trunk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "54154416",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "8bee859d",
+		type: "loot",
+		table: 1
+	}]
+}

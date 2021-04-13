@@ -1,0 +1,24 @@
+{
+	x: -12.0d,
+	y: -18.0d,
+	dependencies: [
+		"16635439"
+	],
+	tasks: [{
+		uid: "1d94238b",
+		type: "item",
+		items: [{
+			item: "twilightforest:tower_key"
+		}]
+	}],
+	rewards: [{
+		uid: "eed92592",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "81b977d3",
+		type: "loot",
+		table: 1
+	}]
+}

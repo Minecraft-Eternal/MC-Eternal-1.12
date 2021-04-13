@@ -1,0 +1,24 @@
+{
+	x: -13.5d,
+	y: -4.5d,
+	dependencies: [
+		"5026368e"
+	],
+	tasks: [{
+		uid: "8d6753bb",
+		type: "item",
+		items: [{
+			item: "midnight:dark_pearl"
+		}]
+	}],
+	rewards: [{
+		uid: "a68756a8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "30127565",
+		type: "loot",
+		table: 1
+	}]
+}

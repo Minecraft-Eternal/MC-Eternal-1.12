@@ -1,0 +1,40 @@
+{
+	title: "&6&lThe Betweenlands",
+	x: -5.5d,
+	y: -4.5d,
+	shape: "hexagon",
+	description: "Located between Hell and the Overworld, this dimension is not for the faint of heart. Dangerous energies reside along with treacherous extraterrestrial life-forms awaiting for foolish adventurers to enter!",
+	text: [
+		"*Right click a sapling with the Swamp Talisman, make sure it has plenty of space*"
+	],
+	dependencies: [
+		"ed655c77"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "9c34fd46",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:swamp_talisman"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1a375fc7",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "b96287f8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	description: "&c&oWhere the dead walk and the living are most unwelcome...",
+	size: 2.0d,
+	tasks: [{
+		uid: "76de81e7",
+		type: "observation",
+		title: "Visit Primordium",
+		icon: "iceandfire:dread_shard",
+		match_type: "block_entity_id",
+		match: "",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "38551f73",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dread_queen_sword"
+		}
+	}]
+}

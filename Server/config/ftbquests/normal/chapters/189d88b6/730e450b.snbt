@@ -1,0 +1,42 @@
+{
+	x: -11.0d,
+	y: -11.0d,
+	description: "&oFire and Ice Dragon Summoning Crystal is an item that can teleport a dragon to you. To do so, right-click on a dragon to bind it and after, use when bound to teleport the dragon by right-clicking.",
+	dependencies: [
+		"e375f1be"
+	],
+	tasks: [{
+		uid: "f5c5b40e",
+		type: "item",
+		title: "&lDragon Crystal",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:summoning_crystal_fire"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:summoning_crystal_ice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a88fb457",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "a88da8f4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

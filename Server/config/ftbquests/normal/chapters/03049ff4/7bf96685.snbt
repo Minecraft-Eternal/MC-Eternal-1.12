@@ -1,0 +1,51 @@
+{
+	icon: "minecraft:skull 1 5",
+	x: 0.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "13d53dd1",
+		type: "kill",
+		icon: "enderio:block_enderman_skull",
+		entity: "minecraft:ender_dragon",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "c702cfd0",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "b8150626",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dungeontactics:peg_hammer"
+		}
+	},
+	{
+		uid: "b81c34e2",
+		type: "loot",
+		title: "Golden lootbox",
+		table: 12
+	},
+	{
+		uid: "96f970bb",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "c842aad6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				display: {
+					Name: "Unclaimed Black Market Container "
+				},
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -13.0d,
+	y: 4.0d,
+	dependencies: [
+		"e3372ef6"
+	],
+	tasks: [{
+		uid: "7449df59",
+		type: "item",
+		items: [{
+			item: "forestry:fermenter"
+		}]
+	}],
+	rewards: [{
+		uid: "49c112a2",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "f93f76f2",
+		type: "loot",
+		table: 1
+	}]
+}

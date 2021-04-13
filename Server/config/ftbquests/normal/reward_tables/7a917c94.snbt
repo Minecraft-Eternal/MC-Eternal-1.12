@@ -1,0 +1,7 @@
+{
+	title: "junk 2",
+	loot_size: 27,
+	rewards: [{
+		item: "stupidthings:balloon 1 6"
+	}]
+}

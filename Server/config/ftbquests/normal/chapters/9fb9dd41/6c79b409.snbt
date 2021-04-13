@@ -1,0 +1,34 @@
+{
+	x: -3.0d,
+	y: 4.5d,
+	shape: "diamond",
+	description: "Harness the power of the Earth!",
+	tasks: [{
+		uid: "596beca6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:earth_talisman"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e042eaa5",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	},
+	{
+		uid: "454b7d8d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		},
+		count: 3
+	}]
+}

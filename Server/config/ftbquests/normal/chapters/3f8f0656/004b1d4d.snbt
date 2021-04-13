@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 7.0d,
+	dependencies: [
+		"a5523eb2"
+	],
+	tasks: [{
+		uid: "6a55c3a6",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:laser_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "ecb80e80",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "fc74d7b5",
+		type: "loot",
+		table: 1
+	}]
+}

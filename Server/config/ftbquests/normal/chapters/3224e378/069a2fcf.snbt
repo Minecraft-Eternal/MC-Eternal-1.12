@@ -1,0 +1,39 @@
+{
+	x: 6.5d,
+	y: 0.5d,
+	shape: "pentagon",
+	description: "&oThe Crushroom is a dangerous hostile boss mob that spawns in Fungal Forests. The Crushroom is a force to be reckoned with. Don't mess with these guys if you see them early in your journey through the Erebus",
+	tasks: [{
+		uid: "0fbaa4ba",
+		type: "kill",
+		title: "&c&lBoss: Crushroom",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:mushroom_helmet"
+		},
+		entity: "erebus:erebus.crushroom",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "46035158",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "5dd7c1c5",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "5eb82ff1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

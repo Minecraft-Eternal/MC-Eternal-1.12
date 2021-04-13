@@ -1,0 +1,21 @@
+{
+	x: 10.5d,
+	y: 5.5d,
+	description: "Used for EnderIO conduits",
+	dependencies: [
+		"d3804759"
+	],
+	tasks: [{
+		uid: "683f7e74",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 4"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "c0181376",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

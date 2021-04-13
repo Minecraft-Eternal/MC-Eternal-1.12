@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	dependencies: [
+		"ebfe10db"
+	],
+	tasks: [{
+		uid: "2eb88988",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutwarehouse"
+		}]
+	}],
+	rewards: [{
+		uid: "79f83aa9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "108f9abe",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

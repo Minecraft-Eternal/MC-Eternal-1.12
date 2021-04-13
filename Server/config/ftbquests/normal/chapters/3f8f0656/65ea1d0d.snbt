@@ -1,0 +1,22 @@
+{
+	title: "Next tier capacitating",
+	x: 17.0d,
+	y: 2.0d,
+	description: "Advanced version of Basic capacitor",
+	dependencies: [
+		"1d4eeaf7"
+	],
+	tasks: [{
+		uid: "2aa3b2a9",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 1"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "7e6fe34a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	description: "Minion, minion I summon thou minion!",
+	tasks: [{
+		uid: "e97232d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:barako_mask"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ef64c8c7",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "2b2677d2",
+		type: "loot",
+		table: 1
+	}]
+}

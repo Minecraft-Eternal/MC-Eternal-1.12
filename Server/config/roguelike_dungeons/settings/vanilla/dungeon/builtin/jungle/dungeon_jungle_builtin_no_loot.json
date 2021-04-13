@@ -1,0 +1,10 @@
+{
+  "name" : "dungeon:jungle_builtin_no_loot",
+  "exclusive": false,
+  "inherit" : [
+    "builtin:jungle"
+  ],
+  "overrides": [
+    "LOOTRULES"
+  ]
+}

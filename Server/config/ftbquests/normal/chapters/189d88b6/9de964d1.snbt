@@ -1,0 +1,30 @@
+{
+	x: -15.4d,
+	y: -4.55d,
+	description: "If you die and lose currency or change dimension and you notice all of your hard earned money has vanished, use the command /pay username 1 this will reload the money",
+	dependencies: [
+		"87cb3976"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "6f1f4a56",
+		type: "checkmark",
+		title: "Losing Currency",
+		icon: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 1L
+			}
+		}
+	}],
+	rewards: [{
+		uid: "197081da",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	},
+	{
+		uid: "4f5f4e3b",
+		type: "loot",
+		table: 1
+	}]
+}

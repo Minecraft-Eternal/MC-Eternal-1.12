@@ -1,0 +1,41 @@
+{
+	title: "Immunise yourself to the Vampire Affliction",
+	x: 11.5d,
+	y: 11.0d,
+	shape: "hexagon",
+	description: "Heard they're reforming the Dawnguard. Vampire hunters or something...",
+	tasks: [{
+		uid: "a171c342",
+		type: "item",
+		items: [{
+			item: "vampirism:injection 1 1"
+		}]
+	},
+	{
+		uid: "0529b157",
+		type: "item",
+		items: [{
+			item: "vampirism:item_med_chair"
+		}]
+	}],
+	rewards: [{
+		uid: "6c328c7a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "guideapi:vampirism-guide"
+		}
+	},
+	{
+		uid: "08d9369f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c21ad882",
+		type: "loot",
+		table: 1
+	}]
+}

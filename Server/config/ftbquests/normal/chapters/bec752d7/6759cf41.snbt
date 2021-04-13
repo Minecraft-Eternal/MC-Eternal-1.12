@@ -1,0 +1,31 @@
+{
+	x: 11.5d,
+	y: 9.5d,
+	description: "Tastes pretty good I suppose... Sorta miss being able to drink orange juice though.. *sad vampire noises*",
+	dependencies: [
+		"f09ba446"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "d7acd052",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:blood_bottle",
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c142dba6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "73e4d21d",
+		type: "loot",
+		table: 1
+	}]
+}

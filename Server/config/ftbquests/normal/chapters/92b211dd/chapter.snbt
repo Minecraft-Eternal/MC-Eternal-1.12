@@ -1,0 +1,18 @@
+{
+	title: "Space Exploration",
+	icon: "extrautils2:ingredients 1 5",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "octagon",
+	images: [{
+		x: -1.5d,
+		y: -3.0d,
+		width: 0.3d,
+		height: 0.9d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Light puzzle minigame",
+	x: -2.0d,
+	y: 7.5d,
+	description: "Found deep underground rarely on occasion. Complete to win a prize!",
+	tasks: [{
+		uid: "2ba70e43",
+		type: "observation",
+		icon: "lootgames:gol_master",
+		match_type: "block_id",
+		match: "lootgames:gol_master",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "a67d2a8f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

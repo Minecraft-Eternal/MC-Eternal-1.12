@@ -1,0 +1,23 @@
+{
+	x: 11.0d,
+	y: -3.0d,
+	text: [
+		"Nom Nom COOKIE! Nom"
+	],
+	dependencies: [
+		"17f50c84"
+	],
+	tasks: [{
+		uid: "0a2f16f0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:sugarcookieitem"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c63cfe30",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

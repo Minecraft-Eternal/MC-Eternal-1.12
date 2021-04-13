@@ -1,0 +1,29 @@
+{
+	x: 9.5d,
+	y: 9.0d,
+	dependencies: [
+		"4486956a"
+	],
+	tasks: [{
+		uid: "9a8fc9b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "totemic:baykok_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bbf42acb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d5432321",
+		type: "loot",
+		table: 1
+	}]
+}

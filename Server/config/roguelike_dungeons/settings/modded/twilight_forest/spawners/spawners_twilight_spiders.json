@@ -1,0 +1,19 @@
+{
+  "name": "spawners:twilight_spiders",
+  "requires": ["twilightforest"],
+  "spawners": [
+    {"level" : [0, 1, 2, 3, 4], "weight": 1, "potentials": [{"name": "minecraft:spider"}]},
+    {"level" : [0, 1, 2, 3, 4], "weight": 1, "potentials": [{"name": "minecraft:cave_spider"}]},
+    {"level" : [0, 1, 2, 3, 4], "weight": 1, "potentials": [{"name": "minecraft:spider"}, {"name": "minecraft:cave_spider"}]},
+    {"level" : [0, 1, 2, 3, 4], "weight": 1, "potentials": [{"name": "twilightforest:swarm_spider"}]},
+    {"level" : [0, 1, 2, 3, 4], "weight": 1, "potentials": [{"name": "twilightforest:hedge_spider"}]},
+    {"level" : [0, 1, 2, 3, 4], "weight": 1, "potentials": [{"name": "twilightforest:king_spider"}]},
+    {"level" : [0, 1, 2, 3, 4], "weight": 1, "potentials": [
+      {"name": "minecraft:spider", "weight": 1},
+      {"name": "minecraft:cave_spider", "weight": 1},
+      {"name": "twilightforest:hedge_spider", "weight":  1},
+      {"name": "twilightforest:swarm_spider", "weight":  1},
+      {"name": "twilightforest:king_spider", "weight":  1}
+    ]}
+  ]
+}

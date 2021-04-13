@@ -1,0 +1,56 @@
+{
+	x: -6.5d,
+	y: -4.0d,
+	shape: "square",
+	description: "&cDemons are mobs summoned from a ritual that requires spilling the blood of a villager to start. Enterprising witches may trade with demons for a variety of items including Demonic Contracts and Boxes of Sealed Evil",
+	dependencies: [
+		"19a1105b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5fbf3376",
+		type: "kill",
+		title: "Bounty: Baphomet",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "bewitchment:baphomet",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e729c8f0",
+		type: "ftbmoney:money",
+		ftb_money: 666L
+	},
+	{
+		uid: "9c5f31dd",
+		type: "item",
+		item: "bewitchment:gold_baphomet_statue"
+	},
+	{
+		uid: "6af1c1d1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "f770db84",
+		type: "item",
+		item: "minecraft:emerald_block",
+		count: 6
+	},
+	{
+		uid: "0cd37bea",
+		type: "item",
+		item: "bewitchment:box_of_sealed_evil",
+		count: 7
+	}]
+}

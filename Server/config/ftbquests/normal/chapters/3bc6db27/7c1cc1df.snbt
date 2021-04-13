@@ -1,0 +1,26 @@
+{
+	title: "Plate Bending",
+	x: -2.5d,
+	y: 7.5d,
+	description: "Used to craft plates that are used in many recipes.",
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "60659ea9",
+		type: "item",
+		items: [{
+			item: "techreborn:plate_bending_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "ce41d4cd",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "61c1c809",
+		type: "loot",
+		table: 1
+	}]
+}

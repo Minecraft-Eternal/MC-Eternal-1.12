@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 4.0d,
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "b7930532",
+		type: "item",
+		items: [{
+			item: "techreborn:alarm"
+		}]
+	}],
+	rewards: [{
+		uid: "106d4d68",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	x: -7.5d,
+	y: -2.0d,
+	description: "A venomous, multi-headed serpent that can regenerate any of its heads if they are severed.",
+	text: [
+		"Only the primal unrelenting power of fire can stop such a beast "
+	],
+	tasks: [{
+		uid: "84c7bcb1",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:hydra_heart"
+		},
+		entity: "iceandfire:if_hydra",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0f8d939f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "26d63163",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "f688c13e",
+		type: "item",
+		item: "iceandfire:hydra_arrow",
+		count: 17
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	icon: "twilightforest:trophy 1 2",
+	x: -9.0d,
+	y: 0.0d,
+	description: "The Hydra can be found in a unique, cracked-open Hydra Lair in a Fire Swamp. The Hydra appears as a massive creature, with two stumpy legs supporting a wide, scaly body. Multiple serpentine necks end in large fiery heads.",
+	tasks: [{
+		uid: "d579d980",
+		type: "kill",
+		entity: "twilightforest:hydra",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0d3eb513",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "9b1362c1",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "1d7de5ba",
+		type: "loot",
+		table: 1
+	}]
+}

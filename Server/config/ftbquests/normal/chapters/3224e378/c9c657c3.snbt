@@ -1,0 +1,39 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "erebus:rein_compound_goggles"
+	},
+	x: 6.5d,
+	y: -0.5d,
+	shape: "pentagon",
+	description: "&oThe Antlion Overlord is the Erebus' second boss mob, that spawns in its own dungeon; the Antlion Overlord Pyramid.",
+	tasks: [{
+		uid: "758755bf",
+		type: "kill",
+		title: "&c&lBoss: Antlion Overlord",
+		entity: "erebus:erebus.antlion_boss",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "194f67cf",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "a584bd24",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "d0291a16",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

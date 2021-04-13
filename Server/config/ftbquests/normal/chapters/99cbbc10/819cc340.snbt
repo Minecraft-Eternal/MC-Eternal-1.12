@@ -1,0 +1,44 @@
+{
+	x: 9.0d,
+	y: 0.5d,
+	dependencies: [
+		"cb9faa4a"
+	],
+	tasks: [{
+		uid: "a73ba115",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:tool_rack"
+		}]
+	},
+	{
+		uid: "398604e4",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:spice_rack"
+		}]
+	},
+	{
+		uid: "3b2c4674",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fruit_basket"
+		}]
+	}],
+	rewards: [{
+		uid: "77c91e57",
+		type: "item",
+		item: "minecraft:wheat",
+		count: 3
+	},
+	{
+		uid: "6369936d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "3a28ba4d",
+		type: "loot",
+		table: 1
+	}]
+}

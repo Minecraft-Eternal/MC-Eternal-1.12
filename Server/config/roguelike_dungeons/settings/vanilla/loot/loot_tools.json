@@ -1,0 +1,54 @@
+{
+  "name": "loot:tools",
+  "lootRules": [
+    {"level": 0, "type": "TOOLS", "loot": [{"data": {"type": "tool", "level": 0}}], "each": true, "quantity": 1},
+    {"level": 1, "type": "TOOLS", "loot": [{"data": {"type": "tool", "level": 1}}], "each": true, "quantity": 1},
+    {"level": 2, "type": "TOOLS", "loot": [{"data": {"type": "tool", "level": 2}}], "each": true, "quantity": 1},
+    {"level": 3, "type": "TOOLS", "loot": [{"data": {"type": "tool", "level": 3}}], "each": true, "quantity": 1},
+    {"level": 4, "type": "TOOLS", "loot": [{"data": {"type": "tool", "level": 4}}], "each": true, "quantity": 1},
+    {
+      "level": [0, 1, 2, 3, 4],
+      "type": "TOOLS",
+      "each": true,
+      "quantity": 2,
+      "loot": [
+        {"data": {"name": "minecraft:torch", "min": 8, "max": 16}},
+        {"data": {"name": "minecraft:torch", "min": 8, "max": 16}},
+        {"data": {"name": "minecraft:flint_and_steel"}},
+        {"data": {"name": "minecraft:glass_bottle"}},
+        {"data": {"name": "minecraft:paper", "min": 1, "max": 3}},
+        {"data": {"name": "minecraft:tnt", "min": 1, "max": 3}}
+      ]
+    },
+    {
+      "level": [0, 1, 2, 3, 4],
+      "type": "TOOLS",
+      "each": true,
+      "quantity": 1,
+      "loot": [
+        {"data": {"name": "minecraft:bucket"}},
+        {"data": {"name": "minecraft:clock"}},
+        {"data": {"name": "minecraft:compass"}},
+        {"data": {"name": "minecraft:fishing_rod"}},
+        {"data": {"name": "minecraft:lead"}},
+        {"data": {"name": "minecraft:saddle"}},
+        {"data": {"name": "minecraft:shears"}},
+        {"data": {"name": "minecraft:stone_hoe"}},
+        {"data": {"name": "minecraft:wooden_hoe"}}
+      ]
+    },
+    {
+      "level": [1, 2, 3, 4],
+      "type": "TOOLS",
+      "each": false,
+      "quantity": 2,
+      "loot": [
+        {"data": {"type": "tool", "level": 0}, "weight": 16},
+        {"data": {"type": "tool", "level": 1}, "weight": 8},
+        {"data": {"type": "tool", "level": 2}, "weight": 4},
+        {"data": {"type": "tool", "level": 3}, "weight": 2},
+        {"data": {"type": "tool", "level": 4}, "weight": 1}
+      ]
+    }
+  ]
+}

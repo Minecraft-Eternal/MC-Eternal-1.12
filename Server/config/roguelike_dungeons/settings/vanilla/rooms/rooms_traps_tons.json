@@ -1,0 +1,42 @@
+{
+  "name": "rooms:traps_more",
+
+  "rooms": [
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "PIT",
+      "weight": 30
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "CREEPER",
+      "weight": 30
+    },
+    {
+      "level": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequency": "random",
+      "type": "SPIDER",
+      "weight": 30
+    }
+  ]
+}

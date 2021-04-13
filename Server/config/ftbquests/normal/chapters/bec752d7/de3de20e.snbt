@@ -1,0 +1,32 @@
+{
+	x: 12.0d,
+	y: 15.5d,
+	dependencies: [
+		"ecc21362"
+	],
+	tasks: [{
+		uid: "584217f1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:enhanced_tech_crossbow",
+			tag: {
+				arrows: 12
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "67fc3d24",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "ada0fc1a",
+		type: "loot",
+		table: 1
+	}]
+}

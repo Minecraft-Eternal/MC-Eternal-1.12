@@ -1,0 +1,12 @@
+{
+  "name": "spawners:spiders",
+  "spawners": [
+    {"level" : [0, 1, 2, 3, 4], "weight": 1, "potentials": [{"name": "minecraft:spider"}]},
+    {"level" : [0, 1, 2, 3, 4], "weight": 1, "potentials": [{"name": "minecraft:cave_spider"}]},
+    {"level" : [0, 1, 2, 3, 4], "weight": 1, "potentials": [{"name": "minecraft:spider"}, {"name": "minecraft:cave_spider"}]},
+    {"level" : [0, 1, 2, 3, 4], "weight": 1, "potentials": [
+      {"name": "minecraft:spider", "weight": 1},
+      {"name": "minecraft:cave_spider", "weight": 1}
+    ]}
+  ]
+}

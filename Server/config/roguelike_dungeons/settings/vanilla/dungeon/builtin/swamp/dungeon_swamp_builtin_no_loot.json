@@ -1,0 +1,10 @@
+{
+  "name" : "dungeon:swamp_builtin_no_loot",
+  "exclusive": false,
+  "inherit" : [
+    "builtin:swamp"
+  ],
+  "overrides": [
+    "LOOTRULES"
+  ]
+}

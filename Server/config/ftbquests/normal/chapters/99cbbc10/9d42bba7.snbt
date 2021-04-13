@@ -1,0 +1,65 @@
+{
+	title: "The cake isn't a lie!",
+	x: 3.0d,
+	y: -6.5d,
+	text: [
+		"What kind of cake do you like?"
+	],
+	tasks: [{
+		uid: "f5ac5685",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:cake"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "54d41db7",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cheesecakeitem"
+		}]
+	},
+	{
+		uid: "8e07c7d8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:holidaycakeitem"
+		}]
+	},
+	{
+		uid: "f7c6f196",
+		type: "item",
+		items: [{
+			item: "harvestcraft:lamingtonitem"
+		}]
+	},
+	{
+		uid: "23b8ce86",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pumpkincheesecakeitem"
+		}]
+	},
+	{
+		uid: "9c9529e5",
+		type: "item",
+		items: [{
+			item: "harvestcraft:redvelvetcakeitem"
+		}]
+	}],
+	rewards: [{
+		uid: "c95891dc",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "2707629b",
+		type: "loot",
+		table: 1
+	}]
+}

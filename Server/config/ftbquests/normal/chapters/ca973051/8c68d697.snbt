@@ -1,0 +1,29 @@
+{
+	x: -9.0d,
+	y: -5.5d,
+	dependencies: [
+		"b86b7a71"
+	],
+	tasks: [{
+		uid: "fa5fc55b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:voodoo_doll"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fae655b1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9058ed60",
+		type: "loot",
+		table: 1
+	}]
+}

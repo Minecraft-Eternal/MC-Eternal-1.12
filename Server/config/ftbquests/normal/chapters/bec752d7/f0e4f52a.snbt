@@ -1,0 +1,28 @@
+{
+	x: 11.5d,
+	y: 1.0d,
+	description: "Introduction to Magical Botany",
+	tasks: [{
+		uid: "19bce1d4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd245645",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "922368ad",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "twilightforest:fiery_pickaxe"
+	},
+	x: -12.5d,
+	y: 0.0d,
+	description: "Giants live on solid cloudbanks above the Highlands biome. For unknown reasons (Sorcery? Coincidence? Symbolism?) they look like giant versions of the player looking at them",
+	tasks: [{
+		uid: "673eae9d",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:giant_pickaxe"
+		},
+		entity: "twilightforest:giant_miner",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "526d7246",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "8f0c46bd",
+		type: "loot",
+		table: 1
+	}]
+}

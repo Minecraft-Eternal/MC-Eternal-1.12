@@ -1,0 +1,22 @@
+{
+	x: -6.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "60e44ca5",
+		type: "item",
+		items: [{
+			item: "mowziesmobs:grant_suns_blessing"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "51fee215",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "abc48823",
+		type: "loot",
+		table: 1
+	}]
+}

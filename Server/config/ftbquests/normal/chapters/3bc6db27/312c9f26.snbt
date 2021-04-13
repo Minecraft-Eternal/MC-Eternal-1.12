@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: 2.5d,
+	dependencies: [
+		"76f57f8e"
+	],
+	tasks: [{
+		uid: "1a964b3e",
+		type: "item",
+		items: [{
+			item: "stevescarts:cartmodule 1 40"
+		}]
+	}],
+	rewards: [{
+		uid: "912cab1d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "12e32e69",
+		type: "loot",
+		table: 1
+	}]
+}

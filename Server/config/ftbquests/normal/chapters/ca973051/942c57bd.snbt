@@ -1,0 +1,55 @@
+{
+	x: -13.5d,
+	y: -1.0d,
+	dependencies: [
+		"5026368e"
+	],
+	tasks: [{
+		uid: "e944047f",
+		type: "item",
+		items: [{
+			item: "midnight:tenebrum_ore"
+		}]
+	},
+	{
+		uid: "34a6d24d",
+		type: "item",
+		items: [{
+			item: "midnight:nightstone"
+		}]
+	},
+	{
+		uid: "46d5b512",
+		type: "item",
+		items: [{
+			item: "midnight:nagrilite_ore"
+		}]
+	},
+	{
+		uid: "8eb14038",
+		type: "item",
+		items: [{
+			item: "midnight:archaic_ore"
+		}]
+	},
+	{
+		uid: "fd2dca14",
+		type: "item",
+		items: [{
+			item: "midnight:ebonys_ore"
+		}]
+	},
+	{
+		uid: "cd8b3269",
+		type: "item",
+		items: [{
+			item: "midnight:rockshroom_clump"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "53196927",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

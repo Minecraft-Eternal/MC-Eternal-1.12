@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "69e9d8a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:cyclops_eye"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8024ac8d",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "a801ffae",
+		type: "loot",
+		table: 1
+	}]
+}
