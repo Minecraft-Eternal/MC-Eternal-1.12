@@ -19,6 +19,7 @@ recipes.remove(<extrautils2:angelring>);
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<extrautils2:lawsword>);
 recipes.remove(<extrautils2:quarry>);
+recipes.remove(<extrautils2:opinium:8>);
 
 #Add Recipes
 #Glass wings
