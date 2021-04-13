@@ -37,5 +37,7 @@ recipes.addShaped(<extrautils2:angelring>, [[<mekanism:crystal:1>, <mekanism:cry
 recipes.addShaped(<extrautils2:lawsword>, [[<extrautils2:opinium:8>], [<extrautils2:opinium:8>], [<theaurorian:livingdiviningrod>]]);
 #Quantum Quarry
 recipes.addShaped(<extrautils2:quarry>, [[<ore:blockCerulean>, <theaurorian:moongem>, <ore:blockCerulean>], [<theaurorian:moongem>, <ore:magic_snow_globe>, <theaurorian:moongem>], [<ore:blockCerulean>, <theaurorian:moongem>, <ore:blockCerulean>]]);
+#core 8
+recipes.addShaped(<extrautils2:opinium:8>, [[<mysticalagradditions:insanium:2>, <extrautils2:opinium:7>, <mysticalagradditions:insanium:2>],[<minecraft:iron_ingot>, <mysticalagradditions:storage:1>, <theaurorian:auroriansteel>], [<mysticalagradditions:insanium:2>, <extrautils2:opinium:7>, <mysticalagradditions:insanium:2>]]);
 
 print("--- ExtrUtils.zs initialized ---");
