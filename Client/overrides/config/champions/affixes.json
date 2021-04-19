@@ -58,7 +58,7 @@
   {
     "identifier": "lively",
     "enabled": true,
-    "entityBlacklist": [],
+    "entityBlacklist": ["twilightforest:ur_ghast", "twilightforest:hydra", "twilightforest:lich"],
     "alwaysOnEntity": [],
     "tier": 1
   },
