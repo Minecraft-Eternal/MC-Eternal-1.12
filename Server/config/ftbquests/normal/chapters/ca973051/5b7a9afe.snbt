@@ -1,0 +1,74 @@
+{
+	title: "&a&lDraeton Aircraft",
+	x: -6.5d,
+	y: -3.5d,
+	description: "An aircraft used to soar the skies of the Betweenlands",
+	dependencies: [
+		"b86b7a71"
+	],
+	tasks: [{
+		uid: "f4661de9",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:draeton_balloon"
+		}]
+	},
+	{
+		uid: "c7eac718",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:draeton_burner"
+		}]
+	},
+	{
+		uid: "d1b4227a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:draeton_upgrade_crafting"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c896baad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:draeton_upgrade_furnace"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9e90fa5a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:draeton_upgrade_anchor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "de20503b",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "41ecc6d9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Warming radioactive glow",
+	x: 3.0d,
+	y: -1.0d,
+	shape: "diamond",
+	description: "*Nuclear Craft ores can only be found in the Beneath, there they are quite plentiful*",
+	tasks: [{
+		uid: "6d9fa2b4",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 3"
+		}]
+	},
+	{
+		uid: "9a340b6c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 5"
+		}]
+	},
+	{
+		uid: "d377fe2c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "3255c686",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "678fa254",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: 7.5d,
+	tasks: [{
+		uid: "0f94a15d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "openblocks:sleeping_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81e3e6e9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f7f2cab9",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "ebb64e64",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:book_manual"
+		}]
+	}],
+	rewards: [{
+		uid: "6fe244cf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

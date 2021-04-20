@@ -1,0 +1,52 @@
+{
+	title: "Quack",
+	x: 3.5d,
+	y: -4.5d,
+	description: "Why would anyone want to complete this quest?",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "df2159a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "stupidthings:rubber_chicken"
+		}],
+		count: 1000L,
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "12838b5b",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "1a7c9c74",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "e56fc895",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "stupidthings:rubber_chicken",
+			tag: {
+				ench: [{
+					lvl: 7,
+					id: 15
+				}],
+				display: {
+					Name: "Legendary Rubber Chicken"
+				}
+			}
+		}
+	}]
+}

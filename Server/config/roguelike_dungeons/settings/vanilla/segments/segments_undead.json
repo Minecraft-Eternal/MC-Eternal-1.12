@@ -1,0 +1,11 @@
+{
+  "name" : "segments:undead",
+  "inherit": [
+    "segments:generic"
+  ],
+  "segments" : [
+    {"level": [0,1,2,3,4], "type" : "CELL", "weight" : 5},
+    {"level": [0,1,2,3,4], "type" : "TOMB", "weight" : 5},
+    {"level": [0,1,2,3,4], "type" : "SKULL", "weight" : 5}
+  ]
+}

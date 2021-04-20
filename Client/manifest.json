@@ -3,7 +3,7 @@
     "version": "1.12.2",
     "modLoaders": [
       {
-        "id": "forge-14.23.5.2855",
+        "id": "forge-14.23.5.2854",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "MC Eternal",
-  "version": "1.4.3",
+  "version": "1.4.3.1",
   "author": "adam98991",
   "files": [
     {
@@ -180,16 +180,6 @@
       "required": true
     },
     {
-      "projectID": 404463,
-      "fileID": 3160203,
-      "required": true
-    },
-    {
-      "projectID": 404464,
-      "fileID": 3061764,
-      "required": true
-    },
-    {
       "projectID": 242500,
       "fileID": 3008088,
       "required": true
@@ -252,11 +242,6 @@
     {
       "projectID": 310673,
       "fileID": 2830525,
-      "required": true
-    },
-    {
-      "projectID": 225781,
-      "fileID": 3060563,
       "required": true
     },
     {
@@ -495,8 +480,8 @@
       "required": true
     },
     {
-      "projectID": 363102,
-      "fileID": 3234684,
+      "projectID": 225957,
+      "fileID": 2499443,
       "required": true
     },
     {
@@ -517,11 +502,6 @@
     {
       "projectID": 282940,
       "fileID": 3244451,
-      "required": true
-    },
-    {
-      "projectID": 258371,
-      "fileID": 3169681,
       "required": true
     },
     {
@@ -627,11 +607,6 @@
     {
       "projectID": 286382,
       "fileID": 2815686,
-      "required": true
-    },
-    {
-      "projectID": 322131,
-      "fileID": 3096693,
       "required": true
     },
     {
@@ -1255,11 +1230,6 @@
       "required": true
     },
     {
-      "projectID": 230976,
-      "fileID": 2463272,
-      "required": true
-    },
-    {
       "projectID": 310287,
       "fileID": 2656993,
       "required": true
@@ -1492,11 +1462,6 @@
     {
       "projectID": 253449,
       "fileID": 2568751,
-      "required": true
-    },
-    {
-      "projectID": 244516,
-      "fileID": 2627215,
       "required": true
     },
     {

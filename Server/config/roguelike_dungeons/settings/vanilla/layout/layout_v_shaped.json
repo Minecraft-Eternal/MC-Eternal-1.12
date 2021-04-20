@@ -1,0 +1,8 @@
+{
+  "name": "layout:v_shaped",
+  "inherit": [
+    "layout:roomcount_decreasing_medium",
+    "layout:scatter_medium",
+    "layout:type_mixed"
+  ]
+}

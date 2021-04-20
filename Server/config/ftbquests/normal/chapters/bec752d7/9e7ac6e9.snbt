@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	dependencies: [
+		"8f450651"
+	],
+	tasks: [{
+		uid: "ee16f6fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:wizard_handbook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6ca452ee",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "b39f3c8d",
+		type: "choice",
+		icon: "ebwizardry:spell_book 1 111",
+		table: 14
+	}]
+}

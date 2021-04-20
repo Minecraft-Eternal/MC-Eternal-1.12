@@ -1,0 +1,25 @@
+{
+	x: -17.0d,
+	y: -10.5d,
+	description: "I command thee to make me some lunch!",
+	dependencies: [
+		"6353cb76"
+	],
+	tasks: [{
+		uid: "53e94b5c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragon_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "984a5cfb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

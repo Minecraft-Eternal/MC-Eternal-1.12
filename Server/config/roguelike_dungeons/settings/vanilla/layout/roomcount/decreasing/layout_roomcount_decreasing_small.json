@@ -1,0 +1,4 @@
+{
+  "name": "layout:roomcount_decreasing_small",
+  "numRooms": [25, 20, 15, 10, 5]
+}

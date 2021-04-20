@@ -1,0 +1,47 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	shape: "diamond",
+	description: "Collect every magical artefact",
+	dependencies: [
+		"56e86e9c"
+	],
+	tasks: [{
+		uid: "8c3cfe79",
+		type: "advancement",
+		title: "Power Incarnate",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_storm"
+		},
+		advancement: "ebwizardry:all_artefacts",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "4dfe5af5",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	},
+	{
+		uid: "e7369408",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "44826ce6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "charm:record_creative2"
+		}
+	}]
+}

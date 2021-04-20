@@ -1,0 +1,32 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "12da76c3",
+		type: "kill",
+		title: "&6&lBounty: Mosquito",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:wasp_sword"
+		},
+		entity: "erebus:erebus.mosquito",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "036a995b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "2dea77f9",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

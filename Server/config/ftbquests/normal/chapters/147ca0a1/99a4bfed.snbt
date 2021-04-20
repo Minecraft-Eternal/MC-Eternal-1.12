@@ -1,0 +1,35 @@
+{
+	title: "&2Visit Atum",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "&oDesert planet but not devoid of life, quite the opposite strangely enough... An ancient force has awoken, you feel the urge to investigate. What treasures lay untouched? Only one way to find out!",
+	size: 1.3d,
+	tasks: [{
+		uid: "326080ae",
+		type: "dimension",
+		title: "Visit Atum",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atum:dagger_poison"
+		},
+		dim: 1048
+	}],
+	rewards: [{
+		uid: "88483dd9",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "505a585e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

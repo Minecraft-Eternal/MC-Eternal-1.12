@@ -1,0 +1,27 @@
+{
+	title: "Most advanced plate",
+	x: 0.0d,
+	y: 6.5d,
+	description: "Used to create the most advanced machines and items.",
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "e673fee9",
+		type: "item",
+		items: [{
+			item: "techreborn:plates 1 38"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "982890c9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a23997cf",
+		type: "loot",
+		table: 1
+	}]
+}

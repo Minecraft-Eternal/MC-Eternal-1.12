@@ -1,0 +1,31 @@
+{
+	x: -13.0d,
+	y: -5.0d,
+	shape: "square",
+	description: "As a symbol of my... Oh, just take the damn thing.",
+	dependencies: [
+		"cb5183d8"
+	],
+	tasks: [{
+		uid: "65b95b7a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dungeontactics:wackerjab"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c8753650",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "5bee6a59",
+		type: "loot",
+		table: 1
+	}]
+}

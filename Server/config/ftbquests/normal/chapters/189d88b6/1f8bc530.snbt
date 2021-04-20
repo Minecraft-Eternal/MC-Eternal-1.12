@@ -1,0 +1,43 @@
+{
+	title: "&c&lDragon Steel Sword",
+	x: -12.5d,
+	y: -11.5d,
+	shape: "octagon",
+	description: "&oI've heard tales of such power",
+	dependencies: [
+		"e375f1be"
+	],
+	tasks: [{
+		uid: "6b63d0a9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonsteel_fire_sword"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonsteel_ice_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e0756ce0",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "9a7eebfd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

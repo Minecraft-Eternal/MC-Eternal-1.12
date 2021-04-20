@@ -1,0 +1,33 @@
+{
+  "name": "loot:food",
+  "lootRules": [
+    {
+      "level": [0, 1, 2, 3, 4],
+      "type": "FOOD",
+      "each": true,
+      "quantity": 1,
+      "loot": [
+        {"data": {"name": "minecraft:coal", "meta": 1, "min": 1, "max": 4}, "weight": 1}
+      ]
+    },
+    {
+      "level": [0, 1, 2, 3, 4],
+      "type": "FOOD",
+      "each": true,
+      "quantity": 6,
+      "loot": [
+        {"data": {"name": "minecraft:cookie", "min": 2, "max": 8}, "weight": 1},
+        {"data": {"name": "minecraft:bread", "min": 1, "max": 2}, "weight": 10},
+        {"data": {"name": "minecraft:apple"}, "weight": 2},
+        {"data": {"name": "minecraft:cooked_porkchop"}, "weight": 4},
+        {"data": {"name": "minecraft:cooked_chicken"}, "weight": 4},
+        {"data": {"name": "minecraft:cooked_beef"}, "weight": 4},
+        {"data": {"name": "minecraft:cooked_rabbit"}, "weight": 2},
+        {"data": {"name": "minecraft:cooked_fish"}, "weight": 2},
+        {"data": {"name": "minecraft:baked_potato"}, "weight": 2},
+        {"data": {"name": "minecraft:rabbit_stew"}, "weight": 2},
+        {"data": {"name": "minecraft:mushroom_stew"}, "weight": 2}
+      ]
+    }
+  ]
+}

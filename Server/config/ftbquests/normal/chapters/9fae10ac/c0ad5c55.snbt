@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	description: "An incarnation of pure terror that can be summoned out of the ground.",
+	tasks: [{
+		uid: "d8f5acba",
+		type: "kill",
+		icon: "thebetweenlands:mud_flower_pot_candle",
+		entity: "thebetweenlands:dreadful_mummy",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "7c4a5a96",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "6c1ec184",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,85 @@
+{
+	title: "Dirt Factory",
+	x: 2.0d,
+	y: -3.0d,
+	description: "&oBig money, big women, big fun",
+	tasks: [{
+		uid: "7c9d3ac1",
+		type: "item",
+		title: "Any compressed4xDirt",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "compressed4xDirt",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 100L
+	}],
+	rewards: [{
+		uid: "b1036af1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "ad1c81c9",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "66592f88",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "c889fff5",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "9582d419",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6583c282",
+		type: "item",
+		title: "Golden Lootbox",
+		icon: "treasure2:gold_strongbox",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_lootbox"
+			}
+		}
+	},
+	{
+		uid: "1f637b9f",
+		type: "item",
+		item: {
+			id: "minecraft:dirt",
+			tag: {
+				display: {
+					Name: "Triple enriched diamond filtered quality dirt"
+				}
+			}
+		}
+	},
+	{
+		uid: "aabd8882",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "67c9068f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

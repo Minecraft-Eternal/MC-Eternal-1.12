@@ -1,0 +1,29 @@
+{
+	x: -19.5d,
+	y: -2.0d,
+	dependencies: [
+		"af8a9ce0"
+	],
+	tasks: [{
+		uid: "a1983514",
+		type: "item",
+		items: [{
+			item: "rats:rat_upgrade_nonbeliever"
+		}]
+	}],
+	rewards: [{
+		uid: "d9dc2e86",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "fd6ec85e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

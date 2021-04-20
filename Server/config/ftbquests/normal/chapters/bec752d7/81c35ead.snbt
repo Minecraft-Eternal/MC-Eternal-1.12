@@ -1,0 +1,32 @@
+{
+	x: 12.0d,
+	y: 3.5d,
+	dependencies: [
+		"c03d8e42"
+	],
+	tasks: [{
+		uid: "42fc262c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e605626",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "32729be0",
+		type: "loot",
+		table: 1
+	}]
+}

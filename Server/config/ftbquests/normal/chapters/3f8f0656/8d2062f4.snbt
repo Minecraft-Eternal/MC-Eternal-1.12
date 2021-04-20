@@ -1,0 +1,40 @@
+{
+	x: -3.5d,
+	y: 9.0d,
+	dependencies: [
+		"9a541046"
+	],
+	tasks: [{
+		uid: "21f9438c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "70c083a2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "7b96128b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "95fc0bd2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "59c70f72",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,66 @@
+{
+	title: "Vampire Slayer",
+	x: 15.5d,
+	y: 10.5d,
+	shape: "square",
+	description: "I just really hate Vampires -You apparently",
+	tasks: [{
+		uid: "c3af825b",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:pitchfork"
+		},
+		entity: "vampirism:vampire",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "74f18440",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "8f14b371",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:pitchfork",
+			tag: {
+				Unbreakable: 1,
+				display: {
+					Lore: [
+						"Stabs Vampires for breakfast"
+					],
+					Name: "Vampire Stabber 5000"
+				},
+				Enchantments: [{
+					lvl: 3,
+					id: "minecraft:sharpness"
+				},
+				{
+					lvl: 8,
+					id: "minecraft:knockback"
+				},
+				{
+					lvl: 2,
+					id: "minecraft:fire_aspect"
+				}],
+				Damage: 13
+			}
+		}
+	},
+	{
+		uid: "bd392a76",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

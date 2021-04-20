@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "New Generator",
+  "items": [
+    {
+      "weight": 0.0472542829811573,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "from_the_depths:item_totem_of_summoning_summon_the_god_king,_leader_of_the_rats",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "id": {
+              "nbtType": "string",
+              "nbt": "from_the_depths:item_totem_of_summoning_summon_the_god_king,_leader_of_the_rats"
+            },
+            "Count": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "Damage": {
+              "nbtType": "short",
+              "nbt": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.0639861449599266,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "from_the_depths:item_totem_of_summoning_summon_the_ratlantean_experiment",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "id": {
+              "nbtType": "string",
+              "nbt": "from_the_depths:item_totem_of_summoning_summon_the_ratlantean_experiment"
+            },
+            "Count": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "Damage": {
+              "nbtType": "short",
+              "nbt": 0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

@@ -1,0 +1,7 @@
+{
+	title: "Ancient Warfare [NYI]",
+	icon: "ancientwarfarenpc:bard_instrument 1 2",
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: ""
+}

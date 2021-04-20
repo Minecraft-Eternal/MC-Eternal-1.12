@@ -1,0 +1,29 @@
+{
+	title: "&cVisit &cErebus",
+	icon: "erebus:block_of_bones",
+	x: -0.5d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "&oThe land of terrible mutated creatures and blood-curdling insects who want nothing more than to see you dead, you are not likely to survive long here...",
+	size: 1.2d,
+	tasks: [{
+		uid: "065d44d7",
+		type: "dimension",
+		dim: 66
+	}],
+	rewards: [{
+		uid: "fa7f29ae",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "abee9370",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

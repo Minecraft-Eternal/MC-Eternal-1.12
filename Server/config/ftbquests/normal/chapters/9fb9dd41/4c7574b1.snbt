@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "0c096350",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:cockatrice_scepter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c88c41c",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "b4d82470",
+		type: "loot",
+		table: 1
+	}]
+}

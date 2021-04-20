@@ -1,0 +1,52 @@
+{
+	title: "&oSoar the skies Skylord lysander!",
+	x: 3.5d,
+	y: 1.0d,
+	description: "Construct an airship worthy of Mistral City",
+	tasks: [{
+		uid: "b3614a7f",
+		type: "item",
+		items: [{
+			item: "vs_control:giant_propeller_part"
+		},
+		{
+			item: "vs_control:ultimate_engine"
+		},
+		{
+			item: "vs_control:gearbox"
+		},
+		{
+			ForgeCaps: {
+				"vs_world:levitation_strength_capability": 1.0d
+			},
+			id: "vs_world:valkyrium_crystal"
+		},
+		{
+			item: "vs_control:valkyrium_compressor_part"
+		},
+		{
+			item: "vs_control:compacted_valkyrium"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "a3df2e8b",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "53ef66f6",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "10f1d8a4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -7.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "352b1a64",
+		type: "kill",
+		title: "&6&lBounty: Titan Beetle",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:wasp_sword"
+		},
+		entity: "erebus:erebus.titan_beetle",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "6c4c2660",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "c4c0d1c2",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

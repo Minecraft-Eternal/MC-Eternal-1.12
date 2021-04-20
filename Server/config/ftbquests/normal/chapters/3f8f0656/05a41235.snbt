@@ -1,0 +1,30 @@
+{
+	title: "Special Blends",
+	x: 12.5d,
+	y: 7.0d,
+	description: "Used to upgrade Machine Chassis",
+	dependencies: [
+		"3fd484fc"
+	],
+	tasks: [{
+		uid: "4c3b2077",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 51"
+		}],
+		count: 6L
+	},
+	{
+		uid: "2cd9f453",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 52"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "835ed722",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Blaze Seeds",
+	icon: "mysticalagriculture:blaze_seeds",
+	x: -1.5d,
+	y: -0.5d,
+	shape: "diamond",
+	description: "*Unlocked from completing the Exploration chapter*",
+	can_repeat: true,
+	dependencies: [
+		"209b79b1"
+	],
+	tasks: [{
+		uid: "7aa35048",
+		type: "ftbmoney:money",
+		value: 25000L
+	}],
+	rewards: [{
+		uid: "ee5f359a",
+		type: "item",
+		title: "Blaze Seeds",
+		item: "mysticalagriculture:blaze_seeds"
+	}]
+}

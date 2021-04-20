@@ -1,0 +1,10 @@
+{
+  "name" : "dungeon:mesa_builtin_no_loot",
+  "exclusive": false,
+  "inherit" : [
+    "builtin:mesa"
+  ],
+  "overrides": [
+    "LOOTRULES"
+  ]
+}

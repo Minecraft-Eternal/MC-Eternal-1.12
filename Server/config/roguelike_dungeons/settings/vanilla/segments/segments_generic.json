@@ -1,0 +1,12 @@
+{
+  "name": "segments:generic",
+
+  "segments": [
+    {"level": [0,1,2,3,4], "type" : "WALL", "weight" : 10},
+    {"level": [0,1,2,3,4], "type" : "INSET", "weight" : 2},
+
+    {"level": [0,1,2,3,4], "type" : "DOOR", "weight" : 10},
+    {"level": [0,1,2,3,4], "type" : "CHEST", "weight" : 2},
+    {"level": [0,1,2,3,4], "type" : "SPAWNER", "weight" : 2}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+	title: "Hot and Cold!",
+	x: 8.5d,
+	y: -0.5d,
+	dependencies: [
+		"0a5005e1"
+	],
+	tasks: [{
+		uid: "37805942",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cookingforblockheads:heating_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9d6a9e5d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cookingforblockheads:ice_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d91a81b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cookingforblockheads:preservation_chamber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5c14c549",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ea5b6199",
+		type: "loot",
+		table: 1
+	}]
+}

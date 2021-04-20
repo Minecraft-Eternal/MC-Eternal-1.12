@@ -1,0 +1,102 @@
+{
+  "_comment": "Spawn some pre-boss monsters then the boss, then some creepers.",
+  "key": "Summon the God-King, leader of the rats",
+  "bossInfo": {
+    "domain": "rats",
+    "name": "neo_ratlantean",
+    "displayName": "§6God-King Julius Cheesar",
+    "maxHealth": 36000,
+    "attackDamage": 950.5,
+	"commandToRunAtSpawn": "say @p §chow §c§ldare §cyou §cawake §cme... §cYou §cwill §cdie.. §cYou §cwill §call §cdie!",
+    "alwaysShowDisplayName": true,
+    "additionalDrops": [{
+        "item": "rats:rat_upgrade_creative",
+        "minDrops": 1,
+        "maxDrops": 1,
+        "dropChance": 100
+      },
+      {
+        "item": "futuremc:netherite",
+        "minDrops": 15,
+        "maxDrops": 30,
+        "dropChance": 100
+      },
+      {
+        "item": "rats:idol_of_ratlantis",
+        "minDrops": 1,
+        "maxDrops": 1,
+        "dropChance": 100
+      }
+    ]
+  },
+  "bossAddInfo": [{
+      "_comment": "Spawns a bunch of silverfish, after that is done. Wait 10 (200 ticks) seconds and spawn a big slime.",
+      "_comment2": "After that spawn a random amount of chickens.",
+      "domain": "rats",
+      "name": "ratlantean_spirit",
+	  "displayName": "§cHoly Ghost",
+	  "commandToRunAtSpawn": "say §7You §7begin §7to §7hear §7faint §7whispering...",
+      "minSpawns": 1,
+      "maxSpawns": 1,
+      "timeBetweenSpawns": 100,
+      "spawnBeforeBoss": true,
+      "_comment3": "The next wave of adds will start spawning after these adds have been spawned",
+      "nextWaveOfAdds": {
+        "domain": "rats",
+        "name": "ratlantean_spirit",
+		"displayName": "§cTrapped §cSoul",
+		"commandToRunAtSpawn": "say §6Bow §6before §6true §6royalty §6or §6face §6death!",
+        "minSpawns": 6,
+        "maxSpawns": 8,
+        "timeToWaitBeforeSpawn": 100,
+        "maxHealth": 850,
+		"attackDamage": 250.5,
+        "nextWaveOfAdds": {
+          "domain": "rats",
+          "name": "pirat",
+		  "commandToRunAtSpawn": "say @p §cbehold! §cThe §cmight §cof §cthe §cRatlantean §cNavy!",
+		  "displayName": "§cNavy §cSharpshooter",
+		  "maxHealth": 350,
+		  "attackDamage": 250,
+          "minSpawns": 3,
+          "maxSpawns": 6,
+          "timeBetweenSpawns": 20,
+          "timeToWaitBeforeSpawn": 300
+        }
+      }
+    },
+    {
+      "_comment": "Spawns some creepers while the boss is around to make the fight crazy.",
+      "_comment2": "They start spawning 15 (300 ticks) seconds after the boss spawns.",
+      "domain": "rats",
+      "name": "marbled_cheese_golem",
+      "displayName": "§6§lLoyal §6§lCheeseguard",
+	  "commandToRunAtSpawn": "say §cGuards§c! §cProtect §cme §cand §cslay §cthis §c§opitiable §cintruder.",
+      "maxHealth": 7500,
+      "attackDamage": 800,
+      "alwaysShowDisplayName": true,
+      "minSpawns": 3,
+      "maxSpawns": 4,
+      "timeBetweenSpawns": 150,
+      "timeToWaitBeforeSpawn": 300
+    }
+  ],
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "group": "Summon",
+    "pattern": ["aaa", "aaa", "aaa"],
+    "key": {
+      "a": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "result": {
+      "item": "from_the_depths:item_totem_of_summoning",
+      "data": 0,
+      "nbt": {
+        "spawn_info": "Custom_Zombie"
+      },
+      "count": 1
+    }
+  }
+}

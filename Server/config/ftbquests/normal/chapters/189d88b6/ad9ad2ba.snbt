@@ -1,0 +1,30 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	description: "&oFeels warm to the touch",
+	dependencies: [
+		"b97f548a"
+	],
+	tasks: [{
+		uid: "4956a6da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:moltenaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82ccb209",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ef563084",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,11 @@
+{
+  "name" : "segments:spawners_increasing",
+
+  "segments" : [
+    {"level": [0], "type" : "SPAWNER", "weight" : 10},
+    {"level": [1], "type" : "SPAWNER", "weight" : 20},
+    {"level": [2], "type" : "SPAWNER", "weight" : 30},
+    {"level": [3], "type" : "SPAWNER", "weight" : 40},
+    {"level": [4], "type" : "SPAWNER", "weight" : 50}
+  ]
+}

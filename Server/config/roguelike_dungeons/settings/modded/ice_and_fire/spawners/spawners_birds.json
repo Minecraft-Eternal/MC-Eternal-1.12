@@ -1,0 +1,8 @@
+{
+  "name": "spawners:birds",
+  "requires": ["iceandfire"],
+  "spawners": [
+    {"level": [0, 1, 2, 3, 4], "potentials": [{"name": "iceandfire:if_cockatrice"}]},
+    {"level": [0, 1, 2, 3, 4], "potentials": [{"name": "iceandfire:stymphalianbird"}]}
+  ]
+}

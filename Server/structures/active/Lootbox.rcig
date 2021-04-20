@@ -1,0 +1,197 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "Lootbox",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "ftbquests:lootcrate",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "type": {
+              "nbtType": "string",
+              "nbt": "unclaimed_black_market_container"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.0472542829811573,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ftbquests:lootcrate",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "type": {
+              "nbtType": "string",
+              "nbt": "how_to_train_your_dragon_kit"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "ftbquests:lootcrate",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "type": {
+              "nbtType": "string",
+              "nbt": "cheesy_cache"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.0639861449599266,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ftbquests:lootcrate",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "type": {
+              "nbtType": "string",
+              "nbt": "anti_radiation_box"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 2.268061798531562E-4,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "ftbquests:lootcrate",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "type": {
+              "nbtType": "string",
+              "nbt": "rare_lootbox"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ftbquests:lootcrate",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "type": {
+              "nbtType": "string",
+              "nbt": "cultist"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.18405085802078247,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "ftbquests:lootcrate",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "type": {
+              "nbtType": "string",
+              "nbt": "fancy_dress_box"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "ftbquests:lootcrate",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "type": {
+              "nbtType": "string",
+              "nbt": "master_spell_book"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 2.268061798531562E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ftbquests:lootcrate",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "type": {
+              "nbtType": "string",
+              "nbt": "heavenly_box"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.8473554849624634,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "ftbquests:lootcrate",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "type": {
+              "nbtType": "string",
+              "nbt": "common_lootbox"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

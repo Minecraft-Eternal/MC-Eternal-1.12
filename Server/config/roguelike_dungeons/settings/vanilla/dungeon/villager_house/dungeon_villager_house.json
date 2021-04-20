@@ -1,0 +1,25 @@
+{
+  "name": "dungeon:villager_house",
+  "exclusive": true,
+  "criteria" : {"biomeTypes" : ["FOREST", "MOUNTAINS", "PLAINS"]},
+  "inherit": [
+    "dungeon:common",
+    "rooms:traps_few",
+    "rooms:undead",
+    "segments:traps_few",
+    "spawners:eb",
+    "spawners:evil_humanoids",
+    "spawners:undead",
+    "tower:villager_house"
+  ],
+  "filters": [
+    {"level": [1, 2, 3], "name": "vine"},
+    {"level": [1, 3], "name": "cobweb"},
+    {"level": [4], "name": "mud"}
+  ],
+  "themes": [
+    {"level": [0, 1], "base": "MINESHAFT"},
+    {"level": [2, 3], "base": "MOSSY"},
+    {"level": [4], "base": "CRYPT"}
+  ]
+}

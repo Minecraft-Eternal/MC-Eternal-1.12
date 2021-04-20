@@ -1,0 +1,54 @@
+{
+  "groups": [
+    {
+      "groupId": "default",
+      "template": "Dimension: {dimName}"
+    },
+    {
+      "groupId": "satellite",
+      "template": "Orbiting around {planet} on a space station"
+    },
+    {
+      "groupId": "moon",
+      "template": "On moon {moon} around {planet}"
+    },
+    {
+      "groupId": "planet",
+      "template": "On planet {planet}"
+    },
+    {
+      "groupId": "rftools",
+      "template": "RFTools dimension: {rftools}"
+    }
+  ],
+  "dimensions": [
+    {
+      "dimName": "The_Beneath",
+      "template": "Being consumed by darkness in The Beneath"
+    },
+    {
+      "dimName": "twilight_forest",
+      "template": "The Twilight Forest"
+    },
+    {
+      "dimName": "the_betweenlands",
+      "template": "Messing around in a spooky swamp"
+    },
+    {
+      "dimName": "the_nether",
+      "template": "The Nether"
+    },
+    {
+      "dimName": "the_end",
+      "template": "The End"
+    },
+    {
+      "dimName": "overworld",
+      "template": "The Overworld"
+    },
+    {
+      "dimName": "Ratlantis",
+      "template": "Ratlantis"
+    }
+  ]
+}

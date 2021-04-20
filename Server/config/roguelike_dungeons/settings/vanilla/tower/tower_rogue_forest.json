@@ -1,0 +1,9 @@
+{
+  "name": "tower:rogue_forest",
+  "tower": {
+    "type": "ROGUE",
+    "theme": {
+      "base": "DARKHALL"
+    }
+  }
+}

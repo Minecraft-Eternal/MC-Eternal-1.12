@@ -1,0 +1,42 @@
+{
+	title: "&b&lAngel Ring",
+	x: 1.0d,
+	y: 1.0d,
+	description: "What? You have to work for creative flight? *Surprised Pikachu face*",
+	tasks: [{
+		uid: "a9d001c9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:angelring"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c78f4078",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "02b38263",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "461d8d3c",
+		type: "item",
+		item: "mod_lavacow:undyingheart"
+	},
+	{
+		uid: "525cd9fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

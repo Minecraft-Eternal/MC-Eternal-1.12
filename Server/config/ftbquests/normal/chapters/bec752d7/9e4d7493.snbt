@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	description: "An Introduction to Witchcraft",
+	tasks: [{
+		uid: "0b3fe3fa",
+		type: "item",
+		items: [{
+			item: "bewitchment:opal"
+		}]
+	}],
+	rewards: [{
+		uid: "d53dede8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

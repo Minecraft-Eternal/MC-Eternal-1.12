@@ -1,0 +1,32 @@
+{
+  "name": "dungeon:ocean_temple",
+  "exclusive": true,
+  "criteria":{ "biomeTypes": ["OCEAN"]},
+  "overrides": ["ROOMS"],
+  "inherit": [
+    "dungeon:common",
+    "theme:ocean_temple",
+    "tower:ocean_temple",
+    "spawners:eb"
+  ],
+  "rooms": [
+    {"level": [0], "frequency": "single", "type": "PIT"},
+    {"level": [2, 3], "frequency": "single", "type": "BRICK", "spawnerId":"spawners:guardian"},
+    {"level": [4], "frequency": "single", "type": "OBSIDIAN"},
+    {"level": [0, 1, 2, 3, 4], "frequency": "single", "type": "REWARD"},
+
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "CORNER", "weight": 9},
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "SLIME", "weight": 3},
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "BRICK", "weight": 3},
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "BRICK", "weight": 1}
+  ],
+  "segments": [
+    {"level": [0, 1, 2, 3, 4], "type": "WALL", "weight": 5},
+    {"level": [0, 1, 2, 3, 4], "type": "CHEST", "weight": 1},
+    {"level": [0, 1, 2, 3, 4], "type": "SEWER", "weight": 1},
+    {"level": [0, 1, 2, 3, 4], "type": "SEWERARCH", "weight": 1},
+    {"level": [0, 1, 2, 3, 4], "type": "SEWERDOOR", "weight": 1},
+    {"level": [0, 1, 2, 3, 4], "type": "SEWERDRAIN", "weight": 1},
+    {"level": [0, 1, 2, 3, 4], "type": "SPAWNER", "weight": 1}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 4.5d,
+	dependencies: [
+		"72358482"
+	],
+	tasks: [{
+		uid: "020fce7d",
+		type: "item",
+		items: [{
+			item: "bewitchment:distillery"
+		}]
+	}],
+	rewards: [{
+		uid: "e123e17e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

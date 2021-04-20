@@ -1,0 +1,29 @@
+{
+	title: "'Cause this is driller, driller night",
+	x: -1.0d,
+	y: 2.5d,
+	description: "Can be upgraded to a diamond drill, excellent for mining ",
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "3adff140",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "techreborn:irondrill",
+			tag: {
+				energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "53d1b84f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

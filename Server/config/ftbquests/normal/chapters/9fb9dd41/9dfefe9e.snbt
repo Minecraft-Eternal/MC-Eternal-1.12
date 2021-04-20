@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "346e2c05",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:siren_flute"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f4109d57",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "5f79f5d9",
+		type: "loot",
+		table: 1
+	}]
+}

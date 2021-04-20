@@ -1,0 +1,34 @@
+{
+	x: -17.5d,
+	y: -5.0d,
+	dependencies: [
+		"fc9d0886"
+	],
+	tasks: [{
+		uid: "3e641c90",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:feral_bagh_nakhs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "def94acc",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "f9349558",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "2a96267b",
+		type: "item",
+		item: "rats:rat_upgrade_aquatic"
+	}]
+}

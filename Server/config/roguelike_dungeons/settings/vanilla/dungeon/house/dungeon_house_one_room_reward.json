@@ -1,0 +1,18 @@
+{
+  "name": "dungeon:house_one_room_reward",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["FOREST", "HILLS", "MOUNTAIN", "PLAINS"]},
+  "overrides": [
+    "ROOMS",
+    "TOWER"
+  ],
+  "inherit": [
+    "dungeon:house"
+  ],
+  "tower": {"type": "HOUSE", "theme": {"base": "OAK"}},
+  "themes": [{"base": "OAK", "level": [0,1,2,3,4]}],
+  "rooms": [
+    {"level": [4], "frequency": "single", "type": "REWARD"},
+    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "BRICK", "weight": 10}
+  ]
+}

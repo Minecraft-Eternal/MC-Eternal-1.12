@@ -1,0 +1,55 @@
+{
+	title: "Anti Radiation StrongBox ",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {},
+			"nuclearcraft:capability_radiation_sink": {
+				radiationLevel: 0.0d,
+				radiationBuffer: 0.0d
+			}
+		},
+		id: "nuclearcraft:radiation_badge"
+	},
+	loot_size: 33,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"nuclearcraft:capability_radiation_sink": {
+					radiationLevel: 0.0d,
+					radiationBuffer: 0.0d
+				}
+			},
+			id: "nuclearcraft:radiation_badge"
+		},
+		only_one: true
+	},
+	{
+		item: "nuclearcraft:radaway",
+		count: 8,
+		only_one: true
+	},
+	{
+		item: "nuclearcraft:rad_shielding",
+		count: 3,
+		only_one: true
+	},
+	{
+		item: "minecraft:golden_carrot",
+		only_one: true
+	},
+	{
+		item: "nuclearcraft:radiation_scrubber",
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "anti_radiation_box",
+		color: 2678568,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

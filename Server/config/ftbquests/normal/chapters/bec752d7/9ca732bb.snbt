@@ -1,0 +1,68 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	min_required_dependencies: 1,
+	dependencies: [
+		"ec0bd6f7"
+	],
+	tasks: [{
+		uid: "f82fcdac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:wizard_hat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4ac90077",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:wizard_robe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "75437c6e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:wizard_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "63c310b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:wizard_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4adffa93",
+		type: "loot",
+		title: "Novice Wizard Cache",
+		icon: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "spell_book"
+			}
+		},
+		table: 4
+	}]
+}

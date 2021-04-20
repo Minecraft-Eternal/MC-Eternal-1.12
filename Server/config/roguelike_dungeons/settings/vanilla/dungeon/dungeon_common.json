@@ -1,0 +1,9 @@
+{
+  "name": "dungeon:common",
+  "exclusive": false,
+  "inherit": [
+    "dungeon:generic",
+    "spawners:eb",
+    "main:eternal"
+  ]
+}

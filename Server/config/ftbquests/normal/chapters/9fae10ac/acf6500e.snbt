@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	description: "A giant amphibian that can only found in the burning hot nether . It is so-called a \"living artillery\", having the ability to spray volleys of fireball at player.",
+	tasks: [{
+		uid: "101dffa6",
+		type: "kill",
+		icon: "mod_lavacow:moltenbeef",
+		entity: "mod_lavacow:salamander",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "dfb8c4bb",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "19649a25",
+		type: "loot",
+		table: 1
+	}]
+}

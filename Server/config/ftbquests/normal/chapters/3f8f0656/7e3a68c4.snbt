@@ -1,0 +1,24 @@
+{
+	x: 6.5d,
+	y: 8.0d,
+	dependencies: [
+		"d12d3b4d"
+	],
+	tasks: [{
+		uid: "da8706c6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rftools:shape_card",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f17ee011",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

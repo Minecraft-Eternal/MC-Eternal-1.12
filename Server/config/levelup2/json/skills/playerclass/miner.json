@@ -1,0 +1,22 @@
+{
+  "name": "levelup:miner",
+  "bonus": "levelup:mining_bonus",
+  "skills": [
+    {
+      "name": "levelup:stonecutting",
+      "level": 2
+    },
+    {
+      "name": "levelup:flintloot",
+      "level": 2
+    },
+    {
+      "name": "levelup:prospecting",
+      "level": 1
+    },
+    {
+      "name": "levelup:furnacespeed",
+      "level": 1
+    }
+  ]
+}

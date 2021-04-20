@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 5.5d,
+	dependencies: [
+		"5111a663"
+	],
+	tasks: [{
+		uid: "beec536d",
+		type: "item",
+		items: [{
+			item: "stevescarts:upgrade 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26808e91",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "2cd55229",
+		type: "loot",
+		table: 1
+	}]
+}

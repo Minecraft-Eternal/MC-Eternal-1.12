@@ -1,0 +1,24 @@
+{
+	x: 9.5d,
+	y: 6.0d,
+	shape: "octagon",
+	description: "*Can be used to boost rare spawns",
+	tasks: [{
+		uid: "69d61074",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemusabledust 1 1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "e5b76bc5",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "f45dd5ed",
+		type: "loot",
+		table: 1
+	}]
+}

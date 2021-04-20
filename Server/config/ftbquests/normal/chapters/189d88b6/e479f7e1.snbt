@@ -1,0 +1,57 @@
+{
+	title: "Ingots, Ingots, Ingots!",
+	x: -5.5d,
+	y: 5.5d,
+	description: "Part Dos",
+	dependencies: [
+		"8a24b521"
+	],
+	tasks: [{
+		uid: "caaaf335",
+		type: "item",
+		title: "Any ingotThorium",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotThorium",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 32L
+	},
+	{
+		uid: "1ec5538b",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "396bdae4",
+		type: "item",
+		title: "Any ingotUranium",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotUranium",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "b407aa61",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "b2be475d",
+		type: "loot",
+		table: 1
+	}]
+}

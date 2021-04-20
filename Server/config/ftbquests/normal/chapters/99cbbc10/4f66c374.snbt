@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "4444ad8e",
+		type: "item",
+		items: [{
+			item: "agricraft:seed_analyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "427c00d7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

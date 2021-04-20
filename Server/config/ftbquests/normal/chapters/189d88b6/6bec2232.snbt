@@ -1,0 +1,27 @@
+{
+	x: -9.0d,
+	y: -3.0d,
+	description: "Find an Altar in a swamp biome",
+	dependencies: [
+		"d22a6b71"
+	],
+	tasks: [{
+		uid: "21c7b216",
+		type: "observation",
+		title: "Unknown Energies",
+		icon: "thebetweenlands:wisp",
+		match_type: "block_id",
+		match: "thebetweenlands:druid_altar",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "ea8ea093",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "56eb1d68",
+		type: "loot",
+		table: 1
+	}]
+}

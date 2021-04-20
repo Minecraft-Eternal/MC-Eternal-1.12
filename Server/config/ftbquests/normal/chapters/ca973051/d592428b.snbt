@@ -1,0 +1,25 @@
+{
+	x: -10.0d,
+	y: -13.0d,
+	shape: "diamond",
+	dependencies: [
+		"7e4f6adb"
+	],
+	tasks: [{
+		uid: "5659015b",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_blood"
+		}]
+	}],
+	rewards: [{
+		uid: "927d5337",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c429d61e",
+		type: "loot",
+		table: 1
+	}]
+}

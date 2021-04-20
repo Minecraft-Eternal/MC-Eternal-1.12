@@ -1,0 +1,39 @@
+{
+	x: 4.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "785b9af0",
+		type: "stat",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:troll_skull"
+		},
+		stat: "stat.mobKills",
+		value: 500000
+	}],
+	rewards: [{
+		uid: "2f596318",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "56a6f2db",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "db603cb4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				display: {
+					Name: "Unclaimed Black Market Container "
+				},
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

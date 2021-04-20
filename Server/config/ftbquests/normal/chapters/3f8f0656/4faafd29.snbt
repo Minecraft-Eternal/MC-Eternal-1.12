@@ -1,0 +1,22 @@
+{
+	title: "Walking Restricted Base",
+	x: 14.5d,
+	y: -2.0d,
+	description: "Craft 2 Travel Anchors",
+	dependencies: [
+		"60355bd7"
+	],
+	tasks: [{
+		uid: "7affb74e",
+		type: "item",
+		items: [{
+			item: "enderio:block_travel_anchor"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "8f6ed74a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

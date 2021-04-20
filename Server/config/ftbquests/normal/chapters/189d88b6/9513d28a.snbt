@@ -1,0 +1,31 @@
+{
+	title: "Warm milk tastes good",
+	x: -2.5d,
+	y: 0.0d,
+	description: "Use the potion on a cow that has been splashed with a &c*potion of fire resistance*",
+	dependencies: [
+		"96a8691d"
+	],
+	tasks: [{
+		uid: "3161008c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:potion_of_mooten_lava"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7df2446b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "168fea32",
+		type: "loot",
+		table: 1
+	}]
+}

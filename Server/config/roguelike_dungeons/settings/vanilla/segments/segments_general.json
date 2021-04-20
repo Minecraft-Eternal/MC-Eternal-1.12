@@ -1,0 +1,14 @@
+{
+  "name": "segments:general",
+
+  "segments": [
+    {"level": [0, 1, 2, 3, 4], "type": "CELL", "weight": 10},
+    {"level": [0, 1, 2, 3, 4], "type": "CHEST", "weight": 10},
+    {"level": [0, 1, 2, 3, 4], "type": "DOOR", "weight": 10},
+    {"level": [0, 1, 2, 3, 4], "type": "FIREARCH", "weight": 10},
+    {"level": [0, 1, 2, 3, 4], "type": "INSET", "weight": 10},
+    {"level": [0, 1, 2, 3, 4], "type": "LAMP", "weight": 10},
+    {"level": [0, 1, 2, 3, 4], "type": "SHELF", "weight": 10},
+    {"level": [0, 1, 2, 3, 4], "type": "WALL", "weight": 10}
+  ]
+}

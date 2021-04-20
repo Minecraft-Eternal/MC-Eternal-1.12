@@ -1,0 +1,44 @@
+{
+	x: -3.5d,
+	y: -4.0d,
+	shape: "square",
+	description: "A seaside fiend that seduces sailors with charming songs before revealing its horrifying true form.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8852201"
+	],
+	tasks: [{
+		uid: "5883eb93",
+		type: "kill",
+		title: "Bounty: Siren",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "iceandfire:siren",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "63468dde",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "82662101",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "cccf02d6",
+		type: "item",
+		item: "iceandfire:siren_tear"
+	},
+	{
+		uid: "3736ed2b",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 8
+	}]
+}

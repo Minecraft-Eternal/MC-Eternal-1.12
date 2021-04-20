@@ -1,0 +1,17 @@
+{
+	x: -16.0d,
+	y: -2.0d,
+	shape: "diamond",
+	tasks: [{
+		uid: "a939580c",
+		type: "item",
+		items: [{
+			item: "bibliocraft:toolrack"
+		}]
+	}],
+	rewards: [{
+		uid: "a70730b1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

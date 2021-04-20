@@ -1,0 +1,10 @@
+{
+  "name" : "dungeon:house",
+  "exclusive": true,
+  "criteria": {"biomeTypes": ["FOREST", "HILLS", "MOUNTAIN", "PLAINS"]},
+  "inherit" : [
+    "dungeon:common",
+    "theme:forest",
+    "tower:house_house"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+	x: 1.0d,
+	y: 0.5d,
+	shape: "square",
+	description: "I am going far away to the land of robbers and ghosts. You must not go further, the werewolf haunts the woods. My dreams are heavy in this desolate castle, but do not fear.",
+	dependencies: [
+		"e9efff3e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "348f8f58",
+		type: "kill",
+		title: "Bounty: Advanced Vampire",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "vampirism:advanced_vampire",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e0ff2c8a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "8ca63462",
+		type: "item",
+		item: "vampirism:pure_blood 1 2"
+	},
+	{
+		uid: "ae9a02cd",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "ec3ea13f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:vampire_cloak",
+			Damage: 2s
+		}
+	},
+	{
+		uid: "a3b13bc2",
+		type: "item",
+		item: "minecraft:diamond_block"
+	}]
+}

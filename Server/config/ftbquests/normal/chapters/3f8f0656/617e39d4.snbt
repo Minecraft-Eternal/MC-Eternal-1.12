@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "b41b6600",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:Lightningrod"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7597d15e",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "b0d5e75b",
+		type: "loot",
+		table: 1
+	}]
+}

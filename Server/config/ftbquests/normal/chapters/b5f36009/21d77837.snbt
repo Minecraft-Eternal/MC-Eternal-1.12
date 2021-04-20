@@ -1,0 +1,29 @@
+{
+	title: "&bVisit Auroian",
+	icon: "theaurorian:petuniaplant",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "&oThis beautiful planet consists of a dark cold quiet forest, filled with magical plants and forgotten ruins bathed in moon light. Quite the sight to be seen.",
+	size: 1.3d,
+	tasks: [{
+		uid: "e4af555b",
+		type: "dimension",
+		dim: 424
+	}],
+	rewards: [{
+		uid: "7b10fd12",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "02b4a1e5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

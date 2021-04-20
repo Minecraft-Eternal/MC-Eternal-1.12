@@ -1,0 +1,24 @@
+{
+	x: 4.0d,
+	y: -3.5d,
+	dependencies: [
+		"37cf225d"
+	],
+	tasks: [{
+		uid: "893eda21",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	}],
+	rewards: [{
+		uid: "a8109cb9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "9cbf2406",
+		type: "loot",
+		table: 1
+	}]
+}

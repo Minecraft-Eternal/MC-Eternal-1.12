@@ -1,0 +1,24 @@
+{
+	x: -13.0d,
+	y: 7.0d,
+	dependencies: [
+		"17c38cd1"
+	],
+	tasks: [{
+		uid: "112d5b06",
+		type: "item",
+		items: [{
+			item: "forestry:centrifuge"
+		}]
+	}],
+	rewards: [{
+		uid: "95db0058",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "babf9780",
+		type: "loot",
+		table: 1
+	}]
+}

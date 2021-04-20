@@ -1,0 +1,27 @@
+{
+	title: "Sticks and stone may break my bones",
+	x: -5.5d,
+	y: 3.5d,
+	description: "Small titanium dust can be obtained by electrolyzing 12 bauxite dust",
+	dependencies: [
+		"668bfe7b"
+	],
+	tasks: [{
+		uid: "be85cd71",
+		type: "item",
+		items: [{
+			item: "techreborn:ingot 1 14"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "bc2d9958",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "51233efd",
+		type: "loot",
+		table: 1
+	}]
+}

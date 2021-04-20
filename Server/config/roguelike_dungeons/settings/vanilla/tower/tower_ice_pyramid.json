@@ -1,0 +1,7 @@
+{
+  "name": "tower:ice_pyramid",
+  "tower": {
+    "type": "PYRAMID",
+    "theme": {"base": "ICE"}
+  }
+}

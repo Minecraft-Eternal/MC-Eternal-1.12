@@ -1,0 +1,15 @@
+{
+  "name": "loot:custom",
+  "inherit": [
+    "loot:eternal",
+    "loot:brewing",
+    "loot:food",
+    "loot:ore",
+    "loot:potions",
+    "loot:treasure",
+
+    "loot:trading_cards",
+
+    "loot_tables:rewards"
+  ]
+}

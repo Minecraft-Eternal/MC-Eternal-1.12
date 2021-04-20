@@ -1,0 +1,31 @@
+{
+	title: "&lPlaying God",
+	x: -3.5d,
+	y: -2.0d,
+	description: "Use the potion on any farm animal.",
+	dependencies: [
+		"2cf9d199"
+	],
+	tasks: [{
+		uid: "038b6ac6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:fissionpotion"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ce0c1b2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e942316a",
+		type: "loot",
+		table: 1
+	}]
+}

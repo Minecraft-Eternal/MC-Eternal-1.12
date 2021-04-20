@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: 10.5d,
+	dependencies: [
+		"8d155122"
+	],
+	tasks: [{
+		uid: "4524fc79",
+		type: "item",
+		items: [{
+			item: "totemic:buffalo_items"
+		}]
+	}],
+	rewards: [{
+		uid: "231bb2a1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

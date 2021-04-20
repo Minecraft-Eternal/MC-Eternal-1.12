@@ -1,0 +1,23 @@
+{
+	title: "Lazy river",
+	x: -17.0d,
+	y: 0.0d,
+	description: "You'll soon find water flows quite differently then maybe what you're used too. *some* streams now connect to bodies of water and flow, craft a boat and go for a paddle, see where the adventure takes you!",
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "c2782f91",
+		type: "item",
+		items: [{
+			item: "minecraft:boat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ba639ac",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}
