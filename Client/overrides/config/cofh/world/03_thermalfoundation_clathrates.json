@@ -7,14 +7,14 @@
 			"generator": {
 				"block": [
 					{
-						"name": "vs_world:valkyrium_ore",
+						"name": "thermalfoundation:ore_fluid",
 						"properties": {
-							"type": ""
+							"type": "redstone"
 						},
 						"weight": 90
 					},
 					{
-						"name": "vs_world:valkyrium_ore",
+						"name": "thermalfoundation:fluid_redstone",
 						"weight": 10
 					}
 				],
@@ -30,7 +30,8 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
-					10,
+					-1,
+					1
 				]
 			}
 		},
