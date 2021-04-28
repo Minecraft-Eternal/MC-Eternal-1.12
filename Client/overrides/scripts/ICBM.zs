@@ -1,4 +1,4 @@
-#MC Eternal Scripts
+#packmode normal
 
 print("--- loading ICBM.zs ---");
 
