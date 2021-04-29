@@ -31,5 +31,6 @@ print("--- loading Tooltip.zs ---");
 <mysticalagriculture:supremium_chestplate>.addTooltip(format.red("Disabled Flight"));
 <mysticalagriculture:supremium_leggings>.addTooltip(format.red("Disabled Flight"));
 <mysticalagriculture:supremium_boots>.addTooltip(format.red("Disabled Flight"));
+<cookingforblockheads:sink>.addTooltip(format.red("Does not produce Infinite Water"));
 
 print("--- Tooltip.zs initialized ---");	
