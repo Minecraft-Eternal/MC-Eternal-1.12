@@ -32,5 +32,6 @@ print("--- loading Tooltip.zs ---");
 <mysticalagriculture:supremium_leggings>.addTooltip(format.red("Disabled Flight"));
 <mysticalagriculture:supremium_boots>.addTooltip(format.red("Disabled Flight"));
 <cyclicmagic:inventory_food>.addTooltip(format.red("WARNING! Can deletes items when the game crash or close unexpectedly"));
+<cookingforblockheads:sink>.addTooltip(format.red("Does not produce Infinite Water"));
 
 print("--- Tooltip.zs initialized ---");	
