@@ -37,4 +37,5 @@ print("--- loading Tooltip.zs ---");
 <immersiveengineering:revolver>.addTooltip(format.purple("Bullet Damage values amplified to ~50x"));
 <thaumicaugmentation:impulse_cannon>.addTooltip(format.purple("Damage Amplified to 20x"));
 
+
 print("--- Tooltip.zs initialized ---");	

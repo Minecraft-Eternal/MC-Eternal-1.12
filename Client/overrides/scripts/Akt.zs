@@ -89,7 +89,7 @@ import crafttweaker.oredict.IOreDictEntry;
 				Damage: 0 as short
 			},
 			ancientwarfare: {
-				id: "ancientwarefare:manual",
+				id: "ancientwarfare:manual",
 				Count: 1 as byte,
 				tag: {
 					"akashictome:definedMod": "ancientwarfare"
