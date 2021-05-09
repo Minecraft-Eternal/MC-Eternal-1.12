@@ -22,5 +22,6 @@ recipes.addShaped(<wings:slime_wings>, [[<minecraft:slime>, <wings:amethyst>, <m
 recipes.addShaped(<wings:dragon_wings>, [[<rats:dragon_wing>, <wings:amethyst>, <rats:dragon_wing>], [<ore:ingotNetherite>, <ore:dustFairy>, <ore:ingotNetherite>], [<ore:ingotNetherite>, null, <ore:ingotNetherite>]]);
 recipes.addShaped(<wings:angel_wings>, [[<ore:dustFairy>, <wings:amethyst>, <ore:dustFairy>], [<ore:ingotNetherite>, <ore:dustFairy>, <ore:ingotNetherite>], [<ore:ingotNetherite>, null, <ore:ingotNetherite>]]);
 recipes.addShaped(<wings:evil_wings>, [[<ore:blockCoal>, <wings:amethyst>, <ore:blockCoal>], [<ore:ingotNetherite>, <ore:dustFairy>, <ore:ingotNetherite>], [<ore:ingotNetherite>, null, <ore:ingotNetherite>]]);
+recipes.addShaped(<wings:monarch_butterfly_wings>, [[<mysticalagriculture:mystical_flower_essence>, <ore:gemAmethyst>, <mysticalagriculture:mystical_flower_essence>], [<futuremc:netherite_ingot>, <ore:dustFairy>, <ore:ingotNetherite>], [<ore:ingotNetherite>, null, <ore:ingotNetherite>]]);
 
 print("--- Wings.zs initialized ---");
