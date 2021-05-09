@@ -31,5 +31,8 @@ print("--- loading Tooltip.zs ---");
 <mysticalagriculture:supremium_chestplate>.addTooltip(format.red("Disabled Flight"));
 <mysticalagriculture:supremium_leggings>.addTooltip(format.red("Disabled Flight"));
 <mysticalagriculture:supremium_boots>.addTooltip(format.red("Disabled Flight"));
+<immersiveengineering:railgun>.addTooltip(format.purple("Damage amplified to 40x"));
+<immersiveengineering:revolver>.addTooltip(format.purple("Bullet Damage values amplified to ~50x.));
+<thaumicaugmentation:impulse_cannon>.addTooltip(format.purple("Damage Amplified to 20x"));
 
 print("--- Tooltip.zs initialized ---");	
