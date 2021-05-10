@@ -33,5 +33,9 @@ print("--- loading Tooltip.zs ---");
 <mysticalagriculture:supremium_boots>.addTooltip(format.red("Disabled Flight"));
 <cyclicmagic:inventory_food>.addTooltip(format.red("WARNING! Can deletes items when the game crash or close unexpectedly"));
 <cookingforblockheads:sink>.addTooltip(format.red("Does not produce Infinite Water"));
+<immersiveengineering:railgun>.addTooltip(format.lightPurple("Damage amplified to 40x"));
+<immersiveengineering:revolver>.addTooltip(format.lightPurple("Bullet Damage values amplified to ~50x"));
+<thaumicaugmentation:impulse_cannon>.addTooltip(format.lightPurple("Damage Amplified to 20x"));
+
 
 print("--- Tooltip.zs initialized ---");	
