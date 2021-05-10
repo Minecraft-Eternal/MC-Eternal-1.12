@@ -7,6 +7,13 @@
     "tier": 1
   },
   {
+    "identifier": "cinder",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
     "identifier": "arctic",
     "enabled": true,
     "entityBlacklist": [],
@@ -30,14 +37,14 @@
   {
     "identifier": "reflecting",
     "enabled": true,
-    "entityBlacklist": [],
+    "entityBlacklist": ["twilightforest:lich"],
     "alwaysOnEntity": [],
     "tier": 1
   },
   {
     "identifier": "knockback",
     "enabled": true,
-    "entityBlacklist": [],
+    "entityBlacklist": ["twilightforest:naga"],
     "alwaysOnEntity": [],
     "tier": 1
   },
@@ -51,21 +58,21 @@
   {
     "identifier": "dampening",
     "enabled": true,
-    "entityBlacklist": ["twilightforest:ur_ghast", "twilightforest:hydra", "twilightforest:lich"],
+    "entityBlacklist": ["twilightforest:lich", "twilightforest:hydra", "twilightforest:ur_ghast"],
     "alwaysOnEntity": [],
     "tier": 1
   },
   {
     "identifier": "lively",
-    "enabled": true,
-    "entityBlacklist": ["twilightforest:ur_ghast", "twilightforest:hydra", "twilightforest:lich"],
+    "enabled": false,
+    "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 1
   },
   {
     "identifier": "adaptable",
     "enabled": true,
-    "entityBlacklist": ["twilightforest:ur_ghast", "twilightforest:hydra", "twilightforest:lich"],
+    "entityBlacklist": ["minecraft:ender_dragon", "minecraft:wither", "twilightforest:naga", "twilightforest:lich", "twilightforest:hydra", "aether_legacy:slider", "aether_legacy:valkyrie_queen", "erebus:erebus.crushroom", "erebus:erebus.tarantula_mini_boss", "erebus:erebus.antlion_boss", "atum:pharaoh"],
     "alwaysOnEntity": [],
     "tier": 1
   },
@@ -79,14 +86,14 @@
   {
     "identifier": "hasty",
     "enabled": true,
-    "entityBlacklist": [],
+    "entityBlacklist": ["minecraft:wither", "minecraft:ender_dragon", "twilightforest:naga", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:hydra", "twilightforest:snow_queen", "twilightforest:ur_ghast", "aether_legacy:slider", "aether_legacy:valkyrie_queen", "erebus:erebus.crushroom", "erebus:erebus.tarantula_mini_boss", "erebus:erebus.antlion_boss", "atum:pharaoh"],
     "alwaysOnEntity": [],
     "tier": 1
   },
   {
     "identifier": "shielding",
-    "enabled": false,
-    "entityBlacklist": [],
+    "enabled": true,
+    "entityBlacklist": ["minecraft:wither", "minecraft:ender_dragon", "twilightforest:naga", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:hydra", "twilightforest:snow_queen", "twilightforest:ur_ghast", "theaurorian:runestonedungeonkeeper", "theaurorian:spider", "theaurorian:moonqueen", "aether_legacy:slider", "aether_legacy:valkyrie_queen", "erebus:erebus.crushroom", "erebus:erebus.tarantula_mini_boss", "erebus:erebus.antlion_boss", "atum:pharaoh"],
     "alwaysOnEntity": [],
     "tier": 1
   },
@@ -99,7 +106,7 @@
   },
   {
     "identifier": "plagued",
-    "enabled": true,
+    "enabled": false,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 1
