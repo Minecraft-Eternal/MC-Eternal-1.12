@@ -36,6 +36,6 @@ print("--- loading Tooltip.zs ---");
 <immersiveengineering:railgun>.addTooltip(format.lightPurple("Damage amplified to 40x"));
 <immersiveengineering:revolver>.addTooltip(format.lightPurple("Bullet Damage values amplified to ~50x"));
 <thaumicaugmentation:impulse_cannon>.addTooltip(format.lightPurple("Damage Amplified to 20x"));
-
+<agricraft:sprinkler>.addTooltip(format.red("WARNING: Will cause serious FPS lag if Particles are not disabled in Agricraft's Config");
 
 print("--- Tooltip.zs initialized ---");	
