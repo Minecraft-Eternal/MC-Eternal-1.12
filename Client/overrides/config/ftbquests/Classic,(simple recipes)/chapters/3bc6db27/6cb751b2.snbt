@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: -7.0d,
+	dependencies: [
+		"1f7d308c"
+	],
+	tasks: [{
+		uid: "1c9e3919",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_drill"
+		}]
+	}],
+	rewards: [{
+		uid: "3e26aadb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "59a901c7",
+		type: "loot",
+		table: 1
+	}]
+}

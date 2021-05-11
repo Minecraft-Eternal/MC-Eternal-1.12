@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: -7.0d,
+	dependencies: [
+		"37cf225d"
+	],
+	tasks: [{
+		uid: "f92d5d42",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_byproduct_recolector"
+		}]
+	}],
+	rewards: [{
+		uid: "b8c16ba7",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "d3153746",
+		type: "loot",
+		table: 1
+	}]
+}

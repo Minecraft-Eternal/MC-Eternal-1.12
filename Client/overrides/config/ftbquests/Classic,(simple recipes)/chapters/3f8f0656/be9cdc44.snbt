@@ -1,0 +1,26 @@
+{
+	x: 21.5d,
+	y: -3.0d,
+	description: "Most advanced alloy of EnderIO",
+	dependencies: [
+		"63c1390f"
+	],
+	tasks: [{
+		uid: "d1181f61",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "9baca463",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "fa8ab4b6",
+		type: "loot",
+		table: 1
+	}]
+}

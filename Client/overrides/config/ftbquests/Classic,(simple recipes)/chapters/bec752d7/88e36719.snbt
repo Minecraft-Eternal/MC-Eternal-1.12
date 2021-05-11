@@ -1,0 +1,28 @@
+{
+	x: 17.5d,
+	y: 13.5d,
+	dependencies: [
+		"cbeacc4f"
+	],
+	tasks: [{
+		uid: "37dda60d",
+		type: "item",
+		items: [{
+			id: "vampirism:crossbow_arrow",
+			tag: {
+				type: "spitfire"
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b08e5b79",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a29d6aa6",
+		type: "loot",
+		table: 1
+	}]
+}

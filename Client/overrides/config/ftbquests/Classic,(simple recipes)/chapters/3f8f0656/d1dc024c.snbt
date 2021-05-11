@@ -1,0 +1,42 @@
+{
+	x: 11.0d,
+	y: 4.0d,
+	description: "Most used alloys of EnderIO",
+	dependencies: [
+		"cb777ab6"
+	],
+	tasks: [{
+		uid: "043d0a65",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot"
+		}],
+		count: 16L
+	},
+	{
+		uid: "e109b18b",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "6e7548d0",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 2"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "9bbbb461",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "86b4768b",
+		type: "loot",
+		table: 1
+	}]
+}

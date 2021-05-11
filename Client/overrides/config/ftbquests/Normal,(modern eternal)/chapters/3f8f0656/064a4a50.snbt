@@ -1,0 +1,37 @@
+{
+	x: 1.0d,
+	y: -5.0d,
+	description: "If I can't scuba, then what's this all been about?",
+	dependencies: [
+		"567a3a9f"
+	],
+	tasks: [{
+		uid: "e9083692",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:scubatank"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ac7a0739",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:gasmask"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7135817",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

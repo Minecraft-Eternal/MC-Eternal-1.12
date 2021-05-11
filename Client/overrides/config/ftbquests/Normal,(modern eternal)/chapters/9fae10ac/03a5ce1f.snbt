@@ -1,0 +1,22 @@
+{
+	x: -11.0d,
+	y: 2.0d,
+	description: "The Knight Phantoms reside in a brick-layered room in the Goblin Knight Stronghold. They appear as ghostly pieces of Phantom Armor, and appear to have a spooky, ghost-like look when attacking.",
+	tasks: [{
+		uid: "7ccfd3b3",
+		type: "kill",
+		icon: "twilightforest:trophy 1 4",
+		entity: "twilightforest:knight_phantom",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "eb5a362f",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "6aaed691",
+		type: "loot",
+		table: 1
+	}]
+}

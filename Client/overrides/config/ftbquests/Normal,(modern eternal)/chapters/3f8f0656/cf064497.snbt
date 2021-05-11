@@ -1,0 +1,19 @@
+{
+	x: -6.0d,
+	y: 8.0d,
+	dependencies: [
+		"9a541046"
+	],
+	tasks: [{
+		uid: "562a9d88",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 60"
+		}]
+	}],
+	rewards: [{
+		uid: "a7c0b3f9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

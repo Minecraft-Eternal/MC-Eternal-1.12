@@ -1,0 +1,27 @@
+{
+	icon: "twilightforest:trophy",
+	x: -11.0d,
+	y: 0.0d,
+	description: "The Naga is a serpent that lurks in a Naga Courtyard. It appears as an immense green snake-like creature with a human-like face. Its scales have subtle hints of all sorts of other colors.",
+	tasks: [{
+		uid: "27ee254f",
+		type: "kill",
+		entity: "twilightforest:naga",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "fc3ac59e",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6bb7aad2",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "2fdd766f",
+		type: "loot",
+		table: 1
+	}]
+}

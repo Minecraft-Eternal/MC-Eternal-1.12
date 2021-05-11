@@ -1,0 +1,29 @@
+{
+	title: "Advanced Energy Storage",
+	x: 15.0d,
+	y: 1.0d,
+	description: "Craft a Capacitor Bank",
+	dependencies: [
+		"4fc57bb8"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "20da1f91",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3ce6f3b",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1e485429",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	icon: "techreborn:nuggets 1 23",
+	x: -3.5d,
+	y: -7.0d,
+	description: "Mining",
+	can_repeat: true,
+	tasks: [{
+		uid: "8c8cc740",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "0755c8b3",
+		type: "item",
+		title: "1 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 1L
+			}
+		}
+	}]
+}

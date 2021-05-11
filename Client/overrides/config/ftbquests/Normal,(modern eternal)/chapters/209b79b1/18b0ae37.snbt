@@ -1,0 +1,52 @@
+{
+	x: -2.5d,
+	y: -3.0d,
+	shape: "square",
+	description: "Nether Wasps are a flying mob in the Nether that spawn in Hives.",
+	text: [
+		"I don't think you could come up with a worse combo..."
+	],
+	dependencies: [
+		"3acd3f99"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bd0aa705",
+		type: "kill",
+		title: "Bounty: Nether Wasp",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "biomesoplenty:wasp",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "eb59ed30",
+		type: "item",
+		item: "forestry:honeyed_slice",
+		count: 3
+	},
+	{
+		uid: "cb88b821",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "biomesoplenty:jar_filled"
+		}
+	},
+	{
+		uid: "4701e9dd",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "bd39e596",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

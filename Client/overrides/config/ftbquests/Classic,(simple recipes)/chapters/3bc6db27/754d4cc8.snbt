@@ -1,0 +1,22 @@
+{
+	x: -15.5d,
+	y: -3.5d,
+	description: "Upgrading Thermal Machines",
+	tasks: [{
+		uid: "070859c2",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "ec1ee7b3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "71ccf0fe",
+		type: "loot",
+		table: 1
+	}]
+}

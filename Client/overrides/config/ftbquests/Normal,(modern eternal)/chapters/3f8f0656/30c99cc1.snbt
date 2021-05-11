@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"2c7074dc"
+	],
+	tasks: [{
+		uid: "f9952ccf",
+		type: "item",
+		items: [{
+			item: "mekanism:glowpanel 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "f1cb8751",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

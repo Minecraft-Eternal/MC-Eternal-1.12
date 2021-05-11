@@ -1,0 +1,16 @@
+{
+	x: -17.5d,
+	y: -5.0d,
+	tasks: [{
+		uid: "309ec353",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:knightslime_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "2980a641",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

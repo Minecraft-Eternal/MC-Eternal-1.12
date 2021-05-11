@@ -1,0 +1,25 @@
+{
+	x: 12.5d,
+	y: 0.5d,
+	description: "Create a spawner out of any non-boss mob ",
+	dependencies: [
+		"7b601388"
+	],
+	tasks: [{
+		uid: "297b288d",
+		type: "item",
+		items: [{
+			item: "enderio:block_powered_spawner"
+		}]
+	}],
+	rewards: [{
+		uid: "8735e3a8",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "f5d1dcac",
+		type: "loot",
+		table: 1
+	}]
+}

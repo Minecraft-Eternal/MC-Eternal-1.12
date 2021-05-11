@@ -1,0 +1,27 @@
+{
+	x: -7.5d,
+	y: -5.0d,
+	dependencies: [
+		"77f6b13a"
+	],
+	tasks: [{
+		uid: "47ab72a0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:strongbox",
+			tag: {
+				Facing: 3b,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b073cf6f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

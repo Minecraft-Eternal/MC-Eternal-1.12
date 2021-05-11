@@ -1,0 +1,29 @@
+{
+	x: -13.0d,
+	y: -9.0d,
+	description: "Can be mounted as trophies",
+	dependencies: [
+		"a9d286cd"
+	],
+	tasks: [{
+		uid: "3ec8b784",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragon_skull"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "de816292",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "886d7423",
+		type: "loot",
+		table: 1
+	}]
+}

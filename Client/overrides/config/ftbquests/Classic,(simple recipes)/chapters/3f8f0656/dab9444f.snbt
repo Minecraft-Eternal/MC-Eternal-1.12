@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	shape: "diamond",
+	tasks: [{
+		uid: "4544d4e5",
+		type: "item",
+		items: [{
+			item: "buildcraftlib:guide"
+		}]
+	}],
+	rewards: [{
+		uid: "97154644",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "acddae84",
+		type: "loot",
+		table: 1
+	}]
+}

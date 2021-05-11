@@ -1,0 +1,24 @@
+{
+	x: 2.5d,
+	y: 7.0d,
+	dependencies: [
+		"ecf94583"
+	],
+	tasks: [{
+		uid: "e4811f24",
+		type: "item",
+		items: [{
+			item: "totemic:wind_chime"
+		}]
+	}],
+	rewards: [{
+		uid: "2fa81360",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "004ad4df",
+		type: "loot",
+		table: 1
+	}]
+}

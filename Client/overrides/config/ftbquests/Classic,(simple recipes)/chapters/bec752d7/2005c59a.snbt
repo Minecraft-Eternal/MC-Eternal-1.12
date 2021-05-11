@@ -1,0 +1,30 @@
+{
+	x: 8.5d,
+	y: 7.5d,
+	dependencies: [
+		"4da9b97c"
+	],
+	tasks: [{
+		uid: "ebcef7b9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "totemic:flute",
+			Damage: 1s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "56153cd5",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1bb0bd14",
+		type: "loot",
+		table: 1
+	}]
+}

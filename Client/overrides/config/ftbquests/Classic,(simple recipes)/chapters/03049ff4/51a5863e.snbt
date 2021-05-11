@@ -1,0 +1,43 @@
+{
+	title: "&4&lDragon Slayer",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Fire",
+	text: [
+		"Slay x100 Dragons"
+	],
+	tasks: [{
+		uid: "41ac67f4",
+		type: "kill",
+		title: "Slay 100 Dragons",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonbone_sword_fire"
+		},
+		entity: "iceandfire:firedragon",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "783af9ef",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "78859ba6",
+		type: "item",
+		item: "iceandfire:dragonsteel_fire_ingot",
+		count: 64
+	},
+	{
+		uid: "7fec26d6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

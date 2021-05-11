@@ -1,0 +1,39 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "twilightforest:ironwood_sword",
+		tag: {
+			ench: [{
+				lvl: 1s,
+				id: 19s
+			}]
+		}
+	},
+	x: -12.5d,
+	y: 1.0d,
+	description: "Giants live on solid cloudbanks above the Highlands biome. For unknown reasons (Sorcery? Coincidence? Symbolism?) they look like giant versions of the player looking at them",
+	tasks: [{
+		uid: "6a38e0b0",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:giant_sword"
+		},
+		entity: "twilightforest:armored_giant",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c47201f3",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "9608c80e",
+		type: "loot",
+		table: 1
+	}]
+}

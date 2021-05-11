@@ -1,0 +1,32 @@
+{
+	x: 12.0d,
+	y: 6.0d,
+	description: "Basic machines of EnderIO. Requires to craft other materials",
+	dependencies: [
+		"d3804759"
+	],
+	tasks: [{
+		uid: "fa846be7",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_furnace"
+		}]
+	},
+	{
+		uid: "1285ef25",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "de3d832b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1908a8f0",
+		type: "loot",
+		table: 1
+	}]
+}

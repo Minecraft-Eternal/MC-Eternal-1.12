@@ -1,0 +1,44 @@
+{
+	x: -3.5d,
+	y: -1.5d,
+	shape: "square",
+	description: "*Often can be found living in little huts around a Plains biome, lives together with his best friend*",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8852201"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1c97d1aa",
+		type: "kill",
+		title: "Bounty: Hunter Illager",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "hunterillager:hunter_illager",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "416a4ed6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "477fd493",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "7ba343f5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:frozenthigh"
+		}
+	}]
+}

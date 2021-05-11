@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "b25c6537",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					state: {
+						isOpen: 0b,
+						usedOnChest: 0b
+					},
+					inventory: {
+						Size: 14,
+						Items: []
+					}
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "treasure2:key_ring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "036a2e5d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

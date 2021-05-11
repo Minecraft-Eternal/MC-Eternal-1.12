@@ -1,0 +1,19 @@
+{
+	x: -12.0d,
+	y: -5.5d,
+	dependencies: [
+		"c75b514e"
+	],
+	tasks: [{
+		uid: "9b50ad5b",
+		type: "item",
+		items: [{
+			item: "midnight:cook_stinger_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "a22fb4c4",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

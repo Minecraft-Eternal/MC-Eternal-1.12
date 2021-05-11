@@ -1,0 +1,32 @@
+{
+	title: "&6Graverobbing",
+	x: -1.5d,
+	y: 0.3d,
+	description: "&oI did not steal it! I just borrowed it! ",
+	dependencies: [
+		"93182620"
+	],
+	size: 0.6d,
+	tasks: [{
+		uid: "2baa67e0",
+		type: "item",
+		items: [{
+			item: "atum:graverobbers_map"
+		}]
+	}],
+	rewards: [{
+		uid: "dd3c14e8",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "aaaebc42",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

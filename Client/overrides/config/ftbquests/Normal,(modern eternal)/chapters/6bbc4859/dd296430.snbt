@@ -1,0 +1,119 @@
+{
+	title: "Netherstar Sandwich",
+	icon: {
+		id: "culinaryconstruct:sandwich",
+		tag: {
+			Size: 5,
+			Saturation: 1.0f,
+			Ingredients: {
+				Items: [{
+					Slot: 0b,
+					id: "minecraft:nether_star",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 1b,
+					id: "minecraft:nether_star",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 2b,
+					id: "minecraft:nether_star",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 3b,
+					id: "minecraft:nether_star",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 4b,
+					id: "minecraft:nether_star",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 5b,
+					id: "minecraft:bread",
+					Count: 1b,
+					Damage: 0s
+				}]
+			},
+			Bonus: 2,
+			Depth: 0,
+			Food: 20
+		}
+	},
+	x: 1.0d,
+	y: -2.0d,
+	description: "*Unlocked from completing Secret*",
+	can_repeat: true,
+	dependencies: [
+		"ca973051"
+	],
+	tasks: [{
+		uid: "1381e5eb",
+		type: "checkmark"
+	},
+	{
+		uid: "530de5c7",
+		type: "ftbmoney:money",
+		value: 2500L
+	}],
+	rewards: [{
+		uid: "223b6f64",
+		type: "item",
+		item: {
+			id: "culinaryconstruct:sandwich",
+			tag: {
+				Size: 5,
+				Saturation: 1.0f,
+				Ingredients: {
+					Items: [{
+						Slot: 0b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 5b,
+						id: "minecraft:bread",
+						Count: 1b,
+						Damage: 0s
+					}]
+				},
+				Bonus: 2,
+				Depth: 0,
+				Food: 20
+			}
+		}
+	}]
+}

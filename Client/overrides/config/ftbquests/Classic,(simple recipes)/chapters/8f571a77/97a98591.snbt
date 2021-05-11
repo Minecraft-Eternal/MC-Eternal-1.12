@@ -1,0 +1,26 @@
+{
+	icon: "minecraft:gold_nugget",
+	x: -5.0d,
+	y: -7.0d,
+	description: "Mining",
+	can_repeat: true,
+	tasks: [{
+		uid: "84750764",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "459c3e28",
+		type: "item",
+		title: "10 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10L
+			}
+		}
+	}]
+}

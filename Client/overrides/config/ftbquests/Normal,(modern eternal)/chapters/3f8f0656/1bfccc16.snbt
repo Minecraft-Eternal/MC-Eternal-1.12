@@ -1,0 +1,26 @@
+{
+	x: 22.0d,
+	y: -1.0d,
+	description: "Used to craft enhanced chassis",
+	dependencies: [
+		"be9cdc44"
+	],
+	tasks: [{
+		uid: "5eea9799",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 67"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "423f48e2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "5fbf15af",
+		type: "loot",
+		table: 1
+	}]
+}

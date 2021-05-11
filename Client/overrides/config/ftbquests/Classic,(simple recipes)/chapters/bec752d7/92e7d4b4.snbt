@@ -1,0 +1,31 @@
+{
+	x: 9.5d,
+	y: 12.0d,
+	dependencies: [
+		"2231d2f1"
+	],
+	tasks: [{
+		uid: "b1cd810e",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_blood_bottle"
+		}]
+	},
+	{
+		uid: "a64868f4",
+		type: "item",
+		items: [{
+			item: "vampirism:soul_orb_vampire"
+		}]
+	}],
+	rewards: [{
+		uid: "a410aba3",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ca97b86e",
+		type: "loot",
+		table: 1
+	}]
+}

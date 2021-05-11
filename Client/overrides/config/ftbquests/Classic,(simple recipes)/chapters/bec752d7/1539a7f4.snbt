@@ -1,0 +1,27 @@
+{
+	x: 18.0d,
+	y: 5.0d,
+	dependencies: [
+		"7b06de0e"
+	],
+	tasks: [{
+		uid: "9f80be2f",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "agricarnation"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "915009b3",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "eff32386",
+		type: "loot",
+		table: 1
+	}]
+}

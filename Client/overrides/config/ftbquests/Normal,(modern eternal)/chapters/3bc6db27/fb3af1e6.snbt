@@ -1,0 +1,33 @@
+{
+	title: "Initial Machines",
+	x: -3.0d,
+	y: 4.0d,
+	description: "Both machines make materials that are later used.",
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "f1a26f6c",
+		type: "item",
+		items: [{
+			item: "techreborn:extractor"
+		}]
+	},
+	{
+		uid: "8bb3e9bb",
+		type: "item",
+		items: [{
+			item: "techreborn:compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "525b94ce",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "f72e58ba",
+		type: "loot",
+		table: 1
+	}]
+}

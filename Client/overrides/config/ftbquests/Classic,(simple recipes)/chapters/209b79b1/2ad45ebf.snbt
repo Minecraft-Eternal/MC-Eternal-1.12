@@ -1,0 +1,39 @@
+{
+	x: 3.0d,
+	y: -4.0d,
+	shape: "square",
+	description: "*Summoners can only be found deep in the Beneath on a player placed Dragon Bone Block* (They are really tough, come prepared!)",
+	dependencies: [
+		"7780b056"
+	],
+	hide: true,
+	tasks: [{
+		uid: "da227dfd",
+		type: "kill",
+		title: "Bounty: Summoner",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "thesummoner:summoner",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "56130359",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "0d939f55",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "22bf9c6e",
+		type: "item",
+		item: "mod_lavacow:zombiepiranha_item",
+		count: 3
+	}]
+}

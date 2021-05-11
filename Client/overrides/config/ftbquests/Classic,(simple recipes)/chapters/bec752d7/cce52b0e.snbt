@@ -1,0 +1,24 @@
+{
+	x: 14.5d,
+	y: 5.0d,
+	dependencies: [
+		"09694683"
+	],
+	tasks: [{
+		uid: "a18ccd50",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}],
+	rewards: [{
+		uid: "014c3f7a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "9b7fddc5",
+		type: "loot",
+		table: 1
+	}]
+}

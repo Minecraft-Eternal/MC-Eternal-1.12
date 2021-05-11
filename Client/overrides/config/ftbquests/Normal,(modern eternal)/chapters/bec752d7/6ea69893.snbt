@@ -1,0 +1,36 @@
+{
+	x: 13.0d,
+	y: 6.5d,
+	description: "Unlimited powwwaa",
+	dependencies: [
+		"090666e8"
+	],
+	tasks: [{
+		uid: "b6582ce3",
+		type: "item",
+		items: [{
+			item: "vampirism:altar_inspiration"
+		}]
+	}],
+	rewards: [{
+		uid: "46aec73c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "550952c9",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "da75c4a9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:blood_bottle",
+			Damage: 9s
+		}
+	}]
+}

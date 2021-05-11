@@ -1,0 +1,37 @@
+{
+	title: "&cPharaoh Slayer",
+	x: 0.0d,
+	y: 3.0d,
+	description: "&oTake down 15 Pharaoh's and claim their treasure",
+	dependencies: [
+		"4deccbba"
+	],
+	tasks: [{
+		uid: "1cd73628",
+		type: "kill",
+		title: "Pharaoh Slayer",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atum:body_of_atum"
+		},
+		entity: "atum:pharaoh",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "1f41b2ee",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "38a18c93",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

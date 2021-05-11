@@ -1,0 +1,27 @@
+{
+	x: -11.5d,
+	y: -8.5d,
+	shape: "diamond",
+	tasks: [{
+		uid: "2399b6e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mysticalagriculture:master_infusion_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1fef6c04",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "affec0c8",
+		type: "loot",
+		table: 1
+	}]
+}

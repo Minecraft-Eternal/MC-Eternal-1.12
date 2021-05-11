@@ -1,0 +1,33 @@
+{
+	title: "Rifter... Begone!",
+	x: -2.5d,
+	y: 6.5d,
+	description: "Turrets can be a fun way of providing effective automated defense to a players home",
+	dependencies: [
+		"58207da4"
+	],
+	tasks: [{
+		uid: "65eccd9e",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:turret_base 1 1"
+		}]
+	},
+	{
+		uid: "950f17ed",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:machine_gun_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "6607057c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "61345d65",
+		type: "loot",
+		table: 1
+	}]
+}

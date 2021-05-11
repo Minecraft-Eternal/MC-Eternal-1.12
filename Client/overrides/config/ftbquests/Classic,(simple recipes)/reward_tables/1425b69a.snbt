@@ -1,0 +1,17 @@
+{
+	title: "Hellish Box",
+	loot_size: 1,
+	rewards: [{
+		item: "bewitchment:demon_heart"
+	}],
+	loot_crate: {
+		string_id: "hellish_box",
+		color: 8782097,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

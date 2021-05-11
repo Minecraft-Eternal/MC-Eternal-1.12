@@ -1,0 +1,24 @@
+{
+	x: 14.0d,
+	y: 7.5d,
+	dependencies: [
+		"6ea69893"
+	],
+	tasks: [{
+		uid: "14fd0d73",
+		type: "item",
+		items: [{
+			item: "vampirism:altar_infusion"
+		}]
+	}],
+	rewards: [{
+		uid: "8c128f8e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "6acb4992",
+		type: "loot",
+		table: 1
+	}]
+}

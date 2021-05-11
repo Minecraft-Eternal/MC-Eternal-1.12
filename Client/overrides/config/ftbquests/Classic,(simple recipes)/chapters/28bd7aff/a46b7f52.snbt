@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 7.0d,
+	dependencies: [
+		"c9f8530f"
+	],
+	tasks: [{
+		uid: "31309553",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutsmeltery"
+		}]
+	}],
+	rewards: [{
+		uid: "9e465dcc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b46aa262",
+		type: "loot",
+		table: 1
+	}]
+}

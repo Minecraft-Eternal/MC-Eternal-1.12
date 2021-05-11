@@ -1,0 +1,27 @@
+{
+	title: "An Introduction to Railways",
+	x: 2.5d,
+	y: 4.5d,
+	shape: "gear",
+	description: "My way or the railway!",
+	text: [
+		"Create a custom modular minecart that can be used for infinite possibilities"
+	],
+	tasks: [{
+		uid: "8f84a92b",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockcartassembler"
+		}]
+	}],
+	rewards: [{
+		uid: "adfddc0b",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ae855749",
+		type: "loot",
+		table: 1
+	}]
+}

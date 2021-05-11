@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: 6.5d,
+	dependencies: [
+		"375598f6"
+	],
+	tasks: [{
+		uid: "2422f1aa",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:upgrade_meta 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "1064faae",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "be6e7315",
+		type: "loot",
+		table: 1
+	}]
+}

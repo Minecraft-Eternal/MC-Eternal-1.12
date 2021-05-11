@@ -1,0 +1,31 @@
+{
+	title: "Phantom Helmet",
+	x: -11.0d,
+	y: -15.0d,
+	shape: "diamond",
+	dependencies: [
+		"d592428b"
+	],
+	tasks: [{
+		uid: "c0c45d0b",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:phantom_helmet"
+		},
+		entity: "twilightforest:knight_phantom",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "65f1ff81",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "d2eb54b2",
+		type: "loot",
+		table: 1
+	}]
+}

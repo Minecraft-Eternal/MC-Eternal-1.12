@@ -1,0 +1,27 @@
+{
+	x: -9.0d,
+	y: -3.0d,
+	dependencies: [
+		"862609d0"
+	],
+	tasks: [{
+		uid: "1cfdd6ff",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 1s
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "d27163c3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Taming rats.",
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		"You can tame rats by feeding them cheese. You can command them to wander, stay, follow, transport items, harvest, gather items and to hunt! Place milk in an cauldron to make a block of cheese."
+	],
+	dependencies: [
+		"ea52fe16"
+	],
+	tasks: [{
+		uid: "3f30438a",
+		type: "item",
+		items: [{
+			item: "rats:cheese"
+		}],
+		count: 16L
+	},
+	{
+		uid: "48a25929",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "d21f3400",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "973c41c5",
+		type: "loot",
+		table: 1
+	}]
+}

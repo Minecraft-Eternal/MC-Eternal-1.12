@@ -1,0 +1,27 @@
+{
+	icon: "twilightforest:trophy 1 1",
+	x: -10.0d,
+	y: 0.0d,
+	description: "The Twilight Lich resides on the top of a Lich Tower. It appears as a tall humanoid skeleton wearing a purple cape, and a large golden crown. Surrounding itself is a wall of shields to protect itself from any damage, but perhaps they can be broken?",
+	tasks: [{
+		uid: "ba8ee198",
+		type: "kill",
+		entity: "twilightforest:lich",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "dea38088",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "62b6623d",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "79589f7c",
+		type: "loot",
+		table: 1
+	}]
+}

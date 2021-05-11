@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "fcd072d9",
+		type: "item",
+		items: [{
+			item: "openblocks:sprinkler"
+		}]
+	}],
+	rewards: [{
+		uid: "f63e0656",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6b36e5fe",
+		type: "loot",
+		table: 1
+	}]
+}

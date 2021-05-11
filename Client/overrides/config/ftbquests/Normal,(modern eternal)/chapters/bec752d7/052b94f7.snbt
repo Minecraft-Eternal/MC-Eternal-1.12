@@ -1,0 +1,47 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "Discover every spell",
+	dependencies: [
+		"56e86e9c"
+	],
+	tasks: [{
+		uid: "a139745f",
+		type: "advancement",
+		title: "Essence of Magic",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_combustion"
+		},
+		advancement: "ebwizardry:all_spells",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "9cd888c9",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	},
+	{
+		uid: "e11845ec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "cf85b8c7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "charm:record_creative6"
+		}
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: -6.0d,
+	y: -2.5d,
+	description: "Charges items with RF",
+	dependencies: [
+		"749a3883"
+	],
+	tasks: [{
+		uid: "fc0e4a3c",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 9s
+		}]
+	}],
+	rewards: [{
+		uid: "a57fdaa3",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "71285ed1",
+		type: "loot",
+		table: 1
+	}]
+}

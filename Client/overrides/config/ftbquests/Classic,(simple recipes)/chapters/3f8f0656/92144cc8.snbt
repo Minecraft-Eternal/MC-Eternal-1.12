@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	shape: "gear",
+	dependencies: [
+		"dab9444f"
+	],
+	tasks: [{
+		uid: "0e8d9226",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 26"
+		}]
+	}],
+	rewards: [{
+		uid: "98dd0b6b",
+		type: "advancement",
+		advancement: "Scientist",
+		criterion: ""
+	},
+	{
+		uid: "7648af99",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

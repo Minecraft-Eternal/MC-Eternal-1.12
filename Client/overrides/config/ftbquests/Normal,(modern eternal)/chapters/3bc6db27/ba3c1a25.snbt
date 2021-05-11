@@ -1,0 +1,25 @@
+{
+	x: -11.5d,
+	y: -6.0d,
+	dependencies: [
+		"44addd95"
+	],
+	tasks: [{
+		uid: "bb59f18e",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:servo 1 1"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "4b99c198",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "aaf7a946",
+		type: "loot",
+		table: 1
+	}]
+}

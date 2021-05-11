@@ -1,0 +1,27 @@
+{
+	x: 3.0d,
+	y: 7.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "f4d97b9a",
+		type: "item",
+		items: [{
+			item: "powersuits:tinkertable"
+		}]
+	}],
+	rewards: [{
+		uid: "1cd44851",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "cfe0ac9c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

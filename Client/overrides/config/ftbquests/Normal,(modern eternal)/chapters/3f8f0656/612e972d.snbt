@@ -1,0 +1,35 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "656e23ff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "portalgun:item_portalgun",
+			tag: {
+				lastFired: 1b,
+				width: 1,
+				channelName: "Chell",
+				grabStrength: 4,
+				uuid: "Global",
+				username: "Global",
+				height: 2
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7eb0a69e",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "d71adacd",
+		type: "loot",
+		table: 1
+	}]
+}

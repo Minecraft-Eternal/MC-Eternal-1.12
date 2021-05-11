@@ -1,0 +1,49 @@
+{
+	title: "&6Fishing, Fishing, Fishing!",
+	x: 1.5d,
+	y: 0.3d,
+	description: "&oSuch strange creatures, the fish here appear to be inbetween life and death. I should collect samples.",
+	dependencies: [
+		"cac64582"
+	],
+	size: 0.6d,
+	tasks: [{
+		uid: "552d9616",
+		type: "item",
+		items: [{
+			item: "atum:fish_skeletal"
+		}],
+		count: 16L
+	},
+	{
+		uid: "85c79ef6",
+		type: "item",
+		items: [{
+			item: "atum:fish_forsaken"
+		}],
+		count: 16L
+	},
+	{
+		uid: "7a183a20",
+		type: "item",
+		items: [{
+			item: "atum:fish_mummified"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "43711b04",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "deabe244",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

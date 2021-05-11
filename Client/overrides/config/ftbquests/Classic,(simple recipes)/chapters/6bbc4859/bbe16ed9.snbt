@@ -1,0 +1,20 @@
+{
+	icon: "doggytalents:creative_collar",
+	x: -2.0d,
+	y: 1.0d,
+	shape: "square",
+	description: "*Unlocked from completing the Mayor Position Available chapter*",
+	dependencies: [
+		"28bd7aff"
+	],
+	tasks: [{
+		uid: "acade64c",
+		type: "ftbmoney:money",
+		value: 80000L
+	}],
+	rewards: [{
+		uid: "23126386",
+		type: "item",
+		item: "doggytalents:creative_collar"
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	title: "Ingots, Ingots, Ingots!",
+	x: -9.5d,
+	y: 5.5d,
+	description: "Part Uno",
+	dependencies: [
+		"ae2e1bfa"
+	],
+	tasks: [{
+		uid: "67f2f0c1",
+		type: "item",
+		title: "Any ingotSteel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 32L
+	},
+	{
+		uid: "1863647c",
+		type: "item",
+		title: "Any ingotBronze",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotBronze",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 32L
+	},
+	{
+		uid: "dbe99071",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 131"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "8b51c915",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "d0541308",
+		type: "loot",
+		table: 1
+	}]
+}

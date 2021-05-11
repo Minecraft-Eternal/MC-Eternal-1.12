@@ -1,0 +1,19 @@
+{
+	x: 5.5d,
+	y: -2.0d,
+	dependencies: [
+		"d256da0e"
+	],
+	tasks: [{
+		uid: "ce9b3f7b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy_furnace_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "0b284a07",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

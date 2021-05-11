@@ -1,0 +1,27 @@
+{
+	x: -2.5d,
+	y: -3.0d,
+	dependencies: [
+		"aa690e30"
+	],
+	tasks: [{
+		uid: "08354912",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "250fb002",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

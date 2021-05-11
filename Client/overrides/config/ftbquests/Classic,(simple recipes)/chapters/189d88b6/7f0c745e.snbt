@@ -1,0 +1,29 @@
+{
+	x: -6.0d,
+	y: -7.0d,
+	description: "Nether Resource",
+	hide_dependency_lines: true,
+	dependencies: [
+		"36443d40"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "653d8a1d",
+		type: "item",
+		items: [{
+			item: "minecraft:soul_sand"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7f7723cc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4c4eec91",
+		type: "item",
+		item: "harvestcraft:cassouletitem",
+		random_bonus: 8
+	}]
+}

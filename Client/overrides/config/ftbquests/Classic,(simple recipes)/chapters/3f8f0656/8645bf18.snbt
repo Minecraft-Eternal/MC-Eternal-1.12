@@ -1,0 +1,29 @@
+{
+	x: 12.0d,
+	y: -0.5d,
+	description: "Wingardium Leviosa",
+	dependencies: [
+		"829fb6bc"
+	],
+	tasks: [{
+		uid: "a019cf22",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_staff_of_levity"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "41223b97",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1d1ba6cd",
+		type: "loot",
+		table: 1
+	}]
+}

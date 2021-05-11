@@ -1,0 +1,38 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	description: "You've discovered some ancient scrolls... ",
+	dependencies: [
+		"ac54b30d"
+	],
+	tasks: [{
+		uid: "0f396eb6",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy"
+		}]
+	}],
+	rewards: [{
+		uid: "8a8df4fa",
+		type: "item",
+		title: "Ancient Scroll",
+		item: "tfspellpack:twilight_scroll 1 198"
+	},
+	{
+		uid: "2abb7683",
+		type: "item",
+		title: "Ancient Scroll",
+		item: "tfspellpack:twilight_scroll 1 196"
+	},
+	{
+		uid: "2b3f0e34",
+		type: "item",
+		title: "Ancient Scroll",
+		item: "tfspellpack:twilight_scroll 1 197"
+	},
+	{
+		uid: "24226853",
+		type: "item",
+		item: "twilightforest:transformation_powder"
+	}]
+}

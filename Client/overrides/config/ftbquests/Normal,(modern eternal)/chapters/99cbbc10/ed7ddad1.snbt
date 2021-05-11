@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "49ecc8d1",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_worm"
+		}]
+	}],
+	rewards: [{
+		uid: "85213ae1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

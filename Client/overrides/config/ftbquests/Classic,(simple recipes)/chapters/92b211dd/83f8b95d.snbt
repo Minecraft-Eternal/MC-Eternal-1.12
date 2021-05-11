@@ -1,0 +1,25 @@
+{
+	title: "Fuel Infrastructure",
+	x: 1.5d,
+	y: -3.5d,
+	description: "Water is pumped into the input fluid hatch via water buckets or other fluid transport methods from other mods. The Hydrogen is pumped out on one side via the output fluid hatch, and Oxygen the other.",
+	text: [
+		"&lThe Electrolyser&r is a multi-block construction which breaks down water into Hydrogen and Oxygen. Use the Holo-Projector to complete the structure, then right click the &lElectrolyser&r machine block."
+	],
+	dependencies: [
+		"e51a5fcb"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "66655ef0",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:electrolyser"
+		}]
+	}],
+	rewards: [{
+		uid: "99d3c478",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

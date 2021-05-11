@@ -1,0 +1,24 @@
+{
+	x: 19.5d,
+	y: -1.0d,
+	dependencies: [
+		"63c1390f"
+	],
+	tasks: [{
+		uid: "6dd5eb51",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "6a7b4686",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "d37c3f09",
+		type: "loot",
+		table: 1
+	}]
+}

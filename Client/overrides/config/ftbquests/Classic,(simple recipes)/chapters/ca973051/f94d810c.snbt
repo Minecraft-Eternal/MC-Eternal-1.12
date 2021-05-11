@@ -1,0 +1,25 @@
+{
+	x: -7.5d,
+	y: -10.0d,
+	dependencies: [
+		"7bba1aac"
+	],
+	tasks: [{
+		uid: "9e7b9b65",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:green_middle_gem"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "297a53f9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "adec7cc4",
+		type: "loot",
+		table: 1
+	}]
+}

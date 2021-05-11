@@ -1,0 +1,24 @@
+{
+	x: -12.0d,
+	y: -12.0d,
+	dependencies: [
+		"b4ba916c"
+	],
+	tasks: [{
+		uid: "78672b73",
+		type: "item",
+		items: [{
+			item: "twilightforest:hydra_chop"
+		}]
+	}],
+	rewards: [{
+		uid: "7b897374",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "fa37a309",
+		type: "loot",
+		table: 1
+	}]
+}

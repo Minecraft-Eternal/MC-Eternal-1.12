@@ -1,0 +1,24 @@
+{
+	x: -9.5d,
+	y: 2.5d,
+	dependencies: [
+		"9a1e3f68"
+	],
+	tasks: [{
+		uid: "046d2179",
+		type: "item",
+		items: [{
+			item: "fairylights:ladder"
+		}]
+	}],
+	rewards: [{
+		uid: "7a1541f2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "abef660c",
+		type: "loot",
+		table: 1
+	}]
+}

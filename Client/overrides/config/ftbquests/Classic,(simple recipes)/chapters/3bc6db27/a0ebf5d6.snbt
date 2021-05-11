@@ -1,0 +1,23 @@
+{
+	x: -4.0d,
+	y: 2.5d,
+	dependencies: [
+		"076036dd"
+	],
+	tasks: [{
+		uid: "4379697f",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "5ace05e3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

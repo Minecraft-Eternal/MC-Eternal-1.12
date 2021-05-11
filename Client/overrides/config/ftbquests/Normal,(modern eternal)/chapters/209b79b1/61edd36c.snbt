@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 7.5d,
+	tasks: [{
+		uid: "ae91e2bf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:obsidianskullring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec92016f",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "ffcd9c4c",
+		type: "loot",
+		table: 1
+	}]
+}

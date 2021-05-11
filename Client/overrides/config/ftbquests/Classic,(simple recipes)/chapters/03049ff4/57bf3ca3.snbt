@@ -1,0 +1,2902 @@
+{
+	title: "&lBeeDex",
+	x: 1.0d,
+	y: 4.0d,
+	description: "&e&oNot the bees? Bees are fun now did you not get the memo?",
+	tasks: [{
+		uid: "963bc8da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.husbandry",
+						UID0: "careerbees.husbandry",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.husbandy",
+						UID0: "careerbees.effect.husbandy",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.husbandry",
+						UID0: "careerbees.husbandry",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.husbandy",
+						UID0: "careerbees.effect.husbandy",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "5e1d9a26",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.repair",
+						UID0: "careerbees.repair",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.repair",
+						UID0: "careerbees.effect.repair",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.repair",
+						UID0: "careerbees.repair",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.repair",
+						UID0: "careerbees.effect.repair",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "e04c9d5d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.butcher",
+						UID0: "careerbees.butcher",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.butcher",
+						UID0: "careerbees.effect.butcher",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.butcher",
+						UID0: "careerbees.butcher",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.butcher",
+						UID0: "careerbees.effect.butcher",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "b72fae73",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.yente",
+						UID0: "careerbees.yente",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.yente",
+						UID0: "careerbees.yente",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "4ec25145",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5863096196267452682L,
+					AS_Amulet_HolderMost: -2754331757198947019L
+				}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.rainbow",
+						UID0: "careerbees.rainbow",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.rainbow",
+						UID0: "careerbees.rainbow",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "b4b46f6e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.mason",
+						UID0: "careerbees.mason",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.mason",
+						UID0: "careerbees.effect.mason",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.mason",
+						UID0: "careerbees.mason",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.mason",
+						UID0: "careerbees.effect.mason",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "df94c17b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.phd",
+						UID0: "careerbees.phd",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.effect.restore",
+						UID0: "careerbees.effect.effect.restore",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.phd",
+						UID0: "careerbees.phd",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.effect.restore",
+						UID0: "careerbees.effect.effect.restore",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "b8afa4f9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.buisnessman",
+						UID0: "careerbees.buisnessman",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.buisness",
+						UID0: "careerbees.effect.buisness",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.buisnessman",
+						UID0: "careerbees.buisnessman",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.buisness",
+						UID0: "careerbees.effect.buisness",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "5b81cda1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.robot",
+						UID0: "careerbees.robot",
+						Slot: 0b
+					},
+					{
+						UID1: "careerbees.speedRobotic",
+						UID0: "careerbees.speedRobotic",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.robot",
+						UID0: "careerbees.robot",
+						Slot: 0b
+					},
+					{
+						UID1: "careerbees.speedRobotic",
+						UID0: "careerbees.speedRobotic",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "21b4e688",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.devil",
+						UID0: "careerbees.devil",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.burning",
+						UID0: "careerbees.effect.burning",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.devil",
+						UID0: "careerbees.devil",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.burning",
+						UID0: "careerbees.effect.burning",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "e4957efb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.assassin",
+						UID0: "careerbees.assassin",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.assassin",
+						UID0: "careerbees.effect.assassin",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.assassin",
+						UID0: "careerbees.assassin",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.assassin",
+						UID0: "careerbees.effect.assassin",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "e61411dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5863096196267452682L,
+					AS_Amulet_HolderMost: -2754331757198947019L
+				}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.mad_scientist",
+						UID0: "careerbees.mad_scientist",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.exploding",
+						UID0: "careerbees.effect.exploding",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.mad_scientist",
+						UID0: "careerbees.mad_scientist",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.exploding",
+						UID0: "careerbees.effect.exploding",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "35fca72b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.plaguedoctor",
+						UID0: "careerbees.plaguedoctor",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.curative",
+						UID0: "careerbees.effect.curative",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.plaguedoctor",
+						UID0: "careerbees.plaguedoctor",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.curative",
+						UID0: "careerbees.effect.curative",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "5e685938",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.electrician",
+						UID0: "careerbees.electrician",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.electrifying",
+						UID0: "careerbees.effect.electrifying",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.electrician",
+						UID0: "careerbees.electrician",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.electrifying",
+						UID0: "careerbees.effect.electrifying",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "b8b78ddf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.quantum_charm",
+						UID0: "careerbees.quantum_charm",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedFast",
+						UID0: "forestry.speedFast",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityHigh",
+						UID0: "forestry.fertilityHigh",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceDown1",
+						UID0: "forestry.toleranceDown1",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolTrue",
+						UID0: "forestry.boolTrue",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceUp1",
+						UID0: "forestry.toleranceUp1",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolTrue",
+						UID0: "forestry.boolTrue",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringFast",
+						UID0: "forestry.floweringFast",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.teleposition",
+						UID0: "careerbees.effect.teleposition",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.quantum_charm",
+						UID0: "careerbees.quantum_charm",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedFast",
+						UID0: "forestry.speedFast",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityHigh",
+						UID0: "forestry.fertilityHigh",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceDown1",
+						UID0: "forestry.toleranceDown1",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolTrue",
+						UID0: "forestry.boolTrue",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceUp1",
+						UID0: "forestry.toleranceUp1",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolTrue",
+						UID0: "forestry.boolTrue",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringFast",
+						UID0: "forestry.floweringFast",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.teleposition",
+						UID0: "careerbees.effect.teleposition",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "cdbf00bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.priest",
+						UID0: "careerbees.priest",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.priest",
+						UID0: "careerbees.effect.priest",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.priest",
+						UID0: "careerbees.priest",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.priest",
+						UID0: "careerbees.effect.priest",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "1427d60b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.digging",
+						UID0: "careerbees.digging",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolTrue",
+						UID0: "forestry.boolTrue",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.miner",
+						UID0: "careerbees.effect.miner",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.digging",
+						UID0: "careerbees.digging",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolTrue",
+						UID0: "forestry.boolTrue",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.miner",
+						UID0: "careerbees.effect.miner",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "91ad0a90",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.taxcollector",
+						UID0: "careerbees.taxcollector",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.taxation",
+						UID0: "careerbees.effect.taxation",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.taxcollector",
+						UID0: "careerbees.taxcollector",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.taxation",
+						UID0: "careerbees.effect.taxation",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "e613d7a1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.cook",
+						UID0: "careerbees.cook",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.glazing",
+						UID0: "careerbees.effect.glazing",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.cook",
+						UID0: "careerbees.cook",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "careerbees.effect.glazing",
+						UID0: "careerbees.effect.glazing",
+						Slot: 12b
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "f3983092",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "01c378e2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "aef1db7d",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "27eeaabf",
+		type: "item",
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"That quest sure was un-bee-lievable huh.\\n\\nWhat did one bee say to the other when they landed on the same flower? Buzz off.\\n\\nA bee who is good in math knows exactly what a rhom-buzz is.\\n\"}",
+					"{\"text\":\"Bee puns really sting. Am I right? I\\u0027ll be here all weekend.\\n\\nOnly bees who are on their best bee-havior get to go to the hive and make honey.\\n\\nThat bee is talking too quietly, it must be a mumble-bee!\"}",
+					"{\"text\":\"That single bee finally got married because he found his honey.\\n\\nQuit pollen my leg.\\n\\nHah!\\n\\nPeople always tell me to bee myself\\n\\nWasp are you talking about?\"}",
+					"{\"text\":\"The bees went on strike because they wanted more honey and less working flowers.\\n\\nWho\\u0027s a bee\\u0027s favorite painter? Pablo Bee-casso\\n\\nTo bee or not to bee, that is the question!\"}"
+				],
+				author: "adam98991",
+				title: "Bee Book",
+				resolved: 1b
+			}
+		}
+	}]
+}

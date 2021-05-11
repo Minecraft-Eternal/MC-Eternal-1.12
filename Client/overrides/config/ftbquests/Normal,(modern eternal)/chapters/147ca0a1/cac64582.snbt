@@ -1,0 +1,37 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	description: "&oTime to fish!",
+	dependencies: [
+		"99a4bfed"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "c4e39e0b",
+		type: "advancement",
+		title: "Catch a fish on Atum",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atum:atums_bounty"
+		},
+		advancement: "atum:core/aquaculture",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "d4633683",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "48a1c878",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

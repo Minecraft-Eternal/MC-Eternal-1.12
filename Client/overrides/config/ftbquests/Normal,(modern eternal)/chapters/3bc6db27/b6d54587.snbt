@@ -1,0 +1,37 @@
+{
+	x: -4.5d,
+	y: -6.5d,
+	dependencies: [
+		"37cf225d"
+	],
+	tasks: [{
+		uid: "b87da852",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 0L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0b,
+				Selected: "POOR"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0bcdae81",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "e16a0800",
+		type: "loot",
+		table: 1
+	}]
+}

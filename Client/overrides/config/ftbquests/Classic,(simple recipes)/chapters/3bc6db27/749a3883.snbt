@@ -1,0 +1,32 @@
+{
+	x: -6.0d,
+	y: -4.0d,
+	shape: "hexagon",
+	description: "Jet Propulsion Laboratory who?",
+	tasks: [{
+		uid: "17ba5fe7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 10s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e129c9be",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "b98f21ef",
+		type: "loot",
+		table: 1
+	}]
+}

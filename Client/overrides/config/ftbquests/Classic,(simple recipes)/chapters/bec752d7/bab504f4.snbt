@@ -1,0 +1,27 @@
+{
+	x: 12.5d,
+	y: 2.5d,
+	dependencies: [
+		"8cf046cd"
+	],
+	tasks: [{
+		uid: "2f07add2",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "46192638",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4a47d68d",
+		type: "loot",
+		table: 1
+	}]
+}

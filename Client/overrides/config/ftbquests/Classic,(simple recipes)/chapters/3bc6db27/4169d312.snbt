@@ -1,0 +1,39 @@
+{
+	x: 5.0d,
+	y: 2.5d,
+	dependencies: [
+		"0c2973bb"
+	],
+	tasks: [{
+		uid: "cae0b328",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 5,
+					Items: []
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:drill",
+			tag: {
+				head: {
+					id: "minecraft:air",
+					Count: 2b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3c674a13",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2a5f626a",
+		type: "loot",
+		table: 1
+	}]
+}

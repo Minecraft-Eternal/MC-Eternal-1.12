@@ -1,0 +1,35 @@
+{
+	title: "Reborn Ingots",
+	x: -4.0d,
+	y: 3.5d,
+	description: "Refined iron can be created by smelthing regular iron in a furnace. They're the starting metal of Tech reborn.",
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "1a8c6545",
+		type: "item",
+		items: [{
+			item: "techreborn:ingot 1 19"
+		}],
+		count: 32L
+	},
+	{
+		uid: "7aeca120",
+		type: "item",
+		items: [{
+			item: "techreborn:ingot 1 21"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "07396b51",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "69b1cd15",
+		type: "loot",
+		table: 1
+	}]
+}

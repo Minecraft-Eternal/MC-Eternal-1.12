@@ -1,0 +1,19 @@
+{
+	x: 6.5d,
+	y: 1.0d,
+	dependencies: [
+		"5ea6fbc6"
+	],
+	tasks: [{
+		uid: "8fd39fda",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:crystallizer_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "a6551566",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: 2.5d,
+	dependencies: [
+		"c5a684fe"
+	],
+	tasks: [{
+		uid: "7f67af74",
+		type: "item",
+		items: [{
+			item: "stevescarts:modulecomponents 1 47"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "948435a8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

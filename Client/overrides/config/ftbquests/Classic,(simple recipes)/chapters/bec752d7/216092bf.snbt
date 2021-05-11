@@ -1,0 +1,75 @@
+{
+	title: "Almost ready for the beach!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "inventorypets:sun_pet"
+	},
+	x: 14.5d,
+	y: 9.0d,
+	description: "'I need the umbrella, or otherwise I burst into flames, see?'",
+	text: [
+		""
+	],
+	dependencies: [
+		"a579c8b0"
+	],
+	tasks: [{
+		uid: "ecd1e62b",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:vampiric_amulet"
+		},
+		entity: "vampirism:vampire_baron",
+		value: 5L
+	},
+	{
+		uid: "21721de6",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:hunter_axe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 19s
+				}],
+				tier: "ENHANCED"
+			}
+		},
+		entity: "vampirism:vampire_hunter",
+		value: 16L
+	}],
+	rewards: [{
+		uid: "10524213",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:vampire_cloak",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "a8e20751",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "7ffafe5a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampiresneedumbrellas:magenta_iron_umbrella"
+		}
+	}]
+}

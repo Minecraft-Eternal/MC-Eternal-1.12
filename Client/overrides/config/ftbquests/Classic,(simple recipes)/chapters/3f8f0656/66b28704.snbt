@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	dependencies: [
+		"d256da0e"
+	],
+	tasks: [{
+		uid: "b4131daa",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:decay_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "1a6d4034",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

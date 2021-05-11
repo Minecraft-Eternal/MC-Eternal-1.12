@@ -1,0 +1,30 @@
+{
+	x: -16.0d,
+	y: -5.5d,
+	description: "Building has never been this easy!",
+	dependencies: [
+		"915cf001"
+	],
+	tasks: [{
+		uid: "0b5bce0c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:itembuilderswand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e1f92689",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a5df4be9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

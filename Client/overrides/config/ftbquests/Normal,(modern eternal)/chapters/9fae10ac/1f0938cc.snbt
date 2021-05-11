@@ -1,0 +1,22 @@
+{
+	x: -12.5d,
+	y: 2.0d,
+	description: "The fearsome Alpha Yeti is much larger than the rest of the Yetis in its pack. It has six large blue horns and is constantly aggressive towards players",
+	tasks: [{
+		uid: "deea36c3",
+		type: "kill",
+		icon: "twilightforest:alpha_fur",
+		entity: "twilightforest:yeti_alpha",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "74b0a008",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "019ebb2b",
+		type: "loot",
+		table: 1
+	}]
+}

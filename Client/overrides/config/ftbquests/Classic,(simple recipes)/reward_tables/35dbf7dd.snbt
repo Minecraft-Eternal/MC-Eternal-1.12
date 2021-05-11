@@ -1,0 +1,503 @@
+{
+	title: "Cheesy Cache",
+	icon: "rats:block_of_cheese",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "rats:rat_upgrade_basic",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_speed",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_platter",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_health",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_armor",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_strength",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_warrior",
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_god",
+		weight: 3
+	},
+	{
+		item: "rats:rat_upgrade_chef",
+		weight: 10
+	},
+	{
+		item: "rats:rat_upgrade_crafting",
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_blacklist"
+		},
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_whitelist"
+		},
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_flight",
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_dragon",
+		weight: 10
+	},
+	{
+		item: "rats:rat_upgrade_aquatic",
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_ender",
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_lumberjack",
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_miner"
+		},
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_farmer",
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_breeder",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_fisherman",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_asbestos",
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_underwater",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_poison",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_damage_protection",
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_ore_doubling",
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_basic_energy",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_advanced_energy",
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_elite_energy",
+		weight: 20
+	},
+	{
+		item: "rats:rat_upgrade_extreme_energy",
+		weight: 20
+	},
+	{
+		item: "rats:rat_upgrade_bucket",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_big_bucket",
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_milker",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_shears",
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_aristocrat",
+		weight: 20
+	},
+	{
+		item: "rats:rat_upgrade_tnt",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_tnt_survivor",
+		weight: 20
+	},
+	{
+		item: "rats:rat_upgrade_placer",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_voodoo",
+		weight: 20
+	},
+	{
+		item: "rats:rat_upgrade_gemcutter",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_enchanter",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_disenchanter",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_no_flute",
+		weight: 100
+	},
+	{
+		item: "rats:rat_upgrade_archeologist",
+		weight: 5
+	},
+	{
+		item: "rats:rat_upgrade_feral_bite",
+		weight: 50
+	},
+	{
+		item: "rats:rat_upgrade_buccaneer",
+		weight: 30
+	},
+	{
+		item: "rats:rat_upgrade_ratinator",
+		weight: 8
+	},
+	{
+		item: "rats:rat_upgrade_psychic",
+		weight: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_combined_creative"
+		}
+	},
+	{
+		item: "rats:rat_upgrade_nonbeliever"
+	},
+	{
+		item: "rats:rat_upgrade_basic_ratlantean",
+		weight: 80
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_combined"
+		},
+		weight: 50
+	},
+	{
+		item: "rats:block_of_cheese",
+		count: 16,
+		weight: 50
+	},
+	{
+		item: "rats:rattrap",
+		weight: 50
+	},
+	{
+		item: "rats:rat_crafting_table",
+		weight: 50
+	},
+	{
+		item: "rats:marbled_cheese_rat_head",
+		weight: 5
+	},
+	{
+		item: "rats:rat_tube_red",
+		count: 16,
+		weight: 50
+	},
+	{
+		item: "rats:marbled_cheese_dirt",
+		count: 32,
+		weight: 50
+	},
+	{
+		item: "rats:rat_flute",
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_arrow"
+		},
+		weight: 50
+	},
+	{
+		item: "rats:confit_byaldi",
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_fez"
+		},
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:chef_toque"
+		},
+		weight: 40
+	},
+	{
+		item: "rats:fish_barrel",
+		weight: 50
+	},
+	{
+		item: "rats:auto_curdler",
+		weight: 50
+	},
+	{
+		item: "rats:rat_hammock_magenta",
+		weight: 50
+	},
+	{
+		item: "rats:plague_doctorate",
+		weight: 10
+	},
+	{
+		item: "rats:cheese_cannonball",
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:piper_hat"
+		}
+	},
+	{
+		item: "rats:string_cheese",
+		count: 16,
+		weight: 50
+	},
+	{
+		item: "rats:rat_cage",
+		count: 3,
+		weight: 10
+	},
+	{
+		item: "rats:compressed_rat",
+		weight: 50
+	},
+	{
+		item: "rats:dragon_wing",
+		weight: 50
+	},
+	{
+		item: "rats:marbled_cheese_raw",
+		count: 16,
+		weight: 50
+	},
+	{
+		item: "rats:marbled_cheese_stairs",
+		count: 16,
+		weight: 50
+	},
+	{
+		item: "rats:contaminated_food",
+		weight: 80
+	},
+	{
+		item: "rats:charged_creeper_chunk"
+	},
+	{
+		item: "rats:treacle",
+		weight: 50
+	},
+	{
+		item: "rats:cheese_stick",
+		weight: 50
+	},
+	{
+		item: "rats:radius_stick",
+		weight: 50
+	},
+	{
+		item: "rats:jack_o_ratern",
+		weight: 50
+	},
+	{
+		item: "rats:garbage_pile",
+		count: 16,
+		weight: 80
+	},
+	{
+		item: "rats:assorted_vegetables",
+		count: 3,
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:music_disc_living_mice"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:plague_doctor_mask"
+		},
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:pirat_cutlass"
+		},
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_sack"
+		},
+		weight: 50
+	},
+	{
+		item: "rats:marbled_cheese_brick_mossy",
+		count: 16,
+		weight: 50
+	},
+	{
+		item: "rats:rat_igloo_purple"
+	},
+	{
+		item: "rats:rat_capture_net"
+	},
+	{
+		item: "rats:rat_water_bottle",
+		weight: 50
+	},
+	{
+		item: "rats:rat_seed_bowl",
+		weight: 50
+	},
+	{
+		item: "rats:plague_stew"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:plague_scythe"
+		},
+		weight: 2
+	},
+	{
+		item: "rats:little_black_squash_balls"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:archeologist_hat"
+		},
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:feral_bagh_nakhs"
+		},
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:music_disc_mice_on_venus"
+		},
+		weight: 60
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:music_disc_living_mice"
+		},
+		weight: 60
+	}],
+	loot_crate: {
+		string_id: "cheesy_cache",
+		item_name: "Cheesy Cache",
+		color: 16557570,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

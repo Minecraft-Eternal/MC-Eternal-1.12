@@ -1,0 +1,21 @@
+{
+	x: -3.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "ed9203c0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "agricraft:magnifying_glass"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "66283d7a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

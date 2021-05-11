@@ -1,0 +1,41 @@
+{
+	x: -9.0d,
+	y: -2.0d,
+	description: "You can use this block to create custom sandwiches, using different sources of food and combo's will result in a tastier meal! *Note baguettes can be used instead of bread*",
+	dependencies: [
+		"14b54c00"
+	],
+	tasks: [{
+		uid: "95ff4933",
+		type: "item",
+		items: [{
+			item: "culinaryconstruct:sandwich_station"
+		}]
+	}],
+	rewards: [{
+		uid: "ed2680a6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "96b6c19f",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "4859bd77",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_helmet",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 4s
+				}]
+			}
+		}
+	}]
+}

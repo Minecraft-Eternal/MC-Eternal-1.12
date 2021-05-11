@@ -1,0 +1,63 @@
+{
+	title: "oooooh Crabs and Shells!",
+	x: 7.0d,
+	y: 0.5d,
+	text: [
+		"Some fish its easier to obtain with a water trap"
+	],
+	dependencies: [
+		"b06519f8"
+	],
+	tasks: [{
+		uid: "e50743b8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:clamrawitem"
+		}]
+	},
+	{
+		uid: "0cea2172",
+		type: "item",
+		items: [{
+			item: "harvestcraft:crabrawitem"
+		}]
+	},
+	{
+		uid: "765919b9",
+		type: "item",
+		items: [{
+			item: "harvestcraft:crayfishrawitem"
+		}]
+	},
+	{
+		uid: "8fa6ec83",
+		type: "item",
+		items: [{
+			item: "harvestcraft:scalloprawitem"
+		}]
+	},
+	{
+		uid: "ce62e596",
+		type: "item",
+		items: [{
+			item: "harvestcraft:shrimprawitem"
+		}]
+	},
+	{
+		uid: "250211a9",
+		type: "item",
+		items: [{
+			item: "harvestcraft:turtlerawitem"
+		}]
+	}],
+	rewards: [{
+		uid: "223ffac0",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "eacb6d0d",
+		type: "loot",
+		table: 1
+	}]
+}

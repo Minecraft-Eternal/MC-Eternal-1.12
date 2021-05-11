@@ -1,0 +1,67 @@
+{
+	x: -5.5d,
+	y: 0.5d,
+	shape: "square",
+	description: "&cA cursed being that thrives in the coniferous forest. Players should prepare themselves when they hear the wendigo's horrifying howls.",
+	dependencies: [
+		"8ff7c901"
+	],
+	hide: true,
+	tasks: [{
+		uid: "758e5121",
+		type: "kill",
+		title: "Bounty: Ithaqua",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "mod_lavacow:ithaqua",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ff0f9a61",
+		type: "ftbmoney:money",
+		ftb_money: 3500L
+	},
+	{
+		uid: "288088b9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "02504518",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:ender_lightning",
+			tag: {}
+		}
+	},
+	{
+		uid: "89b07a89",
+		type: "item",
+		item: "minecraft:emerald_block",
+		count: 8
+	},
+	{
+		uid: "45270171",
+		type: "item",
+		item: "minecraft:nether_star"
+	},
+	{
+		uid: "804934de",
+		type: "item",
+		item: "minecraft:diamond_block",
+		count: 3
+	}]
+}

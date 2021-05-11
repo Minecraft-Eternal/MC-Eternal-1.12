@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -6.5d,
+	tasks: [{
+		uid: "2e2318c3",
+		type: "item",
+		items: [{
+			item: "harvestcraft:strawberryrhubarbpieitem"
+		}]
+	}],
+	rewards: [{
+		uid: "2fb7d27e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "8460ddf2",
+		type: "loot",
+		table: 1
+	}]
+}

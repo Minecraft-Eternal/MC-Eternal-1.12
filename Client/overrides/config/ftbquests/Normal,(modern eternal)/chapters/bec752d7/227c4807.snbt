@@ -1,0 +1,30 @@
+{
+	x: 13.0d,
+	y: 5.5d,
+	dependencies: [
+		"80c38cab"
+	],
+	tasks: [{
+		uid: "10dd817d",
+		type: "advancement",
+		title: "Slay a Vampire Baron",
+		icon: "vampirism:pure_blood",
+		advancement: "vampirism:main/regicide",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "e3f9258b",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "30ddd965",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

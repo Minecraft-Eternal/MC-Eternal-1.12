@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -6.5d,
+	description: "Dynamic tanks are an excellent method of storing large amounts of a liquid in style!",
+	dependencies: [
+		"567a3a9f"
+	],
+	tasks: [{
+		uid: "bd65eeaa",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "d932c87d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

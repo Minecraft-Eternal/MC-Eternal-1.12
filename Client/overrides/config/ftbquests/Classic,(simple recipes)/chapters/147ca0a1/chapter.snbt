@@ -1,0 +1,100 @@
+{
+	title: "&9Atum",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "atum:iron_greatsword"
+	},
+	always_invisible: false,
+	group: -1833823779,
+	default_quest_shape: "",
+	images: [{
+		x: -1.5d,
+		y: 4.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.5d,
+		y: 4.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.5d,
+		y: -1.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.5d,
+		y: -1.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:gold.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.0d,
+		y: 4.0d,
+		width: 0.8d,
+		height: 0.8d,
+		rotation: 22.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.0d,
+		y: 4.0d,
+		width: 0.8d,
+		height: 0.8d,
+		rotation: -22.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.0d,
+		y: -1.5d,
+		width: 0.8d,
+		height: 0.8d,
+		rotation: 22.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.0d,
+		y: -1.5d,
+		width: 0.8d,
+		height: 0.8d,
+		rotation: -22.0d,
+		image: "assets:emerald.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "af74e2cf",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "1c66f0bb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

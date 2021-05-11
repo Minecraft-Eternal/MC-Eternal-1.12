@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: -7.0d,
+	dependencies: [
+		"4a72129f"
+	],
+	tasks: [{
+		uid: "8f52b4b8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:atomicdisassembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6791a320",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "62b9e094",
+		type: "loot",
+		table: 1
+	}]
+}

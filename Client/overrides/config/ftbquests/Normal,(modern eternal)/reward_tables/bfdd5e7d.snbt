@@ -1,0 +1,22 @@
+{
+	title: "Twilight",
+	loot_size: 1,
+	rewards: [{
+		item: "tfspellpack:twilight_spell_book 1 174"
+	},
+	{
+		item: "tfspellpack:twilight_spell_book 1 179"
+	},
+	{
+		item: "tfspellpack:twilight_spell_book 1 174"
+	}],
+	loot_crate: {
+		string_id: "twilight",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

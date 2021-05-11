@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	dependencies: [
+		"ea149cf3"
+	],
+	tasks: [{
+		uid: "782a68a9",
+		type: "item",
+		items: [{
+			item: "mekanism:cardboardbox"
+		}]
+	}],
+	rewards: [{
+		uid: "631852a6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

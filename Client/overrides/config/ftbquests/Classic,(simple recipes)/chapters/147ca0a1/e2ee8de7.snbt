@@ -1,0 +1,32 @@
+{
+	title: "Powerwash an ancient relic!",
+	x: 1.2d,
+	y: -0.4d,
+	description: "&oOh what great power is hidden amongst the rubble!",
+	dependencies: [
+		"99a4bfed"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "be6e31fc",
+		type: "advancement",
+		icon: "atum:loot_gold_idol",
+		advancement: "atum:core/powerwasher",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "023e13c8",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "8eff0bb0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

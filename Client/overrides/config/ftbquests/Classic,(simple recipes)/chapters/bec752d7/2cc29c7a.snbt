@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	description: "*Using the Arcane Workbench you can apply spells to a wand, you level a wand by using it enough until the experience bar is full, only then can a tome of arcana be applied to upgrade a wand to its next power level*",
+	text: [
+		"Arcane crystals can also be placed inside the crystal slot to recharge a wand with mana"
+	],
+	dependencies: [
+		"ec0bd6f7"
+	],
+	tasks: [{
+		uid: "def326d6",
+		type: "item",
+		items: [{
+			item: "ebwizardry:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "48aa3ed0",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "b6a7c4eb",
+		type: "item",
+		item: "ebwizardry:crystal_flower",
+		random_bonus: 10
+	}]
+}

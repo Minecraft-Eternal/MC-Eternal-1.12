@@ -1,0 +1,32 @@
+{
+	x: -9.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "dd83ed5a",
+		type: "kill",
+		title: "&6&lBounty: Beetle Larva",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:wasp_sword"
+		},
+		entity: "erebus:erebus.beetle_larva",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "ff63d011",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "22cd5af6",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

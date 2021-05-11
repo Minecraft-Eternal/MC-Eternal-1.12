@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: -10.0d,
+	dependencies: [
+		"58ec0ece"
+	],
+	tasks: [{
+		uid: "9e727cdf",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "d19fb323",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "4b548c6b",
+		type: "loot",
+		table: 1
+	}]
+}

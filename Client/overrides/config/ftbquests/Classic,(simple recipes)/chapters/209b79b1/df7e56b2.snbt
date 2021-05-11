@@ -1,0 +1,54 @@
+{
+	x: 2.5d,
+	y: -5.0d,
+	shape: "square",
+	description: "*Dimensional: Betweenlands* A common undead creature that stalks the swamps and caverns of the Betweenlands.",
+	dependencies: [
+		"7780b056"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a07d760b",
+		type: "kill",
+		title: "Bounty: Swamp Hag",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "thebetweenlands:swamp_hag",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "961da14d",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "70230f4b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "2d5607eb",
+		type: "item",
+		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "ec678414",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:lore_scrap",
+			Damage: 1s
+		}
+	}]
+}

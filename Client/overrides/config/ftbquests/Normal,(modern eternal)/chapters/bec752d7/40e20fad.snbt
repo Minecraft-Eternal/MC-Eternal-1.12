@@ -1,0 +1,27 @@
+{
+	title: "Wizard Trade",
+	x: 6.0d,
+	y: 1.5d,
+	description: "Trade with a Wizard for a Master Spell Book",
+	dependencies: [
+		"56e86e9c"
+	],
+	tasks: [{
+		uid: "5069d352",
+		type: "advancement",
+		title: "Trade with a Wizard for a Master spell",
+		icon: "ebwizardry:magic_silk",
+		advancement: "ebwizardry:buy_master_spell",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "72431b73",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "c9690be1",
+		type: "loot",
+		table: 1
+	}]
+}

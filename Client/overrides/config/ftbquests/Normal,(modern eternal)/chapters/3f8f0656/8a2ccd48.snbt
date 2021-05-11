@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	dependencies: [
+		"567a3a9f"
+	],
+	tasks: [{
+		uid: "2bb2fb0a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:freerunners"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da8268bf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

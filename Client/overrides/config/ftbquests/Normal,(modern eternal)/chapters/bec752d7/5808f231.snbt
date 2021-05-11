@@ -1,0 +1,35 @@
+{
+	x: 16.0d,
+	y: 14.0d,
+	dependencies: [
+		"cbeacc4f"
+	],
+	tasks: [{
+		uid: "24d1dc99",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:basic_crossbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1c603cd5",
+		type: "item",
+		items: [{
+			id: "vampirism:crossbow_arrow",
+			tag: {
+				type: "normal"
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a3df7a26",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

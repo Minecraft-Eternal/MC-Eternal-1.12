@@ -1,0 +1,22 @@
+{
+	icon: "twilightforest:thorn_rose",
+	x: -10.0d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "\"Imagine stepping through a portal into a twilight realm, filled with trees as far as they eye can see. Breathtaking vistas and amazing discoveries await you around every corner. But beware! Not all denizens of the forest respond to you lightly\"",
+	tasks: [{
+		uid: "26141e32",
+		type: "dimension",
+		dim: 7
+	}],
+	rewards: [{
+		uid: "9c446271",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "f15a4b07",
+		type: "loot",
+		table: 1
+	}]
+}

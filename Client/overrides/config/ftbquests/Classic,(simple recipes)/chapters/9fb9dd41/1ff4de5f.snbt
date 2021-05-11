@@ -1,0 +1,44 @@
+{
+	x: -3.0d,
+	y: -7.0d,
+	shape: "square",
+	tasks: [{
+		uid: "3242e77f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dread_queen_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c434e83b",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "e034951a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "500cc2d2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonarmor_dragonsteel_fire",
+			Damage: 2s
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: -6.0d,
+	dependencies: [
+		"37cf225d"
+	],
+	tasks: [{
+		uid: "f74c6b42",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:water_resources_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "2ddee617",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e0393444",
+		type: "loot",
+		table: 1
+	}]
+}
