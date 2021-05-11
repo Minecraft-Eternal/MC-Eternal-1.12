@@ -1,0 +1,39 @@
+{
+	x: 4.0d,
+	y: -3.0d,
+	shape: "square",
+	description: "Cave Trolls inhabit the caves under the Highlands, known as the Troll Caves. These creatures will attack with surprising speed in the same way an Iron Golem or Carminite Golem does.",
+	dependencies: [
+		"bc906172"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be14054d",
+		type: "kill",
+		title: "Bounty: Cave Troll",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "twilightforest:troll",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "8b3005e8",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "71f59e4a",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0353aa4a",
+		type: "item",
+		item: "iceandfire:troll_leather_forest",
+		count: 16
+	}]
+}

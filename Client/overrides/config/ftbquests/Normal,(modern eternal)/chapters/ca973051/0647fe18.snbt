@@ -1,0 +1,31 @@
+{
+	title: "Twilight Scepter",
+	x: -10.0d,
+	y: -9.0d,
+	shape: "diamond",
+	dependencies: [
+		"29350f39"
+	],
+	tasks: [{
+		uid: "e2c9cce4",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:twilight_scepter"
+		},
+		entity: "twilightforest:lich",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ff332d36",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "20b59994",
+		type: "loot",
+		table: 1
+	}]
+}

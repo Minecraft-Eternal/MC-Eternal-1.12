@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "2536511b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:wateringcan"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45209437",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

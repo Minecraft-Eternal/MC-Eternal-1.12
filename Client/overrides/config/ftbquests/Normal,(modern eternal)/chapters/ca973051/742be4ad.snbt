@@ -1,0 +1,40 @@
+{
+	x: -8.0d,
+	y: -11.5d,
+	dependencies: [
+		"f94d810c"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "38310ef1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:life_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c253e3f7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1482049f",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "b01f1783",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

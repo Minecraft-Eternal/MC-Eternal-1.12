@@ -1,0 +1,59 @@
+{
+	x: -11.5d,
+	y: -7.5d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "5793493b",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium 1 2"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "eb5bc2ea",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "25b585fb",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "28a0b249",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "4ce12e97",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "e02a770d",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "488b1b2a",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "7ea39795",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "915fed08",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		},
+		count: 3
+	}]
+}

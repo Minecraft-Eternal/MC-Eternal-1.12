@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: 8.5d,
+	tasks: [{
+		uid: "ca93acae",
+		type: "item",
+		items: [{
+			item: "rftools:builder"
+		}]
+	}],
+	rewards: [{
+		uid: "099bdbc4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "fda419a5",
+		type: "loot",
+		table: 1
+	}]
+}

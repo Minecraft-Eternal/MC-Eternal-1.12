@@ -1,0 +1,82 @@
+{
+	x: 7.0d,
+	y: 2.0d,
+	description: "*Accepts any Advanced Wand*",
+	min_required_dependencies: 1,
+	dependencies: [
+		"179af380"
+	],
+	tasks: [{
+		uid: "259addd1",
+		type: "item",
+		title: "Advanced Wand",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:advanced_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:advanced_fire_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:advanced_ice_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:advanced_lightning_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:advanced_necromancy_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:advanced_sorcery_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:advanced_earth_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:advanced_healing_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "315a49c7",
+		type: "loot",
+		title: "Advanced Spell Book",
+		icon: "ebwizardry:spell_book 1 109",
+		table: 5
+	},
+	{
+		uid: "834dbeea",
+		type: "item",
+		item: "ebwizardry:grand_crystal",
+		random_bonus: 3
+	},
+	{
+		uid: "dfa091af",
+		type: "ftbmoney:money",
+		ftb_money: 700L
+	}]
+}

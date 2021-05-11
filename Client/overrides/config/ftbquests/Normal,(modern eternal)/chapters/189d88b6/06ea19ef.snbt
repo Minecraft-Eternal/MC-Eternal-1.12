@@ -1,0 +1,42 @@
+{
+	x: -1.5d,
+	y: -12.5d,
+	shape: "octagon",
+	description: "Grows better on End Stone",
+	dependencies: [
+		"0739b5ef"
+	],
+	tasks: [{
+		uid: "34340272",
+		type: "item",
+		items: [{
+			item: "extrautils2:enderlilly"
+		}]
+	}],
+	rewards: [{
+		uid: "283c3dac",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "7a4390ef",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "56966e27",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_axe",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 32s
+				}]
+			}
+		}
+	}]
+}

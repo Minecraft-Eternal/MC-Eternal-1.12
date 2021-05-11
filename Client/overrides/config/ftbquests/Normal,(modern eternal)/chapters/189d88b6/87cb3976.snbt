@@ -1,0 +1,36 @@
+{
+	title: "&3&lA gift?",
+	icon: "actuallyadditions:block_smiley_cloud",
+	x: -16.0d,
+	y: -3.0d,
+	shape: "heart",
+	description: "Thank you for downloading my pack! Lots of work went into making this hopefully a fun experience for everyone. Enjoy! -Adam",
+	hide_dependency_lines: true,
+	dependencies: [
+		"5eed1197"
+	],
+	tasks: [{
+		uid: "22c45e13",
+		type: "dimension",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "ca67bec9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3ecc1351",
+		type: "item",
+		icon: "extrautils2:trashcan",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				display: {
+					Name: "Forgotten trash can (Open me!)"
+				},
+				type: "starting_gear"
+			}
+		}
+	}]
+}

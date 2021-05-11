@@ -1,0 +1,37 @@
+{
+	x: 12.5d,
+	y: 7.5d,
+	shape: "heart",
+	description: "I am the Count. They call me the Count because I love to count things",
+	dependencies: [
+		"02ff2f95"
+	],
+	tasks: [{
+		uid: "8c46c50f",
+		type: "advancement",
+		title: "Become a Vampire",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:poppet_vampiric"
+		},
+		advancement: "vampirism:vampire/become_vampire",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "7099eb5a",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "521c80bd",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1ba1bae9",
+		type: "item",
+		item: "vampirism:human_heart"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 6.5d,
+	y: -4.5d,
+	dependencies: [
+		"37cf225d"
+	],
+	tasks: [{
+		uid: "f8d73b09",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:lava_fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "d564833e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "72a0dd2d",
+		type: "loot",
+		table: 1
+	}]
+}

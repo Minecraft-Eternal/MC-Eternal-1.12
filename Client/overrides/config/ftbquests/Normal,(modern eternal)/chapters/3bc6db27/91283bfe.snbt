@@ -1,0 +1,35 @@
+{
+	title: "If you strike me down, I shall become more powerful than you can possibly imagine",
+	x: 0.5d,
+	y: 4.5d,
+	description: "Craft the Nanosaber",
+	dependencies: [
+		"7e5df73f"
+	],
+	tasks: [{
+		uid: "7ab18a16",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "techreborn:nanosaber",
+			tag: {
+				isActive: 0b,
+				energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aa96271a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "fb94848a",
+		type: "loot",
+		table: 1
+	}]
+}

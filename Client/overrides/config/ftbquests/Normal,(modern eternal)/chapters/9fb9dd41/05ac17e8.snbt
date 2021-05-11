@@ -1,0 +1,36 @@
+{
+	x: -3.0d,
+	y: 6.5d,
+	shape: "square",
+	description: "&oMidnight Mourne is a melee weapon that dropped as a rare loot from Undertaker. Player wielding Midnight Mourne will be able to summon an army of 4 Unburied.",
+	tasks: [{
+		uid: "24052d3d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5863096196267452682L,
+					AS_Amulet_HolderMost: -2754331757198947019L
+				}
+			},
+			id: "mod_lavacow:undertaker_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "40f129e7",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "48acca97",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

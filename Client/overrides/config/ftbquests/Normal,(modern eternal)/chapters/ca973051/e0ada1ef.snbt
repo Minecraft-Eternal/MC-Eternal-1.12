@@ -1,0 +1,33 @@
+{
+	x: -10.5d,
+	y: -1.0d,
+	dependencies: [
+		"5026368e"
+	],
+	tasks: [{
+		uid: "5f5cf0da",
+		type: "item",
+		items: [{
+			item: "midnight:unstable_fruit_green"
+		}]
+	},
+	{
+		uid: "026776c2",
+		type: "item",
+		items: [{
+			item: "midnight:unstable_fruit_lime"
+		}]
+	},
+	{
+		uid: "2289544a",
+		type: "item",
+		items: [{
+			item: "midnight:unstable_fruit_blue"
+		}]
+	}],
+	rewards: [{
+		uid: "61ef9f5b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

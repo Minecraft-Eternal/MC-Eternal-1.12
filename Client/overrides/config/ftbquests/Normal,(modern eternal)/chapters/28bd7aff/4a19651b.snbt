@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	dependencies: [
+		"793fdf70"
+	],
+	tasks: [{
+		uid: "7059dbb8",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhuttownhall"
+		}]
+	}],
+	rewards: [{
+		uid: "946cd7b9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5e88782e",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "999ad876",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

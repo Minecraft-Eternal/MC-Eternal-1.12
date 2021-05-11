@@ -1,0 +1,71 @@
+{
+	title: "Jaffa Factory",
+	x: 0.0d,
+	y: 0.0d,
+	description: "&oShould only take about 93 episodes or so",
+	tasks: [{
+		uid: "b124de0c",
+		type: "item",
+		icon: "harvestcraft:jaffaitem",
+		items: [{
+			item: "harvestcraft:jaffaitem"
+		}],
+		count: 1000L
+	}],
+	rewards: [{
+		uid: "da604ecb",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "60496e27",
+		type: "item",
+		item: {
+			id: "minecraft:skull",
+			tag: {
+				SkullOwner: {
+					Id: "8f9bc2ed-1bb5-41ed-91be-02625c76bd7f",
+					Properties: {
+						textures: [{
+							Signature: "XKqzlAPhbFF7i9kwUHClJIB9gKQ7jW5ftwU7hwB4Hd0AhK+HwnVga5rfWOy6NZ1dh/ZkQ1HvK7iLE6+ZShWPWac0wy0gN1AH55bHu1tT/Lr1Jcpjf4CJ4+NIAJUwWyAUyV951VRHX8ohJ4C0nzHnV3AX3frgmzzaf23UVwqiRecJFRiCMtpVea4Rgzb+k9WPZFY29nPBnEjTwjnjL/Qz5grXiI4oI5N/+bm5ganaA4SR1iEQU8Men6/z4kJpGpn9EXtPSU1k2vAEc0QFmne+1UPF6GXk6qlITBR9/RA+etg2RZW4vn8gYRLwtEUc9u0w7rxxt411kCGYrcgmBdOpjlF0IL1JJ3DbJHjj1i7DEOy1wZ37novsYV8sepf4CsT5irZHG3X8jCU5vktH8QZ0xw+cUanbHGFYsr6upIULI6+kBdyy2hhuJUhTFPJVAQiapRgxNEz6VKPjqUWeozjpGF/mQ2c2wHEdtjXm5xXb/WlhTNXqJLFZ31X4V7oLgLKVfRY9UBkag+SI9JuacV+sDBl56IeEASG6n/wl+BkvUo+PLDLJ7DSYuVEy1pjEoFtcXyj23dsddxq7daLdO6MZTB4c5NEKx2taPMZstXvViU8PFZMWO/HeoDZaBRtqrQjDnwRdLcSf7XfpbkRZ2zz2hMISNI27S8tNLqf3/FDd/00=",
+							Value: "eyJ0aW1lc3RhbXAiOjE1NzE4NDQ1NDE3NjUsInByb2ZpbGVJZCI6IjhmOWJjMmVkMWJiNTQxZWQ5MWJlMDI2MjVjNzZiZDdmIiwicHJvZmlsZU5hbWUiOiJIb25leWRldyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkOWI1YzAyNjgwMTgwOTk3NTg2NDFkNWU5NDA5NWNiYTNlNGE3MWFmNWQyODc4MGIzZDgwMDkxYjVhYmYyZiJ9fX0="
+						}]
+					},
+					Name: "Honeydew"
+				}
+			},
+			Damage: 3s
+		}
+	},
+	{
+		uid: "97987fe3",
+		type: "item",
+		item: {
+			id: "dungeontactics:sharp_stick",
+			tag: {
+				ench: [{
+					lvl: 7,
+					id: 19
+				}],
+				display: {
+					Name: "Compliance Stick"
+				}
+			}
+		}
+	},
+	{
+		uid: "c828e03c",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "365a42e5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

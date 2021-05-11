@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "18fe7eeb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:tool",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2d393821",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

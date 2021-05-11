@@ -1,0 +1,39 @@
+{
+	x: 24.5d,
+	y: 0.5d,
+	description: "Enhanced Machinery",
+	dependencies: [
+		"1bfccc16"
+	],
+	tasks: [{
+		uid: "f5659714",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_alloy_smelter"
+		}]
+	},
+	{
+		uid: "ba176e36",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_sag_mill"
+		}]
+	},
+	{
+		uid: "cd214df2",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_vat"
+		}]
+	}],
+	rewards: [{
+		uid: "d2f9aa3c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "65b707db",
+		type: "loot",
+		table: 1
+	}]
+}

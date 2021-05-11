@@ -1,0 +1,25 @@
+{
+	title: "Top Tier Food: Thankful Dinner",
+	x: 1.0d,
+	y: -5.5d,
+	text: [
+		"Eating this restores 24 hunger, 28.8 saturation and 3 minutes of strength and resistance buffs."
+	],
+	tasks: [{
+		uid: "9177a81a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:thankfuldinneritem"
+		}]
+	}],
+	rewards: [{
+		uid: "94d9227f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "2fb303d8",
+		type: "loot",
+		table: 1
+	}]
+}

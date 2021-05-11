@@ -1,0 +1,43 @@
+{
+	x: 0.5d,
+	y: -3.0d,
+	shape: "square",
+	description: "I ain't afraid of no ghost!",
+	dependencies: [
+		"7780b056"
+	],
+	hide: true,
+	tasks: [{
+		uid: "86bc9640",
+		type: "kill",
+		title: "Bounty: Ghost",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "vampirism:ghost",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a320b1da",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "aa6c153b",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "85e9e688",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:spectresword"
+		}
+	}]
+}

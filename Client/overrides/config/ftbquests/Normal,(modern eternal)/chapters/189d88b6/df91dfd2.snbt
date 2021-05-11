@@ -1,0 +1,104 @@
+{
+	title: "&c&lNether Bounty: &4Blazing Juggernaut",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "witherskelefix:blade"
+	},
+	x: -7.0d,
+	y: -10.5d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"36443d40"
+	],
+	hide: true,
+	size: 0.6d,
+	tasks: [{
+		uid: "bbc4c4f5",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:broadsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.0f,
+					FreeModifiers: 3,
+					Durability: 536,
+					HarvestLevel: 3,
+					Attack: 5.125f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.0f,
+					FreeModifiers: 3,
+					Durability: 536,
+					HarvestLevel: 3,
+					Attack: 5.125f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"mod_lavacow.moltenbeef",
+						"mod_lavacow.moltenbeef",
+						"mod_lavacow.moltenbeef"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "superheat",
+					color: -43989,
+					level: 1
+				},
+				{
+					identifier: "autosmelt",
+					color: -43989,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"superheat",
+					"autosmelt",
+					"toolleveling"
+				]
+			}
+		},
+		entity: "primitivemobs:blazing_juggernaut",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "f5261481",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "9c623988",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "bfe5a478",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:felarmor_chestplate"
+		}
+	}]
+}

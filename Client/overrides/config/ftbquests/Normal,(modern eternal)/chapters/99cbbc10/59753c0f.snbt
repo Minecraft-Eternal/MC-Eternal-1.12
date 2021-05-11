@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "1a1d77b7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:mystical_fertilizer"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a9b3417b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e0432b7b",
+		type: "loot",
+		table: 1
+	}]
+}

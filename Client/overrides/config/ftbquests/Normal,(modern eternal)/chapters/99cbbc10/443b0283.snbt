@@ -1,0 +1,76 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "6579a884",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "26c7657c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:mattock",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevelAxe: 1,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					HarvestLevelShovel: 1,
+					Durability: 155,
+					HarvestLevel: 1,
+					Attack: 6.0f
+				},
+				display: {
+					Name: "Rusty Farmers Mattock"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevelAxe: 1,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					HarvestLevelShovel: 1,
+					Durability: 124,
+					HarvestLevel: 1,
+					Attack: 6.0f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"treatedwood",
+						"stone",
+						"stone"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -10144478,
+					level: 1
+				},
+				{
+					identifier: "cheapskate",
+					color: -6710887,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"cheapskate"
+				]
+			}
+		}
+	}]
+}

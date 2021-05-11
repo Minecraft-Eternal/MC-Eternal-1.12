@@ -1,0 +1,21 @@
+{
+	x: -11.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "e120c71f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dirt_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "4b7d2a53",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "528c9efe",
+		type: "loot",
+		table: 1
+	}]
+}

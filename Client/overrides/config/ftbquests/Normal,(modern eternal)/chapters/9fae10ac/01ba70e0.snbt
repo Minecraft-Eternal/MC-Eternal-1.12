@@ -1,0 +1,27 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	description: "A massive tentacle of decay that bursts from the pit of the Sludgeon.",
+	tasks: [{
+		uid: "40166670",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:sludge_slicer"
+		},
+		entity: "thebetweenlands:sludge_menace",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9bb59d4c",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "90430c76",
+		type: "loot",
+		table: 1
+	}]
+}

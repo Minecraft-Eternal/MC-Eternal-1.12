@@ -1,0 +1,29 @@
+{
+	x: -3.0d,
+	y: -5.0d,
+	dependencies: [
+		"8b2bcc08"
+	],
+	tasks: [{
+		uid: "f1c38d44",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:glass_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a953e18b",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "cfa39599",
+		type: "loot",
+		table: 1
+	}]
+}

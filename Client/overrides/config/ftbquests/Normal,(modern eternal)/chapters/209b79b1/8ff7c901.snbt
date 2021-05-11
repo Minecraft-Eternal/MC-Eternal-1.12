@@ -1,0 +1,53 @@
+{
+	x: -4.5d,
+	y: -0.5d,
+	shape: "square",
+	description: "The homicidal rush-mob, the Vindicator - lurching at you from the dark recesses of the woodland mansion, axe raised high",
+	dependencies: [
+		"05ce51d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "416c359c",
+		type: "kill",
+		title: "Bounty: Vindicator",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "minecraft:vindication_illager",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e93de175",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "4fe7e452",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:evoker_fang"
+		}
+	},
+	{
+		uid: "5f593a71",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "2c40cfcb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:top_hat"
+		}
+	}]
+}

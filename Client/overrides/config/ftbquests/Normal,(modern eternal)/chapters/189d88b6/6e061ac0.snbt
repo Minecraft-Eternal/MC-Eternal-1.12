@@ -1,0 +1,25 @@
+{
+	x: -11.5d,
+	y: -2.0d,
+	description: "Portable Storage",
+	dependencies: [
+		"31b29c7d"
+	],
+	tasks: [{
+		uid: "526c2103",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "charm:crate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "389c519e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

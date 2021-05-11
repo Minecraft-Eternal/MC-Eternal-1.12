@@ -1,0 +1,22 @@
+{
+	title: "Basic Infrastructure 2.",
+	x: 1.5d,
+	y: -2.0d,
+	description: "&rThe &lCrystallizer&r is a multi-block construction which allows for creation of dilithium crystals and silicon boule which will come in handy later.",
+	dependencies: [
+		"8db8c6d3"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "3c5472ec",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:crystallizer"
+		}]
+	}],
+	rewards: [{
+		uid: "d7c6564e",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

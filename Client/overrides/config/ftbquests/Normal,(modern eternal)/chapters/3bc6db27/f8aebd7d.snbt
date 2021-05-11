@@ -1,0 +1,24 @@
+{
+	x: -10.0d,
+	y: 5.5d,
+	dependencies: [
+		"ebbb3418"
+	],
+	tasks: [{
+		uid: "54393b6b",
+		type: "item",
+		items: [{
+			item: "forestry:engine_clockwork"
+		}]
+	}],
+	rewards: [{
+		uid: "97cb09a0",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "da9196bb",
+		type: "loot",
+		table: 1
+	}]
+}

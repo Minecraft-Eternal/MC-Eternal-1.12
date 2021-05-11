@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	dependencies: [
+		"bd3f7971"
+	],
+	tasks: [{
+		uid: "e7754035",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "b7455251",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "d659c944",
+		type: "loot",
+		table: 1
+	}]
+}

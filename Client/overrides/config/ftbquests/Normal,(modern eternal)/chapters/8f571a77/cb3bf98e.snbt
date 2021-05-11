@@ -1,0 +1,30 @@
+{
+	x: -12.5d,
+	y: -6.0d,
+	shape: "gear",
+	description: "*Read Description*",
+	text: [
+		"So you've decided you want coins? Don't we all? Luckily for you I'm going to teach you the basics for automating the process and setting you up for life!"
+	],
+	tasks: [{
+		uid: "d2c2ad39",
+		type: "checkmark",
+		title: "An Introduction To Selling!",
+		icon: "rats:tiny_coin"
+	}],
+	rewards: [{
+		uid: "391eafe1",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10L
+			}
+		}
+	},
+	{
+		uid: "a764d7f3",
+		type: "loot",
+		table: 1
+	}]
+}

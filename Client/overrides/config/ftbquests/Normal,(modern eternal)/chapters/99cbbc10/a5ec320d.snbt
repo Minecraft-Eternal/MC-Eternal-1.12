@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "35b3844a",
+		type: "item",
+		items: [{
+			item: "minecraft:melon_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "6e7b36b6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

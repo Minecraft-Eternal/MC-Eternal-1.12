@@ -1,0 +1,38 @@
+{
+	title: "Apprentice Spell Book",
+	icon: "ebwizardry:spell_book 1 12",
+	loot_size: 1,
+	rewards: [{
+		item: "ebwizardry:spell_book 1 15"
+	},
+	{
+		item: "ebwizardry:spell_book 1 13"
+	},
+	{
+		item: "ebwizardry:spell_book 1 190"
+	},
+	{
+		item: "ebwizardry:spell_book 1 15"
+	},
+	{
+		item: "ebwizardry:spell_book 1 26"
+	},
+	{
+		item: "ebwizardry:spell_book 1 25"
+	},
+	{
+		item: "ebwizardry:spell_book 1 19"
+	},
+	{
+		item: "ebwizardry:spell_book 1 30"
+	}],
+	loot_crate: {
+		string_id: "apprentice_spell_book",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: -5.0d,
+	dependencies: [
+		"4a72129f"
+	],
+	tasks: [{
+		uid: "23c58673",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 7"
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "bbe3ecb4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "40f8aa2a",
+		type: "loot",
+		table: 1
+	}]
+}

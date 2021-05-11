@@ -1,0 +1,35 @@
+{
+	x: -9.0d,
+	y: -10.0d,
+	dependencies: [
+		"7099b1ef"
+	],
+	tasks: [{
+		uid: "5213feea",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 19"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b4022703",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8dc88f8a",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "b3ee3f5a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:sludge_slicer"
+		}
+	}]
+}

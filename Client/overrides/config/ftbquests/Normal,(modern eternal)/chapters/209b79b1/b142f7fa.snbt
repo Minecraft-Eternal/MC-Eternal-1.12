@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "5e912b62",
+		type: "item",
+		items: [{
+			item: "openblocks:hang_glider"
+		}]
+	}],
+	rewards: [{
+		uid: "ff60bec0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 0.5d,
+	y: 0.5d,
+	dependencies: [
+		"84aa257d"
+	],
+	tasks: [{
+		uid: "47addf9c",
+		type: "item",
+		items: [{
+			item: "erebus:spray_can"
+		}]
+	}],
+	rewards: [{
+		uid: "97864d05",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "8b870b16",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

@@ -4,6 +4,11 @@ import crafttweaker.item.IIngredient;
 
 print("--- loading ConflictFix.zs ---");
 
+#Remove multishot
+mods.enderio.Enchanter.removeRecipe(<enchantment:cofhcore:multishot>);
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>, <minecraft:arrow>);
+
+
 #Remove Items
 recipes.remove(<littletiles:recipeadvanced>);
 recipes.remove(<biomestaff:obsidian_shaft>);
@@ -37,7 +42,7 @@ recipes.addShaped(<iceandfire:chain_link>, [[null, <ore:nuggetIron>, null], [<or
 recipes.addShaped(<opencomputers:material:12>, [[null, <ore:nuggetIron>, null], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [null, null, null]]);
 recipes.addShaped(<betterbuilderswands:wandiron>, [[<ore:ingotIron>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<structurize:sceptersteel>, [[null, null, <ore:ingotIron>], [null, <ore:stickWood>, null], [<ore:stickWood>, null, null]]);
-recipes.addShaped(<twilightforest:magic_map_focus>, [[<ore:RavenFeather>, <twilightforest:torchberries>, null], [<ore:dustGlowstone>, null, null], [null, null, null]]);
+recipes.addShapeless(<twilightforest:magic_map_focus>, [<ore:RavenFeather>, <twilightforest:torchberries>, <ore:dustGlowstone>]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}), [[<ore:slimeball>, <ore:slimeball>, <ore:slimeball>], [<ore:slimeball>, <ore:blockSlime>, <ore:slimeball>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
 recipes.addShapeless(<tconstruct:materials:17>, [<iceandfire:witherbone>]);
 recipes.addShapeless(<iceandfire:witherbone>, [<tconstruct:materials:17>]);

@@ -1,0 +1,19 @@
+{
+	x: 6.5d,
+	y: 10.0d,
+	dependencies: [
+		"8d155122"
+	],
+	tasks: [{
+		uid: "c5aa0bce",
+		type: "item",
+		items: [{
+			item: "totemic:eagle_drops"
+		}]
+	}],
+	rewards: [{
+		uid: "f668ecdb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

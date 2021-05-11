@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "5c149fd2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:tool.shield_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c97502bc",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "a88e1c23",
+		type: "loot",
+		table: 1
+	}]
+}

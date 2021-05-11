@@ -1,0 +1,23 @@
+{
+	x: 12.0d,
+	y: -8.0d,
+	text: [
+		"Cookie! COOKIE! COOOOOOKIE!!!!!"
+	],
+	dependencies: [
+		"17f50c84"
+	],
+	tasks: [{
+		uid: "05540b09",
+		type: "item",
+		items: [{
+			item: "harvestcraft:meringuecookieitem"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a5c79098",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

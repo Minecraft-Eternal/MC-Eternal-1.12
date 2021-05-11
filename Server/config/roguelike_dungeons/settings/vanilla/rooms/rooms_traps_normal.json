@@ -1,8 +1,0 @@
-{
-  "name": "rooms:traps_normal",
-  "rooms": [
-    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "PIT", "weight": 10},
-    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "CREEPER", "weight": 10},
-    {"level": [0, 1, 2, 3, 4], "frequency": "random", "type": "SPIDER", "weight": 10}
-  ]
-}

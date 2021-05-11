@@ -1,0 +1,29 @@
+{
+	x: -11.5d,
+	y: -3.5d,
+	shape: "gear",
+	description: "Basic power generation",
+	tasks: [{
+		uid: "0c2cd485",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bc457eb1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "278a4cb6",
+		type: "loot",
+		table: 1
+	}]
+}

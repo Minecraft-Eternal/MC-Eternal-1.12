@@ -1,0 +1,33 @@
+{
+	title: "Economy in Harvestcraft",
+	x: -1.0d,
+	y: -3.5d,
+	description: "With the shipping bin you can earn emeralds. With the market you can buy saplings and seeds.",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6feac7ff",
+		type: "item",
+		items: [{
+			item: "farmingforblockheads:market"
+		}]
+	},
+	{
+		uid: "4d45a4ec",
+		type: "item",
+		items: [{
+			item: "harvestcraft:shippingbin"
+		}]
+	}],
+	rewards: [{
+		uid: "5706a412",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a8e74bae",
+		type: "loot",
+		table: 1
+	}]
+}

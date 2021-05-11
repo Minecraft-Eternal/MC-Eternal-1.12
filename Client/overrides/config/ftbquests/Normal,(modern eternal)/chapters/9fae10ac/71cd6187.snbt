@@ -1,0 +1,25 @@
+{
+	x: -11.5d,
+	y: -2.0d,
+	description: "An ornery insect that lives in underground nests and maintains a highly-structured caste system.",
+	text: [
+		"Myrmex are cantankerous arthropods that dwell in underground hives and maintain an elaborate caste system"
+	],
+	tasks: [{
+		uid: "4d74516d",
+		type: "kill",
+		icon: "iceandfire:desert_myrmex_cocoon",
+		entity: "iceandfire:myrmex_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "03d43396",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ed94d6ac",
+		type: "loot",
+		table: 1
+	}]
+}

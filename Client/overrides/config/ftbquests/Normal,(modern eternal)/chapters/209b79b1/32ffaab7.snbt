@@ -1,0 +1,57 @@
+{
+	x: 2.5d,
+	y: -7.5d,
+	shape: "square",
+	description: "It is always too late when humanity finally realises they should just leave the jungle in its primitive state. Full-grown jungle Parasites become the Vespa, airborne hostile mobs with velocity, ferocity, and a poison stinger.",
+	text: [
+		" The Parasites in the jungle are actually more than some nasty bloodsuckers, when they feed, they also morph."
+	],
+	dependencies: [
+		"3b74e727"
+	],
+	hide: true,
+	tasks: [{
+		uid: "edf23ef1",
+		type: "kill",
+		title: "Bounty: Vespa",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "mod_lavacow:vespa",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c577af82",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "f5a2d43c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:potion_of_mooten_lava"
+		}
+	},
+	{
+		uid: "e0c3e084",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "983ef712",
+		type: "item",
+		item: "minecraft:emerald_block",
+		count: 2
+	}]
+}

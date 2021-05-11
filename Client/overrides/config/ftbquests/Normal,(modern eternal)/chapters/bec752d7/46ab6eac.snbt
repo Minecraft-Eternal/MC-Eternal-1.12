@@ -1,0 +1,33 @@
+{
+	x: 14.5d,
+	y: 6.5d,
+	description: "The blade itself hungers and thirsts for the blood of innocent creatures full of life and energy. Until you happen to stumble upon them... no life remains... only a drained husk....",
+	dependencies: [
+		"6ea69893"
+	],
+	tasks: [{
+		uid: "fd95fe75",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:heart_seeker",
+			tag: {
+				tier: "NORMAL"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7c85ba42",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e85ed0a1",
+		type: "loot",
+		table: 1
+	}]
+}

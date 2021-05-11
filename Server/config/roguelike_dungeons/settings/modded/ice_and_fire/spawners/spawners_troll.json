@@ -1,7 +1,0 @@
-{
-  "name": "spawners:troll",
-  "requires": ["iceandfire"],
-  "spawners": [
-    {"potentials": [{"name": "iceandfire:if_troll"}], "level": [0, 1, 2, 3, 4]}
-  ]
-}

@@ -1,0 +1,25 @@
+{
+	x: 21.0d,
+	y: 2.0d,
+	description: "Extends the range of the wireless charging antenna on a single direction",
+	dependencies: [
+		"33789599"
+	],
+	tasks: [{
+		uid: "71516946",
+		type: "item",
+		items: [{
+			item: "enderio:block_wireless_charger_extension"
+		}]
+	}],
+	rewards: [{
+		uid: "65250c6a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "fff036b2",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,9 +1,0 @@
-{
-  "name": "tower:eniko_forest",
-  "tower": {
-    "type": "ENIKO",
-    "theme": {
-      "base": "DARKHALL"
-    }
-  }
-}

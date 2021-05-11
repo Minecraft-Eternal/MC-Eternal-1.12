@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	dependencies: [
+		"c9f8530f"
+	],
+	tasks: [{
+		uid: "5f2e1be1",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutchickenherder"
+		}]
+	}],
+	rewards: [{
+		uid: "3de5298d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2efc1073",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

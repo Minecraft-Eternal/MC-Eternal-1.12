@@ -1,0 +1,45 @@
+{
+	x: -0.5d,
+	y: -3.0d,
+	description: "&oA Raven can be tamed by feeding them Spider Eye, or Fermented Spider Eye, with 1?3 chance of success. Once tamed, interacting with a Raven when holding a Stick will make it sit down and stand up.",
+	text: [
+		"A tamed Raven on the ground can be made to perch on its player's head by moving through the Raven. Players with Raven perching will have their falling speed decreased by 50% and neglect any falling damage."
+	],
+	dependencies: [
+		"2cf9d199"
+	],
+	tasks: [{
+		uid: "4ba4a766",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:raven_whistle",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c31f168a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "5fb06085",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "cb172686",
+		type: "item",
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "mod_lavacow:corrosive"
+			}
+		},
+		count: 11
+	}]
+}

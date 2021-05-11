@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	min_required_dependencies: 1,
+	dependencies: [
+		"2cc29c7a"
+	],
+	tasks: [{
+		uid: "84251756",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spell_book 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "fc380a93",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

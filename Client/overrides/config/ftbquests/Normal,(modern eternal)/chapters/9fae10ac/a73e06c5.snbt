@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	description: "The Feral Ratlantean is a monstrous giant rodent that can only be assumed to be the direct ancestor of the once civilized Ratlanteans.",
+	tasks: [{
+		uid: "4fc922ce",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:feral_bagh_nakhs"
+		},
+		entity: "rats:feral_ratlantean",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "cf553b34",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "a73b1bef",
+		type: "loot",
+		table: 1
+	}]
+}

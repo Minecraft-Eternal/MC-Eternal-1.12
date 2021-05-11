@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: 2.0d,
+	description: "The Minoshroom is a mini-boss found lurking in its prison at the bottom of a Labyrinth. The Minoshroom is a horrifying hybrid of a Mooshroom and a Minotaur.",
+	tasks: [{
+		uid: "06b92638",
+		type: "kill",
+		icon: "twilightforest:trophy 1 6",
+		entity: "twilightforest:minoshroom",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "921dec9b",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "8a2ec716",
+		type: "loot",
+		table: 1
+	}]
+}

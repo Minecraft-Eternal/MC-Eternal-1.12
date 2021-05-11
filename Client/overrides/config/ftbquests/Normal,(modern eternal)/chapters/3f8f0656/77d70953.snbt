@@ -1,0 +1,21 @@
+{
+	title: "Capacitate",
+	x: 9.5d,
+	y: 5.0d,
+	description: "Used in crafting advance items/machines and required for advanced machines",
+	dependencies: [
+		"d3804759"
+	],
+	tasks: [{
+		uid: "5a7b8024",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor"
+		}]
+	}],
+	rewards: [{
+		uid: "4bb7eaaa",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Ball-sy Grindr",
+	x: 17.0d,
+	y: 0.0d,
+	description: "Reduces power consumption and increases chances of bonus output of certain grindable items.",
+	dependencies: [
+		"eced9148"
+	],
+	tasks: [{
+		uid: "56644c9d",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ball 1 6"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "4346b6d1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e7c0be42",
+		type: "loot",
+		table: 1
+	}]
+}

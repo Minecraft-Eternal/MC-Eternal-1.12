@@ -1,0 +1,23 @@
+{
+	title: "Mayor Position Available!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecolonies:supplychestdeployer"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: -3.0d,
+		width: 0.3d,
+		height: 0.9d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

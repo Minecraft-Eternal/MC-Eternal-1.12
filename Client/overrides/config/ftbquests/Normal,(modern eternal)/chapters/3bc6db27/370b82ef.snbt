@@ -1,0 +1,22 @@
+{
+	title: "Overclocked",
+	x: -3.0d,
+	y: 3.0d,
+	description: "This upgrade increases the processing speed of machines at the cost of additional power cost.",
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "25dcdcd4",
+		type: "item",
+		items: [{
+			item: "techreborn:upgrades"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "153a3b15",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

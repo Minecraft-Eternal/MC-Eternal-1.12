@@ -1,0 +1,38 @@
+{
+	x: -12.0d,
+	y: -5.0d,
+	description: "When placed between at least two water source blocks, an aqueous accumulator will start producing water. The rate at which water is produced depends on the amount of adjacent water sources",
+	dependencies: [
+		"25a90b87"
+	],
+	tasks: [{
+		uid: "0bf143bd",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "88fe69e1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c62294fb",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -12.0d,
+	y: -8.0d,
+	dependencies: [
+		"9afcb30f"
+	],
+	tasks: [{
+		uid: "301d53a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:zombie_scepter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5b770a82",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "d48958ba",
+		type: "loot",
+		table: 1
+	}]
+}

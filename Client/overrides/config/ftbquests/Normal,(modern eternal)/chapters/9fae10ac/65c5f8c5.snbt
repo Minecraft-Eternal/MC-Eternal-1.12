@@ -1,0 +1,44 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "rats:plague_doctor_mask"
+	},
+	x: -1.0d,
+	y: 0.0d,
+	description: "The Black Death is a boss mob that summons many other mobs to defend it, to spread plague and wreak havoc on any mob in it's reach. Summoned by striking a plague doctor with lightning *BEWARE*",
+	hide: true,
+	tasks: [{
+		uid: "d9004994",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:plague_doctor_mask"
+		},
+		entity: "rats:black_death",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "35676c2c",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	},
+	{
+		uid: "d952d8b5",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "00e63f02",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}
