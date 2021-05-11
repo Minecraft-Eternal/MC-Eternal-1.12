@@ -1,8 +1,0 @@
-{
-  "name": "loot:eternal",
-  "inherit": [
-    "loot:ebwizardry",
-    "loot:all",
-    "loot:waystones"
-  ]
-}

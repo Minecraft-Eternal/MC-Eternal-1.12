@@ -1,7 +1,0 @@
-{
-  "name" : "segments:spawners_lots",
-
-  "segments" : [
-    {"level": [0,1,2,3,4], "type" : "SPAWNER", "weight" : 100}
-  ]
-}

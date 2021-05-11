@@ -1,7 +1,0 @@
-{
-  "name": "tower:hole",
-  "tower": {
-    "type": "HOLE",
-    "theme": {"base": "CAVE"}
-  }
-}
