@@ -36,6 +36,6 @@ print("--- loading Tooltip.zs ---");
 <immersiveengineering:railgun>.addTooltip(format.lightPurple("Damage amplified to 40x"));
 <immersiveengineering:revolver>.addTooltip(format.lightPurple("Bullet Damage values amplified to ~50x"));
 <thaumicaugmentation:impulse_cannon>.addTooltip(format.lightPurple("Damage Amplified to 20x"));
-
+<extrautils2:chickenring:1>.addTooltip(format.red("Do not wear as a bauble, may teleport you down randomly while flying"));
 
 print("--- Tooltip.zs initialized ---");	
