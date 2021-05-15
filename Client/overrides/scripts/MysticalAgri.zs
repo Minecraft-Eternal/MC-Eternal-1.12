@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 #packmode normal
+#MC Eternal Scripts
 
 print("--- loading MysticalAgri.zs ---");
 
@@ -25,7 +26,7 @@ for essenceRecipes in essenceRecipeNames {
 	recipes.removeByRecipeName("mysticalagriculture:"~essenceRecipes);
 }
 
-#MystAggra recipes & resources
+#MystAggra recipes
 var mystAggraRecipenames = ["stuff_1","nether_star_seeds","dragon_egg_seeds","dragon_egg_chunks","special_1"] as string[];
 for magrecipes in mystAggraRecipenames {
 	recipes.removeByRecipeName("mysticalagradditions:"~magrecipes);
@@ -38,10 +39,11 @@ for materials in hiddenMystAggraMats {
 #Because UniDict is special >:(
 recipes.removeByRecipeName("ingotiron_x6_shape.aaaa aaaa");
 
-#Remove Chunk recipes for disabled Mob seeds
-val disabledMobChunks = ["enderman","ghast","pig","blaze","sheep","cow","creeper"] as string[];
-for chunks in disabledMobChunks {
-	recipes.removeByRecipeName("mysticalagriculture:"~chunks~"chunk");
+#Remove Chunk recipes for disabled Mob seeds and hide them
+val chunkMetaValue = ["19","18","17","13","10","9","7"] as string[];
+for chunks in chunkMetaValue {
+	recipes.remove(itemUtils.getItem("mysticalagriculture:chunk",chunks));
+	mods.jei.JEI.removeAndHide(itemUtils.getItem("mysticalagriculture:chunk",chunks));
 }
 
 print("--- MysticalAgri.zs initialized ---");	
