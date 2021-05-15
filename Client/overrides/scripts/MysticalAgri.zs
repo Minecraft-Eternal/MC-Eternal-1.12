@@ -1,54 +1,47 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
 #packmode normal
 
 print("--- loading MysticalAgri.zs ---");
 
-#Remove Items
-recipes.remove(<mysticalagriculture:diamond_seeds>);
-recipes.remove(<mysticalagradditions:dragon_egg_seeds>);
-recipes.remove(<mysticalagradditions:nether_star_seeds>);
-recipes.remove(<mysticalagriculture:blaze_seeds>);
-recipes.remove(<mysticalagriculture:diamond_seeds>);
-recipes.remove(<mysticalagriculture:coal_seeds>);
-recipes.remove(<mysticalagriculture:emerald_seeds>);
-recipes.remove(<mysticalagriculture:end_seeds>);
-recipes.remove(<mysticalagriculture:enderman_seeds>);
-recipes.remove(<mysticalagriculture:experience_seeds>);
-recipes.remove(<mysticalagriculture:ghast_seeds>);
-recipes.remove(<mysticalagriculture:glowstone_seeds>);
-recipes.remove(<mysticalagriculture:gold_seeds>);
-recipes.remove(<mysticalagriculture:iron_seeds>);
-recipes.remove(<mysticalagriculture:lapis_lazuli_seeds>);
-recipes.remove(<mysticalagriculture:nature_seeds>);
-recipes.remove(<mysticalagriculture:nether_crop>);
-recipes.remove(<mysticalagriculture:obsidian_seeds>);
-recipes.remove(<mysticalagriculture:pig_seeds>);
-recipes.remove(<mysticalagriculture:redstone_seeds>);
-recipes.remove(<mysticalagriculture:sheep_seeds>);
-recipes.remove(<mysticalagriculture:wood_seeds>);
-recipes.remove(<mysticalagriculture:aluminum_seeds>);
-recipes.remove(<mysticalagriculture:basalz_seeds>);
-recipes.remove(<mysticalagriculture:blizz_seeds>);
-recipes.remove(<mysticalagriculture:boron_seeds>);
-recipes.remove(<mysticalagriculture:bronze_seeds>);
-recipes.remove(<mysticalagriculture:enderium_seeds>);
-recipes.remove(<mysticalagriculture:graphite_seeds>);
-recipes.remove(<mysticalagriculture:invar_seeds>);
-recipes.remove(<mysticalagriculture:iridium_seeds>);
-recipes.remove(<mysticalagriculture:lead_seeds>);
-recipes.remove(<mysticalagriculture:lithium_seeds>);
-recipes.remove(<mysticalagriculture:lumium_seeds>);
-recipes.remove(<mysticalagriculture:thorium_seeds>);
-recipes.remove(<mysticalagriculture:magnesium_seeds>);
-recipes.remove(<mysticalagriculture:osmium_seeds>);
-recipes.remove(<mysticalagriculture:platinum_seeds>);
-recipes.remove(<mysticalagriculture:silver_seeds>);
-recipes.remove(<mysticalagriculture:dirt_seeds>);
-recipes.remove(<mysticalagriculture:creeper_seeds>);
-recipes.remove(<mysticalagriculture:cow_seeds>);
-recipes.remove(<mysticalagriculture:gold_seeds>);
-recipes.remove(<mysticalagriculture:blaze_seeds>);
-recipes.remove(<mysticalagradditions:nether_star_seeds>);
+#Seeds to remove
+var removedSeeds = ["diamond","blaze","coal","emerald","end","enderman","experience","ghast","glowstone","gold","iron","lapis_lazuli","nature","nether","obsidian","pig","redstone","sheep","wood","aluminum","boron","bronze","enderium","invar","iridium","lead","lithium","lumium","thorium","magnesium","osmium","platinum","silver","dirt","creeper","cow"] as string[];
 
-#Add Shaped
+#Essence Recipes to disable
+var essenceRecipeNames = ["coal","emerald","end_stone","purpur_block","chorus_fruit","ender_pearl","xp_droplet","ghast_tear","glowstone_dust","dye_13","grass","mycelium","vine","cactus","reeds","pumpkin","melon_block","wheat","potato","poisonous_potato","carrot","beetroot","waterlily","dye","brown_mushroom","red_mushroom","mossy_cobblestone","stonebrick_2","apple","tallgrass","sapling","sapling_1","sapling_2","sapling_3","sapling_4","sapling_5","nether_wart","menril_sapling","netherrack","soul_sand","nether_brick","crafting_2","crafting_3","obsidian","porkchop","redstone","mutton","wool","log","log_1","log_2","log_3","log2","log2_1","ingotaluminum","ingotboron","ingotbronze","ingotinvar","ingotiridium","ingotlead","ingotlithium","ingotlumium","ingotthorium","ingotmagnesium","ingotosmium","ingotplatinum","ingotsilver","dirt","dirt_1","dirt_2","gravel","clay_ball","sand","sand_1","crafting_5","gunpowder","skull_2","record_13","record_cat","record_blocks","record_chirp","record_far","record_mall","record_mellohi","record_stal","record_strad","record_ward","record_11","record_wait","beef","leather","milk_bucket","ingotenderium"] as string[];
+
+#Yeeting process
+for theseeds in removedSeeds {
+	recipes.remove(itemUtils.getItem("mysticalagriculture:"~theseeds~"_seeds"));
+	if ("gold".matches(theseeds) || "diamond".matches(theseeds) ||  "blaze".matches(theseeds)) {
+		print("Not hiding "~theseeds~" seeds from JEI as it is still obtainable via quests.");
+	} else {
+		mods.jei.JEI.removeAndHide(itemUtils.getItem("mysticalagriculture:"~theseeds~"_seeds"));
+		mods.jei.JEI.removeAndHide(itemUtils.getItem("mysticalagriculture:"~theseeds~"_crop"));
+		mods.jei.JEI.removeAndHide(itemUtils.getItem("mysticalagriculture:"~theseeds~"_essence"));
+	}
+}
+for essenceRecipes in essenceRecipeNames {	
+	recipes.removeByRecipeName("mysticalagriculture:"~essenceRecipes);
+}
+
+#MystAggra recipes & resources
+var mystAggraRecipenames = ["stuff_1","nether_star_seeds","dragon_egg_seeds","dragon_egg_chunks","special_1"] as string[];
+for magrecipes in mystAggraRecipenames {
+	recipes.removeByRecipeName("mysticalagradditions:"~magrecipes);
+}
+var hiddenMystAggraMats = {"dragon_egg_seeds" : 0, "dragon_egg_essence": 0, "special" : 1, "stuff" : 2, "dragon_egg_crop" : 0} as int[string];
+for materials in hiddenMystAggraMats {
+	mods.jei.JEI.removeAndHide(itemUtils.getItem("mysticalagradditions:"~materials, hiddenMystAggraMats[materials]));
+}
+
+#Because UniDict is special >:(
+recipes.removeByRecipeName("ingotiron_x6_shape.aaaa aaaa");
+
+#Remove Chunk recipes for disabled Mob seeds
+val disabledMobChunks = ["enderman","ghast","pig","blaze","sheep","cow","creeper"] as string[];
+for chunks in disabledMobChunks {
+	recipes.removeByRecipeName("mysticalagriculture:"~chunks~"chunk");
+}
 
 print("--- MysticalAgri.zs initialized ---");	
