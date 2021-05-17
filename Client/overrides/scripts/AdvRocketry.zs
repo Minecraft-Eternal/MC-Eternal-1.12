@@ -1,4 +1,4 @@
-#packmode normal
+#MC Eternal Scripts
 
 print("--- loading AdvRocketry.zs ---");
 
