@@ -20,9 +20,9 @@ recipes.addShaped(<advancedrocketry:fuelingstation>, [[<ore:crystalIron>, <ore:c
 recipes.addShaped(<advancedrocketry:rocketbuilder>, [[<ore:ingotBrickNetherGlazed>, <ore:gearTitanium>, <ore:ingotBrickNetherGlazed>], [<ore:itemPrecientCrystal>, <ore:componentComputerChip>, <ore:itemPrecientCrystal>], [<ore:ingotBrickNetherGlazed>, <powersuits:powerarmorcomponent:12>, <ore:ingotBrickNetherGlazed>]]);
 
 #Space Dimension Tooltips
-<erebus:gaean_keystone>.addTooltip(format.red("Erebus is only accessible through Advanced Rocketry.");
-<erebus:portal_activator>.addTooltip(format.red("Erebus is only accessible through Advanced Rocketry.");
-<atum:scarab>.addTooltip(format.red("The Atum is only accessible through Advanced Rocketry.");
-<theaurorian:aurorianportalframebricks>.addTooltip(format.red("The Aurorian is only accessible through Advanced Rocketry.");
+<erebus:gaean_keystone>.addTooltip(format.red("Erebus is only accessible through Advanced Rocketry."));
+<erebus:portal_activator>.addTooltip(format.red("Erebus is only accessible through Advanced Rocketry."));
+<atum:scarab>.addTooltip(format.red("The Atum is only accessible through Advanced Rocketry."));
+<theaurorian:aurorianportalframebricks>.addTooltip(format.red("The Aurorian is only accessible through Advanced Rocketry."));
 
 print("--- AdvRocketry.zs initialized ---");	
