@@ -15,5 +15,15 @@
 		items: [{
 			item: "ancientspellcraft:sphere_cognizance"
 		}]
+	}],
+	rewards: [{
+		uid: "315c99bd",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "dd4c1a90",
+		type: "loot",
+		table: 1
 	}]
 }
