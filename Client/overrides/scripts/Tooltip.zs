@@ -40,4 +40,20 @@ print("--- loading Tooltip.zs ---");
 <extrautils2:chickenring:1>.addTooltip(format.red("Do not wear as a bauble, may teleport you down randomly while flying"));
 <appliedenergistics2:sky_stone_block>.addTooltip(format.red("Only Spawns in The Beneath and on The Moon"));
 
+var text = "If used in AE2 autocraft, it needs to placed in the pattern manually";
+<mekanism:energycube>.addTooltip(format.red(text));
+<mekanism:basicblock2:3>.addTooltip(format.red(text));
+<mekanism:basicblock2:4>.addTooltip(format.red(text));
+<mekanism:transmitter>.addTooltip(format.red(text));
+<mekanism:transmitter:1>.addTooltip(format.red(text));
+<mekanism:transmitter:2>.addTooltip(format.red(text));
+<mekanism:transmitter:3>.addTooltip(format.red(text));
+<mekanism:transmitter:4>.addTooltip(format.red(text));
+<mekanism:transmitter:5>.addTooltip(format.red(text));
+<mekanism:transmitter:6>.addTooltip(format.red(text));
+<mekanism:gastank>.addTooltip(format.red(text));
+<mekanism:basicblock:6>.addTooltip(format.red(text));
+<mekanism:machineblock2:11>.addTooltip(format.red(text));
+
+
 print("--- Tooltip.zs initialized ---");	
