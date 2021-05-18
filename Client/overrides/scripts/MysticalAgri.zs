@@ -36,9 +36,6 @@ for materials in hiddenMystAggraMats {
 	mods.jei.JEI.removeAndHide(itemUtils.getItem("mysticalagradditions:"~materials, hiddenMystAggraMats[materials]));
 }
 
-#Because UniDict is special >:(
-recipes.removeByRecipeName("ingotiron_x6_shape.aaaa aaaa");
-
 #Remove Chunk recipes for disabled Mob seeds and hide them
 val chunkMetaValue = ["19","18","17","13","10","9","7"] as string[];
 for chunks in chunkMetaValue {
