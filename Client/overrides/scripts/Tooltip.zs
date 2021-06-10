@@ -39,6 +39,8 @@ print("--- loading Tooltip.zs ---");
 <agricraft:sprinkler>.addTooltip(format.red("WARNING: Will cause serious FPS lag if Particles are not disabled in Agricraft's Config");
 <extrautils2:chickenring:1>.addTooltip(format.red("Do not wear as a bauble, may teleport you down randomly while flying"));
 <appliedenergistics2:sky_stone_block>.addTooltip(format.red("Only Spawns in The Beneath and on The Moon"));
+<appliedenergistics2:sky_compass>.addTooltip(format.red("Only Spawns in The Beneath and on The Moon"));
+<lootgames:ms_activator>.addTooltip(format.red("WARNING: DO NOT PLACE IN YOUR BASE"));
 
 var text = "If used as an AE2 Autocrafting Component, manually add this item into the crafting pattern";
 <mekanism:energycube>.addTooltip(format.red(text));
