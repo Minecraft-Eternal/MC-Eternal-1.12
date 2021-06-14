@@ -7,8 +7,9 @@ print("--- loading ClassicModeThings.zs ---");
 recipes.addShaped("UniDictisaMeanine", <minecraft:iron_ingot>*6, [[<mysticalagriculture:iron_essence>,<mysticalagriculture:iron_essence>,<mysticalagriculture:iron_essence>],[<mysticalagriculture:iron_essence>,null,<mysticalagriculture:iron_essence>],[<mysticalagriculture:iron_essence>,<mysticalagriculture:iron_essence>,<mysticalagriculture:iron_essence>]]);
 
 #Remove Recipes
-recipes.remove(<mysticalagriculture:gold_seeds>);
-recipes.remove(<mysticalagriculture:diamond_seeds>);
-recipes.remove(<mysticalagriculture:blaze_seeds>);
+var nocraftseeds = [<mysticalagriculture:gold_seeds>,<mysticalagriculture:diamond_seeds>,<mysticalagriculture:blaze_seeds>,<mysticalagradditions:nether_star_seeds>]
+for stuff in nocraftseeds {
+  recipes.remove(stuff);
+ }
 
 print("--- ClassicModeThings.zs initialized ---");
