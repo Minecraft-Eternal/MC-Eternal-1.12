@@ -41,6 +41,7 @@ print("--- loading Tooltip.zs ---");
 <appliedenergistics2:sky_stone_block>.addTooltip(format.red("Only Spawns in The Beneath and on The Moon"));
 <appliedenergistics2:sky_compass>.addTooltip(format.red("Only Spawns in The Beneath and on The Moon"));
 <lootgames:ms_activator>.addTooltip(format.red("WARNING: DO NOT PLACE IN YOUR BASE"));
+<thaumicaugmentation:impulse_cannon_augment>.addTooltip(format.lightPurple("Damage Amplified to 20x"));
 
 var text = "If used as an AE2 Autocrafting Component, manually add this item into the crafting pattern";
 <mekanism:energycube>.addTooltip(format.red(text));
