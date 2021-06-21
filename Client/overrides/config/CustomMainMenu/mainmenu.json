@@ -97,6 +97,46 @@
             }
 		},	
 		
+		"Discord":
+        {
+			"text" : "",
+			"texture": "assets:mce.png",
+			"hoverText": "Click to join our Discord!",
+			"hoverTextColor": 3547073,
+            "posX" : -124,
+            "posY" : 87,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": 300,
+			"imageHeight": 300,
+			"alignment":"button",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/ZS6FRR3"
+            }
+		},	
+		
+		"Github":
+		{
+			"text" : "",
+			"texture": "assets:github.png",
+			"hoverText": "Github",
+			"hoverTextColor": 3547073,
+            "posX" : -124,
+            "posY" : 109,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": 512,
+			"imageHeight": 512,
+			"alignment":"button",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/Minecraft-Eternal/MC-Eternal-1.12"
+            }
+		},	
+		
         "quit":
         {
             "text" : "menu.quit",
