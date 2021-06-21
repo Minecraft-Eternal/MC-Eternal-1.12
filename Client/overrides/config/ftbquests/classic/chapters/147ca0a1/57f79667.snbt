@@ -1,0 +1,37 @@
+{
+	title: "&eTaming a camel",
+	x: -1.2d,
+	y: -0.4d,
+	description: "Camels make for excellent desert fairing mounts, I should try taming one to assist in my exploration!",
+	dependencies: [
+		"99a4bfed"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "70f20dae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atum:camel_gold_armor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c6da3a31",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "f0a26bd2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

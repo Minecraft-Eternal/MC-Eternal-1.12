@@ -1,0 +1,24 @@
+{
+	x: -3.0d,
+	y: 5.0d,
+	dependencies: [
+		"d9987366"
+	],
+	tasks: [{
+		uid: "1b09a8d7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ca51df2f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

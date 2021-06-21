@@ -1,0 +1,35 @@
+{
+	x: -3.0d,
+	y: 2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"84aa257d"
+	],
+	tasks: [{
+		uid: "04b9100b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:glider_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb27d594",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "ee9914c8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Yuck!",
+	x: -1.75d,
+	y: 1.05d,
+	description: "&oThis is definitely going to give me bad ju ju",
+	dependencies: [
+		"93182620"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "95005979",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atum:mummy_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d54f21c0",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "9c1c5eba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

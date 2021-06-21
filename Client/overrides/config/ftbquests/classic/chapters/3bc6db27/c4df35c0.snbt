@@ -1,0 +1,24 @@
+{
+	x: -9.0d,
+	y: 5.5d,
+	dependencies: [
+		"ebbb3418"
+	],
+	tasks: [{
+		uid: "35f33d4b",
+		type: "item",
+		items: [{
+			item: "forestry:engine_peat"
+		}]
+	}],
+	rewards: [{
+		uid: "441653a8",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "92b2d4d5",
+		type: "loot",
+		table: 1
+	}]
+}

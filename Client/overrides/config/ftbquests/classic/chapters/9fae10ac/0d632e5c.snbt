@@ -1,0 +1,34 @@
+{
+	icon: {
+		id: "openblocks:trophy",
+		tag: {
+			entity_id: "minecraft:elder_guardian"
+		},
+		Damage: 36s
+	},
+	x: -8.0d,
+	y: -4.0d,
+	shape: "square",
+	description: "The elder guardian is a stronger, larger variant of the guardian that can inflict Mining Fatigue.",
+	tasks: [{
+		uid: "e1ab8844",
+		type: "kill",
+		entity: "minecraft:elder_guardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "6577bab2",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "b3ac1c0c",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "c2b190d6",
+		type: "loot",
+		table: 1
+	}]
+}

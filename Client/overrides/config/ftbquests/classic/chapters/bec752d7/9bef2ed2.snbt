@@ -1,0 +1,25 @@
+{
+	x: 12.0d,
+	y: 14.0d,
+	description: "Something smells like garlic..",
+	dependencies: [
+		"0094001a"
+	],
+	tasks: [{
+		uid: "62bd2e53",
+		type: "item",
+		items: [{
+			item: "vampirism:garlic_beacon"
+		}]
+	}],
+	rewards: [{
+		uid: "f7f4b657",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "5fb33f50",
+		type: "loot",
+		table: 1
+	}]
+}

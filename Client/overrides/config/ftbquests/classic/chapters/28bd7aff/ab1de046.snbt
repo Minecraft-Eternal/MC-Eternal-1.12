@@ -1,0 +1,29 @@
+{
+	title: "Naval Village",
+	x: -1.0d,
+	y: -1.0d,
+	description: "*Only pick one!*",
+	text: [
+		" Supply Ship must be placed in a large pool of water, otherwise it will not be built."
+	],
+	dependencies: [
+		"793fdf70"
+	],
+	tasks: [{
+		uid: "75e0094f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecolonies:supplychestdeployer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "20a3717d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

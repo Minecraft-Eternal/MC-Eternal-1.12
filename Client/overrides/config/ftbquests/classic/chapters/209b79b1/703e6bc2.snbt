@@ -1,0 +1,55 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "twilightforest:knightmetal_sword"
+	},
+	x: -1.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "A frivolous forest sprite that enjoys stealing items from unsuspecting explorers.",
+	dependencies: [
+		"26063fbc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b2203bbd",
+		type: "kill",
+		title: "Bounty: Pixie",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "iceandfire:if_pixie",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9b2ff84d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "93ba7406",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "c313c053",
+		type: "item",
+		item: "iceandfire:pixie_dust",
+		count: 3
+	},
+	{
+		uid: "39f0bd74",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:ambrosia"
+		}
+	}]
+}

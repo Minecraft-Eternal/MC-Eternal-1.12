@@ -1,0 +1,48 @@
+{
+	x: 1.5d,
+	y: -4.0d,
+	shape: "square",
+	description: "An extradimensional being sent to drag creatures big and small into unknown, hostile enviroments",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8852201"
+	],
+	tasks: [{
+		uid: "96ad6605",
+		type: "kill",
+		title: "Bounty: Rifter",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "midnight:rifter",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "fe411d3a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "18a66566",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "e8bae6fa",
+		type: "item",
+		item: "minecraft:diamond"
+	},
+	{
+		uid: "74dd7eb0",
+		type: "item",
+		item: "midnight:crystalotus"
+	},
+	{
+		uid: "1e2ece42",
+		type: "item",
+		item: "midnight:cook_stinger_egg"
+	}]
+}

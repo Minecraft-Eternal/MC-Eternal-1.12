@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	dependencies: [
+		"84aa257d"
+	],
+	tasks: [{
+		uid: "8c31299a",
+		type: "item",
+		items: [{
+			item: "erebus:stag_heart_cooked"
+		}]
+	}],
+	rewards: [{
+		uid: "795a3db6",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "9cbfefec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "They see me Rollin'",
+	x: -4.0d,
+	y: 6.0d,
+	description: "This machine is used to make plates/rings for later use.",
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "44790813",
+		type: "item",
+		items: [{
+			item: "techreborn:rolling_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "216e1d70",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a60b0704",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -6.5d,
+	y: -7.5d,
+	description: "Who needs torches anyway?",
+	dependencies: [
+		"36443d40"
+	],
+	size: 0.6d,
+	tasks: [{
+		uid: "84d0e6fe",
+		type: "item",
+		items: [{
+			item: "stupidthings:hidden_light"
+		}]
+	}],
+	rewards: [{
+		uid: "a4743360",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "eeabfdbd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

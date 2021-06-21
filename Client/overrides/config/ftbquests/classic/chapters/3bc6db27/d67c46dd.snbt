@@ -1,0 +1,35 @@
+{
+	x: -9.5d,
+	y: -4.0d,
+	description: "Simple ore doubling",
+	dependencies: [
+		"3d01c8ca"
+	],
+	tasks: [{
+		uid: "dcc2b624",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "285cb2ec",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

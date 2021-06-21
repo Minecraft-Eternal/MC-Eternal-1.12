@@ -1,0 +1,19 @@
+{
+	x: 14.0d,
+	y: 11.0d,
+	dependencies: [
+		"1ae749b8"
+	],
+	tasks: [{
+		uid: "0003e7ce",
+		type: "item",
+		items: [{
+			item: "vampirism:blood_potion_table"
+		}]
+	}],
+	rewards: [{
+		uid: "4a6db6cc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

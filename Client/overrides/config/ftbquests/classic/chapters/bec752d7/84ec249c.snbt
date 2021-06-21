@@ -1,0 +1,54 @@
+{
+	x: 4.0d,
+	y: 6.5d,
+	dependencies: [
+		"21206524",
+		"4ad879f7"
+	],
+	tasks: [{
+		uid: "70ef0ce1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:witches_cowl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff29a753",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:witches_robes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b6552a2c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:witches_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d6c8a97c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "4d05e95b",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: -18.5d,
+	y: 0.5d,
+	dependencies: [
+		"5ae5ed64"
+	],
+	tasks: [{
+		uid: "8c7ab96a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_combined"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da52a896",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "261df64d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

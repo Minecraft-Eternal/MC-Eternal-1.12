@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	description: "Defensive spells, Healing spells, Offensive spells... even Utility spells. We have it all!",
+	tasks: [{
+		uid: "63d42894",
+		type: "item",
+		items: [{
+			item: "ebwizardry:crystal_flower"
+		}]
+	}],
+	rewards: [{
+		uid: "45197f04",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "059553f2",
+		type: "loot",
+		title: "Novice Wizard Cache",
+		icon: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "spell_book"
+			}
+		},
+		table: 4
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Advanced Science",
+	icon: "buildcraftcore:gear_diamond",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -6.5d,
+		y: 8.5d,
+		width: 0.2d,
+		height: 0.7d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 3.0d,
+		y: -2.0d,
+		width: 0.2d,
+		height: 0.7d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 8.0d,
+		y: 3.5d,
+		width: 0.2d,
+		height: 0.7d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

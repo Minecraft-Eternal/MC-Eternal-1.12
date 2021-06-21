@@ -1,0 +1,25 @@
+{
+	x: -11.0d,
+	y: -7.0d,
+	shape: "diamond",
+	dependencies: [
+		"0653553e"
+	],
+	tasks: [{
+		uid: "55e3cd75",
+		type: "item",
+		items: [{
+			item: "twilightforest:naga_scale"
+		}]
+	}],
+	rewards: [{
+		uid: "538f8722",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "fb9ceb7e",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: 1.5d,
+	y: 5.0d,
+	dependencies: [
+		"51dd58b3"
+	],
+	tasks: [{
+		uid: "8bebde4c",
+		type: "item",
+		items: [{
+			item: "stevescarts:upgrade 1 8"
+		}]
+	},
+	{
+		uid: "6b32ca51",
+		type: "item",
+		items: [{
+			item: "stevescarts:cartmodule 1 44"
+		}]
+	},
+	{
+		uid: "feceb9c4",
+		type: "item",
+		items: [{
+			item: "stevescarts:cartmodule 1 25"
+		}]
+	}],
+	rewards: [{
+		uid: "90e9641f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a35ea8c1",
+		type: "loot",
+		table: 1
+	}]
+}

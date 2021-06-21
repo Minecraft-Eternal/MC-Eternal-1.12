@@ -1,0 +1,35 @@
+{
+	x: -11.0d,
+	y: -13.0d,
+	dependencies: [
+		"d592428b"
+	],
+	tasks: [{
+		uid: "65713142",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:fiery_sword",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 20s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ec97dc6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ad949a27",
+		type: "loot",
+		table: 1
+	}]
+}

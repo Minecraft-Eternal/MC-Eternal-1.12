@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	dependencies: [
+		"3ec9a1db"
+	],
+	tasks: [{
+		uid: "3923ee41",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_stripes_item"
+		}]
+	}],
+	rewards: [{
+		uid: "df949e0b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

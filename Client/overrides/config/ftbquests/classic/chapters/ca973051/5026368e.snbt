@@ -1,0 +1,25 @@
+{
+	icon: "midnight:tendrilweed",
+	x: -12.0d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "Dimension of perpetual darkness; the only light comes from crystals and the various flora, fungi and fauna of the dimension. You may travel willingly to this dimension, though you may unwillingly be dragged by a rifter into this strange hostile world",
+	text: [
+		"The Midnight"
+	],
+	tasks: [{
+		uid: "a706acdc",
+		type: "dimension",
+		dim: -23
+	}],
+	rewards: [{
+		uid: "5d34855f",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "6297d27a",
+		type: "loot",
+		table: 1
+	}]
+}

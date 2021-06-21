@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	description: "Ammo for a more sophisticated weapon",
+	text: [
+		"*Spawns in jungles*"
+	],
+	dependencies: [
+		"2cf9d199"
+	],
+	tasks: [{
+		uid: "a98d6681",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:zombiepiranha_item"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "ef9e2b97",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

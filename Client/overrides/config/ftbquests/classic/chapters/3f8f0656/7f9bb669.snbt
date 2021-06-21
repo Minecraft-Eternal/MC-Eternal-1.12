@@ -1,0 +1,42 @@
+{
+	x: 10.0d,
+	y: 3.5d,
+	description: "Required Alloys to craft/upgrade machines.",
+	dependencies: [
+		"d1dc024c"
+	],
+	tasks: [{
+		uid: "60c1184c",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 6"
+		}],
+		count: 16L
+	},
+	{
+		uid: "df12b918",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 7"
+		}],
+		count: 8L
+	},
+	{
+		uid: "f55d3032",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 5"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e2230f63",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ee61e95b",
+		type: "loot",
+		table: 1
+	}]
+}

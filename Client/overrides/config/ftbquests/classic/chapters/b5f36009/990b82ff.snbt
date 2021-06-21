@@ -1,0 +1,35 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"21d77837"
+	],
+	tasks: [{
+		uid: "cba9f48e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "theaurorian:keeperamulet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f7703b5",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "d9b308da",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

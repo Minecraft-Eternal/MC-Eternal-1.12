@@ -1,0 +1,49 @@
+{
+	x: -15.0d,
+	y: -6.5d,
+	description: "An alpine flying predator that can be tamed and handled as a sturdy flying war mount.",
+	text: [
+		"Hippogryphs are mysterious alpine flying carnivores that can be tamed using Rabbits Feet.",
+		"Hippogryph eggs are items obtained after breeding two hippogryphs. You hatch them like a chicken, and a baby hippogryph will spawn.",
+		"Two hippogryphs can be bred by feeding them rabbit stew. "
+	],
+	dependencies: [
+		"a9d286cd"
+	],
+	tasks: [{
+		uid: "6c1c1298",
+		type: "item",
+		title: "Obtain a Hippogryph egg",
+		items: [{
+			item: "iceandfire:hippogryph_egg"
+		},
+		{
+			item: "iceandfire:hippogryph_egg 1 1"
+		},
+		{
+			item: "iceandfire:hippogryph_egg 1 2"
+		},
+		{
+			item: "iceandfire:hippogryph_egg 1 3"
+		},
+		{
+			item: "iceandfire:hippogryph_egg 1 4"
+		},
+		{
+			item: "iceandfire:hippogryph_egg 1 5"
+		},
+		{
+			item: "iceandfire:hippogryph_egg 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "56067fc3",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "49b26889",
+		type: "loot",
+		table: 1
+	}]
+}

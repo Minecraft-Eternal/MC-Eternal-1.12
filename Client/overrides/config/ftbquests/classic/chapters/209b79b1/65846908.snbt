@@ -1,0 +1,49 @@
+{
+	x: 7.0d,
+	y: -5.0d,
+	shape: "square",
+	description: "&cA terrifying mechanical abomination that disguises as a door in the Sludgeon.",
+	dependencies: [
+		"e28e2a4a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "391b98b3",
+		type: "kill",
+		title: "Bounty: Barrishee",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "thebetweenlands:barrishee",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "5d81c6d5",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "ff34257f",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "36b4b533",
+		type: "item",
+		item: "minecraft:emerald_block",
+		count: 3
+	},
+	{
+		uid: "56bc214b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

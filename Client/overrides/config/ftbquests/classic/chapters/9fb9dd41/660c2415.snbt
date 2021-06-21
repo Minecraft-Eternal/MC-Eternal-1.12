@@ -1,0 +1,26 @@
+{
+	x: -7.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "83da2351",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonbone_sword_ice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eca0e28c",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "5cfe2792",
+		type: "loot",
+		table: 1
+	}]
+}

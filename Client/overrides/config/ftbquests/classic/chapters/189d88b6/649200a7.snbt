@@ -1,0 +1,19 @@
+{
+	x: -16.0d,
+	y: -9.0d,
+	dependencies: [
+		"add3b7b4"
+	],
+	tasks: [{
+		uid: "b082ce22",
+		type: "item",
+		items: [{
+			item: "iceandfire:chain_sticky"
+		}]
+	}],
+	rewards: [{
+		uid: "7ac37c8e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

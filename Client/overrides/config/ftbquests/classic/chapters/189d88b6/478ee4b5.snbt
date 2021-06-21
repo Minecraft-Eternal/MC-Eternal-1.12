@@ -1,0 +1,32 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	dependencies: [
+		"b1b8d431"
+	],
+	tasks: [{
+		uid: "7c6a6062",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c3a27b7a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "dba892e0",
+		type: "loot",
+		table: 1
+	}]
+}

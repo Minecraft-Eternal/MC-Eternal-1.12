@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	description: "&oSlay a Pharaoh ",
+	text: [
+		"Place four royal torches around the sarcophagus on the Carved Limestone, continuing the pattern. Make sure they are all lit."
+	],
+	dependencies: [
+		"99a4bfed"
+	],
+	tasks: [{
+		uid: "265dab04",
+		type: "kill",
+		title: "&3Regicide",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atum:atums_will"
+		},
+		entity: "atum:pharaoh",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "8a86cd9e",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "f5135320",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

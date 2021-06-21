@@ -1,0 +1,46 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "1937d580",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:snowglobe",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8e2588f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "8d5825fb",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "f459d41f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "totemic:ceremony_cheat"
+		}
+	},
+	{
+		uid: "2c987954",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

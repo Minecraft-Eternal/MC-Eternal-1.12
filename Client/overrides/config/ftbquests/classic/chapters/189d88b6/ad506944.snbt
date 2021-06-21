@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -10.5d,
+	shape: "octagon",
+	dependencies: [
+		"3b41a4ca"
+	],
+	tasks: [{
+		uid: "4fdfdd08",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "charm:totem_of_shielding"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af612f15",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "1722e816",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "Advanced Spell Book",
+	icon: "ebwizardry:spell_book 1 158",
+	loot_size: 1,
+	rewards: [{
+		item: "ebwizardry:spell_book 1 158"
+	},
+	{
+		item: "ebwizardry:spell_book 1 55"
+	},
+	{
+		item: "ebwizardry:spell_book 1 124"
+	},
+	{
+		item: "ebwizardry:spell_book 1 192"
+	},
+	{
+		item: "ebwizardry:spell_book 1 156"
+	},
+	{
+		item: "ebwizardry:spell_book 1 135"
+	},
+	{
+		item: "ebwizardry:spell_book 1 127"
+	},
+	{
+		item: "ebwizardry:spell_book 1 128"
+	},
+	{
+		item: "ebwizardry:spell_book 1 76"
+	},
+	{
+		item: "ebwizardry:spell_book 1 12"
+	}],
+	loot_crate: {
+		string_id: "advanced_spell_book",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

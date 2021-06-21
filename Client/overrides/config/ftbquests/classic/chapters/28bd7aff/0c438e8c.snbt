@@ -1,0 +1,29 @@
+{
+	title: "Landlocked Village",
+	x: 1.0d,
+	y: -1.0d,
+	description: "*Only pick one!*",
+	text: [
+		"Tip: Supply Camp needs an area of 16 x 12 x 17 to place down."
+	],
+	dependencies: [
+		"793fdf70"
+	],
+	tasks: [{
+		uid: "951db6e9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecolonies:supplycampdeployer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "985611be",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Discover a Wizard's Tower",
+	x: 2.5d,
+	y: 0.0d,
+	description: "Wizard Towers can often be found while exploring, for more information refer to the Wizard's Handbook",
+	dependencies: [
+		"ec0bd6f7"
+	],
+	tasks: [{
+		uid: "8fe67898",
+		type: "advancement",
+		title: "Discover a Wizard's Tower",
+		icon: "ebwizardry:astral_diamond",
+		advancement: "ebwizardry:wizard_tower",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "d1a16de0",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "153a6c86",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 3
+	},
+	{
+		uid: "7b0b0c6b",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 5
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -13.0d,
+	y: -20.0d,
+	dependencies: [
+		"f73e6af3"
+	],
+	tasks: [{
+		uid: "5e86dfe6",
+		type: "item",
+		items: [{
+			item: "twilightforest:ice_bomb"
+		}]
+	}],
+	rewards: [{
+		uid: "e426fc7c",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "16498dbb",
+		type: "loot",
+		table: 1
+	}]
+}

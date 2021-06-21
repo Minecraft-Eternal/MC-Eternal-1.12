@@ -1,0 +1,47 @@
+{
+	title: "Base defence",
+	icon: "openmodularturrets:potato_cannon_turret",
+	x: -20.0d,
+	y: -1.5d,
+	description: "Protecting the land and scaring away creatures with this new potato launching device!",
+	dependencies: [
+		"113c82cb"
+	],
+	tasks: [{
+		uid: "a157ff2f",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:turret_base"
+		}]
+	},
+	{
+		uid: "57815935",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:potato_cannon_turret"
+		}]
+	},
+	{
+		uid: "1254f660",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:lever_block"
+		}]
+	}],
+	rewards: [{
+		uid: "b3fa3cc2",
+		type: "item",
+		item: "minecraft:potato",
+		count: 32
+	},
+	{
+		uid: "2634c3a8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f5421910",
+		type: "loot",
+		table: 1
+	}]
+}

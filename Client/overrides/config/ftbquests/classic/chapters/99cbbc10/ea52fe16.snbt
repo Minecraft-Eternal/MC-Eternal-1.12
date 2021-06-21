@@ -1,0 +1,38 @@
+{
+	title: "Rats!",
+	x: 4.5d,
+	y: -1.0d,
+	description: "Rats eating all yo crops?",
+	text: [
+		"Rats dig through wooden walls, steal food and seeds from chests and destroy crops! Protect your home with traps! "
+	],
+	tasks: [{
+		uid: "8ec1d7ed",
+		type: "item",
+		items: [{
+			item: "rats:rattrap"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "6ea527d8",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "6f6123a7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cheesy_cache"
+			}
+		}
+	},
+	{
+		uid: "a98fa8e7",
+		type: "item",
+		item: "rats:garbage_pile",
+		count: 3
+	}]
+}

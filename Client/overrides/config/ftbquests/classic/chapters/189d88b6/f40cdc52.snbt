@@ -1,0 +1,29 @@
+{
+	x: -5.0d,
+	y: -6.0d,
+	dependencies: [
+		"67039193"
+	],
+	tasks: [{
+		uid: "150f9d76",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}],
+	rewards: [{
+		uid: "0c6498b8",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "8267caa4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:tool_torch_launcher"
+		}
+	}]
+}

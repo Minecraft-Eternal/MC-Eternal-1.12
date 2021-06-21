@@ -1,0 +1,19 @@
+{
+	x: 18.0d,
+	y: 3.5d,
+	dependencies: [
+		"2d45e4da"
+	],
+	tasks: [{
+		uid: "e28ecb15",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "9e44baa6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

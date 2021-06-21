@@ -1,0 +1,27 @@
+{
+	x: -12.5d,
+	y: -2.0d,
+	description: " A repulsive, twisted monstrosity that can turn any living thing to stone with her terrible gaze.",
+	tasks: [{
+		uid: "79fcc981",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:gorgon_head"
+		},
+		entity: "iceandfire:gorgon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "14574695",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "72834029",
+		type: "loot",
+		table: 1
+	}]
+}

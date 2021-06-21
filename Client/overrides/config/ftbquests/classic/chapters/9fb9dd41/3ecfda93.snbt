@@ -1,0 +1,21 @@
+{
+	x: -5.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "da42c716",
+		type: "item",
+		items: [{
+			item: "iceandfire:stymphalian_feather_bundle"
+		}]
+	}],
+	rewards: [{
+		uid: "a5b486fb",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "5e61e139",
+		type: "loot",
+		table: 1
+	}]
+}

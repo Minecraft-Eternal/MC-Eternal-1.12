@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"51dd58b3"
+	],
+	tasks: [{
+		uid: "f367b7df",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockadvdetector"
+		}]
+	}],
+	rewards: [{
+		uid: "c38d9f15",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "eaf8952e",
+		type: "loot",
+		table: 1
+	}]
+}

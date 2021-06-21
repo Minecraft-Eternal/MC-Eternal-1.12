@@ -1,0 +1,29 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	description: "Identifying Spells made easier!",
+	text: [
+		"The Sphere of Cognizance is a device that can consume Magic Crystals to provide information about the various properties of a Spell, and sometimes instantly Identify it!",
+		"Just give it a Spell Book, some Magic Crystals, and press the button in its GUI to get hints."
+	],
+	dependencies: [
+		"66a69ac3"
+	],
+	tasks: [{
+		uid: "a797f28e",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:sphere_cognizance"
+		}]
+	}],
+	rewards: [{
+		uid: "315c99bd",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "dd4c1a90",
+		type: "loot",
+		table: 1
+	}]
+}

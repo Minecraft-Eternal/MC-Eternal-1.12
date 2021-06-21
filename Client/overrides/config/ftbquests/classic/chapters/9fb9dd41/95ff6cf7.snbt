@@ -1,0 +1,17 @@
+{
+	x: -16.0d,
+	y: 0.0d,
+	shape: "diamond",
+	tasks: [{
+		uid: "b1dceed4",
+		type: "item",
+		items: [{
+			item: "bibliocraft:armorstand"
+		}]
+	}],
+	rewards: [{
+		uid: "6949d1e6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

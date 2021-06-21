@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 2.5d,
+	description: "&6When using this legendary artifact, it will give 8 seconds of Regeneration if the player is wounded, and will repair all equipped items at a rate of 1/sec. &cSomething feels off... I am not myself...&k111&r I never was... I hear the calling...",
+	dependencies: [
+		"946700ea"
+	],
+	tasks: [{
+		uid: "717526ab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:goldenheart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f61151f6",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

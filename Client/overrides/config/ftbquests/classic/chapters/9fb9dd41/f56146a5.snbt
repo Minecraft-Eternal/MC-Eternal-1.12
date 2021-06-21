@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "dde6df07",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:amphithere_macuahuitl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c0c4550",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "3c6ac84d",
+		type: "loot",
+		table: 1
+	}]
+}

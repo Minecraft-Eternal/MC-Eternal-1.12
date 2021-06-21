@@ -1,0 +1,41 @@
+{
+	x: -7.5d,
+	y: -7.5d,
+	description: "Nether Resource",
+	dependencies: [
+		"36443d40"
+	],
+	size: 0.6d,
+	tasks: [{
+		uid: "0b44e495",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "c5aedd4a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "39031958",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "bfa19f7e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "xu_demonic_metal",
+				Amount: 1000
+			}
+		}
+	}]
+}

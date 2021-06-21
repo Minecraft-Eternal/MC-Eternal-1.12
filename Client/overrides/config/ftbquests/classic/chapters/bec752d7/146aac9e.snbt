@@ -1,0 +1,54 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ebwizardry:amulet_ice_immunity"
+	},
+	x: -1.0d,
+	y: -3.5d,
+	shape: "diamond",
+	description: "Murder 100 Wizards",
+	tasks: [{
+		uid: "61a7c096",
+		type: "kill",
+		title: "Mage Hunter",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "ebwizardry:wizard"
+				}
+			}
+		},
+		entity: "ebwizardry:evil_wizard",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "3d1d1126",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "8858d3e8",
+		type: "loot",
+		title: "Master Wizard Cache",
+		icon: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_lootbox"
+			}
+		},
+		table: 7
+	},
+	{
+		uid: "9dafa2c4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

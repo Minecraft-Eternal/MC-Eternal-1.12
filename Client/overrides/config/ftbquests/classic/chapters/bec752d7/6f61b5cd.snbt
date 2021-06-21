@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: 3.5d,
+	dependencies: [
+		"a0b62e4f"
+	],
+	tasks: [{
+		uid: "e63858ef",
+		type: "item",
+		items: [{
+			item: "bewitchment:crystal_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "e4494518",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "63350bab",
+		type: "loot",
+		table: 1
+	}]
+}
