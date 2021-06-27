@@ -1,8 +1,25 @@
 [
   {
+    "dimension": 1000,
+    "mincount": {
+      "amount": 40,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 1048,
+    "mincount": {
+      "amount": 30,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
     "mob": "iceandfire:dread_knight",
 	"customname": "§4§lPrimordium 5th Legion",
-	"maxcount": "1",
 	"healthmultiply": 50,
     "damagemultiply": 11,
     "speedmultiply": 1,
@@ -11,7 +28,6 @@
   {
     "mob": "iceandfire:dread_ghoul",
 	"customname": "§4Enraged Fleshripper",
-	"maxcount": "2",
 	"healthmultiply": 12,
     "damagemultiply": 10,
     "speedmultiply": 1,
@@ -20,7 +36,6 @@
   {
     "mob": "iceandfire:dread_scuttler",
 	"customname": "§4§k!!§r§4§lWretched Abomination§4§k!!",
-	"maxcount": "1",
 	"healthmultiply": 60,
     "damagemultiply": 90,
     "speedmultiply": 0.3,
@@ -29,7 +44,6 @@
   {
     "mob": "iceandfire:dread_thrall",
 	"customname": "§4Undying Soldier",
-	"maxcount": "2",
 	"healthmultiply": 16,
     "damagemultiply": 9,
     "speedmultiply": 1,
@@ -38,7 +52,6 @@
   {
     "mob": "iceandfire:dread_beast",
 	"customname": "§4Undying Bloodhound",
-	"maxcount": "2",
 	"healthmultiply": 10,
     "damagemultiply": 3.5,
     "speedmultiply": 1,
@@ -47,16 +60,112 @@
   {
     "mob": "iceandfire:dread_lich",
 	"customname": "§dTwisted Ethereal Necromancer",
-	"maxcount": "1",
 	"healthmultiply": 33,
     "damagemultiply": 3,
     "speedmultiply": 0.8,
     "armorhelmet": ["minecraft:iron_helmet", "minecraft:golden_helmet"]
   },
   {
-    "dimension": 1000,
-    "mod": "iceandfire",
-    "mincount": 2,
-    "result": "deny"
+	"mob": "atum:assassin",
+	"customname": "§4§lLost Desert Assassin§r",
+	"healthmultiply": 20,
+	"damagemultiply": 40,
+	"speedmultiply": 3
+  },
+  {
+	"mob": "atum:warlord",
+	"customname": "",
+	"healthmultiply": 50,
+	"damagemultiply": 30,
+	"speedmultiply": 1
+  },
+  {
+	"mob": "atum:barbarian",
+	"customname": "",
+	"healthmultiply": 40,
+	"damagemultiply": 35,
+	"speedmultiply": 1
+  },
+  {
+	"mob": "atum:brigand",
+	"customname": "",
+	"healthmultiply": 30,
+	"damagemultiply": 25,
+	"speedmultiply": 1
+  },
+  {
+	"mob": "atum:nomad",
+	"customname": "",
+	"healthmultiply": 25,
+	"damagemultiply": 30,
+	"speedmultiply": 1
+  },
+  {
+	"mob": "atum:bonestorm",
+	"customname": "",
+	"healthmultiply": 25,
+	"damagemultiply": 30,
+	"speedmultiply": 1
+  },
+  {
+	"mob": "atum:forsaken",
+	"customname": "",
+	"healthmultiply": 30,
+	"damagemultiply": 30,
+	"speedmultiply": 1
+  },
+  {
+	"mob": "atum:mummy",
+	"customname": "",
+	"healthmultiply": 45,
+	"damagemultiply": 20,
+	"speedmultiply": 1
+  },
+  {
+	"mob": "atum:wraith",
+	"customname": "",
+	"healthmultiply": 20,
+	"damagemultiply": 45,
+	"speedmultiply": 2
+  },
+  {
+	"mob": "atum:stoneguard",
+	"customname": "",
+	"healthmultiply": 40,
+	"damagemultiply": 40,
+	"speedmultiply": 1
+  },
+  {
+	"mob": "atum:stonewarden",
+	"customname": "",
+	"healthmultiply": 40,
+	"damagemultiply": 40,
+	"speedmultiply": 1
+  },
+  {
+	"mob": "atum:tarantula",
+	"customname": "",
+	"healthmultiply": 30,
+	"damagemultiply": 20,
+	"speedmultiply": 1
+  },
+  {
+	"mob": "atum:scarab",
+	"customname": "",
+	"healthmultiply": 30,
+	"damagemultiply": 20,
+	"speedmultiply": 2
+  },
+  {
+	"mob": "atum:desert_wolf",
+	"healthmultiply": 40,
+	"damagemultiply": 15,
+	"speedmultiply": 1.5
+  },
+  {
+	"mob": "atum:camel",
+	"healthmultiply": 50,
+	"damagemultiply": 20,
+	"speedmultiply": 1.5
   }
 ]
