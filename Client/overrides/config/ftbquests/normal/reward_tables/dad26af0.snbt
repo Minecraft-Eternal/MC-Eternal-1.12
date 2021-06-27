@@ -289,10 +289,6 @@
 		weight: 19
 	},
 	{
-		item: "extrautils2:soundmuffler",
-		weight: 19
-	},
-	{
 		item: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -1045,11 +1041,6 @@
 	},
 	{
 		item: "cyclicmagic:apple_emerald",
-		weight: 22
-	},
-	{
-		item: "cyclicmagic:corrupted_chorus",
-		count: 3,
 		weight: 22
 	},
 	{
@@ -1954,16 +1945,6 @@
 	},
 	{
 		item: {
-			id: "thermalexpansion:morb",
-			tag: {
-				Generic: 1b,
-				id: "icbmclassic:zombie.xmas.elf"
-			}
-		},
-		weight: 26
-	},
-	{
-		item: {
 			id: "biomestaff:biome_staff",
 			tag: {
 				biome: -102b
@@ -2088,17 +2069,6 @@
 	},
 	{
 		item: "rats:rat_upgrade_buccaneer",
-		weight: 26
-	},
-	{
-		item: {
-			id: "minecraft:spawn_egg",
-			tag: {
-				EntityTag: {
-					id: "icbmclassic:zombie.xmas.creeper"
-				}
-			}
-		},
 		weight: 26
 	},
 	{
@@ -2531,11 +2501,6 @@
 	},
 	{
 		item: "bewitchment:flying_ointment",
-		weight: 18
-	},
-	{
-		item: "davincisvessels:balloon",
-		count: 16,
 		weight: 18
 	},
 	{
