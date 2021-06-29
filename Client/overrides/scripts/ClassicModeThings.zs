@@ -1,5 +1,6 @@
+import crafttweaker.item.IItemStack;
 #packmode classic
-
+#MC Eternal Scripts
 
 print("--- loading ClassicModeThings.zs ---");
 
@@ -7,7 +8,7 @@ print("--- loading ClassicModeThings.zs ---");
 recipes.addShaped("UniDictisaMeanine", <minecraft:iron_ingot>*6, [[<mysticalagriculture:iron_essence>,<mysticalagriculture:iron_essence>,<mysticalagriculture:iron_essence>],[<mysticalagriculture:iron_essence>,null,<mysticalagriculture:iron_essence>],[<mysticalagriculture:iron_essence>,<mysticalagriculture:iron_essence>,<mysticalagriculture:iron_essence>]]);
 
 #Remove Recipes
-var nocraftseeds = [<mysticalagriculture:gold_seeds>,<mysticalagriculture:diamond_seeds>,<mysticalagriculture:blaze_seeds>,<mysticalagradditions:nether_star_seeds>]
+var nocraftseeds = [<mysticalagriculture:gold_seeds>,<mysticalagriculture:diamond_seeds>,<mysticalagriculture:blaze_seeds>,<mysticalagradditions:nether_star_seeds>] as IItemStack[];
 for stuff in nocraftseeds {
   recipes.remove(stuff);
  }
