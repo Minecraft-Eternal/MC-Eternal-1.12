@@ -28,19 +28,5 @@
 		uid: "2e6c8f48",
 		type: "ftbmoney:money",
 		ftb_money: 350L
-	},
-	{
-		uid: "65e866b3",
-		type: "item",
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
-				RepairCost: 0,
-				display: {
-					Name: "�dExterrestrial Cache"
-				},
-				type: "extraterrestrial_cache"
-			}
-		}
 	}]
 }
