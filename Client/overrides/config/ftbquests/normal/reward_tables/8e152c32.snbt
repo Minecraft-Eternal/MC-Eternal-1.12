@@ -1360,47 +1360,6 @@
 	},
 	{
 		item: {
-			id: "minecraft:spawn_egg",
-			tag: {
-				EntityTag: {
-					id: "icbmclassic:skeleton.xmas.boss"
-				}
-			}
-		},
-		weight: 3
-	},
-	{
-		item: {
-			id: "minecraft:spawn_egg",
-			tag: {
-				EntityTag: {
-					id: "icbmclassic:skeleton.xmas.snowman"
-				}
-			}
-		}
-	},
-	{
-		item: {
-			id: "minecraft:spawn_egg",
-			tag: {
-				EntityTag: {
-					id: "icbmclassic:zombie.xmas.boss"
-				}
-			}
-		}
-	},
-	{
-		item: {
-			id: "minecraft:spawn_egg",
-			tag: {
-				EntityTag: {
-					id: "icbmclassic:zombie.xmas.creeper"
-				}
-			}
-		}
-	},
-	{
-		item: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
@@ -2239,15 +2198,6 @@
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:amphithere_macuahuitl"
-		}
-	},
-	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "ebwizardry:armour_upgrade",
-			Count: 1b
 		}
 	},
 	{

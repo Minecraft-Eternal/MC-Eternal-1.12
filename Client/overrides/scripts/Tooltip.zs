@@ -36,6 +36,24 @@ print("--- loading Tooltip.zs ---");
 <immersiveengineering:railgun>.addTooltip(format.lightPurple("Damage amplified to 40x"));
 <immersiveengineering:revolver>.addTooltip(format.lightPurple("Bullet Damage values amplified to ~50x"));
 <thaumicaugmentation:impulse_cannon>.addTooltip(format.lightPurple("Damage Amplified to 20x"));
+<agricraft:sprinkler>.addTooltip(format.red("WARNING: Will cause serious FPS lag if Particles are not disabled in Agricraft's Config");
+<extrautils2:chickenring:1>.addTooltip(format.red("Do not wear as a bauble, may teleport you down randomly while flying"));
+<appliedenergistics2:sky_stone_block>.addTooltip(format.red("Only Spawns in The Beneath and on The Moon"));
+
+var text = "If used as an AE2 Autocrafting Component, manually add this item into the crafting pattern";
+<mekanism:energycube>.addTooltip(format.red(text));
+<mekanism:basicblock2:3>.addTooltip(format.red(text));
+<mekanism:basicblock2:4>.addTooltip(format.red(text));
+<mekanism:transmitter>.addTooltip(format.red(text));
+<mekanism:transmitter:1>.addTooltip(format.red(text));
+<mekanism:transmitter:2>.addTooltip(format.red(text));
+<mekanism:transmitter:3>.addTooltip(format.red(text));
+<mekanism:transmitter:4>.addTooltip(format.red(text));
+<mekanism:transmitter:5>.addTooltip(format.red(text));
+<mekanism:transmitter:6>.addTooltip(format.red(text));
+<mekanism:gastank>.addTooltip(format.red(text));
+<mekanism:basicblock:6>.addTooltip(format.red(text));
+<mekanism:machineblock2:11>.addTooltip(format.red(text));
 
 
 print("--- Tooltip.zs initialized ---");	
