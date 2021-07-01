@@ -1,0 +1,110 @@
+{
+	title: "An Archmage needs an Archive",
+	x: 8.0d,
+	y: -1.0d,
+	description: "Searching for your stashed Spells",
+	text: [
+		"Bookshelves can be placed down and have Spell Books stored in them, those Spell Books can then be easily accessed via an Arcane Workbench or Lectern."
+	],
+	dependencies: [
+		"66a69ac3"
+	],
+	tasks: [{
+		uid: "7a08f01f",
+		type: "item",
+		title: "Wood Lectern",
+		items: [{
+			item: "ebwizardry:oak_lectern"
+		},
+		{
+			item: "ebwizardry:birch_lectern"
+		},
+		{
+			item: "ebwizardry:spruce_lectern"
+		},
+		{
+			item: "ebwizardry:jungle_lectern"
+		},
+		{
+			item: "ebwizardry:acacia_lectern"
+		},
+		{
+			item: "ebwizardry:dark_oak_lectern"
+		},
+		{
+			item: "tfspellpack:twilight_oak_lectern"
+		},
+		{
+			item: "tfspellpack:canopy_lectern"
+		},
+		{
+			item: "tfspellpack:darkwood_lectern"
+		},
+		{
+			item: "tfspellpack:mangrove_lectern"
+		},
+		{
+			item: "tfspellpack:transwood_lectern"
+		},
+		{
+			item: "tfspellpack:sortingwood_lectern"
+		},
+		{
+			item: "tfspellpack:timewood_lectern"
+		}]
+	},
+	{
+		uid: "f65411ef",
+		type: "item",
+		title: "Wooden Bookshelf",
+		items: [{
+			item: "ebwizardry:oak_bookshelf"
+		},
+		{
+			item: "ebwizardry:birch_bookshelf"
+		},
+		{
+			item: "ebwizardry:spruce_bookshelf"
+		},
+		{
+			item: "ebwizardry:jungle_bookshelf"
+		},
+		{
+			item: "ebwizardry:acacia_bookshelf"
+		},
+		{
+			item: "ebwizardry:dark_oak_bookshelf"
+		},
+		{
+			item: "tfspellpack:twilight_oak_bookshelf"
+		},
+		{
+			item: "tfspellpack:canopy_bookshelf"
+		},
+		{
+			item: "tfspellpack:darkwood_bookshelf"
+		},
+		{
+			item: "tfspellpack:mangrove_bookshelf"
+		},
+		{
+			item: "tfspellpack:transwood_bookshelf"
+		},
+		{
+			item: "tfspellpack:sortingwood_bookshelf"
+		},
+		{
+			item: "tfspellpack:timewood_bookshelf"
+		}]
+	}],
+	rewards: [{
+		uid: "e0aaecc6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3ca11606",
+		type: "loot",
+		table: 5
+	}]
+}
