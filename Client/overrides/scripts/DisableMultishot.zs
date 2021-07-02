@@ -12,7 +12,9 @@ events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLiv
 			for enchts in listenchants {
 				if(multishoot == enchts.definition.id){
 					event.cancel();
-					event.player.sendChat("Multishot is disabled, but the player " ~ event.player.name ~ " tried to use anyways.");
+					if (!event.player.world.isRemote()) {
+						event.player.sendChat("Multishot is disabled, but the player " ~ event.player.name ~ " tried to use anyways.");
+					}
 				}
 			}
 		}
