@@ -11,7 +11,10 @@ events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLiv
 			var listenchants as IEnchantment[] = event.item.enchantments as IEnchantment[];
 			for enchts in listenchants {
 				if(multishoot == enchts.definition.id){
-					event.player.dropItem(true);
+					event.cancel();
+					if (!event.player.world.isRemote()) {
+						event.player.sendChat("Multishot is disabled, but the player " ~ event.player.name ~ " tried to use anyways.");
+					}
 				}
 			}
 		}
