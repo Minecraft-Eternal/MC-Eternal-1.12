@@ -62,4 +62,9 @@ recipes.addShapeless(<malisisdoors:trapdoor_spruce>, [<quark:spruce_trapdoor>]);
 recipes.addShapeless(<malisisdoors:trapdoor_jungle>, [<quark:jungle_trapdoor>]);
 recipes.addShapeless(<malisisdoors:trapdoor_dark_oak>, [<quark:dark_oak_trapdoor>]);
 
+//#Fix the use of clocks and compasses in the induction smelter
+mods.thermalexpansion.InductionSmelter.addRecipe(<minecraft:gold_ingot>*4, <minecraft:sand>, <minecraft:clock>.withTag({"quark:clock_calculated": 1 as byte}), 4000, <thermalfoundation:material:865>, 20);
+mods.thermalexpansion.InductionSmelter.addRecipe(<minecraft:iron_ingot>*4, <minecraft:sand>, <minecraft:compass>.withTag({"quark:compass_calculated": 1 as byte, "quark:compass_in_nether": 0 as byte}), 4000, <thermalfoundation:material:865>, 20);
+mods.thermalexpansion.InductionSmelter.addRecipe(<minecraft:iron_ingot>*4, <minecraft:sand>, <minecraft:compass>.withTag({"quark:compass_calculated": 1 as byte, "quark:compass_in_nether": 1 as byte}), 4000, <thermalfoundation:material:865>, 20);
+
 print("--- ConflictFix.zs initialized ---");	
