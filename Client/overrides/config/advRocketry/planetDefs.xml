@@ -1,5 +1,5 @@
 <galaxy>
-    <star name="§dPrimordial Planes" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+    <star name="§dPrimordial Planes" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0" blackHole="true">
 		<planet name="§a§lEarth" DIMID="0" dimMapping="" customIcon="EarthLike">
 			<orbitalDistance>100</orbitalDistance>
 			<planet name="§6§lThe Moon" DIMID="1000" customIcon="moon">
