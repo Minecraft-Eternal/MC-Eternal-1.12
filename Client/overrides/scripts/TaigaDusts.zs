@@ -1,26 +1,9 @@
-import mods.enderio.SagMill;
 import mods.immersiveengineering.Crusher;
 import mods.mekanism.enrichment;
 import mods.mekanism.crusher;
 #MC Eternal Scripts
 
 print("--- loading TaigaDusts.zs ---");
-
-#Adding TAIGA Dusts to Ender IO
-mods.enderio.SagMill.addRecipe([<taiga:tiberium_ore>], [100], <taiga:tiberium_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:aurorium_ore>], [100], <taiga:aurorium_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:jauxum_ore>], [100], <taiga:jauxum_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:ovium_ore>], [100], <taiga:ovium_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:karmesine_ore>], [100], <taiga:karmesine_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:vibranium_ore>], [100], <taiga:vibranium_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:valyrium_ore>], [100], <taiga:valyrium_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:duranite_ore>], [100], <taiga:duranite_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:prometheum_ore>], [100], <taiga:prometheum_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:eezo_ore>], [100], <taiga:eezo_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:abyssum_ore>], [100], <taiga:abyssum_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:osram_ore>], [100], <taiga:osram_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:uru_ore>], [100], <taiga:uru_dust> *2);
-mods.enderio.SagMill.addRecipe([<taiga:palladium_ore>], [100], <taiga:palladium_dust> *2);
 
 #Adding TAIGA Dusts to Immersive Engineering
 mods.immersiveengineering.Crusher.addRecipe(<taiga:tiberium_dust>*2, <taiga:tiberium_ore>, 3048);
