@@ -1,6 +1,6 @@
 {
-	x: -2.0d,
-	y: -5.5d,
+	x: 0.0d,
+	y: -10.5d,
 	description: "&oI'll be seeing you again real soon",
 	text: [
 		"&6&lGETTING TO THE MOON FOR DUMMIES&r &o(Incase you ignored all the quest text earlier)",
@@ -13,9 +13,8 @@
 		"7. Hit 'Spacebar' to BLAST OFF!!"
 	],
 	dependencies: [
-		"57a0e1f7"
+		"091e6c54"
 	],
-	size: 0.8d,
 	tasks: [{
 		uid: "4c5e4add",
 		type: "checkmark",
@@ -35,7 +34,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§dExterrestrial Cache"
+					Name: "�dExterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}

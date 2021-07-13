@@ -1,0 +1,73 @@
+{
+	title: "Electrolyser",
+	icon: "advancedrocketry:electrolyser",
+	x: -1.5d,
+	y: -3.0d,
+	description: "Splits Water into Hydrogen and Oxygen, required to produce Rocket Fuel and fill your Airtight armor with Oxygen.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d5dbf68e"
+	],
+	tasks: [{
+		uid: "0ac3f1ea",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:electrolyser"
+		}]
+	},
+	{
+		uid: "8975b18a",
+		type: "item",
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 2L
+	},
+	{
+		uid: "161d3a38",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockCoil"
+				}
+			}
+		}]
+	},
+	{
+		uid: "b19559ec",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch 1 2"
+		}]
+	},
+	{
+		uid: "e5e87048",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch 1 3"
+		}],
+		count: 2L,
+		consume_items: false
+	},
+	{
+		uid: "f81cd3c5",
+		type: "item",
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "474a04a1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

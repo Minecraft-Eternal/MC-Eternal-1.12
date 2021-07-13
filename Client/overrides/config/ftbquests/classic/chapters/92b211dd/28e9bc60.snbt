@@ -1,0 +1,38 @@
+{
+	title: "Oxygenation Station",
+	icon: "advancedrocketry:oxygenvent",
+	x: 1.0d,
+	y: -5.5d,
+	description: "An Oxygen Vent can be used to make a closed room Space breathable without the need for Oxygen from Airtight armor. CO2 Scrubbers can allow it to not consume 50% of Oxygen each, up to 100%!",
+	dependencies: [
+		"40210c1c"
+	],
+	tasks: [{
+		uid: "e516f3ff",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygenvent"
+		}]
+	},
+	{
+		uid: "734074c8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygenscrubber"
+		}],
+		count: 2L
+	},
+	{
+		uid: "86d0dce8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:carbonscrubbercartridge"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "4df60329",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

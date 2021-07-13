@@ -1,0 +1,96 @@
+{
+	icon: "advancedrocketry:rollingmachine",
+	x: -2.0d,
+	y: -1.5d,
+	description: "Makes Plates, Sheets, and Pressure Tanks.",
+	dependencies: [
+		"d5dbf68e"
+	],
+	tasks: [{
+		uid: "64e1a6f9",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rollingmachine"
+		}]
+	},
+	{
+		uid: "95c801a7",
+		type: "item",
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 6L
+	},
+	{
+		uid: "5f8b88ec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockCoil"
+				}
+			}
+		}],
+		count: 2L
+	},
+	{
+		uid: "5df9d672",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockMotor"
+				}
+			}
+		}]
+	},
+	{
+		uid: "9329d8fa",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch"
+		}],
+		count: 2L
+	},
+	{
+		uid: "2ae837a8",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "11fd2dc0",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch 1 2"
+		}]
+	},
+	{
+		uid: "7f3477aa",
+		type: "item",
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		}]
+	}],
+	rewards: [{
+		uid: "ee731286",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

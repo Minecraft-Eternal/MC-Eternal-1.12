@@ -1,0 +1,50 @@
+{
+	icon: "advancedrocketry:rocketbuilder",
+	x: 0.0d,
+	y: -4.0d,
+	description: "Assembles structures on Launch Pads into usable Rockets. *Read description for more info*",
+	text: [
+		"Place the Launch Pads flat on the ground, and then place a Structure Tower at the edge of the Pad and build it upwards.",
+		"",
+		"Rocket Assembling Machine is placed at the edge, similarly to the first Structure Tower, but one block up.",
+		"",
+		"Any blocks that go past the height of the Structure Tower will not be registered as part of the Rocket.",
+		"",
+		"Also, you can use a lot more Launch Pads and Structure Towers than what this quest wants."
+	],
+	dependencies: [
+		"c2a800d8",
+		"0374614c",
+		"604d9e61",
+		"3f406a26",
+		"1781981e"
+	],
+	tasks: [{
+		uid: "2315706c",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	},
+	{
+		uid: "d616d311",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:launchpad"
+		}],
+		count: 9L
+	},
+	{
+		uid: "6c1921e6",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a0acbf55",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

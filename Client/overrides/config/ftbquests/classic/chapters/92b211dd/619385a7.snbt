@@ -1,0 +1,49 @@
+{
+	title: "Bare Minimum Rocket",
+	x: -1.5d,
+	y: -4.5d,
+	description: "Everything you need to build the absolute cheapest rocket possible.",
+	dependencies: [
+		"d78bfda8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "28fcebfc",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:guidancecomputer"
+		}]
+	},
+	{
+		uid: "5ecab1e6",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:seat"
+		}]
+	},
+	{
+		uid: "7801d662",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}],
+		count: 6L
+	},
+	{
+		uid: "0ceb26ed",
+		type: "item",
+		title: "Rocket Engine",
+		items: [{
+			item: "advancedrocketry:rocketmotor"
+		},
+		{
+			item: "advancedrocketry:advrocketmotor"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "6090a85a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

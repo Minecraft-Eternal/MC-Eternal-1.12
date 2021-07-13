@@ -1,0 +1,46 @@
+{
+	title: "Spacing out for a Station",
+	icon: "advancedrocketry:stationbuilder",
+	x: 1.5d,
+	y: -4.5d,
+	description: "Everything you need to §obuild§r §7a Space Station. *Read description for more info*",
+	text: [
+		"Space Station Assembler functions similarly to the Rocket Assembling Machine.",
+		"",
+		"In order to start a Space Station, you need to pack up a base to start from into a Space Station Container. Blocks ontop of an adjacent Launch Pad will be packed into the Container when you press the Build button inside it.",
+		"",
+		"To deploy a Space Station, insert the Space Station Container into a Satellite Bay on your Rocket and launch the Rocket, it is suggested to insert the Space Station ID Chip for that station aswell and launch with it, with no Chip, the Rocket is lost.",
+		"",
+		"If you plan on making a Space Station, pack up your Space Station into a Container before putting your Rocket on the launch pad."
+	],
+	dependencies: [
+		"d78bfda8"
+	],
+	tasks: [{
+		uid: "3fd8307b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:stationbuilder"
+		}]
+	},
+	{
+		uid: "0c94c724",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:loader 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "9876070f",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spacestationchip"
+		}]
+	}],
+	rewards: [{
+		uid: "eb3178f7",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

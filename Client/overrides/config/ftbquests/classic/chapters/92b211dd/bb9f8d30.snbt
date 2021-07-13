@@ -1,0 +1,27 @@
+{
+	title: "Fueling your Rocket up",
+	x: 0.5d,
+	y: -7.5d,
+	description: "Right-click on a Rocket with a container that has Rocket Fuel to dump all the Fuel in the container into it, any Rocket Fuel in the container that cannot fit in the Rocket is lost!",
+	dependencies: [
+		"d78bfda8"
+	],
+	tasks: [{
+		uid: "f53c6742",
+		type: "item",
+		items: [{
+			id: "advancedrocketry:bucketrocketfuel",
+			tag: {
+				Fluid: {
+					FluidName: "rocketfuel",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "66352cca",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

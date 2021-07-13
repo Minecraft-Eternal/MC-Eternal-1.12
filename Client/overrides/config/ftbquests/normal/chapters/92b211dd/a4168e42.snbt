@@ -1,0 +1,34 @@
+{
+	title: "Sealing your Armor",
+	x: -1.5d,
+	y: -6.5d,
+	description: "To Airtight Seal your armor, stick it into the Chemical Reactor with a Diamond. Chestplate pieces also require a Super High Pressure Tank.",
+	dependencies: [
+		"d78bfda8"
+	],
+	tasks: [{
+		uid: "958fe9fb",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 4L
+	},
+	{
+		uid: "60df7c9f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:pressuretank",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "722e527e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}
