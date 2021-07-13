@@ -8,8 +8,16 @@
 		"§2Fission Tutorial: §9https://www.youtube.com/watch?v=IIZur0OrqGY&t§r",
 		"§3Fusion Tutorial: §9https://www.youtube.com/watch?v=B9ctB28I3qI§r"
 	],
+	can_repeat: true,
+	optional: true,
 	tasks: [{
 		uid: "8c6258ee",
 		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8b97dfd0",
+		type: "command",
+		title: "§3§lClaim me for a link to the Nuclearcraft Youtube Channel!",
+		command: "/tellraw @p {\"text\": \"§9§lClick here to be directed to the Nuclearcraft Youtube Channel!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/c/NuclearCraftMod/featured\"}}"
 	}]
 }
