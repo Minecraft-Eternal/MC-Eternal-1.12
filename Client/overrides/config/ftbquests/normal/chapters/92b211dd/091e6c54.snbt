@@ -1,0 +1,24 @@
+{
+	title: "Blastoff!",
+	x: 0.0d,
+	y: -9.0d,
+	description: "Press SPACE while on your Rocket to start the Launch sequence, if you get stuck floating a void, log out and log back in. It's advised to have a way other than Rocket to get from Planet to Planet.",
+	dependencies: [
+		"74150491",
+		"bb9f8d30"
+	],
+	tasks: [{
+		uid: "00e56e63",
+		type: "observation",
+		title: "Look at a Rocket",
+		icon: "mysticalagriculture:fire_essence",
+		match_type: "entity_id",
+		match: "advancedrocketry:rocket",
+		timer: 40L
+	}],
+	rewards: [{
+		uid: "65de8ab3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

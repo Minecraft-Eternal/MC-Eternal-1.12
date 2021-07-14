@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	description: "Sneak+Right-click to open GUI, hold Left-click and move cursor upwards to scroll Down for more machines, Right-click when desired machine is selected to place projection.",
+	dependencies: [
+		"7a35fec9",
+		"0479a7a1"
+	],
+	tasks: [{
+		uid: "d35da0f4",
+		type: "item",
+		items: [{
+			item: "libvulpes:holoprojector"
+		}]
+	}],
+	rewards: [{
+		uid: "ff6944a7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}
