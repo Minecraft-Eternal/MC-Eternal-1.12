@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+<!-- Fix Flight Control Unit from Simply Jetpacks -->
+<recipe name="Flight Control Unit fix" required="false">
+	<soulbinding energy="75000" levels="8">
+		<input name="item:simplyjetpacks:metaitemmods:5"/>
+		<soul name="minecraft:bat"/>
+		<output name="item:simplyjetpacks:metaitemmods:6"/>
+	</soulbinding>
+</recipe>
+
+</enderio:recipes>
