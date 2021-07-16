@@ -5,7 +5,6 @@ import crafttweaker.item.IIngredient;
 print("--- loading ConflictFix.zs ---");
 
 #Remove multishot
-mods.enderio.Enchanter.removeRecipe(<enchantment:cofhcore:multishot>);
 mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>, <minecraft:arrow>);
 
 
