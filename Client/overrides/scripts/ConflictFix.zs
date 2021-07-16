@@ -1,4 +1,3 @@
-import mods.enderio.SoulBinder;
 import crafttweaker.item.IIngredient;
 #MC Eternal Scripts
 
