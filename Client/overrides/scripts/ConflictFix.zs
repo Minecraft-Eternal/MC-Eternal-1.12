@@ -1,11 +1,9 @@
-import mods.enderio.SoulBinder;
 import crafttweaker.item.IIngredient;
 #MC Eternal Scripts
 
 print("--- loading ConflictFix.zs ---");
 
 #Remove multishot
-mods.enderio.Enchanter.removeRecipe(<enchantment:cofhcore:multishot>);
 mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>, <minecraft:arrow>);
 
 
