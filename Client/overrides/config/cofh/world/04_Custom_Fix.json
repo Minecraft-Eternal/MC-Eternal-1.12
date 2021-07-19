@@ -109,11 +109,11 @@
 					}
 				],
 				"material": "minecraft:netherrack",
-				"cluster-size": 8
+				"cluster-size": 4
 			},
 			"cluster-count": 1,
-			"min-height": 16,
-			"max-height": 128,
+			"min-height": 8,
+			"max-height": 119,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
