@@ -1,0 +1,20 @@
+{
+	x: 28.5d,
+	y: 7.0d,
+	description: "Stores Aura to be channeled by various Tools.",
+	dependencies: [
+		"b12539ba"
+	],
+	tasks: [{
+		uid: "7c117937",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_cache",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

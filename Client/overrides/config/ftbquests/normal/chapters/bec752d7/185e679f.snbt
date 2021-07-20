@@ -1,0 +1,16 @@
+{
+	title: "Tokens of Greater Emotion",
+	x: 29.0d,
+	y: 1.5d,
+	description: "Important crafting ingredients for more powerful devices.",
+	dependencies: [
+		"484f7836"
+	],
+	tasks: [{
+		uid: "5523f171",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_euphoria"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 26.5d,
+	y: 2.0d,
+	description: "Displays larger amounts of Aura, and displays effects being induced by extreme Aura or lack of Aura.",
+	dependencies: [
+		"cf40c7b4",
+		"4a1cbb3d"
+	],
+	tasks: [{
+		uid: "7c7de2b3",
+		type: "item",
+		items: [{
+			id: "naturesaura:eye_improved",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

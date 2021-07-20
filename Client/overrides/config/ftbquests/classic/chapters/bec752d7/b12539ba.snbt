@@ -1,0 +1,51 @@
+{
+	icon: "naturesaura:nature_altar",
+	x: 25.5d,
+	y: 6.0d,
+	description: "Infuses Items placed on it with Aura",
+	text: [
+		"Refer to the Book of Natural Aura for Building instructions."
+	],
+	dependencies: [
+		"a074c6bd"
+	],
+	tasks: [{
+		uid: "c68372c7",
+		type: "item",
+		items: [{
+			item: "naturesaura:nature_altar"
+		}]
+	},
+	{
+		uid: "86711ac9",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_brick"
+		}],
+		count: 4L
+	},
+	{
+		uid: "9bb73fd8",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick 1 3"
+		}],
+		count: 4L
+	},
+	{
+		uid: "5926f66b",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick"
+		}],
+		count: 20L
+	},
+	{
+		uid: "af4e2433",
+		type: "item",
+		items: [{
+			item: "minecraft:planks"
+		}],
+		count: 20L
+	}]
+}

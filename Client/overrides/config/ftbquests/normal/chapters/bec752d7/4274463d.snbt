@@ -1,0 +1,18 @@
+{
+	x: 26.0d,
+	y: 8.0d,
+	description: "Starter Aura Generation, there's so much more than this!",
+	text: [
+		"Ancient Trees will passively generate Aura, but are incredibly slow, and will decay over time, ideally you want to set up automated Aura generation from some other Aura generator."
+	],
+	dependencies: [
+		"a074c6bd"
+	],
+	tasks: [{
+		uid: "2e8c6e0c",
+		type: "item",
+		items: [{
+			item: "naturesaura:ancient_sapling"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 24.5d,
+	y: 3.0d,
+	shape: "circle",
+	description: "Displays the local Aura level as a HUD element",
+	dependencies: [
+		"a074c6bd"
+	],
+	tasks: [{
+		uid: "f0135e30",
+		type: "item",
+		items: [{
+			id: "naturesaura:eye",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 21.0d,
+	y: 10.5d,
+	description: "Reading the Book is important! Refer to this guide for what various items in the mod do, and how to do things!",
+	tasks: [{
+		uid: "4fa4ab58",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "naturesaura:book"
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

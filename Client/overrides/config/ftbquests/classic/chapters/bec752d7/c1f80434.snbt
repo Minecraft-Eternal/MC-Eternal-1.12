@@ -1,0 +1,15 @@
+{
+	x: 23.0d,
+	y: 8.5d,
+	description: "''Botania by Ellpeck''",
+	dependencies: [
+		"009f8f45"
+	],
+	tasks: [{
+		uid: "9dd289f3",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_leaf"
+		}]
+	}]
+}

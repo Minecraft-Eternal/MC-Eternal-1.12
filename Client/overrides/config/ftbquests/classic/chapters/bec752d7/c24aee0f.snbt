@@ -1,0 +1,14 @@
+{
+	title: "Blossoming with Potential!",
+	x: 30.5d,
+	y: 1.0d,
+	description: "This was just a quick rundown of Nature's Aura, there's so much more you can do with it! Check out the Book of Natural Aura for everything!",
+	dependencies: [
+		"cf40c7b4",
+		"185e679f"
+	],
+	tasks: [{
+		uid: "3b18e494",
+		type: "checkmark"
+	}]
+}
