@@ -1,0 +1,25 @@
+{
+	title: "Ritual of the Forest",
+	x: 24.0d,
+	y: 7.5d,
+	description: "What you need to perform the Ritual of the Forest. Refer too the Book of Natural Aura for more info!",
+	dependencies: [
+		"c1f80434"
+	],
+	tasks: [{
+		uid: "c9392ee8",
+		type: "item",
+		items: [{
+			item: "naturesaura:wood_stand"
+		}],
+		count: 8L
+	},
+	{
+		uid: "4ac9e180",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_powder"
+		}],
+		count: 16L
+	}]
+}

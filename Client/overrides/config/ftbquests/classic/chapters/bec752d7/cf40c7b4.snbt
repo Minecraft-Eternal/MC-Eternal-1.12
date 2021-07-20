@@ -1,0 +1,15 @@
+{
+	x: 30.0d,
+	y: 2.5d,
+	description: "A Metal forged by the Gods, which has similar properties to Infused Iron, but more powerful.",
+	dependencies: [
+		"484f7836"
+	],
+	tasks: [{
+		uid: "3ab90a39",
+		type: "item",
+		items: [{
+			item: "naturesaura:sky_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 22.0d,
+	y: 9.5d,
+	description: "Apply to Leaves and wait",
+	dependencies: [
+		"13287cac"
+	],
+	tasks: [{
+		uid: "35cc1ef3",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_fiber"
+		}]
+	}]
+}

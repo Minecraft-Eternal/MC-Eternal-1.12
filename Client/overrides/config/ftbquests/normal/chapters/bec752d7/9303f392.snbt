@@ -1,0 +1,16 @@
+{
+	x: 23.5d,
+	y: 4.0d,
+	description: "Allows the Natural Altar to crumble some items into others with Aura.",
+	dependencies: [
+		"07a0f7e3",
+		"b12539ba"
+	],
+	tasks: [{
+		uid: "f2d3ad51",
+		type: "item",
+		items: [{
+			item: "naturesaura:crushing_catalyst"
+		}]
+	}]
+}

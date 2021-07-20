@@ -1,0 +1,37 @@
+{
+	title: "Tokens of Emotion",
+	x: 23.5d,
+	y: 5.5d,
+	description: "Important crafting ingredients for various devices.",
+	dependencies: [
+		"a074c6bd"
+	],
+	tasks: [{
+		uid: "07a0f7e3",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_joy"
+		}]
+	},
+	{
+		uid: "b5abebcc",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_fear"
+		}]
+	},
+	{
+		uid: "a65096c4",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_anger"
+		}]
+	},
+	{
+		uid: "ff10cccd",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_sorrow"
+		}]
+	}]
+}

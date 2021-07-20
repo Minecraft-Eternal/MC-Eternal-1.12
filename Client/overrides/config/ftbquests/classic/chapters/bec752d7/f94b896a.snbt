@@ -1,0 +1,15 @@
+{
+	x: 26.5d,
+	y: 5.0d,
+	description: "A Metal that can harness the Aura to reshape itself to pristine condition.",
+	dependencies: [
+		"b12539ba"
+	],
+	tasks: [{
+		uid: "220e74a5",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_iron"
+		}]
+	}]
+}

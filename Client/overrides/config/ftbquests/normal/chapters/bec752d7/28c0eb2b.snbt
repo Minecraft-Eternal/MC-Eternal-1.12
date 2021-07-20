@@ -1,0 +1,21 @@
+{
+	x: 29.5d,
+	y: 5.0d,
+	description: "Stores much more Aura than an Aura Cache.",
+	dependencies: [
+		"cf40c7b4",
+		"6bdef9f0"
+	],
+	tasks: [{
+		uid: "d4199992",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_trove",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
