@@ -28,7 +28,7 @@ events.onEntityLivingEquipmentChange(function(event as crafttweaker.event.Entity
 		var listenchants as IEnchantment[] = event.newItem.enchantments as IEnchantment[];
 		var delete = false;
 		for enchts in listenchants {
-			if(enchts.level > 35){
+			if(enchts.level > 36){
 				delete = true;
 				break;
 			}
