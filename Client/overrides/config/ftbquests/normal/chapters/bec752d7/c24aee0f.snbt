@@ -10,5 +10,20 @@
 	tasks: [{
 		uid: "3b18e494",
 		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "67704bfe",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "97d67990",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
 	}]
 }

@@ -11,5 +11,10 @@
 		items: [{
 			item: "naturesaura:sky_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "c8a364b3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
 	}]
 }

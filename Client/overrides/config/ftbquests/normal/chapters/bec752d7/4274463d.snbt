@@ -14,5 +14,10 @@
 		items: [{
 			item: "naturesaura:ancient_sapling"
 		}]
+	}],
+	rewards: [{
+		uid: "8de150dd",
+		type: "ftbmoney:money",
+		ftb_money: 75L
 	}]
 }

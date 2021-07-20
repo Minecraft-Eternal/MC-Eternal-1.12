@@ -47,5 +47,15 @@
 			item: "minecraft:planks"
 		}],
 		count: 20L
+	}],
+	rewards: [{
+		uid: "10db3471",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ee292b3e",
+		type: "random",
+		table: 1
 	}]
 }

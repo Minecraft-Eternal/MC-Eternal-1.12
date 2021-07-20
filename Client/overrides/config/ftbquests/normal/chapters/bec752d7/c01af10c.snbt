@@ -11,5 +11,10 @@
 		items: [{
 			item: "naturesaura:conversion_catalyst"
 		}]
+	}],
+	rewards: [{
+		uid: "6e385884",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

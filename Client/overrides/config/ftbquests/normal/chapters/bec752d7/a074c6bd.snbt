@@ -21,5 +21,15 @@
 			item: "naturesaura:gold_powder"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "6cb95713",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "7c448710",
+		type: "random",
+		table: 1
 	}]
 }

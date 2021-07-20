@@ -12,5 +12,15 @@
 		items: [{
 			item: "naturesaura:offering_table"
 		}]
+	}],
+	rewards: [{
+		uid: "2e4bc161",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "87a1ae40",
+		type: "random",
+		table: 1
 	}]
 }

@@ -11,5 +11,10 @@
 		items: [{
 			item: "naturesaura:gold_leaf"
 		}]
+	}],
+	rewards: [{
+		uid: "b465efc9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }

@@ -33,5 +33,10 @@
 		items: [{
 			item: "naturesaura:token_sorrow"
 		}]
+	}],
+	rewards: [{
+		uid: "cff77fe6",
+		type: "ftbmoney:money",
+		ftb_money: 150L
 	}]
 }

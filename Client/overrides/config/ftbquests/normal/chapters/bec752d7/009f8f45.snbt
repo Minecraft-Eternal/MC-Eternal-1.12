@@ -11,5 +11,10 @@
 		items: [{
 			item: "naturesaura:gold_fiber"
 		}]
+	}],
+	rewards: [{
+		uid: "538d27af",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

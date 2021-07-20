@@ -12,5 +12,10 @@
 		items: [{
 			item: "naturesaura:crushing_catalyst"
 		}]
+	}],
+	rewards: [{
+		uid: "ef4e4b03",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }
