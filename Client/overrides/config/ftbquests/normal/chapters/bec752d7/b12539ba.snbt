@@ -22,7 +22,7 @@
 		items: [{
 			item: "naturesaura:gold_brick"
 		}],
-		count: 4L
+		count: 8L
 	},
 	{
 		uid: "9bb73fd8",
@@ -38,7 +38,7 @@
 		items: [{
 			item: "minecraft:stonebrick"
 		}],
-		count: 20L
+		count: 16L
 	},
 	{
 		uid: "af4e2433",
