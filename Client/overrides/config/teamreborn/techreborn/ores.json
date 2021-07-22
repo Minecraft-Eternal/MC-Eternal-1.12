@@ -49,10 +49,10 @@
       "blockNiceName": "Bauxite",
       "meta": 4,
       "veinSize": 6,
-      "veinsPerChunk": 10,
+      "veinsPerChunk": 3,
       "minYHeight": 10,
       "maxYHeight": 60,
-      "shouldSpawn": false
+      "shouldSpawn": true
     },
     {
       "blockName": "tile.techreborn.ore",
