@@ -72,43 +72,43 @@
 	"mob": "atum:warlord",
 	"customname": "",
 	"healthmultiply": 50,
-	"damagemultiply": 30,
+	"damagemultiply": 30
   },
   {
 	"mob": "atum:barbarian",
 	"customname": "",
 	"healthmultiply": 40,
-	"damagemultiply": 35,
+	"damagemultiply": 35
   },
   {
 	"mob": "atum:brigand",
 	"customname": "",
 	"healthmultiply": 30,
-	"damagemultiply": 25,
+	"damagemultiply": 25
   },
   {
 	"mob": "atum:nomad",
 	"customname": "",
 	"healthmultiply": 25,
-	"damagemultiply": 30,
+	"damagemultiply": 30
   },
   {
 	"mob": "atum:bonestorm",
 	"customname": "",
 	"healthmultiply": 25,
-	"damagemultiply": 30,
+	"damagemultiply": 30
   },
   {
 	"mob": "atum:forsaken",
 	"customname": "",
 	"healthmultiply": 30,
-	"damagemultiply": 30,
+	"damagemultiply": 30
   },
   {
 	"mob": "atum:mummy",
 	"customname": "",
 	"healthmultiply": 45,
-	"damagemultiply": 20,
+	"damagemultiply": 20
   },
   {
 	"mob": "atum:wraith",
@@ -121,19 +121,19 @@
 	"mob": "atum:stoneguard",
 	"customname": "",
 	"healthmultiply": 40,
-	"damagemultiply": 40,
+	"damagemultiply": 40
   },
   {
 	"mob": "atum:stonewarden",
 	"customname": "",
 	"healthmultiply": 40,
-	"damagemultiply": 40,
+	"damagemultiply": 40
   },
   {
 	"mob": "atum:tarantula",
 	"customname": "",
 	"healthmultiply": 30,
-	"damagemultiply": 20,
+	"damagemultiply": 20
   },
   {
 	"mob": "atum:scarab",

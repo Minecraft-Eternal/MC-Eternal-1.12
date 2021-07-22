@@ -10,4 +10,10 @@
 	</soulbinding>
 </recipe>
 
+<recipe name="Enchanter: cofhcore:multishot" required="false" disabled="true">
+	<enchanting>
+		<input name="SKELETAL_CONTRACTOR" amount="1"/>
+		<enchantment name="cofhcore:multishot" costMultiplier="1"/>
+	</enchanting>
+</recipe>
 </enderio:recipes>
