@@ -1,6 +1,6 @@
 name: Suggestion
 description: For changes to configs, mod additions, etc.
-title: "[SUGGESTION] *Replace with brief description of suggestion8"
+title: "[SUGGESTION] *Replace with brief description of suggestion*"
 labels: "[enhancement]"
 body:
   - type: markdown
