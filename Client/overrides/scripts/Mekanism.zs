@@ -15,4 +15,7 @@ recipes.addShaped(<mekanism:machineblock:4>, [[<ore:alloyUltimate>, <mekanism:co
 recipes.addShaped(<mekanismgenerators:reactor>, [[<mekanism:controlcircuit:3>, <thaumicaugmentation:starfield_glass:2>, <mekanism:controlcircuit:3>], [<ore:blockNetherite>, <advancedrocketry:chemicalreactor>.giveBack(<advancedrocketry:chemicalreactor>), <futuremc:netherite_block>], [<ore:blockNetherite>, <ore:blockAurorianSteel>, <ore:blockNetherite>]]);
 recipes.addShaped(<mekanismgenerators:generator:3>, [[<mekanism:clump:2>, <mekanism:atomicalloy>, <mekanism:clump:2>], [<futuremc:netherite_block>, <mekanism:electrolyticcore>, <futuremc:netherite_block>], [<mekanism:clump:2>, <mekanism:atomicalloy>, <mekanism:clump:2>]]);
 
+#Info
+<mekanismgenerators:reactor>.addTooltip(format.gold("Only requires one Chemical Reactor for recipe"));
+
 print("--- Mekanism.zs initialized ---");	
