@@ -38,11 +38,11 @@ events.onEntityLivingEquipmentChange(function(event as crafttweaker.event.Entity
 				val user as IPlayer = event.entityLivingBase;
 				if (!event.entityLivingBase.world.isRemote()) {
 					event.entityLivingBase.setItemToSlot(event.slot, null);
-					event.player.sendChat("The item is no more");
+					user.sendChat("The item is no more");
 				}
 				if (event.entityLivingBase.world.isRemote()) {
 					event.entityLivingBase.setItemToSlot(event.slot, null);
-					event.player.sendChat("The item is no more");
+					user.sendChat("The item is no more");
 				}
 				
 			}				
