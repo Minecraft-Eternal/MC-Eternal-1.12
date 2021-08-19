@@ -12,7 +12,7 @@
 		items: [{
 			item: "techreborn:plates 1 38"
 		}],
-		count: 16L
+		count: 4L
 	}],
 	rewards: [{
 		uid: "982890c9",
