@@ -2,6 +2,7 @@
 	title: "§6Infinity Drill [Legendary]",
 	x: -3.5d,
 	y: -7.0d,
+	description: "To complete the quest change the drill mode to Legendary with Shift+Right Click.",
 	dependencies: [
 		"b6d54587"
 	],
