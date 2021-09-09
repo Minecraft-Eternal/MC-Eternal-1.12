@@ -19,11 +19,11 @@
         </planet>
 		<planet name="§c§lErebus" DIMID="66" customIcon="IceWorld">
             <skyColor>0,0,0</skyColor>
-			<atmosphereDensity>150</atmosphereDensity>
+			<atmosphereDensity>180</atmosphereDensity>
 			<gravitationalMultiplier>38</gravitationalMultiplier>
-			<orbitalDistance>130</orbitalDistance>
+			<orbitalDistance>70</orbitalDistance>
 			<isKnown>True</isKnown>
-			<rotationalPeriod>1400000</rotationalPeriod>
+			<rotationalPeriod>900000</rotationalPeriod>
         </planet>
 		<planet name="§b§lAurorian" DIMID="424" customIcon="GasGiantBlue">
             <skyColor>0,0,0</skyColor>
