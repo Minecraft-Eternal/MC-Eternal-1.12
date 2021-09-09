@@ -17,7 +17,8 @@
 			},
 			Damage: 1s
 		}],
-		count: 2L
+		count: 2L,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "d27163c3",

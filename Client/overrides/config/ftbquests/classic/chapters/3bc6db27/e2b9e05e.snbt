@@ -23,7 +23,8 @@
 					0b
 				]
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "88fe69e1",
