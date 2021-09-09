@@ -1,25 +1,24 @@
 {
-	x: 15.5d,
-	y: 2.5d,
+	x: 17.5d,
+	y: -1.5d,
+	description: "One of the first two Generating Flower options. *Read the Lexica Botania for more Info, including how to operate*",
 	dependencies: [
-		"2d45e4da"
+		"8cf046cd"
 	],
 	tasks: [{
 		uid: "9b50c056",
 		type: "item",
 		items: [{
-			item: "botania:manaresource"
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
 		}],
-		count: 6L
+		count: 2L
 	}],
 	rewards: [{
 		uid: "b6fd2311",
 		type: "ftbmoney:money",
 		ftb_money: 75L
-	},
-	{
-		uid: "f991736a",
-		type: "loot",
-		table: 1
 	}]
 }

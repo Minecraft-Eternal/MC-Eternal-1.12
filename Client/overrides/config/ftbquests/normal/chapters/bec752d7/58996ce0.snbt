@@ -1,18 +1,18 @@
 {
-	x: 17.0d,
-	y: 4.0d,
+	x: 13.5d,
+	y: 0.0d,
 	dependencies: [
-		"2d45e4da"
+		"4f27e276"
 	],
 	tasks: [{
-		uid: "d8259b95",
+		uid: "c50070dd",
 		type: "item",
 		items: [{
-			item: "botania:rune 1 1"
+			item: "botania:livingwood"
 		}]
 	}],
 	rewards: [{
-		uid: "c5925b4c",
+		uid: "a9d11b53",
 		type: "ftbmoney:money",
 		ftb_money: 75L
 	}]

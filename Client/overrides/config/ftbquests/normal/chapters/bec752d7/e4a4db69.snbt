@@ -1,0 +1,34 @@
+{
+	title: "Ritual of Gaia",
+	x: 15.0d,
+	y: -9.5d,
+	description: "Activate the Beacon and assemble these items into a ritual to summon the Guardian of Gaia, a powerful foe. *Read the Lexica Botania for more Info*",
+	dependencies: [
+		"8d59e084"
+	],
+	tasks: [{
+		uid: "ef4474d7",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	},
+	{
+		uid: "7ec61c00",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 2"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "51db39c6",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "2de7c935",
+		type: "loot",
+		table: 1
+	}]
+}

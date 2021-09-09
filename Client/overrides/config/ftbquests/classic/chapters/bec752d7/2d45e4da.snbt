@@ -1,8 +1,9 @@
 {
-	x: 16.5d,
-	y: 3.0d,
+	x: 15.0d,
+	y: -3.0d,
+	description: "Used to craft various Runes, essential to create all sorts of Botania items! *Read the Lexica Botania for more Info, including how to operate*",
 	dependencies: [
-		"09694683"
+		"c50984b7"
 	],
 	tasks: [{
 		uid: "e7f40da9",

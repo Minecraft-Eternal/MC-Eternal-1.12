@@ -1,0 +1,43 @@
+{
+	title: "&6Terra Shatterer - SS Rank",
+	x: 15.0d,
+	y: -14.0d,
+	shape: "gear",
+	description: "Shatter the Earth, To the Core! *Takes 1000 Mana Pools, good luck*",
+	text: [
+		"If you're feeling spicy, try doing full Automation of all Generating Flowers with just Botania and Vanilla mechanics and blocks.",
+		"It can be done, it's just hard, very hard."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8c30c315",
+		"7de776bd"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "55fd446c",
+		type: "advancement",
+		advancement: "botania:challenge/rank_ss_pick",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "21e83a06",
+		type: "ftbmoney:money",
+		ftb_money: 1000000L
+	},
+	{
+		uid: "a66a7b5b",
+		type: "item",
+		item: {
+			id: "botania:manatablet",
+			tag: {
+				mana: 500000,
+				creative: 1b
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	}]
+}

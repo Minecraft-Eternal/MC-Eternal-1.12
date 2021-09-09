@@ -1,8 +1,9 @@
 {
-	x: 18.0d,
-	y: 5.0d,
+	x: 16.5d,
+	y: -6.0d,
+	description: "Mana to Crops! *Read the Lexica Botania for more Info*",
 	dependencies: [
-		"7b06de0e"
+		"e28ecb15"
 	],
 	tasks: [{
 		uid: "9f80be2f",

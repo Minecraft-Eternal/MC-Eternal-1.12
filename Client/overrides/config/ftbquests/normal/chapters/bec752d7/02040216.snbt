@@ -1,0 +1,25 @@
+{
+	x: 18.5d,
+	y: -4.5d,
+	description: "Mana = Dirt!",
+	dependencies: [
+		"10a2bedf"
+	],
+	tasks: [{
+		uid: "922ea081",
+		type: "item",
+		items: [{
+			id: "botania:dirtrod",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8ca3d809",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

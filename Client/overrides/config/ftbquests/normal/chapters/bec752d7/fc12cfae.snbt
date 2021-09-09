@@ -1,0 +1,28 @@
+{
+	x: 17.5d,
+	y: -5.5d,
+	description: "Mana from Munchies! *Read the Lexica Botania for more Info*",
+	dependencies: [
+		"c9593cc2"
+	],
+	tasks: [{
+		uid: "1eaf57ec",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "gourmaryllis"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "db0d3eeb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "dc1e7452",
+		type: "loot",
+		table: 1
+	}]
+}
