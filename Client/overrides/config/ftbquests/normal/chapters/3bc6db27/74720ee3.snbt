@@ -1,0 +1,13 @@
+{
+	x: -17.5d,
+	y: 1.5d,
+	dependencies: [
+		"8d697709"
+	],
+	tasks: [{
+		uid: "6d2a7f7f",
+		type: "advancement",
+		advancement: "fossil:fossil/fossil_seed",
+		criterion: ""
+	}]
+}
