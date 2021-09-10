@@ -4,7 +4,7 @@
 	y: -6.0d,
 	description: "&oFind and slay the King and his knights",
 	dependencies: [
-		"d22a6b71"
+		"92ca1bd3"
 	],
 	size: 0.9d,
 	optional: true,

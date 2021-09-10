@@ -1,0 +1,22 @@
+{
+	title: "Meet the Traveler",
+	x: -11.0d,
+	y: -5.5d,
+	description: "The Traveler can be summoned by lighting a &9Block of Coal&r &7on &cfire§r&7, they sell maps to various Bosses from Dungeons Mod.",
+	dependencies: [
+		"d22a6b71"
+	],
+	tasks: [{
+		uid: "4cba2945",
+		type: "advancement",
+		title: "Trade Sugar to the Traveler",
+		icon: "dungeonsmod:back_pergamine",
+		advancement: "dungeonsmod:dungeons/root",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "e3d1dc6b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}
