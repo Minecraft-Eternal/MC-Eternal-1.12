@@ -1712,10 +1712,6 @@
 		weight: 2
 	},
 	{
-		item: "cyclicmagic:beacon_potion",
-		weight: 2
-	},
-	{
 		item: {
 			id: "minecraft:red_flower",
 			tag: {
