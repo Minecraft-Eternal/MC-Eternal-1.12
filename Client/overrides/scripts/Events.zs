@@ -33,7 +33,7 @@ events.onEntityLivingEquipmentChange(function(event as crafttweaker.event.Entity
 				break;
 			}
 		}
-		if(delete){
+		if(delete || event.newItem.definition.id == "inventorypets:solstice_sword"){
 			if (event.entityLivingBase instanceof IPlayer) {
 				val user as IPlayer = event.entityLivingBase;
 				if (!event.entityLivingBase.world.isRemote()) {
