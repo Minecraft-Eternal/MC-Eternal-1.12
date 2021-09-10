@@ -64,15 +64,16 @@
 				}],
 				display: {
 					Lore: [
-						"�eBlessed by the Rat King himself",
-						"�eI wouldn't suggest eating this.."
+						"§eBlessed by the Rat King himself",
+						"§eI wouldn't suggest eating this.."
 					],
-					Name: "�lThe �6�lHoly Cheese"
+					Name: "§lThe §6§lHoly Cheese"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
 					UUIDLeast: 199651500,
 					Amount: 62,
+					Slot: "mainhand",
 					AttributeName: "generic.attackSpeed",
 					Operation: 0,
 					Name: "generic.attackSpeed"
@@ -81,6 +82,7 @@
 					UUIDMost: 99,
 					UUIDLeast: 199651600,
 					Amount: 0.9d,
+					Slot: "mainhand",
 					AttributeName: "generic.movementSpeed",
 					Operation: 0,
 					Name: "generic.movementSpeed"
