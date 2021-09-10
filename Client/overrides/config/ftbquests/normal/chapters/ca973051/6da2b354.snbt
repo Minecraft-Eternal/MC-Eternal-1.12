@@ -1,7 +1,11 @@
 {
 	x: -18.5d,
 	y: -5.5d,
-	description: "Heads drop from Feral Ratlanteans *They spawn rarely at night in Ratlantis* *Build structure in wither formation with core as centre block*",
+	description: "Heads drop from Feral Ratlanteans *They spawn rarely at night in Ratlantis* *READ DESCRIPTION*",
+	text: [
+		"Build structure in wither formation with core as centre block.",
+		"&6BEWARE! This foe has been massively powered up!"
+	],
 	dependencies: [
 		"fc9d0886"
 	],
