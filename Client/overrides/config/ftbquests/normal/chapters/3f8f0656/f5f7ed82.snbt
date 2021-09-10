@@ -1,9 +1,10 @@
 {
 	title: "Speedy Extract",
-	x: 12.5d,
-	y: 3.0d,
+	x: 12.0d,
+	y: 10.5d,
 	description: "Increases extraction speed of item/fluid conduits",
 	dependencies: [
+		"043d0a65",
 		"0108d5cd"
 	],
 	tasks: [{

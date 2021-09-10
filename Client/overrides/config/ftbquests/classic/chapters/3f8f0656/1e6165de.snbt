@@ -16,7 +16,7 @@
 				tier: 2
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "884e5ead",

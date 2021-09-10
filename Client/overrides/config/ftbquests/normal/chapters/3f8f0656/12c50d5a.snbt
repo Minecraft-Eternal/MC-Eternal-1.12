@@ -1,8 +1,9 @@
 {
 	x: 5.0d,
 	y: 1.0d,
+	description: "Placed in the wall of a Fission Reactor, acts as a remote Access to the Reactor's controller.",
 	dependencies: [
-		"5ea6fbc6"
+		"d256da0e"
 	],
 	tasks: [{
 		uid: "142e1eb9",

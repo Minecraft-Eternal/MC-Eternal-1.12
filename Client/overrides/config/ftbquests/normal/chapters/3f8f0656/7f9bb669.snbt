@@ -1,9 +1,10 @@
 {
-	x: 10.0d,
-	y: 3.5d,
-	description: "Required Alloys to craft/upgrade machines.",
+	title: "Misc. Alloys",
+	x: 10.5d,
+	y: 4.5d,
+	description: "Required Alloys to craft/upgrade machines. Other quests around will unlock as you make the Alloys!",
 	dependencies: [
-		"d1dc024c"
+		"3fd484fc"
 	],
 	tasks: [{
 		uid: "60c1184c",

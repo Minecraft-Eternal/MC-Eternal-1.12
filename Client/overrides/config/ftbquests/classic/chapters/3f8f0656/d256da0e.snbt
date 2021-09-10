@@ -1,6 +1,6 @@
 {
 	title: "Warming radioactive glow",
-	x: 3.0d,
+	x: 6.5d,
 	y: -1.0d,
 	shape: "diamond",
 	description: "*Nuclear Craft ores can only be found in the Beneath, there they are quite plentiful*",

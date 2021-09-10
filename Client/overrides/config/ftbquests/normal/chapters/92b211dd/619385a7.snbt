@@ -40,10 +40,5 @@
 			item: "advancedrocketry:advrocketmotor"
 		}],
 		count: 2L
-	}],
-	rewards: [{
-		uid: "6090a85a",
-		type: "ftbmoney:money",
-		ftb_money: 50L
 	}]
 }

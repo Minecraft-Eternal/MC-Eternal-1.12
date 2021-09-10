@@ -28,7 +28,8 @@
 		items: [{
 			item: "advancedrocketry:carbonscrubbercartridge"
 		}],
-		count: 2L
+		count: 2L,
+		ignore_damage: true
 	}],
 	rewards: [{
 		uid: "4df60329",

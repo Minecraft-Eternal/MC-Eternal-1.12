@@ -1,10 +1,10 @@
 {
 	title: "SOLAAAR",
-	x: 19.0d,
-	y: 1.0d,
+	x: 15.0d,
+	y: 10.5d,
 	description: "Craft an Advanced Photovoltaic Cell",
 	dependencies: [
-		"65ea1d0d"
+		"38c98eb3"
 	],
 	tasks: [{
 		uid: "f64b9444",

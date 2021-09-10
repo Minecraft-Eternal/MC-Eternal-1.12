@@ -1,8 +1,9 @@
 {
 	x: 8.5d,
 	y: -2.5d,
+	description: "Provides extra sides to a Machine it's placed next to.",
 	dependencies: [
-		"5ea6fbc6"
+		"d256da0e"
 	],
 	tasks: [{
 		uid: "3a4fd2bb",

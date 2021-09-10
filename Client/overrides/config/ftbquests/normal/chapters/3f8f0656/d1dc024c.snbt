@@ -1,9 +1,10 @@
 {
-	x: 11.0d,
-	y: 4.0d,
-	description: "Most used alloys of EnderIO",
+	title: "Commonly-used Alloys",
+	x: 10.5d,
+	y: 6.0d,
+	description: "Most used alloys of EnderIO. Other quests around will unlock as you make the Alloys!",
 	dependencies: [
-		"cb777ab6"
+		"3fd484fc"
 	],
 	tasks: [{
 		uid: "043d0a65",

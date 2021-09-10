@@ -11,7 +11,8 @@
 		type: "item",
 		items: [{
 			item: "libvulpes:holoprojector"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "ff6944a7",
