@@ -1,0 +1,56 @@
+{
+	title: "Simple Endoflame Autofeeding",
+	icon: "botania:opencrate",
+	x: 13.0d,
+	y: -2.5d,
+	description: "*Read Description*",
+	text: [
+		"Place the Open Crate ontop of the Pressure Plate, then place the Hopper on the side of the Open Crate, and run Redstone from the Pressure Plate to ontop of the Hopper."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c50984b7"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "4d51a061",
+		type: "item",
+		items: [{
+			item: "botania:opencrate"
+		}]
+	},
+	{
+		uid: "b2940b2d",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	},
+	{
+		uid: "3d93ce25",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any pressurePlateWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "pressurePlateWood"
+				}
+			}
+		}]
+	},
+	{
+		uid: "b2126fa6",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		count: 3L
+	}]
+}

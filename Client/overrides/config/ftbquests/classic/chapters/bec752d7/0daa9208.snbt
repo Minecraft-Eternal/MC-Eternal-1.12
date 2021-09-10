@@ -1,0 +1,23 @@
+{
+	x: 15.5d,
+	y: 5.0d,
+	description: "Botania's Guidebook is practially the Gold Standard of Ingame documentation for Minecraft mods! *Read description*",
+	text: [
+		"As said above, Botania's Guidebook is incredible, and there's a TON of details that won't be gone over in this guide, if you want to learn more about Botania, explore the Lexica Botania!",
+		"",
+		"This Questline will also tell you to check the Lexica at certain points for certain things, it's very important you do, as the Lexica has essential information for the related item."
+	],
+	dependencies: [
+		"f0e4f52a"
+	],
+	tasks: [{
+		uid: "168e577d",
+		type: "checkmark",
+		title: "Read the freakin Manual!"
+	}],
+	rewards: [{
+		uid: "f958858d",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

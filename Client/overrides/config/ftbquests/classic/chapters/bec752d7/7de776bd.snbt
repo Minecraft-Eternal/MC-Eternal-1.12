@@ -1,0 +1,28 @@
+{
+	x: 14.0d,
+	y: -7.0d,
+	description: "A Powerful Mass-mining tool that gains more AoE based on how much Mana it's been charged with! *Read the Lexica Botania for more Info*",
+	dependencies: [
+		"59dd41e8"
+	],
+	tasks: [{
+		uid: "7240afc3",
+		type: "item",
+		items: [{
+			id: "botania:terrapick",
+			tag: {
+				mana: 9999
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26041bdd",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

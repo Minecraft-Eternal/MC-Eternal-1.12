@@ -1,0 +1,27 @@
+{
+	x: 12.5d,
+	y: -5.5d,
+	description: "The Long Arm of the Law *Increases Reach Distance*",
+	hide_dependency_lines: true,
+	dependencies: [
+		"cf9ac603",
+		"21b847aa"
+	],
+	tasks: [{
+		uid: "9f418e21",
+		type: "item",
+		items: [{
+			id: "botania:reachring",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "121f1199",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

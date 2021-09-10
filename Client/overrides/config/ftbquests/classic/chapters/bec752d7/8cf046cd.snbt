@@ -1,8 +1,10 @@
 {
-	x: 13.0d,
-	y: 0.5d,
+	x: 15.0d,
+	y: 3.0d,
+	description: "Used to create all kinds of Botania flowers, check out JEI for how to make the various flowers.",
 	dependencies: [
-		"f0e4f52a"
+		"f0e4f52a",
+		"0daa9208"
 	],
 	tasks: [{
 		uid: "a9509a70",
@@ -15,10 +17,5 @@
 		uid: "d53939ca",
 		type: "ftbmoney:money",
 		ftb_money: 50L
-	},
-	{
-		uid: "ea15a10b",
-		type: "loot",
-		table: 1
 	}]
 }

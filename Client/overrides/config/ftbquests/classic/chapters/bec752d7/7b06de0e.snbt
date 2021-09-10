@@ -1,6 +1,8 @@
 {
-	x: 18.0d,
-	y: 3.5d,
+	title: "Runes of Season",
+	x: 16.5d,
+	y: -5.0d,
+	description: "Quests around will unlock as you acquire each Rune!",
 	dependencies: [
 		"2d45e4da"
 	],
@@ -10,10 +12,36 @@
 		items: [{
 			item: "botania:rune 1 4"
 		}]
+	},
+	{
+		uid: "c9593cc2",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 5"
+		}]
+	},
+	{
+		uid: "4b6ff09a",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 6"
+		}]
+	},
+	{
+		uid: "6c7750f3",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 7"
+		}]
 	}],
 	rewards: [{
 		uid: "9e44baa6",
 		type: "ftbmoney:money",
-		ftb_money: 75L
+		ftb_money: 150L
+	},
+	{
+		uid: "c3936554",
+		type: "loot",
+		table: 1
 	}]
 }
