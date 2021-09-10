@@ -1,9 +1,10 @@
 {
-	x: 13.5d,
-	y: 3.5d,
+	x: 9.0d,
+	y: 10.5d,
 	description: "Conduits are used to transfer items/fluid/power to selected destinations. Note: Use color coding to sort input/output",
 	dependencies: [
-		"bde05be8"
+		"cb777ab6",
+		"f55d3032"
 	],
 	tasks: [{
 		uid: "04f5ed5d",

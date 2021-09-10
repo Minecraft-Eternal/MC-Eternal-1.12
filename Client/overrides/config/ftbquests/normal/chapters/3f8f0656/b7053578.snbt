@@ -1,8 +1,9 @@
 {
-	x: 24.5d,
-	y: 0.5d,
+	x: 19.5d,
+	y: 7.5d,
 	description: "Enhanced Machinery",
 	dependencies: [
+		"be9cdc44",
 		"1bfccc16"
 	],
 	tasks: [{
@@ -10,21 +11,24 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_enhanced_alloy_smelter"
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "ba176e36",
 		type: "item",
 		items: [{
 			item: "enderio:block_enhanced_sag_mill"
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "cd214df2",
 		type: "item",
 		items: [{
 			item: "enderio:block_enhanced_vat"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "d2f9aa3c",

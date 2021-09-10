@@ -6,7 +6,8 @@
 		type: "item",
 		items: [{
 			item: "rftools:builder"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "099bdbc4",

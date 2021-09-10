@@ -1,7 +1,7 @@
 {
 	title: "Special Blends",
-	x: 12.5d,
-	y: 7.0d,
+	x: 12.0d,
+	y: 7.5d,
 	description: "Used to upgrade Machine Chassis",
 	dependencies: [
 		"3fd484fc"

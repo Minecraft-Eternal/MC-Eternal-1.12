@@ -1,9 +1,9 @@
 {
-	x: 15.5d,
-	y: 3.0d,
+	x: 18.0d,
+	y: 6.0d,
 	description: "Pick whatever enchant your heart desires!",
 	dependencies: [
-		"20e40ad0"
+		"60c1184c"
 	],
 	tasks: [{
 		uid: "00b599e9",

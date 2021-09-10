@@ -1,10 +1,11 @@
 {
 	title: "Short-range Teleportation",
-	x: 13.5d,
-	y: -2.0d,
+	x: 15.0d,
+	y: 4.5d,
 	description: "Craft a Staff of Travelling",
 	dependencies: [
-		"7b601388"
+		"7b601388",
+		"4faafd29"
 	],
 	tasks: [{
 		uid: "e73f1dcc",

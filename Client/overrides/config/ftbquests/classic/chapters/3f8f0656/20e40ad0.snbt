@@ -1,23 +1,26 @@
 {
 	x: 13.5d,
-	y: 2.0d,
+	y: 7.5d,
 	description: "Requires capacitor to operate *Upgraded*",
 	dependencies: [
-		"f5f7ed82"
+		"77d70953",
+		"05a41235"
 	],
 	tasks: [{
 		uid: "0d31dcd6",
 		type: "item",
 		items: [{
 			item: "enderio:block_alloy_smelter"
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "d1022ceb",
 		type: "item",
 		items: [{
 			item: "enderio:block_sag_mill"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "9e528a05",

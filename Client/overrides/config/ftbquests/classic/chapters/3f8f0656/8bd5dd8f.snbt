@@ -1,17 +1,19 @@
 {
 	title: "Wireless charging",
-	x: 15.0d,
-	y: -1.0d,
+	x: 18.0d,
+	y: 10.5d,
 	description: "To see the radius of the antenna, right click on it.",
 	dependencies: [
-		"7b601388"
+		"043d0a65",
+		"65ea1d0d"
 	],
 	tasks: [{
 		uid: "b5a95207",
 		type: "item",
 		items: [{
 			item: "enderio:block_normal_wireless_charger"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "2421eba0",

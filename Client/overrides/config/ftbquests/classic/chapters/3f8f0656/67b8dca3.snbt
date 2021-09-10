@@ -1,18 +1,19 @@
 {
-	x: 4.0d,
-	y: 1.0d,
+	x: 11.0d,
+	y: 2.0d,
 	dependencies: [
-		"1d53269e"
+		"0e9e196b"
 	],
 	tasks: [{
-		uid: "ed3ce2c0",
+		uid: "28f4cdd2",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:cooler 1 7"
-		}]
+			item: "nuclearcraft:compound 1 1"
+		}],
+		count: 4L
 	}],
 	rewards: [{
-		uid: "ad131819",
+		uid: "46ea97e7",
 		type: "ftbmoney:money",
 		ftb_money: 75L
 	}]
