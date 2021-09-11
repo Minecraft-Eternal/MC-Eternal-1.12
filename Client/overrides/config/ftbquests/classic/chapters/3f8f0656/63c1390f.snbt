@@ -1,8 +1,9 @@
 {
-	x: 19.5d,
-	y: -2.5d,
+	title: "Capacitation 4x",
+	x: 16.5d,
+	y: 7.5d,
 	dependencies: [
-		"2d464406"
+		"65ea1d0d"
 	],
 	tasks: [{
 		uid: "e320c921",
