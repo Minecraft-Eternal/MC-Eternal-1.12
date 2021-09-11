@@ -1,0 +1,20 @@
+{
+	x: 27.0d,
+	y: 6.0d,
+	description: "Prevents items in it's range from being Picked up unless you're sneaking!",
+	dependencies: [
+		"f94b896a"
+	],
+	tasks: [{
+		uid: "49547be6",
+		type: "item",
+		items: [{
+			item: "naturesaura:pickup_stopper"
+		}]
+	}],
+	rewards: [{
+		uid: "83b7e454",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Passive Personal Mana",
+	x: 14.0d,
+	y: -3.0d,
+	description: "A Band of Aura will fill Mana-holding items in your inventory passively when worn, it's not much, so it can't keep up with items that use a lot.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b154e41",
+		"5b6ca5ea"
+	],
+	tasks: [{
+		uid: "1b7c4317",
+		type: "item",
+		title: "Regular or Greater Band of Aura",
+		items: [{
+			id: "botania:auraring",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "botania:auraringgreater",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d1c051d7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

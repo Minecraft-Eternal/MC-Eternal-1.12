@@ -882,10 +882,6 @@
 		weight: 11
 	},
 	{
-		item: "advancedrocketry:spacestation",
-		weight: 12
-	},
-	{
 		item: "advancedrocketry:spaceelevatorcontroller",
 		weight: 9
 	},

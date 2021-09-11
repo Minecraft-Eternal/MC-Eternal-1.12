@@ -1,6 +1,6 @@
 {
-	x: 22.5d,
-	y: 1.0d,
+	x: 19.5d,
+	y: 9.0d,
 	description: "Able to transfer item/fluid/power wirelessly and across dimensions",
 	dependencies: [
 		"b7053578"
@@ -11,7 +11,8 @@
 		items: [{
 			item: "enderio:block_transceiver"
 		}],
-		count: 2L
+		count: 2L,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "b01415a7",

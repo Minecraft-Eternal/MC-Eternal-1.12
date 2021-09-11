@@ -1,0 +1,27 @@
+{
+	x: 16.0d,
+	y: -9.0d,
+	description: "+2 Airjumps!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"e4a4db69",
+		"77350684"
+	],
+	tasks: [{
+		uid: "dab16e71",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:supercloudpendant"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "317f70e8",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

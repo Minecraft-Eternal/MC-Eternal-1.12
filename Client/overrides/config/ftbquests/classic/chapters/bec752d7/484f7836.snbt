@@ -1,0 +1,26 @@
+{
+	title: "By the Nine Divines!",
+	x: 27.5d,
+	y: 4.0d,
+	description: "Used to offer items to the Gods, and receive other, more powerful items in return. Requires a Multiblock structure, check the Book of Natural Aura for more info.",
+	dependencies: [
+		"f94b896a"
+	],
+	tasks: [{
+		uid: "3cbfb279",
+		type: "item",
+		items: [{
+			item: "naturesaura:offering_table"
+		}]
+	}],
+	rewards: [{
+		uid: "2e4bc161",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "abddf5ab",
+		type: "loot",
+		table: 1
+	}]
+}

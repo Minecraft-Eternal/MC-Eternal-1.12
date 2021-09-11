@@ -1,9 +1,9 @@
 {
-	x: 22.0d,
-	y: -1.0d,
+	x: 18.0d,
+	y: 7.5d,
 	description: "Used to craft enhanced chassis",
 	dependencies: [
-		"be9cdc44"
+		"63c1390f"
 	],
 	tasks: [{
 		uid: "5eea9799",

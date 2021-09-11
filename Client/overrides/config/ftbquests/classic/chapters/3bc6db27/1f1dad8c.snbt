@@ -2,9 +2,11 @@
 	title: "§6Infinity Drill [Legendary]",
 	x: -3.5d,
 	y: -7.0d,
+	description: "Change the drill to Legendary mode to complete the quest (Shift+Right-click to change modes)",
 	dependencies: [
 		"b6d54587"
 	],
+	optional: true,
 	tasks: [{
 		uid: "7c08a8e9",
 		type: "item",

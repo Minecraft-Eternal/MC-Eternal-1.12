@@ -2,6 +2,9 @@
 	x: 3.0d,
 	y: 6.0d,
 	shape: "diamond",
+	dependencies: [
+		"fb05aebf"
+	],
 	tasks: [{
 		uid: "ea856daf",
 		type: "item",

@@ -1,0 +1,21 @@
+{
+	title: "Automation is Key!",
+	x: 15.0d,
+	y: -2.0d,
+	description: "Botania is a mod all about Automation, if you don't end up automating any of the Generating Flowers, even making one semi-automated, you're gonna have a pretty bad time.",
+	dependencies: [
+		"09df9bd7",
+		"cce52b0e",
+		"302afe01",
+		"81c35ead"
+	],
+	tasks: [{
+		uid: "ad83d677",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "79ae23e1",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

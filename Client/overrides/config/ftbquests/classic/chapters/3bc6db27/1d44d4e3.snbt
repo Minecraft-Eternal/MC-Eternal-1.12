@@ -23,7 +23,8 @@
 		items: [{
 			id: "techreborn:industrial_blast_furnace",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "bba4fa82",

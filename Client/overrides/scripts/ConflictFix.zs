@@ -1,11 +1,9 @@
-import mods.enderio.SoulBinder;
 import crafttweaker.item.IIngredient;
 #MC Eternal Scripts
 
 print("--- loading ConflictFix.zs ---");
 
 #Remove multishot
-mods.enderio.Enchanter.removeRecipe(<enchantment:cofhcore:multishot>);
 mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>, <minecraft:arrow>);
 
 
@@ -55,6 +53,8 @@ recipes.addShapeless(<quark:dark_oak_trapdoor>, [<malisisdoors:trapdoor_dark_oak
 recipes.addShapeless(<randomthings:obsidianskullring>, [<randomthings:obsidianskull>, <dungeontactics:iron_ring>]);
 recipes.addShaped(<betterbuilderswands:wandstone>, [[<ore:cobblestone>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<structurize:sceptergold>, [[null, null, <ore:cobblestone>], [null, <ore:stickWood>, null], [<ore:stickWood>, null, null]]);
+#Netherumbrian Pipes recipe by Handeril
+recipes.addShaped(<totemic:nether_pipe>, [[<ore:ingotGold>, null, <totemic:flute>], [<ore:ingotGold>, <ore:hideBuffalo>, <ore:ingotNetherite>], [<ore:ingotGold>, <ore:hideBuffalo>, null]]);
 
 recipes.addShapeless(<malisisdoors:trapdoor_birch>, [<quark:birch_trapdoor>]);
 recipes.addShapeless(<malisisdoors:trapdoor_acacia>, [<quark:acacia_trapdoor>]);

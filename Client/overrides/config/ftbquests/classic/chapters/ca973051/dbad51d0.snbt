@@ -1,10 +1,10 @@
 {
 	title: "Go back to the Overworld",
-	x: -5.0d,
-	y: -6.0d,
-	description: "Home sweet home",
+	x: -4.5d,
+	y: -5.0d,
+	description: "Home sweet home. Find Eternal Fabric to escape!",
 	dependencies: [
-		"9baa413e"
+		"c24f1670"
 	],
 	tasks: [{
 		uid: "f52ed15e",

@@ -1,6 +1,7 @@
 {
-	x: 14.5d,
-	y: 5.0d,
+	x: 16.0d,
+	y: -1.0d,
+	description: "Mana Pools are used to store Mana, and can infuse certain items with stored Mana.",
 	dependencies: [
 		"09694683"
 	],

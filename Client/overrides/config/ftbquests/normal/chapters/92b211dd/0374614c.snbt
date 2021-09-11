@@ -1,0 +1,67 @@
+{
+	icon: "advancedrocketry:cuttingmachine",
+	x: 2.0d,
+	y: -1.5d,
+	description: "Cuts Wafers into Circuits, and Wood into Planks.",
+	dependencies: [
+		"d5dbf68e"
+	],
+	tasks: [{
+		uid: "acd4637f",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:cuttingmachine"
+		}]
+	},
+	{
+		uid: "80e330ca",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:sawblade"
+		}]
+	},
+	{
+		uid: "17526539",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockMotor"
+				}
+			}
+		}]
+	},
+	{
+		uid: "5e65ea81",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "cd00d11d",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}]
+	},
+	{
+		uid: "b6f837f1",
+		type: "item",
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		}]
+	}],
+	rewards: [{
+		uid: "5c192f86",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

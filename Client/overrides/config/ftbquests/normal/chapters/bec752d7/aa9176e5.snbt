@@ -7,21 +7,18 @@
 	tasks: [{
 		uid: "4bd45a1f",
 		type: "item",
+		title: "§bHunter Axe - Special",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "vampirism:hunter_axe",
 			tag: {
-				ench: [{
-					lvl: 4s,
-					id: 19s
-				}],
 				tier: "ULTIMATE"
 			}
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "7be4b32f",

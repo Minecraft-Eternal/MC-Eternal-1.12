@@ -1,9 +1,10 @@
 {
-	x: 21.0d,
-	y: 2.0d,
+	x: 19.5d,
+	y: 10.5d,
 	description: "Extends the range of the wireless charging antenna on a single direction",
 	dependencies: [
-		"33789599"
+		"be9cdc44",
+		"8bd5dd8f"
 	],
 	tasks: [{
 		uid: "71516946",

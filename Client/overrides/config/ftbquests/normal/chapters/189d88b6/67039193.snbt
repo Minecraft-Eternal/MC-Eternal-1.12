@@ -2,7 +2,7 @@
 	title: "&c&lDefeat The &4&lWither",
 	x: -7.5d,
 	y: -5.0d,
-	description: "Lets hope it doesn't spawn as a Champion! &0&k876867",
+	description: "Let's hope it doesn't spawn as a Champion! &0It will",
 	dependencies: [
 		"d22a6b71"
 	],

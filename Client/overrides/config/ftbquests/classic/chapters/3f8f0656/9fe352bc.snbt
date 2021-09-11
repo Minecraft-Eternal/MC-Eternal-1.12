@@ -1,9 +1,10 @@
 {
-	x: 15.5d,
-	y: -3.0d,
+	x: 10.5d,
+	y: 10.5d,
 	description: "Large transfer capacity and faster rate of transfer",
 	dependencies: [
-		"f8bd13e2"
+		"0108d5cd",
+		"6e7548d0"
 	],
 	tasks: [{
 		uid: "a8f19303",

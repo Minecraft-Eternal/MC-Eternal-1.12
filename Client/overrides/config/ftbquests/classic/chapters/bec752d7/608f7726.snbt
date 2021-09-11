@@ -1,0 +1,25 @@
+{
+	x: 17.0d,
+	y: -8.5d,
+	description: "Duplicates certain resources using Mana",
+	dependencies: [
+		"21b847aa"
+	],
+	tasks: [{
+		uid: "1cb737a4",
+		type: "item",
+		items: [{
+			item: "botania:conjurationcatalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "c5305425",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "145c6edb",
+		type: "loot",
+		table: 1
+	}]
+}

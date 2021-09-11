@@ -1,0 +1,28 @@
+{
+	x: 13.5d,
+	y: -4.0d,
+	description: "Mana from Leaves! *Read Lexica Botania for more Info*",
+	dependencies: [
+		"20d39f85"
+	],
+	tasks: [{
+		uid: "08d54831",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "munchdew"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b646054a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "4bce1174",
+		type: "loot",
+		table: 1
+	}]
+}

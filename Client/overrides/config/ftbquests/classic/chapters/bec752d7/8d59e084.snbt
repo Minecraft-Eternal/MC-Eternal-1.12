@@ -1,0 +1,30 @@
+{
+	title: "&6Lexica Botania - Elven Knowledge",
+	x: 15.0d,
+	y: -8.5d,
+	description: "Toss your Lexica Botania into the Portal and unlock new Knowledge!",
+	dependencies: [
+		"21b847aa"
+	],
+	tasks: [{
+		uid: "c7eeb5a8",
+		type: "item",
+		items: [{
+			id: "botania:lexicon",
+			tag: {
+				knowledge.minecraft: 1b,
+				knowledge.alfheim: 1b
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "6bf39f5a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

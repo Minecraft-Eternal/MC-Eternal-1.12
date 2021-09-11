@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "§7§oSome of the machines used to reach Space are more costly than you may otherwise know...",
+	tasks: [{
+		uid: "aa953457",
+		type: "checkmark",
+		title: "§3§lSome Assembly Required"
+	}]
+}
