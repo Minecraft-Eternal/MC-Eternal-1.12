@@ -22,10 +22,21 @@
 		}]
 	},
 	{
-		uid: "ee06171a",
+		uid: "17526539",
 		type: "item",
 		items: [{
-			item: "libvulpes:motor"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockMotor"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockMotor"
+				}
+			}
 		}]
 	},
 	{
