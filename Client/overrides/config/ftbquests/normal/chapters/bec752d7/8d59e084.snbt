@@ -12,7 +12,6 @@
 		items: [{
 			id: "botania:lexicon",
 			tag: {
-				knowledge.minecraft: 1b,
 				knowledge.alfheim: 1b
 			},
 			ForgeCaps: {
