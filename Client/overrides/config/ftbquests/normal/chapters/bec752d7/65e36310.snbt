@@ -1,0 +1,20 @@
+{
+	x: 26.0d,
+	y: 3.5d,
+	description: "A Mob Spawn-blocking device that runs on Aura!",
+	dependencies: [
+		"d2482a49"
+	],
+	tasks: [{
+		uid: "ba8d9c82",
+		type: "item",
+		items: [{
+			item: "naturesaura:spawn_lamp"
+		}]
+	}],
+	rewards: [{
+		uid: "7deb96b0",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

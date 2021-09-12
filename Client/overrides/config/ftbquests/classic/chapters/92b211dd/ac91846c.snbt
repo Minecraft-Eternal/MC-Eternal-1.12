@@ -1,0 +1,78 @@
+{
+	title: "Warp Core and Warp Controller",
+	icon: "advancedrocketry:warpcore",
+	x: 1.5d,
+	y: -6.5d,
+	description: "To get to places beyond The Moon, you'll need a Warp Core and Warp Controller. *Read description for more info*",
+	text: [
+		"Assembling the Warp Core, and then packing it into a Space Station Container may result in it not functioning until broken and reformed, best to leave it unformed if you pack it into the container.",
+		"",
+		"A Warp Core also needs Dilithium Crystals from Advanced Rocketry as fuel, there's a handful of ways you can process Dilithium to get them, check out JEI.",
+		"",
+		"The Warp Controller is used to select the Planet you want to warp to, you probably want to select it from the Planet List in the top left of the Select Planet UI."
+	],
+	dependencies: [
+		"40210c1c"
+	],
+	tasks: [{
+		uid: "869103ef",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpcore"
+		}]
+	},
+	{
+		uid: "e3005e5e",
+		type: "item",
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 4L
+	},
+	{
+		uid: "80c62013",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockWarpCoreRim",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockWarpCoreRim"
+				}
+			}
+		}],
+		count: 15L
+	},
+	{
+		uid: "d6933c45",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_block"
+		}],
+		count: 2L
+	},
+	{
+		uid: "2cc07052",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "94626f4f",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpmonitor"
+		}]
+	}],
+	rewards: [{
+		uid: "038a59fd",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

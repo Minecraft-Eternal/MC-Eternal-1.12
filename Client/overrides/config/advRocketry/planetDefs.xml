@@ -1,5 +1,5 @@
 <galaxy>
-    <star name="§dPrimordial Planes" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+    <star name="§dPrimordial Planes" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0" blackHole="true">
 		<planet name="§a§lEarth" DIMID="0" dimMapping="" customIcon="EarthLike">
 			<orbitalDistance>100</orbitalDistance>
 			<planet name="§6§lThe Moon" DIMID="1000" customIcon="moon">
@@ -19,11 +19,11 @@
         </planet>
 		<planet name="§c§lErebus" DIMID="66" customIcon="IceWorld">
             <skyColor>0,0,0</skyColor>
-			<atmosphereDensity>150</atmosphereDensity>
+			<atmosphereDensity>180</atmosphereDensity>
 			<gravitationalMultiplier>38</gravitationalMultiplier>
-			<orbitalDistance>130</orbitalDistance>
+			<orbitalDistance>70</orbitalDistance>
 			<isKnown>True</isKnown>
-			<rotationalPeriod>1400000</rotationalPeriod>
+			<rotationalPeriod>900000</rotationalPeriod>
         </planet>
 		<planet name="§b§lAurorian" DIMID="424" customIcon="GasGiantBlue">
             <skyColor>0,0,0</skyColor>

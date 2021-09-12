@@ -1,0 +1,21 @@
+{
+	title: "All Charged up!",
+	x: -0.5d,
+	y: -7.5d,
+	description: "Stand on a Gas Charge Pad with Oxygen to fill your Airtight chesplate up.",
+	dependencies: [
+		"a4168e42"
+	],
+	tasks: [{
+		uid: "94e399d5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygencharger"
+		}]
+	}],
+	rewards: [{
+		uid: "4ae50d5b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 27.0d,
+	y: 3.0d,
+	description: "Unleashes the Power of Creation to an Aura generator placed ontop, increasing the cap of the Aura production limit drastically.",
+	dependencies: [
+		"185e679f"
+	],
+	tasks: [{
+		uid: "a15491da",
+		type: "item",
+		items: [{
+			item: "naturesaura:generator_limit_remover"
+		}]
+	}],
+	rewards: [{
+		uid: "49a27cd9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "cc1142e7",
+		type: "loot",
+		table: 1
+	}]
+}

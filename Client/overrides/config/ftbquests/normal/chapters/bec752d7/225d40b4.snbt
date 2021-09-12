@@ -1,0 +1,32 @@
+{
+	x: 11.0d,
+	y: -5.5d,
+	description: "Mana = Land Flattening!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b06de0e",
+		"59dd41e8"
+	],
+	tasks: [{
+		uid: "6426ebe5",
+		type: "item",
+		items: [{
+			id: "botania:terraformrod",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f29785c",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "9da75f87",
+		type: "loot",
+		table: 1
+	}]
+}

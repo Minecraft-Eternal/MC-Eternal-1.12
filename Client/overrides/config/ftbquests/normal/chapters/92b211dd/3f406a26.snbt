@@ -1,0 +1,96 @@
+{
+	icon: "advancedrocketry:precisionassemblingmachine",
+	x: 0.0d,
+	y: -3.0d,
+	description: "Makes Circuit Wafers and certain Chips.",
+	dependencies: [
+		"d5dbf68e"
+	],
+	tasks: [{
+		uid: "eb115850",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:precisionassemblingmachine"
+		}]
+	},
+	{
+		uid: "cfdf1277",
+		type: "item",
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 24L
+	},
+	{
+		uid: "9054c340",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockCoil"
+				}
+			}
+		}],
+		count: 2L
+	},
+	{
+		uid: "af292ca2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockMotor"
+				}
+			}
+		}],
+		count: 2L
+	},
+	{
+		uid: "dcbc5135",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}],
+		count: 2L
+	},
+	{
+		uid: "dff5fb37",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "d45dac83",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}]
+	},
+	{
+		uid: "923e84b2",
+		type: "item",
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		}]
+	}],
+	rewards: [{
+		uid: "a6463c58",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

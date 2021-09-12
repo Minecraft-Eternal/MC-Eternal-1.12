@@ -1,11 +1,9 @@
-import mods.enderio.SoulBinder;
 import crafttweaker.item.IIngredient;
 #MC Eternal Scripts
 
 print("--- loading ConflictFix.zs ---");
 
 #Remove multishot
-mods.enderio.Enchanter.removeRecipe(<enchantment:cofhcore:multishot>);
 mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>, <minecraft:arrow>);
 
 
@@ -55,11 +53,18 @@ recipes.addShapeless(<quark:dark_oak_trapdoor>, [<malisisdoors:trapdoor_dark_oak
 recipes.addShapeless(<randomthings:obsidianskullring>, [<randomthings:obsidianskull>, <dungeontactics:iron_ring>]);
 recipes.addShaped(<betterbuilderswands:wandstone>, [[<ore:cobblestone>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<structurize:sceptergold>, [[null, null, <ore:cobblestone>], [null, <ore:stickWood>, null], [<ore:stickWood>, null, null]]);
+#Netherumbrian Pipes recipe by Handeril
+recipes.addShaped(<totemic:nether_pipe>, [[<ore:ingotGold>, null, <totemic:flute>], [<ore:ingotGold>, <ore:hideBuffalo>, <ore:ingotNetherite>], [<ore:ingotGold>, <ore:hideBuffalo>, null]]);
 
 recipes.addShapeless(<malisisdoors:trapdoor_birch>, [<quark:birch_trapdoor>]);
 recipes.addShapeless(<malisisdoors:trapdoor_acacia>, [<quark:acacia_trapdoor>]);
 recipes.addShapeless(<malisisdoors:trapdoor_spruce>, [<quark:spruce_trapdoor>]);
 recipes.addShapeless(<malisisdoors:trapdoor_jungle>, [<quark:jungle_trapdoor>]);
 recipes.addShapeless(<malisisdoors:trapdoor_dark_oak>, [<quark:dark_oak_trapdoor>]);
+
+//#Fix the use of clocks and compasses in the induction smelter
+mods.thermalexpansion.InductionSmelter.addRecipe(<minecraft:gold_ingot>*4, <minecraft:sand>, <minecraft:clock>.withTag({"quark:clock_calculated": 1 as byte}), 4000, <thermalfoundation:material:865>, 20);
+mods.thermalexpansion.InductionSmelter.addRecipe(<minecraft:iron_ingot>*4, <minecraft:sand>, <minecraft:compass>.withTag({"quark:compass_calculated": 1 as byte, "quark:compass_in_nether": 0 as byte}), 4000, <thermalfoundation:material:865>, 20);
+mods.thermalexpansion.InductionSmelter.addRecipe(<minecraft:iron_ingot>*4, <minecraft:sand>, <minecraft:compass>.withTag({"quark:compass_calculated": 1 as byte, "quark:compass_in_nether": 1 as byte}), 4000, <thermalfoundation:material:865>, 20);
 
 print("--- ConflictFix.zs initialized ---");	

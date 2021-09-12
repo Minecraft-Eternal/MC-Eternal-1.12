@@ -1,0 +1,38 @@
+{
+	title: "Chop Chop!",
+	icon: "forestry:wood_pile",
+	x: -17.5d,
+	y: -4.55d,
+	shape: "diamond",
+	description: "When you try to cut a Tree, it might look strange, here i'll tell you why!",
+	text: [
+		"As of MC Eternal 1.4, the mod \"§bHT's Tree Chop§r\" has been added, in short, it lets you cut down whole trees.",
+		"When you break part of a Tree, it will turn into this weird \"§3Chopped Log§r\" block, if you keep breaking this new block, eventually, the whole Tree will be cut all at once!",
+		"The amount of cutting on Chopped Logs that needs to be done to chop a tree scales with the amount of Wood in the tree, so if it's really big, it'll take a long time to cut, in total, it takes less chops to cut a whole tree.",
+		"If you don't want this mod's effect, you can hold §6SNEAK§r to disable it for as long as it is held, or press §6N§r (by default) to open a menu that has a toggle for it."
+	],
+	dependencies: [
+		"87cb3976"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "a37d516e",
+		type: "checkmark",
+		title: "§lClick after you've read the text below!§r",
+		icon: "minecraft:log"
+	},
+	{
+		uid: "729303f9",
+		type: "observation",
+		title: "Look at a Chopped Log! Open your Questbook!",
+		icon: "forestry:wood_pile",
+		match_type: "block_id",
+		match: "treechop:chopped_log_pillar",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "e3eb5313",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

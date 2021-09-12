@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+<recipe name="Sagmill: taiga_crush_abyssum" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:abyssum_ore"/>
+      <output name="taiga:abyssum_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_basalt" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:basalt_block"/>
+      <output name="taiga:basalt_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_tiberium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:tiberium_ore"/>
+      <output name="taiga:tiberium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_aurorium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:aurorium_ore"/>
+      <output name="taiga:aurorium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_prometheum" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:prometheum_ore"/>
+      <output name="taiga:prometheum_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_duranite" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:duranite_ore"/>
+      <output name="taiga:duranite_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_valyrium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:valyrium_ore"/>
+      <output name="taiga:valyrium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_vibranium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:vibranium_ore"/>
+      <output name="taiga:vibranium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_karmesine" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:karmesine_ore"/>
+      <output name="taiga:karmesine_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_ovium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:ovium_ore"/>
+      <output name="taiga:ovium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_jauxum" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:jauxum_ore"/>
+      <output name="taiga:jauxum_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_palladium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:palladium_ore"/>
+      <output name="taiga:palladium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_uru" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:uru_ore"/>
+      <output name="taiga:uru_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_osram" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:osram_ore"/>
+      <output name="taiga:osram_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_eezo" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:eezo_ore"/>
+      <output name="taiga:eezo_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: taiga_crush_dilithium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:dilithium_ore"/>
+      <output name="taiga:dilithium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+</enderio:recipes>

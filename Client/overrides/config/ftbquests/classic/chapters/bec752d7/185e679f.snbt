@@ -1,0 +1,42 @@
+{
+	title: "Tokens of Greater Emotion",
+	x: 29.0d,
+	y: 1.5d,
+	description: "Important crafting ingredients for more powerful devices.",
+	dependencies: [
+		"484f7836"
+	],
+	tasks: [{
+		uid: "5523f171",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_euphoria"
+		}]
+	},
+	{
+		uid: "d2482a49",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_terror"
+		}]
+	},
+	{
+		uid: "4c3c2bf2",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_rage"
+		}]
+	},
+	{
+		uid: "81cfb088",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_grief"
+		}]
+	}],
+	rewards: [{
+		uid: "d5058bdb",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

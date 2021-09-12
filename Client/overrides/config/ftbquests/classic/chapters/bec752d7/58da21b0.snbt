@@ -1,0 +1,31 @@
+{
+	title: "Ritual of Gaia II",
+	x: 15.0d,
+	y: -11.0d,
+	description: "Guardian of Gaia: ReGaia'd *Read Lexica Botania for more Info*",
+	dependencies: [
+		"e4a4db69"
+	],
+	tasks: [{
+		uid: "48b12187",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "22533938",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "a93ead65",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

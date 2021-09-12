@@ -1,0 +1,21 @@
+{
+	x: 12.0d,
+	y: -2.5d,
+	description: "Doesn't seem like much on the surface, but try it! You'll be surprised at how nourishing it is!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c50984b7"
+	],
+	tasks: [{
+		uid: "c98df7d1",
+		type: "item",
+		items: [{
+			item: "botania:manacookie"
+		}]
+	}],
+	rewards: [{
+		uid: "2f9b9532",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

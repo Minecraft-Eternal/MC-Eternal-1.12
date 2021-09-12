@@ -1,0 +1,20 @@
+{
+	x: 17.0d,
+	y: -2.5d,
+	description: "Transmutes some items into others, such as Flint into Gunpowder.",
+	dependencies: [
+		"cce52b0e"
+	],
+	tasks: [{
+		uid: "76fcde36",
+		type: "item",
+		items: [{
+			item: "botania:alchemycatalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "02e566e9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

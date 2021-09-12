@@ -1,0 +1,26 @@
+{
+	x: 16.0d,
+	y: -7.0d,
+	description: "\"Reflects\" the contents of a Mana Pool. *Read Lexica Botania for more Info*",
+	dependencies: [
+		"59dd41e8"
+	],
+	tasks: [{
+		uid: "72539099",
+		type: "item",
+		items: [{
+			id: "botania:manamirror",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9ce8aeb8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

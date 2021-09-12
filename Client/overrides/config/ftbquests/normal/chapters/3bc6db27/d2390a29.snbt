@@ -1,0 +1,18 @@
+{
+	x: -18.0d,
+	y: 4.5d,
+	description: "There's Dinosaurs in this here Dirt",
+	text: [
+		"Sifts through more common resources to potentially acquire rare items, like Fossils or Prehistoric Plants!"
+	],
+	dependencies: [
+		"8d697709"
+	],
+	tasks: [{
+		uid: "2d1ba05c",
+		type: "item",
+		items: [{
+			item: "fossil:sifter"
+		}]
+	}]
+}

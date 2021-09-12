@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "MC Eternal",
-  "version": "1.4.4",
+  "version": "1.5",
   "author": "adam98991",
   "files": [
     {
@@ -52,11 +52,6 @@
     {
       "projectID": 225658,
       "fileID": 3070947,
-      "required": true
-    },
-    {
-      "projectID": 226780,
-      "fileID": 2441500,
       "required": true
     },
     {
@@ -131,7 +126,7 @@
     },
     {
       "projectID": 373157,
-      "fileID": 3189628,
+      "fileID": 3353464,
       "required": true
     },
     {
@@ -186,7 +181,7 @@
     },
     {
       "projectID": 233564,
-      "fileID": 2926589,
+      "fileID": 2966851,
       "required": true
     },
     {
@@ -411,7 +406,7 @@
     },
     {
       "projectID": 421377,
-      "fileID": 3193897,
+      "fileID": 3361717,
       "required": true
     },
     {
@@ -501,12 +496,12 @@
     },
     {
       "projectID": 282940,
-      "fileID": 3244451,
+      "fileID": 3324116,
       "required": true
     },
     {
       "projectID": 309756,
-      "fileID": 3060489,
+      "fileID": 3328809,
       "required": true
     },
     {
@@ -516,7 +511,7 @@
     },
     {
       "projectID": 278494,
-      "fileID": 3137883,
+      "fileID": 3327893,
       "required": true
     },
     {
@@ -785,11 +780,6 @@
       "required": true
     },
     {
-      "projectID": 312195,
-      "fileID": 3131262,
-      "required": true
-    },
-    {
       "projectID": 263048,
       "fileID": 2643354,
       "required": true
@@ -841,7 +831,7 @@
     },
     {
       "projectID": 285439,
-      "fileID": 3212269,
+      "fileID": 3256343,
       "required": true
     },
     {
@@ -1235,11 +1225,6 @@
       "required": true
     },
     {
-      "projectID": 366140,
-      "fileID": 2898681,
-      "required": true
-    },
-    {
       "projectID": 245506,
       "fileID": 2921659,
       "required": true
@@ -1301,7 +1286,7 @@
     },
     {
       "projectID": 64578,
-      "fileID": 3124452,
+      "fileID": 3328811,
       "required": true
     },
     {
@@ -1591,12 +1576,7 @@
     },
     {
       "projectID": 272514,
-      "fileID": 2920596,
-      "required": true
-    },
-    {
-      "projectID": 225605,
-      "fileID": 2489549,
+      "fileID": 2962052,
       "required": true
     },
     {
@@ -1625,8 +1605,8 @@
       "required": true
     },
     {
-      "projectID": 237903,
-      "fileID": 2926584,
+      "projectID": 496398,
+      "fileID": 3360902,
       "required": true
     },
     {
@@ -1647,7 +1627,17 @@
       "projectID": 421605,
       "fileID": 3156145,
       "required": true
-    }
+    },
+    {
+      "projectID": 400488,
+      "fileID": 3024769,
+      "required": true
+    },
+	{
+	  "projectID": 306549,
+	  "fileID": 2906537,
+	  "required": true
+	}
   ],
   "overrides": "overrides"
 }
