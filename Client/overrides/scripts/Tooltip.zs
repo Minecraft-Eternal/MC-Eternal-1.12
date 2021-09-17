@@ -30,6 +30,7 @@ print("--- loading Tooltip.zs ---");
 <extrautils2:chickenring:1>.addTooltip(format.red("Do not wear as a bauble, may teleport you down randomly while flying"));
 <appliedenergistics2:sky_stone_block>.addTooltip(format.red("Only Spawns in The Beneath and on The Moon"));
 <thaumicaugmentation:impulse_cannon_augment>.addTooltip(format.lightPurple("Damage Amplified to 20x"));
+<thaumicaugmentation:impulse_cannon_augment:1>.addTooltip(format.lightPurple("Damage Amplified to 20x"));
 <appliedenergistics2:sky_compass>.addTooltip(format.red("Only Spawns in The Beneath and on The Moon"));
 <lootgames:ms_activator>.addTooltip(format.red("WARNING: DO NOT PLACE IN YOUR BASE"));
 <erebus:materials:1>.addTooltip(format.gold("The Tinkers' Construct material for this item has been buffed massively."));
