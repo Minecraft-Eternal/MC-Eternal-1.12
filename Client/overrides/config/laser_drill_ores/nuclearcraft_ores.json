@@ -5,14 +5,14 @@
     "rarity" : [
       {
         "whitelist": "",
-        "blacklist": "minecraft:hell, minecraft:sky",
+        "blacklist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap, minecraft:sky",
         "depth_min": 6,
         "depth_max": 48,
         "weight": 5
       },
       {
         "whitelist": "",
-        "blacklist": "minecraft:hell, minecraft:sky",
+        "blacklist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap, minecraft:sky",
         "depth_min": 0,
         "depth_max": 255,
         "weight": 1
@@ -25,14 +25,14 @@
     "rarity" : [
       {
         "whitelist": "",
-        "blacklist": "minecraft:hell, minecraft:sky",
+        "blacklist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap, minecraft:sky",
         "depth_min": 6,
         "depth_max": 48,
         "weight": 5
       },
       {
         "whitelist": "",
-        "blacklist": "minecraft:hell, minecraft:sky",
+        "blacklist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap, minecraft:sky",
         "depth_min": 0,
         "depth_max": 255,
         "weight": 1
@@ -45,14 +45,14 @@
     "rarity" : [
       {
         "whitelist": "",
-        "blacklist": "minecraft:hell, minecraft:sky",
+        "blacklist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap, minecraft:sky",
         "depth_min": 6,
         "depth_max": 48,
         "weight": 5
       },
       {
         "whitelist": "",
-        "blacklist": "minecraft:hell, minecraft:sky",
+        "blacklist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap, minecraft:sky",
         "depth_min": 0,
         "depth_max": 255,
         "weight": 1
@@ -65,14 +65,14 @@
     "rarity" : [
       {
         "whitelist": "",
-        "blacklist": "minecraft:hell, minecraft:sky",
+        "blacklist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap, minecraft:sky",
         "depth_min": 4,
         "depth_max": 32,
         "weight": 54
       },
       {
         "whitelist": "",
-        "blacklist": "minecraft:hell, minecraft:sky",
+        "blacklist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap, minecraft:sky",
         "depth_min": 0,
         "depth_max": 255,
         "weight": 1
