@@ -2,10 +2,10 @@
 
 print("--- loading Crushit.zs ---");
 #de redstone
-mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:ore_fluid:2>, <thermalfoundation:material:893> * 3, 2048, <thermalfoundation:material:866>, 50);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:893> * 3, <thermalfoundation:ore_fluid:2>, 2048, <thermalfoundation:material:866>, 0.5);
 mods.mekanism.crusher.addRecipe(<thermalfoundation:ore_fluid:2>, <thermalfoundation:material:893> * 3);
 #de glowstone
-mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:ore_fluid:3>, <thermalfoundation:material:893> * 3, 2048, <thermalfoundation:material:866>, 50);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:894> * 3, <thermalfoundation:ore_fluid:3>, 2048, <thermalfoundation:material:771>, 0.5);
 mods.mekanism.crusher.addRecipe(<thermalfoundation:ore_fluid:3>, <thermalfoundation:material:893> * 3);
 print("--- Crushit.zs initialized ---");	
 
