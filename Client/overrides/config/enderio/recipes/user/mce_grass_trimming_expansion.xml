@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+<recipe name="Sagmill: grass_trimming_bop_short" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_0:0"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+		<output name="enderio:item_material:46" chance=".15"/>
+		<output name="enderio:item_material:46" chance=".05"/>
+		<output name="enderio:item_material:47" chance=".15"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_medium" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_0:1"/>
+		<output name="enderio:item_material:46" chance=".45"/>
+		<output name="enderio:item_material:46" chance=".15"/>
+		<output name="enderio:item_material:46" chance=".05"/>
+		<output name="enderio:item_material:47" chance=".10"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_wheat" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_0:7"/>
+		<output name="enderio:item_material:46"/>
+		<output name="enderio:item_material:46" chance=".80"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_damp" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_0:8"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+		<output name="enderio:item_material:46" chance=".50"/>
+		<output name="enderio:item_material:46" chance=".40"/>
+		<output name="enderio:item_material:47" chance=".25"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_dead" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_0:13"/>
+		<output name="enderio:item_material:47" chance=".50"/>
+		<output name="enderio:item_material:47" chance=".50"/>
+		<output name="enderio:item_material:47" chance=".40"/>
+		<output name="enderio:item_material:47" chance=".30"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_desert" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_0:14"/>
+		<output name="enderio:item_material:47"/>
+		<output name="enderio:item_material:47" chance=".20"/>
+		<output name="enderio:item_material:47" chance=".05"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_dune" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_1:0"/>
+		<output name="enderio:item_material:46" chance=".80"/>
+		<output name="enderio:item_material:47" chance=".60"/>
+		<output name="enderio:item_material:47" chance=".30"/>
+	</sagmilling>
+</recipe>
+		
+<recipe name="Sagmill: grass_trimming_bop_thorn" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_1:2"/>
+		<output name="enderio:item_material:47" chance=".60"/>
+		<output name="enderio:item_material:47" chance=".40"/>
+		<output name="enderio:item_material:47" chance=".20"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_barley" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_1:11"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+		<output name="enderio:item_material:47" chance=".10"/>
+		<output name="enderio:item_material:47" chance=".05"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_algae" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:coral:4"/>
+		<output name="enderio:item_material:46" chance=".90"/>
+		<output name="enderio:item_material:46" chance=".05"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_kelp" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:seaweed:0"/>
+		<output name="enderio:item_material:46" chance=".50"/>
+		<output name="enderio:item_material:46" chance=".40"/>
+		<output name="minecraft:dye:2" chance=".25"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_dead_leaf_pile" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_0:12"/>
+		<output name="enderio:item_material:46" chance=".20"/>
+		<output name="enderio:item_material:46" chance=".05"/>
+		<output name="enderio:item_material:47" chance=".60"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_leaf_pile" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_0:11"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+		<output name="enderio:item_material:47" chance=".10"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_clover_patch" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_0:10"/>
+		<output name="enderio:item_material:46" chance=".40"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_koru" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_0:9"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_devilweed" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:plant_1:7"/>
+		<output name="enderio:item_material:46" chance=".70"/>
+		<output name="enderio:item_material:47" chance=".20"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_flowered_lily" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:waterlily:3"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+		<output name="biomesoplenty:white_dye" chance=".10"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_medium_lily" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:waterlily:0"/>
+		<output name="enderio:item_material:46" chance=".80"/>
+		<output name="enderio:item_material:46" chance=".40"/>
+		<output name="biomesoplenty:waterlily:1" chance=".25"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_small_lily" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:waterlily:1"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+		<output name="biomesoplenty:waterlily:2" chance=".25"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_bop_tiny_lily" required="true">
+	<sagmilling energy="1200">
+		<input name="biomesoplenty:waterlily:2"/>
+		<output name="enderio:item_material:46" chance=".40"/>
+		<output name="enderio:item_material:46" chance=".20"/>
+		<output name="enderio:item_material:46" chance=".10"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_tcon_slimy_green" required="true">
+	<sagmilling energy="1200">
+		<input name="tconstruct:slime_grass_tall:0"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+		<output name="enderio:item_material:46" chance=".10"/>
+		<output name="tconstruct:edible:1" chance=".10"/>
+	</sagmilling>
+</recipe>
+		
+<recipe name="Sagmill: grass_trimming_tcon_slimy_green_fern" required="true">
+	<sagmilling energy="1200">
+		<input name="tconstruct:slime_grass_tall:1"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+		<output name="enderio:item_material:46" chance=".10"/>
+		<output name="tconstruct:edible:1" chance=".10"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_tcon_slimy_purple" required="true">
+	<sagmilling energy="1200">
+		<input name="tconstruct:slime_grass_tall:4"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+		<output name="enderio:item_material:46" chance=".10"/>
+		<output name="tconstruct:edible:2" chance=".10"/>
+	</sagmilling>
+</recipe>
+		
+<recipe name="Sagmill: grass_trimming_tcon_slimy_purple_fern" required="true">
+	<sagmilling energy="1200">
+		<input name="tconstruct:slime_grass_tall:5"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+		<output name="enderio:item_material:46" chance=".10"/>
+		<output name="tconstruct:edible:2" chance=".10"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="Sagmill: grass_trimming_tcon_slimy_magma" required="true">
+	<sagmilling energy="1200">
+		<input name="tconstruct:slime_grass_tall:8"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+		<output name="enderio:item_material:46" chance=".10"/>
+		<output name="tconstruct:edible:4" chance=".10"/>
+	</sagmilling>
+</recipe>
+		
+<recipe name="Sagmill: grass_trimming_tcon_slimy_magma_fern" required="true">
+	<sagmilling energy="1200">
+		<input name="tconstruct:slime_grass_tall:9"/>
+		<output name="enderio:item_material:46" chance=".60"/>
+		<output name="enderio:item_material:46" chance=".30"/>
+		<output name="enderio:item_material:46" chance=".10"/>
+		<output name="tconstruct:edible:4" chance=".10"/>
+	</sagmilling>
+</recipe>
+
+</enderio:recipes>
