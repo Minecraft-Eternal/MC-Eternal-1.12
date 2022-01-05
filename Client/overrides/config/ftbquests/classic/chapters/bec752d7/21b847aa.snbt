@@ -1,0 +1,56 @@
+{
+	title: "The Portal to Alfheim",
+	icon: "botania:pylon 1 1",
+	x: 15.0d,
+	y: -7.5d,
+	description: "Used to trade Overworldly Botanical resources with the Elves of Alfheim, in order to acquire Elven resources. *Read the Lexica Botania for more Info, including how to build*",
+	text: [
+		"Unfortunately, you can't go through it :(",
+		"",
+		"I wonder if they like Bread?"
+	],
+	dependencies: [
+		"59dd41e8"
+	],
+	tasks: [{
+		uid: "ed4c841b",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "733627eb",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 1 5"
+		}],
+		count: 3L
+	},
+	{
+		uid: "75b45935",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 8L
+	},
+	{
+		uid: "ee562a99",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "7ca95ced",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "4492e03b",
+		type: "loot",
+		table: 1
+	}]
+}

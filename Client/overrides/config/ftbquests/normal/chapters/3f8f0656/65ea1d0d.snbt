@@ -1,10 +1,10 @@
 {
 	title: "Next tier capacitating",
-	x: 17.0d,
-	y: 2.0d,
+	x: 15.0d,
+	y: 7.5d,
 	description: "Advanced version of Basic capacitor",
 	dependencies: [
-		"1d4eeaf7"
+		"20e40ad0"
 	],
 	tasks: [{
 		uid: "2aa3b2a9",

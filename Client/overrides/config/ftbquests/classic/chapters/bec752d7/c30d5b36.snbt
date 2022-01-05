@@ -1,0 +1,25 @@
+{
+	x: 28.0d,
+	y: 5.5d,
+	description: "Can capture and release Aura when running over a Activator Rail. The possibilities are endless...",
+	dependencies: [
+		"04abbede"
+	],
+	tasks: [{
+		uid: "0a7b11d9",
+		type: "item",
+		items: [{
+			id: "naturesaura:mover_cart",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ae89d63",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

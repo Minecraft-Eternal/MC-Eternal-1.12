@@ -1,0 +1,68 @@
+{
+	title: "Runes of Sin",
+	x: 13.5d,
+	y: -5.0d,
+	description: "Quests around will unlock as you acquire each Rune!",
+	dependencies: [
+		"2d45e4da"
+	],
+	tasks: [{
+		uid: "34f7ff53",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 9"
+		}]
+	},
+	{
+		uid: "20d39f85",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 10"
+		}]
+	},
+	{
+		uid: "d12ad7f1",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 11"
+		}]
+	},
+	{
+		uid: "d157bad6",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 12"
+		}]
+	},
+	{
+		uid: "99f71948",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 13"
+		}]
+	},
+	{
+		uid: "9eb4a17e",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 14"
+		}]
+	},
+	{
+		uid: "cf9ac603",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "9fac9d2a",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "2cfd0d84",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "Starting Chassis",
-	x: 8.5d,
-	y: 6.5d,
+	x: 9.0d,
+	y: 7.5d,
 	description: "Base crafting component of all EnderIO machinery",
 	dependencies: [
 		"57e06d6f"

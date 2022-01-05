@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "mekanism:basicblock2 1 9"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "2f807a60",

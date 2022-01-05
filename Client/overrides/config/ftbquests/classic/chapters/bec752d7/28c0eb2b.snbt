@@ -24,8 +24,8 @@
 		ftb_money: 100L
 	},
 	{
-		uid: "f2d017e7",
-		type: "random",
+		uid: "5e0486fd",
+		type: "loot",
 		table: 1
 	}]
 }

@@ -1,12 +1,12 @@
 {
 	title: "News on Nuclear Science",
-	x: 3.0d,
-	y: -2.0d,
+	x: 5.5d,
+	y: -0.5d,
 	description: "Need an explanation of Nuclearcraft? Check out the mod developer's official YouTube channel!",
 	text: [
-		"NC Developer's Channel: §9https://www.youtube.com/c/NuclearCraftMod§r",
-		"§2Fission Tutorial: §9https://www.youtube.com/watch?v=IIZur0OrqGY&t§r",
-		"§3Fusion Tutorial: §9https://www.youtube.com/watch?v=B9ctB28I3qI§r"
+		"NC Developer's Channel: &9https://www.youtube.com/c/NuclearCraftMod§r",
+		"&2Fission Tutorial: &9https://www.youtube.com/watch?v=IIZur0OrqGY&t§r",
+		"&3Fusion Tutorial: &9https://www.youtube.com/watch?v=B9ctB28I3qI§r"
 	],
 	can_repeat: true,
 	optional: true,

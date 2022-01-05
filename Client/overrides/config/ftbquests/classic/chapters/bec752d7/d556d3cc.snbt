@@ -1,0 +1,31 @@
+{
+	x: 16.5d,
+	y: -4.0d,
+	description: "Ice-Spiked Snowballs!",
+	dependencies: [
+		"6c7750f3",
+		"80831a7a"
+	],
+	tasks: [{
+		uid: "5b8b0b58",
+		type: "item",
+		items: [{
+			id: "botania:icependant",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c0f182a6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "2228a53b",
+		type: "loot",
+		table: 1
+	}]
+}

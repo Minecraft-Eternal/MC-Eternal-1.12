@@ -1,0 +1,34 @@
+{
+	x: 11.5d,
+	y: -4.5d,
+	description: "Mana = Block Swap!",
+	text: [
+		"E=MineCraft^2"
+	],
+	dependencies: [
+		"d157bad6"
+	],
+	tasks: [{
+		uid: "c23437c8",
+		type: "item",
+		items: [{
+			id: "botania:exchangerod",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "369f1813",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "605a6ca4",
+		type: "loot",
+		table: 1
+	}]
+}

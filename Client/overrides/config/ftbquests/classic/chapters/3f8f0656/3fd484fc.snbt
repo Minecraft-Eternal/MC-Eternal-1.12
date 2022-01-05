@@ -1,6 +1,7 @@
 {
-	x: 12.0d,
-	y: 6.0d,
+	title: "Simple Machines",
+	x: 10.5d,
+	y: 7.5d,
 	description: "Basic machines of EnderIO. Requires to craft other materials",
 	dependencies: [
 		"d3804759"
@@ -10,14 +11,24 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_simple_furnace"
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "1285ef25",
 		type: "item",
 		items: [{
 			item: "enderio:block_simple_alloy_smelter"
-		}]
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "357ea426",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "de3d832b",

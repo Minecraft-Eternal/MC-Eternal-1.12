@@ -1,6 +1,6 @@
 {
-	x: 21.5d,
-	y: -3.0d,
+	x: 18.0d,
+	y: 9.0d,
 	description: "Most advanced alloy of EnderIO",
 	dependencies: [
 		"63c1390f"

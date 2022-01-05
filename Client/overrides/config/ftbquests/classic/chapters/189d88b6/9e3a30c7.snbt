@@ -1,0 +1,44 @@
+{
+	title: "Matrix Enchanting",
+	icon: "minecraft:enchanting_table",
+	x: -11.5d,
+	y: -4.0d,
+	description: "Enchanting might look a little different, here's a really detailed explanation! *Read description*",
+	text: [
+		"This modpack has §6Matrix Enchanting§r from &bQuark§r enabled, it's essentially a system that turns enchanting from total randomness into a little puzzle.",
+		"",
+		"You spend &aXP levels&r and some &9Lapis&r to roll pieces for the Puzzle in the middle, more &5Enchanting Power&r from blocks like §6Bookshelves§r allows you to get more rolls.",
+		"",
+		"You combine pieces with the same &dEnchantment&r by selecting one piece and clicking another, this is how you get higher Levels of &dEnchantments&r.",
+		"",
+		"The ultimate goal is to fit the &dEnchantments&r you want to get into the Puzzle grid in the center, it may not be best to combine Enchant pieces as soon as you get them, since other shapes may work better with what you end up rolling.",
+		"",
+		"Additionally, if you remove the item from the Table while Enchanting, it will retain any Matrix Enchanting-related information, so you can use it a bit more before finalizing, or wait until you have more §5Enchanting Power§r.",
+		"",
+		"Lastly, placing Quark's various colors of &9Candles&r near the Table will improve the chances of getting &dcertain Enchantments&r, based on the &9Candle's&r color!",
+		"",
+		"&8&lBy not reading this, you are claiming responsibility for any damages caused by misunderstanding, Adam Co. is not liable to pay for any damages."
+	],
+	dependencies: [
+		"d22a6b71"
+	],
+	tasks: [{
+		uid: "9234e61d",
+		type: "checkmark",
+		title: "§8Click to Accept the Terms and Conditions"
+	},
+	{
+		uid: "762c0396",
+		type: "observation",
+		title: "§d§lLook at an Enchanting Table, Open your Questbook!",
+		icon: "minecraft:enchanting_table",
+		match_type: "block_id",
+		match: "minecraft:enchanting_table",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "fb43a87e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

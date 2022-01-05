@@ -1,8 +1,9 @@
 {
-	x: 10.5d,
-	y: 3.0d,
+	x: 13.5d,
+	y: 1.5d,
+	description: "Mana to Mobfarm! *Read the Lexica Botania for Info*",
 	dependencies: [
-		"81c35ead"
+		"8cf046cd"
 	],
 	tasks: [{
 		uid: "d1722a77",

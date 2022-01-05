@@ -1,0 +1,42 @@
+{
+	title: "Personal Mana Storage",
+	x: 16.0d,
+	y: -3.0d,
+	description: "A lot of Tools and Baubles in Botania require Mana to do their job. *Read \"Mana Tablet\" in Lexica Botania for more Info*",
+	dependencies: [
+		"c50984b7"
+	],
+	tasks: [{
+		uid: "dec77ad3",
+		type: "item",
+		title: "Mana Tablet or Standard/Greater Band of Mana",
+		items: [{
+			id: "botania:manatablet",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "botania:manaring",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "botania:manaringgreater",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "27de57d4",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

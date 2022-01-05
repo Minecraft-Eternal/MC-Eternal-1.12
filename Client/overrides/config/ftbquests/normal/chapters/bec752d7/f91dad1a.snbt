@@ -1,0 +1,25 @@
+{
+	x: 16.0d,
+	y: -10.0d,
+	description: "Siginificantly increased Agility, just add Mana!",
+	dependencies: [
+		"e4a4db69"
+	],
+	tasks: [{
+		uid: "38df6f59",
+		type: "item",
+		items: [{
+			id: "botania:supertravelbelt",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9079952c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

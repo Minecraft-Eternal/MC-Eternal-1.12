@@ -1,0 +1,48 @@
+{
+	title: "Heating the IBF further",
+	x: -6.0d,
+	y: 5.5d,
+	description: "+1500K *Read Description*",
+	text: [
+		"Place 2 Source Blocks of Lava inside the structure to add 500 more Heat.",
+		"Right-click the Industrial Blast Furnace block with 4 Kanthal Coils to add 500 more Heat, you can do the same with Nichrome Coils for another 500 Heat.",
+		"You can also replace the Standard Machine Casing with Reinforced or Advanced Machine Casing to add more Heat, if needed."
+	],
+	dependencies: [
+		"1d44d4e3"
+	],
+	tasks: [{
+		uid: "f9961136",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:lava_bucket"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6ef4217a",
+		type: "item",
+		items: [{
+			item: "techreborn:part 1 15"
+		}],
+		count: 4L
+	},
+	{
+		uid: "16605b15",
+		type: "item",
+		items: [{
+			item: "techreborn:part 1 14"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "4e37639a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

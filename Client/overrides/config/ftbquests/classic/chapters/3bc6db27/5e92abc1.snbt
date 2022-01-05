@@ -1,0 +1,13 @@
+{
+	x: -15.0d,
+	y: 4.0d,
+	dependencies: [
+		"8d697709"
+	],
+	tasks: [{
+		uid: "f1f4f0c5",
+		type: "advancement",
+		advancement: "fossil:fossil/broken_sword",
+		criterion: ""
+	}]
+}

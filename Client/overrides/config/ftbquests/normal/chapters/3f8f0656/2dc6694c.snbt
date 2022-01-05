@@ -1,6 +1,6 @@
 {
-	x: 12.5d,
-	y: 0.5d,
+	x: 12.0d,
+	y: 6.0d,
 	description: "Create a spawner out of any non-boss mob ",
 	dependencies: [
 		"7b601388"
@@ -10,7 +10,8 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_powered_spawner"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "8735e3a8",

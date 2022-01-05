@@ -26,7 +26,8 @@
 				}
 			},
 			Damage: 1s
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "8c17ba04",

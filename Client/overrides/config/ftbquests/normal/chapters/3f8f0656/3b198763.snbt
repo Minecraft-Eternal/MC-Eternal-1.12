@@ -1,9 +1,10 @@
 {
-	x: 19.0d,
-	y: 2.5d,
+	x: 16.5d,
+	y: 9.0d,
 	description: "Supreme energy storage!",
 	dependencies: [
-		"1cabbc83"
+		"63c1390f",
+		"232d5147"
 	],
 	tasks: [{
 		uid: "2a6d2633",

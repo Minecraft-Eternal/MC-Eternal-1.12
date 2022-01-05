@@ -105,13 +105,19 @@
 			"generator": {
 				"block": [
 					{
-						"name": "futuremc:ancient_debris"
+						"name": "futuremc:ancient_debris",
+						"weight": 20
+					},
+					{
+						"name": "futuremc:ancient_debris",
+						"weight": 80
 					}
 				],
 				"material": "minecraft:netherrack",
 				"cluster-size": 2
 			},
 			"cluster-count": 1,
+			"chunk-chance": 3,
 			"min-height": 8,
 			"max-height": 119,
 			"retrogen": false,

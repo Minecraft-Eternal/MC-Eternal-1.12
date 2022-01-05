@@ -24,7 +24,8 @@
 				Level: 0b
 			},
 			Damage: 15s
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "502244c1",

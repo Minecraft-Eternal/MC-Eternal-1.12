@@ -1,6 +1,7 @@
 {
-	x: 12.5d,
-	y: 2.5d,
+	x: 16.5d,
+	y: 1.5d,
+	description: "Mana from Water! *Read the Lexica Botania for Info*",
 	dependencies: [
 		"8cf046cd"
 	],

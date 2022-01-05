@@ -1,0 +1,35 @@
+{
+	title: "Dimensional Rails",
+	x: 28.5d,
+	y: 4.5d,
+	description: "These Rails will teleport Minecarts that pass over them into the Dimension related to the rail! They can't take beings inside the cart with them sadly.",
+	dependencies: [
+		"cf40c7b4"
+	],
+	tasks: [{
+		uid: "7a8a3cce",
+		type: "item",
+		items: [{
+			item: "naturesaura:dimension_rail_overworld"
+		}]
+	},
+	{
+		uid: "5ccaff18",
+		type: "item",
+		items: [{
+			item: "naturesaura:dimension_rail_nether"
+		}]
+	},
+	{
+		uid: "b21ef9af",
+		type: "item",
+		items: [{
+			item: "naturesaura:dimension_rail_end"
+		}]
+	}],
+	rewards: [{
+		uid: "4877347e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

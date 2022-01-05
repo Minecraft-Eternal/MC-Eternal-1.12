@@ -2,7 +2,7 @@
   {
     "identifier": "vortex",
     "enabled": false,
-    "entityBlacklist": [],
+    "entityBlacklist": ["thaumicaugmentation:eldritch_golem", "thaumicaugmentation:eldritch_warden", "thaumcraft:cultistleader", "thaumcraft:eldritchwarden"],
     "alwaysOnEntity": [],
     "tier": 1
   },
@@ -37,21 +37,21 @@
   {
     "identifier": "reflecting",
     "enabled": true,
-    "entityBlacklist": ["twilightforest:lich"],
+    "entityBlacklist": ["twilightforest:lich", "thaumicaugmentation:eldritch_golem", "thaumicaugmentation:eldritch_warden"],
     "alwaysOnEntity": [],
     "tier": 1
   },
   {
     "identifier": "knockback",
     "enabled": true,
-    "entityBlacklist": ["twilightforest:naga"],
+    "entityBlacklist": ["twilightforest:naga", "thaumcraft:cultistportalgreater"],
     "alwaysOnEntity": [],
     "tier": 1
   },
   {
     "identifier": "jailer",
     "enabled": true,
-    "entityBlacklist": [],
+    "entityBlacklist": ["thaumicaugmentation:eldritch_golem", "thaumicaugmentation:eldritch_warden", "thaumcraft:cultistleader"],
     "alwaysOnEntity": [],
     "tier": 1
   },
@@ -73,7 +73,7 @@
     "identifier": "adaptable",
     "enabled": true,
     "entityBlacklist": ["minecraft:ender_dragon", "minecraft:wither", "twilightforest:naga", "twilightforest:lich", "twilightforest:hydra", "erebus:erebus.crushroom", "erebus:erebus.tarantula_mini_boss", "erebus:erebus.antlion_boss", "atum:pharaoh"],
-    "alwaysOnEntity": [],
+    "alwaysOnEntity": ["thaumcraft:taintaclegiant"],
     "tier": 1
   },
   {
@@ -86,14 +86,14 @@
   {
     "identifier": "hasty",
     "enabled": true,
-    "entityBlacklist": ["minecraft:wither", "minecraft:ender_dragon", "twilightforest:naga", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:hydra", "twilightforest:snow_queen", "twilightforest:ur_ghast", "erebus:erebus.crushroom", "erebus:erebus.tarantula_mini_boss", "erebus:erebus.antlion_boss", "atum:pharaoh"],
+    "entityBlacklist": ["minecraft:wither", "minecraft:ender_dragon", "twilightforest:naga", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:hydra", "twilightforest:snow_queen", "twilightforest:ur_ghast", "erebus:erebus.crushroom", "erebus:erebus.tarantula_mini_boss", "erebus:erebus.antlion_boss", "atum:pharaoh", "thaumicaugmentation:eldritch_golem", "thaumicaugmentation:eldritch_warden", "thaumcraft:cultistportalgreater", "thaumcraft:taintaclegiant"],
     "alwaysOnEntity": [],
     "tier": 1
   },
   {
     "identifier": "shielding",
     "enabled": true,
-    "entityBlacklist": ["minecraft:wither", "minecraft:ender_dragon", "twilightforest:naga", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:hydra", "twilightforest:snow_queen", "twilightforest:ur_ghast", "theaurorian:runestonedungeonkeeper", "theaurorian:spider", "theaurorian:moonqueen", "erebus:erebus.crushroom", "erebus:erebus.tarantula_mini_boss", "erebus:erebus.antlion_boss", "atum:pharaoh"],
+    "entityBlacklist": ["minecraft:wither", "minecraft:ender_dragon", "twilightforest:naga", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:hydra", "twilightforest:snow_queen", "twilightforest:ur_ghast", "theaurorian:runestonedungeonkeeper", "theaurorian:spider", "theaurorian:moonqueen", "erebus:erebus.crushroom", "erebus:erebus.tarantula_mini_boss", "erebus:erebus.antlion_boss", "atum:pharaoh", "thaumicaugmentation:eldritch_golem", "thaumicaugmentation:eldritch_warden", "thaumcraft:cultistportalgreater", "thaumcraft:cultistleader", "thaumcraft:eldritchwarden", "thaumcraft:eldritchgolem", "thaumcraft:taintaclegiant","fossil:fossil.anu"],
     "alwaysOnEntity": [],
     "tier": 1
   },
@@ -107,7 +107,7 @@
   {
     "identifier": "plagued",
     "enabled": false,
-    "entityBlacklist": [],
+    "entityBlacklist": ["thaumicaugmentation:eldritch_golem", "thaumicaugmentation:eldritch_warden", "thaumcraft:eldritchgolem", "thaumcraft:eldritchwarden"],
     "alwaysOnEntity": [],
     "tier": 1
   }

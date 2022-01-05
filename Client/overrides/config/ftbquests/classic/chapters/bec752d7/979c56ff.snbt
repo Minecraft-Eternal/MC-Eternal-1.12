@@ -1,0 +1,30 @@
+{
+	x: 12.5d,
+	y: -4.5d,
+	description: "Mana to Enderman Teleport Denial! *Read Lexica Botania for more Info*",
+	dependencies: [
+		"34f7ff53",
+		"80831a7a",
+		"d12ad7f1"
+	],
+	tasks: [{
+		uid: "5261d9be",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "vinculotus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "164b4894",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ddf8f472",
+		type: "loot",
+		table: 1
+	}]
+}
