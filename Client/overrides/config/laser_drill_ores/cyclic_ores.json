@@ -4,7 +4,7 @@
     "color" : 15,
     "rarity" : [
       {
-        "whitelist": "minecraft:hell",
+        "whitelist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap",
         "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,
@@ -17,7 +17,7 @@
     "color" : 12,
     "rarity" : [
       {
-        "whitelist": "minecraft:hell",
+        "whitelist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap",
         "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,
@@ -30,7 +30,7 @@
     "color" : 4,
     "rarity" : [
       {
-        "whitelist": "minecraft:hell",
+        "whitelist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap",
         "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,
@@ -43,7 +43,7 @@
     "color" : 14,
     "rarity" : [
       {
-        "whitelist": "minecraft:hell",
+        "whitelist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap",
         "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,
@@ -56,7 +56,7 @@
     "color" : 11,
     "rarity" : [
       {
-        "whitelist": "minecraft:hell",
+        "whitelist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap",
         "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,
@@ -69,7 +69,7 @@
     "color" : 3,
     "rarity" : [
       {
-        "whitelist": "minecraft:hell",
+        "whitelist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap",
         "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,
@@ -82,7 +82,7 @@
     "color" : 5,
     "rarity" : [
       {
-        "whitelist": "minecraft:hell",
+        "whitelist": "minecraft:hell, biomesoplenty:corrupted_sands, biomesoplenty:fungi_forest, biomesoplenty:phantasmagoric_inferno, biomesoplenty:undergarden, biomesoplenty:visceral_heap",
         "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,
