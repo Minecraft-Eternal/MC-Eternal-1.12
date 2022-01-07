@@ -54,7 +54,7 @@ body:
     id: extra-info
     attributes:
       label: Extra Info
-      description: Any extra information about your instance of MCE Lite, such as additional mods not in the base pack. Please note that support on Altered instances is limited.
+      description: Any extra information about your instance of MC Eternal, such as additional mods not in the base pack. Please note that support on Altered instances is limited.
       placeholder: |
         Extra Mods: somerandommod-1.12.2-1.6.3, someotherrandommod-1.3.4-1.86
         Configs changed: Changed X in Y.cfg
