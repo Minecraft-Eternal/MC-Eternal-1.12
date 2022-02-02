@@ -19,6 +19,8 @@ var spellASCApprenticeLost = [218,221,228,249,250,256,274,281,280] as int[];
 var spellASCAdvancedLost = [204,220,225,229,232,238,241,242,243,244,246,251,263,269,271] as int[];
 var spellASCMasterLost = [247,248,270,279] as int[];
 
+var disabledSpells = [11,159,151,168] as int[];
+
 #Adding Oredicts
 for spells in spellNovice {
 	<ore:spellNovice>.add(itemUtils.getItem("ebwizardry:spell_book", spells));
@@ -113,6 +115,16 @@ for spells in spellASCMasterLost {
 	<ore:spellAll>.add(itemUtils.getItem("ancientspellcraft:ancient_spell_book", spells));
 	<ore:spellASCAll>.add(itemUtils.getItem("ancientspellcraft:ancient_spell_book", spells));
 	<ore:spellASCLostMaster>.add(itemUtils.getItem("ancientspellcraft:ancient_spell_book", spells));
+}
+
+#Disabled Spell Tooltips
+for spells in disabledSpells {
+	itemUtils.getItem("ebwizardry:spell_book", spells).addTooltip(format.red("Disabled, cannot be bound to Wands or Cast."));
+	itemUtils.getItem("ebwizardry:scroll", spells).addTooltip(format.red("Disabled, cannot be bound to Wands or Cast."));
+	itemUtils.getItem("tfspellpack:twilight_spell_book", spells).addTooltip(format.red("Disabled, cannot be bound to Wands or Cast."));
+	itemUtils.getItem("ancientspellcraft:ancient_spellcraft_spell_book", spells).addTooltip(format.red("Disabled, cannot be bound to Wands or Cast."));
+	itemUtils.getItem("ancientspellcraft:ancient_spell_book", spells).addTooltip(format.red("Disabled, cannot be bound to Wands or Cast."));
+	itemUtils.getItem("ancientspellcraft:ancient_spellcraft_scroll", spells).addTooltip(format.red("Disabled, cannot be bound to Wands or Cast."));
 }
 
 print("--- EBWizardryOredicts.zs initialized ---");
