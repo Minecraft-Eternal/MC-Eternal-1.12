@@ -1,28 +1,29 @@
 {
-	x: -13.0d,
-	y: -10.0d,
+	x: 1.0d,
+	y: 9.5d,
+	description: "Visualizes an ME Network to the holder, even through Walls! Right-click an ME block to visualize the network it's conncted to.",
 	dependencies: [
-		"e8b024e5"
+		"8e9ea584"
 	],
 	tasks: [{
-		uid: "1567eb5a",
+		uid: "795ce2e5",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "twilightforest:minotaur_axe"
+			id: "ae2stuff:visualiser"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "bff78b45",
+		uid: "095422ce",
 		type: "ftbmoney:money",
 		ftb_money: 75L
 	},
 	{
-		uid: "969b9d68",
+		uid: "6198f3f0",
 		type: "loot",
 		table: 1
 	}]

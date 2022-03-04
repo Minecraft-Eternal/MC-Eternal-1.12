@@ -1,5 +1,5 @@
 {
-	x: -12.0d,
+	x: -12.5d,
 	y: -6.5d,
 	dependencies: [
 		"29350f39"
@@ -25,6 +25,6 @@
 	rewards: [{
 		uid: "56db9137",
 		type: "ftbmoney:money",
-		ftb_money: 75L
+		ftb_money: 100L
 	}]
 }

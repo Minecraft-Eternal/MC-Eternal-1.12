@@ -4,7 +4,7 @@
 	y: 3.0d,
 	description: "It was THIS easy? *Read Description*",
 	text: [
-		"The Culture Vat is used to reconstruct the DNA of Prehistoric creatures (And plants!), but beware! DNA Reconstruction may fail and produce a nasty Failuresaurus, which will trample all over your area and leave an icky trail of goop."
+		"The Culture Vat is used to reconstruct the DNA of Prehistoric Creatures (and Plants!), but beware! DNA Reconstruction may fail and produce a nasty Failuresaurus (or Mutant Plant!), which will trample all over your area and leave an icky trail of goop."
 	],
 	dependencies: [
 		"74720ee3",
@@ -17,5 +17,15 @@
 		items: [{
 			item: "fossil:cultivate"
 		}]
+	}],
+	rewards: [{
+		uid: "afdb664f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "6a34f504",
+		type: "loot",
+		table: 1
 	}]
 }

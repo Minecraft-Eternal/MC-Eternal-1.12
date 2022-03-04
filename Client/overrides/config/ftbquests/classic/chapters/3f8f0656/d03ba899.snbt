@@ -1,0 +1,20 @@
+{
+	x: -2.5d,
+	y: 13.5d,
+	description: "Boosts the range of Wireless Access Points, but increases the Energy cost to maintain! Both increases are exponential!",
+	dependencies: [
+		"e2b78c00"
+	],
+	tasks: [{
+		uid: "299b8b2a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 42"
+		}]
+	}],
+	rewards: [{
+		uid: "cac68396",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

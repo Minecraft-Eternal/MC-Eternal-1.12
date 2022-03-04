@@ -2,12 +2,8 @@
 	title: "News on Nuclear Science",
 	x: 5.5d,
 	y: -0.5d,
-	description: "Need an explanation of Nuclearcraft? Check out the mod developer's official YouTube channel!",
-	text: [
-		"NC Developer's Channel: &9https://www.youtube.com/c/NuclearCraftMod§r",
-		"&2Fission Tutorial: &9https://www.youtube.com/watch?v=IIZur0OrqGY&t§r",
-		"&3Fusion Tutorial: &9https://www.youtube.com/watch?v=B9ctB28I3qI§r"
-	],
+	shape: "gear",
+	description: "NuclearCraft is a pretty complex mod. Need some tutorials? Check out the NuclearCraft Developer's official Youtube and Tutorials! *Repeatable Quest*",
 	can_repeat: true,
 	optional: true,
 	tasks: [{
@@ -15,9 +11,10 @@
 		type: "checkmark"
 	}],
 	rewards: [{
-		uid: "8b97dfd0",
-		type: "command",
-		title: "§3§lClaim me for a link to the Nuclearcraft Youtube Channel!",
-		command: "/tellraw @p {\"text\": \"§9§lClick here to be directed to the Nuclearcraft Youtube Channel!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/c/NuclearCraftMod/featured\"}}"
+		uid: "9ef9be50",
+		type: "choice",
+		title: "NuclearCraft Tutorial Links",
+		icon: "nuclearcraft:rtg_plutonium",
+		table: 27
 	}]
 }

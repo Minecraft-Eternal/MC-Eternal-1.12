@@ -1,0 +1,16 @@
+{
+	x: -4.0d,
+	y: 14.0d,
+	description: "Inscriber, but better! Holds a stack in each Slot, has no Side restrictions, and goes even faster! &l*Only takes AE power (from the attached Network)*",
+	dependencies: [
+		"8e9ea584"
+	],
+	optional: true,
+	tasks: [{
+		uid: "09c6843d",
+		type: "item",
+		items: [{
+			item: "ae2stuff:inscriber"
+		}]
+	}]
+}

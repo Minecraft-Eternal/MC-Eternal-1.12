@@ -7,7 +7,14 @@
 	tasks: [{
 		uid: "3787c47a",
 		type: "advancement",
+		title: "Advancement: &e... Figures",
+		icon: "fossil:figurine",
 		advancement: "fossil:fossil/figurine",
 		criterion: ""
+	}],
+	rewards: [{
+		uid: "0209fa06",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }
