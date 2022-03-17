@@ -9,7 +9,7 @@ recipes.remove(<extrautils2:angelring:1>);
 recipes.remove(<extrautils2:angelring:2>);
 #Dragon wings
 recipes.remove(<extrautils2:angelring:3>);
-#Golden Wings
+#Golden wings
 recipes.remove(<extrautils2:angelring:4>);
 #Evil wings
 recipes.remove(<extrautils2:angelring:5>);
