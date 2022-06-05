@@ -153,5 +153,10 @@
 	"healthmultiply": 50,
 	"damagemultiply": 20,
 	"speedmultiply": 1.5
+  },
+  {
+    "dimension": 66,
+    "mob": "eerieentities:wisp",
+    "result": "deny"
   }
 ]
