@@ -13,7 +13,6 @@ recipes.addShaped(<ebwizardry:arcane_tome:3>, [[<iceandfire:sea_serpent_scale_bl
 recipes.addShaped(<ebwizardry:ring_battlemage>, [[null, <ore:dustFairy>, null], [<ore:dustFairy>, <dungeontactics:golden_ring>, <ore:dustFairy>], [null, <ore:dustFairy>, null]]);
 recipes.addShaped(<biomesoplenty:sapling_0:3>, [[<wings:fairy_dust>, <ebwizardry:magic_crystal>, <wings:fairy_dust>], [<wings:fairy_dust>, <ore:treeSapling>, <wings:fairy_dust>], [<wings:fairy_dust>, <ebwizardry:magic_crystal>, <wings:fairy_dust>]]);
 recipes.addShaped(<twilightforest:minotaur_axe_gold>, [[<minecraft:gold_ingot>, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <wings:fairy_dust>], [null, <wings:fairy_dust>]]);
-recipes.addShaped(<ancientwarfarestructure:golden_idol>, [[null, <ore:blockGold>, null], [<minecraft:gold_block>, <ore:dustFairy>, <ore:blockGold>], [<ore:blockGold>, <ancientwarfarestructure:coin_stack_gold>, <minecraft:gold_block>]]);
 recipes.addShaped(<minecraft:iron_ingot>, [[null, <ore:dustFairy>, null], [<ore:dustFairy>, <minecraft:gold_ingot>, <ore:dustFairy>], [null, <ore:dustFairy>, null]]);
 recipes.addShaped(<minecraft:gold_ingot>, [[null, <ore:dustFairy>, null], [<ore:dustFairy>, <ore:ingotIron>, <ore:dustFairy>], [null, <ore:dustFairy>, null]]);
 recipes.addShaped(<ancientspellcraft:charm_bucket_coal>, [[<wings:fairy_dust>, null, <wings:fairy_dust>], [<wings:fairy_dust>, <minecraft:coal>, <wings:fairy_dust>], [null, <wings:fairy_dust>, null]]);
@@ -21,7 +20,7 @@ recipes.addShaped(<twilightforest:magic_beans>, [[<wings:fairy_dust>, <wings:fai
 recipes.addShaped(<thebetweenlands:ancient_boots>, [[<futuremc:netherite_ingot>, null, <futuremc:netherite_ingot>], [<wings:fairy_dust>, <minecraft:chainmail_boots>, <wings:fairy_dust>]]);
 recipes.addShaped(<thebetweenlands:ancient_chestplate>, [[<futuremc:netherite_ingot>, null, <futuremc:netherite_ingot>], [<wings:fairy_dust>, <minecraft:chainmail_chestplate>, <wings:fairy_dust>], [<wings:fairy_dust>, <wings:fairy_dust>, <wings:fairy_dust>]]);
 recipes.addShaped(<thebetweenlands:ancient_leggings>, [[<futuremc:netherite_ingot>, null, <futuremc:netherite_ingot>], [<wings:fairy_dust>, <minecraft:chainmail_leggings>, <wings:fairy_dust>], [<wings:fairy_dust>, null, <wings:fairy_dust>]]);
-recipes.addShaped(<thebetweenlands:ancient_helmet>, [[<ancientwarfare:component:5>, null, <ancientwarfare:component:5>], [<wings:fairy_dust>, <minecraft:chainmail_helmet>, <wings:fairy_dust>], [<wings:fairy_dust>, null, <wings:fairy_dust>]]);
+recipes.addShaped(<thebetweenlands:ancient_helmet>, [[<ore:dinosaurArmBone>, null, <ore:dinosaurArmBone>], [<wings:fairy_dust>, <minecraft:chainmail_helmet>, <wings:fairy_dust>], [<wings:fairy_dust>, null, <wings:fairy_dust>]]);
 recipes.addShaped(<cyclicmagic:purple_chestplate>, [[<ore:dustFairy>, <minecraft:sea_lantern>, <wings:fairy_dust>], [<wings:fairy_dust>, <minecraft:iron_chestplate>, <wings:fairy_dust>], [<wings:fairy_dust>, <minecraft:sea_lantern>, <wings:fairy_dust>]]);
 recipes.addShaped(<minecraft:dirt:2>, [[null, <wings:fairy_dust>, null], [<wings:fairy_dust>, <minecraft:dirt>, <wings:fairy_dust>], [null, <ore:dustFairy>, null]]);
 recipes.addShaped(<minecraft:sand>, [[null, <wings:fairy_dust>, null], [<wings:fairy_dust>, <minecraft:gravel>, <wings:fairy_dust>], [null, <ore:dustFairy>, null]]);
