@@ -92,7 +92,7 @@
   },
   {
     "identifier": "shielding",
-    "enabled": true,
+    "enabled": false,
     "entityBlacklist": ["minecraft:wither", "minecraft:ender_dragon", "twilightforest:naga", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:hydra", "twilightforest:snow_queen", "twilightforest:ur_ghast", "theaurorian:runestonedungeonkeeper", "theaurorian:spider", "theaurorian:moonqueen", "erebus:erebus.crushroom", "erebus:erebus.tarantula_mini_boss", "erebus:erebus.antlion_boss", "atum:pharaoh", "thaumicaugmentation:eldritch_golem", "thaumicaugmentation:eldritch_warden", "thaumcraft:cultistportalgreater", "thaumcraft:cultistleader", "thaumcraft:eldritchwarden", "thaumcraft:eldritchgolem", "thaumcraft:taintaclegiant","fossil:fossil.anu"],
     "alwaysOnEntity": [],
     "tier": 1
