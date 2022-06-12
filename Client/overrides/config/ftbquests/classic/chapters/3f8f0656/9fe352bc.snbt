@@ -3,8 +3,7 @@
 	y: 10.5d,
 	description: "Large transfer capacity and faster rate of transfer",
 	dependencies: [
-		"0108d5cd",
-		"6e7548d0"
+		"0108d5cd"
 	],
 	tasks: [{
 		uid: "a8f19303",

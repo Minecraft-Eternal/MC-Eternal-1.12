@@ -12,5 +12,10 @@
 		items: [{
 			item: "fossil:analyzer"
 		}]
+	}],
+	rewards: [{
+		uid: "0296378c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

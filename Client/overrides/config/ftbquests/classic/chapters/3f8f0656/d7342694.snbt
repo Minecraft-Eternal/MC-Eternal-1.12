@@ -1,30 +1,33 @@
 {
-	x: -10.0d,
-	y: -6.5d,
+	x: -1.5d,
+	y: 12.5d,
+	description: "Network Access and Crafting on the go!",
 	dependencies: [
-		"29350f39"
+		"e2b78c00"
 	],
 	tasks: [{
-		uid: "d4db1c04",
+		uid: "2000f9e6",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "twilightforest:naga_leggings",
+			id: "wct:wct",
 			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 0s
-				}]
+				InfinityEnergy: 0
 			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "468847ac",
+		uid: "e4dc0d17",
 		type: "ftbmoney:money",
 		ftb_money: 75L
+	},
+	{
+		uid: "37c4650b",
+		type: "loot",
+		table: 1
 	}]
 }

@@ -1,6 +1,7 @@
 {
 	x: -18.5d,
 	y: 6.5d,
+	description: "&oSimple Figurines crafted by an Ancient people, a particular variety of these figurines is unsettling...",
 	dependencies: [
 		"85acd8e6"
 	],
@@ -22,7 +23,20 @@
 		},
 		{
 			item: "fossil:figurine 1 4"
+		},
+		{
+			item: "fossil:figurine 1 15"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "8fae63c3",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "036678f8",
+		type: "loot",
+		table: 1
 	}]
 }

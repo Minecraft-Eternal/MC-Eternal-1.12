@@ -1,0 +1,20 @@
+{
+	title: "AE2torials",
+	x: -5.5d,
+	y: 8.5d,
+	shape: "gear",
+	description: "Unfamiliar with Applied Energistics 2 and need to learn? Check out these Tutorials! *Repeatable Quest*",
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "2394210b",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "2a2d98f2",
+		type: "choice",
+		title: "AE2 Tutorial Links",
+		icon: "appliedenergistics2:controller",
+		table: 26
+	}]
+}

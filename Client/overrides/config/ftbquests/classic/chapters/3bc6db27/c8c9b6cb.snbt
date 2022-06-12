@@ -7,7 +7,14 @@
 	tasks: [{
 		uid: "816df6cc",
 		type: "advancement",
+		title: "Advancement: &eBingo! Dino DNA!",
+		icon: "fossil:triceratops_dna",
 		advancement: "fossil:fossil/dna",
 		criterion: ""
+	}],
+	rewards: [{
+		uid: "3c18e840",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

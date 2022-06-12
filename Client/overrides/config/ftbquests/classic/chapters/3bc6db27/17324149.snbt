@@ -79,5 +79,15 @@
 		items: [{
 			item: "fossil:toy_tethered_log"
 		}]
+	}],
+	rewards: [{
+		uid: "b710f8b3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3e0bd63a",
+		type: "loot",
+		table: 1
 	}]
 }

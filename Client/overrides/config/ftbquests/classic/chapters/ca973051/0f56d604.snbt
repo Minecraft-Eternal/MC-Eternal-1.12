@@ -1,31 +1,87 @@
 {
-	title: "Phantom Helmet",
-	x: -11.0d,
-	y: -15.0d,
+	title: "The Knight Phantoms",
+	x: -12.0d,
+	y: -11.5d,
 	shape: "diamond",
+	description: "&oIn the Darkest sectors of the Twilight Forest lie ancient Strongholds... What could they possibly contain?",
 	dependencies: [
-		"d592428b"
+		"0647fe18"
 	],
 	tasks: [{
-		uid: "c0c45d0b",
-		type: "kill",
-		icon: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "twilightforest:phantom_helmet"
-		},
-		entity: "twilightforest:knight_phantom",
-		value: 1L
+		uid: "410a5816",
+		type: "advancement",
+		title: "Advancement: &eCarminite Acclimation",
+		icon: "twilightforest:trophy 1 4",
+		advancement: "twilightforest:progress_knights",
+		criterion: ""
 	}],
 	rewards: [{
 		uid: "65f1ff81",
 		type: "ftbmoney:money",
-		ftb_money: 75L
+		ftb_money: 500L
 	},
 	{
-		uid: "d2eb54b2",
-		type: "loot",
-		table: 1
+		uid: "b454a205",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "e4af09c7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8851329178942211897L,
+					AS_Amulet_HolderMost: 867781763579201090L
+				}
+			},
+			id: "twilightforest:phantom_helmet",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				}],
+				display: {
+					Lore: [
+						"Given to a secret order of Knights...",
+						"Not so secret anymore, is it?",
+						"§dExclusive Twilight Relic"
+					],
+					Name: "§8§lForgotten Knight's Helm"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 348345,
+					UUIDLeast: 437324,
+					Amount: 10,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "Revenant Rage"
+				},
+				{
+					UUIDMost: 348355,
+					UUIDLeast: 4373344,
+					Amount: 4,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "Revenant Rage"
+				},
+				{
+					UUIDMost: 3568345,
+					UUIDLeast: 465324,
+					Amount: 5,
+					Slot: "head",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "Revenant Rage"
+				}]
+			}
+		}
 	}]
 }
