@@ -10,7 +10,7 @@ furnace.remove(<techreborn:ore:8>, <dungeontactics:tungsten_dust>);
 furnace.remove(<libvulpes:ore0:8>, <dungeontactics:titanium_dust>);
 recipes.removeByRecipeName("dungeontactics:misc/materials/extra_materials/tungsten_dust");
 recipes.removeByRecipeName("dungeontactics:misc/materials/extra_materials/titanium_dust");
-
+recipes.remove(<dungeontactics:tunnelling_device>);
 
 
 #Add Recipes

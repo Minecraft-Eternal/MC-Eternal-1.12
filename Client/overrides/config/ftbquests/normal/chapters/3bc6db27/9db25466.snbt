@@ -15,5 +15,10 @@
 		items: [{
 			item: "fossil:dinopedia"
 		}]
+	}],
+	rewards: [{
+		uid: "9f30ffa8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

@@ -18,5 +18,15 @@
 		items: [{
 			item: "fossil:worktable"
 		}]
+	}],
+	rewards: [{
+		uid: "f1cbb077",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c7a7426e",
+		type: "loot",
+		table: 1
 	}]
 }

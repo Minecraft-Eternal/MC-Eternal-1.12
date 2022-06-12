@@ -1,7 +1,9 @@
 {
-	x: -4.5d,
-	y: 8.5d,
+	x: -8.5d,
+	y: 10.5d,
+	description: "Only found in the Beneath dimension!",
 	dependencies: [
+		"d013cbea",
 		"9a541046"
 	],
 	tasks: [{

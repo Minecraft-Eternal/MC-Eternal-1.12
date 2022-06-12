@@ -1,0 +1,47 @@
+{
+	title: "AE2 Tutorials",
+	icon: "appliedenergistics2:controller",
+	loot_size: 1,
+	rewards: [{
+		title: "AE2 Tutorials by &6Corjaantje",
+		icon: {
+			id: "minecraft:skull",
+			tag: {
+				SkullOwner: {
+					Id: "209f3364-0042-4d2a-b539-8640e6bbd6c1",
+					Properties: {
+						textures: [{
+							Signature: "pNGkil6nw9avNGPJgoh+bg1bFCOUyiGzgrag6lTTEgL4mKXNwsrQktqFtQjkYkNYf0bdSFfPjTLzva+j74mecYsmDeQ/An0SVf8Sv7xxkS0sa1s4o8XXCZoPNhYJ/8X8qB7drU1TtMNNUT91oSryYDwmoQNEnOCgPqlVBJEw3Rp+3ubUcOa8A38QFvKfrI34zvhaxJXdrWMgZxvWO4Zay8wo9jRGRdL3nxr4vaRsU3Qz5HosOGvaXA82z4ilZ1Z1axmdO+RQPFP1IcVScokRDIwDco/pNRhLAvar87nNuGts1YAaQfpizBajH3ZaA9i+g8WNnanmrdAEfx7ao4cY+fidMmI4ibd1YrxjPy8M1xKHnxND9x3jgZFR7e05WcDGmrIOrbQ2BOGSIZpnduKs5I9yUzKFk6bJMQkcZ/CrrJccytMMbdeaXck8tHFpZKUkc5W/D07xoWAkMuShItwu+ryfqYCbDsSJ497pS1nGnVjGcuf3IBwsunSXtolxNzD1LtH3xMhtfgAXFJUAtyXYCHgRXVv7i2hbtmuG5SDc3/HnEfj+LU2CkeGsrmrSy+ekKG/sK+MluCWI2GSNJ3CAkkK0joFw+g+LUmnN5E9LmMJcZWdmJFDqf0KcdRTaSVJBJG1DPE5S0jpxrR/gQfYb1ys/snYgtX7D2NyM1QlR+T4=",
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTY0NTY5MDQ5MzI2NywKICAicHJvZmlsZUlkIiA6ICIyMDlmMzM2NDAwNDI0ZDJhYjUzOTg2NDBlNmJiZDZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjb3JqYWFudGplIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY1NDQ0YzFlZDk3M2U4N2VjOWM4MmFiZmE2ZjlhZGNlNWQ5NThkMjcyYmM4OTZmM2NhNWE1ZmQ4ODc1N2FhNSIKICAgIH0KICB9Cn0="
+						}]
+					},
+					Name: "corjaantje"
+				}
+			},
+			Damage: 3s
+		},
+		command: "/tellraw @p {\"text\": \"§9§lClick here for AE2 Tutorials by §6Corjaantje!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"http://bit.ly/AE2TutorialSeries\"}}",
+		type: "command"
+	},
+	{
+		title: "AE2 Tutorials by &6TKH",
+		icon: {
+			id: "minecraft:skull",
+			tag: {
+				SkullOwner: {
+					Id: "74e9c6b2-c8e8-449c-a8c5-6bb514544759",
+					Properties: {
+						textures: [{
+							Signature: "wLWbDh2fx5n6rwEM2vBKiO1gmRoZdWpKCb/D8BdzRijs3vNhQZx3Woc6CgSYymSj8YNCJ9P46vb+QYj3apH153dsadRLMaEliaCGEC08dU6HOL/LkIOKQIoBiOifkzcsrYKo4bzW+VkL/L+KyYp74fZrRKq8InyzXPcJJ+gcr5snB8oIjw3LuGgnES9zQWUF+GlwDOdtI7dA1QeHCK6sOxlNPa7fzXV7lUyuagbFp0n1x+wcI4DqJXUcBIYJiNMeFg52uJyhlgW2u9k4ddf2JpO+KICa1HXQCDReTzqMpIkIdSlnDF+oE++ckRiY2Fr7cII1uPJ/oM6TnaOPrM/Phjkt6kTMGgjTriTGA4FmrKhYFNJJ3MFX10Q6qPke0N1mbijiIqARH8x56k5A2xFq8QJO/XNGP8sDEKwwaue50PkqLujVOg0TAamEMwBTaohEPL1i0ZaYWDsCqDN5iU6w5MqCeDFHHPdXwWkcO4WWC2TGJdsRRrVV+rZil8W9PxKZ6T72ZSEURnJEtDJdJ4CkKt1BLHVYLVQBQJtPBUm6MUVDXhCf9EGu0GxTXLOEoQLHhNGfCMs40xnuyNNJJMIc0n41BgufazXiYqayik5jtSdlxWJQ1c8APJUYBVgSIb1U8D4MaMFAzjVhVuch276B57yhbKNQhHXQ/ODDlPGjYzw=",
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTY0NTY5MDUwMTE2MSwKICAicHJvZmlsZUlkIiA6ICI3NGU5YzZiMmM4ZTg0NDljYThjNTZiYjUxNDU0NDc1OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aGVyZWFsdGtoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RkZDEwMzYyYzJkYjBjNzBiODY1ZWEwZDM3ZmM3OTk1MmU0MDM1ZDAwMjkxZDdkOGJmMGM2YzQ0ZWU4ZTUxMTkiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+						}]
+					},
+					Name: "therealtkh"
+				}
+			},
+			Damage: 3s
+		},
+		command: "/tellraw @p {\"text\": \"§9§lClick here for AE2 Tutorials by §6TKH!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLPCqiTnvx2Gv3rd5fpVPpKtb2oH53eYYa\"}}",
+		type: "command"
+	}]
+}

@@ -1,6 +1,7 @@
 {
-	x: -12.0d,
-	y: -11.0d,
+	x: -15.0d,
+	y: -11.5d,
+	description: "&oShatters the walls of the Labyrinth with ease! &7*Found within the Secret room of the Labyrinth's lower level*",
 	dependencies: [
 		"7e4f6adb"
 	],

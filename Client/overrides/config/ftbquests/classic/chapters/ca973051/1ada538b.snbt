@@ -1,34 +1,29 @@
 {
-	x: -13.0d,
-	y: -18.5d,
+	x: -9.0d,
+	y: -13.0d,
+	description: "&oThe one-hit Wonder!",
 	dependencies: [
-		"f73e6af3"
+		"eaed8a89"
 	],
 	tasks: [{
-		uid: "c8f2ad8c",
+		uid: "ef574b6d",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "twilightforest:yeti_chestplate",
-			tag: {
-				ench: [{
-					lvl: 2s,
-					id: 0s
-				}]
-			}
+			id: "twilightforest:glass_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "f5424468",
+		uid: "04185054",
 		type: "ftbmoney:money",
-		ftb_money: 80L
+		ftb_money: 100L
 	},
 	{
-		uid: "3e2618c5",
+		uid: "4c994b88",
 		type: "loot",
 		table: 1
 	}]
