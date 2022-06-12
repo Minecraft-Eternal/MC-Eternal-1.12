@@ -6,7 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        If the issue is a Crash or Question, please ask in the Discord first https://discord.gg/ZS6FRR3
+        **IF THE ISSUE IS A CRASH OR QUESTION, PLEASE ASK IN OUR DISCORD BEFORE CREATING AN ISSUE**: https://discord.gg/ZS6FRR3
+        Help can also be provided quicker on our Discord, especially with Crashes and Questions!
   - type: textarea
     id: bug-desc
     attributes:
@@ -31,8 +32,8 @@ body:
     id: version-info
     attributes:
       label: Modpack Version
-      description: Please do not put "Latest", that is useless info.
-      placeholder: 1.4.4, 1.5-RC
+      description: Please do not put "Latest", that is not useful and makes it harder for everyone.
+      placeholder: 1.4.4, 1.5
     validations:
       required: true
   - type: textarea
@@ -46,7 +47,7 @@ body:
     id: log
     attributes:
       label: Log
-      description: Not required for all types of issues, do not include if not applicable.
+      description: Not required for all types of issues. DO NOT INCLUDE if not applicable.
       placeholder: Link from paste.gg, gist.github.com, etc.
     validations:
       required: false
