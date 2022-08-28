@@ -1,0 +1,24 @@
+{
+	title: "&5Un-Harvesting Impetus",
+	x: 30.5d,
+	y: -22.5d,
+	description: "&oRF to Lava&7 *Read Description*",
+	text: [
+		"&7An &5Impetus Diffuser&7 can revert the &0Charged Impetus&7 that the &5Impetus Drainer&7 refines from &0Impetus&7 drawn from Rifts back into &0Raw Impetus&7, which will be absorbed by the nearest Rift."
+	],
+	dependencies: [
+		"82dc35de"
+	],
+	tasks: [{
+		uid: "a9c4eb65",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:impetus_diffuser"
+		}]
+	}],
+	rewards: [{
+		uid: "f42e6f42",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "&5Rilocation",
+	x: 32.0d,
+	y: -23.0d,
+	description: "&oCasually steals crack in Space-Time&7 *Read Description*",
+	text: [
+		"&7This duo of &5Metaspatial devices&7 can be used to move around &5Flux Rifts&7 to and from &5Reinforced Jars&7, the &5Accumulator&7 will capture them, while the &5Extruder&7 will release them.",
+		"",
+		"&7&oThis poses an interesting question, Rifts attempt to absorb whatever touches them into the Void between dimensions, so what if one were to collide with another? From what i've observed, by natural means it is impossible, so i would need to force it. The results would likely be volatile, but may yield interesting results...",
+		"",
+		"&oThe &5&oExtruder&7&o contains a safety mechanism which does not allow Rifts to be unjarred in the natural proximity to others that has been observed, if a Rift cannot form within close proximity to another, it is likely a safety mechanism of whatever force creates Rifts, and is a risk i should not take."
+	],
+	dependencies: [
+		"8dafcaf0"
+	],
+	tasks: [{
+		uid: "5c1cfee8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:rift_jar"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6ed51386",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:rift_mover_input"
+		}]
+	},
+	{
+		uid: "a9def0ff",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:rift_mover_output"
+		}]
+	}],
+	rewards: [{
+		uid: "45761f9e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

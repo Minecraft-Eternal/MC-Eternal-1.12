@@ -1,0 +1,40 @@
+{
+	title: "&5Flux Condenser",
+	x: 26.5d,
+	y: -8.0d,
+	description: "&oCatch that Fluxing Criminal!&7 *Read Description*",
+	text: [
+		"&7A &5Flux Condenser&7 will use Essentia piped in through the Sides as a Catalyst to attract Flux from the Aura, the Flux will then bind to the Essentia, creating &5Vitium&7 Essentia, this will be ejected from the Bottom of the device.",
+		"Of course, it needs a place to hold the Essentia to attract the Flux, and that's what &5Flux Condenser Lattices&7 are for.",
+		"",
+		"&cUnder no circumstances should &5Vitium&c Essentia be fed into the Condenser!",
+		"",
+		"&7Lattices can be placed atop the Condenser, and will be connected up to &d8 Blocks&7 away from the source. ",
+		"The more Exposed Faces the Lattices have (though the specifics are fiddly), the more Flux the process attracts, allowing it to go faster, this also does make it cost more Essentia to trap the Flux though, as it's spread out through the Lattices.",
+		"Any Lattices outside the area that Condenser can use them from will pop right off of where they were supposed to be.",
+		"",
+		"But the Lattices can be &5Clogged&7 during the process, if one is Clogged, &dit and any connected through it won't be able to help the process, but still make it cost more Essentia&7!",
+		"So in short, if it's too tall and thin, it risks being Clogged and getting a severe reduction to speed, but expanding it is costly on &dVis&7!",
+		"Additionally, you don't need to create new Lattices to replace Clogged ones, the &dVis Filter&7 contained in the Lattices can be swapped for a fresh one with &dRight-click&7."
+	],
+	dependencies: [
+		"b2156be9"
+	],
+	tasks: [{
+		uid: "b62d720f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:condenser"
+		}]
+	}],
+	rewards: [{
+		uid: "935157c3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "eae54cf8",
+		type: "loot",
+		table: 1
+	}]
+}

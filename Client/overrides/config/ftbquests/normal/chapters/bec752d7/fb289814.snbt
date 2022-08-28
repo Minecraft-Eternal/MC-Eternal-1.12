@@ -1,0 +1,37 @@
+{
+	title: "&dElementium Caster's Gauntlet",
+	x: 18.5d,
+	y: -7.5d,
+	description: "&oForces Collide&7 *Read Description*",
+	text: [
+		"&7An &dElementium Caster's Gauntlet&7 uses &bMana&7 instead of &dVis&7 to cast spells using Foci.",
+		"It is identical to a standard Caster's Gauntlet in all other ways."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"21b847aa",
+		"5ef1c316"
+	],
+	tasks: [{
+		uid: "fdf2cc2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicperiphery:caster_elementium"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11a327a3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c302d934",
+		type: "loot",
+		table: 1
+	}]
+}

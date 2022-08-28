@@ -1,0 +1,29 @@
+{
+	title: "&5It's &oAlmost&5 Cake",
+	x: 28.0d,
+	y: -17.0d,
+	description: "&oCarol, what is this?&7 *Read Description*",
+	text: [
+		"&7Slowly regenerates slices of itself over time."
+	],
+	dependencies: [
+		"90c4a4d8"
+	],
+	tasks: [{
+		uid: "029b8e39",
+		type: "item",
+		items: [{
+			item: "thaumadditions:cake"
+		}]
+	}],
+	rewards: [{
+		uid: "7d1ce678",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "94563623",
+		type: "loot",
+		table: 1
+	}]
+}

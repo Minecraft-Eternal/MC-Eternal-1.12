@@ -1,0 +1,47 @@
+{
+	title: "&5Altarnatives",
+	x: 33.5d,
+	y: -18.5d,
+	shape: "hexagon",
+	description: "&oAlternates for your Altar&7 *Read Description*",
+	text: [
+		"&7Now that the &5Eye has been Opened and the great one felled&7, the Warding magic protecting the Spire has faded, allowing you to harvest it for your own benefit, the primary stones of the Spire include materials which seem to be viable substitutes for the &5Arcane Stone&7 you've been using in your &5Infusion Altar&7 up to this point.",
+		"",
+		"The &0Eldritch Infusion Altar&7 is &6significantly more stable than the normal one&7, and &6absorbs Essentia far quicker&7, but Infusions done with it have a &cslightly higher Essentia Cost&7.",
+		"&dPedestals&7 made from &0Eldritch Stone&7 also provide the same benefits and downsides as the Altar, but much weaker, they will also cause &cMassive instability&7 if not set in a proper Stabilizing configuration.",
+		"",
+		"The &8Ancient Infusion Altar&7 is &cnoticeably less stable than the normal one&7, but makes up for that by &6absorbing Essentia slightly quicker&7, and &6reducing Essentia Cost significantly&7.",
+		"&dPedestals&7 made from &8Ancient Stone&7 also provide a slight reduction to &dEssentia Cost&7, but nowhere near as large as the benefit the Altar itself provides.",
+		"",
+		"&5Infusion Stones&7 are fully compatible with these two Altars, so you can boost their positives further, or improve their weaker aspects.",
+		"Note that you can Mix and Match Pedestals and Altars!"
+	],
+	dependencies: [
+		"b4f9ea5d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bac35c73",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_eldritch_tile"
+		}]
+	},
+	{
+		uid: "68868381",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_ancient"
+		}]
+	}],
+	rewards: [{
+		uid: "b42e4a31",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "3861d84f",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "&5Magic is Everywhere!",
+	x: 23.5d,
+	y: 0.0d,
+	description: "The &5Thaumometer&7 is an enchanted Lens used to observe the mystical energies inherent in many things in the world. &lTry scanning every new item and being you come across, especially those of Thaumic origin!",
+	dependencies: [
+		"3c6d03b6"
+	],
+	tasks: [{
+		uid: "fefd0601",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb37f99e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

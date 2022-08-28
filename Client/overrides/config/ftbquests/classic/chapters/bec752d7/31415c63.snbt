@@ -1,0 +1,41 @@
+{
+	title: "&5Impulse of Force",
+	x: 30.0d,
+	y: -19.0d,
+	description: "&oFireworks? Where we're going we don't need Fireworks.&7 *Read Description*",
+	text: [
+		"&7The &5Impetus Thruster Upgrade&7 is an Augment for the &5Elytra Harness&7, when attached, it allows the wearer to slowly eject &0Charged Impetus&7 from the &dImpetus Cell&7 on the Augment, kicking them up to a high velocity, this allows the wearer to travel whatever way they are tilted at high speed, as long as they have &0Impetus&7 stored in the Cell.",
+		"Using the Boost mechanism after turning also allows the wearer to make incredibly sharp turns that would otherwise be impossible with Elytra.",
+		"",
+		"Use your &dJump&7 keybind to Boost, or set &6EnableImpetusThrusterKeybind&7 to true in &dThaumic Augmentation's&7 config and use the rebindable key."
+	],
+	dependencies: [
+		"82dc35de"
+	],
+	tasks: [{
+		uid: "12128551",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					energy: {
+						energy: 0L
+					}
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:elytra_harness_augment"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "62b28b51",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "0bc8a8de",
+		type: "loot",
+		table: 1
+	}]
+}

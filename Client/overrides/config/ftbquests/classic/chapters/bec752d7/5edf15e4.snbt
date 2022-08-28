@@ -1,7 +1,11 @@
 {
-	x: 17.0d,
-	y: 8.0d,
-	description: "Sprinkle a little here... Sprinkle a little over a crafting table... Oh how I love sparkles",
+	title: "&5Thaumaturge's Salt",
+	x: 20.5d,
+	y: 3.5d,
+	description: "Sprinkle a little here... Sprinkle a little over a crafting table... Oh how I love sparkles... &lHow to craft? Sleep and read the book! Or check JEI.",
+	dependencies: [
+		"96195e35"
+	],
 	tasks: [{
 		uid: "c36ec607",
 		type: "item",

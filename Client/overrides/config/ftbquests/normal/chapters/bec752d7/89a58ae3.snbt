@@ -1,0 +1,24 @@
+{
+	title: "&5Arcane Spa",
+	x: 18.5d,
+	y: 1.5d,
+	description: "&oInstant Dissolution&7 *Read Description*",
+	text: [
+		"&7An &5Arcane Spa&7 is a device that will place Fluids it is filled with into a 5x5 area above it, one special property it has is the ability to &dInstantly dissolve Purifying Bath Salts in Water it places&7!"
+	],
+	dependencies: [
+		"53c7a7f8"
+	],
+	tasks: [{
+		uid: "72ade2dd",
+		type: "item",
+		items: [{
+			item: "thaumcraft:spa"
+		}]
+	}],
+	rewards: [{
+		uid: "600a248f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}
