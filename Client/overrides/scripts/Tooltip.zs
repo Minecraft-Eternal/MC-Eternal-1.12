@@ -59,5 +59,18 @@ for metas in mekfactorymetas {
 	itemUtils.getItem("mekanism:machineblock",metas).addTooltip(format.red("Do not place with a Builder's Wand, will transform into a Smelting Factory"));
 }
 
+val thaumcuriosities = { 
+	1:"Alchemy", 
+	0:"Auromancy", 
+	4:"Infusion", 
+	5:"Artifice", 
+	2:"Golemancy", 
+	3:"Eldritch"
+} as string[int];
+
+for metas in thaumcuriosities {
+	itemUtils.getItem("thaumcraft:curio",metas).addTooltip(format.lightPurple("More likely to give "~thaumcuriosities[metas]~" Research"));
+}
+<thaumcraft:curio:3>.addTooltip(format.darkPurple("Will grant some Warp on use!"));
 
 print("--- Tooltip.zs initialized ---");	
