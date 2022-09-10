@@ -13,7 +13,6 @@ recipes.remove(<biomestaff:obsidian_shaft>);
 recipes.remove(<enderio:item_material:77>);
 recipes.remove(<randomthings:idcard>);
 recipes.remove(<vampirism:crossbow_arrow>.withTag({type: "normal"}));
-recipes.remove(<dungeontactics:iron_knife>);
 recipes.remove(<iceandfire:chain_link>);
 recipes.remove(<opencomputers:material:12>);
 recipes.remove(<betterbuilderswands:wandiron>);
@@ -35,7 +34,6 @@ recipes.addShaped(<biomestaff:obsidian_shaft> * 4, [[null, <ore:obsidian>, null]
 recipes.addShaped(<randomthings:idcard>, [[<minecraft:paper>, <ore:dyeBlack>, null], [null, null, null], [null, null, null]]);
 recipes.addShaped(<enderio:item_material:77>, [[<ore:dyeBlack>, <minecraft:paper>, null], [null, null, null], [null, null, null]]);
 recipes.addShaped(<vampirism:crossbow_arrow>.withTag({type: "normal"}) * 6, [[null, null, null], [<ore:ingotIron>, null, null], [<ore:stickWood>, null, null]]);
-recipes.addShaped(<dungeontactics:iron_knife>, [[null, null, null], [null, <ore:ingotIron>, null], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<iceandfire:chain_link>, [[null, <ore:nuggetIron>, null], [<ore:nuggetIron>, null, <ore:nuggetIron>], [null, <ore:nuggetIron>, null]]);
 recipes.addShaped(<opencomputers:material:12>, [[null, <ore:nuggetIron>, null], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [null, null, null]]);
 recipes.addShaped(<betterbuilderswands:wandiron>, [[<ore:ingotIron>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
