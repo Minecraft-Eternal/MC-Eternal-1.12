@@ -89,10 +89,10 @@ import crafttweaker.oredict.IOreDictEntry;
 				Damage: 0 as short
 			},
 			ancientwarfare: {
-				id: "ancientwarfare:manual",
+				id: "",
 				Count: 1 as byte,
 				tag: {
-					"akashictome:definedMod": "ancientwarfare"
+					"akashictome:definedMod": ""
 				},
 				Damage: 0 as short
 			},
@@ -155,7 +155,6 @@ import crafttweaker.oredict.IOreDictEntry;
 	var addedBooks = [
 		<tconstruct:book>, 
 		<conarm:book>,
-		<ancientwarfare:manual>, 
 		<ebwizardry:wizard_handbook>,
 		<guideapi:bloodmagic-guide>, 
 		<forestry:book_forester>, 
