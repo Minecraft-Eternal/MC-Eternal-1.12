@@ -148,7 +148,7 @@
     "chancecubes:monty_hall": false,
     "chancecubes:matching": false,
     "chancecubes:tic_tac_toe": true,
-    "chancecubes:boss_mimic": true,
+    "chancecubes:boss_mimic": false,
     "chancecubes:boss_evil_witch": true,
     "chancecubes:boss_demonic_blaze": true,
     "chancecubes:math": false,
