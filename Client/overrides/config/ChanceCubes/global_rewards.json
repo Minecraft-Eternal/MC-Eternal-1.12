@@ -200,7 +200,7 @@
     "thermalfoundation:phyto_gro": true,
     "thermalfoundation:hardened_glass": true,
     "thermalfoundation:hardened_alloy_glass": true,
-    "thermalexpansion:florbs": true,
+    "thermalexpansion:florbs": false,
     "thermalexpansion:stay_hydrated": true
   }
 }
