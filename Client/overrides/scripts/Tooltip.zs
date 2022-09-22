@@ -35,8 +35,15 @@ print("--- loading Tooltip.zs ---");
 <erebus:materials:1>.addTooltip(format.gold("The Tinkers' Construct material for this item has been buffed massively."));
 <theaurorian:auroriansteel>.addTooltip(format.gold("The Tinkers' Construct material for this item has been buffed massively."));
 <extrautils2:teleporter:1>.addTooltip(format.red("Disabled and will cause a Crash if you try to use it! use the Beneath and Beneath Teleporter instead."));
-<inventorypets:solstice_sword>.addTooltip(format.red("Disabled"));
-<bibliocraft:fancyworkbench:*>.addTooltip(format.red("Disabled"));
+
+var disabledItems = [
+	<inventorypets:solstice_sword>,
+	<bibliocraft:fancyworkbench:*>
+] as IItemStack[];
+
+for item in disabledItems {
+	item.addTooltip(format.red("Disabled"));
+}
 
 var supremarmor = [<mysticalagriculture:supremium_helmet>,<mysticalagriculture:supremium_chestplate>,<mysticalagriculture:supremium_leggings>,<mysticalagriculture:supremium_boots>] as IItemStack[];
 for armor in supremarmor {
@@ -59,6 +66,27 @@ val mekfactorymetas = [5,6,7] as int[];
 for metas in mekfactorymetas {
 	itemUtils.getItem("mekanism:machineblock",metas).addTooltip(format.red("Do not place with a Builder's Wand, will transform into a Smelting Factory"));
 }
+
+var aePresses = [
+	<appliedenergistics2:material:13>,
+	<appliedenergistics2:material:14>,
+	<appliedenergistics2:material:15>,
+	<appliedenergistics2:material:19>
+] as IItemStack[];
+
+for press in aePresses {
+	press.addTooltip(format.aqua("Can be purchased in the Shop!"));
+}
+
+var meteorRelatedItems = [
+	<appliedenergistics2:sky_compass>,
+	<appliedenergistics2:sky_stone_block>,
+] as IItemStack[];
+
+for item in meteorRelatedItems {
+	item.addTooltip(format.red("AE2 Meteors Spawn in The Beneath and on The Moon"));
+}
+
 var candleData = {
 	0 : [<enchantment:minecraft:unbreaking>,<enchantment:elenaidodge2:lightweight>],
 	1 : [<enchantment:minecraft:fire_protection>,<enchantment:minecraft:fire_aspect>,<enchantment:minecraft:flame>,<enchantment:cofhcore:smelting>,<enchantment:extrautils2:xu.burnerang>],
