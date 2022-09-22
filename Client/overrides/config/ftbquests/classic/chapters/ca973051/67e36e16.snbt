@@ -1,8 +1,9 @@
 {
 	x: -13.0d,
-	y: -14.0d,
+	y: -11.0d,
+	description: "&oFoe's Armored? Not as much of a problem!",
 	dependencies: [
-		"3e66f170"
+		"0f56d604"
 	],
 	tasks: [{
 		uid: "8c40ceea",

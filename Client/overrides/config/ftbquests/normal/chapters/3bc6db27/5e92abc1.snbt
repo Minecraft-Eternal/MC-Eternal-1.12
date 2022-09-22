@@ -7,7 +7,14 @@
 	tasks: [{
 		uid: "f1f4f0c5",
 		type: "advancement",
+		title: "Advancement: &eInto a Million Pieces",
+		icon: "fossil:broken_sword",
 		advancement: "fossil:fossil/broken_sword",
 		criterion: ""
+	}],
+	rewards: [{
+		uid: "d5808aa5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

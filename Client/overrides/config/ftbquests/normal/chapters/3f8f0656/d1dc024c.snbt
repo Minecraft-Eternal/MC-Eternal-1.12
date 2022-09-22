@@ -2,7 +2,7 @@
 	title: "Commonly-used Alloys",
 	x: 10.5d,
 	y: 6.0d,
-	description: "Most used alloys of EnderIO. Other quests around will unlock as you make the Alloys!",
+	description: "Most used alloys of EnderIO",
 	dependencies: [
 		"3fd484fc"
 	],

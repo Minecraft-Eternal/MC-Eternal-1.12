@@ -1,8 +1,9 @@
 {
-	x: -2.0d,
+	x: -4.5d,
 	y: 9.0d,
+	description: "Dunk Charged Certus, Redstone, and Nether Quartz into Water to create!",
 	dependencies: [
-		"9a541046"
+		"464d17d4"
 	],
 	tasks: [{
 		uid: "fccc273e",

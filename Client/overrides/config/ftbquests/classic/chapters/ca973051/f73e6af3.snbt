@@ -1,6 +1,7 @@
 {
-	x: -12.0d,
-	y: -19.0d,
+	x: -11.0d,
+	y: -11.0d,
+	description: "&oGive your opponents Frostbite! By being warm?",
 	dependencies: [
 		"d233564c"
 	],

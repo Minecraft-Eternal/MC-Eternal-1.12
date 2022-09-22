@@ -1,6 +1,7 @@
 {
 	x: -17.0d,
 	y: 7.5d,
+	description: "&oRelics of a bygone era, i have heard of similar, yet more world-threatening items in Ancient texts discovered by the Villagers",
 	dependencies: [
 		"85acd8e6"
 	],
@@ -27,5 +28,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a058cfab",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "892ddf74",
+		type: "loot",
+		table: 1
 	}]
 }
