@@ -37,8 +37,7 @@ print("--- loading Tooltip.zs ---");
 <extrautils2:teleporter:1>.addTooltip(format.red("Disabled and will cause a Crash if you try to use it! use the Beneath and Beneath Teleporter instead."));
 
 var disabledItems = [
-	<inventorypets:solstice_sword>,
-	<bibliocraft:fancyworkbench:*>
+	<inventorypets:solstice_sword>
 ] as IItemStack[];
 
 for item in disabledItems {
