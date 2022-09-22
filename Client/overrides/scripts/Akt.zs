@@ -88,14 +88,6 @@ import crafttweaker.oredict.IOreDictEntry;
 				},
 				Damage: 0 as short
 			},
-			ancientwarfare: {
-				id: "",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": ""
-				},
-				Damage: 0 as short
-			},
 			bloodmagic: {
 				id: "guideapi:bloodmagic-guide",
 				Count: 1 as byte,
