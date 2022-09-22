@@ -93,15 +93,15 @@ var candleData = {
 	2 : [<enchantment:minecraft:knockback>,<enchantment:minecraft:punch>,<enchantment:ebwizardry:magic_protection>],
 	3 : [<enchantment:minecraft:feather_falling>,<enchantment:ebwizardry:frost_protection>,<enchantment:cyclicmagic:enchantment.launch>],
 	4 : [<enchantment:minecraft:looting>,<enchantment:minecraft:fortune>,<enchantment:minecraft:luck_of_the_sea>],
-	10: [<enchantment:minecraft:sweeping>,<enchantment:enderio:repellent>,<enchantment:tombstone:soulbound>,<enchantment:yoyos:collecting>],
+	5 : [<enchantment:minecraft:blast_protection>,<enchantment:cofhcore:insight>,<enchantment:endercore:xpboost>],
 	8 : [<enchantment:minecraft:protection>,<enchantment:charm:salvage>,<enchantment:minecraft:infinity>,<enchantment:fossil:paleontology>],
 	7 : [<enchantment:minecraft:bane_of_arthropods>,<enchantment:cofhcore:smashing>,<enchantment:cyclicmagic:enchantment.magnet>],
 	6 : [<enchantment:minecraft:silk_touch>,<enchantment:cofhcore:holding>,<enchantment:cofhcore:vorpal>],
-	5 : [<enchantment:minecraft:blast_protection>,<enchantment:cofhcore:insight>,<enchantment:endercore:xpboost>],
 	9 : [<enchantment:minecraft:respiration>,<enchantment:theaurorian:lightning>,<enchantment:theaurorian:lightningresistance>],
+	10: [<enchantment:minecraft:sweeping>,<enchantment:enderio:repellent>,<enchantment:tombstone:soulbound>,<enchantment:yoyos:collecting>],
+	11: [<enchantment:minecraft:efficiency>,<enchantment:minecraft:sharpness>,<enchantment:minecraft:lure>,<enchantment:minecraft:power>,<enchantment:ebwizardry:shock_protection>,<enchantment:charm:homing>,<enchantment:extrautils2:xu.bladerang>],
 	12: [<enchantment:minecraft:aqua_affinity>,<enchantment:minecraft:depth_strider>,<enchantment:extrautils2:xu.zoomerang>,<enchantment:fossil:archeology>],
 	13: [<enchantment:minecraft:thorns>,<enchantment:cyclicmagic:enchantment.expboost>,<enchantment:mod_lavacow:poisonous>,<enchantment:extrautils2:xu.boomereaperang>],
-	11: [<enchantment:minecraft:efficiency>,<enchantment:minecraft:sharpness>,<enchantment:minecraft:lure>,<enchantment:minecraft:power>,<enchantment:ebwizardry:shock_protection>,<enchantment:charm:homing>,<enchantment:extrautils2:xu.bladerang>],
 	14: [<enchantment:cofhcore:leech>,<enchantment:vampirism:vampireslayer>,<enchantment:extrautils2:xu.kaboomerang>,<enchantment:openblocks:explosive>],
 	15: [<enchantment:minecraft:smite>,<enchantment:enderio:witherweapon>,<enchantment:enderio:witherarrow>]
 } as IEnchantmentDefinition[][int];
