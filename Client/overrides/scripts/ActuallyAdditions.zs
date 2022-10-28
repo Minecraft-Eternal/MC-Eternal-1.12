@@ -3,7 +3,12 @@ import mods.actuallyadditions.Crusher;
 
 print("--- loading ActuallyAdditions.zs ---");
 
-recipes.remove(<actuallyadditions:block_grinder>);
-recipes.remove(<actuallyadditions:block_grinder_double>);
+//val dustDiamond = <nuclearcraft:gem_dust:0>;
+val dustDiamond = <ore:dustDiamond>.firstItem;
+
+mods.actuallyadditions.Crusher.removeRecipe(dustDiamond);
+
+mods.actuallyadditions.Crusher.addRecipe(dustDiamond, <minecraft:diamond>);
+mods.actuallyadditions.Crusher.addRecipe(dustDiamond*4, <minecraft:diamond_horse_armor>);
 
 print("--- ActuallyAdditions.zs initialized ---");	
