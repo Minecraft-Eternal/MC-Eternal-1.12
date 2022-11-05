@@ -1,0 +1,32 @@
+{
+	title: "&5Arcane Bellows",
+	x: 28.0d,
+	y: -1.0d,
+	shape: "octagon",
+	description: "&7&oInto the Bellowing Wilds&7 *Read Description*",
+	text: [
+		"&5Arcane Bellows&7 can be attached to several Thaumic constructs to improve them in various ways.",
+		"Multiple bellows can be attached to increase the effect.",
+		"",
+		"&5Crucibles&7 will &6reach Boiling temperature faster&7.",
+		"&5Essentia Smelteries&7 of all kinds will &6break items down quicker&7.",
+		"&5Infernal Furnaces&7 will &6run faster and have improved chances of Bonus Products&7.",
+		"&5Essentia Buffers&7 will &6emit 32 more Suction on unchoked sides&7."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3c6d03b6"
+	],
+	tasks: [{
+		uid: "bf1e6e2f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bellows"
+		}]
+	}],
+	rewards: [{
+		uid: "15de33b3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

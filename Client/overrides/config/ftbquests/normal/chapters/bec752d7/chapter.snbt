@@ -1,10 +1,10 @@
 {
 	title: "Magic and Spellcasting",
 	icon: {
-		id: "ebwizardry:master_fire_wand",
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
-		}
+		},
+		id: "ebwizardry:master_fire_wand"
 	},
 	always_invisible: false,
 	group: 0,
@@ -58,6 +58,50 @@
 		y: 6.0d,
 		width: 0.2d,
 		height: 0.7d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 20.509523809523813d,
+		y: 1.8047619047619037d,
+		width: 0.15d,
+		height: 0.5d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 19.0d,
+		y: 3.5d,
+		width: 0.2d,
+		height: 0.7d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 19.0d,
+		y: 4.5d,
+		width: 0.1d,
+		height: 0.35d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 26.007823129251733d,
+		y: -1.1173469387755333d,
+		width: 0.1d,
+		height: 0.35d,
 		rotation: 0.0d,
 		image: "assets:quest.png",
 		hover: [],

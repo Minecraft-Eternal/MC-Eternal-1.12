@@ -1,0 +1,38 @@
+{
+	title: "&5&lRead the Book, or you'll be Cooked!",
+	x: 22.5d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "&7&oPay Attention!&7 *READ DESCRIPTION*",
+	text: [
+		"&dSome details will be skipped over in these quests, simply because there's so much, and the Thaumonomicon already does a good job of explaining most things.",
+		"",
+		"&6Be observant when reading the requirements for each Stage of Research! You might miss an important &dConsume&6 type task's existence and &close something valuable to you!&6 Those types of tasks are few and far between, but it still stands!",
+		"",
+		"&dBut enough about the &5Thaumonomicon&d, for now, specific Shapes on quests in this Questline indicate some different things, so here's a map:",
+		"",
+		"&5Hexagon&d - &6Near-Essential",
+		"&5Octagon&d - &6Very Useful",
+		"&5Gear&d - &6Known Technical Problems (& Fixes!)"
+	],
+	dependencies: [
+		"5ff4f44c"
+	],
+	tasks: [{
+		uid: "d0b920d1",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d5587244",
+		type: "command",
+		title: "&dYou did read below, right?",
+		icon: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 100L
+			}
+		},
+		auto: "enabled",
+		command: "/tellraw @p {\"text\":\"§dYou did read the description of §5\\\"§lRead the Book, or you'll be Cooked!\\\"§d, right §5Thaumaturge§d?\"}"
+	}]
+}

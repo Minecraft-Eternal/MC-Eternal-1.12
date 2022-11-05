@@ -1,0 +1,48 @@
+{
+	title: "&6The Wonders of Thaumaturgy",
+	x: 25.5d,
+	y: -19.5d,
+	shape: "heart",
+	description: "&7&oUnending Potential&7 *Read Description*",
+	text: [
+		"&7You may have finished the core progression of &dThaumcraft&7 and &dThaumic Augmentation&7, but there is still much you can with the power of Thaumaturgy.",
+		"",
+		"&dThaumcraft&7 itself offers much room for Automation, especially through &5Golemancy&7, and &dThaumic Augmentation&7 extends that potential a little bit.",
+		"&dAutomating Essentia&7 (without those silly plants :v) is a fun challenge you can try, that's one thing!",
+		"The &dSpellcasting system&7 with Foci can do certain things which other mods simply cannot, and incredibly well at that, but that's for you to experiment with and Discover!",
+		"",
+		"There are quite a number of things this questline does not explore, so why not explore them?",
+		"",
+		"Perhaps you even &dmissed some powerful tools&7 or &duseful notes about tweaks that have been made&7, go back and give them a check!",
+		"",
+		"&5&o&lIf one is to master the art of Thaumaturgy, the reward of Ultimate Knowledge may greet them...",
+		"",
+		"",
+		"&6&oI hope this questline has been a fun little(?) journey, and a good guide for less experienced Thaumaturges, perhaps even one that has brought those previously dissuaded from Thaumaturgy to have a good time, that's really all i'd hope for :D",
+		"~Sincerely, &5&o&lEmperdog"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"82dc35de"
+	],
+	hide: true,
+	tasks: [{
+		uid: "649e9563",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "bdeca162",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "05826414",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

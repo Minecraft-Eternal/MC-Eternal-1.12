@@ -1,0 +1,31 @@
+{
+	title: "&5Crystal Bag",
+	x: 27.5d,
+	y: -6.0d,
+	description: "&oBag of Holding&7 *Read Description*",
+	text: [
+		"&7A &5Crystal Bag&7 is a pouch that will accept a practically Infinite number of &dVis Crystals&7, it's the perfect form of storage for them!",
+		"",
+		"I hope you didn't consume your pouch with Foci in it for the research :("
+	],
+	dependencies: [
+		"794429c7"
+	],
+	tasks: [{
+		uid: "e76d73bc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumadditions:crystal_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4e8c78e9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "&5Thaumic Efficiency",
+	x: 21.0d,
+	y: -3.0d,
+	shape: "octagon",
+	description: "&5Thaumium Essentia Smelteries&7 are both more efficient and faster than standard ones, a flat upgrade!",
+	text: [
+		"&7&lA Thaumium Essentia Smeltery has 10% Flux Loss!"
+	],
+	dependencies: [
+		"8f60234e"
+	],
+	tasks: [{
+		uid: "b45185ff",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "36cf8603",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "&5High Energy Density",
+	x: 21.5d,
+	y: -1.0d,
+	description: "&5Alumentum&7 is a powerful fuel, when used in an &5Essentia Smeltery&7, it improves the speed which Essentia is distilled into attached &5Arcane Alembics&7 for as long as it burns.",
+	dependencies: [
+		"af231639"
+	],
+	tasks: [{
+		uid: "c7e96b7d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alumentum"
+		}]
+	}],
+	rewards: [{
+		uid: "47cb5f5f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

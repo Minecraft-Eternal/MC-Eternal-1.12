@@ -1,0 +1,46 @@
+{
+	title: "&5Runic Matrix",
+	x: 23.5d,
+	y: -5.0d,
+	shape: "octagon",
+	description: "&oCoalescence&7 *Read Description*",
+	text: [
+		"&7The &5Runic Matrix&7 is the Core of an &5Infusion Altar&7, an important contraption in Thaumcraft which infuses Items with Essentia and other Items to create brand new ones!",
+		"",
+		"Every Infusion Recipe also has an &4Instability&7 value, only rough estimates are shown to players, but each is about 0.2-0.4 Instability value above the previous level.",
+		"You can make Infusions more stable by &dplacing certain items in symmetry around the Altar&7, &5Tallow Candles and Mob Heads&7 are both good examples!",
+		"Note that Heads don't need to face opposite directions to count!",
+		"",
+		"If you place something at the &dNorthwest&7 area of the Altar, you need to place something in the same position around the &dSoutheast&7 area.",
+		"&dSymmetry is only checked at the same Height&7, something below the altar won't count as a Symmetrical partner for something above!",
+		"",
+		"&dThaumic Augmentation&7 adds a tooltip to all items which affect Infusion Stability (and should follow the Symmetry rules!) once you have the Infusion research!",
+		"",
+		"&dArcane Pedestals&7 set around the Altar, and Items placed atop them should also obey these rules of Symmetry!",
+		"The Pedestals can also be up to &d1 Block&7 above or below the central one!",
+		"",
+		"Required &dEssentia&7 is drawn from nearby Jars."
+	],
+	dependencies: [
+		"13eda125",
+		"d8a0931d",
+		"5ef1c316"
+	],
+	tasks: [{
+		uid: "ef527c40",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}],
+	rewards: [{
+		uid: "a1bf5b26",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "98c05092",
+		type: "loot",
+		table: 1
+	}]
+}

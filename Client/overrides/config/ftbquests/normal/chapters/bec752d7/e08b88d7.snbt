@@ -1,0 +1,27 @@
+{
+	title: "&5Focusing your Energy",
+	x: 23.5d,
+	y: -2.0d,
+	shape: "octagon",
+	description: "&oHAAAAAAAAA&7 *Read Description*",
+	text: [
+		"&7A &5Focal Manipulator&7 is used to weave &dVis&7 from the Aura into Foci, infusing them with a custom Spell.",
+		"",
+		"&dNote: Takes more &aXP Levels&d than it says."
+	],
+	dependencies: [
+		"c6678a36"
+	],
+	tasks: [{
+		uid: "9eba956f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:wand_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "7674c229",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

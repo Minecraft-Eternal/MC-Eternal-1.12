@@ -1,0 +1,42 @@
+{
+	title: "&5The Lost Age",
+	x: 34.5d,
+	y: -19.5d,
+	shape: "octagon",
+	description: "&oA Tale from aeons ago...&7 *Read Description*",
+	text: [
+		"&7&oNotes... from &5&oanother Thaumaturge&7&o? They describe the &d&oAura and Vis&7&o in a completely different way than that i am familiar with, this must have come from another world, or more likely, my own, many long years ago...",
+		"",
+		"&6Scan with your &5Thaumometer&6 to unlock New Research."
+	],
+	dependencies: [
+		"e04c7cff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2adef793",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:research_notes"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4f8c62df",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "39525faa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

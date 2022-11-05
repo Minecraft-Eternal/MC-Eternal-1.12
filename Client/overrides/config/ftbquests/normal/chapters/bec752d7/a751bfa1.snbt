@@ -1,0 +1,32 @@
+{
+	title: "&5Research by Experience",
+	x: 28.5d,
+	y: -5.5d,
+	description: "&oMind Over Matter&7 *Read Description*",
+	text: [
+		"&7The &5Headband of Curiosity&7 will grant a little bit of progress towards &dTheories and Observations in random Research Categories&7 whenever you pick up XP Orbs.",
+		"",
+		"There may be ways to abuse this ability..."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2030380f"
+	],
+	tasks: [{
+		uid: "42533ba9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:curiosity_band"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "90f7d65f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

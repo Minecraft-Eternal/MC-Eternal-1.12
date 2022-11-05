@@ -1,0 +1,37 @@
+{
+	title: "&5Essential Upgrades",
+	x: 20.5d,
+	y: -4.0d,
+	shape: "hexagon",
+	description: "&oEssentia Extraction improved!&7 *Read Description*",
+	text: [
+		"&5Venting Ports&7 provide a chance for Flux produced from Essentia loss to be converted into harmless Steam, up to a 66% chance with 3 Ports!",
+		"",
+		"&5Slurry Pumps&7 help you pull Essentia out of a Smeltery faster by depositing into &5Arcane Alembics&7 ontop of them!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8f60234e"
+	],
+	tasks: [{
+		uid: "c0e98e25",
+		type: "item",
+		title: "&5Auxiliary Venting Port&7 or &5Slurry Pump",
+		items: [{
+			item: "thaumcraft:smelter_vent"
+		},
+		{
+			item: "thaumcraft:smelter_aux"
+		}]
+	}],
+	rewards: [{
+		uid: "f4cc6e3e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f78f2cd7",
+		type: "loot",
+		table: 1
+	}]
+}

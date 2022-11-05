@@ -1,0 +1,30 @@
+{
+	title: "&5Puzzling Projectiles",
+	x: 26.0d,
+	y: 0.5d,
+	description: "&oThe numbers Mason, what do they mean?&7 *Read Description*",
+	text: [
+		"&7You may find the Research Tasks in &dFocus Medium: Projectile&7 quite puzzling, so here's the solutions!",
+		"",
+		"&6This quest is repeatable, so you can refer to it for the information if you forget!",
+		"",
+		"Complete &5Focusing your Energy&6 (&dFocal Manipulator&6) to unlock this quest."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"e08b88d7"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f25462f2",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "32c24e56",
+		type: "command",
+		title: "&dClick to get the Solutions",
+		team_reward: true,
+		command: "/tellraw @p {\"text\":\"§5Normal: §dget hit by an Arrow\\n§5Fiery: §dget hit by a Blaze Fireball\\n§5Sticky: §dget hit by Llama Spit\"}"
+	}]
+}

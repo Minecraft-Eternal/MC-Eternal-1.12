@@ -1,0 +1,54 @@
+{
+	title: "&5Thaumic Foliage",
+	x: 21.5d,
+	y: 4.0d,
+	description: "&oMagical Crops&7 *Read Description*",
+	text: [
+		"&5Mystical Plants&7 of many types inhabit this world, but these are most closely linked to the art of &dThaumaturgy&7!",
+		"Any Thaumaturge will be needing atleast some of these!",
+		"",
+		"&5Greatwood&7 and &5Silverwood&7 Trees are prized for their magical properties, which have many applications in Thaumaturgy!",
+		"They can be found more often in &dMagical&7 types of biomes.",
+		"",
+		"&5Cinderpearls&7 are a fairly common flower that spawn in patches around Desert-like biomes, they are sought after for their &dBlazing&7 buds, which contain a substance identical to &dBlaze Powder&7.",
+		"",
+		"&5Shimmerleaves&7 are found only around &dSilverwood Trees&7 in the wild, and have some applications in Thaumaturgy directly, but their shiny leaves contain a substance identical to &dQuicksilver&7.",
+		"",
+		"&6&lImportant!",
+		"&5Vishrooms&7 cannot be found naturally in &dMC Eternal&7, as &dMagical Forests&7 have been disabled, due to a rare, but catastrophic Crash.",
+		"You can still create them with &dThaumic Additions'&7 &5Flux Concentrator&7."
+	],
+	tasks: [{
+		uid: "1a244a34",
+		type: "item",
+		items: [{
+			item: "thaumcraft:sapling_greatwood"
+		}]
+	},
+	{
+		uid: "4bdb0fdf",
+		type: "item",
+		items: [{
+			item: "thaumcraft:sapling_silverwood"
+		}]
+	},
+	{
+		uid: "f5a7d9e3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cinderpearl"
+		}]
+	},
+	{
+		uid: "2878a99d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:shimmerleaf"
+		}]
+	}],
+	rewards: [{
+		uid: "bb6c077a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

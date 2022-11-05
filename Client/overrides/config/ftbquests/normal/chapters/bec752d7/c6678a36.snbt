@@ -1,0 +1,31 @@
+{
+	title: "&5Focus on the Problem",
+	x: 24.5d,
+	y: -2.5d,
+	description: "Thaumcraft 6's &5Foci&7 are customizable spells based on modular components, there's so much potential with them! Each tier of Focus has more Complexity than the last, allowing for more insane spells!",
+	dependencies: [
+		"5ef1c316"
+	],
+	tasks: [{
+		uid: "ee330c50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:focus_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8e5e1da",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f3921d5e",
+		type: "loot",
+		table: 1
+	}]
+}

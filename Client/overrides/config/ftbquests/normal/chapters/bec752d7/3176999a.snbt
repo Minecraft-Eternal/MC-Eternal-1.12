@@ -1,0 +1,27 @@
+{
+	title: "&5Warded Arcana",
+	x: 28.5d,
+	y: -7.5d,
+	description: "&oAnd stay OUT&7 *Read Description*",
+	text: [
+		"&5Warding Sigils&7 are a key component to crafting various &dWarded&7 blocks, anything Warded normally cannot be interacted with by anyone but the placer.",
+		"",
+		"Access to Warded objects can be controlled using the different kinds of &5Keys&7 Thaumic Augmentation offers."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3c6d03b6"
+	],
+	tasks: [{
+		uid: "73739870",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "8890eaa1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

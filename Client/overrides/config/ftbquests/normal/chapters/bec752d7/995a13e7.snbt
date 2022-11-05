@@ -1,0 +1,31 @@
+{
+	title: "&5Workbench Charger",
+	x: 24.5d,
+	y: 1.0d,
+	shape: "octagon",
+	description: "&oE X P A N D&7 *Read Description*",
+	text: [
+		"&7A &5Workbench Charger&7, when placed ontop of an &5Arcane Workbench&7 or &5Focal Manipulator&7, will allow it to access the Vis of all chunks around the one it's in, getting you effectively 9x as much &dVis&7 available at once!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3c6d03b6"
+	],
+	tasks: [{
+		uid: "0f69c623",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "7f44b5e6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "878668d9",
+		type: "loot",
+		table: 1
+	}]
+}

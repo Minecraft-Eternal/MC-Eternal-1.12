@@ -1,0 +1,24 @@
+{
+	title: "&5Aura Disperser",
+	x: 31.0d,
+	y: -7.0d,
+	description: "&oSalt Sprayer&7 *Read Description*",
+	text: [
+		"&7An &5Aura Disperer&7 will apply the effects of &dVis Salt&7 that it is given to a small area infront of where it faces."
+	],
+	dependencies: [
+		"a150a701"
+	],
+	tasks: [{
+		uid: "be128c72",
+		type: "item",
+		items: [{
+			item: "thaumadditions:aura_disperser"
+		}]
+	}],
+	rewards: [{
+		uid: "8f0be7e3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}
