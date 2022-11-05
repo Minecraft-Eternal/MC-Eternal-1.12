@@ -1,8 +1,9 @@
 {
-	x: -4.5d,
-	y: 11.5d,
+	x: -5.0d,
+	y: 12.0d,
+	description: "Accesses items stored in an ME Network! And has a Crafting Grid!",
 	dependencies: [
-		"9a541046"
+		"8e9ea584"
 	],
 	tasks: [{
 		uid: "48637645",

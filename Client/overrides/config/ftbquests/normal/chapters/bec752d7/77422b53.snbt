@@ -18,25 +18,35 @@
 	tasks: [{
 		uid: "55fd446c",
 		type: "advancement",
+		title: "Advancement: &eA Tale of Six Trillion Years and a Night",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:terrapick",
+			tag: {
+				mana: 2147483646
+			}
+		},
 		advancement: "botania:challenge/rank_ss_pick",
 		criterion: ""
 	}],
 	rewards: [{
 		uid: "21e83a06",
 		type: "ftbmoney:money",
-		ftb_money: 1000000L
+		ftb_money: 100000L
 	},
 	{
 		uid: "a66a7b5b",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "botania:manatablet",
 			tag: {
 				mana: 500000,
 				creative: 1b
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	}]

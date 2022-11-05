@@ -2,7 +2,7 @@
 	title: "Ritual of the Forest",
 	x: 24.0d,
 	y: 7.5d,
-	description: "What you need to perform the Ritual of the Forest. Refer too the Book of Natural Aura for more info!",
+	description: "What you need to perform the Ritual of the Forest. Refer to the Book of Natural Aura for more info!",
 	dependencies: [
 		"c1f80434"
 	],

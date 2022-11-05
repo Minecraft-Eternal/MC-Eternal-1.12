@@ -1,7 +1,7 @@
 {
 	x: 16.0d,
 	y: -10.0d,
-	description: "Siginificantly increased Agility, just add Mana!",
+	description: "Significantly increased Agility, just add Mana!",
 	dependencies: [
 		"e4a4db69"
 	],

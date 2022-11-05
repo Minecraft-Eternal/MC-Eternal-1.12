@@ -1,14 +1,15 @@
 {
-	x: -12.0d,
-	y: -16.0d,
+	x: -11.0d,
+	y: -13.0d,
+	description: "&oMakes a great Doorway!",
 	dependencies: [
-		"16635439"
+		"7e91214b"
 	],
 	tasks: [{
 		uid: "f155fc75",
 		type: "item",
 		items: [{
-			item: "twilightforest:tower_device 1 2"
+			item: "twilightforest:tower_device"
 		}],
 		count: 4L
 	}],

@@ -1,8 +1,9 @@
 {
-	x: -3.5d,
-	y: 9.0d,
+	x: -5.0d,
+	y: 10.0d,
+	description: "Can be bought from the Coin Shop!",
 	dependencies: [
-		"9a541046"
+		"464d17d4"
 	],
 	tasks: [{
 		uid: "21f9438c",

@@ -3,7 +3,7 @@
 	x: -4.0d,
 	y: 0.5d,
 	shape: "heart",
-	description: " &oPut a Jack O'Lantern on top of two Hay Bales and then right-click in the middle with a Undying Heart to summon a special pet.&c This Quest Chain can't be evil! Look how cute this little guy is, oh wait nevermind",
+	description: " &oPut a Scarecrow Head on top of two Hay Bales and then right-click in the middle with a Undying Heart to summon a special pet.&c This Quest Chain can't be evil! Look how cute this little guy is, oh wait nevermind",
 	dependencies: [
 		"96a8691d"
 	],
@@ -12,7 +12,13 @@
 		uid: "c1bc9dc0",
 		type: "item",
 		items: [{
-			item: "minecraft:lit_pumpkin"
+			item: "mod_lavacow:scarecrowhead_common"
+		},
+		{
+			item: "mod_lavacow:scarecrowhead_straw"
+		},
+		{
+			item: "mod_lavacow:scarecrowhead_plague"
 		}]
 	},
 	{

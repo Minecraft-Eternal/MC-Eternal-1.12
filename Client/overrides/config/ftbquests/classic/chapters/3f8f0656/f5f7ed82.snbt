@@ -4,7 +4,6 @@
 	y: 10.5d,
 	description: "Increases extraction speed of item/fluid conduits",
 	dependencies: [
-		"043d0a65",
 		"0108d5cd"
 	],
 	tasks: [{

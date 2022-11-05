@@ -1,8 +1,10 @@
 {
-	x: 1.0d,
-	y: 9.5d,
+	x: -3.5d,
+	y: 10.0d,
+	description: "Uses Power and Presses to create Processors, core components of many AE devices!",
 	dependencies: [
-		"9a541046"
+		"8d2062f4",
+		"8d3f6395"
 	],
 	tasks: [{
 		uid: "e5a4bab7",

@@ -1,8 +1,9 @@
 {
-	x: -12.0d,
-	y: -10.0d,
+	x: -13.5d,
+	y: -9.0d,
+	description: "&oFortify against attacks! &7&l*Recharge with a normal Golden Apple*",
 	dependencies: [
-		"9afcb30f"
+		"0647fe18"
 	],
 	tasks: [{
 		uid: "188a9983",

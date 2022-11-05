@@ -1,6 +1,7 @@
 {
 	x: -11.0d,
-	y: -9.0d,
+	y: -8.0d,
+	description: "&oDrain the Life from your Foes! &7&l*Recharge with a Fermented Spider Eye*",
 	dependencies: [
 		"0647fe18"
 	],
