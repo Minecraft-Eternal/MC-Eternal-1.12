@@ -1,0 +1,44 @@
+{
+	title: "Astral Sorcery Tutorials",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockcollectorcrystal",
+		tag: {
+			astralsorcery: {
+				constellationName: "astralsorcery.constellation.discidia",
+				crystalProperties: {
+					collectiveCapability: 100,
+					size: 400,
+					fract: 0,
+					purity: 100,
+					sizeOverride: -1
+				},
+				collectorType: 0
+			}
+		}
+	},
+	loot_size: 1,
+	rewards: [{
+		title: "Astral Sorcery Tutorials by &6Mischief of Mice",
+		icon: {
+			id: "minecraft:skull",
+			tag: {
+				SkullOwner: {
+					Id: "564267c7-2ad2-4059-866a-6ca980b32777",
+					Properties: {
+						textures: [{
+							Signature: "kb7tQN9hLs4xHv9TzmavT/KS9s+bmAfSqziLWM0RAryNHuBEpYCW34lrLa8wzy44ynS7+KRC0gk85gAiv7bovWTSEnZ091PWas0MKhxy0aBt3Rko3G1lKnQ+9rRU/Ecm8Q25sjlhVYS7FMCfVzGCQ7VRiHupuP0lgNCWn1VlOi0mVpEP/KMD1Lc3n+5e3Prp512+TMFbmyNSZhy3L2wiz3MInyC6y2IBAuWwlDW7xfHQMH4TvY1j13m2/13bdt/nmVeuTiVQGFilrd0FMy0SP5cpNJZ56dNJBUmb3fbTss2KBt9B8xFeuXbG9a7/61Z5uOEAFZF6zkbyXOcDPJ7uCE+g24KJcWaow+7f/tCsFe7y1Hj0dGVBEILFKERo2CSW6YSEIORWjW8vVj6dlQDl8U1+RCvdBnE0wduydOccIF4kI04Lcf+9H4WR9Vb0iq/CLgT7dsD98uh5kVRGvhukbsCDBHP3PDu8j6+vVq3OO+XkqlNaz1xjM59Cdw4it8G0USniLLg8wUwo3mM2ejvpJ3XDCYrgJsUUk4RECpkiIJHJ9YOeoDVuLEOtoAOhbZFBlFmQXM7KLTkaLXEjwdDs6vfNy3Q9AJUxUe/ovjZaTLxgrKInZRkphw1//MROO4BIspd/bJ0Ju9Qg5Yt2KS9SlznAZvmFBtbde3uxGYfZ5+w=",
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTY0NTY5MDQ4MDMwOCwKICAicHJvZmlsZUlkIiA6ICI1NjQyNjdjNzJhZDI0MDU5ODY2YTZjYTk4MGIzMjc3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJWYWxsZW5Gcm9zdHdlYXZyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E1OGNkNWYwMjMyOWZmYzMyNDBiYzhmZDEzN2QyOGI0YjIwOWJhNTY2OTU5YWFiY2RjNjkyYTZlZjFkZTAwMiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+						}]
+					},
+					Name: "VallenFrostweavr"
+				}
+			},
+			Damage: 3s
+		},
+		command: "/tellraw @p {\"text\": \"§9§lClick here to open §rAstral Sorcery Tutorials §9§lby §6Mischief of Mice!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=9uU67eYK_Mc&list=PLQzDSnrhrcyyZKmHp1zdj03jRbuZN7NOh\"}}",
+		type: "command"
+	}]
+}
