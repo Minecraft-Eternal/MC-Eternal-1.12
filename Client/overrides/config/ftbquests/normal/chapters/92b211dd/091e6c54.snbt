@@ -5,7 +5,8 @@
 	description: "Press SPACE while on your Rocket to start the Launch sequence, if you get stuck floating a void, log out and log back in. It's advised to have a way other than Rocket to get from Planet to Planet.",
 	dependencies: [
 		"74150491",
-		"bb9f8d30"
+		"bb9f8d30",
+		"39f14c3e"
 	],
 	tasks: [{
 		uid: "00e56e63",

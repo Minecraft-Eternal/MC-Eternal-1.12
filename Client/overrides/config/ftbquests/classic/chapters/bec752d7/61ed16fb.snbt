@@ -1,0 +1,69 @@
+{
+	title: "&dBotanically Brewed Sanity",
+	x: 18.0d,
+	y: -6.5d,
+	description: "&oIn the Gardens of Madness&7 *Read Description*",
+	text: [
+		"&7Avid pursurers of &5Thaumaturgy&7 often find themselves more and more paranoid every day, try as they might, they cannot shake it forever, but they can atleast ward themselves, though, not in a terribly effective manner.",
+		"",
+		"Those who dip into &dBotanical Magics&7 are familiar with a method of brewing using &bMana&7, and it just so happens that the energies of both magics align in the perfect way to permit a brew that more effectively wards off the madness Thaumaturges find themselves dealing with every day.",
+		"It is also possible to imbue this effect into an &dIncense Stick&7, for less portable, but far more long-lasting effects."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5b6ca5ea",
+		"53c7a7f8"
+	],
+	tasks: [{
+		uid: "d7a423ed",
+		type: "item",
+		title: "&6Botanical Means of &dWarp Warding",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:brewvial",
+			tag: {
+				brewKey: "warpWard"
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:brewflask",
+			tag: {
+				brewKey: "warpWard"
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:incensestick",
+			tag: {
+				brewKey: "warpWard"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00385110",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4b9486e0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:brewflask",
+			tag: {
+				brewKey: "warpWard"
+			}
+		}
+	}]
+}

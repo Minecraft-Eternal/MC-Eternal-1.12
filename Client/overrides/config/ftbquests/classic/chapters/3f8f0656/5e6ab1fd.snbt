@@ -1,15 +1,26 @@
 {
-	x: -1.5d,
-	y: 11.0d,
+	title: "Autocrafting Central",
+	x: -7.0d,
+	y: 11.5d,
+	description: "Basics for creating Encoded Patterns, the blood of AE2 Autocrafting!",
 	dependencies: [
-		"9a541046"
+		"4e92c856",
+		"8aaec445"
 	],
 	tasks: [{
-		uid: "da95d9b1",
+		uid: "7cd435a4",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:molecular_assembler"
+			item: "appliedenergistics2:part 1 340"
 		}]
+	},
+	{
+		uid: "982f8fad",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}],
+		count: 8L
 	}],
 	rewards: [{
 		uid: "061c8262",
