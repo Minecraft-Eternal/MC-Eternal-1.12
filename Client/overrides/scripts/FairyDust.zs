@@ -14,7 +14,6 @@ recipes.addShaped(<ebwizardry:ring_battlemage>, [[null, <ore:dustFairy>, null], 
 recipes.addShaped(<rats:arcane_technology>, [[<futuremc:netherite_ingot>, <ebwizardry:magic_crystal>, <futuremc:netherite_ingot>], [<wings:fairy_dust>, <minecraft:emerald_block>, <wings:fairy_dust>], [<futuremc:netherite_ingot>, <ebwizardry:magic_crystal>, <futuremc:netherite_ingot>]]);
 recipes.addShaped(<biomesoplenty:sapling_0:3>, [[<wings:fairy_dust>, <ebwizardry:magic_crystal>, <wings:fairy_dust>], [<wings:fairy_dust>, <ore:treeSapling>, <wings:fairy_dust>], [<wings:fairy_dust>, <ebwizardry:magic_crystal>, <wings:fairy_dust>]]);
 recipes.addShaped(<twilightforest:minotaur_axe_gold>, [[<minecraft:gold_ingot>, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <wings:fairy_dust>], [null, <wings:fairy_dust>]]);
-recipes.addShaped(<ancientwarfarestructure:golden_idol>, [[null, <ore:blockGold>, null], [<minecraft:gold_block>, <ore:dustFairy>, <ore:blockGold>], [<ore:blockGold>, <ancientwarfarestructure:coin_stack_gold>, <minecraft:gold_block>]]);
 recipes.addShaped(<minecraft:iron_ingot>, [[null, <ore:dustFairy>, null], [<ore:dustFairy>, <minecraft:gold_ingot>, <ore:dustFairy>], [null, <ore:dustFairy>, null]]);
 recipes.addShaped(<minecraft:gold_ingot>, [[null, <ore:dustFairy>, null], [<ore:dustFairy>, <ore:ingotIron>, <ore:dustFairy>], [null, <ore:dustFairy>, null]]);
 recipes.addShaped(<ancientspellcraft:charm_bucket_coal>, [[<wings:fairy_dust>, null, <wings:fairy_dust>], [<wings:fairy_dust>, <minecraft:coal>, <wings:fairy_dust>], [null, <wings:fairy_dust>, null]]);
