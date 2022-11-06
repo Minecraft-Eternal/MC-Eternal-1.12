@@ -3,14 +3,28 @@
 print("--- loading AdvRocketry.zs ---");
 
 #Remove Recipes
-recipes.remove(<advancedrocketry:stationbuilder>);
-recipes.remove(<advancedrocketry:chemicalreactor>);
-recipes.remove(<advancedrocketry:fuelingstation>);
-recipes.remove(<advancedrocketry:rocketbuilder>);
-recipes.remove(<erebus:gaean_keystone>);
-recipes.remove(<erebus:portal_activator>);
-recipes.remove(<atum:scarab>);
-recipes.remove(<theaurorian:aurorianportalframebricks>);
+var removerecipes = [
+	<advancedrocketry:rocketbuilder>,
+	<advancedrocketry:stationbuilder>,
+	<advancedrocketry:warpmonitor>,
+	<advancedrocketry:warpcore>,
+//	<advancedrocketry:chemicalreactor>,
+//	<advancedrocketry:guidancecomputer>,
+//	<advancedrocketry:rollingmachine>,
+//	<advancedrocketry:electrolyser>,
+//	<advancedrocketry:precisionassemblingmachine>,
+//	<advancedrocketry:cuttingmachine>,
+	
+	#Usual Access items, go put in effort :pointingrat:
+	<erebus:gaean_keystone>,
+	<erebus:portal_activator>,
+	<atum:scarab>,
+	<theaurorian:aurorianportalframebricks>
+] as IItemStack[];
+
+for items in removerecipes {
+	recipes.remove(items);
+}
 
 #Add Recipes
 recipes.addShaped(<advancedrocketry:stationbuilder>, [[<advancedrocketry:ic:2>, <rats:arcane_technology>, <advancedrocketry:ic:2>], [<ore:dustDilithium>, <stevescarts:upgrade:5>, <libvulpes:productdust>], [<advancedrocketry:ic:2>, <ore:componentEVCapacitor>, <advancedrocketry:ic:2>]]);
@@ -19,9 +33,15 @@ recipes.addShaped(<advancedrocketry:fuelingstation>, [[<ore:crystalIron>, <ore:c
 recipes.addShaped(<advancedrocketry:rocketbuilder>, [[<ore:ingotBrickNetherGlazed>, <ore:gearTitanium>, <ore:ingotBrickNetherGlazed>], [<ore:itemPrecientCrystal>, <ore:componentComputerChip>, <ore:itemPrecientCrystal>], [<ore:ingotBrickNetherGlazed>, <powersuits:powerarmorcomponent:12>, <ore:ingotBrickNetherGlazed>]]);
 
 #Space Dimension Tooltips
-<erebus:gaean_keystone>.addTooltip(format.red("Erebus is only accessible through Advanced Rocketry."));
-<erebus:portal_activator>.addTooltip(format.red("Erebus is only accessible through Advanced Rocketry."));
-<atum:scarab>.addTooltip(format.red("The Atum is only accessible through Advanced Rocketry."));
-<theaurorian:aurorianportalframebricks>.addTooltip(format.red("The Aurorian is only accessible through Advanced Rocketry."));
+var ohnoeffort = {
+	<erebus:gaean_keystone> : "The Erebus",
+	<erebus:portal_activator> : "The Erebus",
+	<atum:scarab> : "The Atum",
+	<theaurorian:aurorianportalframebricks> : "The Aurorian"
+} as string[IItemStack];
+
+for usualobjects in ohnoeffort {
+	usualobjects.addTooltip(format.red(ohnoeffort[usualobjects]~" cannot be accessed normally.\nYou will need to use Advanced Rocketry, or uncover an Artifact once capable of Time Travel..."));
+}
 
 print("--- AdvRocketry.zs initialized ---");	
