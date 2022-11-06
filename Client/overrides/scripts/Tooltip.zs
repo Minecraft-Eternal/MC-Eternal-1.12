@@ -36,7 +36,8 @@ print("--- loading Tooltip.zs ---");
 <theaurorian:auroriansteel>.addTooltip(format.gold("The Tinkers' Construct material for this item has been buffed massively."));
 <extrautils2:teleporter:1>.addTooltip(format.red("Disabled and will cause a Crash if you try to use it! use the Beneath and Beneath Teleporter instead."));
 <thaumcraft:condenser_lattice_dirty>.addTooltip(format.aqua("Right-click with an Essentia Filter to unclog!"));
-<thaumcraft:filter>.addTooltip(format.aqua("Right-click a Clogged Flux Condenser Lattice to unclog it!")););
+<thaumcraft:filter>.addTooltip(format.aqua("Right-click a Clogged Flux Condenser Lattice to unclog it!"));
+<nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple("4x Total Power Generation! (Disclaimer: reflected in Fuel tooltips)"));
 
 var disabledItems = [
 	<inventorypets:solstice_sword>
