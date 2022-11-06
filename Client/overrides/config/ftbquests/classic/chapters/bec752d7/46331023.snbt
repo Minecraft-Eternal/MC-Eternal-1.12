@@ -6,9 +6,10 @@
 	text: [
 		"&7This duo of &5Metaspatial devices&7 can be used to move around &5Flux Rifts&7 to and from &5Reinforced Jars&7, the &5Accumulator&7 will capture them, while the &5Extruder&7 will release them.",
 		"",
-		"&7&oThis poses an interesting question, Rifts attempt to absorb whatever touches them into the Void between dimensions, so what if one were to collide with another? From what i've observed, by natural means it is impossible, so i would need to force it. The results would likely be volatile, but may yield interesting results...",
+		"&oThe &5&oExtruder&7&o contains a safety mechanism which does not allow Rifts to be unjarred in the natural proximity to others that has been observed, if a Rift cannot form within close proximity to another, it is likely a safety mechanism of whatever force creates Rifts, and is a risk i should not take.",
 		"",
-		"&oThe &5&oExtruder&7&o contains a safety mechanism which does not allow Rifts to be unjarred in the natural proximity to others that has been observed, if a Rift cannot form within close proximity to another, it is likely a safety mechanism of whatever force creates Rifts, and is a risk i should not take."
+		"&7&oThis does pose an interesting question, however, Rifts attempt to absorb whatever touches them into the Void between dimensions, so what if one were to, by some miracle, collide with another? From what i have observed, it is impossible to do, though maybe &d&osomething closely related to the Metaspatial devices&7&o holds the secret...",
+		"The results would likely be volatile, but may be of interest..."
 	],
 	dependencies: [
 		"8dafcaf0"
@@ -18,6 +19,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:rift_jar"
@@ -28,14 +30,14 @@
 		uid: "6ed51386",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:rift_mover_input"
+			id: "thaumicaugmentation:rift_mover_input"
 		}]
 	},
 	{
 		uid: "a9def0ff",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:rift_mover_output"
+			id: "thaumicaugmentation:rift_mover_output"
 		}]
 	}],
 	rewards: [{
