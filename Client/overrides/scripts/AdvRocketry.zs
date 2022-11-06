@@ -41,7 +41,7 @@ var ohnoeffort = {
 } as string[IItemStack];
 
 for usualobjects in ohnoeffort {
-	usualobjects.addTooltip(format.red(ohnoeffort[usualobjects]~" cannot be accessed normally.\nYou will need to use Advanced Rocketry, or uncover an Artifact once capable of Time Travel..."));
+	usualobjects.addTooltip(format.red(ohnoeffort[usualobjects]~" cannot be accessed normally.\nYou will need to use Advanced Rocketry."));
 }
 
 print("--- AdvRocketry.zs initialized ---");	
