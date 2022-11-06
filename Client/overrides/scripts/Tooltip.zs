@@ -127,7 +127,7 @@ for meta in candleData {
 	itemUtils.getItem("quark:candle", meta).addShiftTooltip(format.gold("Boosts rates of in Matrix Enchanting:"), format.gold("Hold SHIFT to see affected Enchantments"));
 	for enchant in candleData[meta] {
 		itemUtils.getItem("quark:candle", meta).addShiftTooltip(format.aqua("- "~game.localize(enchant.name)));
-	{
+	}
 }
 
 val nonFunctionalExtraCellsThings = [
