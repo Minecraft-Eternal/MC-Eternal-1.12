@@ -12,7 +12,7 @@ print("--- loading Oredict.zs ---");
 <ore:circuitElite>.remove(<immersiveintelligence:material:12>);
 
 <ore:gemAmethyst>.add(<mysticalworld:amethyst_gem>);
-<oreblockAmethyst>.add(<mysticalworld:amethyst_block>);
+<ore:blockAmethyst>.add(<mysticalworld:amethyst_block>);
 
 <ore:ingotCopper>.add(<mysticalworld:copper_ingot>);
 <ore:blockCopper>.add(<mysticalworld:copper_block>);
