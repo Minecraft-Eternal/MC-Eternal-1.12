@@ -11,7 +11,6 @@ recipes.remove(<erebus:gaean_keystone>);
 recipes.remove(<erebus:portal_activator>);
 recipes.remove(<atum:scarab>);
 recipes.remove(<theaurorian:aurorianportalframebricks>);
-recipes.remove(<from_the_depths:block_altar_of_summoning>);
 
 #Add Recipes
 recipes.addShaped(<advancedrocketry:stationbuilder>, [[<advancedrocketry:ic:2>, <rats:arcane_technology>, <advancedrocketry:ic:2>], [<ore:dustDilithium>, <stevescarts:upgrade:5>, <libvulpes:productdust>], [<advancedrocketry:ic:2>, <ore:componentEVCapacitor>, <advancedrocketry:ic:2>]]);
