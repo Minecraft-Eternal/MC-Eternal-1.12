@@ -79,4 +79,12 @@ recipes.addShaped("mce_yabba_upgrade_infinite_capacity", <yabba:upgrade_star_tie
 // Tiberium as Dynamo fuel
 mods.thermalexpansion.EnervationDynamo.addFuel(<taiga:tiberium_crystal>, 100000);
 
+#Dimension Builder
+// balanced
+recipes.addShaped("dimbuilder_mce", <rftoolsdim:dimension_builder>,
+	[[<theaurorian:auroriansteelblock>,<rats:idol_of_ratlantis>,<erebus:jade_block>],
+	[<ore:relicItemAtum>,<rftools:machine_frame>,<tconstruct:materials:50>],
+	[<rftools:shield_block4>,<fossil:time_machine>,<rftools:shield_block4>]]
+);
+
 print("--- MiscCrafting.zs initialized ---");	
