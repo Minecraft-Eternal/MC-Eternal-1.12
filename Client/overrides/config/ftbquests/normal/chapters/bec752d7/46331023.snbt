@@ -30,9 +30,6 @@
 		uid: "6ed51386",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "thaumicaugmentation:rift_mover_input"
 		}]
 	},
@@ -40,9 +37,6 @@
 		uid: "a9def0ff",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "thaumicaugmentation:rift_mover_output"
 		}]
 	}],
