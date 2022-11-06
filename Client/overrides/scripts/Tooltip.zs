@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.enchantments.IEnchantmentDefinition;
 #MC Eternal Scripts
 
 print("--- loading Tooltip.zs ---");
