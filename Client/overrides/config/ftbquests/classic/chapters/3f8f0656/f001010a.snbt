@@ -19,5 +19,10 @@
 		{
 			item: "appliedenergistics2:part 1 56"
 		}]
+	}],
+	rewards: [{
+		uid: "371ed250",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

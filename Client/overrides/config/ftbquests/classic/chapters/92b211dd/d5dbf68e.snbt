@@ -1,7 +1,14 @@
 {
 	x: 0.0d,
 	y: -2.0d,
-	description: "Sneak+Right-click to open GUI, hold Left-click and move cursor upwards to scroll Down for more machines, Right-click when desired machine is selected to place projection.",
+	description: "*Read Description for usage Info*",
+	text: [
+		"Sneak+Right-click to open GUI, hold Left-click and move cursor upwards to scroll Down for more machines, select a machine to Project with Left-Click.",
+		"",
+		"Right-click while holding the Holo-Projector to place the selected Projection.",
+		"",
+		"Sneak and Scroll to change the Layer projected."
+	],
 	dependencies: [
 		"7a35fec9",
 		"0479a7a1"

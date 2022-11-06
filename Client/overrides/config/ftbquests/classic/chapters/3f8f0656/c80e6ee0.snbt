@@ -2,7 +2,7 @@
 	title: "Crafting CPU",
 	x: -7.5d,
 	y: 12.5d,
-	description: "The Brain of Autocrafting. Crafting CPUs must be a \"Cuboid\" shape (have exactly 6 faces) to be valid, the Textures will change when it forms.",
+	description: "The Brain of Autocrafting. Crafting CPUs must be a \"Cuboid\" shape (have exactly 6 continous faces) to be valid, the Textures will change when it forms.",
 	dependencies: [
 		"5e6ab1fd"
 	],
@@ -36,5 +36,10 @@
 		items: [{
 			item: "appliedenergistics2:crafting_monitor"
 		}]
+	}],
+	rewards: [{
+		uid: "e7155797",
+		type: "ftbmoney:money",
+		ftb_money: 75L
 	}]
 }
