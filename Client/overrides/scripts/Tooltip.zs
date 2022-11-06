@@ -130,5 +130,17 @@ for meta in candleData {
 	{
 }
 
+val nonFunctionalExtraCellsThings = [
+	<extracells:storage.component:9>,
+	<extracells:storage.component:10>,
+	<extracells:storage.fluid:5>,
+	<extracells:storage.fluid:6>
+] as IItemStack[];
+
+for thing in nonFunctionalExtraCellsThings {
+	recipes.remove(thing);
+	thing.addTooltip(format.red("Disabled, doesn't work for technical reasons."));
+}
+
 print("--- Tooltip.zs initialized ---");	
 
