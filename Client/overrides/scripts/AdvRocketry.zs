@@ -1,3 +1,4 @@
+import crafttweaker.item.IItemStack;
 #MC Eternal Scripts
 
 print("--- loading AdvRocketry.zs ---");
