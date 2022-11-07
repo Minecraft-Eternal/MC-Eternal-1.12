@@ -19,7 +19,8 @@ var itemsToNuke = [
 	<bewitchment:poppet_deathprotection>,
 	<bewitchment:poppet_vampiric>,
 	<openmodularturrets:addon_meta:1>,
-  <bibliocraft:fancyworkbench:*>
+ 	<inventorypets:solstice_sword>,
+	<randomthings:spectreanchor>
 ] as IItemStack[];
 
 for item in itemsToNuke {
