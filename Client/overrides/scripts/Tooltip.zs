@@ -9,7 +9,7 @@ print("--- loading Tooltip.zs ---");
 <rats:arcane_technology>.addTooltip(format.gold("Drops from the Ratlantean Automaton"));
 <ftbquests:book>.addTooltip(format.gold("A new beginning, Open me!"));
 <minecraft:nether_star>.addTooltip(format.gold("Earth below us, Drifting falling"));
-<ebwizardry:crystal_block>.addTooltip(format.gold("Can be used to ward off Nether Portal Corruption"));
+<ebwizardry:crystal_block:*>.addTooltip(format.gold("Can be used to ward off Nether Portal Corruption"));
 <wings:fairy_dust>.addTooltip(format.gold("Can be used to transmute certain metals. This dust radiates primal magic energy"));
 <ftbquests:lootcrate>.withTag({type: "cultist"}).addTooltip(format.darkRed("Step one... Dress to impress!"));
 <ftbquests:lootcrate>.withTag({type: "extraterrestrial_cache"}).addTooltip(format.gold("Keep your eyes on the stars, and your feet on the ground. -Theodore Roosevelt"));
