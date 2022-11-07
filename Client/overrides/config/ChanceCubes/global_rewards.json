@@ -153,7 +153,7 @@
     "chancecubes:boss_demonic_blaze": true,
     "chancecubes:math": false,
     "chancecubes:question": false,
-    "chancecubes:heads_or_tails": true,
+    "chancecubes:heads_or_tails": false,
     "chancecubes:village": true,
     "chancecubes:woodland_mansion": true,
     "chancecubes:biodome": true,
