@@ -39,14 +39,6 @@ print("--- loading Tooltip.zs ---");
 <thaumcraft:filter>.addTooltip(format.aqua("Right-click a Clogged Flux Condenser Lattice to unclog it!"));
 <nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple("4x Total Power Generation! (Disclaimer: reflected in Fuel tooltips)"));
 
-var disabledItems = [
-	<inventorypets:solstice_sword>
-] as IItemStack[];
-
-for item in disabledItems {
-	item.addTooltip(format.red("Disabled"));
-}
-
 var supremarmor = [<mysticalagriculture:supremium_helmet>,<mysticalagriculture:supremium_chestplate>,<mysticalagriculture:supremium_leggings>,<mysticalagriculture:supremium_boots>] as IItemStack[];
 for armor in supremarmor {
   armor.addTooltip(format.red("Flight Disabled"));
