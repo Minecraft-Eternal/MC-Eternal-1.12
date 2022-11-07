@@ -38,6 +38,7 @@ print("--- loading Tooltip.zs ---");
 <thaumcraft:condenser_lattice_dirty>.addTooltip(format.aqua("Right-click with an Essentia Filter to unclog!"));
 <thaumcraft:filter>.addTooltip(format.aqua("Right-click a Clogged Flux Condenser Lattice to unclog it!"));
 <nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple("4x Total Power Generation! (Disclaimer: reflected in Fuel tooltips)"));
+<randomthings:spectreanchor>.addTooltip(format.red("Use Tombstone Soulbound instead"));
 
 var supremarmor = [<mysticalagriculture:supremium_helmet>,<mysticalagriculture:supremium_chestplate>,<mysticalagriculture:supremium_leggings>,<mysticalagriculture:supremium_boots>] as IItemStack[];
 for armor in supremarmor {
