@@ -152,21 +152,21 @@
 			}
 		},
 		"platinum": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
 					{
-						"name": "",
+						"name": "thermalfoundation:ore",
 						"properties": {
-							"type": ""
+							"type": "platinum"
 						},
 						"weight": 40
 					},
 					{
-						"name": "mekanism:oreblock",
+						"name": "thermalfoundation:ore",
 						"properties": {
-							"type": "osmium"
+							"type": "nickel"
 						},
 						"weight": 60
 					}
@@ -175,77 +175,77 @@
 				"cluster-size": 4
 			},
 			"cluster-count": 1,
-			"min-height": 20,
-			"max-height": 30,
+			"min-height": 5,
+			"max-height": 25,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "whitelist",
+				"restriction": "blacklist",
 				"value": [
-					1000,
-					10
+					-1,
+					1
 				]
 			}
 		},
 		"aluminum": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "rats:block_of_cheese",
+					"name": "thermalfoundation:ore",
 					"properties": {
-						"type": ""
+						"type": "aluminum"
 					}
 				},
-				"material": "rats:marbled_cheese_raw",
-				"cluster-size": 32
+				"material": "minecraft:stone",
+				"cluster-size": 8
 			},
 			"cluster-count": 8,
 			"min-height": 40,
-			"max-height": 64,
+			"max-height": 75,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "whitelist",
+				"restriction": "blacklist",
 				"value": [
-					1000,
-					1010
+					-1,
+					1
 				]
 			}
 		},
 		"iridium": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
 					{
-						"name": "libvulpes:ore0",
+						"name": "thermalfoundation:ore",
 						"properties": {
-							"type": "0"
+							"type": "iridium"
 						},
 						"weight": 40
 					},
 					{
-						"name": "minecraft:gold_block",
+						"name": "thermalfoundation:ore",
 						"properties": {
-							"type": ""
+							"type": "platinum"
 						},
 						"weight": 60
 					}
 				],
-				"material": "rats:marbled_cheese_raw",
-				"cluster-size": 16
+				"material": "minecraft:stone",
+				"cluster-size": 4
 			},
 			"cluster-count": 1,
-			"min-height": 2,
-			"max-height": 8,
+			"min-height": 5,
+			"max-height": 25,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "whitelist",
+				"restriction": "blacklist",
 				"value": [
-					1000,
-					1010
+					-1,
+					1
 				]
 			}
 		},
@@ -254,20 +254,20 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "minecraft:iron_block",
+					"name": "thermalfoundation:ore",
 					"properties": {
-						"type": ""
+						"type": "copper"
 					}
 				},
-				"material": "rats:marbled_cheese_raw",
-				"cluster-size": 20
+				"material": "minecraft:stone",
+				"cluster-size": 8
 			},
 			"cluster-count": 4,
-			"min-height": 3,
-			"max-height": 51,
+			"min-height": 20,
+			"max-height": 55,
 			"retrogen": "true",
 			"biome": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
 					{
 						"type": "dictionary",
@@ -276,10 +276,10 @@
 				]
 			},
 			"dimension": {
-				"restriction": "whitelist",
+				"restriction": "blacklist",
 				"value": [
-					1010,
-					1000
+					-1,
+					1
 				]
 			}
 		},
@@ -288,24 +288,22 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "minecraft:emerald_block",
+					"name": "thermalfoundation:ore",
 					"properties": {
-						"type": ""
+						"type": "copper"
 					}
 				},
-				"material": "rats:marbled_cheese_raw",
-				"cluster-size": 22
+				"material": "minecraft:stone",
+				"cluster-size": 8
 			},
-			"cluster-count": 8,
-			"min-height": 2,
-			"max-height": 34,
+			"cluster-count": 3,
+			"min-height": 20,
+			"max-height": 30,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					1000,
-					1001
 				]
 			}
 		}
