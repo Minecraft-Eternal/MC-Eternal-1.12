@@ -40,6 +40,7 @@ recipes.addShapeless("soulsoil_mce", <futuremc:soul_soil>, [<ore:soulSand>,<ore:
 #Jade Seeds
 #funny recipe for the sake of funny
 #these are really not necessary to make, you just don't need that much jade, but it's also a very op endgame material so hehe
+recipes.remove(<mysticalagriculture:jade_seeds>);
 recipes.addShaped("jadeseeds_mce", <mysticalagriculture:jade_seeds>, 
 	[[<erebus:jade_block>, <mysticalagradditions:storage:1>, <erebus:jade_block>], 
 	[<mysticalagradditions:storage:1>, <mysticalagradditions:insanium:1>, <mysticalagradditions:storage:1>], 
@@ -82,6 +83,7 @@ mods.thermalexpansion.EnervationDynamo.addFuel(<taiga:tiberium_crystal>, 100000)
 
 #Dimension Builder
 // balanced
+recipes.remove(<rftoolsdim:dimension_builder>);
 recipes.addShaped("dimbuilder_mce", <rftoolsdim:dimension_builder>,
 	[[<theaurorian:auroriansteelblock>,<rats:idol_of_ratlantis>,<erebus:jade_block>],
 	[<ore:relicItemAtum>,<rftools:machine_frame>,<tconstruct:materials:50>],
