@@ -7,14 +7,15 @@ print("--- loading AdvRocketry.zs ---");
 var removerecipes = [
 	<advancedrocketry:rocketbuilder>,
 	<advancedrocketry:stationbuilder>,
-	<advancedrocketry:warpmonitor>,
-	<advancedrocketry:warpcore>,
-//	<advancedrocketry:chemicalreactor>,
+//	<advancedrocketry:warpmonitor>,
+//	<advancedrocketry:warpcore>,
+	<advancedrocketry:chemicalreactor>,
 //	<advancedrocketry:guidancecomputer>,
 //	<advancedrocketry:rollingmachine>,
 //	<advancedrocketry:electrolyser>,
 //	<advancedrocketry:precisionassemblingmachine>,
 //	<advancedrocketry:cuttingmachine>,
+	<advancedrocketry:fuelingstation>,
 	
 	#Usual Access items, go put in effort :pointingrat:
 	<erebus:gaean_keystone>,
