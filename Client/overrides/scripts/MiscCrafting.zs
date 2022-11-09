@@ -79,7 +79,7 @@ recipes.addShaped("mce_yabba_upgrade_infinite_capacity", <yabba:upgrade_star_tie
 ]);
 
 // Tiberium as Dynamo fuel
-mods.thermalexpansion.EnervationDynamo.addFuel(<taiga:tiberium_crystal>, 100000);
+mods.thermalexpansion.EnervationDynamo.addFuel(<taiga:tiberium_crystal>, 1000000);
 
 #Dimension Builder
 // balanced
