@@ -64,6 +64,36 @@ for block in amberBlocks {
 	Carving.addVariation("amberblock", block);
 }
 
+#Danknull T6
+#stupidly op and too stupidly cheap, some spicy is nice yeah?
+recipes.remove(<danknull:dank_null_5>);
+recipes.addShaped("danknull_t6_mce", <danknull:dank_null_5>.withTag({display:{Lore:["Compact Machine must be freshly crafted","Contents and settings will be retained!"]}}),
+	[[<danknull:dank_null_panel_5>, <rats:idol_of_ratlantis>, <danknull:dank_null_panel_5>],
+	[<extracells:storage.component:2>, <danknull:dank_null_4>.marked("dank5"), <extracells:storage.component:2>],
+	[<danknull:dank_null_panel_5>, <compactmachines3:machine:5>.marked("cm"),<danknull:dank_null_panel_5>]],
+	
+	function(output as IItemStack, input as IItemStack[string], cInfo as ICraftingInfo){
+		if(!input.cm.hasTag){
+			return output.withTag(input.dank5.tag);
+		} else {
+			return null;
+		}
+	}
+);
+
+#Forced Danknull tiering
+val dankRecipes = [
+	"dank_null_0",
+	"dank_null_1",
+	"dank_null_2",
+	"dank_null_3",
+	"dank_null_4",
+	"dank_null_5"
+] as string[];
+for recipe in dankRecipes { 
+	recipes.removeByRecipeName("danknull:"+recipe);
+}
+
 #Infinite Barrel/Drawer Upgrade
 recipes.addShaped("mce_drawers_upgrade_infinite_capacity", <storagedrawers:upgrade_creative:0>, [
 	[null, <extracells:storage.component:1>, null],
