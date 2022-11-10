@@ -1,0 +1,26 @@
+{
+	title: "&5Manipulating Impetus",
+	x: 33.0d,
+	y: -21.0d,
+	shape: "octagon",
+	description: "&oControl the Uncontrollable&7 *Read Description*",
+	text: [
+		"&7A Specialized Jewel that can channel &0Impetus&7, a useful component for any future endeavours with &0Impetus&7."
+	],
+	dependencies: [
+		"b4f9ea5d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9bfd135b",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:material 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "8ceafaa0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "&5Research Aids",
+	x: 19.5d,
+	y: 3.0d,
+	description: "&oI shall aid you in your quest!&7 *Read Description*",
+	text: [
+		"&7Certain blocks (and entities, apparently) can be placed near your research table and selected to add Research Cards into your next session, with high Weight.",
+		"Once drawn, these cards stop being influencd.",
+		"",
+		"They are as follows:",
+		"",
+		"&5Bookshelf&7 - &d3x Study (Special), 2x Notation (Special), Universal Theory",
+		"&5Crucible&7 - &dConcentrate, Reactions, Synthesis",
+		"&5Arcane Workbench&7 - &dCalibrate, Tinker, Mind over Matter",
+		"&5Focal Manipulator&7 - &dSpiritual Focus, Awareness, Spellbinding",
+		"&5Runic Matrix&7 - &dMeasure, Channel Essentia, Experimental Infusion",
+		"&5Golem Press&7 - &dSculpting, Scripting, Synergy",
+		"&5Enchantment Table&7 - &dStudy Enchantment (Special)",
+		"&5Beacon&7 - &dAural Influence (Special)",
+		"&5Brain in a Jar&7 - &dDark Whispers (Special)",
+		"&5Glyphed Stone&7 - &dStudy Glyphs (Special)",
+		"&5Nether/End/Lesser Crimson Portal&7 - &dVoices from Beyond (Special)"
+	],
+	dependencies: [
+		"48e5b50e"
+	],
+	tasks: [{
+		uid: "a259045b",
+		type: "checkmark"
+	}]
+}

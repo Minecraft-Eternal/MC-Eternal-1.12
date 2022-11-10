@@ -2,6 +2,7 @@
 	x: -10.0d,
 	y: -5.0d,
 	shape: "diamond",
+	description: "&oEnchanting a Raven's Feather with Light leads to a Focus which can reveal places of great magical power... What could such places hold?",
 	dependencies: [
 		"8b2bcc08"
 	],
@@ -9,7 +10,7 @@
 		uid: "27812951",
 		type: "item",
 		items: [{
-			item: "twilightforest:magic_map_focus"
+			item: "twilightforest:magic_map_empty"
 		}]
 	}],
 	rewards: [{

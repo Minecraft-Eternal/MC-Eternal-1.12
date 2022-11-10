@@ -1,0 +1,35 @@
+{
+	title: "&5Alchemy",
+	x: 21.5d,
+	y: 0.0d,
+	description: "&oFull Metal&7 &l*Read Description*",
+	text: [
+		"&7Dash some &dSalis Mundus&7 onto &5Cauldron&7 to transform it into a &5Crucible&7, an essential device to transform many items into other, more magical items.",
+		"",
+		"Any items added in by dropping or &dRight-clicking&7 will be melted into the Essentia that composes them.",
+		"If an item has a recipe in the Crucible and the &drequired Essentia is present&7, the Essentia will be consumed, and the item will be converted instead of melting into Essentia!",
+		"Note that each individual item converted will consume Essentia, so you don't expect to get 5 Nitor for the price of 10 &cIgnis&7, &bPotentia&7, and &eLux&7.",
+		"",
+		"Lastly, &dcrafting high Essentia Cost items in the Crucible is not exactly advised&7, it's fairly likely that it will overflow and spill Essentia fairly quickly, likely melting the Catalyst item if you try.",
+		"&dPerhaps you will discover a way to manipulate Essentia, and do Alchemy with that manipulated form...&7",
+		"",
+		"&c&lAvoid holding valued items in your hand when working with one of these, you don't want to turn your precious Weapon into Essentia, do you?"
+	],
+	dependencies: [
+		"b6d6a588"
+	],
+	tasks: [{
+		uid: "bc75f347",
+		type: "observation",
+		title: "Gaze at a &5Crucible",
+		icon: "thaumcraft:crucible",
+		match_type: "block_id",
+		match: "thaumcraft:crucible",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "87edfcaf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "&5Focused Secrets",
+	x: 27.0d,
+	y: -1.0d,
+	description: "&oIt is a Mystery&7 *Read Description*",
+	text: [
+		"&7Certain &5Researches&7 require you to scan specific Items or Entities to unlock them, this quest's reward is &da Command that will print info about the Hidden Focus Effect research scan dependencies!&7 Incase you didn't want to spoil it by just looking at the quest!",
+		"",
+		"&6This Quest is repeatable, so you can refer to it for the information if you forget it!"
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c6678a36"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "91d99e89",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "582feaf1",
+		type: "command",
+		title: "&dClaim to reveal the secrets",
+		command: "/tellraw @p {\"text\":\"§5Cloud: §dDragon's Breath\\n§5Curse: §dPech Wand\\n§5Spellbat: §dFirebat\"}"
+	}]
+}

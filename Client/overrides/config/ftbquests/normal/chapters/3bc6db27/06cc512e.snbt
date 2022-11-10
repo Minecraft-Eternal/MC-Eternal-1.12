@@ -3,7 +3,7 @@
 	x: -2.0d,
 	y: 4.0d,
 	shape: "gear",
-	description: "Using a tree tap, gather 12 saps from Rubber trees.",
+	description: "&oO Rubber Tree O Rubber Tree, your Resin is so Sti-cky...",
 	tasks: [{
 		uid: "da21502e",
 		type: "item",

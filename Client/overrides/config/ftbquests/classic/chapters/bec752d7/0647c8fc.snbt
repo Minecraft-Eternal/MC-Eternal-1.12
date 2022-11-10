@@ -1,0 +1,21 @@
+{
+	title: "&5Out of the Oven",
+	x: 23.5d,
+	y: -8.0d,
+	description: "&dIf you did every quest before this point, you're all warmed up, Thaumaturge! &l*READ, DESCRIPTION*",
+	text: [
+		"&d&lAny thaumaturge with a care would read the information their Thaumonomicon has provided alongside what most of these quests provide."
+	],
+	dependencies: [
+		"2030380f"
+	],
+	tasks: [{
+		uid: "39d2650f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d8f35ba8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

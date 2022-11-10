@@ -1,0 +1,24 @@
+{
+	title: "&5Aura Charger",
+	x: 29.0d,
+	y: -17.5d,
+	description: "&oOvercharged&7 *Read Description*",
+	text: [
+		"&7The &5Aura Charger&7 is a device that uses the Aura-related energy that &dAuram&7 Essentia contains, and diffuses it directly into the Aura as &dVis&7."
+	],
+	dependencies: [
+		"a34ee50d"
+	],
+	tasks: [{
+		uid: "2aa13b9d",
+		type: "item",
+		items: [{
+			item: "thaumadditions:aura_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "34ab82bf",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

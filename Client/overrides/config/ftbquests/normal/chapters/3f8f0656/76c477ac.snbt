@@ -1,15 +1,25 @@
 {
 	x: -0.5d,
-	y: 11.0d,
+	y: 11.5d,
+	description: "Quantum Rings allow you to connect your ME Network to far away places, you can build a pair with these Items.",
 	dependencies: [
-		"9a541046"
+		"8e9ea584"
 	],
 	tasks: [{
 		uid: "6f5ed911",
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:quantum_link"
-		}]
+		}],
+		count: 2L
+	},
+	{
+		uid: "d3843993",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quantum_ring"
+		}],
+		count: 16L
 	}],
 	rewards: [{
 		uid: "7e0ecf8d",

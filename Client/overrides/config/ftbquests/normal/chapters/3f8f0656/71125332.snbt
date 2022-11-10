@@ -1,0 +1,27 @@
+{
+	x: -6.0d,
+	y: 13.5d,
+	description: "Automatic Crafting Table for ME Networks! *Read Description*",
+	text: [
+		"Place an ME Interface adjacent to it and put Crafting Patterns in the Interface to let the network do that recipe for Autocrafting requests...",
+		"",
+		"...Or put a Pattern in the Assembler and provide the required Items for full-auto crafting.",
+		"",
+		"Automatically pushes results of crafting to adjacent Containers"
+	],
+	dependencies: [
+		"c2bf12bb"
+	],
+	tasks: [{
+		uid: "f0177317",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "fb39282c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

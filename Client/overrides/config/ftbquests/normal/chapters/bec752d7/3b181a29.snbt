@@ -1,0 +1,45 @@
+{
+	title: "&5Impetus Conductor",
+	x: 27.5d,
+	y: -15.0d,
+	shape: "octagon",
+	description: "&oChaos Control!&7 *Read Description*",
+	text: [
+		"&7An &5Impetus Conductor&7 can be attached to a &5Thaumium or Voidseer Caster's Gauntlet&7 by crafting, it will allow your Gauntlet to gather and harness raw, untamed Flux Rift energy, called &0Impetus&7.",
+		"To gather &0Impetus&7 with a Gauntlet directly, simply stand near a &5Flux Rift&7 with it in hand.",
+		"",
+		"Merely having an &5Impetus Conductor&7 with any amount of charge attached to your Gauntlet will improve the Focus Power of Foci cast through it slightly, not as strong as other Augments, but it has no condition besides having a bit of &0Impetus&7."
+	],
+	dependencies: [
+		"90c4a4d8",
+		"c7c69c0d"
+	],
+	tasks: [{
+		uid: "c9c6bb63",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					augment: {},
+					energy: {
+						energy: 0L
+					}
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:augment_caster_rift_energy_storage"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f4a73575",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "42d73ce7",
+		type: "loot",
+		table: 1
+	}]
+}

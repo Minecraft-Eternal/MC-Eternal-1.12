@@ -1,0 +1,36 @@
+{
+	title: "&5Impetus Resonator",
+	x: 31.5d,
+	y: -21.5d,
+	shape: "octagon",
+	description: "&oUse the Force&7 *Read Description*",
+	text: [
+		"&7Configures transmission of &0Impetus&7 between devices.",
+		"",
+		"&dSneak+Right-click&7 on a device to select it as the current &0Impetus Source&7, devices &dRight-clicked&7 afterwards will be bound to the &0Impetus Source&7 with the source transmitting to the clicked device."
+	],
+	dependencies: [
+		"10c3654c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "668d20bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "thaumicaugmentation:impetus_linker"
+		}]
+	}],
+	rewards: [{
+		uid: "64fddf19",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c9b4328d",
+		type: "loot",
+		table: 1
+	}]
+}

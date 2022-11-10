@@ -1,0 +1,27 @@
+{
+	title: "&5Solid Vis",
+	x: 19.5d,
+	y: -1.0d,
+	shape: "hexagon",
+	description: "&oNot Sieverts&7 *Read Description*",
+	text: [
+		"&5Quartz Slivers&7 can be dunked into a Crucible &dwith atleast 2 points of an Essentia&7 to create a &5Vis Crystal&7 of that aspect!",
+		"",
+		"&6Extremely useful for cleaning up after a craft&7, so that you don't release a ton of &5Flux&7!"
+	],
+	dependencies: [
+		"98bea19e"
+	],
+	tasks: [{
+		uid: "ff0d4b2c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nugget 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "d38ebdc4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

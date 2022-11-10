@@ -1,10 +1,10 @@
 {
 	title: "Magic and Spellcasting",
 	icon: {
-		id: "ebwizardry:master_fire_wand",
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
-		}
+		},
+		id: "ebwizardry:master_fire_wand"
 	},
 	always_invisible: false,
 	group: 0,
@@ -65,8 +65,8 @@
 		dev: false
 	},
 	{
-		x: 20.492857142857147d,
-		y: 1.8806122448979607d,
+		x: 20.509523809523813d,
+		y: 1.8047619047619037d,
 		width: 0.15d,
 		height: 0.5d,
 		rotation: 0.0d,

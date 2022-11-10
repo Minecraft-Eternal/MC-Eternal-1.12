@@ -1,0 +1,27 @@
+{
+	title: "&5Void Jar",
+	x: 26.5d,
+	y: -4.5d,
+	description: "&oI don't need this!&7 *Read Description*",
+	text: [
+		"&5Void Jars&7 will delete excess Essentia that attempts to enter them by Tubes or Transfusers.",
+		"They are identical to Warded Jars in all other ways.",
+		"&lDoes not produce as much Flux as dumping a Jar's contents."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8a0931d"
+	],
+	tasks: [{
+		uid: "aecf01aa",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_void"
+		}]
+	}],
+	rewards: [{
+		uid: "6ef97273",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

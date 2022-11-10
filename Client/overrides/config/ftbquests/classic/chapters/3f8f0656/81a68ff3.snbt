@@ -1,8 +1,9 @@
 {
-	x: 1.0d,
+	x: 1.5d,
 	y: 10.5d,
+	description: "Combination Wrench and Card Storage! Right-click part of an ME Network to see connected devices and Power usage! Sneak+Right-click for Wrenching.",
 	dependencies: [
-		"9a541046"
+		"8e9ea584"
 	],
 	tasks: [{
 		uid: "fa760f78",
@@ -11,7 +12,7 @@
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "thermalfoundation:wrench"
+			id: "appliedenergistics2:network_tool"
 		}],
 		ignore_nbt: 1b
 	}],

@@ -1,0 +1,28 @@
+{
+	title: "&5Control Seals",
+	x: 22.5d,
+	y: -10.0d,
+	description: "&oUnsealing the Power&7 *Read Description*",
+	text: [
+		"&5Control Seals&7 tell Golems in the area what to do, they need to be infused with Essentia, and sometimes Items, in order to give them the right properties.",
+		"",
+		"&5Golems&7 may need specific capabilities to perform some tasks Control Seals can instruct.",
+		"These can usually be acquired by using different parts for the Golem. ",
+		"&cSome downsides from other parts may also prevent them from doing certain tasks!"
+	],
+	dependencies: [
+		"376c2522"
+	],
+	tasks: [{
+		uid: "e660591a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:seal"
+		}]
+	}],
+	rewards: [{
+		uid: "a7d15100",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

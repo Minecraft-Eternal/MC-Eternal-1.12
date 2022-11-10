@@ -1,0 +1,36 @@
+{
+	title: "&5Arcane Grappler",
+	x: 27.5d,
+	y: -2.0d,
+	description: "&oI have the High Ground!&7 *Read Description*",
+	text: [
+		"&7The &5Arcane Grappler&7 is a grappling hook that uses &dVis&7 as energy.",
+		"&dRight-click&7 to fire it, it will drag you towards the impact point and hold you near it, it will only detach if you &dSneak or fire again&7."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3c6d03b6"
+	],
+	tasks: [{
+		uid: "6fd122a0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:grapple_gun"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df3b6e25",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "95e3450f",
+		type: "loot",
+		table: 1
+	}]
+}

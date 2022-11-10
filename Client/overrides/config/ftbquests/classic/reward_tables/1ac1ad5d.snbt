@@ -1,0 +1,23 @@
+{
+	title: "Nuclearcraft Tutorials",
+	icon: "nuclearcraft:rtg_plutonium",
+	loot_size: 1,
+	rewards: [{
+		title: "&6NuclearCraft Youtube Channel",
+		icon: "nuclearcraft:rtg_plutonium",
+		command: "/tellraw @p {\"text\": \"§9§lClick here to open the Official §6NuclearCraft Youtube Channel!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/c/NuclearCraftMod/featured\"}}",
+		type: "command"
+	},
+	{
+		title: "&6NuclearCraft &2Fission Tutorial",
+		icon: "nuclearcraft:fission_controller_new_fixed",
+		command: "/tellraw @p {\"text\": \"§9§lClick here to open the Official §6Nuclearcraft §2Fission Tutorial!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=IIZur0OrqGY&t\"}}",
+		type: "command"
+	},
+	{
+		title: "&6Nuclearcraft &cFusion Tutorial",
+		icon: "nuclearcraft:fusion_core",
+		command: "/tellraw @p {\"text\": \"§9§lClick here to open the Official §6Nuclearcraft §cFusion Tutorial!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=B9ctB28I3qI\"}}",
+		type: "command"
+	}]
+}

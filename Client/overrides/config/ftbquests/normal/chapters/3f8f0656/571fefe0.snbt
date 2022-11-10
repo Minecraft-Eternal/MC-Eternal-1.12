@@ -1,0 +1,25 @@
+{
+	title: "Upgrade Cards",
+	x: -6.5d,
+	y: 10.5d,
+	description: "Basic and Advanced Cards are the base for all types of Cards in AE2, used in various devices as Upgrades or Modifiers to their functionality.",
+	dependencies: [
+		"8e9ea584"
+	],
+	tasks: [{
+		uid: "107d9c8b",
+		type: "item",
+		title: "&6Basic &rOr &6Advanced Card",
+		items: [{
+			item: "appliedenergistics2:material 1 25"
+		},
+		{
+			item: "appliedenergistics2:material 1 28"
+		}]
+	}],
+	rewards: [{
+		uid: "2ef0e956",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

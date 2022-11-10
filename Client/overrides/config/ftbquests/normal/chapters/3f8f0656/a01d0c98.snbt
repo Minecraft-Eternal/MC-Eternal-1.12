@@ -1,0 +1,27 @@
+{
+	x: -0.5d,
+	y: 12.5d,
+	description: "Used in a Security Terminal to allow access to others. Sneak+Right-click to tune it to yourself. Set permissions with the bottom slot, activate by adding to the upper Terminal section.",
+	dependencies: [
+		"5c4df8f1"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3889e364",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:biometric_card",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "32897604",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

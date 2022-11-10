@@ -1,0 +1,20 @@
+{
+	x: -4.5d,
+	y: 13.0d,
+	description: "Connects containers to an ME Network, allowing it to use the connected container as Storage for the Network!",
+	dependencies: [
+		"8e9ea584"
+	],
+	tasks: [{
+		uid: "96cad549",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 220"
+		}]
+	}],
+	rewards: [{
+		uid: "e3ebe10d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

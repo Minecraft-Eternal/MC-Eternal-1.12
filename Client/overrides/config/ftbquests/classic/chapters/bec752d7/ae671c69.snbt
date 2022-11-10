@@ -1,0 +1,30 @@
+{
+	title: "&5Mithminite Scythe",
+	x: 31.0d,
+	y: -15.0d,
+	description: "&oDoesn't drop from Reapers&7 *Read Description*",
+	text: [
+		"&7A powerful weapon infused with raw Primordial energy, able to fire &6Phantom Scythes&7 that deal damage, it is also &6Unbreakable&7 and &6strikes with great power&7, both from a distance and close up."
+	],
+	dependencies: [
+		"7206c686",
+		"254f91a5"
+	],
+	tasks: [{
+		uid: "ab1d7ddb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumadditions:mithminite_scythe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9c453ed7",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

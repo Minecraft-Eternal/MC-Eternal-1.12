@@ -2,7 +2,7 @@
 	title: "Misc. Alloys",
 	x: 10.5d,
 	y: 4.5d,
-	description: "Required Alloys to craft/upgrade machines. Other quests around will unlock as you make the Alloys!",
+	description: "Required Alloys to craft/upgrade machines",
 	dependencies: [
 		"3fd484fc"
 	],

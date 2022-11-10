@@ -1,9 +1,12 @@
 {
-	x: -12.0d,
-	y: -14.0d,
+	x: -13.0d,
+	y: -13.0d,
+	description: "&oFiery Thorns!",
 	dependencies: [
-		"b4ba916c"
+		"d592428b",
+		"7e91214b"
 	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "c309805b",
 		type: "item",

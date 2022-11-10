@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-FMLAT: structurize_at.cfg
-ContainedDeps: MathParser.org-mXparser-4.0.0.jar
-Maven-Artifact: com.ldtteam:structurize:1.12.2-0.10.277-RELEASE
-

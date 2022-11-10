@@ -25,7 +25,18 @@
 		uid: "ee06171a",
 		type: "item",
 		items: [{
-			item: "libvulpes:motor"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockMotor"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockMotor"
+				}
+			}
 		}]
 	},
 	{

@@ -1,0 +1,202 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"mce_osmium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "",
+						"properties": {
+							"type": ""
+						},
+						"weight": 40
+					},
+					{
+						"name": "mekanism:oreblock",
+						"properties": {
+							"type": "osmium"
+						},
+						"weight": 60
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 1,
+			"min-height": 20,
+			"max-height": 30,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1000,
+					10
+				]
+			}
+		},
+		"mce_cheese": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "rats:block_of_cheese",
+					"properties": {
+						"type": ""
+					}
+				},
+				"material": "rats:marbled_cheese_raw",
+				"cluster-size": 32
+			},
+			"cluster-count": 8,
+			"min-height": 40,
+			"max-height": 64,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1000
+				]
+			}
+		},
+		"mce_gold_titanium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "libvulpes:ore0",
+						"properties": {
+							"type": "0"
+						},
+						"weight": 40
+					},
+					{
+						"name": "minecraft:gold_block",
+						"properties": {
+							"type": ""
+						},
+						"weight": 60
+					}
+				],
+				"material": "rats:marbled_cheese_raw",
+				"cluster-size": 16
+			},
+			"cluster-count": 1,
+			"min-height": 2,
+			"max-height": 8,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1000,
+				]
+			}
+		},
+		"mce_ironblock_moon": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "minecraft:iron_block",
+					"properties": {
+						"type": ""
+					}
+				},
+				"material": "rats:marbled_cheese_raw",
+				"cluster-size": 20
+			},
+			"cluster-count": 4,
+			"min-height": 3,
+			"max-height": 51,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1000
+				]
+			}
+		},
+		"mce_emeraldblock_moon": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "minecraft:emerald_block",
+					"properties": {
+						"type": ""
+					}
+				},
+				"material": "rats:marbled_cheese_raw",
+				"cluster-size": 22
+			},
+			"cluster-count": 8,
+			"min-height": 2,
+			"max-height": 34,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1000
+				]
+			}
+		}
+			"cluster-count": 1,
+			"min-height": 5,
+			"max-height": 25,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"ancient_debris": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "futuremc:ancient_debris",
+						"weight": 20
+					},
+					{
+						"name": "futuremc:ancient_debris",
+						"weight": 80
+					}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 2
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,
+			"min-height": 8,
+			"max-height": 119,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+	}
+}

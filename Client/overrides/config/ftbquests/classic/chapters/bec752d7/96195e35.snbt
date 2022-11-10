@@ -1,0 +1,78 @@
+{
+	title: "&5A Dream of Magic...",
+	x: 19.0d,
+	y: 4.5d,
+	shape: "octagon",
+	description: "Gather any of the Thaumcraft crystals you might find while mining and then sleep after. Who knows what one's subconscious mind may conjure...",
+	tasks: [{
+		uid: "3a25c820",
+		type: "item",
+		title: "Any Vis Crystal",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e5ae972",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e075df96",
+		type: "loot",
+		table: 1
+	}]
+}

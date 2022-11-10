@@ -1,0 +1,35 @@
+{
+	title: "&5Harvesting Impetus",
+	x: 29.5d,
+	y: -21.5d,
+	shape: "octagon",
+	description: "&oRiftstone Flux&7 *Read Description*",
+	text: [
+		"&7An &5Impetus Drainer&7 will drain &0Impetus&7 from nearby &5Flux Rifts&7 into valid acceptors on an &dImpetus Transfer Network&7.",
+		"",
+		"The larger a &5Flux Rift&7, the more &0Impetus&7 it will yield per harvest, so sapping large Rifts is ideal, but risky without proper setup.",
+		"",
+		"It can be deactived with a &cRedstone Signal&7."
+	],
+	dependencies: [
+		"8dafcaf0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4f07ec3c",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:impetus_drainer"
+		}]
+	}],
+	rewards: [{
+		uid: "e33204f2",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "cb603d51",
+		type: "loot",
+		table: 1
+	}]
+}
