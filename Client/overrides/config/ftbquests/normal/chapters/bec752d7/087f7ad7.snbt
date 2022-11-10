@@ -1,0 +1,27 @@
+{
+	title: "&4Serenade of the Nether",
+	x: 12.0d,
+	y: 22.0d,
+	description: "&oA Song of Only Fire",
+	text: [
+		"&7The &4Serenade of the Nether&7 summons Source Blocks of &cLava&7 ontop of it, at a considerable cost of 500LP/Bucket.",
+		"",
+		"If Augmented with &bRaw Will&7, it can insert into valid Tanks atop the Master Stone instead."
+	],
+	dependencies: [
+		"40cdcd64"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c9789ebd",
+		type: "checkmark"
+	},
+	{
+		uid: "0be90a2a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 4L
+	}]
+}

@@ -1,0 +1,76 @@
+{
+	title: "&4Tartaric Gems",
+	x: 0.5d,
+	y: 16.5d,
+	description: "&oSoul Storage",
+	text: [
+		"&4Tartaric Gems&7 are essentially a Battery for &bDemonic Will&7, any that would be dropped by Hostiles killed by a player will instead be absorbed directly into Gems they are carrying.",
+		"",
+		"If all Gems are full, excess Will drops on the floor and voids if picked up by someone with full Gems.",
+		"",
+		"&cSneak+Right-click&7 with a Gem to drain Will from it and send it into other Gems you have.",
+		"",
+		"&cUpgrading Tartaric Gems that contain &bDemonic Will&c does not preserve the Will in this iteration of Blood Magic!",
+		"They also cannot use their own &bWill&c to upgrade themselves!"
+	],
+	dependencies: [
+		"7e97f122"
+	],
+	tasks: [{
+		uid: "e3245702",
+		type: "item",
+		title: "Petty Tartaric Gem (or Better)",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {}
+		},
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aff0bb0d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

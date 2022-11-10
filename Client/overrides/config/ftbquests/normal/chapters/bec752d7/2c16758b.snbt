@@ -1,0 +1,31 @@
+{
+	x: 1.5d,
+	y: -11.5d,
+	description: "&oAny kind of Star-Seeing device will perceive these Constellations if you know where to look...",
+	dependencies: [
+		"9b00c6ef"
+	],
+	tasks: [{
+		uid: "90a7feaf",
+		type: "advancement",
+		title: "Discover a &9Bright Constellation",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemhandtelescope"
+		},
+		advancement: "astralsorcery:find_constellation",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "6124353c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b9971f54",
+		type: "loot",
+		table: 1
+	}]
+}

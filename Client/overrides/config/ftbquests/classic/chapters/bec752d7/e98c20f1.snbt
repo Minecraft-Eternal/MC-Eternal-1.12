@@ -1,0 +1,44 @@
+{
+	title: "&4Tome of Peritia",
+	x: 5.0d,
+	y: 26.0d,
+	description: "&oBook of Experiences",
+	text: [
+		"&7The &4Tome of Peritia&7 is a Book which can store your &aExperience&7.",
+		"",
+		"&cSneak+Right-click&7 to store XP, &cRight-click&7 to withdraw XP.",
+		"",
+		"&cXP Orbs&7 you pick up will automatically be stored to the Tome if carried."
+	],
+	dependencies: [
+		"382cc3a8"
+	],
+	tasks: [{
+		uid: "861fb109",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:experience_tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "841a3e2f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2586f6ba",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "8fea93ac",
+		type: "item",
+		item: "mysticalagriculture:xp_droplet",
+		count: 16
+	}]
+}

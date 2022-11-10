@@ -1,0 +1,37 @@
+{
+	title: "&4End of the Mainline",
+	x: -1.0d,
+	y: 28.5d,
+	shape: "hexagon",
+	description: "&oThat was it?",
+	text: [
+		"&7Yep, that's the entire main progression of standard Blood Magic.",
+		"",
+		"What? You're only partially done with Blood Magic!",
+		"All the good stuff, or &4\"Side Content\"&7, like the &cRituals&7, &cSigils&7, &cArmor&7, &cTools&7, and &cPotions&7, is where it's at, many of them have useful properties and powers.",
+		"",
+		"&6Go back and explore and experiement! You might discover something you never knew you needed!"
+	],
+	dependencies: [
+		"22218855"
+	],
+	tasks: [{
+		uid: "5d05153d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "52e0a08e",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "6b7f5f89",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

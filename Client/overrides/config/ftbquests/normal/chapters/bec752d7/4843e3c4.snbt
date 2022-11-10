@@ -1,0 +1,32 @@
+{
+	title: "Relay to the Stars",
+	x: 3.0d,
+	y: -10.0d,
+	description: "&oThese relays are rather important components in certain constructs, and by placing a &9&oGlass Lens&7&o atop one and building a &6&oSmall construct&7&o, you can harvest some additional Starlight from it, more than what your Table alone will gather...",
+	dependencies: [
+		"8d95e24a"
+	],
+	tasks: [{
+		uid: "87f115cd",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementrelay"
+		}]
+	}],
+	rewards: [{
+		uid: "3e08c15b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3b6505c9",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "a53ec76c",
+		type: "item",
+		item: "astralsorcery:blockattunementrelay",
+		count: 3
+	}]
+}

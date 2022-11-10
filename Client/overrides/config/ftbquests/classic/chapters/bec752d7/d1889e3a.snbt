@@ -1,0 +1,75 @@
+{
+	title: "Cosmic Power",
+	icon: "astralsorcery:blockattunementaltar",
+	x: 1.5d,
+	y: -14.0d,
+	shape: "octagon",
+	description: "*Read Description*",
+	text: [
+		"&7&oBy creating an &9&oAttunement Altar&7&o and setting the pattern for a constellation on it, you can attune certain things to the Constellations in the sky, &d&oincluding your very own self&7&o... ",
+		"To see the pattern for a Constellation, hold the Papers for it your hand, the clusters of purple sparkles are where &9&oSpectral Relays&7&o should be set... ",
+		"",
+		"There is much potential from this capability, it is very much worth trying, especially on yourself..."
+	],
+	dependencies: [
+		"a8afcede",
+		"2c16758b"
+	],
+	tasks: [{
+		uid: "dfee70e5",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	},
+	{
+		uid: "c78b2d26",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockblackmarble"
+		}],
+		count: 225L
+	},
+	{
+		uid: "6370ddd1",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 3"
+		}],
+		count: 80L
+	},
+	{
+		uid: "a6c388b3",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 6"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c8d8c0ef",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 2"
+		}],
+		count: 12L
+	},
+	{
+		uid: "fda9723c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "4fadc8c9",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "bfbe4893",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -63,5 +63,104 @@
 		hover: [],
 		click: "",
 		dev: false
+	},
+	{
+		x: 20.492857142857147d,
+		y: 1.8806122448979607d,
+		width: 0.15d,
+		height: 0.5d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 19.0d,
+		y: 3.5d,
+		width: 0.2d,
+		height: 0.7d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 19.0d,
+		y: 4.5d,
+		width: 0.1d,
+		height: 0.35d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 26.007823129251733d,
+		y: -1.1173469387755333d,
+		width: 0.1d,
+		height: 0.35d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.5d,
+		y: -8.0d,
+		width: 0.2d,
+		height: 0.7d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 3.738095238095241d,
+		y: -14.020748299319742d,
+		width: 0.15d,
+		height: 0.5d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 23.01020408163268d,
+		y: 2.374149659863953d,
+		width: 0.1d,
+		height: 0.35d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 23.991156462585053d,
+		y: 1.3571428571428612d,
+		width: 0.1d,
+		height: 0.35d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 5.0d,
+		y: 13.0d,
+		width: 0.2d,
+		height: 0.7d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
 	}]
 }

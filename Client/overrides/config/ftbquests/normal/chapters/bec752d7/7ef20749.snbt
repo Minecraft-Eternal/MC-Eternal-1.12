@@ -1,0 +1,25 @@
+{
+	title: "&4Demon Will Aura Gauge",
+	x: -6.5d,
+	y: 20.5d,
+	description: "&oAura of Malice",
+	text: [
+		"&7Allows you to see &bWill&7 levels in the chunk you're in.",
+		"Works as long as it's in your Inventory."
+	],
+	dependencies: [
+		"66d9a17b"
+	],
+	tasks: [{
+		uid: "5b5c6e56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:demon_will_gauge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

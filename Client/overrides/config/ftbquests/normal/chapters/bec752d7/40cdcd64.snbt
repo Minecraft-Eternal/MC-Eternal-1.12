@@ -1,0 +1,27 @@
+{
+	title: "&4Ritual Time!",
+	x: 11.0d,
+	y: 23.5d,
+	shape: "octagon",
+	description: "&oREAL Blood Magic",
+	text: [
+		"&4Rituals&7 are Constructs which can have various, potentially potent effects on Mobs, Players, and the World.",
+		"",
+		"There are &cmany different Rituals&7, some may not be useful to all Players, some may replace Machines, and some act as an equivalent other things.",
+		"",
+		"A few Quests after this one will go over some potentially very useful Rituals.",
+		"",
+		"&cQuests for Rituals that require an &4Awakened Activation Crystal&c to Activate or &4Dusk Runes&c to Build will be locked unless you complete the respective Quests!",
+		"This applies to Ritual quests elsewhere in the Questline!"
+	],
+	dependencies: [
+		"b61df414",
+		"14ce706c",
+		"0ffe76fd"
+	],
+	tasks: [{
+		uid: "95505151",
+		type: "checkmark",
+		title: "&4Ritual Time!"
+	}]
+}

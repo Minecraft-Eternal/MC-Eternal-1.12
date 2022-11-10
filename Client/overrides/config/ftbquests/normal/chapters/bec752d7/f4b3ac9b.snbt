@@ -1,0 +1,42 @@
+{
+	x: 6.5d,
+	y: -7.0d,
+	description: "&oThe beginning of a Stellar Journey...",
+	tasks: [{
+		uid: "62637476",
+		type: "observation",
+		title: "Look upon a &9Collector Crystal",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					},
+					collectorType: 0
+				}
+			}
+		},
+		match_type: "block_id",
+		match: "astralsorcery:blockcollectorcrystal",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "2b5fae1d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5807ccbc",
+		type: "loot",
+		table: 1
+	}]
+}

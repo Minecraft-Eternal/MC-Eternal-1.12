@@ -1,0 +1,35 @@
+{
+	title: "Don the Stars",
+	x: 2.5d,
+	y: -22.5d,
+	description: "*Read Description*",
+	text: [
+		"&7&oThe &9&oMantle of Stars&7&o is a Cloak which can be attuned to one of the &9&oConstellations&7&o you have discovered.",
+		"When attuning it, &d&oEnchantments&7&o and such are preserved.",
+		"",
+		"Each attunement grants different special powers..."
+	],
+	dependencies: [
+		"d6707898"
+	],
+	tasks: [{
+		uid: "18f114f9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcape",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1653fb96",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

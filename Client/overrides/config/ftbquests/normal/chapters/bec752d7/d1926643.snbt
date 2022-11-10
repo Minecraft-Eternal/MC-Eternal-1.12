@@ -1,0 +1,22 @@
+{
+	title: "Light Burst",
+	x: 6.0d,
+	y: -11.5d,
+	description: "&oThrow this powder with &d&oRight-click&7&o to create a Flare of Light at the impact point... The Flare will be removed if something else is set over its space...",
+	dependencies: [
+		"8d95e24a"
+	],
+	tasks: [{
+		uid: "34c44f54",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemusabledust"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "37719db9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

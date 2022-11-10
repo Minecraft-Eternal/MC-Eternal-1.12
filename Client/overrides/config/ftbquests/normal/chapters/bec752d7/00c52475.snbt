@@ -1,0 +1,34 @@
+{
+	title: "Astral Sorcertree",
+	x: 7.0d,
+	y: -14.0d,
+	description: "*Read Description*",
+	text: [
+		"&7&oThe &9&oTree Beacon&7&o is a device which will create the produce the products of Trees grown near it after it is set into the world...",
+		"",
+		"Trees grown near it will become Starlit and unbreakable, and slowly vanish over time as the Beacon produces what they would drop...",
+		"Removing the Beacon will return affected Trees to normal...",
+		"",
+		"It can be accelerated by feeding a Beam of &r&oStarlight&7&o into it..."
+	],
+	dependencies: [
+		"a024c6e1"
+	],
+	tasks: [{
+		uid: "d2044658",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blocktreebeacon"
+		}]
+	}],
+	rewards: [{
+		uid: "565a950c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1be2395c",
+		type: "loot",
+		table: 1
+	}]
+}

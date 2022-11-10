@@ -1,0 +1,20 @@
+{
+	title: "Starlight Conflicts",
+	x: 3.75d,
+	y: -13.125d,
+	shape: "pentagon",
+	description: "&l*Read Description!*",
+	text: [
+		"&7&oMultiple sources of &r&oStarlight&7&o in close proximity will not utilize the full potential, and will infact harm the maximum potential of each &r&oStarlight&7&o source...",
+		"This force is called &d&oStarlight Cannibalization&7&o, and it is a gradual force based on the distance between the &r&oStarlight&7&o sources, not an All-or-Nothing one...",
+		"The distance at which &r&oStarlight&7&o sources will not conflict at all is around &6&o16 Meters (blocks)&7&o..."
+	],
+	dependencies: [
+		"ac1e0498"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "40b86bd2",
+		type: "checkmark"
+	}]
+}

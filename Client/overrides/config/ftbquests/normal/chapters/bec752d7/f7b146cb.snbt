@@ -1,0 +1,69 @@
+{
+	title: "Advanced Starlight Collection",
+	x: 1.0d,
+	y: -19.0d,
+	description: "*Read Description*",
+	text: [
+		"&7&9Collector Crystals&7&o are an advanced form of &r&oStarlight&7&o collection, they concentrate &r&oStarlight&7&o into Beams, just like the Crystals found in ancient Shrines.",
+		"They are far more effective than simply letting your Altar itself collect &r&oStarlight&7&o, or using &6&oRelay Collectors&7&o...",
+		"",
+		"&9&oCelestial Collector Crystals&7&o collect even more &r&oStarlight&7&o than their mundane cousins, and can collect even more if a particular &d&oMultiblock&7&o is built for them..."
+	],
+	dependencies: [
+		"d5074b4b"
+	],
+	tasks: [{
+		uid: "e9c77c6c",
+		type: "item",
+		title: "Any &9Collector Crystal",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					},
+					collectorType: 0
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockcelestialcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					},
+					collectorType: 1
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7a66a584",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "cfdacc50",
+		type: "loot",
+		table: 1
+	}]
+}

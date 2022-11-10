@@ -1,0 +1,73 @@
+{
+	title: "&4Sentient Arsenal",
+	x: 0.0d,
+	y: 14.0d,
+	description: "&oSmartTools™",
+	text: [
+		"&7Powers up based on the amount of &bWill&7 carried in Gems, (Up to just under a full &bGreater&7 Gem).",
+		"",
+		"&4Sentient Tools&7 dropped while you have more than &b1024 Will&7 will &cAnimate&7 and act as an Ally in Combat to their summoner.",
+		"",
+		"&cFurther progression into the Bloody arts may reveal new powers these \"Spectres\" can possess..."
+	],
+	dependencies: [
+		"041f3de8"
+	],
+	tasks: [{
+		uid: "e8f67f56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sentient_bow",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "832faa34",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sentient_pickaxe",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "04db752f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sentient_axe",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a414d1e1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sentient_shovel",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "834ae2bd",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

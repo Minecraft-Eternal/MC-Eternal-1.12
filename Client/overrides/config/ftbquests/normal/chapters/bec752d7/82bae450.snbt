@@ -1,0 +1,30 @@
+{
+	title: "&4Penance of the Leadened Soul",
+	x: -4.0d,
+	y: 26.5d,
+	description: "&oSteel Soul",
+	text: [
+		"&7The &4Penance of the Leadened Soul&7 allows the creation of &4Downgrade Tomes&7, which will hamper your abilities, but add more &6Upgrade Points&7.",
+		"",
+		"&cYou cannot simply stack a &6Downgrade&c and its &6Upgrade&c variant for free stats.",
+		"&7The cost of the Upgrade outweighs the Downgrade's Bonus, and the potency of a Downgrade is stronger than an Upgrade's."
+	],
+	dependencies: [
+		"a146eff2",
+		"324d9485",
+		"95505151"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0004ff5f",
+		type: "checkmark"
+	},
+	{
+		uid: "f2356ad5",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 53L
+	}]
+}

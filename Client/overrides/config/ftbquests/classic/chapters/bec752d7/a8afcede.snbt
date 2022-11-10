@@ -1,0 +1,21 @@
+{
+	title: "Star-Steel",
+	x: 3.5d,
+	y: -15.0d,
+	description: "&oInfuse Iron to create the mineral of the Stars, and utilize the cosmic potential it carries to create new wonders...",
+	dependencies: [
+		"ac1e0498"
+	],
+	tasks: [{
+		uid: "9fcd7f42",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c4ba06fc",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

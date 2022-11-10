@@ -1,0 +1,26 @@
+{
+	title: "&4Well of Suffering",
+	x: 10.0d,
+	y: 25.0d,
+	description: "&oYou will Suffer...",
+	text: [
+		"&7The &4Well of Suffering&7 is a Ritual which slowly &cSacrifices&7 Creatures in its AoE, &cdealing Damage and depositing LP into the nearest &4Blood Altar&7."
+	],
+	dependencies: [
+		"24209710",
+		"40cdcd64"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3fa98b99",
+		type: "checkmark"
+	},
+	{
+		uid: "4f21479a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 36L
+	}]
+}

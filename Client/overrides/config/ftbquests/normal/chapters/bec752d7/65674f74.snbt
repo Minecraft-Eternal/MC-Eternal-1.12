@@ -1,0 +1,21 @@
+{
+	title: "Unwanted Powers",
+	x: -2.0d,
+	y: -14.0d,
+	description: "&oIt is possible to seal the potential of undesired powers, to do so, simply create a &9&oSealing Sigil&7&o, open your &6&oAstral Tome's Perks tab&7&o, and drag and drop the Sigil from the slot at the top to the perk you want to seal... The Seal can always be broken later if desired...",
+	dependencies: [
+		"94fe6f69"
+	],
+	tasks: [{
+		uid: "98bcdb45",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemperkseal"
+		}]
+	}],
+	rewards: [{
+		uid: "749c2be4",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

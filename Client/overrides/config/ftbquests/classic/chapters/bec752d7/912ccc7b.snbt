@@ -1,0 +1,83 @@
+{
+	title: "Irradiance",
+	x: -0.5d,
+	y: -19.5d,
+	shape: "octagon",
+	description: "*Read Description*",
+	text: [
+		"&7&oAn &9&oIrradiant Star&7&o is similar in function to a &9&oShifting Star&7&o, only that it will shift the user's Attunement to the constellation of the Star and preserve their &6&oStarlight Experience&7&o... ",
+		"",
+		"One is also able to use a Star attuned to the same constellation as them, allowing them to shift their power in another direction..."
+	],
+	dependencies: [
+		"d6707898",
+		"ce141b3b"
+	],
+	tasks: [{
+		uid: "c7862e2f",
+		type: "item",
+		title: "Any &9Irradiant Star",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.aevitas"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.discidia"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.armara"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.evorsio"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.vicio"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "53f313a9",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}
