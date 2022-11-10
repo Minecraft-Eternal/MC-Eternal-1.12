@@ -1,0 +1,26 @@
+{
+	title: "Remote Rituals",
+	x: 0.5d,
+	y: -16.0d,
+	description: "*Read Description*",
+	text: [
+		"&9&oRitual Anchors&7&o can be used to warp a Ritual's effect to anywhere else in the same Dimension...",
+		"Place one exactly &6&o5 Meters (blocks)&7&o above the &9&oRitual Pedestal&7&o, so &6&o4 Meters (blocks)&7&o of space between them, no more, no less...",
+		"Use a &9&oLinking Tool&7&o to bind them, select the Anchor at the Pedestal, and click the one you at the position you wish to warp the effect to..."
+	],
+	dependencies: [
+		"ef71e8f4"
+	],
+	tasks: [{
+		uid: "1c01388f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockrituallink"
+		}]
+	}],
+	rewards: [{
+		uid: "a187e642",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

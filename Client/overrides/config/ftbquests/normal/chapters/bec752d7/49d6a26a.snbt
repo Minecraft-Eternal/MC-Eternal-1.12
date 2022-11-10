@@ -1,0 +1,30 @@
+{
+	title: "&4Grand Tartaric Gem",
+	x: -4.5d,
+	y: 24.0d,
+	description: "&o&lALL OF THE SOULS IN THE WORLD!!!",
+	text: [
+		"&7Tartaric Gem with &b16384 Will&7 Capacity!"
+	],
+	dependencies: [
+		"df5db36d"
+	],
+	tasks: [{
+		uid: "5e86d5e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2d6ebdd7",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Luminous Caverns",
+	x: 5.0d,
+	y: -12.0d,
+	description: "&9&oCave Illuminators&7&o will slowly place Light Flares within dark spaces in a massive area below them...",
+	dependencies: [
+		"d1926643"
+	],
+	tasks: [{
+		uid: "13394d1f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockworldilluminator"
+		}]
+	}],
+	rewards: [{
+		uid: "9d14f4f4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c731977c",
+		type: "loot",
+		table: 1
+	}]
+}

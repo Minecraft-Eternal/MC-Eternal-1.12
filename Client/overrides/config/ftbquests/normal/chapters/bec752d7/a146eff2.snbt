@@ -1,0 +1,78 @@
+{
+	title: "&4Living Armor",
+	x: -2.0d,
+	y: 23.5d,
+	description: "&oIt's ALIVE!!",
+	text: [
+		"&4Living Armor&7 is a rather Unique armor which adapts to your Actions, &6Upgrading&7 your abilities depending on what actions you perform.",
+		"",
+		"It has limited &6Upgrade Points&7, every Upgrade consumes some Points.",
+		"The more a single &6Upgrade&7 is Leveled up, the more intense its effect becomes, but &6Upgrade Point&7 cost grows increasingly aswell.",
+		"",
+		"&cA full set MUST be worn for Abilities to be active.",
+		"",
+		"&4Living Armor&7 is not really about being a &c\"Jack of All Trades\"&7, it's about being master of a few aspects."
+	],
+	dependencies: [
+		"00db699e"
+	],
+	tasks: [{
+		uid: "ada56097",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:living_armour_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c52a02d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:living_armour_chest",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "15fd28b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:living_armour_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ae7d565d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:living_armour_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "87dac56e",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "9c61af0d",
+		type: "loot",
+		table: 1
+	}]
+}

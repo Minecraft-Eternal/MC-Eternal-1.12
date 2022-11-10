@@ -1,0 +1,56 @@
+{
+	title: "&4Common Tartaric Gem",
+	x: -1.5d,
+	y: 19.5d,
+	description: "&o&lMore Souls!",
+	text: [
+		"&7Tartaric Gem with &b1024 Will&7 Capacity."
+	],
+	dependencies: [
+		"959c9446",
+		"1ce0126f"
+	],
+	tasks: [{
+		uid: "43be54e5",
+		type: "item",
+		title: "Common Tartaric Gem (or Better)",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 2s
+		},
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ed1e36dd",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

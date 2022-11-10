@@ -1,0 +1,28 @@
+{
+	title: "Liquid Light",
+	x: 7.5d,
+	y: -12.0d,
+	description: "&oCreate this container and set an &9&oAquamarine or Rock Crystal&7&o upon it, the Starlight passing through should coalesce and seep into the Well... The Starlight may coalesce into a different form if you use other objects...",
+	dependencies: [
+		"a0c270d5",
+		"8d95e24a"
+	],
+	tasks: [{
+		uid: "cd06f0b2",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	}],
+	rewards: [{
+		uid: "aeb242b7",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1fd555b8",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent",
+		count: 8
+	}]
+}

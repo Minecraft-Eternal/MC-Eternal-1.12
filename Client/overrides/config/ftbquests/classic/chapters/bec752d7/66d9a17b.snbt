@@ -1,0 +1,36 @@
+{
+	title: "&4Coalescent Souls",
+	x: -4.0d,
+	y: 20.0d,
+	description: "&oWill Will Smith?",
+	text: [
+		"&7The &4Demon Crucible&7 and &4Demon Crystallizer&7 are your first steps into unlocking the true potential of &bDemonic Will&7... The four &bAspected Wills&7.",
+		"",
+		"The &4Demon Crucible&7 will extract &bDemonic Will&7 from &bTartaric Gems&7 placed within it, and disperse it into the &bAura&7 (Chunk it's placed in).",
+		"",
+		"The &4Demon Crystallizer&7 will \"Crystallize\" &bDemonic Will&7 from the Aura, once it has gathered enough, it will create a Will Crystal atop it, and can use considerably less Will to grow that Crystal further",
+		"&cRight-click&7 a &bDemon Will Crystal Cluster&7 while carrying sufficient &bWill&7 on you to \"Chip Off\" the most recent Growth, instead of Breaking it entirely."
+	],
+	dependencies: [
+		"393c6058"
+	],
+	tasks: [{
+		uid: "586e9e7f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crystallizer"
+		}]
+	},
+	{
+		uid: "ea4c7bee",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "935aaec3",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

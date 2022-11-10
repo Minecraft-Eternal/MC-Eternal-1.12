@@ -1,0 +1,28 @@
+{
+	title: "&4Alchemy Table",
+	x: 3.0d,
+	y: 16.0d,
+	description: "&oHuman? Transmutation",
+	text: [
+		"&7The &4Alchemy Table&7 uses LP from the &cSoul Network&7 a &4Blood Orb&7 socketed into it is bound to.",
+		"",
+		"The &4Blood Orb&7 socketed determines what Recipes can be done.",
+		"",
+		"&cCan be Automated."
+	],
+	dependencies: [
+		"8dc4ca66"
+	],
+	tasks: [{
+		uid: "bb24d774",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "cd3757d7",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

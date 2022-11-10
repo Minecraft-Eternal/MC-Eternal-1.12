@@ -1,0 +1,41 @@
+{
+	title: "The Final Form",
+	x: 1.5d,
+	y: -21.0d,
+	shape: "octagon",
+	description: "*Read Description*",
+	text: [
+		"&7&oThe &9&oIridescent Altar&7&o works a bit differently to the other Tables, the &6&oMultiblock construct&7&o is a small improvement on the &9&oCelestial Altar's&7&o, as it was already near-perfect...",
+		"",
+		"Creations made in the &9&oIridescent Altar&7&o may require additional items that cannot fit on the Table or are not positioned in it, these items must be placed on &9&oSpectral Relays&7&o &d&oonly when ghosts of them are shown on Relays during the crafting process&7&o, the Relays must be set atop the Sooty Marble on the Altar's structure...",
+		"Many creations may also require the power of a &9&oConstellation&7&o to be channeled to make them, you will need a &9&oRock or Celestial Crystal&7&o Attuned to the required constellation in a special slot off to the left side of the Altar's main grid..."
+	],
+	dependencies: [
+		"b402c389",
+		"8af12156"
+	],
+	tasks: [{
+		uid: "6a75fdf5",
+		type: "advancement",
+		title: "Create the &9Iridescent Altar",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 3s
+		},
+		advancement: "astralsorcery:craft_t4_altar",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "db4fc5e4",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "335b8ae0",
+		type: "loot",
+		table: 1
+	}]
+}

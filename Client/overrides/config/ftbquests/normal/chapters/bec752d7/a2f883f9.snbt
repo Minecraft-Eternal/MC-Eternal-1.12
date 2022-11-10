@@ -1,0 +1,36 @@
+{
+	title: "&4Blood Altar - Tier IV",
+	icon: "bloodmagic:decorative_brick",
+	x: 1.0d,
+	y: 25.5d,
+	description: "&oBloodierer Altar",
+	text: [
+		"&7The third Upgrade to your &4Blood Altar&7.",
+		"",
+		"&7Not even gonna try to describe this one, it's gonna get annoying, just go and see the Quest &4\"Altarmaker's Manual\"&7.",
+		"",
+		"&4What you need:",
+		"&628x&c Runes",
+		"&64x&c Bloodstone Tile/Brick"
+	],
+	dependencies: [
+		"3ed6ba2b"
+	],
+	tasks: [{
+		uid: "83c86634",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "a295550f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "82745f41",
+		type: "loot",
+		table: 1
+	}]
+}

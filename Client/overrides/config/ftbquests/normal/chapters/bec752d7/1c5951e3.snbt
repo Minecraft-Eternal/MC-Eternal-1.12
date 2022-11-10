@@ -1,0 +1,35 @@
+{
+	title: "&4Resonance of the Faceted Crystal",
+	x: -3.0d,
+	y: 18.5d,
+	description: "&oRitual of Centrifuging",
+	text: [
+		"&7About those &b\"Aspected\"&7 will types, they're called &aCorrosive&7, &eDestructive&7, &cVengeful&7, and &9Steadfast&7 Will, respectively.",
+		"",
+		"These Will types can be used in place of the standard &b\"Raw\"&7 Will, the catch is that it can alter the properties of &bGear&7 and &cRituals&7, changing how they work, for the Better, or the Worse.",
+		"",
+		"the &4Resonance of the Faceted Crystal&7 will split a fully grown &b\"Raw\"&4 Demon Will Crystal Cluster&7 atop a &cDemon Crystallizer&7, and create or add to &bAspected&7 Will Clusters directly next to the Crystallizer."
+	],
+	dependencies: [
+		"324d9485",
+		"95505151",
+		"66d9a17b"
+	],
+	tasks: [{
+		uid: "95a524bc",
+		type: "checkmark"
+	},
+	{
+		uid: "0e8cf57e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "ed23cae5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

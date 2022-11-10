@@ -1,0 +1,27 @@
+{
+	title: "Stellar Perception",
+	x: 3.0d,
+	y: -12.0d,
+	description: "*Read Description*",
+	text: [
+		" &7&oThe &9&oTelescope&7&o is both simpler to use and more capable of finding Stars than the &9&oLooking Glass&7&o... ",
+		"Use the &d&oArrows at the side of the window&7&o to cycle through the space in the sky it is gazing at... ",
+		"You will also not need to hold &d&oSneak&7&o to freeze it so you can connect Constellations..."
+	],
+	dependencies: [
+		"a024c6e1",
+		"9b00c6ef"
+	],
+	tasks: [{
+		uid: "db46070a",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "852e9180",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

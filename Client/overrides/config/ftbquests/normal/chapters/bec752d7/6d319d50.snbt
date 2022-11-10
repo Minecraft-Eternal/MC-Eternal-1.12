@@ -1,0 +1,37 @@
+{
+	title: "Empowered Enchantments",
+	x: 1.0d,
+	y: -17.0d,
+	description: "*Read Description*",
+	text: [
+		"&7&oThe &9&oResplendent Prism&7&o is an Amulet which can &d&oEmpower the strength of Enchantments on Held and Worn items&7&o, but only for as long as it is equipped, or the items are..."
+	],
+	dependencies: [
+		"d5074b4b"
+	],
+	tasks: [{
+		uid: "d7e52882",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemenchantmentamulet",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19075baf",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ba101985",
+		type: "loot",
+		table: 1
+	}]
+}

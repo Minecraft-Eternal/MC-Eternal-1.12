@@ -1,0 +1,26 @@
+{
+	title: "&4Sanguine Scientiem",
+	x: 7.5d,
+	y: 15.0d,
+	description: "&oBlood Science!",
+	text: [
+		"&7The &4Sanguine Scientiem&7 is Blood Magic's guidebook, it's pretty solid, but doesn't cover all bases, so you might still want to check the Quests for info."
+	],
+	tasks: [{
+		uid: "7044c8f7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "guideapi:bloodmagic-guide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5d885e2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

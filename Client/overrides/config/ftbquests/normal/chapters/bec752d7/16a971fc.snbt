@@ -1,0 +1,31 @@
+{
+	x: -3.5d,
+	y: -20.0d,
+	shape: "octagon",
+	dependencies: [
+		"d4fcdb18"
+	],
+	tasks: [{
+		uid: "362a17a5",
+		type: "advancement",
+		title: "&6Reach Starlight Level 30",
+		icon: "astralsorcery:blockattunementaltar",
+		advancement: "astralsorcery:perk_level_large",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "7052aeac",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "1afd2a4f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

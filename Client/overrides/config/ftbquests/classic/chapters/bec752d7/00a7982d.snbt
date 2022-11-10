@@ -1,0 +1,26 @@
+{
+	title: "&4Assembly of the High Altar",
+	x: 15.0d,
+	y: 24.0d,
+	description: "&oRitual of the Lazy Blood Mage",
+	text: [
+		"&7The &4Assembly of the High Altar&7 Automatically builds the structure for a &4Blood Altar&7 using items in a Container ontop of the Master Stone."
+	],
+	dependencies: [
+		"324d9485",
+		"40cdcd64"
+	],
+	optional: true,
+	tasks: [{
+		uid: "cdf6d5fc",
+		type: "checkmark"
+	},
+	{
+		uid: "cc29ada4",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 104L
+	}]
+}

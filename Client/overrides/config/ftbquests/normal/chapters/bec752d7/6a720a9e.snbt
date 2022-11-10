@@ -1,0 +1,35 @@
+{
+	title: "&4Imbued Runes",
+	x: 6.0d,
+	y: 24.5d,
+	description: "&oRunes, but more.",
+	text: [
+		"&4Displacement&7 Runes increase the amount of LP transferred between the hidden \"Input\" and \"Output\" Tanks of the Blood Altar.",
+		"These Tanks exist to throttle external Transfer, such as Pipes, as to not make Capacity runes totally useless if you have a large Tank.",
+		"These hidden tanks have 10% of the Main Tank's Capacity.",
+		"",
+		"&4Capacity&7 Runes add a flat 2000LP Capacity bonus to the &4Blood Altar's&7 Main Tank."
+	],
+	dependencies: [
+		"1ce0126f"
+	],
+	tasks: [{
+		uid: "655be965",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 5"
+		}]
+	},
+	{
+		uid: "d0a122e3",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "5e0a0d86",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

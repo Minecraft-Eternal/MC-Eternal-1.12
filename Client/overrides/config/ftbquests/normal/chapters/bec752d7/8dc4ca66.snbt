@@ -1,0 +1,89 @@
+{
+	title: "&4Weak Blood Orb",
+	x: 6.0d,
+	y: 18.0d,
+	description: "&oSoul Link",
+	text: [
+		"&cRight-click&7 with a &4Blood Orb&7 to Bind it to yourself and take Life Essence directly from your HP.",
+		"",
+		"Bound &4Blood Orbs&7 can be placed into a &4Blood Altar&7 to absorb &4Life Essence&7 into your &cSoul Network&7.",
+		"",
+		"Some things will consume &cLife Essence (LP)&7 from your &cSoul Network&7, if there isn't enough available, &4it will take it directly from you&7, harming you in the process.",
+		"",
+		"Every Tier of &cBlood Orb&7 has a higher limit to how much &4Life Essence&7 it allows into your &cSoul Network&7."
+	],
+	dependencies: [
+		"44e1406a"
+	],
+	tasks: [{
+		uid: "f098576d",
+		type: "item",
+		title: "&4Weak Blood Orb&r (or Better)",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:apprentice"
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:magician"
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:master"
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "64678174",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e69ada24",
+		type: "item",
+		item: "bloodmagic:slate",
+		count: 4
+	}]
+}

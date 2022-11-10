@@ -1,0 +1,36 @@
+{
+	title: "&4Arcane Ashes",
+	x: 1.0d,
+	y: 19.0d,
+	description: "&o...The Fundamental Basis of all Alchemy...",
+	text: [
+		"&4Arcane Ashes&7 are a Tool used to create &cAlchemy Arrays&7 for various purpose, they can do more than just creating Sigils or other items...",
+		"",
+		"Input the &cReagent&7 Material (Left Item in JEI), and then the &cCatalyst&7 Material (Middle Item in JEI), the &cResult&7 item should appear after some animation."
+	],
+	dependencies: [
+		"7e97f122"
+	],
+	tasks: [{
+		uid: "8b0dd4ac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a992924b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "408bb834",
+		type: "loot",
+		table: 1
+	}]
+}

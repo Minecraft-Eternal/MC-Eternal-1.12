@@ -1,0 +1,69 @@
+{
+	title: "&4Bloody Destiny",
+	x: -3.0d,
+	y: 31.5d,
+	shape: "gear",
+	description: "&oSave me from that...",
+	text: [
+		"&4You want endless power? Pay an endless price..."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5bfe90be",
+		"c48a9ccd",
+		"a1f7e13e",
+		"4bd90610",
+		"e4ad7b26",
+		"62526c07",
+		"656278b4",
+		"30788b6e",
+		"75dc50cb",
+		"83fa4d22",
+		"da4fe793",
+		"d1d51ab5",
+		"35120131",
+		"a7cecfad",
+		"a5fa3d1d",
+		"1d2887c0",
+		"f3074f2d",
+		"762a1640",
+		"f3b98d53",
+		"6a720a9e",
+		"cdb9d917",
+		"24209710",
+		"956b7a5c",
+		"34283251",
+		"1d59ba22",
+		"7ef20749",
+		"e98c20f1",
+		"ac654f9b"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "f46f8f15",
+		type: "fluid",
+		fluid: "lifeessence",
+		amount: 2147483647
+	},
+	{
+		uid: "97ebbf9b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_tank 1 15"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "30591ade",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {},
+			Damage: 1s
+		}
+	}]
+}
