@@ -16,7 +16,8 @@
 		{
 			id: "appliedenergistics2:dense_energy_cell",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "7b616134",
