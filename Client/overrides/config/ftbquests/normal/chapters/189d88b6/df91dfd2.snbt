@@ -1,5 +1,5 @@
 {
-	title: "&c&lNether Bounty: &4Blazing Juggernaut",
+	title: "&c&lNether Bounty: &4Netherhound",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -78,7 +78,7 @@
 				]
 			}
 		},
-		entity: "primitivemobs:blazing_juggernaut",
+		entity: "ancientbeasts:netherhound",
 		value: 15L
 	}],
 	rewards: [{
@@ -95,9 +95,6 @@
 		uid: "bfe5a478",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "mod_lavacow:felarmor_chestplate"
 		}
 	}]
