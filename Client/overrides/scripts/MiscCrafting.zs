@@ -83,7 +83,6 @@ recipes.addShaped("danknull_t6_mce", <danknull:dank_null_5>.withTag({display:{Lo
 
 #Forced Danknull tiering
 val dankRecipes = [
-	"dank_null_0",
 	"dank_null_1",
 	"dank_null_2",
 	"dank_null_3",
