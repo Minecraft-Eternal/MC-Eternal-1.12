@@ -1,0 +1,31 @@
+{
+	title: "&5An Essential Reflection",
+	x: 24.5d,
+	y: -7.5d,
+	shape: "octagon",
+	description: "&oPeer-to-Peer&7 *Read Description*",
+	text: [
+		"&5Essentia Mirrors&7 are the only normal way of Long-Distance Essentia transmission, to bind them, you simply &dRight-click&7 one placed in the world with another in your hand.",
+		"&5Transfusers&7 and &5Infusion Altars&7 will be able to access Jars or other Essentia holders on the other side as if they were nearby!",
+		"",
+		"&7They will also produce a small amount of &5Flux&7 after transferring a lot of Essentia.",
+		"",
+		"Sometimes these things also just refuse to work for some reason :/, I don't make the bugs."
+	],
+	dependencies: [
+		"2030380f"
+	],
+	tasks: [{
+		uid: "956ea1ac",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mirror_essentia"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "10d15ed1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

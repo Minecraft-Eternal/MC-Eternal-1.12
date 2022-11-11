@@ -1,0 +1,35 @@
+{
+	title: "Multi-flection",
+	x: 3.5d,
+	y: -16.5d,
+	description: "*Read Description*",
+	text: [
+		"&9&oPrism Lenses&7&o are similar to regular Lenses, only that they can have multiple targets, the &r&oStarlight&7&o it conducts will be split among these targets..."
+	],
+	dependencies: [
+		"d5074b4b"
+	],
+	tasks: [{
+		uid: "f22ef3e8",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockprism",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "47dab618",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

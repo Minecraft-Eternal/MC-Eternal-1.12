@@ -1,0 +1,29 @@
+{
+	x: 1.5d,
+	y: -16.0d,
+	description: "&oThis Wand can &9&oLight Flares&7&o wherever the holder desires, with a simple &d&oRight-click&7&o, a Light Flare will be created for a bit of the wielder's Starlight Charge...",
+	dependencies: [
+		"d5074b4b",
+		"34c44f54"
+	],
+	tasks: [{
+		uid: "49f3c73d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemilluminationwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7171272e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 2.5d,
+	y: -13.5d,
+	description: "&oYou must be Attuned and using atleast a &9&oTelescope&7&o to see the Dim lights these constellations give off...",
+	dependencies: [
+		"cab48015",
+		"d1889e3a"
+	],
+	tasks: [{
+		uid: "1d0dbae2",
+		type: "advancement",
+		title: "Discover a &dDim Constellation",
+		icon: "astralsorcery:blockmachine",
+		advancement: "astralsorcery:find_weak_constellation",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "c41b2aa3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "0836e2e3",
+		type: "loot",
+		table: 1
+	}]
+}

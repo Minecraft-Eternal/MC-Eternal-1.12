@@ -2,22 +2,21 @@
 	title: "Fueling your Rocket up",
 	x: 0.5d,
 	y: -7.5d,
-	description: "Right-click on a Rocket with a container that has Rocket Fuel to dump all the Fuel in the container into it, any Rocket Fuel in the container that cannot fit in the Rocket is lost!",
+	description: "*Read Description*",
+	text: [
+		"Right-click on a Rocket with a container that has Rocket Fuel to dump all the Fuel in the container into it, Fuel that cannot fit in the Rocket is lost!",
+		"",
+		"&oNote: Only Advanced Rocketry's Rocket Fuel works in MCE.",
+		"",
+		"&lClick the Fluid Task icon while carrying a Fluid Container with Rocket Fuel on you to submit it!"
+	],
 	dependencies: [
 		"d78bfda8"
 	],
 	tasks: [{
-		uid: "f53c6742",
-		type: "item",
-		items: [{
-			id: "advancedrocketry:bucketrocketfuel",
-			tag: {
-				Fluid: {
-					FluidName: "rocketfuel",
-					Amount: 1000
-				}
-			}
-		}]
+		uid: "3c8b654d",
+		type: "fluid",
+		fluid: "rocketfuel"
 	}],
 	rewards: [{
 		uid: "66352cca",

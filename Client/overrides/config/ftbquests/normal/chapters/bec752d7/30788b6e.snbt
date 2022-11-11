@@ -1,0 +1,44 @@
+{
+	title: "&4Sac-packs",
+	x: 11.0d,
+	y: 17.0d,
+	description: "&oSacrifice of Battle",
+	text: [
+		"&7The &4Coat of Arms&7 and &4Blood Letter's Pack&7 are two &cChestplates&7 you can wear, which will gather &cLP&7 in Combat.",
+		"",
+		"The &4Coat of Arms&7 will gather &cLP&7 when you deal Damage.",
+		"",
+		"The &4Blood Letter's Pack&7 will gather &cLP&7 when you take Damage.",
+		"",
+		"Both can hold up to &c10000LP&7.",
+		"",
+		"&cThey are unaffected by Rune bonuses by nature."
+	],
+	dependencies: [
+		"44e1406a"
+	],
+	tasks: [{
+		uid: "9d829032",
+		type: "item",
+		title: "&4Coat of Arms&r or &4Blood Letter's Pack",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:pack_sacrifice"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:pack_self_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "86dc542c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

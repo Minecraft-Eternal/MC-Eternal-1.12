@@ -1,0 +1,52 @@
+{
+	title: "&5Research by Discovery",
+	x: 19.5d,
+	y: 2.0d,
+	shape: "hexagon",
+	description: "&oHow Curious...&7 *Read Description*",
+	text: [
+		"&7The various &5Curiosities&7 from Thaumcraft can be consumed to grant &dResearch progress&7 to the user, in both &dObservations and Theories&7.",
+		"",
+		"Additionally, each type of Curiosity is more weighted towards a different &5Research Category&7 from base &5Thaumcraft&7, and there's some handy-dandy &dTooltips in MC Eternal&7 that give you this info!",
+		"",
+		"As stated in the description of \"&5Researching for answers...&7\", &6these curiosities can be purchased from the Coin Shop in &dMC Eternal&7."
+	],
+	dependencies: [
+		"48e5b50e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "30affcdd",
+		type: "item",
+		title: "4x Any &5Curiosity",
+		items: [{
+			item: "thaumcraft:curio 1 1"
+		},
+		{
+			item: "thaumcraft:curio"
+		},
+		{
+			item: "thaumcraft:curio 1 5"
+		},
+		{
+			item: "thaumcraft:curio 1 4"
+		},
+		{
+			item: "thaumcraft:curio 1 2"
+		},
+		{
+			item: "thaumcraft:curio 1 3"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7c4f6455",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "5dbdc184",
+		type: "loot",
+		table: 1
+	}]
+}

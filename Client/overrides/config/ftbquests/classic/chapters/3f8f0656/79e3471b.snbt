@@ -1,8 +1,9 @@
 {
-	x: -1.5d,
-	y: 10.0d,
+	x: -2.0d,
+	y: 9.0d,
+	description: "Accepts Energy for the attached ME Network",
 	dependencies: [
-		"9a541046"
+		"8e9ea584"
 	],
 	tasks: [{
 		uid: "a4c67527",

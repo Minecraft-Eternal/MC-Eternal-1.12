@@ -1,0 +1,26 @@
+{
+	title: "&5Mnemonic Matrix",
+	x: 29.0d,
+	y: -1.5d,
+	shape: "octagon",
+	description: "&7&oMemories Broken, the Truth goes Unspoken...&7 *Read Description*",
+	text: [
+		"&5Mnemonic Matrices&7 can be attached to a &5Thaumatorium&7 structure to increase the number of different Alchemy recipes it can store by &62 per Matrix&7."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"23070f76"
+	],
+	tasks: [{
+		uid: "00b03a95",
+		type: "item",
+		items: [{
+			item: "thaumcraft:brain_box"
+		}]
+	}],
+	rewards: [{
+		uid: "b436b2d6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

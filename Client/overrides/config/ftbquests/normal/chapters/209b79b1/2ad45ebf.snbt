@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: -4.0d,
 	shape: "square",
-	description: "*Summoners can only be found deep in the Beneath on a player placed Dragon Bone Block* (They are really tough, come prepared!)",
+	description: "The spooktacular Vessel haunts a long-abandoned Carnival site in Roofed Forests. They only wake during the Night.",
 	dependencies: [
 		"7780b056"
 	],
@@ -10,20 +10,17 @@
 	tasks: [{
 		uid: "da227dfd",
 		type: "kill",
-		title: "Bounty: Summoner",
+		title: "Bounty: Vessel",
 		icon: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "twilightforest:knightmetal_sword"
 		},
-		entity: "thesummoner:summoner",
+		entity: "ancientbeasts:vessel",
 		value: 1L
 	}],
 	rewards: [{
 		uid: "56130359",
 		type: "ftbmoney:money",
-		ftb_money: 2500L
+		ftb_money: 250L
 	},
 	{
 		uid: "0d939f55",
@@ -33,7 +30,9 @@
 	{
 		uid: "22bf9c6e",
 		type: "item",
-		item: "mod_lavacow:zombiepiranha_item",
+		item: {
+			id: "mod_lavacow:zombiepiranha_item"
+		},
 		count: 3
 	}]
 }

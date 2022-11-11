@@ -1,0 +1,43 @@
+{
+	title: "&4Basic Runes",
+	x: 8.0d,
+	y: 21.5d,
+	description: "&oRunes, basically.",
+	text: [
+		"&7Different kinds of &4Runes&7 are able to replace the &cBlank Runes&7 in your altar, and will modify different stats the Altar provides.",
+		"",
+		"&4Speed&7 Runes will increase the rate at which LP is infused into Items in the Altar.",
+		"",
+		"&4Self-Sacrifice&7 Runes will provide a stacking 10% Bonus to LP gain from Self-Sacrifice/Player-Health-draining methods.",
+		"",
+		"&4Sacrifice&7 Runes will provide a stacking 10% Bonus to LP Gain from Sacrifice/Mob-Health-draining methods.",
+		"",
+		"&c\"Stacking\"&7 in this case means that the Bonus affects previous Bonuses, so the second of a Rune with a Stacking effect provides 11%, instead of 10%."
+	],
+	dependencies: [
+		"98b3e4fb"
+	],
+	tasks: [{
+		uid: "a58c8f87",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 1"
+		}]
+	},
+	{
+		uid: "691fbb1c",
+		type: "item",
+		title: "Rune of &cSacrifice&r or &cSelf-Sacrifice",
+		items: [{
+			item: "bloodmagic:blood_rune 1 4"
+		},
+		{
+			item: "bloodmagic:blood_rune 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "0847c77f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

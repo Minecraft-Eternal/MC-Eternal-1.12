@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: 14.5d,
+	description: "Grows Crystal Seeds into Pure Crystals quickly for some Energy from the Network! Can also create Fluix Crystals!",
+	dependencies: [
+		"8e9ea584"
+	],
+	optional: true,
+	tasks: [{
+		uid: "824fc37d",
+		type: "item",
+		items: [{
+			item: "ae2stuff:grower"
+		}]
+	}],
+	rewards: [{
+		uid: "94536ee9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

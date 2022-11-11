@@ -1,0 +1,36 @@
+{
+	title: "&4Activation Crystal",
+	x: 9.5d,
+	y: 22.5d,
+	description: "&oArcane &kBullshit&r&7&o Go!",
+	text: [
+		"&4Activation Crystals&7 are a Tool used to activate Rituals.",
+		"They are not consumed to activate a Ritual, so you will only ever need a single one."
+	],
+	dependencies: [
+		"1ce0126f",
+		"75dc50cb"
+	],
+	tasks: [{
+		uid: "37bfa559",
+		type: "item",
+		title: "&4Weak&r or &4Awakened&r Activation Crystal",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:activation_crystal"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7bb29083",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "42623cab",
+		type: "loot",
+		table: 1
+	}]
+}

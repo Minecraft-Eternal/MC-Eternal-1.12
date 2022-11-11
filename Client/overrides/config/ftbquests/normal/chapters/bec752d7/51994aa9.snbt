@@ -1,0 +1,37 @@
+{
+	title: "Far from the Start",
+	x: 1.0d,
+	y: -23.0d,
+	description: "*Read Description*",
+	text: [
+		"&7You may have reached the end of line for Progression with Astral Sorcery, but there is still much you can do with it!",
+		"",
+		"&dRituals&7 are capable of causing some frankly crazy effects!",
+		"&dAttunement&7 is able to power you up a ton!",
+		"And some Crafting mechanics can create some rarer items out of more common ones!",
+		"",
+		"But there's quite a bit untouched on in this Questline, so explore the &6Astral Tome&7!"
+	],
+	dependencies: [
+		"d6707898"
+	],
+	tasks: [{
+		uid: "c6798ed4",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8a99ad58",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "8f725dd3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

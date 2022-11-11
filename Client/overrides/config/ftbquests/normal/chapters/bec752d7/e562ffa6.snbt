@@ -1,0 +1,46 @@
+{
+	title: "&5An Annoying Bit",
+	icon: "thaumcraft:curio 1 6",
+	x: 26.5d,
+	y: -11.0d,
+	shape: "hexagon",
+	description: "&oSuch a Slog&7 *Read Description*",
+	text: [
+		"&7It can be rather annoying to need to go find a &5Crimson Portal&7 in order to progress to the cool stuff, so here's a one-time Deal for a Morb for one, and a complimentary &5Crimson Rites&7 book!",
+		"",
+		"Make sure you &6scan the Cultists with your Thaumometer&7!"
+	],
+	dependencies: [
+		"65600fe3"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4a70dff6",
+		type: "ftbmoney:money",
+		value: 5000L
+	}],
+	rewards: [{
+		uid: "0daa0624",
+		type: "item",
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "thaumcraft:cultistportallesser"
+			}
+		}
+	},
+	{
+		uid: "8244a57f",
+		type: "item",
+		item: {
+			id: "thaumcraft:curio",
+			tag: {
+				display: {
+					Name: "Don't Right-click me, you'll regret it later."
+				}
+			},
+			Damage: 6s
+		}
+	}]
+}

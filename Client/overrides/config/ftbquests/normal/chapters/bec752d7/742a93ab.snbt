@@ -1,0 +1,27 @@
+{
+	title: "&4Reverence of the Condor",
+	x: 13.0d,
+	y: 27.0d,
+	description: "&oTaking Flight! with limits",
+	text: [
+		"&7The &4Reverence of the Condor&7 allows &cCreative Flight&7 in a large radius around it, for a steep Activation Cost of &c1,000,000LP&7, and a constant drain of &c10LP/s&7."
+	],
+	dependencies: [
+		"24209710",
+		"40cdcd64",
+		"34283251"
+	],
+	optional: true,
+	tasks: [{
+		uid: "dda980d7",
+		type: "checkmark"
+	},
+	{
+		uid: "55ad7202",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 100L
+	}]
+}

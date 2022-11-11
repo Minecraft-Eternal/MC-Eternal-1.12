@@ -1,0 +1,29 @@
+{
+	title: "&4Ritual of Living Evolution",
+	x: -3.0d,
+	y: 25.0d,
+	description: "&oCreature Stage",
+	text: [
+		"&7The &4Ritual of Living Evolution&7 is used to enhance the base &6Upgrade Point&7 limit of &4Living Armor&7 to &6300&7.",
+		"",
+		"Simply equip your &4Living Armor&7, activate the Ritual, and step atop the &cMaster Ritual Stone&7."
+	],
+	dependencies: [
+		"a146eff2",
+		"324d9485",
+		"95505151"
+	],
+	optional: true,
+	tasks: [{
+		uid: "05230f61",
+		type: "checkmark"
+	},
+	{
+		uid: "61f99438",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 48L
+	}]
+}

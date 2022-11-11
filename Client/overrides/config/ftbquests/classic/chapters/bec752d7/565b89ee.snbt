@@ -1,0 +1,25 @@
+{
+	title: "&4Ritual of the Satiated Stomach",
+	x: 13.5d,
+	y: 23.0d,
+	description: "&o*Kirby Noises*",
+	text: [
+		"&7The &4Ritual of the Satiated Stomach&7 takes &cFood&7 from a Container set atop it, and feeds nearby Players when needed."
+	],
+	dependencies: [
+		"40cdcd64"
+	],
+	optional: true,
+	tasks: [{
+		uid: "da067a41",
+		type: "checkmark"
+	},
+	{
+		uid: "4e78b15e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 28L
+	}]
+}

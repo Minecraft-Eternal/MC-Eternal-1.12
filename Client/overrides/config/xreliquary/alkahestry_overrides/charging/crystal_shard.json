@@ -1,0 +1,9 @@
+{
+    "type": "xreliquary:alkahestry_charging",
+    "charge": 2,
+    "ingredients": [
+        {
+            "item": "biomesoplenty:crystal_shard"
+        }
+    ]
+}

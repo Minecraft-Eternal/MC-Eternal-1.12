@@ -1,18 +1,15 @@
 {
-	x: -3.5d,
-	y: 12.0d,
+	x: -7.0d,
+	y: 14.0d,
+	description: "Teleports Channels (or other things) to linked ends.",
 	dependencies: [
-		"9a541046"
+		"1e041009"
 	],
 	tasks: [{
 		uid: "2840765c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "appliedenergistics2:storage_cell_4k",
-			tag: {}
+			item: "appliedenergistics2:part 1 460"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

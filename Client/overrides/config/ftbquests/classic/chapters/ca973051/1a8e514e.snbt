@@ -1,9 +1,10 @@
 {
-	x: -11.0d,
-	y: -22.5d,
+	x: -12.0d,
+	y: -17.0d,
 	shape: "octagon",
+	description: "&oPast the Thorns beyond the Highlands of the Twilight Forest lies a great castle... What unthinkable terrors lie beyond? We may never know...",
 	dependencies: [
-		"eaed8a89"
+		"ddd3c587"
 	],
 	tasks: [{
 		uid: "56dd8f9f",

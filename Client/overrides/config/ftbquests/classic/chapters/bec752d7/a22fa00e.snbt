@@ -1,0 +1,52 @@
+{
+	title: "&5Destruction on Impulse",
+	x: 30.0d,
+	y: -24.0d,
+	shape: "octagon",
+	description: "&oEmpergun™&7 *Read Description*",
+	text: [
+		"&7The &5Impulse Cannon&7 is a powerful weapon that fires concentrated beams of &0Impetus&7 energy, it has two alternative modes activated with special &5Augments&7.",
+		"",
+		"By default, it will fire a constant stream of &0Impetus&7, dealing damage whenever possible.",
+		"",
+		"&6&lImportant!",
+		"&7The &5Impulse Cannon's damage&7 has been &cMASSIVELY&7 buffed in &dMC Eternal&7 to make it more worth your time."
+	],
+	dependencies: [
+		"82dc35de"
+	],
+	tasks: [{
+		uid: "11397620",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					augments: {
+						slots: 1
+					},
+					energy: {
+						energy: 0L
+					}
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:impulse_cannon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0d3584f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "8c058288",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

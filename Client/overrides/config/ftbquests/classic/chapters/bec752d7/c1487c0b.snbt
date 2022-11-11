@@ -1,0 +1,80 @@
+{
+	title: "Resonating Attunement",
+	x: 3.0d,
+	y: -21.5d,
+	description: "*Read Description*",
+	text: [
+		"&7&oThe &9&oResonating Wand&7&o can be attuned to one of the five &9&oBright Constellations&7&o, and has special effects based upon each...",
+		"See the proper page in the &6&oAstral Tome&7&o for further information..."
+	],
+	dependencies: [
+		"d6707898"
+	],
+	tasks: [{
+		uid: "9b42de72",
+		type: "item",
+		title: "Any &9Attuned Resonating Wand",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {
+					AugmentName: "astralsorcery.constellation.aevitas"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {
+					AugmentName: "astralsorcery.constellation.discidia"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {
+					AugmentName: "astralsorcery.constellation.vicio"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {
+					AugmentName: "astralsorcery.constellation.armara"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {
+					AugmentName: "astralsorcery.constellation.evorsio"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "55c133e3",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

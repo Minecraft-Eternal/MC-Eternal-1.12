@@ -1,0 +1,45 @@
+{
+	title: "&4Blood Altar - Tier III",
+	icon: "minecraft:glowstone",
+	x: 4.0d,
+	y: 21.0d,
+	description: "&oEven Bloodier Altar",
+	text: [
+		"&7The second Upgrade to your &4Blood Altar&7.",
+		"",
+		"Create a larger Ring with no Corners, go &c1 Block up&7 from those Corners and place &c2 of ANY \"Solid\" block&7 ontop of eachother, placed the &4Glowstone/Sea Lanterns&7 ontop of those \"Pillars\".",
+		"",
+		"&4What you need:",
+		"&620x&c Runes",
+		"&64x&c Glowstone or Sea Lantern",
+		"Glowstone variants&7 from &cChisel&7 are valid aswell!",
+		"",
+		"&cWhat in the world does that mean? See the Quest &4\"Altarmaker's Manual\"&c."
+	],
+	dependencies: [
+		"98b3e4fb"
+	],
+	tasks: [{
+		uid: "a3c9f756",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "78831b71",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "2422b48c",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "587fdc47",
+		type: "item",
+		item: "bloodmagic:slate 1 2",
+		count: 3
+	}]
+}

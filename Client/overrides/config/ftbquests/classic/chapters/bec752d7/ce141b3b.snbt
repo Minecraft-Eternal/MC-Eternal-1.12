@@ -1,0 +1,38 @@
+{
+	title: "Shift your Stars",
+	x: -1.0d,
+	y: -17.0d,
+	description: "*Read Description*",
+	text: [
+		"&7&oOne who is Attuned to the stars can use a &9&oShifting Star&7&o to shift their Attunement back to none...",
+		"&c&oThis will cause them to lose any Starlight Experience that they may have gained..."
+	],
+	dependencies: [
+		"94fe6f69"
+	],
+	tasks: [{
+		uid: "9a195b38",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "903096a4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "869b12c0",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "The Star Charts",
+	x: 4.5d,
+	y: -7.5d,
+	shape: "octagon",
+	description: "*Read Description*",
+	text: [
+		"&9&oConstellation Papers&7&o are records of the Constellations in the Sky, once you have acquired the paper for a Constellation, you should now notice the Stars that compose it in the Sky when looking through a Star-seeing device... ",
+		"",
+		"Once you have found a Paper for a Constellation, you will never find that one again, be sure to store it to your &6&oAstral Tome's Paper Storage section&7&o, you can open it by &d&oSneak+Right-click&7&o with your Tome...",
+		"Do not fret if you have stored a Paper somewhere you cannot recall, you may be able to imbue your own papers of the Constellations, even those you had not found..."
+	],
+	dependencies: [
+		"f4b3ac9b"
+	],
+	tasks: [{
+		uid: "c2b4e587",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11869c03",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d575c8bd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	}]
+}

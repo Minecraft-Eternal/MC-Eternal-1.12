@@ -1,0 +1,33 @@
+{
+	title: "&5Purifying Bath Salts",
+	x: 19.5d,
+	y: 1.0d,
+	shape: "octagon",
+	description: "&oNo Sanity...&7 *Read Description*",
+	text: [
+		"&5Sanitizing Bath Salts&7 will convert &1Water&7 they are dropped into to &dPurifying Fluid&7, which will apply the &dWarp Ward&7 effect for an amount of time based on your level of Warp. More Warp = Less time.",
+		"",
+		"&cBe Careful&7! If you miss the Water and forget, the Salts will likely be gone, as they have a very short Despawn time! I wonder if there's a way around that problem, and the time it takes to convert the Water..."
+	],
+	dependencies: [
+		"a560f714",
+		"39614ba8"
+	],
+	tasks: [{
+		uid: "f04f9e4d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bath_salts"
+		}]
+	}],
+	rewards: [{
+		uid: "41657457",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1362eb62",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "&5Close a Greater Crimson Portal",
+	x: 25.5d,
+	y: -13.0d,
+	description: "&oWith your Weapon? Don't ask how that works.",
+	dependencies: [
+		"66e5f078"
+	],
+	tasks: [{
+		uid: "ab2920e0",
+		type: "kill",
+		entity: "thaumcraft:cultistportalgreater",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "39040a8d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b70c21ca",
+		type: "loot",
+		table: 1
+	}]
+}

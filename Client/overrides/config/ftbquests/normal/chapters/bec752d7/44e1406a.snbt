@@ -1,0 +1,43 @@
+{
+	title: "&4Blood Altar",
+	icon: "bloodmagic:altar",
+	x: 7.0d,
+	y: 16.5d,
+	description: "&oThe Great Sacrifice",
+	text: [
+		"&7The &4Blood Altar&7 is the core of &cBlood Magic&7.",
+		"",
+		"Accumulate LP inside of it by &cSacrifing your own Health&7, or later, &cthe Health of Mobs&7, and use that LP to Infuse various items and transform them into others.",
+		"",
+		"&cUpgrade the Altar&7 as you progress to unlock more potential, in the form of new Recipes, and more space for &4Runes&7.",
+		"",
+		"&cRight-click&7 with the &4Sacrifical Dagger&7 while standing near your &4Blood Altar&7 to add LP from your Health."
+	],
+	dependencies: [
+		"0065b1db"
+	],
+	tasks: [{
+		uid: "dcb01670",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	},
+	{
+		uid: "b542a51e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1482220a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

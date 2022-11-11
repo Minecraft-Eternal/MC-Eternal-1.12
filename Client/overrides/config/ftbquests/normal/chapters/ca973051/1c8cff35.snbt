@@ -1,0 +1,30 @@
+{
+	x: -10.5d,
+	y: -9.0d,
+	description: "&oLaunch Magical Projectiles at your foes! &7&l*Recharge with an Ender Pearl*",
+	dependencies: [
+		"0647fe18"
+	],
+	tasks: [{
+		uid: "c968bff3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:twilight_scepter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9145a1e5",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a80efb64",
+		type: "loot",
+		table: 1
+	}]
+}

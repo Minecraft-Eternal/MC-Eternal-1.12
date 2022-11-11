@@ -1,56 +1,40 @@
 {
-	x: 18.0d,
-	y: 7.5d,
-	description: "The elements are mine to command",
+	title: "&5Crystal Farmer&7",
+	x: 25.5d,
+	y: -4.5d,
+	description: "&oGood harvest of Aer this season.&7 *Read Description*",
+	text: [
+		"&7Exactly like the Crystals you find in caves, only you can craft them!",
+		"They'll naturally spread if there's enough &dVis&7 in the Aura, and destroy themselves to replenish &dVis&7 in the Aura, always leaving one crystal.",
+		"",
+		"&6Scan one of the &5Elemental Crystals&6 you find in caves to unlock &dCrystal Farmer&6 research."
+	],
 	dependencies: [
-		"5ff4f44c"
+		"2030380f"
 	],
 	tasks: [{
 		uid: "90f390ab",
 		type: "item",
+		title: "Any Crystal",
 		items: [{
 			item: "thaumcraft:crystal_aer"
-		}]
-	},
-	{
-		uid: "286163ad",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "thaumcraft:crystal_ignis"
-		}]
-	},
-	{
-		uid: "5e303129",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "thaumcraft:crystal_aqua"
-		}]
-	},
-	{
-		uid: "872cd543",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "thaumcraft:crystal_terra"
-		}]
-	},
-	{
-		uid: "308a2b13",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "thaumcraft:crystal_ordo"
-		}]
-	},
-	{
-		uid: "b299621c",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "thaumcraft:crystal_perditio"
-		}]
-	},
-	{
-		uid: "dba3f298",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "thaumcraft:crystal_vitium"
 		}]
 	}],

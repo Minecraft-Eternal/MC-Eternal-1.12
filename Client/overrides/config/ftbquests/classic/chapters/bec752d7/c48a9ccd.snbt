@@ -1,0 +1,127 @@
+{
+	title: "&4Demonic Sigils",
+	x: 1.5d,
+	y: 21.5d,
+	description: "&oSupressive and Hasty, walking over a Phantom Bridge with Compressive force, Severing the Ender by Teleposition and Transposition",
+	text: [
+		"&7See &4\"Reinforced Sigils\"&7 for basic information on &c\"Ability Sigils\"&7.",
+		"",
+		"The &4Sigil of Supression&7 supresses Fluids around the user when &cActivated&7, making them vanish and reappear after a timer expires when the user moves out of range or Sigil is Deactivated.",
+		"",
+		"The &4Sigil of Haste&7 grants the user &cBoost&7 when &cActivated&7, increasing their &cMovement Speed&7, &cJump Height&7, and granting &cAuto-Step&7.",
+		"",
+		"The &4Sigil of the Phantom Bridge&7, when &cActivated&7 creates a &4Phantom Bridge&7 in the air as the user walks, the Bridge's height can be slowly lowered by &CSneaking&7, or summoned in midair also by &cSneaking&7.",
+		"",
+		"The &4Sigil of Compression&7 automatically compresses items into higher, reversible forms.",
+		"&cIt has a rather limited selection of compressions, unfortunately.&7",
+		"",
+		"The &4Sigil of Ender Severance&7 prevents teleporation by &cEndermen&7 near the user when &cActivated&7.",
+		"",
+		"The &4Teleposition Sigil&7 can be bound to a &4Teleposer&7 with &cSneak+Right-click&7, and will allow the user to warp back to the Teleposer with a &cRight-Click&7.",
+		"",
+		"The &4Transposition Sigil&7 can be used to move Blocks in the world to other locations, &cSneak+Right-Click&7 to capture a Block, and &cRight-click&7 to release it."
+	],
+	dependencies: [
+		"a2f883f9",
+		"5ac9b4a2"
+	],
+	tasks: [{
+		uid: "455290b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_suppression",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bcbb384d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_haste",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "345bb53a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_phantom_bridge",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "02b79f84",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_compression",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f2bea310",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_ender_severance",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6cbc80f5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_teleposition"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "76d6b109",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_transposition"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "24b307e4",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "aaaabac3",
+		type: "loot",
+		table: 1
+	}]
+}

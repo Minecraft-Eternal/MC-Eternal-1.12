@@ -1,0 +1,44 @@
+{
+	title: "&5Smashing!",
+	x: 24.0d,
+	y: -14.0d,
+	description: "&oDig and Destroy, until it is done...&7 *Read Description*",
+	text: [
+		"&7The &5Primal Crusher&7 is a rather powerful tool, a &dPickaxe and Shovel&7 in one, with &63x3 Mining&7, &6Refining&7 like the &5Pickaxe of the Core&7, and &6Automatic Repair&7 to boot!"
+	],
+	dependencies: [
+		"90c4a4d8"
+	],
+	tasks: [{
+		uid: "9133d3f6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:primal_crusher",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 1s
+				},
+				{
+					lvl: 1s,
+					id: 4s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad5653ca",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f604d5c0",
+		type: "loot",
+		table: 1
+	}]
+}

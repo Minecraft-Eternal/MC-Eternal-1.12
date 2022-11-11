@@ -1,6 +1,7 @@
 {
 	x: -11.0d,
-	y: -17.0d,
+	y: -14.0d,
+	description: "&oMystery... Meat? &7&l*Place 8 together and sprinkle on Redstone Dust for a self-regenerating \"Cake\"*",
 	dependencies: [
 		"7e91214b"
 	],
@@ -9,7 +10,8 @@
 		type: "item",
 		items: [{
 			item: "twilightforest:experiment_115"
-		}]
+		}],
+		count: 8L
 	}],
 	rewards: [{
 		uid: "eefbbb00",
