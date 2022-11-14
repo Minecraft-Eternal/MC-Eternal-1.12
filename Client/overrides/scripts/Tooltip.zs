@@ -40,6 +40,8 @@ print("--- loading Tooltip.zs ---");
 <nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple("4x Total Power Generation! (Disclaimer: reflected in Fuel tooltips)"));
 <randomthings:spectreanchor>.addTooltip(format.red("Use Tombstone Soulbound instead"));
 
+<necromancersdelight:charm_bone_bag>.addTooltip(format.red("Temporarily Disabled, this item will be obtainable again in a (hopefully near) future version of MCE."));
+
 var supremarmor = [<mysticalagriculture:supremium_helmet>,<mysticalagriculture:supremium_chestplate>,<mysticalagriculture:supremium_leggings>,<mysticalagriculture:supremium_boots>] as IItemStack[];
 for armor in supremarmor {
   armor.addTooltip(format.red("Flight Disabled"));
