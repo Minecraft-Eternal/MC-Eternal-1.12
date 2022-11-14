@@ -1,0 +1,24 @@
+{
+    "enabled": {
+        "book": true,
+        "scroll": true,
+        "wands": true,
+        "npcs": true,
+        "dispensers": false,
+        "commands": true,
+        "treasure": false,
+        "trades": false,
+        "looting": true
+    },
+    "tier": "master",
+    "element": "ice",
+    "type": "minion",
+    "cost": 1000,
+    "chargeup": 300,
+    "cooldown": 12000,
+    "base_properties": {
+        "minion_lifetime": 1800,
+        "minion_count": 1,
+        "summon_radius": 5
+    }
+}

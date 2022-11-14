@@ -1,0 +1,24 @@
+﻿{
+    "enabled": {
+        "book": true,
+        "scroll": true,
+        "wands": true,
+        "npcs": true,
+        "dispensers": false,
+        "commands": true,
+        "treasure": true,
+        "trades": true,
+        "looting": true
+    },
+    "tier": "master",
+    "element": "fire",
+    "type": "minion",
+    "cost": 500,
+    "chargeup": 100,
+    "cooldown": 1200,
+    "base_properties": {
+        "minion_lifetime": 900,
+        "minion_count": 1,
+        "summon_radius": 3
+    }
+}
