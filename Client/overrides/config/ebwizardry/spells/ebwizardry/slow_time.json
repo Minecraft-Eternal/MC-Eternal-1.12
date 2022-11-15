@@ -1,0 +1,24 @@
+{
+  "enabled": {
+    "book": true,
+    "scroll": true,
+    "wands": true,
+    "npcs": true,
+    "dispensers": false,
+    "commands": true,
+    "treasure": true,
+	"trades": true,
+    "looting": true
+  },
+  "tier": "master",
+  "element": "sorcery",
+  "type": "alteration",
+  "cost": 250,
+  "chargeup": 100,
+  "cooldown": 1200,
+  "base_properties": {
+    "slow_time_duration": 300,
+    "slow_time_strength": 0,
+    "effect_radius": 8
+  }
+}
