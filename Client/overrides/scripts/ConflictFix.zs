@@ -22,6 +22,8 @@ recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime
 recipes.remove(<betterbuilderswands:wandstone>);
 recipes.remove(<structurize:sceptergold>);
 recipes.remove(<iceandfire:wither_shard>);
+recipes.removeByRecipeName("techreborn:iron_furnace");
+recipes.remove(<bountifulbaubles:ringiron>);
 
 #fixes
 recipes.addShaped(<littletiles:recipeadvanced> * 5, [[<ore:paper>, <minecraft:redstone>, <ore:paper>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<ore:paper>, <minecraft:redstone>, <ore:paper>]]);
@@ -46,6 +48,7 @@ recipes.addShapeless(<quark:dark_oak_trapdoor>, [<malisisdoors:trapdoor_dark_oak
 recipes.addShapeless(<randomthings:obsidianskullring>, [<randomthings:obsidianskull>, <dungeontactics:iron_ring>]);
 recipes.addShaped(<betterbuilderswands:wandstone>, [[<ore:cobblestone>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<structurize:sceptergold>, [[null, null, <ore:cobblestone>], [null, <ore:stickWood>, null], [<ore:stickWood>, null, null]]);
+recipes.addShaped(<bountifulbaubles:ringiron>, [[<ore:nuggetIron>,<ore:ironIron>,<ore:nuggetIron>],[<ore:ingotIron>,null,<ore:ingotIron>],[<ore:nuggetIron>,<ore:ingotIron>,<ore:nuggetIron>]]);
 #Netherumbrian Pipes recipe by Handeril
 recipes.addShaped(<totemic:nether_pipe>, [[<ore:ingotGold>, null, <totemic:flute>], [<ore:ingotGold>, <ore:hideBuffalo>, <ore:ingotNetherite>], [<ore:ingotGold>, <ore:hideBuffalo>, null]]);
 
@@ -73,11 +76,11 @@ recipes.addShapeless(<malisisdoors:trapdoor_spruce>, [<quark:spruce_trapdoor>]);
 recipes.addShapeless(<malisisdoors:trapdoor_jungle>, [<quark:jungle_trapdoor>]);
 recipes.addShapeless(<malisisdoors:trapdoor_dark_oak>, [<quark:dark_oak_trapdoor>]);
 
-recipes.addShapeless(<futuremc:birch_trapdoor>, [<quark:birch_trapdoor>]);
-recipes.addShapeless(<futuremc:acacia_trapdoor>, [<quark:acacia_trapdoor>]);
-recipes.addShapeless(<futuremc:spruce_trapdoor>, [<quark:spruce_trapdoor>]);
-recipes.addShapeless(<futuremc:jungle_trapdoor>, [<quark:jungle_trapdoor>]);
-recipes.addShapeless(<futuremc:dark_oak_trapdoor>, [<quark:dark_oak_trapdoor>]);
+recipes.addShapeless(<futuremc:birch_trapdoor>, [<malisisdoors:trapdoor_birch>]);
+recipes.addShapeless(<futuremc:acacia_trapdoor>, [<malisisdoors:trapdoor_acacia>]);
+recipes.addShapeless(<futuremc:spruce_trapdoor>, [<malisisdoors:trapdoor_spruce>]);
+recipes.addShapeless(<futuremc:jungle_trapdoor>, [<malisisdoors:trapdoor_jungle>]);
+recipes.addShapeless(<futuremc:dark_oak_trapdoor>, [<malisisdoors:trapdoor_dark_oak>]);
 
 //fix Enchant table not showing in Dischantment gen recipe by removing and readding it lol
 recipes.removeByRecipeName("extrautils2:generator_generator_enchant");
