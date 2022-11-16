@@ -1123,9 +1123,6 @@
 		weight: 28
 	},
 	{
-		item: "cyclicmagic:magic_net"
-	},
-	{
 		item: "cyclicmagic:apple"
 	},
 	{
