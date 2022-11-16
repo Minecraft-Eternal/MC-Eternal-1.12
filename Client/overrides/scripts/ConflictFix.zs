@@ -48,7 +48,7 @@ recipes.addShapeless(<quark:dark_oak_trapdoor>, [<malisisdoors:trapdoor_dark_oak
 recipes.addShapeless(<randomthings:obsidianskullring>, [<randomthings:obsidianskull>, <dungeontactics:iron_ring>]);
 recipes.addShaped(<betterbuilderswands:wandstone>, [[<ore:cobblestone>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<structurize:sceptergold>, [[null, null, <ore:cobblestone>], [null, <ore:stickWood>, null], [<ore:stickWood>, null, null]]);
-recipes.addShaped(<bountifulbaubles:ringiron>, [[<ore:nuggetIron>,<ore:ironIron>,<ore:nuggetIron>],[<ore:ingotIron>,null,<ore:ingotIron>],[<ore:nuggetIron>,<ore:ingotIron>,<ore:nuggetIron>]]);
+recipes.addShaped(<bountifulbaubles:ringiron>, [[<ore:nuggetIron>,<ore:ingotIron>,<ore:nuggetIron>],[<ore:ingotIron>,null,<ore:ingotIron>],[<ore:nuggetIron>,<ore:ingotIron>,<ore:nuggetIron>]]);
 #Netherumbrian Pipes recipe by Handeril
 recipes.addShaped(<totemic:nether_pipe>, [[<ore:ingotGold>, null, <totemic:flute>], [<ore:ingotGold>, <ore:hideBuffalo>, <ore:ingotNetherite>], [<ore:ingotGold>, <ore:hideBuffalo>, null]]);
 
