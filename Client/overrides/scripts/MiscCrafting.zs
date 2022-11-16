@@ -127,4 +127,7 @@ recipes.addShaped("energybee_mce", <gendustry:gene_sample>.withTag({species: "ro
 	[<theaurorian:trophyspider>.reuse(),<theaurorian:trophymoonqueen>.reuse(),<theaurorian:trophykeeper>.reuse()]
 ]);
 
+// Fix string duping via Factorizer
+recipes.removeByRecipeName("theaurorian:items/stringfromplantfiber");
+
 print("--- MiscCrafting.zs initialized ---");	
