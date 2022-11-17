@@ -1,5 +1,13 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.data.IData;
 import thaumcraft.aspect.CTAspectStack;
+import mod.mekanism.gas.IGasStack;
+import mods.mekanism.MekanismHelper;
 
 #MC Eternal Scripts
 
