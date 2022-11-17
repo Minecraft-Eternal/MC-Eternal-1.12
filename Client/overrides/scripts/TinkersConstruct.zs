@@ -24,6 +24,9 @@ Alloy.addRecipe(<liquid:mirion>*72, [<liquid:manasteel>*18, <liquid:elvenelement
 recipes.addShapeless("nihilite_mce", <taiga:nihilite_block>, [<taiga:solarium_block>, <taiga:vibranium_block>, <erebus:materials:64>]);
 Alloy.removeRecipe(<liquid:nihilite_fluid>);
 
+// patch funni iron>gold exploit
+Melting.removeRecipe(<liquid:gold>, <minecraft:name_tag>);
+
 // addSmelteryFuel(liquid as ILiquidStack, duration as int, temp as int);
 // use -1 for the temp to not change the temp
 function addSmelteryFuel (fluid as ILiquidStack, duration as int, temp as int) {
