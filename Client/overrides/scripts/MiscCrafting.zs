@@ -47,21 +47,32 @@ recipes.addShaped("jadeseeds_mce", <mysticalagriculture:jade_seeds>,
 	[<erebus:jade_block>, <mysticalagradditions:storage:1>, <erebus:jade_block>]]
 );
 
-#no amber duping
-recipes.removeByRecipeName("biomesoplenty:amber");
-recipes.removeByRecipeName("biomesoplenty:amber_block");
+#Remove some funni Duping
+val noDupeRecipeNames = [
+	"biomesoplenty:amber",
+	"biomesoplenty:amber_block",
+	"bewitchment:block_of_salt",
+	"bewitchment:block_of_salt_to_resource"
+] as string[];
 
-Carving.addGroup("amberblock");
+var chiseling = {
+	"amberblock": [
+		<biomesoplenty:gem_block:7>,
+		<thaumcraft:amber_block>,
+		<thaumcraft:amber_brick>,
+		<thaumadditions:chiseled_amber_block>
+	],
+	"saltblock": [
+		<bewitchment:block_of_salt>,
+		<mekanism:saltblock>
+	]
+} as IItemStack[][string];
 
-var amberBlocks = [
-	<biomesoplenty:gem_block:7>,
-	<thaumcraft:amber_block>,
-	<thaumcraft:amber_brick>,
-	<thaumadditions:chiseled_amber_block>
-] as IItemStack[];
-
-for block in amberBlocks {
-	Carving.addVariation("amberblock", block);
+for entry in chiseling {
+	Carving.addGroup(entry);
+	for block in chiseling[entry] {
+		Carving.addVariation(entry, block);
+	}
 }
 
 #Danknull T6
@@ -129,5 +140,7 @@ recipes.addShaped("energybee_mce", <gendustry:gene_sample>.withTag({species: "ro
 
 // Fix string duping via Factorizer
 recipes.removeByRecipeName("theaurorian:items/stringfromplantfiber");
+mods.thermalexpansion.Factorizer.removeRecipeSplit(<minecraft:wool>);
+mods.thermalexpansion.Factorizer.removeRecipeCombine(<minecraft:string> *9);
 
 print("--- MiscCrafting.zs initialized ---");	
