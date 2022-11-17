@@ -140,7 +140,5 @@ recipes.addShaped("energybee_mce", <gendustry:gene_sample>.withTag({species: "ro
 
 // Fix string duping via Factorizer
 recipes.removeByRecipeName("theaurorian:items/stringfromplantfiber");
-mods.thermalexpansion.Factorizer.removeRecipeSplit(<minecraft:wool>);
-mods.thermalexpansion.Factorizer.removeRecipeCombine(<minecraft:string> *9);
 
 print("--- MiscCrafting.zs initialized ---");	
