@@ -2,12 +2,14 @@
 	x: -6.0d,
 	y: -4.0d,
 	tasks: [{
-		uid: "60e44ca5",
-		type: "item",
-		items: [{
-			item: "mowziesmobs:grant_suns_blessing"
-		}],
-		ignore_nbt: 1b
+		uid: "2a95a1e3",
+		type: "advancement",
+		title: "Advancement: &eHeliomancer",
+		icon: {
+			id: "mowziesmobs:grant_suns_blessing"
+		},
+		advancement: "mowziesmobs:suns_blessing",
+		criterion: ""
 	}],
 	rewards: [{
 		uid: "51fee215",
