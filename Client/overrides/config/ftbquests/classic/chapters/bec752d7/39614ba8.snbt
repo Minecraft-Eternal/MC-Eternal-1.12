@@ -6,9 +6,9 @@
 	text: [
 		"&7Dash some &dSalis Mundus&7 onto &5Cauldron&7 to transform it into a &5Crucible&7, an essential device to transform many items into other, more magical items.",
 		"",
-		"Any items added in by dropping or &dRight-clicking&7 will be melted into the Essentia that composes them.",
+		"Any items added in by &dDropping&7 or &dRight-clicking the Top&7 will be melted into the Essentia that composes them.",
 		"If an item has a recipe in the Crucible and the &drequired Essentia is present&7, the Essentia will be consumed, and the item will be converted instead of melting into Essentia!",
-		"Note that each individual item converted will consume Essentia, so you don't expect to get 5 Nitor for the price of 10 &cIgnis&7, &bPotentia&7, and &eLux&7.",
+		"Note that each individual item converted will consume Essentia, so don't expect to get 5 Nitor for the price of 10 &cIgnis&7, &bPotentia&7, and &eLux&7.",
 		"",
 		"Lastly, &dcrafting high Essentia Cost items in the Crucible is not exactly advised&7, it's fairly likely that it will overflow and spill Essentia fairly quickly, likely melting the Catalyst item if you try.",
 		"&dPerhaps you will discover a way to manipulate Essentia, and do Alchemy with that manipulated form...&7",
