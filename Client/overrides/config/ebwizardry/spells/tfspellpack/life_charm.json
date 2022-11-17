@@ -1,0 +1,24 @@
+{
+	"enabled": {
+		"book": true,
+		"scroll": true,
+		"wands": true,
+		"npcs": true,
+		"dispensers": true,
+		"commands": true,
+		"treasure": true,
+		"trades": true,
+		"looting": true
+	},
+	"tier": "advanced",
+	"element": "healing",
+	"type": "buff",
+	"cost": 500,
+	"chargeup": 100,
+	"cooldown": 12000,
+	"base_properties": {
+		"regeneration_duration": 200,
+		"regeneration_strength": 0,
+		"health_level": 100
+	}
+}
