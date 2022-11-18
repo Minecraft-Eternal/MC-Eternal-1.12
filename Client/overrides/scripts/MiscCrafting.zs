@@ -55,6 +55,10 @@ val noDupeRecipeNames = [
 	"bewitchment:block_of_salt_to_resource"
 ] as string[];
 
+for name in noDupeRecipeNames {
+	recipes.removeByRecipeName(name);
+}
+
 var chiseling = {
 	"amberblock": [
 		<biomesoplenty:gem_block:7>,
