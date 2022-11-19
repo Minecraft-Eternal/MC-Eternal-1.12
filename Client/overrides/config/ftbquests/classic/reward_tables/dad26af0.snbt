@@ -834,15 +834,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "extrautils2:bagofholding"
-		},
-		weight: 28
-	},
-	{
-		item: {
 			id: "extrautils2:machine",
 			tag: {
 				Type: "extrautils2:generator_slime"
