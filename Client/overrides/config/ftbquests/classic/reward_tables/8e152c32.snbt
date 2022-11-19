@@ -1892,14 +1892,6 @@
 		count: 8
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "bewitchment:poppet_vampiric"
-		}
-	},
-	{
 		item: "bewitchment:bottled_hellfire"
 	},
 	{
