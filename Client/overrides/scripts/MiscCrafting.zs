@@ -145,7 +145,19 @@ recipes.addShaped("energybee_mce", <gendustry:gene_sample>.withTag({species: "ro
 // Fix string duping via Factorizer
 recipes.removeByRecipeName("theaurorian:items/stringfromplantfiber");
 
+// Nerf Angelheart Vial and Phoenix Down
+recipes.remove(<xreliquary:angelheart_vial>);
+recipes.remove(<xreliquary:phoenix_down>);
 
+//Angelheart Vial
+// go loot it lol
+
+//Phoenix Down
+mods.thaumcraft.Infusion.registerRecipe("mce_phoenix_down", "", <xreliquary:phoenix_down>, 10,
+	[<aspect:victus> *125, <aspect:mortuus> *100, <aspect:auram> *50, <aspect:praemunio> *75, <aspect:draco> *50],
+	<xreliquary:angelic_feather>,
+	[<mod_lavacow:mootenheart>, <xreliquary:angelheart_vial>, <iceandfire:fire_dragon_heart>, <xreliquary:angelheart_vial>, <vampirism:pure_blood:3>, <xreliquary:angelheart_vial>]
+);
 
 //Crafting Pure Blood with Magic mods
 // because i can't be bothered to try and fix vampire baron spawnrates, it will suck i am sure.
