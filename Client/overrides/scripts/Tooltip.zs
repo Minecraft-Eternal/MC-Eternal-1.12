@@ -147,5 +147,9 @@ for bee in beeTypes {
 	bee.withTag(NBeeT).addTooltip(format.aqua("See the uses for 'Avatar of Ratlantis' to find the recipe"));
 }
 
+for num in 0 to 4 {
+	itemUtils.getItem("vampirism:pure_blood", num).addTooltip(format.aqua("Dropped by Level "+(num+1)+" Vampire Barons, or crafted, for a price."));
+}
+
 print("--- Tooltip.zs initialized ---");	
 
