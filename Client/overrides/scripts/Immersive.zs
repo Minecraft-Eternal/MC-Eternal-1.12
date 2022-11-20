@@ -15,7 +15,7 @@ recipes.addShaped("railgun_mce", <immersiveengineering:railgun>, [
 
 recipes.addShaped(<immersiveengineering:revolver>, [
   [<powersuits:powerarmorcomponent:13>,<techreborn:part:24>,<immersiveengineering:material:16>],
-  [<immersiveengineering:material:14>,<immersiveengineering:material:15>,<immersiveintelligence:material:14>],
+  [<immersiveengineering:material:14>,<immersiveengineering:material:15>,<openmodularturrets:intermediate_tiered:9>],
   [null,<techreborn:part:1>,<immersiveengineering:material:13>]
  ]);
 
