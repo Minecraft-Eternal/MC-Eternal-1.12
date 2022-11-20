@@ -148,8 +148,12 @@ for bee in beeTypes {
 	bee.withTag(NBeeT).addTooltip(format.aqua("See the uses for 'Avatar of Ratlantis' to find the recipe"));
 }
 
-for num in 0 to 4 {
+for num in 0 to 5 {
 	itemUtils.getItem("vampirism:pure_blood", num).addTooltip(format.aqua("Dropped by Level "+(num+1)+" Vampire Barons, or crafted, for a price."));
+}
+
+for resItem,amount in {<xreliquary:angelheart_vial> : 5, <xreliquary:phoenix_down>: 25} as string[IItemStack] {
+	resItem.addTooltip(format.lightPurple("Restores "+amount+"% HP."));
 }
 
 print("--- Tooltip.zs initialized ---");	
