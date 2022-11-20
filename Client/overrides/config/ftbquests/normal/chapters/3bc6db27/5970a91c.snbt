@@ -10,7 +10,8 @@
 		uid: "718a5f0b",
 		type: "item",
 		items: [{
-			item: "techreborn:ingot 1 3"
+			id: "techreborn:ingot",
+			Damage: 3s
 		}],
 		count: 8L
 	},
@@ -18,7 +19,8 @@
 		uid: "63a9e265",
 		type: "item",
 		items: [{
-			item: "techreborn:ingot 1 16"
+			id: "techreborn:ingot",
+			Damage: 16s
 		}],
 		count: 8L
 	},
@@ -26,7 +28,18 @@
 		uid: "61b07d65",
 		type: "item",
 		items: [{
-			item: "techreborn:ingot 1 1"
+			ForgeCaps: {
+				Parent: {
+					data: "ingotBrass",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBrass"
+				}
+			}
 		}],
 		count: 16L
 	}],
