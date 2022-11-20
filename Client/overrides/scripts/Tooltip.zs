@@ -1,4 +1,4 @@
-import crafttweaker.item.IItemStack
+import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 #MC Eternal Scripts
