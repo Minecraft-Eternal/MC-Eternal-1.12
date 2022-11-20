@@ -10,7 +10,18 @@
 		uid: "be85cd71",
 		type: "item",
 		items: [{
-			item: "techreborn:ingot 1 14"
+			ForgeCaps: {
+				Parent: {
+					data: "ingotTitanium",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotTitanium"
+				}
+			}
 		}],
 		count: 8L
 	}],
