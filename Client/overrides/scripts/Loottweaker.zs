@@ -10,6 +10,10 @@ val lootTableModif = {
 	"artifacts:underground_chest/potions;main;remove" : ["minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:tipped_arrow"],
 	"arcaneworld:raid_1;raid_1;remove" : ["arcaneworld:potion_orb"]
 	
+// example add entry
+//	"lootTable" : ["item;weight", "anotherItem;weight"]
+//ex: 	"minecraft:chests/simple_dungeon" : ["minecraft:end_crystal;10"]
+	
 } as string[][string];
 
 
