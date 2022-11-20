@@ -11,8 +11,8 @@ val lootTableModif = {
 	"arcaneworld:raid_1;raid_1;remove" : ["arcaneworld:potion_orb"]
 	
 // example add entry
-//	"lootTable" : ["item;weight", "anotherItem;weight"]
-//ex: 	"minecraft:chests/simple_dungeon" : ["minecraft:end_crystal;10"]
+//	"lootTable;addEntry" : ["item;weight", "anotherItem;weight"]
+//ex: 	"minecraft:chests/simple_dungeon;addEntry" : ["minecraft:end_crystal;10"]
 	
 } as string[][string];
 
