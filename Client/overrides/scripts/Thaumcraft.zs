@@ -97,7 +97,6 @@ val clusterOreNames = {
 	"Titanium" : <fluid:titanium>,
 	"Tungsten" : <fluid:tungsten>,
 	"Uranium" : <fluid:uranium>,
-	"Zinc" : <fluid:zinc>,
 	"Iron" : <fluid:iron>,
 	"Gold" : <fluid:gold>,
 	"Copper" : <fluid:copper>,
