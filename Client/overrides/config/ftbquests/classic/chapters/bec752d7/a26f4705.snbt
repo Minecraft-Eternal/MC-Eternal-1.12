@@ -1,0 +1,27 @@
+{
+	title: "Lost Knowledge",
+	x: 3.0d,
+	y: -2.0d,
+	description: "Find a Ruined Library",
+	text: [
+		"There must be more to learn! Maybe I can find more knowledge in the jungles and caves of this land."
+	],
+	dependencies: [
+		"ec0bd6f7"
+	],
+	tasks: [{
+		uid: "1d813f10",
+		type: "advancement",
+		title: "Advancement: &eI Think My Books Are Overdue",
+		icon: {
+			id: "ebwizardry:ruined_spell_book"
+		},
+		advancement: "ebwizardry:find_library_ruins",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "41843d5b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

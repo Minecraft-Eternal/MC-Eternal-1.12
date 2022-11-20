@@ -1,6 +1,6 @@
 {
-	x: 4.5d,
-	y: -2.5d,
+	x: 5.0d,
+	y: -2.0d,
 	description: "Useful for Adventuring!",
 	text: [
 		"Mana flasks can be used as a method of recharging wands with mana on the go, different size flask results in different amounts of mana"
@@ -12,7 +12,7 @@
 		uid: "4e8bf224",
 		type: "item",
 		items: [{
-			item: "ebwizardry:medium_mana_flask"
+			id: "ebwizardry:medium_mana_flask"
 		}]
 	}],
 	rewards: [{
@@ -23,7 +23,9 @@
 	{
 		uid: "53947d61",
 		type: "item",
-		item: "ebwizardry:identification_scroll"
+		item: {
+			id: "ebwizardry:identification_scroll"
+		}
 	},
 	{
 		uid: "db976135",

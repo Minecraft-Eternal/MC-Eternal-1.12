@@ -1,0 +1,38 @@
+{
+	title: "Bringing it Home",
+	x: 3.0d,
+	y: -7.5d,
+	description: "Craft an Imbuement Altar!",
+	dependencies: [
+		"d656e487"
+	],
+	tasks: [{
+		uid: "13621021",
+		type: "item",
+		items: [{
+			id: "ebwizardry:imbuement_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "6e82f91e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "d4701346",
+		type: "item",
+		item: {
+			id: "ancientspellcraft:stone_tablet_grand"
+		}
+	},
+	{
+		uid: "47b786a2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

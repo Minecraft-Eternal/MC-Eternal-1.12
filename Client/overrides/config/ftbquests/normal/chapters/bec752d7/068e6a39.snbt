@@ -1,0 +1,153 @@
+{
+	title: "Seeking Power",
+	x: 3.0d,
+	y: -6.0d,
+	shape: "hexagon",
+	description: "*Accepts any full set of Battlemage Armor*",
+	hide_dependency_lines: true,
+	dependencies: [
+		"9ca732bb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f29d5998",
+		type: "item",
+		title: "Battlemage Helmet",
+		items: [{
+			id: "ebwizardry:battlemage_helmet"
+		},
+		{
+			id: "ebwizardry:battlemage_helmet_fire"
+		},
+		{
+			id: "ebwizardry:battlemage_helmet_ice"
+		},
+		{
+			id: "ebwizardry:battlemage_helmet_lightning"
+		},
+		{
+			id: "ebwizardry:battlemage_helmet_necromancy"
+		},
+		{
+			id: "ebwizardry:battlemage_helmet_earth"
+		},
+		{
+			id: "ebwizardry:battlemage_helmet_sorcery"
+		},
+		{
+			id: "ebwizardry:battlemage_helmet_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff6fce3c",
+		type: "item",
+		title: "Battlemage Chestplate",
+		items: [{
+			id: "ebwizardry:battlemage_chestplate"
+		},
+		{
+			id: "ebwizardry:battlemage_chestplate_fire"
+		},
+		{
+			id: "ebwizardry:battlemage_chestplate_ice"
+		},
+		{
+			id: "ebwizardry:battlemage_chestplate_lightning"
+		},
+		{
+			id: "ebwizardry:battlemage_chestplate_necromancy"
+		},
+		{
+			id: "ebwizardry:battlemage_chestplate_earth"
+		},
+		{
+			id: "ebwizardry:battlemage_chestplate_sorcery"
+		},
+		{
+			id: "ebwizardry:battlemage_chestplate_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "08655226",
+		type: "item",
+		title: "Battlemage Leggings",
+		items: [{
+			id: "ebwizardry:battlemage_leggings"
+		},
+		{
+			id: "ebwizardry:battlemage_leggings_fire"
+		},
+		{
+			id: "ebwizardry:battlemage_leggings_ice"
+		},
+		{
+			id: "ebwizardry:battlemage_leggings_lightning"
+		},
+		{
+			id: "ebwizardry:battlemage_leggings_necromancy"
+		},
+		{
+			id: "ebwizardry:battlemage_leggings_earth"
+		},
+		{
+			id: "ebwizardry:battlemage_leggings_sorcery"
+		},
+		{
+			id: "ebwizardry:battlemage_leggings_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "82bba6f1",
+		type: "item",
+		title: "Battlemage Boots",
+		items: [{
+			id: "ebwizardry:battlemage_boots"
+		},
+		{
+			id: "ebwizardry:battlemage_boots_fire"
+		},
+		{
+			id: "ebwizardry:battlemage_boots_ice"
+		},
+		{
+			id: "ebwizardry:battlemage_boots_lightning"
+		},
+		{
+			id: "ebwizardry:battlemage_boots_necromancy"
+		},
+		{
+			id: "ebwizardry:battlemage_boots_earth"
+		},
+		{
+			id: "ebwizardry:battlemage_boots_sorcery"
+		},
+		{
+			id: "ebwizardry:battlemage_boots_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "73c0a5fa",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "5209f5f6",
+		type: "item",
+		item: {
+			id: "ancientspellcraft:charm_power_orb"
+		}
+	},
+	{
+		uid: "7ce0c3d5",
+		type: "random",
+		table: 7
+	}]
+}

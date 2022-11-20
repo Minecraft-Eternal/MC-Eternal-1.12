@@ -1,6 +1,6 @@
 {
-	x: 2.5d,
-	y: -5.0d,
+	x: 1.0d,
+	y: -5.5d,
 	description: "These trees would make for a perfect courtyard!",
 	dependencies: [
 		"25cd07cd"
@@ -9,16 +9,14 @@
 		uid: "082132f0",
 		type: "item",
 		items: [{
-			item: "twilightforest:twilight_sapling 1 9"
+			id: "twilightforest:twilight_sapling",
+			Damage: 9s
 		}]
 	}],
 	rewards: [{
 		uid: "06c2d691",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "tfspellpack:charm_goblin"
 		}
 	},
@@ -31,9 +29,6 @@
 		uid: "d0a150ca",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "twilightforest:shield_scepter"
 		}
 	}]
