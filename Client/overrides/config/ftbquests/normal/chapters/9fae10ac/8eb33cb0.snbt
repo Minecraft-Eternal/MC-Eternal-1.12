@@ -5,7 +5,12 @@
 	tasks: [{
 		uid: "2971733c",
 		type: "kill",
-		icon: "botania:gaiahead",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:gaiahead"
+		},
 		entity: "botania:doppleganger",
 		value: 1L
 	}],

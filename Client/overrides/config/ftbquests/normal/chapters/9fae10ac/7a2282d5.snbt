@@ -1,0 +1,15 @@
+{
+	x: -7.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "6e704c4e",
+		type: "kill",
+		entity: "cqrepoured:pirate_captain",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "367a3fe3",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	}]
+}

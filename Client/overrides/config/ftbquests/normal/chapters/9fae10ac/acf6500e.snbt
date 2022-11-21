@@ -5,7 +5,12 @@
 	tasks: [{
 		uid: "101dffa6",
 		type: "kill",
-		icon: "mod_lavacow:moltenbeef",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mod_lavacow:moltenbeef"
+		},
 		entity: "mod_lavacow:salamander",
 		value: 1L
 	}],

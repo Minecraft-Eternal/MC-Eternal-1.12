@@ -1,5 +1,11 @@
 {
-	icon: "twilightforest:trophy 1 1",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "twilightforest:trophy",
+		Damage: 1s
+	},
 	x: -10.0d,
 	y: 0.0d,
 	description: "The Twilight Lich resides on the top of a Lich Tower. It appears as a tall humanoid skeleton wearing a purple cape, and a large golden crown. Surrounding itself is a wall of shields to protect itself from any damage, but perhaps they can be broken?",

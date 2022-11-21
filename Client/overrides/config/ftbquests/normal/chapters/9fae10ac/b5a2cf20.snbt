@@ -9,7 +9,12 @@
 	tasks: [{
 		uid: "155a9b2b",
 		type: "kill",
-		icon: "mowziesmobs:grant_suns_blessing",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mowziesmobs:grant_suns_blessing"
+		},
 		entity: "mowziesmobs:barako",
 		value: 1L
 	}],
@@ -27,6 +32,9 @@
 		uid: "d1103b85",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

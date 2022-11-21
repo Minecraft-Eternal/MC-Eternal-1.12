@@ -5,7 +5,12 @@
 	tasks: [{
 		uid: "7059b924",
 		type: "kill",
-		icon: "rats:marbled_cheese_rat_head",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:marbled_cheese_rat_head"
+		},
 		entity: "rats:marbled_cheese_golem",
 		value: 1L
 	}],

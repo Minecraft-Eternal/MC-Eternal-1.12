@@ -1,5 +1,8 @@
 {
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "openblocks:trophy",
 		tag: {
 			entity_id: "minecraft:elder_guardian"

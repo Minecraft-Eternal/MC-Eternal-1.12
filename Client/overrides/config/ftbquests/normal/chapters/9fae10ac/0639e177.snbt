@@ -8,6 +8,7 @@
 		type: "kill",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:undertaker_shovel"
@@ -24,6 +25,9 @@
 		uid: "169dc29e",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -34,6 +38,9 @@
 		uid: "c8e6fb94",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "minecraft:emerald_block",
 			tag: {
 				display: {
@@ -48,6 +55,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:lich_staff"
