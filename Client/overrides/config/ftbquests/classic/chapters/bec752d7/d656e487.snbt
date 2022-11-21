@@ -1,7 +1,7 @@
 {
 	title: "Charged Astral Diamond",
 	x: 4.5d,
-	y: -7.0d,
+	y: -6.5d,
 	description: "*Click for more Info*",
 	text: [
 		"To obtain a Charged Astral Diamond, you will first need to discover the Ancient Spell 'Essence Extraction'.",
