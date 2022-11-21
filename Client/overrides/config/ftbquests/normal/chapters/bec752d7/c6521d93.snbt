@@ -1,7 +1,7 @@
 {
 	title: "Ancient Knowledge",
 	x: 6.0d,
-	y: -6.5d,
+	y: -6.0d,
 	description: "Obtain an Ancient Spell Book",
 	dependencies: [
 		"fe399292"
@@ -12,7 +12,7 @@
 		title: "Advancement: &eLost Knowledge",
 		icon: {
 			id: "ancientspellcraft:ancient_spell_book",
-			Damage: 221s
+			Damage: 1s
 		},
 		advancement: "ancientspellcraft:ancient_book",
 		criterion: ""

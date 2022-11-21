@@ -1,0 +1,29 @@
+{
+	title: "Resonance",
+	x: 10.0d,
+	y: -9.0d,
+	description: "&oCreate this &9&oWand&7&o using the Table empowered with &r&oStarlight&7&o.... During the time of the Moon, you shall see pillars of light, descend to the bottom of the world from them and find your prize...",
+	dependencies: [
+		"b400aa76"
+	],
+	tasks: [{
+		uid: "e699667d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e90e4e72",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}
