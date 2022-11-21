@@ -1,5 +1,10 @@
 {
-	icon: "thebetweenlands:pyrad_flame",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "thebetweenlands:pyrad_flame"
+	},
 	x: -1.0d,
 	y: -2.0d,
 	description: "A sphere of malignant energy found atop the Wight Fortress",

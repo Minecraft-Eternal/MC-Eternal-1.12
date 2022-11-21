@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "9b3e6943",
+		type: "kill",
+		entity: "cqrepoured:boar_mage",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f031119b",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	}]
+}

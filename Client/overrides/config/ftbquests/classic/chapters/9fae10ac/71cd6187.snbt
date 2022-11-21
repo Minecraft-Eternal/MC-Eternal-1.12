@@ -8,7 +8,12 @@
 	tasks: [{
 		uid: "4d74516d",
 		type: "kill",
-		icon: "iceandfire:desert_myrmex_cocoon",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:desert_myrmex_cocoon"
+		},
 		entity: "iceandfire:myrmex_queen",
 		value: 1L
 	}],

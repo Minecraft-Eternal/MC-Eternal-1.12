@@ -5,7 +5,12 @@
 	tasks: [{
 		uid: "8dc5fce4",
 		type: "kill",
-		icon: "iceandfire:fire_dragon_heart",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:fire_dragon_heart"
+		},
 		entity: "iceandfire:firedragon",
 		value: 1L
 	}],
@@ -17,7 +22,13 @@
 	{
 		uid: "d0b4caab",
 		type: "loot",
-		icon: "bibliocraft:framedchest 1 6",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bibliocraft:framedchest",
+			Damage: 6s
+		},
 		table: 1
 	},
 	{

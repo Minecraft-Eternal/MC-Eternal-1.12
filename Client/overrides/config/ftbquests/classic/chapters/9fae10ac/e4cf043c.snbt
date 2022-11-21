@@ -1,5 +1,10 @@
 {
-	icon: "twilightforest:trophy",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "twilightforest:trophy"
+	},
 	x: -11.0d,
 	y: 0.0d,
 	description: "The Naga is a serpent that lurks in a Naga Courtyard. It appears as an immense green snake-like creature with a human-like face. Its scales have subtle hints of all sorts of other colors.",

@@ -7,6 +7,7 @@
 		type: "kill",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "rats:feral_bagh_nakhs"

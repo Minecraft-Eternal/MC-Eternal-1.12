@@ -1,6 +1,12 @@
 {
 	title: "Bosses",
-	icon: "thermalfoundation:material 1 2051",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ancientbeasts:logo"
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "",

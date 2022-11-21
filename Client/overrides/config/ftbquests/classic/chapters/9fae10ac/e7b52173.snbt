@@ -10,6 +10,7 @@
 		type: "kill",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:hydra_heart"
@@ -26,6 +27,9 @@
 		uid: "26d63163",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -35,7 +39,12 @@
 	{
 		uid: "f688c13e",
 		type: "item",
-		item: "iceandfire:hydra_arrow",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:hydra_arrow"
+		},
 		count: 17
 	}]
 }

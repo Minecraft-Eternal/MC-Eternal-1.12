@@ -5,7 +5,13 @@
 	tasks: [{
 		uid: "d7c695b2",
 		type: "kill",
-		icon: "twilightforest:trophy 1 5",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:trophy",
+			Damage: 5s
+		},
 		entity: "twilightforest:snow_queen",
 		value: 1L
 	}],

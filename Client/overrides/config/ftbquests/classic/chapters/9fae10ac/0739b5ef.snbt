@@ -1,5 +1,11 @@
 {
-	icon: "minecraft:skull 1 5",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "minecraft:skull",
+		Damage: 5s
+	},
 	x: -3.0d,
 	y: -4.0d,
 	shape: "square",
@@ -15,6 +21,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "enderio:item_ender_food"
@@ -39,6 +46,9 @@
 		uid: "f15c9ce8",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

@@ -5,7 +5,12 @@
 	tasks: [{
 		uid: "d8f5acba",
 		type: "kill",
-		icon: "thebetweenlands:mud_flower_pot_candle",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:mud_flower_pot_candle"
+		},
 		entity: "thebetweenlands:dreadful_mummy",
 		value: 1L
 	}],

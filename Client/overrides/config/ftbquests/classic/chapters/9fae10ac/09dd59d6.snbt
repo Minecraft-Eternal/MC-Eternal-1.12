@@ -1,0 +1,15 @@
+{
+	x: -6.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "fc1c7a1c",
+		type: "kill",
+		entity: "cqrepoured:walker_king",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "57359722",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	}]
+}

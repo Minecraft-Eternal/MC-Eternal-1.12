@@ -5,7 +5,12 @@
 	tasks: [{
 		uid: "deea36c3",
 		type: "kill",
-		icon: "twilightforest:alpha_fur",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:alpha_fur"
+		},
 		entity: "twilightforest:yeti_alpha",
 		value: 1L
 	}],

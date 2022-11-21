@@ -5,7 +5,12 @@
 	tasks: [{
 		uid: "86f3d522",
 		type: "kill",
-		icon: "rats:psionic_rat_brain",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:psionic_rat_brain"
+		},
 		entity: "rats:neo_ratlantean",
 		value: 1L
 	}],
@@ -13,6 +18,9 @@
 		uid: "32b0cb6b",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
