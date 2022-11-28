@@ -98,9 +98,6 @@
 		},
 		{
 			item: "jaopca:item_clusteruranium"
-		},
-		{
-			item: "jaopca:item_clusterzinc"
 		}]
 	}],
 	rewards: [{
