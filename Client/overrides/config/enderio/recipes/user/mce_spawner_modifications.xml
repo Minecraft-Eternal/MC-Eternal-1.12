@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+<recipe name="Spawner: MCE Tweaks" required="true">
+	<spawning>
+		
+	<!-- Atum 2 -->
+		<entity name="atum:*" 				soulvial="false"/>
+		<entity name="atum:camel" 			costMultiplier="1.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="atum:desert_wolf" 	costMultiplier="1.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="atum:desert_rabbit" 	costMultiplier="1.0" disabled="false" clone="true" soulvial="true"/>
+		
+	<!-- Eerie Entities -->
+		<entity name="eerieentities:nether_knight"	soulvial="false"/>
+		<entity name="eerieentities:cursed_armor" 	soulvial="false"/>
+		
+	<!-- Electroblob's Wizardry & Addons -->
+		<entity name="ebwizardry:*" 			soulvial="false"/>
+		<entity name="ebwizardry:evil_wizard" 	costMultiplier="10.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="ebwizardry:remnant" 		costMultiplier="1.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="tfspellpack:*" 			disabled="true" clone="false" soulvial="false"/>
+		<entity name="ancientspellcraft:*" 		disabled="true" clone="false" soulvial="false"/>
+		<entity name="mospells:*"				disabled="true" clone="false" soulvial="false"/>
+		<entity name="morphspellpack:*"			disabled="true" clone="false" soulvial="false"/>
+		<entity name="necromancersdelight:*"	disabled="true" clone="false" soulvial="false"/>
+		
+	<!-- Erebus -->
+		<entity name="erebus:erebus*" 				disabled="true" clone="false" soulvial="false"/>
+		<entity name="erebus:erebus.honey_pot_ant" 	costMultiplier="20.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="erebus:erebus.praying_mantis" costMultiplier="20.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="erebus:erebus.glow_worm" 		costMultiplier="20.0" disabled="false" clone="true" soulvial="true"/>
+		
+	<!-- Fish's Undead Rising -->
+		<entity name="mod_lavacow:avaton" 			soulvial="false"/>
+		<entity name="mod_lavacow:banshee" 			soulvial="false"/>
+		<entity name="mod_lavacow:boneworm" 		soulvial="false"/>
+		<entity name="mod_lavacow:foglet" 			costMultiplier="3.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="mod_lavacow:ghostray" 		costMultiplier="3.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="mod_lavacow:ithaqua" 			soulvial="false"/>
+		<entity name="mod_lavacow:lavacow" 			costMultiplier="20.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="mod_lavacow:lilsludge" 		soulvial="false"/>
+		<entity name="mod_lavacow:mimic" 			costMultiplier="2.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="mod_lavacow:mummy"			soulvial="false"/>
+		<entity name="mod_lavacow:parasite" 		costMultiplier="1.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="mod_lavacow:pingu" 			costMultiplier="1.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="mod_lavacow:piranha" 			costMultiplier="5.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="mod_lavacow:ptera" 			costMultiplier="1.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="mod_lavacow:raven" 			costMultiplier="1.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="mod_lavacow:salamander" 		soulvial="false"/>
+		<entity name="mod_lavacow:scarecrow" 		soulvial="false"/>
+		<entity name="mod_lavacow:sludgelord" 		soulvial="false"/>
+		<entity name="mod_lavacow:unburied" 		soulvial="false"/>
+		<entity name="mod_lavacow:undeadswine" 		soulvial="false"/>
+		<entity name="mod_lavacow:undertaker" 		soulvial="false"/>
+		<entity name="mod_lavacow:vespa" 			soulvial="false"/>
+		<entity name="mod_lavacow:vespacocoon" 		soulvial="false"/>
+		<entity name="mod_lavacow:weta" 			soulvial="false"/>
+		<entity name="mod_lavacow:zombiefrozen" 	soulvial="false"/>
+		<entity name="mod_lavacow:zombiemushroom" 	soulvial="false"/>
+		<entity name="mod_lavacow:zombiepiranha" 	costMultiplier="5.0" disabled="false" clone="true" soulvial="true"/>
+		
+	<!-- Fossils and Archeology -->
+		<entity name="fossil:*" 						costMultiplier="5.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="fossil:fossil.anu" 				disabled="true" clone="false" soulvial="false"/>
+		<entity name="fossil:fossil.anubite" 			soulvial="false"/>
+		<entity name="fossil:fossil.toyball"		 	soulvial="false"/>
+		<entity name="fossil:fossil.toyscratchingpost" 	soulvial="false"/>
+		<entity name="fossil:fossil.toytetheredlog"		soulvial="false"/>
+		<entity name="fossil:fossil.dinoegg" 			soulvial="false"/>
+		<entity name="fossil:fossil.sentrypigman"		soulvial="false"/>
+		
+	<!-- Ice and Fire -->
+		<entity name="iceandfire:amphithere"		soulvial="false"/>
+		<entity name="iceandfire:cyclops" 			soulvial="false"/>
+		<entity name="iceandfire:deathworm"			soulvial="false"/>
+		<entity name="iceandfire:dragonegg"			soulvial="false"/>
+		<entity name="iceandfire:dragonskull"		soulvial="false"/>
+		<entity name="iceandfire:dread_beast"		soulvial="false"/>
+		<entity name="iceandfire:dread_ghoul"		soulvial="false"/>
+		<entity name="iceandfire:dread_horse"		costMultiplier="1.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="iceandfire:dread_knight"		soulvial="false"/>
+		<entity name="iceandfire:dread_lich"		soulvial="false"/>
+		<entity name="iceandfire:dread_scuttler" 	soulvial="false"/>
+		<entity name="iceandfire:dread_thrall"		soulvial="false"/>
+		<entity name="iceandfire:firedragon" 		costMultiplier="1000.0" disabled="false" clone="true" soulvial="false"/>
+		<entity name="iceandfire:icedragon" 		costMultiplier="1000.0" disabled="false" clone="true" soulvial="false"/>
+		<entity name="iceandfire:gorgon" 			soulvial="false"/>
+		<entity name="iceandfire:hippogryph" 		costMultiplier="5.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="iceandfire:hippocampus" 		costMultiplier="5.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="iceandfire:if_cockatrice" 	soulvial="false"/>
+		<entity name="iceandfire:if_hydra" 			soulvial="false"/>
+		<entity name="iceandfire:if_mob_skull" 		soulvial="false"/>
+		<entity name="iceandfire:if_pixie" 			costMultiplier="5.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="iceandfire:if_troll" 			soulvial="false"/>
+		<entity name="iceandfire:myrmex_egg" 		soulvial="false"/>
+		<entity name="iceandfire:myrmex_queen" 		soulvial="false"/>
+		<entity name="iceandfire:myrmex_royal" 		soulvial="false"/>
+		<entity name="iceandfire:myrmex_sentinel" 	soulvial="false"/>
+		<entity name="iceandfire:myrmex_soldier" 	soulvial="false"/>
+		<entity name="iceandfire:myrmex_swarmer" 	soulvial="false"/>
+		<entity name="iceandfire:myrmex_worker" 	soulvial="false"/>
+		<entity name="iceandfire:seaserpent" 		soulvial="false"/>
+		<entity name="iceandfire:siren" 			soulvial="false"/>
+		<entity name="iceandfire:snowvillager" 		costMultiplier="5.0" disabled="true" clone="true" soulvial="true"/>
+		<entity name="iceandfire:stonestatue" 		soulvial="false"/>
+		<entity name="iceandfire:stymphalianbird" 	soulvial="false"/>
+
+	<!-- Mowzie's Mobs -->
+		<entity name="mowziesmobs:baby_foliaath"		soulvial="false"/>
+		<entity name="mowziesmobs:barako"				soulvial="false"/>
+		<entity name="mowziesmobs:barakoan_barakoana"	soulvial="false"/>
+		<entity name="mowziesmobs:barakoan_player"		soulvial="false"/>
+		<entity name="mowziesmobs:barakoana"			soulvial="false"/>
+		<entity name="mowziesmobs:barakoaya"			soulvial="false"/>
+		<entity name="mowziesmobs:ferrous_wroughtnaut"	soulvial="false"/>
+		<entity name="mowziesmobs:foliaath"				soulvial="false"/>
+		<entity name="mowziesmobs:frostmaw"				soulvial="false"/>
+		<entity name="mowziesmobs:grottol"				soulvial="false"/>
+		<entity name="mowziesmobs:naga"					soulvial="false"/>
+		
+	<!-- Thaumcraft & Addons -->
+		<entity name="thaumcraft:arcanebore"					soulvial="false"/>
+		<entity name="thaumcraft:cultistportallesser"			soulvial="false"/>
+		<entity name="thaumcraft:eldritchcrab"					soulvial="false"/>
+		<entity name="thaumcraft:eldritchguardian"				soulvial="false"/>
+		<entity name="thaumcraft:golem"							disabled="true" clone="false" soulvial="false"/>
+		<entity name="thaumcraft:inhabitedzombie"				soulvial="false"/>
+		<entity name="thaumcraft:mindspider"					soulvial="false"/>
+		<entity name="thaumcraft:spellbat"						disabled="true" clone="false" soulvial="false"/>
+		<entity name="thaumcraft:turretadvanced"				soulvial="false"/>
+		<entity name="thaumcraft:turretbasic"					soulvial="false"/>
+		<entity name="thaumadditions:chester" 					soulvial="false" disabled="true"/>
+		<entity name="thaumadditions:blue_wolf" 				costMultiplier="5.0" disabled="false"/>
+		<entity name="thaumicaugmentation:autocaster_eldritch" 	soulvial="false"/>
+		<entity name="thaumicaugmentation:eldritch_guardian"	soulvial="false"/>
+		<entity name="thaumicaugmentation:celestial_observer"	soulvial="false"/>
+		<entity name="thaumicaugmentation:eldritch_guardian"	soulvial="false"/>
+
+	<!-- The Aurorian -->
+		<entity name="theaurorian:disturbedhollow" 		soulvial="false"/>
+		<entity name="theaurorian:moonacolyte" 			soulvial="false"/>
+		<entity name="theaurorian:spiderling" 			soulvial="false"/>
+		<entity name="theaurorian:spirit" 				soulvial="false"/>
+		<entity name="theaurorian:undeadknight" 		soulvial="false"/>
+		<entity name="theaurorian:crystallinesprite"	soulvial="false"/>
+		<entity name="theaurorian:aurorianslime"		soulvial="false"/>
+
+	<!-- Twilight Forest -->
+	    <entity name="twilightforest:adherent"				soulvial="false"/>
+        <entity name="twilightforest:armored_giant"			soulvial="false"/>
+        <entity name="twilightforest:blockchain_goblin"		soulvial="false"/>
+    	<entity name="twilightforest:castle_guardian"		soulvial="false"/>
+        <entity name="twilightforest:death_tome"			soulvial="false"/>
+        <entity name="twilightforest:fire_beetle"			soulvial="false"/>
+        <entity name="twilightforest:giant_miner"			soulvial="false"/>
+        <entity name="twilightforest:goblin_knight_lower"	soulvial="false"/>
+        <entity name="twilightforest:goblin_knight_upper"	soulvial="false"/>
+        <entity name="twilightforest:harbinger_cube"		soulvial="false"/>
+        <entity name="twilightforest:hedge_spider"			soulvial="false"/>
+        <entity name="twilightforest:helmet_crab"			soulvial="false"/>
+        <entity name="twilightforest:hostile_wolf"			soulvial="false"/>
+        <entity name="twilightforest:king_spider"			soulvial="false"/>
+        <entity name="twilightforest:knight_phantom"		soulvial="false"/>
+        <entity name="twilightforest:kobold"				soulvial="false"/>
+        <entity name="twilightforest:lich"					soulvial="false"/>
+        <entity name="twilightforest:lich_minion"			soulvial="false"/>
+        <entity name="twilightforest:loyal_zombie"			soulvial="false"/>
+        <entity name="twilightforest:maze_slime"			soulvial="false"/>
+        <entity name="twilightforest:mini_ghast"			soulvial="false"/>
+        <entity name="twilightforest:minotaur"				soulvial="false"/>
+        <entity name="twilightforest:mist_wolf"				soulvial="false"/>
+        <entity name="twilightforest:mosquito_swarm"		soulvial="false"/>
+        <entity name="twilightforest:pinch_beetle"			soulvial="false"/>
+        <entity name="twilightforest:quest_ram"				soulvial="false"/>
+        <entity name="twilightforest:redcap"				soulvial="false"/>
+        <entity name="twilightforest:redcap_sapper"			soulvial="false"/>
+        <entity name="twilightforest:rising_zombie"			soulvial="false"/>
+        <entity name="twilightforest:roving_cube"			soulvial="false"/>
+        <entity name="twilightforest:skeleton_druid"		soulvial="false"/>
+        <entity name="twilightforest:slime_beetle"			soulvial="false"/>
+        <entity name="twilightforest:snow_guardian"			soulvial="false"/>
+        <entity name="twilightforest:stable_ice_core"		soulvial="false"/>
+        <entity name="twilightforest:swarm_spider"			soulvial="false"/>
+        <entity name="twilightforest:tower_broodling"		soulvial="false"/>
+        <entity name="twilightforest:tower_ghast"			soulvial="false"/>
+        <entity name="twilightforest:tower_golem"			soulvial="false"/>
+        <entity name="twilightforest:tower_termite"			soulvial="false"/>
+        <entity name="twilightforest:troll"					soulvial="false"/>
+        <entity name="twilightforest:unstable_ice_core"		soulvial="false"/>
+        <entity name="twilightforest:winter_wolf"			soulvial="false"/>
+        <entity name="twilightforest:wraith"				soulvial="false"/>
+        <entity name="twilightforest:yeti"					soulvial="false"/>
+		
+	<!-- Vampirism -->
+		<entity name="vampirism:advanced_hunter"			soulvial="false"/>
+		<entity name="vampirism:advanced_vampire"			soulvial="false"/>
+		<entity name="vampirism:blinding_bat" 				soulvial="false"/>
+		<entity name="vampirism:hunter_trainer"				soulvial="false"/>
+		<entity name="vampirism:hunter_trainer_dummy"		soulvial="false"/>
+		<entity name="vampirism:vampire_minion_s" 			soulvial="false"/>
+		<entity name="vampirism:vampire_baron" 				soulvial="false"/>
+		<entity name="vampirism:villager_angry"				soulvial="false"/>
+		<entity name="vampirism:villager_converted" 		soulvial="false"/>
+		<entity name="vampirism:villager_hunter_faction"	soulvial="false"/>
+		<entity name="vampirism:villager_vampire_faction"	soulvial="false"/>
+		
+		
+	<!-- Misc -->
+		<entity name="ancientbeasts:*"							disabled="true" clone="false" soulvial="false"/>
+		<entity name="artifacts:mimic" 							disabled="true" clone="false" soulvial="false"/>
+		<entity name="arcaneworld:overgrown_sheep"				costMultiplier="5.0"/>
+		<entity name="bloodmagic:mimic"							soulvial="false"/>
+		<entity name="bloodmagic:sentient_specter"				soulvial="false"/>
+		<entity name="battletowers:golem"						disabled="true" clone="false" soulvial="false"/>
+		<entity name="botania:pixie"							soulvial="false"/>
+		<entity name="beneath:shadow"							soulvial="false"/>
+		<entity name="cqrepoured:*"								soulvial="false"/>
+		<entity name="dungeontactics:attacken"					soulvial="false"/>
+		<entity name="dungeontactics:towerguardian"				soulvial="false"/>
+		<entity name="dungeonsmod:*"							soulvial="false"/>
+		<entity name="forestry:butterflyge"						disabled="true" clone="false" soulvial="false"/>
+		<entity name="grue:entitygrue"							soulvial="false"/>
+		<entity name="iceologer:iceologer" 						soulvial="false"/>
+		<entity name="illagers_plus:*"							soulvial="false"/>
+		<entity name="inventorypets:*"							soulvial="false"/>
+		<entity name="mekanism:robit"							disabled="true" clone="false"/>
+		<entity name="minecolonies:*" 							disabled="true"/>
+		<entity name="openblocks:*"								clone="false" soulvial="false"/>
+		<entity name="quark:stoneling" 							disabled="true"/>
+		<entity name="randomthings:goldenchicken"				costMultiplier="10"/>	
+		<entity name="simplycats:cat"							disabled="true" clone="false"/>
+		<entity name="thebetweenlands:*"						soulvial="false"/>
+		<entity name="totemic:baykok"							soulvial="false"/>
+		<entity name="treasure2:*"								clone="false" soulvial="false"/>
+		
+	</spawning>
+</recipe>
+
+</enderio:recipes>
