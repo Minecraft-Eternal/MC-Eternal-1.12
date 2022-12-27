@@ -155,19 +155,6 @@
 				]
 			}
 		}
-			"cluster-count": 1,
-			"min-height": 5,
-			"max-height": 25,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
 		"ancient_debris": {
 			"enabled": "true",
 			"distribution": "uniform",
