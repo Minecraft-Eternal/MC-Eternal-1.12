@@ -79,7 +79,7 @@ for metas in thaumcuriosities {
 	itemUtils.getItem("thaumcraft:curio",metas).addTooltip(format.lightPurple("More likely to give "~thaumcuriosities[metas]~" Research"));
 }
 <thaumcraft:curio:3>.addTooltip(format.darkPurple("Will grant some Warp on use!"));
-<thaumcraft:curio:6>.addtooltip(format.darkPurple("Will grant some Warp on use!"));
+<thaumcraft:curio:6>.addTooltip(format.darkPurple("Will grant some Warp on use!"));
 
 <thaumadditions:zeith_fur>.addTooltip(format.lightPurple("More likely to give Thaumic Additions Research"));
 
