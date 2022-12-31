@@ -81,7 +81,7 @@ for metas in thaumcuriosities {
 <thaumcraft:curio:3>.addTooltip(format.darkPurple("Will grant some Warp on use!"));
 <thaumcraft:curio:6>.addtooltip(format.darkPurple("Will grant some Warp on use!"));
 
-<thaumadditions:zeith_fur>.addTooltip(format.lightPurple("More likely to give Thaumic Additions Research"))
+<thaumadditions:zeith_fur>.addTooltip(format.lightPurple("More likely to give Thaumic Additions Research"));
 
 var aePresses = [
 	<appliedenergistics2:material:13>,
