@@ -71,13 +71,17 @@ val thaumcuriosities = {
 	4:"Arcane Infusion", 
 	5:"Artifice", 
 	2:"Golemancy", 
-	3:"Eldritch"
+	3:"Eldritch",
+	6:"Eldritch"
 } as string[int];
 
 for metas in thaumcuriosities {
 	itemUtils.getItem("thaumcraft:curio",metas).addTooltip(format.lightPurple("More likely to give "~thaumcuriosities[metas]~" Research"));
 }
 <thaumcraft:curio:3>.addTooltip(format.darkPurple("Will grant some Warp on use!"));
+<thaumcraft:curio:6>.addtooltip(format.darkPurple("Will grant some Warp on use!"));
+
+<thaumadditions:zeith_fur>.addTooltip(format.lightPurple("More likely to give Thaumic Additions Research"))
 
 var aePresses = [
 	<appliedenergistics2:material:13>,
