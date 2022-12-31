@@ -68,7 +68,7 @@ for metas in mekfactorymetas {
 val thaumcuriosities = { 
 	1:"Alchemy", 
 	0:"Auromancy", 
-	4:"Infusion", 
+	4:"Arcane Infusion", 
 	5:"Artifice", 
 	2:"Golemancy", 
 	3:"Eldritch"
