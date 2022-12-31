@@ -150,6 +150,7 @@ val beeTypes = [
 for bee in beeTypes {
 	bee.withTag(NBeeT).addTooltip(format.aqua("Cannot be bred directly, craft a Gene Sample of this species to acquire it"));
 	bee.withTag(NBeeT).addTooltip(format.aqua("See the uses for 'Avatar of Ratlantis' to find the recipe"));
+	bee.withTag(NBeeT).addTooltip(format.aqua("use the PHD Bee's effect on a bee of this species to get the RF Inducing trait"));
 }
 
 for num in 0 to 5 {
