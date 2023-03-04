@@ -60,7 +60,7 @@
 		<entity name="mod_lavacow:zombiepiranha" 	costMultiplier="5.0" disabled="false" clone="true" soulvial="true"/>
 		
 	<!-- Fossils and Archeology -->
-		<entity name="fossil:*" 						costMultiplier="5.0" disabled="false" clone="true" soulvial="true"/>
+		<entity name="fossil:*" 						costMultiplier="5.0" disabled="true" clone="false" soulvial="true"/>
 		<entity name="fossil:fossil.anu" 				disabled="true" clone="false" soulvial="false"/>
 		<entity name="fossil:fossil.anubite" 			soulvial="false"/>
 		<entity name="fossil:fossil.toyball"		 	soulvial="false"/>
