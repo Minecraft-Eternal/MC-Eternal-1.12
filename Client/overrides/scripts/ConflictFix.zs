@@ -24,7 +24,7 @@ recipes.remove(<structurize:sceptergold>);
 recipes.remove(<iceandfire:wither_shard>);
 recipes.removeByRecipeName("techreborn:iron_furnace");
 recipes.remove(<bountifulbaubles:ringiron>);
-recipes.remove(<bewitchment:white_candle>);
+recipes.removeByRecipeName("bewitchment:candle/white_candle");
 
 #fixes
 recipes.addShaped(<littletiles:recipeadvanced> * 5, [[<ore:paper>, <minecraft:redstone>, <ore:paper>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<ore:paper>, <minecraft:redstone>, <ore:paper>]]);
