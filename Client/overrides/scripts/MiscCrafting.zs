@@ -32,9 +32,6 @@ for item in itemsToNuke {
 #Homing Beecon
 recipes.addShaped(<erebus:homing_beecon_advanced>, [[<erebus:materials:41>],[<erebus:homing_beecon>],[<mekanism:teleportationcore>]]);
 
-#Soul Torches
-recipes.addShaped("soultorch_mce", <futuremc:soul_fire_torch>, [[<ore:coal>|<ore:charcoal>],[<ore:stickWood>],[<ore:soulSand>]]);
-
 #Soul Soil
 recipes.addShapeless("soulsoil_mce", <futuremc:soul_soil>, [<ore:soulSand>,<ore:dirt>]);
 
