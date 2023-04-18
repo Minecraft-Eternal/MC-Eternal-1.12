@@ -25,6 +25,7 @@ recipes.remove(<iceandfire:wither_shard>);
 recipes.removeByRecipeName("techreborn:iron_furnace");
 recipes.remove(<bountifulbaubles:ringiron>);
 recipes.removeByRecipeName("bewitchment:candle/white_candle");
+recipes.remove(<littletiles:chisel>);
 
 #fixes
 recipes.addShaped(<littletiles:recipeadvanced> * 5, [[<ore:paper>, <minecraft:redstone>, <ore:paper>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<ore:paper>, <minecraft:redstone>, <ore:paper>]]);
@@ -53,6 +54,7 @@ recipes.addShaped(<bountifulbaubles:ringiron>, [[<ore:nuggetIron>,<ore:ingotIron
 recipes.addShaped(<bewitchment:white_candle> *2, [[<ore:string>, <ore:string>], [<ore:tallow>, <ore:tallow>], [<ore:tallow>, <ore:tallow>]]);
 #Netherumbrian Pipes recipe by Handeril
 recipes.addShaped(<totemic:nether_pipe>, [[<ore:ingotGold>, null, <totemic:flute>], [<ore:ingotGold>, <ore:hideBuffalo>, <ore:ingotNetherite>], [<ore:ingotGold>, <ore:hideBuffalo>, null]]);
+recipes.addShaped(<littletiles:chisel>, [[<minecraft:iron_ingot>, <minecraft:stone>, <minecraft:stone>], [<minecraft:stone>, <minecraft:stone>, <minecraft:iron_ingot>], [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
 
 //Vanilla Wood Trapdoor Cycling
 recipes.remove(<quark:birch_trapdoor>);
