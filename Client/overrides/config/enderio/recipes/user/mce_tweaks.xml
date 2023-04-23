@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+<recipe name="Nutrient Distilation" required="true" disabled="true">
+    <fermenting energy="10000">
+    <inputgroup>
+        <input name="itemSkull" multiplier="2.0"/>
+        <input name="minecraft:rotten_flesh" multiplier="1.5"/>
+        <input name="minecraft:chicken" multiplier="0.75"/>
+        <input name="minecraft:beef" multiplier="0.75"/>
+        <input name="minecraft:porkchop" multiplier="0.75"/>
+        <input name="minecraft:rabbit" multiplier="0.75"/>
+        <input name="minecraft:mutton" multiplier="0.75"/>
+    </inputgroup>
+    <inputgroup>
+        <input name="minecraft:sugar" multiplier="1.0"/>
+        <input name="minecraft:brown_mushroom" multiplier="1.5"/>
+        <input name="minecraft:red_mushroom" multiplier="1.5"/>
+        <input name="item:minecraft:nether_wart" multiplier="1.5"/>
+        <input name="minecraft:fermented_spider_eye" multiplier="2.0"/>
+    </inputgroup>
+    <inputfluid name="water" multiplier="0.25"/>
+    <outputfluid name="nutrient_distillation"/>
+    </fermenting>
+</recipe>
+
+
+<recipe name="Nutrient Distillation - MCE edition" required="true">
+    <fermenting energy="10000">
+    <inputgroup>
+        <input name="itemSkull" multiplier="2.0"/>
+        <input name="minecraft:rotten_flesh" multiplier="1.5"/>
+        <input name="minecraft:chicken" multiplier="0.75"/>
+        <input name="minecraft:beef" multiplier="0.75"/>
+        <input name="minecraft:porkchop" multiplier="0.75"/>
+        <input name="minecraft:rabbit" multiplier="0.75"/>
+        <input name="minecraft:mutton" multiplier="0.75"/>
+        <input name="thaumcraft:brain" multiplier="2.0"/>
+    </inputgroup>
+    <inputgroup>
+        <input name="minecraft:sugar" multiplier="1.0"/>
+        <input name="minecraft:brown_mushroom" multiplier="1.5"/>
+        <input name="minecraft:red_mushroom" multiplier="1.5"/>
+        <input name="item:minecraft:nether_wart" multiplier="1.5"/>
+        <input name="minecraft:fermented_spider_eye" multiplier="2.0"/>
+        <input name="mod_lavacow:glowshroom" multiplier="2.0"/>
+        <input name="midnight:viridshroom" multiplier="2.25"/>
+    </inputgroup>
+    <inputfluid name="water" multiplier="0.25"/>
+    <outputfluid name="nutrient_distillation"/>
+    </fermenting>
+</recipe>
+
+</enderio:recipes>
