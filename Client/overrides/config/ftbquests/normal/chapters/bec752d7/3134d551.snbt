@@ -22,7 +22,8 @@
 					}
 				}
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "c54e290c",

@@ -9,6 +9,7 @@
 		uid: "a2fad5e2",
 		type: "advancement",
 		title: "Find a &5Faint Constellation",
+		icon: "astralsorcery:blockobservatory",
 		advancement: "astralsorcery:find_minor_constellation",
 		criterion: ""
 	}],

@@ -21,6 +21,8 @@ print("--- loading Oredict.zs ---");
 <ore:nuggetSilver>.add(<mysticalworld:silver_nugget>);
 <ore:dustSilver>.add(<mysticalworld:silver_dust>);
 
+<ore:dustEnder>.add(<techreborn:dust:20>);
+
 #Atum Relics (relicItemAtum)
 
 var relicNames = [

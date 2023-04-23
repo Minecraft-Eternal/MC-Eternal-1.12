@@ -25,7 +25,7 @@ recipes.addShapeless("cracklins_mce", <harvestcraft:cracklinsitem>, [<ore:toolPo
 recipes.addShapeless("garlicsteak_mce", <harvestcraft:garlicsteakitem>, [<ore:toolSkillet>.reuse(), <ore:listAllbeefraw>, <ore:cropGarlic>, <ore:foodButter>, <ore:cropSpiceleaf>]);
 
 //Sauced Lamb Kebab
-recipes.addShapeless("saucedlambkebab_mce", <harvestcraft:saucedlambkebabitem>, [<ore:toolMixingbowl>.reuse(), <ore:foodLambKebab>, <ore:foodPlainYogurt>, <ore:listAllheavycream>, <ore:cropGarlic>, <ore:cropSpiceleaf>, <ore:cropLime>]);
+recipes.addShapeless("saucedlambkebab_mce", <harvestcraft:saucedlambkebabitem>, [<ore:toolMixingbowl>.reuse(), <ore:foodLambkebab>, <ore:foodPlainYogurt>, <ore:listAllheavycream>, <ore:cropGarlic>, <ore:cropSpiceleaf>, <ore:cropLime>]);
 
 //Lychee Tea
 #adding Lychee to its proper Oredict lets Harvestcraft do the work

@@ -21,7 +21,8 @@ var itemsToNuke = [
 	<bewitchment:poppet_vampiric>,
 	<openmodularturrets:addon_meta:1>,
  	<inventorypets:solstice_sword>,
-	<randomthings:spectreanchor>
+	<randomthings:spectreanchor>,
+	<xreliquary:rod_of_lyssa>
 ] as IItemStack[];
 
 for item in itemsToNuke {

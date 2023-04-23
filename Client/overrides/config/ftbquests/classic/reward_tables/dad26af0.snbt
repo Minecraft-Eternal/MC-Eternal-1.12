@@ -1632,24 +1632,6 @@
 		weight: 16
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "thesummoner:summoner_orb"
-		},
-		weight: 27
-	},
-	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "thesummoner:enhanced_summoner_orb"
-		},
-		weight: 26
-	},
-	{
 		item: "forestry:apatite",
 		count: 32,
 		weight: 27
