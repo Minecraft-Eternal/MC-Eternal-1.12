@@ -12,7 +12,17 @@ import mods.mekanism.MekanismHelper;
 
 print("--- Loading Thaumcraft.zs ---");
 
-// TODO: remove non-native vis seed recipes (if i can decipher what the heck their ids are)
+// remove indirectly supported nbt-based vis seeds
+//does the randomization funny (and generate normal essentia types), which is bad and op
+mods.thaumcraft.Crucible.removeRecipe(<thaumadditions:vis_seeds>);
+
+// Vishroom from Baffle Cap
+//doesn't spawn in the world, and i might remove Thaumic Additions because it's kind of not very good
+mods.thaumcraft.Crucible.registerRecipe("mce_vishroom_from_bafflecap", "", <thaumcraft:vishroom>, <roots:baffle_cap_mushroom>, [<aspect:vitium> *10, <aspect:mortuus> *3, <aspect:perditio> *3]);
+
+// Ambient Grass Block
+//also doesn't spawn and has cool vfx so it can look epic
+mods.thaumcraft.Crucible.registerRecipe("mce_ambient_grass_block", "", <thaumcraft:grass_ambient>, <minecraft:grass>, [<aspect:auram> *2, <aspect:lux> *6]);
 
 
 // Native Clusters in many more modded Ore Processing options
