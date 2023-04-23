@@ -10,8 +10,9 @@
 		uid: "09c6843d",
 		type: "item",
 		items: [{
-			item: "ae2stuff:inscriber"
-		}]
+			id: "ae2stuff:inscriber"
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "3c979a99",

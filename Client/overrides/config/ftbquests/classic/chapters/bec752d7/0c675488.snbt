@@ -10,8 +10,15 @@
 	tasks: [{
 		uid: "ef7b60af",
 		type: "item",
+		title: "Adaminite Smeltery (or better)",
+		icon: {
+			id: "thaumadditions:adaminite_smelter"
+		},
 		items: [{
-			item: "thaumadditions:adaminite_smelter"
+			id: "thaumadditions:adaminite_smelter"
+		},
+		{
+			id: "thaumadditions:mithminite_smelter"
 		}]
 	}],
 	rewards: [{

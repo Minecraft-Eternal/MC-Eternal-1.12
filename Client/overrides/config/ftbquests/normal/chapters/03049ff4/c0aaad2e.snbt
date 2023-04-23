@@ -1,7 +1,7 @@
 {
 	title: "&4Bloody Destiny",
-	x: -3.0d,
-	y: 31.5d,
+	x: -0.5d,
+	y: 5.5d,
 	shape: "gear",
 	description: "&oSave me from that...",
 	text: [
@@ -41,29 +41,26 @@
 	hide: true,
 	optional: true,
 	tasks: [{
-		uid: "f46f8f15",
-		type: "fluid",
-		fluid: "lifeessence",
-		amount: 2147483647
-	},
-	{
-		uid: "97ebbf9b",
+		uid: "1fd329ba",
 		type: "item",
+		title: "Blood Tank Tier 16 (full of Life Essence)",
 		items: [{
-			item: "bloodmagic:blood_tank 1 15"
+			id: "bloodmagic:blood_tank",
+			tag: {
+				Fluid: {
+					FluidName: "lifeessence",
+					Amount: 524288000
+				}
+			},
+			Damage: 15s
 		}],
-		ignore_nbt: 1b
+		count: 4L,
+		consume_items: true,
+		ignore_nbt: 2b
 	}],
 	rewards: [{
-		uid: "30591ade",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "bloodmagic:sacrificial_dagger",
-			tag: {},
-			Damage: 1s
-		}
+		uid: "9147446b",
+		type: "ftbmoney:money",
+		ftb_money: 75000L
 	}]
 }

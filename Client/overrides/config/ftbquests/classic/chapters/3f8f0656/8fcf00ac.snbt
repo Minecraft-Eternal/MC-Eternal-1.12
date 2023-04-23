@@ -8,17 +8,13 @@
 		uid: "64ce20cd",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "fuel_light",
 				Amount: 1000
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	}],
 	rewards: [{
 		uid: "e4ab2b66",

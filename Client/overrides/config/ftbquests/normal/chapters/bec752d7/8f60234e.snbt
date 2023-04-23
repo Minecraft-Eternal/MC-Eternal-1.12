@@ -26,15 +26,34 @@
 	tasks: [{
 		uid: "5401bd45",
 		type: "item",
+		title: "Essentia Smelter (or upgraded versions)",
+		icon: {
+			id: "thaumcraft:smelter_basic"
+		},
 		items: [{
-			item: "thaumcraft:smelter_basic"
+			id: "thaumcraft:smelter_basic"
+		},
+		{
+			id: "thaumcraft:smelter_thaumium"
+		},
+		{
+			id: "thaumcraft:smelter_void"
+		},
+		{
+			id: "thaumadditions:mithrillium_smelter"
+		},
+		{
+			id: "thaumadditions:adaminite_smelter"
+		},
+		{
+			id: "thaumadditions:mithminite_smelter"
 		}]
 	},
 	{
 		uid: "76b8df13",
 		type: "item",
 		items: [{
-			item: "thaumcraft:alembic"
+			id: "thaumcraft:alembic"
 		}]
 	}],
 	rewards: [{

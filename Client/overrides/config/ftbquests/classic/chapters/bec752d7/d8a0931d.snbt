@@ -4,10 +4,10 @@
 	y: -3.5d,
 	description: "&o&lUnlimited Mayonnaise&7 *Read Description*",
 	text: [
-		"&5Warded Jars&7 are your Essentia batteries, they store up to 250 of one kind of Essentia, and can have a &dJar Label&7 stuck on to Lock them to that Essentia, aswell as increasing and typing their Suction on Tube networks.",
+		"&5Warded Jars&7 are your Essentia storage, they store up to 250 of one kind of Essentia, and can have a &dBlank (or Marked) Label&7 stuck on to Lock them to that Essentia, aswell as increasing and typing their Suction on Tube networks.",
 		"",
 		"&d&lSneak+Right-clicking&7 on a side of a Jar without a Label using your Hand will instantly dump the Jar's contents as &5Flux&7 into the Aura.",
-		"Clicking a side with a Jar Label will remove the Label"
+		"doing so on a side with a Label will remove the Label."
 	],
 	dependencies: [
 		"8f60234e"
@@ -16,7 +16,7 @@
 		uid: "e43decdb",
 		type: "item",
 		items: [{
-			item: "thaumcraft:jar_normal"
+			id: "thaumcraft:jar_normal"
 		}]
 	}],
 	rewards: [{

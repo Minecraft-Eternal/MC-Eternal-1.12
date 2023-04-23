@@ -7,8 +7,8 @@
 		id: "thaumcraft:thaumonomicon",
 		Damage: 1s
 	},
-	x: 25.5d,
-	y: -17.5d,
+	x: 4.0d,
+	y: 4.5d,
 	shape: "diamond",
 	description: "&oThe Ultimate Price...&7",
 	hide_dependency_lines: true,
@@ -250,6 +250,11 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
+		uid: "87283ae9",
+		type: "ftbmoney:money",
+		value: 100000L
+	},
+	{
 		uid: "f4982ae1",
 		type: "item",
 		item: {
@@ -266,16 +271,6 @@
 				}
 			},
 			Damage: 1s
-		}
-	},
-	{
-		uid: "87283ae9",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "thaumcraft:creative_flux_sponge"
 		}
 	},
 	{

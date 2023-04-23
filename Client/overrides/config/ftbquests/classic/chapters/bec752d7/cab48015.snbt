@@ -15,8 +15,13 @@
 	tasks: [{
 		uid: "db46070a",
 		type: "item",
+		title: "Telescope (or further star-seeing device)",
+		icon: "astralsorcery:blockmachine",
 		items: [{
 			item: "astralsorcery:blockmachine"
+		},
+		{
+			item: "astralsorcery:blockobservatory"
 		}]
 	}],
 	rewards: [{

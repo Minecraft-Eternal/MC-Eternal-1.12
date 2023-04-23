@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: -12.0d,
-	description: "&oFoe's Armored? Not as much of a problem!",
+	description: "&oFoe's Unarmored? Take the opportunity and deal extra damage!",
 	dependencies: [
 		"0f56d604"
 	],
@@ -9,9 +9,6 @@
 		uid: "8028c83b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "twilightforest:knightmetal_axe"
 		}],
 		ignore_damage: true,

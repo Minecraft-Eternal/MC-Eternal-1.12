@@ -137,12 +137,6 @@
 		uid: "a4952838",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -8940463668607302781L,
-					AS_Amulet_HolderMost: -5272402051974608774L
-				}
-			},
 			id: "futuremc:netherite_sword",
 			tag: {
 				ench: [{
@@ -153,9 +147,7 @@
 					lvl: 3s,
 					id: 94s
 				}],
-				Unbreakable: 1,
-				RepairCost: 3,
-				HideFlags: 2,
+				Unbreakable: 1b,
 				display: {
 					Lore: [
 						"§eForged in the foulest depths of Hell, infused with magical properties to artificially increase the blades sharpness"
@@ -165,11 +157,20 @@
 				AttributeModifiers: [{
 					UUIDMost: 51365,
 					UUIDLeast: 139876,
-					Amount: 66,
+					Amount: 16,
 					Slot: "mainhand",
 					AttributeName: "generic.attackDamage",
 					Operation: 0,
-					Name: "Hell's Fury"
+					Name: "MCE - Wrath sword Attack"
+				},
+				{
+					UUIDMost: 51366,
+					UUIDLeast: 139877,
+					Amount: -2.4,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "MCE - Wrath wword Speed"
 				}]
 			}
 		}

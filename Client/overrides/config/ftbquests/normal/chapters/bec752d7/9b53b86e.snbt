@@ -10,8 +10,18 @@
 	tasks: [{
 		uid: "898adb08",
 		type: "item",
+		title: "Mithrillium Smeltery (or better)",
+		icon: {
+			id: "thaumadditions:mithrillium_smelter"
+		},
 		items: [{
-			item: "thaumadditions:mithrillium_smelter"
+			id: "thaumadditions:mithrillium_smelter"
+		},
+		{
+			id: "thaumadditions:adaminite_smelter"
+		},
+		{
+			id: "thaumadditions:mithminite_smelter"
 		}]
 	}],
 	rewards: [{

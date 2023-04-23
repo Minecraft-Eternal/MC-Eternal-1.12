@@ -10,8 +10,21 @@
 	tasks: [{
 		uid: "2e658755",
 		type: "item",
+		title: "Void Metal Essentia Smeltery (or better)",
+		icon: {
+			id: "thaumcraft:smelter_void"
+		},
 		items: [{
-			item: "thaumcraft:smelter_void"
+			id: "thaumcraft:smelter_void"
+		},
+		{
+			id: "thaumadditions:mithrillium_smelter"
+		},
+		{
+			id: "thaumadditions:adaminite_smelter"
+		},
+		{
+			id: "thaumadditions:mithminite_smelter"
 		}]
 	}],
 	rewards: [{

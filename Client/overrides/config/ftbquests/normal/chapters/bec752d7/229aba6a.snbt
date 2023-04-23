@@ -13,8 +13,24 @@
 	tasks: [{
 		uid: "b45185ff",
 		type: "item",
+		title: "Thaumium Essentia Smeltery (or better)",
+		icon: {
+			id: "thaumcraft:smelter_thaumium"
+		},
 		items: [{
-			item: "thaumcraft:smelter_thaumium"
+			id: "thaumcraft:smelter_thaumium"
+		},
+		{
+			id: "thaumcraft:smelter_void"
+		},
+		{
+			id: "thaumadditions:mithrillium_smelter"
+		},
+		{
+			id: "thaumadditions:adaminite_smelter"
+		},
+		{
+			id: "thaumadditions:mithminite_smelter"
 		}]
 	}],
 	rewards: [{

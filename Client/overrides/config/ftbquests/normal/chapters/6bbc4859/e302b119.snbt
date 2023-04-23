@@ -1,0 +1,28 @@
+{
+	title: "Creative Sacrificial Dagger",
+	icon: {
+		id: "bloodmagic:sacrificial_dagger",
+		Damage: 1s
+	},
+	x: -2.0d,
+	y: 4.0d,
+	description: "*Conquer a Bloody Destiny to unlock*",
+	can_repeat: true,
+	dependencies: [
+		"c0aaad2e"
+	],
+	tasks: [{
+		uid: "baadfeec",
+		type: "ftbmoney:money",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "5f84790c",
+		type: "item",
+		item: {
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {},
+			Damage: 1s
+		}
+	}]
+}

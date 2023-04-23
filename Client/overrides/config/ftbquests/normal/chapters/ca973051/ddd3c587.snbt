@@ -12,6 +12,7 @@
 		uid: "7485143d",
 		type: "advancement",
 		title: "Advancement: &eUltimate Showdown",
+		icon: "twilightforest:uberous_soil",
 		advancement: "twilightforest:progress_merge",
 		criterion: ""
 	},

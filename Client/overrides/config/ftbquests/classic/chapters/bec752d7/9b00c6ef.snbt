@@ -15,11 +15,18 @@
 	tasks: [{
 		uid: "db0f06c7",
 		type: "item",
-		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
+		title: "Looking Glass (or further star-seeing device)",
+		icon: {
 			id: "astralsorcery:itemhandtelescope"
+		},
+		items: [{
+			id: "astralsorcery:itemhandtelescope"
+		},
+		{
+			item: "astralsorcery:blockmachine"
+		},
+		{
+			item: "astralsorcery:blockobservatory"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
