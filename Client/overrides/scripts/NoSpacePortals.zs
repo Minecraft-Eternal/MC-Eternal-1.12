@@ -18,7 +18,7 @@ events.onEntityTravelToDimension(function(event as crafttweaker.event.EntityTrav
 						if(user.world.getBlock(X, Y, Z).definition.id == "theaurorian:aurorianportal" || user.world.getBlock(X, Y, Z).definition.id == "erebus:portal" || user.world.getBlock(X, Y, Z).definition.id == "atum:portal") {
 							event.cancel();	
 							if(!user.world.isRemote()) {
-								user.sendChat("§cUse Advanced Rocketry to reach this dimension!");
+								user.sendChat("§c"+ game.localize("mce.advrocketry.message.no_go_through_portal"));
 							}
 						}
 					}

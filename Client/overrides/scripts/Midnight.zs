@@ -26,4 +26,7 @@ mods.botania.ManaInfusion.addInfusion(<botania:managlass> *4, <midnight:archaic_
 // Miasma
 mods.astralsorcery.Lightwell.addLiquefaction(<midnight:miasma_surface>, <liquid:miasma>, 1, 4.0, 0xba9af5);
 
+// Geode tooltip
+<midnight:geode>.addTooltip(format.aqua(game.localize("mce.midnight.tip.throw_geode_at_wall")));
+
 print("--- Midnight.zs initialized ---");

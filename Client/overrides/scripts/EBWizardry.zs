@@ -29,7 +29,7 @@ val bookTypes = [
 #Disabled Spell Tooltips
 for spell in disabledSpells {
 	for book in bookTypes {
-		itemUtils.getItem(book, spell).addTooltip(format.red("Disabled, cannot be bound to Wands or Cast."));
+		itemUtils.getItem(book, spell).addTooltip(format.red(game.localize("mce.ebwizardry.tip.disabled_spell")));
 	}
 }
 

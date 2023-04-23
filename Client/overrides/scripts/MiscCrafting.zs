@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.recipes.ICraftingInfo;
 import crafttweaker.data.IData;
+import thaumcraft.aspect.CTAspectStack;
 
 import mods.nuclearcraft.alloy_furnace;
 import mods.mekanism.combiner;
@@ -25,14 +26,11 @@ var itemsToNuke = [
 
 for item in itemsToNuke {
 	recipes.remove(item);
-	item.addTooltip(format.red("Disabled"));
+	item.addTooltip(format.red(game.localize("mce.generic.tip.disabled")));
 }
 
 #Homing Beecon
 recipes.addShaped(<erebus:homing_beecon_advanced>, [[<erebus:materials:41>],[<erebus:homing_beecon>],[<mekanism:teleportationcore>]]);
-
-#Soul Torches
-recipes.addShaped("soultorch_mce", <futuremc:soul_fire_torch>, [[<ore:coal>|<ore:charcoal>],[<ore:stickWood>],[<ore:soulSand>]]);
 
 #Soul Soil
 recipes.addShapeless("soulsoil_mce", <futuremc:soul_soil>, [<ore:soulSand>,<ore:dirt>]);
@@ -82,7 +80,13 @@ for entry in chiseling {
 #Danknull T6
 #stupidly op and too stupidly cheap, some spicy is nice yeah?
 recipes.remove(<danknull:dank_null_5>);
-recipes.addShaped("danknull_t6_mce", <danknull:dank_null_5>.withTag({display:{Lore:["Compact Machine must be freshly crafted","Contents and settings will be retained!"]}}),
+recipes.addShaped("danknull_t6_mce", 
+		<danknull:dank_null_5>.withTag({
+		display:{
+			Lore:[
+				game.localize("mce.danknull.crafting_info.1"),
+				game.localize("mce.danknull.crafting_info.2")
+			]}}),
 	[[<danknull:dank_null_panel_5>, <rats:idol_of_ratlantis>, <danknull:dank_null_panel_5>],
 	[<extracells:storage.component:2>, <danknull:dank_null_4>.marked("dank5"), <extracells:storage.component:2>],
 	[<danknull:dank_null_panel_5>, <compactmachines3:machine:5>.marked("cm"),<danknull:dank_null_panel_5>]],

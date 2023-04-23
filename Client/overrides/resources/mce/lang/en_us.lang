@@ -1,0 +1,102 @@
+#IE Minerals
+desc.immersiveengineering.info.mineral.Fissile=Deep Fissile
+desc.immersiveengineering.info.mineral.Osmiron=Deep Osmiron
+desc.immersiveengineering.info.mineral.Atometal=Deep Atometal
+
+#Misc. Tooltips
+mce.generic.tip.disabled=Disabled
+mce.generic.tip.beneath_only=Only found in the Beneath
+mce.generic.tip.can_buy_in_shop=Can be purchased in the Shop!
+mce.generic.tip.hold_shift_for_info=hold SHIFT for more info
+mce.generic.tip.drops_from=Drops from %s
+mce.generic.tip.damage_buffed_bigtime=Damage amplified to %s
+mce.generic.tip.only_from_shop=Only obtainable from the Shop
+mce.generic.tip.do_all_chapter_quests_to_unlock=Do all %s quests to unlock
+mce.generic.tip.challengemode_disabled=You are on Challenge Mode, so this Item is disabled.
+mce.generic.message.item_yeeted_from_exist=That item was illegal and has been yeeted from existence.
+
+mce.appliedenergistics2.tip.meteors_in_beneath=AE2 Meteors Spawn in The Beneath and on The Moon
+
+mce.advrocketry.message.get_there_with_rocket=%s cannot be accessed normally.\nYou will need to use Advanced Rocketry.
+mce.advrocketry.message.no_go_through_portal=Use Advanced Rocketry to reach this dimension!
+
+mce.akashictome.tip.included_in_preloaded=Included within the standard Akashic Tome
+
+mce.agricraft.tip.sprinkler_turn_off_particles_probably=WARNING: Will cause serious FPS lag if Particles are not disabled in Agricraft's Config
+
+mce.cyclic.tip.inventory_cake_bad_at_saving=WARNING! Can delete items inside when the game crashes or closes unexpectedly
+
+mce.cofhcore.message.multishot_is_infact_disabled=Multishot is disabled, but %s tried to use it anyway.
+
+mce.danknull.crafting_info.1=Compact Machine must be freshly crafted
+mce.danknull.crafting_info.2=Contents and settings will be retained!
+
+mce.extracells2.tip.fluid_storage_literally_broken=Disabled, doesn't work for technical reasons.
+
+mce.extrautils2.tip.bagofholding_gamemode_change=WARNING! Deletes items when switching gamemodes
+mce.extrautils2.tip.deep_dark_portal_dont_use_dummy=Disabled and will cause a Crash if you try to use it! use the Beneath and Beneath Teleporter instead.
+mce.extrautils2.tip.flying_squid_ring_random_tp_down=Do not wear as a bauble, may teleport you down randomly while flying
+
+mce.ebwizardry.tip.disabled_spell=Disabled, cannot be bound to Wands or Cast.
+
+mce.farmingforblockheads.tip.sink_no_infinite_water=Does not produce Infinite Water
+
+mce.forestry.bees.tip.unbreedable_get_elsehow=Cannot be bred directly, create a Gene Sample of this species to acquire it:
+mce.forestry.bees.tip.energy_bee.1=See the uses for 'Avatar of Ratlantis' to find the recipe
+mce.forestry.bees.tip.energy_bee.2=use the PHD Bee's effect on a bee of this species to get the RF Inducing trait
+mce.forestry.bees.tip.osmium_bee.1=Combine Species genes of Cobalt and Argentum bees in a Mekanism Combiner
+
+mce.ftbquests.tip.questbook_open_it=A new beginning, Open me!
+mce.ftbquests.tip.crate.cultist=Step one... Dress to impress!
+mce.ftbquests.tip.crate.extraterrestrial_cache=Keep your eyes on the stars, and your feet on the ground. -Theodore Roosevelt
+mce.ftbquests.tip.crate.cheesey_cache=Hmm I wonder what it tastes like?... Did I really just think that? Yes you did
+mce.ftbquests.tip.crate.common_crate=Random loot reward for completing a quest
+mce.ftbquests.tip.crate.blackmarket_crate=An item sold at a previous auction that was never picked up by the winning bidder. Buyer beware.
+
+mce.harvestcraft.tip.gardens_disabled_use_market=Disabled, purchase Harvestcraft seeds from the Farming for Blockheads Market
+
+mce.immersiveengineering.tip.revoler_bullet_damage=Bullet Damage values amplified to ~15x
+
+mce.lootgames.tip.minesweeper_dont_put_in_base_dummy=WARNING: DO NOT PLACE IN YOUR BASE
+
+mce.quark.oddities.tip.matrix_enchanting_candle.boosts=Boosts rates of in Matrix Enchanting:
+mce.quark.oddities.tip.matrix_enchanting_candle.hold_shift=Hold SHIFT to see affected Enchantments
+
+mce.minecraft.tip.nether_star=Earth below us, Drifting falling
+
+mce.minecolonies.tip.townhall_how_to_get=Use a SupplyShip or SupplyCamp to obtain
+
+mce.mekanism.tip.ae2_nbt_sensitivity=If used in an AE2 Autocrafting Pattern, manually add this item into the crafting pattern, else it will not work.
+mce.mekanism.tip.builders_wand_basic_revert=Do not place with a Builder's Wand, will revert to Basic version.
+mce.mekanism.tip.builders_wand_factory=Do not place with a Builder's Wand, will transform into a Smelting Factory
+
+mce.midnight.tip.throw_geode_at_wall=Crack open by throwing at a Wall with Right-click or a Dispenser
+
+mce.mysticalagriculture.tip.supremium_flight_disabled=Flight Disabled
+
+mce.nuclearcraft.tip.fission_power_buff=4x Total Power Generation! (Disclaimer: reflected in Fuel tooltips)
+
+mce.netherportalcorruption.tip.prevents_corruption=Can be used to ward off Nether Portal Corruption
+
+mce.randomthings.tip.spectreanchor_use_other_soulbound=Use Tombstone Soulbound instead
+
+mce.simplyjetpacks.crafting_info.creative_jetpack_overflow=Use this Recipe incase your Creative Jetpack breaks from overcharging
+
+mce.thaumcraft.tip.warp_on_use=Will grant some Warp on use!
+mce.thaumcraft.tip.curiosities.more_likely_to_grant=More likely to give %s Research
+mce.thaumcraft.tip.unclog_lattice.filter=Right-click a Clogged Flux Condenser Lattice to unclog it!
+mce.thaumcraft.tip.unclog_lattice.lattice=Right-click with an Essentia Filter to unclog!
+
+mce.tconstruct.tip.custom_smeltery_fuel=MCE Custom Smeltery Fuel!
+mce.tconstruct.tip.smeltery_fuel_stats.1=Consumes %smB
+mce.tconstruct.tip.smeltery_fuel_stats.2=For %s total seconds of Fuel
+mce.tconstruct.tip.smeltery_fuel_stats.3=At %s°C
+mce.tconstruct.tip.material_megabuffed=The Tinkers' Construct material for this item has been buffed massively.
+
+mce.vampirism.tip.pure_blood_obtain=Dropped by Level %s Vampire Barons, or crafted, for a price.
+
+mce.wings.tip.fairy_dust=Can be used to transmute certain metals. This dust radiates primal magic energy
+
+mce.xreliquary.tip.restores_percent_health=Restores %s% HP
+
+mce.challengemode.mekanism.tip.fusion_reactor_recipe_looks_funny=Only requires one Chemical Reactor for recipe

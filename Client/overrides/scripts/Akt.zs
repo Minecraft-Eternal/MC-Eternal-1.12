@@ -92,7 +92,7 @@ import crafttweaker.oredict.IOreDictEntry;
 				id: "guideapi:bloodmagic-guide",
 				Count: 1 as byte,
 				tag: {
-					"akashictome:definedMod": "guideapi"
+					"akashictome:definedMod": "bloodmagic"
 				},
 				Damage: 0 as short
 			},
@@ -166,5 +166,5 @@ import crafttweaker.oredict.IOreDictEntry;
 		] as IItemStack[];
 
 	for itemBook in addedBooks {
-		itemBook.addTooltip(format.gold("Included within the standard Akashic Tome"));
+		itemBook.addTooltip(format.gold(game.localize("mce.akashictome.tip.included_in_preloaded")));
 	}
