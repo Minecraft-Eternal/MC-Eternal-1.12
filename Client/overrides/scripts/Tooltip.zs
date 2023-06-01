@@ -40,11 +40,6 @@ print("--- loading Tooltip.zs ---");
 
 <necromancersdelight:charm_bone_bag>.addTooltip(format.red("Temporarily Disabled, this item will be obtainable again in a (hopefully near) future version of MCE."));
 
-var supremarmor = [<mysticalagriculture:supremium_helmet>,<mysticalagriculture:supremium_chestplate>,<mysticalagriculture:supremium_leggings>,<mysticalagriculture:supremium_boots>] as IItemStack[];
-for armor in supremarmor {
-  armor.addTooltip(format.red("Flight Disabled"));
-}
-
 var beneathores = [<mekanism:oreblock>,<nuclearcraft:ore:3>,<nuclearcraft:ore:5>,<nuclearcraft:ore:6>,<nuclearcraft:ore:7>,<immersiveengineering:ore:5>] as IItemStack[];
 for ores in beneathores {
 	ores.addTooltip(format.darkPurple("Only found in the Beneath"));
