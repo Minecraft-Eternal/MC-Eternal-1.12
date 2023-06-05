@@ -13,7 +13,7 @@ recipes.addShaped("railgun_mce", <immersiveengineering:railgun>, [
 	[<immersiveengineering:material:14>,<iceandfire:fire_dragon_heart>,<mekanism:controlcircuit:3>]
 ]);
 
-recipes.addShaped(<immersiveengineering:revolver>, [
+recipes.addShaped("revolver_mce", <immersiveengineering:revolver>, [
   [<powersuits:powerarmorcomponent:13>,<techreborn:part:24>,<immersiveengineering:material:16>],
   [<immersiveengineering:material:14>,<immersiveengineering:material:15>,<openmodularturrets:intermediate_tiered:9>],
   [null,<techreborn:part:1>,<immersiveengineering:material:13>]

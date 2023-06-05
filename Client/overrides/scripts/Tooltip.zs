@@ -44,11 +44,6 @@ getFTBCrate("unclaimed_black_market_container").addTooltip(format.gold(game.loca
 
 <necromancersdelight:charm_bone_bag>.addTooltip(format.red("Temporarily Disabled, this item will be obtainable again in a (hopefully near) future version of MCE."));
 
-var supremarmor = [<mysticalagriculture:supremium_helmet>,<mysticalagriculture:supremium_chestplate>,<mysticalagriculture:supremium_leggings>,<mysticalagriculture:supremium_boots>] as IItemStack[];
-for armor in supremarmor {
-  armor.addTooltip(format.red(game.localize("mce.mysticalagriculture.tip.supremium_flight_disabled")));
-}
-
 var beneathores = [
 	<mekanism:oreblock>,
 	<nuclearcraft:ore:3>,
@@ -60,6 +55,7 @@ var beneathores = [
 	<thermalfoundation:ore:7>,
 	<rftools:dimensional_shard_ore:*>
 ] as IItemStack[];
+
 for ores in beneathores {
 	ores.addTooltip(format.darkPurple(game.localize("mce.generic.tip.beneath_only")));
 }

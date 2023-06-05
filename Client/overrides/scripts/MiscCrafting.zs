@@ -22,7 +22,11 @@ var itemsToNuke = [
 	<openmodularturrets:addon_meta:1>,
  	<inventorypets:solstice_sword>,
 	<randomthings:spectreanchor>,
-	<xreliquary:rod_of_lyssa>
+	<xreliquary:rod_of_lyssa>,
+	<mysticalagriculture:supremium_helmet>,
+	<mysticalagriculture:supremium_chestplate>,
+	<mysticalagriculture:supremium_leggings>,
+	<mysticalagriculture:supremium_boots>
 ] as IItemStack[];
 
 for item in itemsToNuke {
