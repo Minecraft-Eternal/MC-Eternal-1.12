@@ -36,14 +36,14 @@ recipes.addShaped(<advancedrocketry:rocketbuilder>, [[<ore:ingotBrickNetherGlaze
 
 #Space Dimension Tooltips
 var ohnoeffort = {
-	<erebus:gaean_keystone> : "The Erebus",
-	<erebus:portal_activator> : "The Erebus",
-	<atum:scarab> : "The Atum",
-	<theaurorian:aurorianportalframebricks> : "The Aurorian"
+	<erebus:gaean_keystone> : "advancement.erebus.exploration.root",
+	<erebus:portal_activator> : "advancement.erebus.exploration.root",
+	<atum:scarab> : "itemGroup.atum",
+	<theaurorian:aurorianportalframebricks> : "itemGroup.theaurorian"
 } as string[IItemStack];
 
 for usualobjects in ohnoeffort {
-	usualobjects.addTooltip(format.red(ohnoeffort[usualobjects]~" cannot be accessed normally.\nYou will need to use Advanced Rocketry."));
+	usualobjects.addTooltip(format.red(game.localize("mce.advrocketry.message.get_there_with_rocket").replace("%s", game.localize(ohnoeffort[usualobjects]))));
 }
 
 print("--- AdvRocketry.zs initialized ---");	
