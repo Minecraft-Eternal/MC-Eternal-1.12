@@ -1,0 +1,23 @@
+{
+    "enabled": {
+        "book": true,
+        "scroll": true,
+        "wands": true,
+        "npcs": false,
+        "dispensers": false,
+        "commands": false,
+        "treasure": true,
+        "trades": true,
+        "looting": true
+    },
+    "tier": "master",
+    "element": "sorcery",
+    "type": "buff",
+    "cost": 369,
+    "chargeup": 100,
+    "cooldown": 2400,
+    "base_properties": {
+        "time_knot_duration": 200,
+        "time_knot_strength": 0
+    }
+}
