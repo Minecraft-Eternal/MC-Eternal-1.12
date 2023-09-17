@@ -92,7 +92,7 @@ import crafttweaker.oredict.IOreDictEntry;
 				id: "guideapi:bloodmagic-guide",
 				Count: 1 as byte,
 				tag: {
-					"akashictome:definedMod": "guideapi"
+					"akashictome:definedMod": "bloodmagic"
 				},
 				Damage: 0 as short
 			},
