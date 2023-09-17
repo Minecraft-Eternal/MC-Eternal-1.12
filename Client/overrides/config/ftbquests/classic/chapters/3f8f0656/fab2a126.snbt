@@ -1,7 +1,10 @@
 {
 	x: -1.0d,
 	y: 13.5d,
-	description: "Provides 100 units of \"Infinity Energy\" to a Wireless Crafting Terminal, 15 units are used every 1/2 second to access your ME Network from ANYWHERE!",
+	description: "Provides 100 units of \"Infinity Energy\" to a Wireless Crafting Terminal, 10 units are used every 1/2 second to access your ME Network from ANYWHERE!",
+	text: [
+		"&lCan be purchased from the shop for 250 Coins each."
+	],
 	dependencies: [
 		"d7342694"
 	],
