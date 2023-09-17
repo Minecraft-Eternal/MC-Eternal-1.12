@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
-#packmode normal
+#packmode challenge
 #MC Eternal Scripts
 
 print("--- loading MysticalAgri.zs ---");
