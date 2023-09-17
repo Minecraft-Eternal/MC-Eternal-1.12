@@ -136,50 +136,65 @@ events.onEntityLivingEquipmentChange(function(event as EntityLivingEquipmentChan
         }
     }
 });
-/*
+
+//Multiplies damage by factor of the player's health above 20, so that you can't just have 9000 health and ignore dying.
+// i might make a healing one, but it may have complications with non-BL healing sources.
 events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
-    if(!event.entity.world.remote && event.entity.dimension == betweenlandsID && !isNull(event.damageSource.trueSource)){
-        if(event.entity instanceof IPlayer && !(event.damageSource.trueSource instanceof IPlayer) && event.damageSource.trueSource.definition.id.split(":")[0] == "minecraft"){
+    if(!event.entity.world.remote && event.entity.dimension == betweenlandsID){
+        if(scriptDebug) print("Starting Damage: "+ event.amount);
+        if(event.entity instanceof IPlayer){
             val player as IPlayer = event.entity;
-            var currentMin = damageLimits[event.damageSource.trueSource.definition] as float;
-            if(scriptDebug){
-                print("Attacker ID: "+ event.damageSource.trueSource.definition.id);
-                print("Starting Amount: "+ event.amount);
-                print("Cap from this Entity: "+ currentMin);
-                print("Player's active Potion Effects:");
-            }
-            for effect in player.activePotionEffects {
-                if(effect.effectName == "effect.resistance"){
-                    currentMin *= (1.0 - (0.2 * ((effect.amplifier + 1) < 3 ? effect.amplifier : 3)));
-                    if(!scriptDebug) break;
+            val playerHealthFactor as float = player.health / 20;
+            event.amount *= playerHealthFactor;
+            if(scriptDebug) print("Damage after Health Factor adjustment: "+ event.amount);
+            /*
+            if(!(event.damageSource.trueSource instanceof IPlayer) && event.damageSource.trueSource.definition.id.split(":")[0] == "thebetweenlands"){
+                var currentMin = damageLimits[event.damageSource.trueSource.definition] as float;
+
+                for effect in player.activePotionEffects {
+                    if(effect.effectName == "effect.resistance"){
+                        event.amount *= (1.0 - (0.2 * ((effect.amplifier + 1) < 3 ? effect.amplifier : 3)));
+                        if(!scriptDebug) break;
+                    }
+                    if(scriptDebug){
+                        print(effect.effectName);
+                        print("Damage after Resistance compensation: "+ event.amount);
+                    }
                 }
+
                 if(scriptDebug){
-                    print(effect.effectName);
-                    print("Damage after Resistance compensation: "+ currentMin);
+                    print("Attacker ID: "+ event.damageSource.trueSource.definition.id);
+                    print("Starting Amount: "+ event.amount);
+                    print("Cap from this Entity: "+ currentMin);
+                    print("Player's active Potion Effects:");
                 }
+
+                if(event.amount < currentMin) event.amount = currentMin;
             }
-            if(event.amount < currentMin) event.amount = currentMin;
+            */
         } else if(event.damageSource.trueSource instanceof IPlayer){
+            /*
             val player as IPlayer = event.damageSource.trueSource;
             print("Player-Sourced attack, Details: Source Entity: "+ event.damageSource.trueSource.displayName +", Victim: "+ event.entity.displayName +", Amount: "+ event.amount);
-            if(event.amount > 8.0){
+            if(event.amount > 12.0){
                 var strengthCompensation as float;
                 for effect in player.activePotionEffects {
                     if(effect.effectName == "effect.strength"){
-                        strengthCompensation += (3.0 * (effect.amplifier + 1));
+                        strengthCompensation += (3.0 * (effect.amplifier + 1)) as float;
                         break;
                     } else if(effect.effectName == "bl.elixir.strength"){
-                        strengthCompensation += (3.5 * (effect.amplifier + 1));
+                        strengthCompensation += (3.5 * (effect.amplifier + 1)) as float;
                     }
                 }
-                event.amount = 8.0 + strengthCompensation;
+                event.amount = 12.0 + strengthCompensation;
             }
+            //*/
+        } else if(scriptDebug){
+            print("Environmental Damage of type: "+ event.damageSource.damageType +", Amount: "+ event.amount);
         }
-    } else if(scriptDebug){
-        print("Environmental Damage of type: "+ event.damageSource.damageType +", Amount: "+ event.amount);
     }
 });
-
+/*
 events.onPlayerOpenContainer(function(event as PlayerOpenContainerEvent){
     print(event.container as string);
 });
