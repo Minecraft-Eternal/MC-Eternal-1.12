@@ -236,4 +236,163 @@ mods.mekanism.combiner.addRecipe(
 //BL Sap Log
 mods.industrialforegoing.Extractor.add(<thebetweenlands:log_sap:*>, <liquid:latex> * 5);
 
+// MA Witherproof Blocks
+//only a cosmetic difference with these recipes, they are kinda nice looking, mostly the block.
+
+//Witherproof Glass
+mods.thermalexpansion.InductionSmelter.addRecipe(<mysticalagriculture:witherproof_glass>, <enderio:block_reinforced_obsidian>, <extrautils2:decorativeglass:3>, 16000);
+mods.nuclearcraft.alloy_furnace.addRecipe([<enderio:block_reinforced_obsidian>, <extrautils2:decorativeglass:3>, <mysticalagriculture:witherproof_glass>, 4, 8]);
+mods.mekanism.combiner.addRecipe(<extrautils2:decorativeglass:3>, <enderio:block_reinforced_obsidian>, <mysticalagriculture:witherproof_glass>);
+mods.techreborn.alloySmelter.addRecipe(<mysticalagriculture:witherproof_glass>, <enderio:block_reinforced_obsidian>, <extrautils2:decorativeglass:3>, 400, 10);
+
+//Witherproof Block
+mods.thermalexpansion.InductionSmelter.addRecipe(<mysticalagriculture:witherproof_block>, <enderio:block_reinforced_obsidian>, <quark:black_ash>*4, 16000);
+mods.nuclearcraft.alloy_furnace.addRecipe([<enderio:block_reinforced_obsidian>, <quark:black_ash>*4, <mysticalagriculture:witherproof_block>, 4, 8]);
+mods.mekanism.combiner.addRecipe(<quark:black_ash>*4, <enderio:block_reinforced_obsidian>, <mysticalagriculture:witherproof_block>);
+mods.techreborn.alloySmelter.addRecipe(<mysticalagriculture:witherproof_block>, <enderio:block_reinforced_obsidian>, <quark:black_ash>*4, 400, 10);
+
+
+// Add TAIGA alloying recipes in modded alloying machines
+val taigaAlloyMap = [
+	{
+		"result": [<taiga:terrax_ingot> *2],
+		"inputs": [<taiga:karmesine_ingot>, <taiga:ovium_ingot>, <taiga:jauxum_ingot>]
+	},
+	{
+		"result": [<taiga:triberium_ingot>],
+		"inputs": [<taiga:tiberium_ingot> *5, <taiga:basalt_ingot>]
+	},
+	{
+		"result": [<taiga:triberium_ingot>],
+		"inputs": [<taiga:tiberium_ingot> *5, <taiga:dilithium_ingot> *2]
+	},
+	{
+		"result": [<taiga:fractum_ingot> *2],
+		"inputs": [<taiga:triberium_ingot> *3, <thermalfoundation:material:770> *6, <taiga:abyssum_ingot>]
+	},
+	{
+		"result": [<taiga:violium_ingot> *2],
+		"inputs": [<taiga:aurorium_ingot> *3, <tconstruct:ingots:1> *2]
+	},
+	{
+		"result": [<taiga:proxii_ingot> *3],
+		"inputs": [<taiga:prometheum_ingot> *3, <taiga:palladium_ingot> *3, <taiga:eezo_ingot>]
+	},
+	{
+		"result": [<taiga:tritonite_ingot> *2],
+		"inputs": [<tconstruct:ingots:0> *3, <taiga:terrax_ingot> *2]
+	},
+	{
+		"result": [<taiga:ignitz_ingot> *2],
+		"inputs": [<tconstruct:ingots:1> *2, <taiga:terrax_ingot> *2, <taiga:osram_ingot>]
+	},
+	{
+		"result": [<taiga:imperomite_ingot> *2],
+		"inputs": [<taiga:duranite_ingot> *3, <taiga:prometheum_ingot>, <taiga:abyssum_ingot>],
+	},
+	{
+		"result": [<taiga:solarium_ingot> *2],
+		"inputs": [<taiga:valyrium_ingot> *2, <taiga:uru_ingot> *2, <taiga:nucleum_ingot>]
+	},
+	{
+		"result": [<taiga:adamant_ingot> *3],
+		"inputs": [<taiga:vibranium_ingot>, <taiga:solarium_ingot>, <taiga:iox_ingot> *3]
+	},
+	{
+		"result": [<taiga:seismum_ingot> *4],
+		"inputs": [<thermalfoundation:material:770> *8, <taiga:triberium_ingot> *2, <taiga:eezo_ingot>]
+	},
+	{
+		"result": [<taiga:astrium_ingot> *2],
+		"inputs": [<taiga:terrax_ingot> *3, <taiga:aurorium_ingot> *2]
+	},
+	{
+		"result": [<taiga:niob_ingot> *3],
+		"inputs": [<taiga:palladium_ingot> *3, <taiga:duranite_ingot>, <taiga:osram_ingot>]
+	},
+	{
+		"result": [<taiga:yrdeen_ingot> *3],
+		"inputs": [<taiga:uru_ingot> *3, <taiga:valyrium_ingot> *3, <taiga:osram_ingot>]
+	},
+	{
+		"result": [<taiga:yrdeen_ingot> *3],
+		"inputs": [<taiga:uru_ingot> *3, <taiga:valyrium_ingot> *3, <taiga:eezo_ingot>]
+	},
+	{
+		"result": [<taiga:yrdeen_ingot> *3],
+		"inputs": [<taiga:uru_ingot> *3, <taiga:valyrium_ingot> *3, <taiga:abyssum_ingot>]
+	},
+	{
+		"result": [<taiga:iox_ingot>],
+		"inputs": [<taiga:eezo_ingot> *2, <taiga:abyssum_ingot> *2, <taiga:osram_ingot> *2, <taiga:obsidiorite_ingot> *9]
+	},
+	{
+		"result": [<taiga:iox_ingot>],
+		"inputs": [<taiga:eezo_ingot> *2, <taiga:abyssum_ingot> *2, <taiga:osram_ingot> *2, <taiga:meteorite_ingot> *9, <thermalfoundation:material:770> *18]
+	},
+	{
+		"result": [<taiga:lumix_ingot>],
+		"inputs": [<taiga:palladium_ingot>, <taiga:terrax_ingot>]
+	},
+	{
+		"result": [<taiga:obsidiorite_ingot>],
+		"inputs": [<taiga:meteorite_ingot>, <thermalfoundation:material:770> *2]
+	},
+	{
+		"result": [<taiga:nucleum_ingot> *3],
+		"inputs": [<taiga:proxii_ingot> *3, <taiga:abyssum_ingot>, <taiga:osram_ingot>]
+	},
+	{
+		"result": [<taiga:nucleum_ingot> *3],
+		"inputs": [<taiga:imperomite_ingot> *3, <taiga:osram_ingot>, <taiga:eezo_ingot>]
+	},
+	{
+		"result": [<taiga:nucleum_ingot> *3],
+		"inputs": [<taiga:niob_ingot> *3, <taiga:eezo_ingot>, <taiga:abyssum_ingot>]
+	},
+	{
+		"result": [<taiga:dyonite_ingot> *3],
+		"inputs": [<taiga:triberium_ingot> *3, <taiga:fractum_ingot>, <taiga:seismum_ingot>, <taiga:osram_ingot>]
+	},
+	{
+		"result": [<taiga:dyonite_ingot> *3],
+		"inputs": [<taiga:tiberium_ingot> *12, <taiga:fractum_ingot>, <taiga:seismum_ingot>, <taiga:osram_ingot>]
+	}
+] as IItemStack[][string][];
+/*
+	Alloying Things
+		Induction Smelter - yep
+		Alloy Furnace - yep
+		Alloy Smelter - maybe?
+		Electric Arc Furnace - maybe?
+		Arc Furnace - yep
+*/
+
+for recipe in taigaAlloyMap {
+	val result as IItemStack = recipe.result[0];
+	val ingredients as IItemStack[] = recipe.inputs;
+	var ingredientArrayWithoutFirst as IItemStack[] = [];
+	for entry in ingredients {
+		if(!(ingredients[0].matches(entry))) ingredientArrayWithoutFirst += entry;
+	}
+	// Arc Furnace (Immersive Engineering)
+	mods.immersiveengineering.ArcFurnace.addRecipe(result, ingredients[0], null, 200, 512, ingredientArrayWithoutFirst);
+
+	//Electric Arc Furnace (Advanced Rocketry)
+	//print();
+
+//	if(ingredients.length < 4){
+		//Alloy Smelter (Ender IO)
+		//print();
+
+		if(ingredients.length < 3){
+			// Induction Smelter (Thermal)
+			mods.thermalexpansion.InductionSmelter.addRecipe(result, ingredients[0], ingredients[1], 4000);
+
+			// Alloy Furnace (Nuclearcraft)
+			mods.nuclearcraft.alloy_furnace.addRecipe([ingredients[0], ingredients[1], result]);
+		}
+//	}
+}
+
 print("--- MiscCrafting.zs initialized ---");	
