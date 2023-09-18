@@ -4,6 +4,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import thaumcraft.aspect.CTAspectStack;
 import mods.mekanism.infuser;
+import mods.roots.Fey;
+import mods.thermalexpansion.InductionSmelter;
 
 #MC Eternal Scripts
 
@@ -186,6 +188,13 @@ recipes.addShaped("mce_challengemode_flux_core", <fluxnetworks:fluxcore> *8, [
 	[<dimdoors:world_thread>, <tconstruct:large_plate>.withTag({Material: "obsidiorite"}), <fluxnetworks:flux>],
 ]);
 
+//Flux Block
+recipes.addShaped("mce_challengemode_flux_block", <fluxnetworks:fluxblock>, [
+	[<fluxnetworks:flux>, <fluxnetworks:fluxcore>, <fluxnetworks:flux>],
+	[<fluxnetworks:fluxcore>, <quark:biotite_block>, <fluxnetworks:fluxcore>],
+	[<fluxnetworks:flux>, <fluxnetworks:fluxcore>, <fluxnetworks:flux>]
+]);
+
 // Flux Controller
 val fluxnetItemNames = [
 	"fluxcontroller",
@@ -242,14 +251,14 @@ recipes.addShaped("mce_challengemode_flux_storage", <fluxnetworks:fluxstorage>, 
 recipes.addShaped("mce_challengemode_flux_storage_herculean", <fluxnetworks:herculeanfluxstorage>, [
 	[null, <fluxnetworks:fluxstorage>, null],
 	[<fluxnetworks:fluxstorage>, <rftools:powercell_advanced>, <fluxnetworks:fluxstorage>],
-	[null, <fluxnetworks:fluxstorage>, null]
+	[<fluxnetworks:fluxblock>, <fluxnetworks:fluxstorage>, <fluxnetworks:fluxblock>]
 ]);
 
 //Gargantuan
 recipes.addShaped("mce_challengemode_flux_storage_gargantuan", <fluxnetworks:gargantuanfluxstorage>, [
-	[null, <fluxnetworks:herculeanfluxstorage>, null],
+	[<fluxnetworks:fluxblock>, <fluxnetworks:herculeanfluxstorage>, <fluxnetworks:fluxblock>],
 	[<fluxnetworks:herculeanfluxstorage>, <mekanism:machineblock3:0>, <fluxnetworks:herculeanfluxstorage>],
-	[null, <fluxnetworks:herculeanfluxstorage>, null]
+	[<fluxnetworks:fluxblock>, <fluxnetworks:herculeanfluxstorage>, <fluxnetworks:fluxblock>]
 ]);
 
 // Roots Unending Bowl
