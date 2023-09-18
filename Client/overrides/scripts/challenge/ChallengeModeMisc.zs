@@ -90,16 +90,16 @@ recipes.addShaped("mce_challengemode_thermal_frame", <thermalexpansion:frame>, [
 
 // Ender Armor
 recipes.remove(<enderio:item_end_steel_helmet>);
-
+<enderio:item_end_steel_helmet>.addTooltip(format.red(game.localize("mce.generic.tip.challengemode_disabled")));
 
 recipes.remove(<enderio:item_end_steel_chestplate>);
-
+<enderio:item_end_steel_chestplate>.addTooltip(format.red(game.localize("mce.generic.tip.challengemode_disabled")));
 
 recipes.remove(<enderio:item_end_steel_leggings>);
-
+<enderio:item_end_steel_leggings>.addTooltip(format.red(game.localize("mce.generic.tip.challengemode_disabled")));
 
 recipes.remove(<enderio:item_end_steel_boots>);
-
+<enderio:item_end_steel_boots>.addTooltip(format.red(game.localize("mce.generic.tip.challengemode_disabled")));
 
 
 //RFTools
