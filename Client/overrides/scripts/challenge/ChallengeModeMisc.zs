@@ -7,7 +7,7 @@ import mods.mekanism.infuser;
 
 #MC Eternal Scripts
 
-print("--- Loading /challenge/ChallengeModeThings.zs ---");
+print("--- Loading /challenge/ChallengeModeMisc.zs ---");
 
 /* Deprecates:
 	Mekanism.zs
@@ -262,4 +262,4 @@ recipes.addShaped("mce_challengemode_flux_storage_gargantuan", <fluxnetworks:gar
 <mekanismgenerators:reactor>.addTooltip(format.gold(game.localize("mce.challengemode.mekanism.tip.fusion_reactor_recipe_looks_funny")));
 
 
-print("--- /challenge/ChallengeModeThings.zs initialized ---");
+print("--- /challenge/ChallengeModeMisc.zs initialized ---");
