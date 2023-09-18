@@ -124,6 +124,31 @@ recipes.addShaped("mce_yabba_upgrade_infinite_capacity", <yabba:upgrade_star_tie
 	[null, <minecraft:nether_star>, null]
 ]);
 
+// Blackholes Units/Tanks
+val blackHoleFrames = {
+	"industrialforegoing": <teslacorelib:machine_case>,
+	"thermal": <thermalexpansion:frame:0>,
+	"enderio": <enderio:item_material:0>
+} as IItemStack[string];
+
+for mod,frame in blackHoleFrames {
+	val blackHoleFrameModID = (mod == "industrialforegoing" ? "" : "_"+ mod);
+
+	recipes.removeByRecipeName("industrialforegoing:black_hole_unit"+ blackHoleFrameModID);
+	recipes.addShaped("mce_blackhole_unit_"+ mod, <industrialforegoing:black_hole_unit>*2, [
+		[<industrialforegoing:plastic>, <extracells:storage.component:1>, <industrialforegoing:plastic>],
+		[<mekanism:teleportationcore>, null, <mekanism:teleportationcore>],
+		[frame, <minecraft:nether_star>, frame]
+	]);
+
+	recipes.removeByRecipeName("industrialforegoing:black_hole_tank"+ blackHoleFrameModID);
+	recipes.addShaped("mce_blackhole_tank_"+ mod, <industrialforegoing:black_hole_tank>*2, [
+		[<industrialforegoing:plastic>, <extracells:storage.component:8>, <industrialforegoing:plastic>],
+		[<mekanism:teleportationcore>, null, <mekanism:teleportationcore>],
+		[frame, <minecraft:nether_star>, frame]
+	]);
+}
+
 // Tiberium as Dynamo fuel
 mods.thermalexpansion.EnervationDynamo.addFuel(<taiga:tiberium_crystal>, 1000000);
 
