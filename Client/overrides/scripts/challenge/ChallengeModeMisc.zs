@@ -215,11 +215,6 @@ mods.thaumcraft.Infusion.registerRecipe("mce_challengemode_flux_controller", "",
 	<rats:arcane_technology>,
 	<iceandfire:ice_dragon_heart>
 ]);
-recipes.addShaped("mce_challengemode_flux_controller", <fluxnetworks:fluxcontroller>, [
-	[<fluxnetworks:fluxblock>, null, <fluxnetworks:fluxblock>],
-	[<fluxnetworks:gargantuanfluxstorage>, <randomthings:spectrecharger:2>, <fluxnetworks:gargantuanfluxstorage>],
-	[<fluxnetworks:fluxblock>, null, <fluxnetworks:fluxblock>]
-]);
 
 // Flux Point
 recipes.addShaped("mce_challengemode_flux_point", <fluxnetworks:fluxpoint>, [
@@ -257,9 +252,58 @@ recipes.addShaped("mce_challengemode_flux_storage_gargantuan", <fluxnetworks:gar
 	[null, <fluxnetworks:herculeanfluxstorage>, null]
 ]);
 
+// Roots Unending Bowl
+Fey.removeRecipe(<roots:unending_bowl>);
+Fey.addRecipe("unending_bowl", <roots:unending_bowl>, [<roots:mortar>, <nuclearcraft:water_source_dense>, <thaumcraft:everfull_urn>, <extrautils2:drum:3>.withTag({Fluid: {FluidName: "water", Amount: 65536000}}), <xreliquary:emperor_chalice>]);
+
+
+//Gate Witherproofing behind Beneath :>
+val thermalGlass = {
+	"thermalfoundation:glass" : [1, 2, 3, 4, 5, 6, 7, 8, 9],
+	"thermalfoundation:glass_alloy": [1, 2, 3, 4, 5, 6, 7]
+} as int[][string];
+for id,values in thermalGlass {
+	for value in values {
+		recipes.removeByRecipeName(id +"_"+ value);
+	}
+}
+
+//Lead Glass crafting from scratch
+recipes.removeByRecipeName("thermalfoundation:glass");
+//Steel Glass crafting by hand
+recipes.removeByRecipeName("thermalfoundation:glass_alloy");
+
+InductionSmelter.removeRecipe(<thermalfoundation:material:770>, <thermalfoundation:material:67>);
+InductionSmelter.addRecipe(<thermalfoundation:glass:3>, <thermalfoundation:material:770>*4, <mekanism:dust:2>, 8000);
+
+//Reinforced Obsidian
+recipes.removeByRecipeName("enderio:reinforced_obsidian");
+recipes.addShaped("mce_challengemode_reinforced_obsidian", <enderio:block_reinforced_obsidian> *2, [
+	[<ore:dustBedrock>, <enderio:block_dark_iron_bars>, <ore:dustBedrock>],
+	[<enderio:block_dark_iron_bars>, <ore:blockRefinedObsidian>, <enderio:block_dark_iron_bars>],
+	[<ore:dustBedrock>, <enderio:block_dark_iron_bars>, <ore:dustBedrock>]
+]);
+
+//Shield Projector
+recipes.removeByRecipeName("rftools:shield_block1");
+recipes.addShaped("mce_challengemode_shield_projector_1", <rftools:shield_block1>, [
+	[<ore:ingotOsmium>, <rftools:infused_diamond>, <ore:ingotOsmium>],
+	[<ore:dustRedstone>, <rftools:machine_frame>, <ore:dustRedstone>],
+	[<enderio:block_reinforced_obsidian>, <enderio:block_reinforced_obsidian>, <enderio:block_reinforced_obsidian>]
+]);
+
+//Block Protector
+recipes.removeByRecipeName("rftools:block_protector");
+recipes.addShaped("mce_challengemode_block_protector", <rftools:block_protector>, [
+	[<enderio:block_reinforced_obsidian>, <rftools:shield_template_block:*>, <enderio:block_reinforced_obsidian>],
+	[<rftools:shield_template_block:*>, <rftools:machine_frame>, <rftools:shield_template_block:*>],
+	[<enderio:block_reinforced_obsidian>, <rftools:shield_template_block:*>, <enderio:block_reinforced_obsidian>]
+]);
+
 
 #Info
 <mekanismgenerators:reactor>.addTooltip(format.gold(game.localize("mce.challengemode.mekanism.tip.fusion_reactor_recipe_looks_funny")));
+<thermalfoundation:glass:3>.addTooltip(format.gold(game.localize("mce.challengemode.thermal.tip.hardened_glass_needs_osmium")));
 
 
 print("--- /challenge/ChallengeModeMisc.zs initialized ---");
