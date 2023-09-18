@@ -33,6 +33,7 @@ val combinerMap = {
         <astralsorcery:blockcustomore:1>: <ore:dustAstralStarmetal> *8,
 
         //Bewitchment
+        <bewitchment:amethyst_ore>: <ore:dustAmethyst> *8,
         <bewitchment:garnet_ore>: <ore:gemGarnet> *6,
         <bewitchment:opal_ore>: <ore:gemOpal> *6,
         <bewitchment:salt_ore>: <ore:dustSalt> *12,
@@ -102,6 +103,9 @@ val combinerMap = {
     <minecraft:netherrack>: {
         //Vanilla
         <minecraft:quartz_ore>: <ore:dustQuartz> *8,
+
+        //Arcane World Nether
+        <arcaneworld:ore_amethyst_nether>: <ore:dustAmethyst> *8,
 
         //Cyclic Nether
         <cyclicmagic:nether_redstone_ore>: <ore:dustRedstone> *12,
@@ -270,7 +274,8 @@ val combinerMap = {
     //Other Ores
     //Granite
     <minecraft:stone:1>: {
-        <taiga:jauxum_ore>: <ore:dustJauxum> *8
+        <taiga:jauxum_ore>: <ore:dustJauxum> *8,
+        <mysticalworld:granite_quartz_ore>: <ore:dustQuartz> *8
     },
     //Diorite
     <minecraft:stone:3>: {
