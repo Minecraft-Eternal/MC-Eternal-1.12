@@ -1,3 +1,4 @@
+import mods.immersiveengineering.Excavator;
 #MC Eternal Scripts
 
 print("--- loading Immersive.zs ---");
