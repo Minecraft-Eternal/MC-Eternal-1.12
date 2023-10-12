@@ -8,7 +8,7 @@ var pamgarden = ["arid","frost","shaded","soggy","tropical","windy"] as string[]
 recipes.addShaped(<harvestcraft:toastitem>, [[<ore:cropCinnamon>, <dungeontactics:toast>]]);
 recipes.removeShapeless(<harvestcraft:plainyogurtitem> * 4, [<harvestcraft:plainyogurtitem>, <minecraft:leather>]);
 for gardens in pamgarden {
-	itemUtils.getItem("harvestcraft:"~gardens~"garden").addTooltip(format.red("Disabled, purchase Harvestcraft seeds from the Farming for Blockheads Market"));
+	itemUtils.getItem("harvestcraft:"~gardens~"garden").addTooltip(format.red(game.localize("mce.harvestcraft.tip.gardens_disabled_use_market")));
 }
 
 //Recipes for Uncraftable Pam's foods

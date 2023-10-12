@@ -63,4 +63,7 @@ mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate:2>, <midnight:ebonys>, 2,
 <ore:egg>.add(<midnight:stinger_egg>);
 <ore:listAllEgg>.add(<midnight:stinger_egg>);
 
+// Geode tooltip
+<midnight:geode>.addTooltip(format.aqua(game.localize("mce.midnight.tip.throw_geode_at_wall")));
+
 print("--- Midnight.zs initialized ---");

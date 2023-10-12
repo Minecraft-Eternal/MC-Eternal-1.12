@@ -14,7 +14,7 @@ events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLiv
 				if(multishoot == enchts.definition.id){
 					event.cancel();
 					if (!event.player.world.isRemote()) {
-						event.player.sendChat("Multishot is disabled, but the player " ~ event.player.name ~ " tried to use anyways.");
+						event.player.sendChat(game.localize("mce.cofhcore.message.multishot_is_infact_disabled").replace("%s", event.player.name));
 					}
 				}
 			}
@@ -38,11 +38,11 @@ events.onEntityLivingEquipmentChange(function(event as crafttweaker.event.Entity
 				val user as IPlayer = event.entityLivingBase;
 				if (!event.entityLivingBase.world.isRemote()) {
 					event.entityLivingBase.setItemToSlot(event.slot, null);
-					user.sendChat("The item is no more");
+					user.sendChat(game.localize("mce.generic.message.item_yeeted_from_exist"));
 				}
 				if (event.entityLivingBase.world.isRemote()) {
 					event.entityLivingBase.setItemToSlot(event.slot, null);
-					user.sendChat("The item is no more");
+					user.sendChat(game.localize("mce.generic.message.item_yeeted_from_exist"));
 				}
 				
 			}				

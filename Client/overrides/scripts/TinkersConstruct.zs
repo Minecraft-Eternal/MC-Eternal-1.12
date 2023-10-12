@@ -5,6 +5,7 @@ import mods.tconstruct.Casting;
 import crafttweaker.data.IData;
 import crafttweaker.liquid.ILiquidDefinition;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.item.IItemStack;
 #MC Eternal Scripts
 
 print("--- loading TinkersConstruct.zs ---");
@@ -34,10 +35,33 @@ function addSmelteryFuel (fluid as ILiquidStack, duration as int, temp as int) {
 	if(temp != -1){
 		fluid.definition.temperature = temp;
 	}
+	val buckets = [
+		<forge:bucketfilled>,
+		<thebetweenlands:bl_bucket:*>,
+		<erebus:bambucket>,
+		<theaurorian:ceruleanbucket>
+	] as IItemStack[];
+
+	for bucketItem in buckets {
+		var bucket = bucketItem.withTag({FluidName: fluid.name, Amount: 1000});
+		bucket.addShiftTooltip(
+			format.gold(game.localize("mce.tconstruct.tip.smeltery_fuel_stats.1")
+				.replace("%s", fluid.amount as string)),
+			format.aqua(game.localize("mce.tconstruct.tip.custom_smeltery_fuel")));
+		bucket.addShiftTooltip(
+			format.gold(game.localize("mce.tconstruct.tip.smeltery_fuel_stats.2")
+				.replace("%s", (duration / 20) as string)),
+			format.aqua(game.localize("mce.generic.tip.hold_shift_for_info")));
+		bucket.addShiftTooltip(
+			format.gold(game.localize("mce.tconstruct.tip.smeltery_fuel_stats.3")
+				.replace("%s", (fluid.temperature - (fluid.temperature > 1000 ? 300 : 0)) as string)));
+	}
 }
 
 addSmelteryFuel(<liquid:formic_acid>*75, 3000, 10000);
 addSmelteryFuel(<liquid:miasma>*25, 500, 2000);
+addSmelteryFuel(<liquid:liquid_death>*10, 2400, 2744);
+addSmelteryFuel(<liquid:endacid>*20, 300, 3001);
 
 // Starmetal Fix v2
 // aka: the version using a central concept i figured out while making a Gregtech script inspired by FTB Interactions
