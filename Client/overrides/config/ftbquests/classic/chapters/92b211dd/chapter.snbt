@@ -1,6 +1,12 @@
 {
 	title: "Space Exploration",
-	icon: "extrautils2:ingredients 1 5",
+	icon: {
+		id: "extrautils2:ingredients",
+		Damage: 5s
+	},
+	description: [
+		"Don't know how to visit Worlds beyond? Just click \"Space Exploration\"!"
+	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "octagon",

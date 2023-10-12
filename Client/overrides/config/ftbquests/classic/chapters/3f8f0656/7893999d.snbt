@@ -10,12 +10,10 @@
 		uid: "6217a2a3",
 		type: "item",
 		items: [{
-			id: "appliedenergistics2:energy_cell",
-			tag: {}
+			id: "appliedenergistics2:energy_cell"
 		},
 		{
-			id: "appliedenergistics2:dense_energy_cell",
-			tag: {}
+			id: "appliedenergistics2:dense_energy_cell"
 		}],
 		ignore_nbt: 1b
 	}],
