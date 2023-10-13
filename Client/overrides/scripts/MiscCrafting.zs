@@ -427,4 +427,19 @@ for recipe in taigaAlloyMap {
 //	}
 }
 
+//IF Protein Reactor additions
+mods.industrialforegoing.ProteinReactor.add(<biomesoplenty:fleshchunk>);
+mods.industrialforegoing.ProteinReactor.add(<rats:raw_rat>);
+mods.industrialforegoing.ProteinReactor.add(<totemic:buffalo_meat>);
+mods.industrialforegoing.ProteinReactor.add(<twilightforest:raw_venison>);
+mods.industrialforegoing.ProteinReactor.add(<twilightforest:raw_meef>);
+for meat in <ore:allFlesh>.items {
+	mods.industrialforegoing.ProteinReactor.add(meat);
+}
+
+//Thermal Reactant Dynamo
+mods.thermalexpansion.ReactantDynamo.addReaction(<fossil:failuresaurus_flesh>, <liquid:mutagen> *200, 1200000);
+mods.thermalexpansion.ReactantDynamo.addReaction(<astralsorcery:itemcraftingcomponent:2>, <liquid:astralsorcery.liquidstarlight> *100, 600000);
+
+
 print("--- MiscCrafting.zs initialized ---");	
