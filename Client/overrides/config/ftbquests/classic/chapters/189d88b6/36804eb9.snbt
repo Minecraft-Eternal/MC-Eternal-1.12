@@ -9,7 +9,6 @@
 	dependencies: [
 		"87cb3976"
 	],
-	hide_text_until_complete: true,
 	size: 0.7d,
 	tasks: [{
 		uid: "2d3e68f5",
