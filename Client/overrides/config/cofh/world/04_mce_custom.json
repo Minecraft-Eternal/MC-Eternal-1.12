@@ -7,18 +7,10 @@
 			"generator": {
 				"block": [
 					{
-						"name": "",
-						"properties": {
-							"type": ""
-						},
-						"weight": 40
-					},
-					{
 						"name": "mekanism:oreblock",
 						"properties": {
 							"type": "osmium"
-						},
-						"weight": 60
+						}
 					}
 				],
 				"material": "minecraft:stone",
@@ -37,15 +29,12 @@
 				]
 			}
 		},
-		"mce_cheese": {
+		"mce_moon_cheese": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
 					"name": "rats:block_of_cheese",
-					"properties": {
-						"type": ""
-					}
 				},
 				"material": "rats:marbled_cheese_raw",
 				"cluster-size": 32
@@ -62,23 +51,17 @@
 				]
 			}
 		},
-		"mce_gold_titanium": {
+		"mce_moon_gold_titanium": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
 					{
 						"name": "libvulpes:ore0",
-						"properties": {
-							"type": "0"
-						},
 						"weight": 40
 					},
 					{
 						"name": "minecraft:gold_block",
-						"properties": {
-							"type": ""
-						},
 						"weight": 60
 					}
 				],
@@ -97,15 +80,12 @@
 				]
 			}
 		},
-		"mce_ironblock_moon": {
+		"mce_moon_ironblock": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "minecraft:iron_block",
-					"properties": {
-						"type": ""
-					}
+					"name": "minecraft:iron_block"
 				},
 				"material": "rats:marbled_cheese_raw",
 				"cluster-size": 20
@@ -114,15 +94,7 @@
 			"min-height": 3,
 			"max-height": 51,
 			"retrogen": "true",
-			"biome": {
-				"restriction": "blacklist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "OCEAN"
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -135,10 +107,7 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "minecraft:emerald_block",
-					"properties": {
-						"type": ""
-					}
+					"name": "minecraft:emerald_block"
 				},
 				"material": "rats:marbled_cheese_raw",
 				"cluster-size": 22
@@ -162,15 +131,15 @@
 				"block": [
 					{
 						"name": "futuremc:ancient_debris",
-						"weight": 20
+						"weight": 40
 					},
 					{
-						"name": "futuremc:ancient_debris",
-						"weight": 80
+						"name": "minecraft:netherrack",
+						"weight": 60
 					}
 				],
 				"material": "minecraft:netherrack",
-				"cluster-size": 2
+				"cluster-size": 3
 			},
 			"cluster-count": 1,
 			"chunk-chance": 3,
