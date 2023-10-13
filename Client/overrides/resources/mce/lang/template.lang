@@ -3,6 +3,41 @@ desc.immersiveengineering.info.mineral.Fissile=
 desc.immersiveengineering.info.mineral.Osmiron=
 desc.immersiveengineering.info.mineral.Atometal=
 
+#Quest Chapter Names
+mce.questing.chapter.introduction.name=
+mce.questing.chapter.player_shop.name=
+mce.questing.chapter.farming_and_agriculture.name=
+mce.questing.chapter.minecolonies.name=
+mce.questing.chapter.exploration.name=
+mce.questing.chapter.dimensions.name=
+mce.questing.chapter.magic_and_spellcasting.name=
+mce.questing.chapter.legendary_artifacts.name=
+mce.questing.chapter.intro_to_science.name=
+mce.questing.chapter.advanced_science.name=
+mce.questing.chapter.space_exploration.name=
+mce.questing.chapter.space_exploration.hover=
+mce.questing.chapter.the_moon.name=
+mce.questing.chapter.erebus.name=
+mce.questing.chapter.aurorian.name=
+mce.questing.chapter.atum.name=
+mce.questing.chapter.mystical_agriculture.name=
+mce.questing.chapter.bosses.name=
+mce.questing.chapter.challenges.name=
+mce.questing.chapter.unlockables=
+
+#Mod overrides
+enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line2=
+enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line2=
+enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line2=
+enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line2=
+enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line2=
+
+xreliquary.item.phoenix_down.tooltip=
+xreliquary.jei.descriptions.phoenix_down=
+
+xreliquary.item.alkahestry_tome.tooltip2=
+xreliquary.jei.descriptions.alkahestry_tome=
+
 #Misc. Tooltips
 mce.generic.tip.disabled=
 mce.generic.tip.beneath_only=
@@ -17,7 +52,8 @@ mce.generic.message.item_yeeted_from_exist=
 
 mce.appliedenergistics2.tip.meteors_in_beneath=
 
-mce.advrocketry.message.get_there_with_rocket=
+mce.advrocketry.message.get_there_with_rocket.1=
+mce.advrocketry.message.get_there_with_rocket.2
 mce.advrocketry.message.no_go_through_portal=
 
 mce.akashictome.tip.included_in_preloaded=
@@ -99,4 +135,14 @@ mce.wings.tip.fairy_dust=
 
 mce.xreliquary.tip.restores_percent_health=
 
+
+#Challenge Mode specific
 mce.challengemode.mekanism.tip.fusion_reactor_recipe_looks_funny=
+mce.challengemode.thermal.tip.hardened_glass_needs_osmium.1=
+mce.challengemode.thermal.tip.hardened_glass_needs_osmium.2=
+
+#Betweenlands Restrictions
+mce.challengemode.betweenlands_restrictions.denied_entry_message.1=
+mce.challengemode.betweenlands_restrictions.denied_entry_message.2=
+mce.challengemode.betweenlands_restrictions.equipped_restricted_item=
+mce.challengemode.betweenlands_restrictions.equipped_enchanted_item=
