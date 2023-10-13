@@ -43,7 +43,8 @@ var ohnoeffort = {
 } as string[IItemStack];
 
 for usualobjects in ohnoeffort {
-	usualobjects.addTooltip(format.red(game.localize("mce.advrocketry.message.get_there_with_rocket").replace("%s", game.localize(ohnoeffort[usualobjects]))));
+	usualobjects.addTooltip(format.red(game.localize("mce.advrocketry.message.get_there_with_rocket.1").replace("%s", game.localize(ohnoeffort[usualobjects]))));
+	usualobjects.addTooltip(format.red(game.localize("mce.advrocketry.message.get_there_with_rocket.2")));
 }
 
 print("--- AdvRocketry.zs initialized ---");	
