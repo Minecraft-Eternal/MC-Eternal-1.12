@@ -3,6 +3,41 @@ desc.immersiveengineering.info.mineral.Fissile=Deep Fissile
 desc.immersiveengineering.info.mineral.Osmiron=Deep Osmiron
 desc.immersiveengineering.info.mineral.Atometal=Deep Atometal
 
+#Quest Chapter Names
+mce.questing.chapter.introduction.name=Introduction
+mce.questing.chapter.player_shop.name=Player Shop
+mce.questing.chapter.farming_and_agriculture.name=Farming and Agriculture
+mce.questing.chapter.minecolonies.name=Mayor Position Available!
+mce.questing.chapter.exploration.name=Exploration
+mce.questing.chapter.dimensions.name=Dimensions
+mce.questing.chapter.magic_and_spellcasting.name=Magic And Spellcasting
+mce.questing.chapter.legendary_artifacts.name=Legendary Artifacts
+mce.questing.chapter.intro_to_science.name=Introduction To Science
+mce.questing.chapter.advanced_science.name=Advanced Science
+mce.questing.chapter.space_exploration.name=Space Exploration
+mce.questing.chapter.space_exploration.hover=Don't know how to visit Worlds beyond? Just click "Space Exploration"!
+mce.questing.chapter.the_moon.name=The Moon
+mce.questing.chapter.erebus.name=Erebus
+mce.questing.chapter.aurorian.name=Aurorian
+mce.questing.chapter.atum.name=Atum
+mce.questing.chapter.mystical_agriculture.name=Mystical Agriculture
+mce.questing.chapter.bosses.name=Bosses
+mce.questing.chapter.challenges.name=Challenges
+mce.questing.chapter.unlockables=Unlockables
+
+#Mod overrides
+enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line2=$D% item damage absorbed by power
+enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line2=$D% item damage absorbed by power
+enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line2=$D% item damage absorbed by power
+enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line2=$D% item damage absorbed by power
+enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line2=$D% item damage absorbed by power
+
+xreliquary.item.phoenix_down.tooltip=Resurrects you once with;a fraction of max health and;reverts to an Angelic Feather.
+xreliquary.jei.descriptions.phoenix_down=Resurrects you from your inventory to a fraction of your max health, with a variety of buffs.\nReverts to an Angelic Feather when used once. Retains all the Angelic Feather bonuses while in Phoenix-Down form.
+
+xreliquary.item.alkahestry_tome.tooltip2={{!colors.rose}}Charge: {{chargeAmount}}/{{chargeLimit}};Right-click to read.;Does not absorb Redstone or Glowstone in MC Eternal.;See Uses in JEI for what it does absorb.
+xreliquary.jei.descriptions.alkahestry_tome=Shift + Right-Click to activate. While active, it will absorb certain items in the player's inventory to generate Charge. Place it in a crafting grid with certain items to duplicate them by consuming Charge.
+
 #Misc. Tooltips
 mce.generic.tip.disabled=Disabled
 mce.generic.tip.beneath_only=Only found in the Beneath
@@ -17,7 +52,8 @@ mce.generic.message.item_yeeted_from_exist=That item was illegal and has been ye
 
 mce.appliedenergistics2.tip.meteors_in_beneath=AE2 Meteors Spawn in The Beneath and on The Moon
 
-mce.advrocketry.message.get_there_with_rocket=%s cannot be accessed normally.\nYou will need to use Advanced Rocketry.
+mce.advrocketry.message.get_there_with_rocket.1=%s cannot be accessed normally.
+mce.advrocketry.message.get_there_with_rocket.2=You will need to use Advanced Rocketry.
 mce.advrocketry.message.no_go_through_portal=Use Advanced Rocketry to reach this dimension!
 
 mce.akashictome.tip.included_in_preloaded=Included within the standard Akashic Tome
@@ -99,4 +135,14 @@ mce.wings.tip.fairy_dust=Can be used to transmute certain metals. This dust radi
 
 mce.xreliquary.tip.restores_percent_health=Restores %s% HP
 
+
+#Challenge Mode specific
 mce.challengemode.mekanism.tip.fusion_reactor_recipe_looks_funny=Only requires one Chemical Reactor for recipe
+mce.challengemode.thermal.tip.hardened_glass_needs_osmium.1=In Challenge Mode, Requires Osmium instead of Lead.
+mce.challengemode.thermal.tip.hardened_glass_needs_osmium.2=If you need this for crafting, Fused Quartz works instead!
+
+#Betweenlands Restrictions
+mce.challengemode.betweenlands_restrictions.denied_entry_message.1=You are in Challenge Mode, and cannot travel to the Betweenlands with items not from it!
+mce.challengemode.betweenlands_restrictions.denied_entry_message.2=Remove any items not from The Betweenlands from yourself, then you may travel.
+mce.challengemode.betweenlands_restrictions.equipped_restricted_item=The item §oChallenges§r you to survive in this dimension without it.
+mce.challengemode.betweenlands_restrictions.equipped_enchanted_item=The item slips from your hand, the magic of this dimension does not agree with the item's magic, it would seem.
