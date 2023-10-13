@@ -18,8 +18,8 @@ function getFTBCrate(id as string) as IItemStack {
 <wings:fairy_dust>.addTooltip(format.gold(game.localize("mce.wings.tip.fairy_dust")));
 getFTBCrate("cultist").addTooltip(format.darkRed(game.localize("mce.ftbquests.tip.crate.cultist")));
 getFTBCrate("extraterrestrial_cache").addTooltip(format.gold(game.localize("mce.ftbquests.tip.crate.extraterrestrial_cache")));
-<mysticalagriculture:diamond_seeds>.addTooltip(format.darkPurple(game.localize("mce.generic.tip.do_all_chapter_quests_to_unlock").replace("%s", "Mystical Agriculture")));
-<mysticalagriculture:gold_seeds>.addTooltip(format.darkPurple(game.localize("mce.generic.tip.do_all_chapter_quests_to_unlock").replace("%s", "Farming and Agriculture")));
+<mysticalagriculture:diamond_seeds>.addTooltip(format.darkPurple(game.localize("mce.generic.tip.do_all_chapter_quests_to_unlock").replace("%s", game.localize("mce.questing.chapter.mystical_agriculture.name"))));
+<mysticalagriculture:gold_seeds>.addTooltip(format.darkPurple(game.localize("mce.generic.tip.do_all_chapter_quests_to_unlock").replace("%s", game.localize("mce.questing.chapter.farming_and_agriculture.name"))));
 <minecolonies:blockhuttownhall>.addTooltip(format.darkPurple(game.localize("mce.minecolonies.tip.townhall_how_to_get")));
 getFTBCrate("cheesy_cache").addTooltip(format.gold(game.localize("mce.ftbquests.tip.crate.cheesey_cache")));
 getFTBCrate("common_lootbox").addTooltip(format.gold(game.localize("mce.ftbquests.tip.crate.common_crate")));
@@ -89,14 +89,15 @@ for metas in thaumcuriosities {
 
 <thaumadditions:zeith_fur>.addTooltip(format.lightPurple(game.localize("mce.thaumcraft.tip.curiosities.more_likely_to_grant").replace("%s", game.localize("tc.research_category.THAUMADDITIONS"))));
 
-var aePresses = [
+var shopBuyable = [
 	<appliedenergistics2:material:13>,
 	<appliedenergistics2:material:14>,
 	<appliedenergistics2:material:15>,
-	<appliedenergistics2:material:19>
+	<appliedenergistics2:material:19>,
+	<ae2wtlib:infinity_booster_card>
 ] as IItemStack[];
 
-for press in aePresses {
+for press in shopBuyable {
 	press.addTooltip(format.aqua(game.localize("mce.generic.tip.can_buy_in_shop")));
 }
 
