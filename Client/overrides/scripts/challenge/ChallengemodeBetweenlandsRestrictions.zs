@@ -107,7 +107,8 @@ events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent)
             if(scriptDebug) print("Can "+ player.name +" go to The Betweenlands?: "+ isAllowedBetween);
 
             if(!isAllowedBetween){
-                player.sendChat(game.localize("mce.challengemode.betweenlands_restrictions.denied_entry_message"));
+                player.sendChat(game.localize("mce.challengemode.betweenlands_restrictions.denied_entry_message.1"));
+                player.sendChat(game.localize("mce.challengemode.betweenlands_restrictions.denied_entry_message.2"));
                 if(scriptDebug) print(player.name +" attempted travel to The Betweenlands, but was rejected due to having disallowed Items.");
                 event.cancel();
             }
