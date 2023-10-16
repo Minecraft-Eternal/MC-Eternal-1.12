@@ -96,4 +96,18 @@
     </sagmilling>
   </recipe>
 
+  <recipe name="Sagmill: QuartzBlack Block Dust JAOPCA" required="false" disabled="false">
+		<sagmilling energy="3600" bonus="none">
+			<input name="blockQuartzBlack"/>
+			<output name="dustQuartzBlack" amount="4"/>
+		</sagmilling>
+	</recipe>
+
+  <recipe name="Sagmill: Amber Block Dust JAOPCA" required="false" disabled="false">
+		<sagmilling energy="3600" bonus="none">
+			<input name="blockAmber"/>
+			<output name="dustAmber" amount="4"/>
+		</sagmilling>
+	</recipe>
+
 </enderio:recipes>
