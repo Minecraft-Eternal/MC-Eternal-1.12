@@ -1,0 +1,288 @@
+{
+	title: "&5Ultimate Knowledge",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:thaumonomicon",
+		Damage: 1s
+	},
+	x: 4.0d,
+	y: 4.5d,
+	shape: "diamond",
+	description: "&oThe Ultimate Price...&7",
+	hide_dependency_lines: true,
+	dependencies: [
+		"2fd692d6",
+		"7c687a69",
+		"2b50c0d2",
+		"c3ba6dbe",
+		"59112e95",
+		"e07b52ff",
+		"7a64c2ed",
+		"e5042788",
+		"c02b96a5",
+		"ae671c69",
+		"067a12f5",
+		"10839e13",
+		"46331023",
+		"c0828d10",
+		"bbd93c4a",
+		"7d84ee90",
+		"ca385aa2",
+		"db36ae2c",
+		"66e5f078",
+		"31415c63",
+		"8b88cb2b",
+		"492c7208",
+		"7d78225c",
+		"326b9641",
+		"01a0f00a",
+		"85ee5044",
+		"fc4c9de7",
+		"3b9906b4",
+		"b883d62d",
+		"dd378099",
+		"b10c163c",
+		"8a17a224",
+		"beaacd19",
+		"3da7cd92",
+		"99c5d7f0",
+		"2d9cf029",
+		"959821a3",
+		"995a13e7",
+		"857ee1c1",
+		"dc043544",
+		"134b370a",
+		"912753e6",
+		"7005c547",
+		"369fa9dd",
+		"a4500213",
+		"3d39407c",
+		"89a58ae3",
+		"d5123ada",
+		"e8bf27f6",
+		"79fd9331",
+		"18e2bf2e",
+		"57eb2d27",
+		"daf82436",
+		"00bb1475",
+		"2066daa9",
+		"bc400b0f",
+		"36d8c18d",
+		"de459c18",
+		"4e8fc66f",
+		"be79159d",
+		"7e79f19c",
+		"917c261b",
+		"39343e5d",
+		"f83b3551",
+		"9a1d9477",
+		"fc33a2d8",
+		"f8db2430",
+		"4f4bc526",
+		"15daf035",
+		"b8154b65",
+		"6b5458a4",
+		"a751bfa1",
+		"39d35d21",
+		"498633f1",
+		"8eb5f2cb",
+		"5e5880a6"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "387c3d82",
+		type: "item",
+		items: [{
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "mythus"
+				}]
+			},
+			Damage: 1s
+		}],
+		count: 100L,
+		consume_items: true
+	},
+	{
+		uid: "cbebad2a",
+		type: "item",
+		items: [{
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "sol"
+				}]
+			},
+			Damage: 1s
+		}],
+		count: 100L,
+		consume_items: true
+	},
+	{
+		uid: "8a73243d",
+		type: "item",
+		items: [{
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "luna"
+				}]
+			},
+			Damage: 1s
+		}],
+		count: 100L,
+		consume_items: true
+	},
+	{
+		uid: "47af3b74",
+		type: "item",
+		items: [{
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "stellae"
+				}]
+			},
+			Damage: 1s
+		}],
+		count: 100L,
+		consume_items: true
+	},
+	{
+		uid: "37e965d0",
+		type: "item",
+		items: [{
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "diabolus"
+				}]
+			},
+			Damage: 1s
+		}],
+		count: 100L,
+		consume_items: true
+	},
+	{
+		uid: "d13838e7",
+		type: "item",
+		items: [{
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "chronos"
+				}]
+			},
+			Damage: 1s
+		}],
+		count: 100L,
+		consume_items: true
+	},
+	{
+		uid: "bfec9bc1",
+		type: "item",
+		items: [{
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "anteanus"
+				}]
+			},
+			Damage: 1s
+		}],
+		count: 100L,
+		consume_items: true
+	},
+	{
+		uid: "ce8941d6",
+		type: "item",
+		items: [{
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "priscus"
+				}]
+			},
+			Damage: 1s
+		}],
+		count: 100L,
+		consume_items: true
+	},
+	{
+		uid: "29886e32",
+		type: "item",
+		items: [{
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "rattus"
+				}]
+			},
+			Damage: 1s
+		}],
+		count: 100L,
+		consume_items: true
+	},
+	{
+		uid: "06503930",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:primordial_pearl"
+		}],
+		count: 10L,
+		consume_items: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "87283ae9",
+		type: "ftbmoney:money",
+		value: 100000L
+	},
+	{
+		uid: "f4982ae1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			tag: {
+				display: {
+					Lore: [
+						"Ultimate Knowledge for the Ultimate price...",
+						"Right-Click to know all there is about the art of Thaumaturgy."
+					]
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		uid: "92b749c0",
+		type: "command",
+		title: "&5Cleanse Permanent Warp. &cDo after acquiring Ultimate Knowledge!",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:sanity_checker"
+		},
+		command: "/tc warp @p 0 perm"
+	}]
+}

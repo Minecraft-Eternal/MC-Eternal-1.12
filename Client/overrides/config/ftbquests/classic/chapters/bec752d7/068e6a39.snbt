@@ -6,7 +6,7 @@
 	description: "*Accepts any full set of Battlemage Armor*",
 	hide_dependency_lines: true,
 	dependencies: [
-		"9ca732bb"
+		"0f24d2ba"
 	],
 	hide: true,
 	tasks: [{

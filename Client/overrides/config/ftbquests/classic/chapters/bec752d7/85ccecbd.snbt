@@ -7,22 +7,15 @@
 		"f5fa1f8d"
 	],
 	tasks: [{
-		uid: "15a80776",
-		type: "observation",
-		title: "Gaze upon the &9Coalesced form of Starlight",
-		icon: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
+		uid: "c5b5ad9d",
+		type: "item",
+		items: [{
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "astralsorcery.liquidstarlight",
 				Amount: 1000
 			}
-		},
-		match_type: "block_id",
-		match: "",
-		timer: 0L
+		}]
 	}],
 	rewards: [{
 		uid: "77426cbb",

@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.recipes.ICraftingInfo;
 import crafttweaker.data.IData;
+import thaumcraft.aspect.CTAspectStack;
 
 import mods.nuclearcraft.alloy_furnace;
 import mods.mekanism.combiner;
@@ -20,19 +21,21 @@ var itemsToNuke = [
 	<bewitchment:poppet_vampiric>,
 	<openmodularturrets:addon_meta:1>,
  	<inventorypets:solstice_sword>,
-	<randomthings:spectreanchor>
+	<randomthings:spectreanchor>,
+	<xreliquary:rod_of_lyssa>,
+	<mysticalagriculture:supremium_helmet>,
+	<mysticalagriculture:supremium_chestplate>,
+	<mysticalagriculture:supremium_leggings>,
+	<mysticalagriculture:supremium_boots>
 ] as IItemStack[];
 
 for item in itemsToNuke {
 	recipes.remove(item);
-	item.addTooltip(format.red("Disabled"));
+	item.addTooltip(format.red(game.localize("mce.generic.tip.disabled")));
 }
 
 #Homing Beecon
 recipes.addShaped(<erebus:homing_beecon_advanced>, [[<erebus:materials:41>],[<erebus:homing_beecon>],[<mekanism:teleportationcore>]]);
-
-#Soul Torches
-recipes.addShaped("soultorch_mce", <futuremc:soul_fire_torch>, [[<ore:coal>|<ore:charcoal>],[<ore:stickWood>],[<ore:soulSand>]]);
 
 #Soul Soil
 recipes.addShapeless("soulsoil_mce", <futuremc:soul_soil>, [<ore:soulSand>,<ore:dirt>]);
@@ -82,7 +85,13 @@ for entry in chiseling {
 #Danknull T6
 #stupidly op and too stupidly cheap, some spicy is nice yeah?
 recipes.remove(<danknull:dank_null_5>);
-recipes.addShaped("danknull_t6_mce", <danknull:dank_null_5>.withTag({display:{Lore:["Compact Machine must be freshly crafted","Contents and settings will be retained!"]}}),
+recipes.addShaped("danknull_t6_mce", 
+		<danknull:dank_null_5>.withTag({
+		display:{
+			Lore:[
+				game.localize("mce.danknull.crafting_info.1"),
+				game.localize("mce.danknull.crafting_info.2")
+			]}}),
 	[[<danknull:dank_null_panel_5>, <rats:idol_of_ratlantis>, <danknull:dank_null_panel_5>],
 	[<extracells:storage.component:2>, <danknull:dank_null_4>.marked("dank5"), <extracells:storage.component:2>],
 	[<danknull:dank_null_panel_5>, <compactmachines3:machine:5>.marked("cm"),<danknull:dank_null_panel_5>]],
@@ -121,6 +130,31 @@ recipes.addShaped("mce_yabba_upgrade_infinite_capacity", <yabba:upgrade_star_tie
 	[<mekanism:teleportationcore>, <yabba:upgrade_blank>, <mekanism:teleportationcore>],
 	[null, <minecraft:nether_star>, null]
 ]);
+
+// Blackholes Units/Tanks
+val blackHoleFrames = {
+	"industrialforegoing": <teslacorelib:machine_case>,
+	"thermal": <thermalexpansion:frame:0>,
+	"enderio": <enderio:item_material:0>
+} as IItemStack[string];
+
+for mod,frame in blackHoleFrames {
+	val blackHoleFrameModID = (mod == "industrialforegoing" ? "" : "_"+ mod);
+
+	recipes.removeByRecipeName("industrialforegoing:black_hole_unit"+ blackHoleFrameModID);
+	recipes.addShaped("mce_blackhole_unit_"+ mod, <industrialforegoing:black_hole_unit>*2, [
+		[<industrialforegoing:plastic>, <extracells:storage.component:1>, <industrialforegoing:plastic>],
+		[<mekanism:teleportationcore>, null, <mekanism:teleportationcore>],
+		[frame, <minecraft:nether_star>, frame]
+	]);
+
+	recipes.removeByRecipeName("industrialforegoing:black_hole_tank"+ blackHoleFrameModID);
+	recipes.addShaped("mce_blackhole_tank_"+ mod, <industrialforegoing:black_hole_tank>*2, [
+		[<industrialforegoing:plastic>, <extracells:storage.component:8>, <industrialforegoing:plastic>],
+		[<mekanism:teleportationcore>, null, <mekanism:teleportationcore>],
+		[frame, <minecraft:nether_star>, frame]
+	]);
+}
 
 // Tiberium as Dynamo fuel
 mods.thermalexpansion.EnervationDynamo.addFuel(<taiga:tiberium_crystal>, 1000000);
@@ -184,5 +218,228 @@ mods.thaumcraft.Infusion.registerRecipe("mce_ratification_stone", "", <morphspel
 	<bewitchment:waystone>, 
 	[<rats:ratlantean_flame>, <rats:rat_pelt>, <rats:ratlantean_flame>, <rats:raw_rat>, <rats:ratlantean_flame>, <rats:rat_pelt>, <rats:ratlantean_flame>, <rats:idol_of_ratlantis>]
 );
+
+// Assorted Vegetables (Confit Byaldi)
+recipes.remove(<rats:assorted_vegetables>);
+recipes.addShaped("mce_assorted_vegetables", <rats:assorted_vegetables>, [
+	[<thebetweenlands:spirit_fruit>, <mysticalagriculture:superium_apple>, <twilightforest:magic_beans>],
+	[<harvestcraft:nopalessaladitem>, <iceandfire:ambrosia>, <harvestcraft:spicygreensitem>],
+	[<arcaneworld:glowing_chorus>, <nuclearcraft:moresmore>, <ore:unstableFruit>]
+]);
+
+// Potato Knishes chain
+//Potato Pancake
+recipes.remove(<rats:potato_pancake>);
+recipes.addShaped("mce_potato_pancake", <rats:potato_pancake>, [
+	[<harvestcraft:bakedsweetpotatoitem>, <botania:tinypotato>, <minecraft:baked_potato>],
+	[<ore:blockCopper>, <ore:blockCopper>, <ore:blockCopper>],
+	[<minecraft:baked_potato>, <botania:tinypotato>, <harvestcraft:bakedsweetpotatoitem>]
+]);
+
+//Little Black Squash Balls
+mods.rats.recipes.removeGemcutterRatRecipe(<rats:little_black_squash_balls>);
+mods.rats.recipes.addGemcutterRatRecipe(<thebetweenlands:log_sap:*>, <rats:little_black_squash_balls>);
+
+//Centipede
+mods.rats.recipes.removeGemcutterRatRecipe(<rats:centipede>);
+recipes.addShaped("mce_rats_centipede", <rats:centipede>, [
+	[<rats:little_black_worm>, <rats:little_black_worm>, <rats:little_black_worm>],
+	[<buildcraftsilicon:redstone_chipset>, <erebus:materials:15>, <buildcraftsilicon:redstone_chipset>],
+	[<rats:little_black_worm>, <rats:little_black_worm>, <rats:little_black_worm>]
+]);
+
+
+// Spectre Energy Injector
+recipes.remove(<randomthings:spectreenergyinjector>);
+recipes.addShaped("mce_spectre_energy_injector", <randomthings:spectreenergyinjector>, [
+	[<minecraft:obsidian>, <randomthings:spectrelens>, <minecraft:obsidian>],
+	[<randomthings:ingredient:12>, <actuallyadditions:block_phantom_energyface>, <randomthings:ingredient:12>],
+	[<minecraft:obsidian>, <randomthings:ingredient:12>, <minecraft:obsidian>]
+]);
+
+// Osmium Bee
+mods.mekanism.combiner.addRecipe(
+	<gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "magicbees.speciesCobalt"}),
+	<gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "magicbees.speciesSilver"}),
+	<gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "magicbees.speciesOsmium"})
+);
+
+// IF Tree Fluid Extractor
+//BL Sap Log
+mods.industrialforegoing.Extractor.add(<thebetweenlands:log_sap:*>, <liquid:latex> * 5);
+
+// MA Witherproof Blocks
+//only a cosmetic difference with these recipes, they are kinda nice looking, mostly the block.
+
+//Witherproof Glass
+mods.thermalexpansion.InductionSmelter.addRecipe(<mysticalagriculture:witherproof_glass>, <enderio:block_reinforced_obsidian>, <extrautils2:decorativeglass:3>, 16000);
+mods.nuclearcraft.alloy_furnace.addRecipe([<enderio:block_reinforced_obsidian>, <extrautils2:decorativeglass:3>, <mysticalagriculture:witherproof_glass>, 4, 8]);
+mods.mekanism.combiner.addRecipe(<extrautils2:decorativeglass:3>, <enderio:block_reinforced_obsidian>, <mysticalagriculture:witherproof_glass>);
+mods.techreborn.alloySmelter.addRecipe(<mysticalagriculture:witherproof_glass>, <enderio:block_reinforced_obsidian>, <extrautils2:decorativeglass:3>, 400, 10);
+
+//Witherproof Block
+mods.thermalexpansion.InductionSmelter.addRecipe(<mysticalagriculture:witherproof_block>, <enderio:block_reinforced_obsidian>, <quark:black_ash>*4, 16000);
+mods.nuclearcraft.alloy_furnace.addRecipe([<enderio:block_reinforced_obsidian>, <quark:black_ash>*4, <mysticalagriculture:witherproof_block>, 4, 8]);
+mods.mekanism.combiner.addRecipe(<quark:black_ash>*4, <enderio:block_reinforced_obsidian>, <mysticalagriculture:witherproof_block>);
+mods.techreborn.alloySmelter.addRecipe(<mysticalagriculture:witherproof_block>, <enderio:block_reinforced_obsidian>, <quark:black_ash>*4, 400, 10);
+
+
+// Add TAIGA alloying recipes in modded alloying machines
+val taigaAlloyMap = [
+	{
+		"result": [<taiga:terrax_ingot> *2],
+		"inputs": [<taiga:karmesine_ingot>, <taiga:ovium_ingot>, <taiga:jauxum_ingot>]
+	},
+	{
+		"result": [<taiga:triberium_ingot>],
+		"inputs": [<taiga:tiberium_ingot> *5, <taiga:basalt_ingot>]
+	},
+	{
+		"result": [<taiga:triberium_ingot>],
+		"inputs": [<taiga:tiberium_ingot> *5, <taiga:dilithium_ingot> *2]
+	},
+	{
+		"result": [<taiga:fractum_ingot> *2],
+		"inputs": [<taiga:triberium_ingot> *3, <thermalfoundation:material:770> *6, <taiga:abyssum_ingot>]
+	},
+	{
+		"result": [<taiga:violium_ingot> *2],
+		"inputs": [<taiga:aurorium_ingot> *3, <tconstruct:ingots:1> *2]
+	},
+	{
+		"result": [<taiga:proxii_ingot> *3],
+		"inputs": [<taiga:prometheum_ingot> *3, <taiga:palladium_ingot> *3, <taiga:eezo_ingot>]
+	},
+	{
+		"result": [<taiga:tritonite_ingot> *2],
+		"inputs": [<tconstruct:ingots:0> *3, <taiga:terrax_ingot> *2]
+	},
+	{
+		"result": [<taiga:ignitz_ingot> *2],
+		"inputs": [<tconstruct:ingots:1> *2, <taiga:terrax_ingot> *2, <taiga:osram_ingot>]
+	},
+	{
+		"result": [<taiga:imperomite_ingot> *2],
+		"inputs": [<taiga:duranite_ingot> *3, <taiga:prometheum_ingot>, <taiga:abyssum_ingot>],
+	},
+	{
+		"result": [<taiga:solarium_ingot> *2],
+		"inputs": [<taiga:valyrium_ingot> *2, <taiga:uru_ingot> *2, <taiga:nucleum_ingot>]
+	},
+	{
+		"result": [<taiga:adamant_ingot> *3],
+		"inputs": [<taiga:vibranium_ingot>, <taiga:solarium_ingot>, <taiga:iox_ingot> *3]
+	},
+	{
+		"result": [<taiga:seismum_ingot> *4],
+		"inputs": [<thermalfoundation:material:770> *8, <taiga:triberium_ingot> *2, <taiga:eezo_ingot>]
+	},
+	{
+		"result": [<taiga:astrium_ingot> *2],
+		"inputs": [<taiga:terrax_ingot> *3, <taiga:aurorium_ingot> *2]
+	},
+	{
+		"result": [<taiga:niob_ingot> *3],
+		"inputs": [<taiga:palladium_ingot> *3, <taiga:duranite_ingot>, <taiga:osram_ingot>]
+	},
+	{
+		"result": [<taiga:yrdeen_ingot> *3],
+		"inputs": [<taiga:uru_ingot> *3, <taiga:valyrium_ingot> *3, <taiga:osram_ingot>]
+	},
+	{
+		"result": [<taiga:yrdeen_ingot> *3],
+		"inputs": [<taiga:uru_ingot> *3, <taiga:valyrium_ingot> *3, <taiga:eezo_ingot>]
+	},
+	{
+		"result": [<taiga:yrdeen_ingot> *3],
+		"inputs": [<taiga:uru_ingot> *3, <taiga:valyrium_ingot> *3, <taiga:abyssum_ingot>]
+	},
+	{
+		"result": [<taiga:iox_ingot>],
+		"inputs": [<taiga:eezo_ingot> *2, <taiga:abyssum_ingot> *2, <taiga:osram_ingot> *2, <taiga:obsidiorite_ingot> *9]
+	},
+	{
+		"result": [<taiga:iox_ingot>],
+		"inputs": [<taiga:eezo_ingot> *2, <taiga:abyssum_ingot> *2, <taiga:osram_ingot> *2, <taiga:meteorite_ingot> *9, <thermalfoundation:material:770> *18]
+	},
+	{
+		"result": [<taiga:lumix_ingot>],
+		"inputs": [<taiga:palladium_ingot>, <taiga:terrax_ingot>]
+	},
+	{
+		"result": [<taiga:obsidiorite_ingot>],
+		"inputs": [<taiga:meteorite_ingot>, <thermalfoundation:material:770> *2]
+	},
+	{
+		"result": [<taiga:nucleum_ingot> *3],
+		"inputs": [<taiga:proxii_ingot> *3, <taiga:abyssum_ingot>, <taiga:osram_ingot>]
+	},
+	{
+		"result": [<taiga:nucleum_ingot> *3],
+		"inputs": [<taiga:imperomite_ingot> *3, <taiga:osram_ingot>, <taiga:eezo_ingot>]
+	},
+	{
+		"result": [<taiga:nucleum_ingot> *3],
+		"inputs": [<taiga:niob_ingot> *3, <taiga:eezo_ingot>, <taiga:abyssum_ingot>]
+	},
+	{
+		"result": [<taiga:dyonite_ingot> *3],
+		"inputs": [<taiga:triberium_ingot> *3, <taiga:fractum_ingot>, <taiga:seismum_ingot>, <taiga:osram_ingot>]
+	},
+	{
+		"result": [<taiga:dyonite_ingot> *3],
+		"inputs": [<taiga:tiberium_ingot> *12, <taiga:fractum_ingot>, <taiga:seismum_ingot>, <taiga:osram_ingot>]
+	}
+] as IItemStack[][string][];
+/*
+	Alloying Things
+		Induction Smelter - yep
+		Alloy Furnace - yep
+		Alloy Smelter - maybe?
+		Electric Arc Furnace - maybe?
+		Arc Furnace - yep
+*/
+
+for recipe in taigaAlloyMap {
+	val result as IItemStack = recipe.result[0];
+	val ingredients as IItemStack[] = recipe.inputs;
+	var ingredientArrayWithoutFirst as IItemStack[] = [];
+	for entry in ingredients {
+		if(!(ingredients[0].matches(entry))) ingredientArrayWithoutFirst += entry;
+	}
+	// Arc Furnace (Immersive Engineering)
+	mods.immersiveengineering.ArcFurnace.addRecipe(result, ingredients[0], null, 200, 512, ingredientArrayWithoutFirst);
+
+	//Electric Arc Furnace (Advanced Rocketry)
+	//print();
+
+//	if(ingredients.length < 4){
+		//Alloy Smelter (Ender IO)
+		//print();
+
+		if(ingredients.length < 3){
+			// Induction Smelter (Thermal)
+			mods.thermalexpansion.InductionSmelter.addRecipe(result, ingredients[0], ingredients[1], 4000);
+
+			// Alloy Furnace (Nuclearcraft)
+			mods.nuclearcraft.alloy_furnace.addRecipe([ingredients[0], ingredients[1], result]);
+		}
+//	}
+}
+
+//IF Protein Reactor additions
+mods.industrialforegoing.ProteinReactor.add(<biomesoplenty:fleshchunk>);
+mods.industrialforegoing.ProteinReactor.add(<rats:raw_rat>);
+mods.industrialforegoing.ProteinReactor.add(<totemic:buffalo_meat>);
+mods.industrialforegoing.ProteinReactor.add(<twilightforest:raw_venison>);
+mods.industrialforegoing.ProteinReactor.add(<twilightforest:raw_meef>);
+for meat in <ore:allFlesh>.items {
+	mods.industrialforegoing.ProteinReactor.add(meat);
+}
+
+//Thermal Reactant Dynamo
+mods.thermalexpansion.ReactantDynamo.addReaction(<fossil:failuresaurus_flesh>, <liquid:mutagen> *200, 1200000);
+mods.thermalexpansion.ReactantDynamo.addReaction(<astralsorcery:itemcraftingcomponent:2>, <liquid:astralsorcery.liquidstarlight> *100, 600000);
+
 
 print("--- MiscCrafting.zs initialized ---");	

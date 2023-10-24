@@ -4,7 +4,7 @@
 	y: -2.0d,
 	description: "Find a Ruined Library",
 	text: [
-		"There must be more to learn! Maybe I can find more knowledge in the jungles and caves of this land."
+		"There must be more to learn! Maybe I can find more knowledge in the forests, swamps, jungles, or caves of this land."
 	],
 	dependencies: [
 		"ec0bd6f7"

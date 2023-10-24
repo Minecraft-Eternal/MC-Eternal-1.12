@@ -1,83 +1,83 @@
 # Use this file to tell Mekanism which blocks should not be picked up by a cardboard box.
 # Proper syntax is "NAME META". Example (for stone):
 # minecraft:stone 0
-        extracells:fluidcrafter
-        extracells:ecbaseblock
-        extracells:fluidfiller
-        refinedstorage:disk_drive
-        parabox:parabox
-        immersivengineering:metal_device1
-        astralsorcery:blockcollectorcrystal
-        yabba:item_barrel
-		ebwizardry:imbuement_altar
-		opencomputers:case1
-		opencomputers:case2
-		opencomputers:case3
-		opencomputers:adapter
-		opencomputers:assembler
-		opencomputers:capacitor
-		opencomputers:charger
-		opencomputers:disassembler
-		opencomputers:geolyzer
-		opencomputers:hologram1
-		opencomputers:hologram2
-		opencomputers:keyboard
-		opencomputers:motionsensor
-		opencomputers:powerconverter
-		opencomputers:powerdistributor
-		opencomputers:printer
-		opencomputers:raid
-		opencomputers:screen1
-		opencomputers:screen2
-		opencomputers:screen3
-		opencomputers:relay
-		opencomputers:redstone
-		opencomputers:rack
-		opencomputers:waypoints
-		opencomputers:casecreative
-		opencomputers:netsplitter
-		opencomputers:transposer
-		opencomputers:carpetedcapacitor
-		opencomputers:print
-		opencomputers:robot
-		iceandfire:dread_spawner
-		erebus:spider_spawner
-		erebus:jumping_spider_spawner
-		erebus:tarantula_spawner
-		erebus:wasp_spawner
-		erebus:antlion_spawner
-		erebus:dragon_fly_spawner
-		erebus:zombie_ant_spawner
-		erebus:zombie_ant_soldier_spawner
-		erebus:magma_crawler_spawner
-		erebus:locust_spawner
-		erebus:dung_spawner_bot_fly
-		erebus:dung_spawner_fly
-		ancientspellcraft:master_bolt
-		thaumcraft:golem_builder
-		thaumcraft:infernal_furnace
-		thaumicaugmentation:eldritch_lock
-		thaumicaugmentation:impetus_matrix
-		thaumicaugmentation:capstone
-		thaumicaugmentation:crab_vent
-		thaumicaugmentation:arcane_trapdoor_wood
-		thaumicaugmentation:arcane_trapdoor_metal
-		thaumicaugmentation:arcane_trapdoor_silverwood
-		thaumicaugmentation:warded_button_greatwood
-		thaumicaugmentation:warded_button_silverwood
-		thaumicaugmentation:warded_button_arcane_stone
-		thaumicaugmentation:warded_pressure_plate_greatwood
-		thaumicaugmentation:warded_pressure_plate_silverwood
-		thaumicaugmentation:warded_pressure_plate_arcane_stone
-		thaumicaugmentation:arcane_door
-		thebetweenlands:dungeon_door_runes
-		thebetweenlands:dungeon_door_runes_mimic
-		thebetweenlands:dungeon_door_runes_crawler
-		thebetweenlands:dungeon_door_combination
-		yabba:antibarrel
-		bountiful:bountyboard
-		chancecubes:giant_chance_cube
-		tombstone:grave_simple
-		tombstone:grave_normal
-		tombstone:grave_cross
-		tombstone:tombstone
+        extracells:fluidcrafter 0
+        extracells:ecbaseblock 0
+        extracells:fluidfiller 0
+        immersivengineering:metal_device1 0
+        astralsorcery:blockcollectorcrystal 0
+        yabba:item_barrel 0
+	ebwizardry:imbuement_altar 0
+	opencomputers:case1 0
+	opencomputers:case2 0
+	opencomputers:case3 0
+	opencomputers:adapter 0
+	opencomputers:assembler 0
+	opencomputers:capacitor 0
+	opencomputers:charger 0
+	opencomputers:disassembler 0
+	opencomputers:geolyzer 0
+	opencomputers:hologram1 0
+	opencomputers:hologram2 0
+	opencomputers:keyboard 0
+	opencomputers:motionsensor 0
+	opencomputers:powerconverter 0
+	opencomputers:powerdistributor 0
+	opencomputers:printer 0
+	opencomputers:raid 0
+	opencomputers:screen1 0
+	opencomputers:screen2 0
+	opencomputers:screen3 0
+	opencomputers:relay 0
+	opencomputers:redstone 0
+	opencomputers:rack 0
+	opencomputers:waypoint 0
+	opencomputers:casecreative 0
+	opencomputers:netsplitter 0
+	opencomputers:transposer 0
+	opencomputers:carpetedcapacitor 0
+	opencomputers:print 0
+	opencomputers:robot 0
+	iceandfire:dread_spawner 0
+	erebus:spider_spawner 0
+	erebus:jumping_spider_spawner 0
+	erebus:tarantula_spawner 0
+	erebus:wasp_spawner 0
+	erebus:antlion_spawner 0
+	erebus:dragon_fly_spawner 0
+	erebus:zombie_ant_spawner 0
+	erebus:zombie_ant_soldier_spawner 0
+	erebus:magma_crawler_spawner 0
+	erebus:locust_spawner 0
+	erebus:dung_spawner_bot_fly 0
+	erebus:dung_spawner_fly 0
+	ancientspellcraft:master_bolt 0
+	thaumcraft:golem_builder 0
+	thaumcraft:infernal_furnace 0
+	thaumicaugmentation:eldritch_lock 0
+	thaumicaugmentation:impetus_matrix 0
+	thaumicaugmentation:capstone 0
+	thaumicaugmentation:crab_vent 0
+	thaumicaugmentation:arcane_trapdoor_wood 0
+	thaumicaugmentation:arcane_trapdoor_metal 0
+	thaumicaugmentation:arcane_trapdoor_silverwood 0
+	thaumicaugmentation:warded_button_greatwood 0
+	thaumicaugmentation:warded_button_silverwood 0
+	thaumicaugmentation:warded_button_arcane_stone 0
+	thaumicaugmentation:warded_pressure_plate_greatwood 0
+        thaumicaugmentation:warded_pressure_plate_silverwood 0
+	thaumicaugmentation:warded_pressure_plate_arcane_stone 0
+        thaumicaugmentation:arcane_door_greatwood 0
+        thaumicaugmentation:arcane_door_thaumium 0
+        thaumicaugmentation:arcane_door_silverwood 0
+	thebetweenlands:dungeon_door_runes 0
+	thebetweenlands:dungeon_door_runes_mimic 0
+	thebetweenlands:dungeon_door_runes_crawler 0
+	thebetweenlands:dungeon_door_combination 0
+	yabba:antibarrel 0
+	bountiful:bountyboard 0
+	chancecubes:giant_chance_cube 0
+	tombstone:grave_simple 0
+	tombstone:grave_normal 0
+	tombstone:grave_cross 0
+	tombstone:tombstone 0

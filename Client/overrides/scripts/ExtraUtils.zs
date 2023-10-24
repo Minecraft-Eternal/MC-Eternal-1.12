@@ -42,10 +42,8 @@ recipes.addShaped(<extrautils2:angelring:5>, [[<midnight:nagrilite_ingot>, <extr
 recipes.addShaped(<extrautils2:angelring>, [[<mekanism:crystal:1>, <mekanism:crystal:2>, <mekanism:crystal:1>], [<twilightforest:trophy:5>, <tconstruct:materials:50>, <thebetweenlands:ring_of_dispersion>], [<mekanism:crystal:1>, <simplyjetpacks:metaitemmods:29>, <mekanism:crystal:1>]]);
 #Kikoku
 recipes.addShaped(<extrautils2:lawsword>, [[<extrautils2:opinium:8>], [<extrautils2:opinium:8>], [<theaurorian:livingdiviningrod>]]);
-#Quantum Quarry
-recipes.addShaped(<extrautils2:quarry>, [[<ore:blockCerulean>, <theaurorian:moongem>, <ore:blockCerulean>], [<theaurorian:moongem>, <ore:magic_snow_globe>, <theaurorian:moongem>], [<ore:blockCerulean>, <theaurorian:moongem>, <ore:blockCerulean>]]);
 #Chicken Wing Ring
-recipes.addShaped("chickenring_mce", <extrautils2:chickenring>, [[<rats:feathery_wing>, <elenaidodge2:iron_feather>, <rats:feathery_wing>],[<elenaidodge2:iron_feather>, <inventorypets:chicken_pet>, <elenaidodge2:iron_feather>],[<ebwizardry:grand_crystal>, <elenaidodge2:iron_feather>, <ebwizardry:grand_crystal>]]);
+recipes.addShaped("chickenring_mce", <extrautils2:chickenring>, [[<rats:feathery_wing>, <elenaidodge2:iron_feather>, <rats:feathery_wing>],[<elenaidodge2:iron_feather>, <fossil:chicken_essence>, <elenaidodge2:iron_feather>],[<ebwizardry:grand_crystal>, <elenaidodge2:iron_feather>, <ebwizardry:grand_crystal>]]);
 #Flying Squid Ring
 recipes.addShaped("flying_squid_ring_mce", <extrautils2:chickenring:1>, [[<mysticalworld:epic_squid>, <simplyjetpacks:metaitemmods:9>|<simplyjetpacks:metaitemmods:28>, <mysticalworld:epic_squid>],[<xreliquary:kraken_shell>, <extrautils2:chickenring>, <inventorypets:squid_pet>],[<mysticalworld:epic_squid>, <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_sky_soarer"}}), <mysticalworld:epic_squid>]]);
 

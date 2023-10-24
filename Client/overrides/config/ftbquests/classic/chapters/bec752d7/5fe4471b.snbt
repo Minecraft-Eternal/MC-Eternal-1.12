@@ -33,5 +33,17 @@
 		uid: "e2055cde",
 		type: "item",
 		item: "astralsorcery:blockcelestialgateway"
+	},
+	{
+		uid: "bde5ee26",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	},
+	{
+		uid: "4b4582ee",
+		type: "item",
+		item: "minecraft:stick",
+		count: 3
 	}]
 }

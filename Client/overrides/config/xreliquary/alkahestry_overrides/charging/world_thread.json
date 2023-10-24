@@ -1,6 +1,6 @@
 {
     "type": "xreliquary:alkahestry_charging",
-    "charge": 50,
+    "charge": 2,
     "ingredients": [
         {
             "item": "dimdoors:world_thread"

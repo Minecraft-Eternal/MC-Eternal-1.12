@@ -8,7 +8,7 @@ var pamgarden = ["arid","frost","shaded","soggy","tropical","windy"] as string[]
 recipes.addShaped(<harvestcraft:toastitem>, [[<ore:cropCinnamon>, <dungeontactics:toast>]]);
 recipes.removeShapeless(<harvestcraft:plainyogurtitem> * 4, [<harvestcraft:plainyogurtitem>, <minecraft:leather>]);
 for gardens in pamgarden {
-	itemUtils.getItem("harvestcraft:"~gardens~"garden").addTooltip(format.red("Disabled, purchase Harvestcraft seeds from the Farming for Blockheads Market"));
+	itemUtils.getItem("harvestcraft:"~gardens~"garden").addTooltip(format.red(game.localize("mce.harvestcraft.tip.gardens_disabled_use_market")));
 }
 
 //Recipes for Uncraftable Pam's foods
@@ -25,7 +25,7 @@ recipes.addShapeless("cracklins_mce", <harvestcraft:cracklinsitem>, [<ore:toolPo
 recipes.addShapeless("garlicsteak_mce", <harvestcraft:garlicsteakitem>, [<ore:toolSkillet>.reuse(), <ore:listAllbeefraw>, <ore:cropGarlic>, <ore:foodButter>, <ore:cropSpiceleaf>]);
 
 //Sauced Lamb Kebab
-recipes.addShapeless("saucedlambkebab_mce", <harvestcraft:saucedlambkebabitem>, [<ore:toolMixingbowl>.reuse(), <ore:foodLambKebab>, <ore:foodPlainYogurt>, <ore:listAllheavycream>, <ore:cropGarlic>, <ore:cropSpiceleaf>, <ore:cropLime>]);
+recipes.addShapeless("saucedlambkebab_mce", <harvestcraft:saucedlambkebabitem>, [<ore:toolMixingbowl>.reuse(), <ore:foodLambkebab>, <ore:foodPlainYogurt>, <ore:listAllheavycream>, <ore:cropGarlic>, <ore:cropSpiceleaf>, <ore:cropLime>]);
 
 //Lychee Tea
 #adding Lychee to its proper Oredict lets Harvestcraft do the work

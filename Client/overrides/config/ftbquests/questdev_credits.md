@@ -1,4 +1,4 @@
-#### probably kinda far 100% accurate
+#### probably kinda far from 100% accurate
 ### Adam9899
   basically 70+% of the quests
   
@@ -15,5 +15,5 @@
   Nuclearcraft adjustments,
   "Draconic Devolution" and "Life Finds a Way" challenges
   
-### Master Oogway#0001 from the MCE Discord
+### justoogway from the MCE Discord
   Electroblob's Wizardry extension

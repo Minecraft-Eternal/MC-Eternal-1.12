@@ -19,7 +19,7 @@
         </planet>
 		<planet name="§c§lErebus" DIMID="66" dimMapping="" customIcon="IceWorld">
             <skyColor>0,0,0</skyColor>
-			<atmosphereDensity>180</atmosphereDensity>
+			<atmosphereDensity>90</atmosphereDensity>
 			<gravitationalMultiplier>38</gravitationalMultiplier>
 			<orbitalDistance>70</orbitalDistance>
 			<isKnown>True</isKnown>
@@ -27,7 +27,7 @@
         </planet>
 		<planet name="§b§lAurorian" DIMID="424" dimMapping="" customIcon="GasGiantBlue">
             <skyColor>0,0,0</skyColor>
-			<atmosphereDensity>150</atmosphereDensity>
+			<atmosphereDensity>100</atmosphereDensity>
 			<gravitationalMultiplier>38</gravitationalMultiplier>
 			<orbitalDistance>130</orbitalDistance>
 			<isKnown>True</isKnown>
@@ -36,7 +36,7 @@
 		<planet name="§8§lAtum" DIMID="1048" dimMapping="" customIcon="MarsLike">
             <skyColor>0,0,0</skyColor>
 			<fogColor>0.9,0.9,0.9</fogColor>
-			<atmosphereDensity>195</atmosphereDensity>
+			<atmosphereDensity>100</atmosphereDensity>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>200</orbitalDistance>
 			<isKnown>True</isKnown>

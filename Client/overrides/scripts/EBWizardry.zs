@@ -1,3 +1,4 @@
+import mods.wizardryutils.ZenSpell;
 #MC Eternal Scripts
 
 print("--- loading EBWizardry.zs ---");
@@ -5,12 +6,12 @@ print("--- loading EBWizardry.zs ---");
 #Setup/Vars
 // The spell oredict was not very functional across saves carried over between versions, it has been deprecated
 val disabledSpells = [
-	11,
-	159,
-	151,
-	168,
-	430
-] as int[];
+	"ebwizardry:telekinesis",
+	"ebwizardry:empowering_presence",
+	"ebwizardry:greater_telekinesis",
+	"ebwizardry:curse_of_enfeeblement",
+	"ancientspellcraft:extension"
+] as string[];
 
 val bookTypes = [
 	"ebwizardry:spell_book",
@@ -29,7 +30,7 @@ val bookTypes = [
 #Disabled Spell Tooltips
 for spell in disabledSpells {
 	for book in bookTypes {
-		itemUtils.getItem(book, spell).addTooltip(format.red("Disabled, cannot be bound to Wands or Cast."));
+		itemUtils.getItem(book, ZenSpell.getMetaData(spell)).addTooltip(format.red(game.localize("mce.ebwizardry.tip.disabled_spell")));
 	}
 }
 

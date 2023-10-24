@@ -12,65 +12,17 @@ import mods.mekanism.MekanismHelper;
 
 print("--- Loading Thaumcraft.zs ---");
 
-#Nerf basically MA but essentia
-// i severely dislike these things, they ruin the puzzle of automating an essentia type or having what you burn into essentia be a choice that somewhat matters
-val validSeedAspects = [
-		//Base TC
-		<aspect:aer>,
-		<aspect:terra>,
-		<aspect:ignis>,
-		<aspect:aqua>,
-		<aspect:ordo>,
-		<aspect:perditio>,
-		<aspect:vacuos>,
-		<aspect:lux>,
-		<aspect:motus>,
-		<aspect:gelum>,
-		<aspect:vitreus>,
-		<aspect:metallum>,
-		<aspect:victus>,
-		<aspect:mortuus>,
-		<aspect:potentia>,
-		<aspect:permutatio>,
-		<aspect:praecantatio>,
-		<aspect:auram>,
-		<aspect:alkimia>,
-		<aspect:vitium>,
-		<aspect:tenebrae>,
-		<aspect:alienis>,
-		<aspect:volatus>,
-		<aspect:herba>,
-		<aspect:instrumentum>,
-		<aspect:fabrico>,
-		<aspect:machina>,
-		<aspect:vinculum>,
-		<aspect:spiritus>,
-		<aspect:cognitio>,
-		<aspect:sensus>,
-		<aspect:aversio>,
-		<aspect:praemunio>,
-		<aspect:desiderium>,
-		<aspect:exanimis>,
-		<aspect:bestia>,
-		<aspect:humanus>,
-		
-		//TAdditions
-		<aspect:fluctus>,
-		<aspect:sonus>,
-		<aspect:exitium>,
-		<aspect:caeles>,
-		<aspect:draco>,
-		<aspect:infernum>,
-		<aspect:ventus>,
-		<aspect:visum>,
-		<aspect:imperium>
-] as CTAspectStack[];
-	
-for aspectStack in validSeedAspects {
-	var aspect = aspectStack.internal.name.toLowerCase();
-	mods.thaumcraft.Crucible.removeRecipe("thaumadditions:"+aspect+"_vis_seed");
-	mods.thaumcraft.Crucible.registerRecipe("nerf_vistyical_agriculture_"+aspect, "TAR_VIS_SEEDS", itemUtils.getItem("thaumadditions:vis_seeds/"+aspect), itemUtils.getItem("mysticalagriculture:crafting", 20), [aspectStack * 500]);
-}
+// remove indirectly supported nbt-based vis seeds
+//does the randomization funny (and generate normal essentia types), which is bad and op
+mods.thaumcraft.Crucible.removeRecipe(<thaumadditions:vis_seeds>);
+
+// Vishroom from Baffle Cap
+//doesn't spawn in the world, and i might remove Thaumic Additions because it's kind of not very good
+mods.thaumcraft.Crucible.registerRecipe("mce_vishroom_from_bafflecap", "", <thaumcraft:vishroom>, <roots:baffle_cap_mushroom>, [<aspect:vitium> *10, <aspect:mortuus> *3, <aspect:perditio> *3]);
+
+// Ambient Grass Block
+//also doesn't spawn and has cool vfx so it can look epic
+mods.thaumcraft.Crucible.registerRecipe("mce_ambient_grass_block", "", <thaumcraft:grass_ambient>, <minecraft:grass>, [<aspect:auram> *2, <aspect:lux> *6]);
 
 
 // Native Clusters in many more modded Ore Processing options

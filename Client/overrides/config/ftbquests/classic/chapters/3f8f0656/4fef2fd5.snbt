@@ -10,8 +10,9 @@
 		uid: "824fc37d",
 		type: "item",
 		items: [{
-			item: "ae2stuff:grower"
-		}]
+			id: "ae2stuff:grower"
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "94536ee9",
