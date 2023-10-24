@@ -1,5 +1,5 @@
 {
-	title: "Mayor Position Available!",
+	title: "{mce.questing.chapter.minecolonies.name}",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}

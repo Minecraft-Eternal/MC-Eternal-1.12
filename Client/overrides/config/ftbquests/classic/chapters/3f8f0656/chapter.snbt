@@ -1,5 +1,5 @@
 {
-	title: "Advanced Science",
+	title: "{mce.questing.chapter.advanced_science.name}",
 	icon: "buildcraftcore:gear_diamond",
 	always_invisible: false,
 	group: 0,

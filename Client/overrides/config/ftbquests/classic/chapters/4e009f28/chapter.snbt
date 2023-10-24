@@ -1,5 +1,5 @@
 {
-	title: "Mystical Agriculture",
+	title: "{mce.questing.chapter.mystical_agriculture.name}",
 	icon: "mysticalagradditions:stuff 1 69",
 	always_invisible: false,
 	group: 0,

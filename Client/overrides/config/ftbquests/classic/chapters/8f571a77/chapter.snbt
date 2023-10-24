@@ -1,5 +1,5 @@
 {
-	title: "Player Shop",
+	title: "{mce.questing.chapter.player_shop.name}",
 	icon: "twilightforest:twilight_sapling 1 9",
 	disable_toast: true,
 	always_invisible: false,

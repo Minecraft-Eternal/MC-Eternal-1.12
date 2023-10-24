@@ -1,5 +1,5 @@
 {
-	title: "Challenges",
+	title: "{mce.questing.chapter.challenges.name}",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}

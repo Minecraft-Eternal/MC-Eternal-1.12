@@ -1,5 +1,5 @@
 {
-	title: "&6&lThe Moon",
+	title: "&6&l{mce.questing.chapter.the_moon.name}",
 	icon: "rats:marbled_cheese_raw",
 	always_invisible: false,
 	group: -1833823779,

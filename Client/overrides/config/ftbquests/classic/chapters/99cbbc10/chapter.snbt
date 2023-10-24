@@ -1,5 +1,5 @@
 {
-	title: "Farming and Agriculture",
+	title: "{mce.questing.chapter.farming_and_agriculture.name}",
 	icon: "harvestcraft:seedsoupitem",
 	always_invisible: false,
 	group: 0,

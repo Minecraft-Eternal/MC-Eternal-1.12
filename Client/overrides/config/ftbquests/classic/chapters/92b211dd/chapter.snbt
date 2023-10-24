@@ -1,6 +1,9 @@
 {
-	title: "Space Exploration",
+	title: "{mce.questing.chapter.space_exploration.name}",
 	icon: "extrautils2:ingredients 1 5",
+	description: [
+		"{mce.questing.chapter.space_exploration.hover}"
+	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "octagon",

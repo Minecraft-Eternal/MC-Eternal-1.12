@@ -1,5 +1,5 @@
 {
-	title: "Bosses",
+	title: "{mce.questing.chapter.bosses.name}",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {},
