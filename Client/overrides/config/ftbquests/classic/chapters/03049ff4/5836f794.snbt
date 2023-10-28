@@ -283,6 +283,6 @@
 			},
 			id: "thaumcraft:sanity_checker"
 		},
-		command: "/tc warp @p 0 perm"
+		command: "/tc warp @p set 0 perm"
 	}]
 }
