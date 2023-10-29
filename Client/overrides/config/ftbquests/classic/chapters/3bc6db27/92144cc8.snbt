@@ -1,19 +1,20 @@
 {
-	x: -3.0d,
-	y: 3.0d,
-	shape: "circle",
+	x: -20.5d,
+	y: -6.5d,
+	shape: "gear",
 	dependencies: [
 		"dab9444f"
 	],
 	tasks: [{
-		uid: "1924eac8",
+		uid: "0e8d9226",
 		type: "item",
 		items: [{
-			item: "buildcraftfactory:tank"
+			id: "thermalfoundation:material",
+			Damage: 26s
 		}]
 	}],
 	rewards: [{
-		uid: "5b58959a",
+		uid: "7648af99",
 		type: "ftbmoney:money",
 		ftb_money: 50L
 	}]
