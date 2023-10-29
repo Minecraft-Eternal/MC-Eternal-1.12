@@ -1,7 +1,7 @@
 # Welcome to the MC Eternal Repository
 ---
 Want to the latest (Beta) versions of MC Eternal before they even get released to CurseForge? Use the followings steps:
-- Switch to the latest available branch from the Branches dropdown. (Current latest: Beta/v1.4).
+- Switch to the "Development" branch from the Branches dropdown.
 - Click on the green 'Code' button and click on Download as Zip.
 - Extract the contents of the Zip file to a random folder on your computer, and re-zip just the contents of the Clients folder.
 - Head over to a launcher capable of processing Curseforge zips (such as the [FTB App](https://www.feed-the-beast.com/ftb-app), [GDLauncher](https://gdevs.io) or [PrismLauncher](https://prismlauncher.org)), click on Create new Instance, and select the newly created zip.
