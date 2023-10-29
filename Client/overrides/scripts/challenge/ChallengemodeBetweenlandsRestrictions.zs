@@ -128,7 +128,7 @@ events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent)
 events.onEntityLivingEquipmentChange(function(event as EntityLivingEquipmentChangeEvent){
     if(!event.entityLivingBase.world.remote && event.entityLivingBase.dimension == betweenlandsID && event.entityLivingBase instanceof IPlayer && !isNull(event.newItem)){
         val player as IPlayer = event.entityLivingBase;
-        if(event.newItem.definition.owner != "minecraft"){
+        if(event.newItem.definition.owner != "thebetweenlands"){
             player.sendChat(game.localize("mce.challengemode.betweenlands_restrictions.equipped_restricted_item"));
             doEquipmentDrop(event.newItem, event.slot, player);
         } else if(event.newItem.isEnchanted){
