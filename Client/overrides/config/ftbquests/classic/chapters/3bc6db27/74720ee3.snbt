@@ -8,6 +8,7 @@
 		uid: "6d2a7f7f",
 		type: "advancement",
 		title: "Advancement: &eSeeds of the Past",
+		icon: "fossil:fossilseed",
 		advancement: "fossil:fossil/fossil_seed",
 		criterion: ""
 	}],
