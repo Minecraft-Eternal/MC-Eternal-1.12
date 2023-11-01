@@ -1,5 +1,5 @@
 {
-	title: "Legendary Artifacts",
+	title: "{mce.questing.chapter.legendary_artifacts.name}",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}

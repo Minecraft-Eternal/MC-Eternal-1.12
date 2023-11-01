@@ -1,5 +1,5 @@
 {
-	title: "Introduction",
+	title: "{mce.questing.chapter.introduction.name}",
 	icon: "minecraft:sapling",
 	disable_toast: true,
 	always_invisible: false,

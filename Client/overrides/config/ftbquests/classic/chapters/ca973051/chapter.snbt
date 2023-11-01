@@ -1,5 +1,5 @@
 {
-	title: "Dimensions",
+	title: "{mce.questing.chapter.dimensions.name}",
 	icon: "twilightforest:miniature_structure",
 	always_invisible: false,
 	group: 0,

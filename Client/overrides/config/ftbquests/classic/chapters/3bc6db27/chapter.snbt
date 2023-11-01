@@ -1,5 +1,5 @@
 {
-	title: "Introduction to Science",
+	title: "{mce.questing.chapter.intro_to_science.name}",
 	icon: "jaopca:item_gearosmium",
 	always_invisible: false,
 	group: 0,

@@ -1,5 +1,5 @@
 {
-	title: "Unlockables",
+	title: "{mce.questing.chapter.unlockables}",
 	icon: "bewitchment:bottled_frostfire",
 	always_invisible: false,
 	group: 0,
