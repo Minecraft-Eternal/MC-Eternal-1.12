@@ -1,7 +1,10 @@
 {
 	x: -4.5d,
 	y: 13.0d,
-	description: "Connects containers to an ME Network, allowing it to use the connected container as Storage for the Network!",
+	description: "Connects containers to an ME Network! *Read Description*",
+	text: [
+		"Lets you connect other storage blocks, such as Chests, Storage Drawers, etc., to an ME Network, allowing the network to connect to them!"
+	],
 	dependencies: [
 		"8e9ea584"
 	],
