@@ -142,17 +142,17 @@ for mod,frame in blackHoleFrames {
 	val blackHoleFrameModID = (mod == "industrialforegoing" ? "" : "_"+ mod);
 
 	recipes.removeByRecipeName("industrialforegoing:black_hole_unit"+ blackHoleFrameModID);
-	recipes.addShaped("mce_blackhole_unit_"+ mod, <industrialforegoing:black_hole_unit>*2, [
+	recipes.addShaped("mce_blackhole_unit_"+ mod, <industrialforegoing:black_hole_unit>, [
 		[<industrialforegoing:plastic>, <extracells:storage.component:1>, <industrialforegoing:plastic>],
-		[<mekanism:teleportationcore>, null, <mekanism:teleportationcore>],
-		[frame, <minecraft:nether_star>, frame]
+		[<mekanism:teleportationcore>, frame, <mekanism:teleportationcore>],
+		[null, <minecraft:nether_star>, null]
 	]);
 
 	recipes.removeByRecipeName("industrialforegoing:black_hole_tank"+ blackHoleFrameModID);
-	recipes.addShaped("mce_blackhole_tank_"+ mod, <industrialforegoing:black_hole_tank>*2, [
+	recipes.addShaped("mce_blackhole_tank_"+ mod, <industrialforegoing:black_hole_tank>, [
 		[<industrialforegoing:plastic>, <extracells:storage.component:8>, <industrialforegoing:plastic>],
-		[<mekanism:teleportationcore>, null, <mekanism:teleportationcore>],
-		[frame, <minecraft:nether_star>, frame]
+		[<mekanism:teleportationcore>, frame, <mekanism:teleportationcore>],
+		[null, <minecraft:nether_star>, null]
 	]);
 }
 
