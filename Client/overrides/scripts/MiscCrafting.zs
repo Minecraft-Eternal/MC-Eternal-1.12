@@ -2,12 +2,22 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.recipes.ICraftingInfo;
 import crafttweaker.data.IData;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.player.IPlayer;
+
 import thaumcraft.aspect.CTAspectStack;
 
 import mods.nuclearcraft.alloy_furnace;
 import mods.mekanism.combiner;
 import mods.techreborn.alloySmelter;
+import mods.immersiveengineering.ArcFurnace;
+import mods.thermalexpansion.InductionSmelter;
 import mods.chisel.Carving;
+
+import mods.roots.Mortar;
+import mods.roots.RunicShears;
+import mods.bloodmagic.BloodAltar;
+import mods.naturesaura.AnimalSpawner;
 
 #MC Eternal Scripts
 
