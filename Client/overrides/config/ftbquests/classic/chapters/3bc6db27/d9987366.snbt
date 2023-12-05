@@ -1,18 +1,19 @@
 {
-	x: -1.0d,
-	y: 0.0d,
+	x: -19.5d,
+	y: -2.5d,
 	dependencies: [
-		"3ec9a1db"
+		"54219a72"
 	],
 	tasks: [{
-		uid: "a72d22c9",
+		uid: "dab8f78c",
 		type: "item",
 		items: [{
-			item: "buildcraftcore:marker_volume"
+			id: "buildcraftcore:engine",
+			Damage: 2s
 		}]
 	}],
 	rewards: [{
-		uid: "4e8b5a76",
+		uid: "d7e0b807",
 		type: "ftbmoney:money",
 		ftb_money: 50L
 	}]

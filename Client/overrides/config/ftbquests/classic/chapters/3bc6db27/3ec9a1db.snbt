@@ -1,6 +1,6 @@
 {
-	x: -1.0d,
-	y: 1.0d,
+	x: -18.5d,
+	y: -5.5d,
 	dependencies: [
 		"92144cc8"
 	],
@@ -8,14 +8,14 @@
 		uid: "048e171d",
 		type: "item",
 		items: [{
-			item: "buildcraftbuilders:quarry"
+			id: "buildcraftbuilders:quarry"
 		}]
 	},
 	{
 		uid: "ebbe5e6a",
 		type: "item",
 		items: [{
-			item: "energyconverters:energy_producer_mj"
+			id: "energyconverters:energy_producer_mj"
 		}]
 	}],
 	rewards: [{
@@ -31,6 +31,8 @@
 	{
 		uid: "71210ad9",
 		type: "item",
-		item: "energyconverters:energy_bridge"
+		item: {
+			id: "energyconverters:energy_bridge"
+		}
 	}]
 }

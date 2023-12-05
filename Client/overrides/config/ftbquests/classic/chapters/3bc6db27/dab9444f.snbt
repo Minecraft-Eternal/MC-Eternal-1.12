@@ -1,12 +1,12 @@
 {
-	x: -4.0d,
-	y: 1.0d,
+	x: -21.5d,
+	y: -5.5d,
 	shape: "diamond",
 	tasks: [{
 		uid: "4544d4e5",
 		type: "item",
 		items: [{
-			item: "buildcraftlib:guide"
+			id: "buildcraftlib:guide"
 		}]
 	}],
 	rewards: [{

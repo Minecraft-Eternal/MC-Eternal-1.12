@@ -1,6 +1,6 @@
 {
-	x: -2.0d,
-	y: 3.0d,
+	x: -19.5d,
+	y: -3.5d,
 	dependencies: [
 		"3f12e68a"
 	],
@@ -8,7 +8,7 @@
 		uid: "d80b458b",
 		type: "item",
 		items: [{
-			item: "buildcraftfactory:distiller"
+			id: "buildcraftfactory:distiller"
 		}]
 	}],
 	rewards: [{

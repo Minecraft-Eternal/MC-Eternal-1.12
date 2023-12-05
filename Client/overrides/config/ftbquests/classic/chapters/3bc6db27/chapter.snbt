@@ -91,5 +91,16 @@
 		hover: [],
 		click: "",
 		dev: false
+	},
+	{
+		x: -21.5d,
+		y: -6.5d,
+		width: 0.2d,
+		height: 0.7d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
 	}]
 }
