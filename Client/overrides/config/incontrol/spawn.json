@@ -24,27 +24,6 @@
     "damagemultiply": 11,
     "helditem": ["iceandfire:dread_queen_sword"]
   },
-	 {
-    "mob": "lcrdrfs:laser_creeper",
-	"customname": "Laser Creeper",
-	"healthmultiply": 5,
-    "damagemultiply": 11,
-    "helditem": ["iceandfire:dread_queen_sword"]
-  },
-	 {
-    "mob": "lcrdrfs:robo_dino",
-	"customname": "Robo Dino",
-	"healthmultiply": 50,
-    "damagemultiply": 30,
-    "helditem": ["iceandfire:dread_queen_sword"]
-  },
-	 {
-    "mob": "lcrdrfs:jet_pack_spider",
-	"customname": "Jet Pack Spider",
-	"healthmultiply": 5,
-    "damagemultiply": 10,
-    "helditem": ["iceandfire:dread_queen_sword"]
-  },
   {
     "mob": "iceandfire:dread_ghoul",
 	"customname": "§4Enraged Fleshripper",
@@ -81,6 +60,27 @@
     "damagemultiply": 3,
     "speedmultiply": 0.8,
     "armorhelmet": ["minecraft:iron_helmet", "minecraft:golden_helmet"]
+  },
+{
+    "dimension": [0],
+    "result": "deny",
+    "mob": "lcrdrfs:laser_creeper",
+	  "healthmultiply": 5,
+    "damagemultiply": 11
+  },
+{
+    "dimension": [0],
+    "result": "deny",
+    "mob": "lcrdrfs:robo_dino",
+	  "healthmultiply": 50,
+    "damagemultiply": 30
+  },
+{
+    "dimension": [0],
+    "result": "deny",
+    "mob": "lcrdrfs:jet_pack_spider",
+	  "healthmultiply": 5,
+    "damagemultiply": 10
   },
   {
 	"mob": "atum:assassin",
