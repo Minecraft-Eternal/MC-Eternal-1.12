@@ -1,0 +1,27 @@
+{
+	x: 9.5d,
+	y: 13.5d,
+	dependencies: [
+		"2231d2f1"
+	],
+	tasks: [{
+		uid: "fb27f1e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:holy_water_bottle",
+			tag: {
+				tier: "NORMAL"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c284d847",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

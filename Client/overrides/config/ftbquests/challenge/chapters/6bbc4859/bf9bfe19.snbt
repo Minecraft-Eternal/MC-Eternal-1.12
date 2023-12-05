@@ -1,0 +1,31 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "wct:wct_creative"
+	},
+	x: 0.0d,
+	y: 2.5d,
+	shape: "square",
+	description: "*Unlocked from completing the Introduction chapter*",
+	can_repeat: true,
+	dependencies: [
+		"189d88b6"
+	],
+	tasks: [{
+		uid: "cfd09a79",
+		type: "ftbmoney:money",
+		value: 25000L
+	}],
+	rewards: [{
+		uid: "035f3964",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wct:wct_creative"
+		}
+	}]
+}

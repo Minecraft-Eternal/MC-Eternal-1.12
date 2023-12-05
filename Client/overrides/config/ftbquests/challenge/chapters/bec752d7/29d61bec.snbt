@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: -21.0d,
+	description: "&oThese Constellations are far too Faint to channel enough &r&oStarlight&7&o to have their own effects, but they can atleast &d&oAugment the powers of other Constellations&7&o...",
+	dependencies: [
+		"80ebadbc"
+	],
+	tasks: [{
+		uid: "a2fad5e2",
+		type: "advancement",
+		title: "Find a &5Faint Constellation",
+		icon: "astralsorcery:blockobservatory",
+		advancement: "astralsorcery:find_minor_constellation",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "dfb0a212",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "34ce6429",
+		type: "loot",
+		table: 1
+	}]
+}

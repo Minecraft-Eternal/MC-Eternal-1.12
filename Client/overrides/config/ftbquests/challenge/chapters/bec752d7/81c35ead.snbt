@@ -1,0 +1,28 @@
+{
+	x: 12.5d,
+	y: -1.5d,
+	description: "An essential configuration tool for any Botanist, the main early uses are to bind Flowers to Mana Spreaders, and set a block where a Mana Spreader aims.",
+	dependencies: [
+		"58996ce0"
+	],
+	tasks: [{
+		uid: "42fc262c",
+		type: "item",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e605626",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

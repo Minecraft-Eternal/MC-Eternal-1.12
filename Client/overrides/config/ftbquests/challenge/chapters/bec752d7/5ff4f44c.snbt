@@ -1,0 +1,60 @@
+{
+	title: "&5Thaumonomicon",
+	x: 21.5d,
+	y: 2.0d,
+	shape: "pentagon",
+	description: "Dash some &dSalis Mundus&7 on a &5Bookshelf&7 to begin your journey. &lReading the Thaumonomicon is essential for further steps!",
+	dependencies: [
+		"5edf15e4"
+	],
+	tasks: [{
+		uid: "9af5a901",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c0a697c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5886f607",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "d6a20bb7",
+		type: "item",
+		title: "&5&lSpecial Surprise",
+		icon: "thaumicaugmentation:warded_chest",
+		item: {
+			id: "minecraft:paper",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 0
+				}],
+				display: {
+					Lore: [
+						"§5§§§5§oTo any §d§oNovice Thaumaturge§5 §owho may receive this, If you're not ready to read a bunch, you probably shouldn't be looking here.",
+						"§d§lIf you want some help with Thaumcraft, come stop by the MC Eternal Discord and ask me!"
+					],
+					Name: "§7A Letter from: §5Expert Thaumaturge \"Emperdog\""
+				}
+			}
+		}
+	},
+	{
+		uid: "241ad313",
+		type: "command",
+		title: "&dThis Reward fixes a weird bug (Conflict?) with &5Lost Magic",
+		auto: "enabled",
+		command: "/tc research @p LOSTMAGIC"
+	}]
+}

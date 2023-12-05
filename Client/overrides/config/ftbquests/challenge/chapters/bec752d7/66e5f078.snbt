@@ -1,0 +1,31 @@
+{
+	title: "&5Ancient Awakening",
+	x: 25.5d,
+	y: -11.5d,
+	shape: "hexagon",
+	description: "&oNo Dragons Here&7 *Read Description*",
+	text: [
+		"&7If you did some of the stuff mentioned in &5The Space-Time Noodle&7, and have scanned an &5Ancient Altar&7 found in the world, you should now be able to access the research required to activate those &5Ancient Altars&7, placing a &dVoid Seed&7 atop one will summon one of the Thaumcraft bosses* after a short while.",
+		"&cBEWARE! These bosses are quite a bit stronger than usual!",
+		"&7Why would you want to do this, you ask? The bosses drop &5Primordial Pearls&7, and they're pristine, &68 full uses&7, this is the ideal way to get your first few.",
+		"",
+		"&7*Except the Giant Taintacle, for technical reasons."
+	],
+	dependencies: [
+		"65600fe3"
+	],
+	tasks: [{
+		uid: "ee966548",
+		type: "observation",
+		title: "Gaze at an &5Ancient Altar",
+		icon: "crimsonwarfare:boss_activator",
+		match_type: "block_id",
+		match: "crimsonwarfare:boss_activator",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "ed9a9283",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

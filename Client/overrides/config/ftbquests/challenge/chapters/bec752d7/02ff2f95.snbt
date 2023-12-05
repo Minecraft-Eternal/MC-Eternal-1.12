@@ -1,0 +1,34 @@
+{
+	title: "Vampire Fangs",
+	x: 11.0d,
+	y: 7.0d,
+	shape: "octagon",
+	description: "Infect yourself with Sanguinus Vampiris",
+	tasks: [{
+		uid: "1b20051d",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_fang"
+		}]
+	}],
+	rewards: [{
+		uid: "66c00e1c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a71d3fb0",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "f5874d3c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "guideapi:vampirism-guide"
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: -5.5d,
+	description: "*READ DESCRIPTION, IT'S IMPORTANT*",
+	text: [
+		"It's advised to bring something that can get you back and forth from your Space Station, besides a Rocket, if your Space Station ID Chip is lost, and you have no backup method to travel to your station, it's as good as gone.",
+		"",
+		"A Satellite Builder can copy most Advanced Rocketry Chips, so do take note of that. A Sat builder is a tiny multiblock composed of a Satellite Builder (the block) and a Power Input Plug."
+	],
+	dependencies: [
+		"40210c1c"
+	],
+	tasks: [{
+		uid: "5dc1625f",
+		type: "checkmark",
+		title: "Backups, people, backups."
+	}],
+	rewards: [{
+		uid: "954d7d6a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

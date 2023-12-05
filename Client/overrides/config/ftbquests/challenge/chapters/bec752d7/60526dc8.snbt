@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: 11.0d,
+	dependencies: [
+		"8d155122"
+	],
+	tasks: [{
+		uid: "51ca2355",
+		type: "item",
+		items: [{
+			item: "totemic:drum"
+		}]
+	}],
+	rewards: [{
+		uid: "2fe38e6f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

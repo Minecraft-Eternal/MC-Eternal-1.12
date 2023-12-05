@@ -1,0 +1,40 @@
+{
+	title: "&5Abyssal Efficiency",
+	x: 23.0d,
+	y: -16.0d,
+	shape: "octagon",
+	description: "&5Void Metal Essentia Smelteries&7 are slightly slower than their &5Thaumium&7 cousins, but make up for it by only having &l5% Flux Loss&7!",
+	dependencies: [
+		"90c4a4d8"
+	],
+	tasks: [{
+		uid: "2e658755",
+		type: "item",
+		title: "Void Metal Essentia Smeltery (or better)",
+		icon: {
+			id: "thaumcraft:smelter_void"
+		},
+		items: [{
+			id: "thaumcraft:smelter_void"
+		},
+		{
+			id: "thaumadditions:mithrillium_smelter"
+		},
+		{
+			id: "thaumadditions:adaminite_smelter"
+		},
+		{
+			id: "thaumadditions:mithminite_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "31258434",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "6800cd3f",
+		type: "loot",
+		table: 1
+	}]
+}

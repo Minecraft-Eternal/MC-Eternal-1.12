@@ -1,0 +1,51 @@
+{
+	title: "&5Crystal Farmer&7",
+	x: 25.5d,
+	y: -4.5d,
+	description: "&oGood harvest of Aer this season.&7 *Read Description*",
+	text: [
+		"&7Exactly like the Crystals you find in caves, only you can craft them!",
+		"They'll naturally spread if there's enough &dVis&7 in the Aura, and destroy themselves to replenish &dVis&7 in the Aura, always leaving one crystal.",
+		"",
+		"&6Scan one of the &5Elemental Crystals&6 you find in caves to unlock &dCrystal Farmer&6 research."
+	],
+	dependencies: [
+		"2030380f"
+	],
+	tasks: [{
+		uid: "90f390ab",
+		type: "item",
+		title: "Any Crystal",
+		items: [{
+			item: "thaumcraft:crystal_aer"
+		},
+		{
+			item: "thaumcraft:crystal_ignis"
+		},
+		{
+			item: "thaumcraft:crystal_aqua"
+		},
+		{
+			item: "thaumcraft:crystal_terra"
+		},
+		{
+			item: "thaumcraft:crystal_ordo"
+		},
+		{
+			item: "thaumcraft:crystal_perditio"
+		},
+		{
+			item: "thaumcraft:crystal_vitium"
+		}]
+	}],
+	rewards: [{
+		uid: "73c7f190",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "8c85ef6a",
+		type: "loot",
+		table: 1
+	}]
+}

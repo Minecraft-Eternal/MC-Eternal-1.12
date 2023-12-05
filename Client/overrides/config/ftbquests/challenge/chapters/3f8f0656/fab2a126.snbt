@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: 13.5d,
+	description: "Provides 100 units of \"Infinity Energy\" to a Wireless Crafting Terminal, 10 units are used every 1/2 second to access your ME Network from ANYWHERE!",
+	text: [
+		"&lCan be purchased from the shop for 250 Coins each."
+	],
+	dependencies: [
+		"d7342694"
+	],
+	tasks: [{
+		uid: "ae3a2a7b",
+		type: "item",
+		items: [{
+			item: "ae2wtlib:infinity_booster_card"
+		}]
+	}],
+	rewards: [{
+		uid: "024e0ad1",
+		type: "item",
+		title: "&6Here, have some extras!",
+		item: "ae2wtlib:infinity_booster_card",
+		count: 20
+	}]
+}

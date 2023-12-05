@@ -1,0 +1,21 @@
+{
+	title: "&5Bzzrrrt... Ding!",
+	x: 23.5d,
+	y: -1.0d,
+	description: "A &5Recharge Pedestal&7 will recharge Thaumic trinkets that need &dVis&7 to operate, drawing the &dVis&7 required from the Aura.",
+	dependencies: [
+		"e08b88d7"
+	],
+	tasks: [{
+		uid: "2b65149b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:recharge_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "28a70e39",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

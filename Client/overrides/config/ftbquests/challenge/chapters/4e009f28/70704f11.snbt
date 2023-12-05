@@ -1,0 +1,23 @@
+{
+	x: -18.5d,
+	y: -9.5d,
+	shape: "square",
+	tasks: [{
+		uid: "b764a0a8",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 33"
+		}],
+		count: 15L
+	}],
+	rewards: [{
+		uid: "a3d41b0d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a42654d4",
+		type: "loot",
+		table: 1
+	}]
+}

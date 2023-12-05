@@ -1,0 +1,68 @@
+{
+	title: "Spectral Energy",
+	x: -12.5d,
+	y: 0.5d,
+	description: "Wireless Energy Transfer on a Spectrum! *Read Description*",
+	text: [
+		"Random Things' Spectre Energy system is one of many ways to transfer Energy wirelessly, and in MCE, it's a bit cheaper than usual!",
+		"Simply input Energy into a &6Spectre Energy Injector&r you've placed, and place &6Spectre Coils&r onto blocks or such that accept &cRF/FE power&r!",
+		"",
+		"You can also carry around a &6Spectre Charger&r in order to charge your equipment from your Spectre Energy network!",
+		"Toggle a Spectre Charger by &dSneak+Right-clicking while holding it&r!",
+		"",
+		"&lNote:&r &oany&r Spectre Energy Injectors or Coils &oyou&r place are &dbound to your Spectre network specifically&r, your energy is your own!",
+		"",
+		"&lNote:&r &6Nr. Spectre Coils&r are very special, and unlike others, &dGenerate&r power for free instead of drawing it from your Spectre network!",
+		"You can find more Nr. Spectre Coils in loot!"
+	],
+	tasks: [{
+		uid: "da7ab31c",
+		type: "item",
+		items: [{
+			id: "randomthings:spectreenergyinjector"
+		}]
+	},
+	{
+		uid: "8edf8262",
+		type: "item",
+		title: "Any &6Spectre Coil",
+		items: [{
+			id: "randomthings:spectrecoil_normal"
+		},
+		{
+			id: "randomthings:spectrecoil_redstone"
+		},
+		{
+			id: "randomthings:spectrecoil_ender"
+		}]
+	},
+	{
+		uid: "304468b7",
+		type: "item",
+		title: "Any &6Spectre Charger",
+		items: [{
+			id: "randomthings:spectrecharger"
+		},
+		{
+			id: "randomthings:spectrecharger",
+			Damage: 1s
+		},
+		{
+			id: "randomthings:spectrecharger",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9716af53",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "91971f79",
+		type: "item",
+		item: {
+			id: "randomthings:spectrecoil_number"
+		}
+	}]
+}

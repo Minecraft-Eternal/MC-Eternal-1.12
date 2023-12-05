@@ -1,0 +1,24 @@
+{
+	x: -8.0d,
+	y: -5.0d,
+	dependencies: [
+		"b86b7a71"
+	],
+	tasks: [{
+		uid: "de57f8c5",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:log_weedwood"
+		}]
+	}],
+	rewards: [{
+		uid: "956f316b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0ef7ead2",
+		type: "loot",
+		table: 1
+	}]
+}

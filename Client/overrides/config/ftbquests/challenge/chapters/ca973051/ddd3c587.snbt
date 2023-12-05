@@ -1,0 +1,43 @@
+{
+	title: "Into the Highlands",
+	x: -12.0d,
+	y: -15.5d,
+	description: "&oTales say that below the Highlands of the Twilight Forest, there lie Caverns containing a mythical Artifact, but it is shielded well... Some say the Clouds above hold the key, and that the Caverns also hold the way to the Clouds...",
+	dependencies: [
+		"eaed8a89",
+		"d592428b",
+		"7e91214b"
+	],
+	tasks: [{
+		uid: "7485143d",
+		type: "advancement",
+		title: "Advancement: &eUltimate Showdown",
+		icon: "twilightforest:uberous_soil",
+		advancement: "twilightforest:progress_merge",
+		criterion: ""
+	},
+	{
+		uid: "571a950b",
+		type: "item",
+		items: [{
+			item: "twilightforest:magic_beans"
+		}]
+	},
+	{
+		uid: "9b20033f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:giant_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e96f6553",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

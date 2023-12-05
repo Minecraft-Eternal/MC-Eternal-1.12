@@ -1,0 +1,20 @@
+{
+	title: "News on Nuclear Science",
+	x: 5.5d,
+	y: -0.5d,
+	shape: "gear",
+	description: "NuclearCraft is a pretty complex mod. Need some tutorials? Check out the NuclearCraft Developer's official Youtube and Tutorials! *Repeatable Quest*",
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "8c6258ee",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "9ef9be50",
+		type: "choice",
+		title: "NuclearCraft Tutorial Links",
+		icon: "nuclearcraft:rtg_plutonium",
+		table: 27
+	}]
+}

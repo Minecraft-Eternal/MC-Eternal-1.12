@@ -1,0 +1,32 @@
+{
+	title: "&5Stabilization Field Generator",
+	x: 32.0d,
+	y: -20.0d,
+	description: "&oWeird FE integration&7 *Read Description*",
+	text: [
+		"&5Stability Field Generators&7 will use a good chunk of &4Forge Energy (FE, sometimes known as RF, other times CF, IF, or μI)&7 to stabilize a &5Flux Rift&7 it is aimed at.",
+		"",
+		"The device's activity can be controlled with &cRedstone&7, if powered by &cRedstone&7, it will be paused, if not, it will be active.",
+		"",
+		"While the device can be left always running, funneling so much raw electricity into a device made of Arcane materials is generally not very functional, so &6the impact of stability recovery is minimal if it is left on&7, and also incredibly energy-inefficient, a clever Thaumaturge without any Technological prowess should only enable it when needed, to allow the internal mechanisms to cool down from the electricity.",
+		"",
+		"While a &dTimer&7 of some kind to control it is a good idea on paper, some cases such as the Rift simply being too large, or the Stabilizer it firing shortly before a &dRift's size is increased a large amount by some artifical means that would cause instability&7 may lead to the Rift being allowed to become too big and unstable too quickly, allowing it to collapse, likely into &5Taint&7.",
+		"",
+		"This could probably be used in tandem with a device that can &dMonitor the state of Flux Rifts&7 to make sure that one is returned to pristine stability when it becomes too unstable."
+	],
+	dependencies: [
+		"8dafcaf0"
+	],
+	tasks: [{
+		uid: "c72b9cbc",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:stability_field_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "af4c3891",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

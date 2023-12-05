@@ -1,0 +1,25 @@
+{
+	title: "&5Enhanced Storaurage",
+	x: 26.5d,
+	y: -6.0d,
+	description: "&oNo Acids involved!&7 *Read Description*",
+	text: [
+		"&5Vis Batteries&7 will store 10 &dVis&7 from the Aura inside them, and will discharge when the Aura is at 75% of max Capacity or lower, helping the Aura stay topped up.",
+		"A &cRedstone Signal&7 can be applied to force the Battery to discharge into the Aura immediately."
+	],
+	dependencies: [
+		"794429c7"
+	],
+	tasks: [{
+		uid: "e7aae5c2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:vis_battery"
+		}]
+	}],
+	rewards: [{
+		uid: "8b598f76",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

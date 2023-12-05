@@ -1,0 +1,25 @@
+{
+	x: -5.0d,
+	y: 12.0d,
+	description: "Accesses items stored in an ME Network! And has a Crafting Grid!",
+	dependencies: [
+		"8e9ea584"
+	],
+	tasks: [{
+		uid: "48637645",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	}],
+	rewards: [{
+		uid: "d2fbc0ce",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "f234155d",
+		type: "loot",
+		table: 1
+	}]
+}

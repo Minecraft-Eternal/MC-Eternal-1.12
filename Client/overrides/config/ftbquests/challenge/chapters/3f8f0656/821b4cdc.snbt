@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -8.0d,
+	dependencies: [
+		"4a72129f"
+	],
+	tasks: [{
+		uid: "1b3ce1b4",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "d545a61e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	title: "Bounty: Dread Lich",
+	x: -2.5d,
+	y: -7.0d,
+	shape: "square",
+	description: "Powerful undead necromancer, only spotted in the coldest reaches of the world...",
+	dependencies: [
+		"92efe452"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8b6566e7",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "iceandfire:dread_lich",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "525ca583",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "24060085",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "8511f663",
+		type: "item",
+		item: "minecraft:emerald_block",
+		count: 6
+	},
+	{
+		uid: "3457f0ee",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:lich_staff"
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "&3&lRat Upgrade: Creative",
+	x: 3.2d,
+	y: 2.0d,
+	shape: "octagon",
+	description: "&oThe immortal rat... I've only heard tales of such power...",
+	size: 0.8d,
+	tasks: [{
+		uid: "fe8478d9",
+		type: "item",
+		items: [{
+			item: "rats:rat_upgrade_creative"
+		}]
+	}],
+	rewards: [{
+		uid: "82838911",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "�dExterrestrial Cache"
+				},
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "8aed7942",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	}]
+}

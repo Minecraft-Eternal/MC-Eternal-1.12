@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: 11.0d,
+	description: "Can Copy settings from one ME Device to another! Mainly used to copy P2P Tunnel frequencies.",
+	dependencies: [
+		"8e9ea584"
+	],
+	tasks: [{
+		uid: "8223f850",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:memory_card",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ab84425",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

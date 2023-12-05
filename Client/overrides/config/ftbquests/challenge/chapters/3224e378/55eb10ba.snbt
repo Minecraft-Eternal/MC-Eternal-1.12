@@ -1,0 +1,32 @@
+{
+	x: -8.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "711ad033",
+		type: "kill",
+		title: "&6&lBounty: Black Widow",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:wasp_sword"
+		},
+		entity: "erebus:erebus.black_widow",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "6e3424dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	},
+	{
+		uid: "69ff5a21",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

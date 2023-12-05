@@ -1,0 +1,21 @@
+{
+	x: 15.0d,
+	y: 3.0d,
+	description: "Used to create all kinds of Botania flowers, check out JEI for how to make the various flowers.",
+	dependencies: [
+		"f0e4f52a",
+		"0daa9208"
+	],
+	tasks: [{
+		uid: "a9509a70",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "d53939ca",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

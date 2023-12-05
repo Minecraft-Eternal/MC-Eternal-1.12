@@ -1,0 +1,31 @@
+{
+	title: "&5Seal Copier",
+	x: 22.0d,
+	y: -11.0d,
+	description: "&oCTRL+C CTRL+V&7 *Read Description*",
+	text: [
+		"&5Seal Copiers&7 can read and store a copy of a Control Seal's information into themselves, and write it to another Control Seal of the same type.",
+		"Simply &dRight-click&7 when it's empty to Copy the information, and &dRight-click&7 another seal to write it, &dSneak+Right-click&7 will reset the Copier back to an Empty state."
+	],
+	dependencies: [
+		"f7139a93",
+		"60837889"
+	],
+	tasks: [{
+		uid: "6c56e890",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:seal_copier"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f397470",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

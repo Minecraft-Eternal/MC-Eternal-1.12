@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 9.0d,
+	description: "Applies Color to ME Cables and certain other blocks using Dye or Paint Balls, can clear color with Snowballs.",
+	dependencies: [
+		"8e9ea584"
+	],
+	tasks: [{
+		uid: "562a9d88",
+		type: "item",
+		title: "Color Applicator",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:color_applicator",
+			tag: {
+				internalMaxPower: 20000.0d,
+				internalCurrentPower: 20000.0d
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a7c0b3f9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

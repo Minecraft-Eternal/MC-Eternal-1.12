@@ -1,0 +1,30 @@
+{
+	x: -13.5d,
+	y: -9.0d,
+	description: "&oFortify against attacks! &7&l*Recharge with a normal Golden Apple*",
+	dependencies: [
+		"0647fe18"
+	],
+	tasks: [{
+		uid: "188a9983",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:shield_scepter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "76d0429b",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "90010d85",
+		type: "loot",
+		table: 1
+	}]
+}

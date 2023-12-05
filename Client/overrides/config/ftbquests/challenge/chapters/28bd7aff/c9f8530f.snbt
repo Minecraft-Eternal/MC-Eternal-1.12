@@ -1,0 +1,35 @@
+{
+	x: 0.0d,
+	y: 5.5d,
+	dependencies: [
+		"abe448ce"
+	],
+	tasks: [{
+		uid: "0055e722",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutcitizen"
+		}]
+	}],
+	rewards: [{
+		uid: "dc5ddc37",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "1d3f9f2e",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "94e9ab02",
+		type: "item",
+		item: "harvestcraft:salisburysteakitem",
+		count: 16
+	},
+	{
+		uid: "b8205446",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

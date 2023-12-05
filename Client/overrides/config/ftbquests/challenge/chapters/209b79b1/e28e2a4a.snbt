@@ -1,0 +1,49 @@
+{
+	x: 5.5d,
+	y: -5.0d,
+	shape: "square",
+	description: "A hulking monster made out of tar that resides in tar pits.",
+	dependencies: [
+		"bb3a64b5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "59398b14",
+		type: "kill",
+		title: "Bounty: Tar Beast",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "thebetweenlands:tar_beast",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "8b5c263d",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "a0e1bf3f",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "4079543f",
+		type: "item",
+		item: "minecraft:emerald_block",
+		count: 3
+	},
+	{
+		uid: "99de84bb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

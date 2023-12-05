@@ -1,0 +1,23 @@
+{
+	title: "&5Impulse Cannon: Burst Conversion",
+	x: 29.5d,
+	y: -25.0d,
+	description: "Changes the Impulse Cannon to fire a Three-round burst, each shot in the burst ignores the target's Immunity time.",
+	dependencies: [
+		"a22fa00e"
+	],
+	tasks: [{
+		uid: "a0b81ec9",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:impulse_cannon_augment",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8aec9ccd",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

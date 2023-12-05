@@ -1,0 +1,45 @@
+{
+	x: -1.0d,
+	y: -6.5d,
+	shape: "square",
+	description: "These green, hulking monstrosities are considered an abomination by most. Feared by Villagers, they are capable of knocking around their victims with ease, no matter their size.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8852201"
+	],
+	tasks: [{
+		uid: "fc568a13",
+		type: "kill",
+		title: "Bounty: Giant",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "ancientbeasts:giant_zombie",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "893f5de0",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "b9548cd1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6f454c79",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "midnight:nagrilite_axe"
+		}
+	}]
+}

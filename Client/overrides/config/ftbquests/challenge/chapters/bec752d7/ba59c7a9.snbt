@@ -1,0 +1,41 @@
+{
+	title: "Resonation with Conflicts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {
+				AS_Amulet_HolderLeast: -8851329178942211897L,
+				AS_Amulet_HolderMost: 867781763579201090L
+			}
+		},
+		id: "astralsorcery:itemskyresonator",
+		tag: {
+			astralsorcery: {
+				enhanced: 1b,
+				selected_upgrade: 2,
+				upgrades: [
+					0,
+					1,
+					2
+				]
+			}
+		}
+	},
+	x: 0.5d,
+	y: -18.0d,
+	description: "*Read Description*",
+	text: [
+		"&7&oA &9&oFosic Resonator&7&o enhanced with certain reagents unlocks the power to shift into a &9&oDomic Resonator&7&o, a diagnostics tool that, on &d&oRight-click&7&o of an appropriate block, will visually display &d&oStarlight Cannibalization&7&o and &d&oRitual Radius&7&o to the holder..."
+	],
+	dependencies: [
+		"d5074b4b"
+	],
+	tasks: [{
+		uid: "e11f35ae",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "fe5280f8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

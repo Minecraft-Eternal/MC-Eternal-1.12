@@ -1,0 +1,33 @@
+{
+	title: "&5Arcane Workbench",
+	x: 22.0d,
+	y: 1.0d,
+	description: "&oI have no &9&oMana&7&o and I must &2&oArtifice&7 *Read Description*",
+	text: [
+		"&7Dash &dSalis Mundus&7 onto a &5Crafting Table&7 to create an &5Arcane Workbench&7.",
+		"The &5Arcane Workbench&7 requires &dVis&7 and &dVis Crystals&7 to craft magical items.",
+		"&dVis&7 is drawn from the Aura upon crafting, while the Crystals are inserted into 6 outer slots, one for each &dPrimal Aspect&7, and will sit until spent."
+	],
+	dependencies: [
+		"5ff4f44c"
+	],
+	tasks: [{
+		uid: "661564e3",
+		type: "observation",
+		title: "Look at an &5Arcane Workbench",
+		icon: "thaumcraft:arcane_workbench",
+		match_type: "block_id",
+		match: "thaumcraft:arcane_workbench",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "78d6c987",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5632f169",
+		type: "loot",
+		table: 1
+	}]
+}

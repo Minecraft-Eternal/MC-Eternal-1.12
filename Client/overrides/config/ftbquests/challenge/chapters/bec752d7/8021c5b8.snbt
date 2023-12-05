@@ -1,0 +1,49 @@
+{
+	title: "Reach max level as a vampire hunter",
+	x: 18.0d,
+	y: 12.5d,
+	shape: "octagon",
+	dependencies: [
+		"6931cfe5"
+	],
+	tasks: [{
+		uid: "2a977062",
+		type: "advancement",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:hunter_coat_chest",
+			tag: {
+				tier: "ULTIMATE"
+			}
+		},
+		advancement: "vampirism:hunter/max_level",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "d0e4abaa",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "cd9e98e7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "09640d89",
+		type: "item",
+		item: {
+			id: "vampirism:item_tent",
+			tag: {
+				spawner: 1b
+			}
+		}
+	}]
+}

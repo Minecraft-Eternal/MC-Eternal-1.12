@@ -1,0 +1,19 @@
+{
+	x: -11.0d,
+	y: 2.5d,
+	dependencies: [
+		"ebbb3418"
+	],
+	tasks: [{
+		uid: "3fba88a7",
+		type: "item",
+		items: [{
+			item: "forestry:bee_house"
+		}]
+	}],
+	rewards: [{
+		uid: "6cfc521e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

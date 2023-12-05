@@ -1,0 +1,30 @@
+{
+	title: "&4Divination Sigil",
+	x: 3.5d,
+	y: 18.5d,
+	description: "&oSee into your Soul... Network",
+	text: [
+		"&7The &4Divination Sigil&7 allows the user to see the amount of &cLP&7 stored in their &cSoul Network&7 or a &4Blood Altar&7 with a &cRight-click&7."
+	],
+	dependencies: [
+		"5ac9b4a2",
+		"44e1406a"
+	],
+	tasks: [{
+		uid: "bdb0c0ee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_divination"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "31701b08",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

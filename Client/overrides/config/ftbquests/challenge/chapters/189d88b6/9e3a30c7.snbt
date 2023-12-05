@@ -1,0 +1,48 @@
+{
+	title: "Matrix Enchanting",
+	icon: "minecraft:enchanting_table",
+	x: -11.5d,
+	y: -4.0d,
+	description: "Enchanting might look a little different, an explanation! *Read description*",
+	text: [
+		"&7This modpack has &bQuark's §6Matrix Enchanting§7 system enabled, it's essentially a system that turns enchanting from 100% RNG into reduced RNG and a Puzzle.",
+		"",
+		"To get Enchantments, &9Lapis&7 and &aXP Levels&7 are spent using &d&l+&d Button&7 in the UI.",
+		"Having more &dEnchanting Power&7 (Bookshelves and the like) will increase the maximum amount of pieces you can roll for, it still caps out at 15 Enchanting Power (27 pieces total) by default.",
+		"",
+		"You might notice that you only get &cLevel I pieces&7, you need to &dcombine pieces with the same Enchantment&7 in order to get higher level ones!",
+		"Pieces are combined by placing one onto the Grid, and then clicking it with the one to combine selected.",
+		"&dPieces have different shapes&7, so it may not be best to combine pieces until you're done rolling, to ensure you can fit everything you want.",
+		"",
+		"Unlike vanilla Enchanting, it will hold onto the &9Lapis&7 and Items put into it if the menu is closed.",
+		"Items can also be removed from the Input slot and will keep data related to Matrix Enchanting, allowing you to do any other things you may want before confirming your Enchantments.",
+		"",
+		"You can increase the chance to get certain Enchantments by placing different &dCandles&7 from &bQuark&7 down in valid Enchanting Power locations, &dsee each Candle's Tooltip for what it affects&7.",
+		"The effect Candles have on Matrix Enchanting has been doubled in &5MC Eternal&7, and so has the maximum amount that can help one Enchantment group!",
+		"Other modded Enchantments not normally affected by Candles are also affected!",
+		"",
+		"&8&lBy not reading this, you are claiming responsibility for any damages caused by misunderstanding, Adam Co. is not liable to pay for any damages."
+	],
+	dependencies: [
+		"d22a6b71"
+	],
+	tasks: [{
+		uid: "9234e61d",
+		type: "checkmark",
+		title: "§8Click to Accept the Terms and Conditions"
+	},
+	{
+		uid: "762c0396",
+		type: "observation",
+		title: "§d§lLook at an Enchanting Table, Open your Questbook!",
+		icon: "minecraft:enchanting_table",
+		match_type: "block_id",
+		match: "minecraft:enchanting_table",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "fb43a87e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

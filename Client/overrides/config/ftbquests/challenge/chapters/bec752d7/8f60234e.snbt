@@ -1,0 +1,69 @@
+{
+	title: "&5Molten Magic",
+	x: 22.5d,
+	y: -2.0d,
+	description: "&oCook up some Primordial Soup&7 *Read Description*",
+	text: [
+		"&5Essentia Smelteries&7 break items down into Essentia, similarly to how a &5Crucible&7 does, only that Essentia from a Smeltery is much more useful. ",
+		"However, it is not a perfect process, sometimes a bit of Essentia is lost and converted into &5Flux&7, which leaks into the Aura.",
+		"",
+		"&lA standard Essentia Smeltery has 20% Flux Loss!",
+		"",
+		"&7There are 5 important positions in the Essentia Smeltery's GUI, the &dFuel Meter&7 in the center, the &dFuel Slot&7 below that, and &dInput Slot&7 above that, the &dProgress Meter&7 on the right, and the &dEssentia Capacity&7 bar on the left.",
+		"If the Essentia Capacity of the Smeltery is too full to fit all the Essentia from the item in the Input Slot, it will simply not operate until there is sufficient space.",
+		"",
+		"An Essentia Smeltery &ddoesn't have any special fuel requirements&7, it uses any fuel a Furnace can.",
+		"Lastly, the more Essentia there is in an item, the longer it takes to break down!",
+		"&dPerhaps there is an alchemical fuel that could help break things down faster...&7",
+		"",
+		"The &5Arcane Alembic&7 is placed ontop of the Essentia Smeltery, and is needed to extract the Essentia from the Smeltery.",
+		"Additionally, &dmultiple Arcane Alembics can be stacked ontop of a Smeltery&7, and when the Smeltery runs out of Essentia to transfer to one or it gets full, it will begin sending Essentia to the next Alembic in the stack.",
+		"Each Alembic will only hold one kind of Essentia at a time, and the Smeltery can only send Essentia into one Alembic at a time."
+	],
+	dependencies: [
+		"9cec7878"
+	],
+	tasks: [{
+		uid: "5401bd45",
+		type: "item",
+		title: "Essentia Smelter (or upgraded versions)",
+		icon: {
+			id: "thaumcraft:smelter_basic"
+		},
+		items: [{
+			id: "thaumcraft:smelter_basic"
+		},
+		{
+			id: "thaumcraft:smelter_thaumium"
+		},
+		{
+			id: "thaumcraft:smelter_void"
+		},
+		{
+			id: "thaumadditions:mithrillium_smelter"
+		},
+		{
+			id: "thaumadditions:adaminite_smelter"
+		},
+		{
+			id: "thaumadditions:mithminite_smelter"
+		}]
+	},
+	{
+		uid: "76b8df13",
+		type: "item",
+		items: [{
+			id: "thaumcraft:alembic"
+		}]
+	}],
+	rewards: [{
+		uid: "5b43f648",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "77fe20fe",
+		type: "loot",
+		table: 1
+	}]
+}

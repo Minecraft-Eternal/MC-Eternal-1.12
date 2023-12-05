@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 3.5d,
+	dependencies: [
+		"51dd58b3"
+	],
+	tasks: [{
+		uid: "191f6be2",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockjunction"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "199ee3a9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "94dc8eb6",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Scribing Desk",
+	x: 7.0d,
+	y: -5.0d,
+	description: "Ancient Power at your Fingertips",
+	text: [
+		"After researching a tablet containing an Ancient Spell in the Sphere of Cognizance, you can use the Scribing Desk to recreate the Spell.",
+		"Use some ink sacks, books and other potent materials to restore the spell to its former glory!"
+	],
+	dependencies: [
+		"9ef1b860"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "284c91de",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:scribing_desk"
+		}]
+	}],
+	rewards: [{
+		uid: "186ff79f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

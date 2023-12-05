@@ -1,0 +1,20 @@
+{
+	x: 25.5d,
+	y: 4.5d,
+	description: "Wireless Block Placer that will only place on blocks with a copy in an Item Frame on it!",
+	dependencies: [
+		"f94b896a"
+	],
+	tasks: [{
+		uid: "40644dd9",
+		type: "item",
+		items: [{
+			item: "naturesaura:placer"
+		}]
+	}],
+	rewards: [{
+		uid: "bad333a9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

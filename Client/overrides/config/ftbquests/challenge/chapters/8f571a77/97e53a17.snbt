@@ -1,0 +1,27 @@
+{
+	title: "Diamond x1",
+	icon: "thermalfoundation:material 1 16",
+	x: -6.5d,
+	y: -7.0d,
+	description: "Mining",
+	can_repeat: true,
+	tasks: [{
+		uid: "3cce256b",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "809894dd",
+		type: "item",
+		title: "10 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10L
+			}
+		}
+	}]
+}

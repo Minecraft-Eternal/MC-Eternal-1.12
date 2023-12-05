@@ -1,0 +1,31 @@
+{
+	x: 1.75d,
+	y: 1.05d,
+	description: "&oShiny..... So shiny....",
+	dependencies: [
+		"cac64582"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "9699bbca",
+		type: "item",
+		items: [{
+			item: "atum:fish_jeweled"
+		}]
+	}],
+	rewards: [{
+		uid: "b82a720f",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "87d875a1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

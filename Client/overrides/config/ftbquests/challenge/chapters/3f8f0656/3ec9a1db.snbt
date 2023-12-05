@@ -1,0 +1,36 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	dependencies: [
+		"92144cc8"
+	],
+	tasks: [{
+		uid: "048e171d",
+		type: "item",
+		items: [{
+			item: "buildcraftbuilders:quarry"
+		}]
+	},
+	{
+		uid: "ebbe5e6a",
+		type: "item",
+		items: [{
+			item: "energyconverters:energy_producer_mj"
+		}]
+	}],
+	rewards: [{
+		uid: "4062e09d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c68d08b9",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "71210ad9",
+		type: "item",
+		item: "energyconverters:energy_bridge"
+	}]
+}

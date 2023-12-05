@@ -1,0 +1,42 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	description: "&oWhile you played Minecraft I studied the blade",
+	tasks: [{
+		uid: "3c75fd33",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:lawsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b564b93",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "0be28973",
+		type: "item",
+		item: "rats:creative_cheese"
+	},
+	{
+		uid: "aa1cbbec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "0451262b",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	}]
+}

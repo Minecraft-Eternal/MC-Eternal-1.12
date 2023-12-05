@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: 3.5d,
+	dependencies: [
+		"c9f8530f"
+	],
+	tasks: [{
+		uid: "178e575d",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutfarmer"
+		}]
+	}],
+	rewards: [{
+		uid: "b352d041",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d31db7a3",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "e4620a2a",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

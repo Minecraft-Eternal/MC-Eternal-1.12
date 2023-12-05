@@ -1,0 +1,21 @@
+{
+	title: "&kKowalski&r, Analysis.",
+	x: -15.0d,
+	y: 1.5d,
+	description: "Introduction to Fossils and Archeology",
+	text: [
+		"The Analyzer is used to, shockingly, Analyze various Fossils and Relics! you'll find DNA Samples, Sand, more Sand, and maybe even Broken ancient Figurines!"
+	],
+	tasks: [{
+		uid: "75e89bab",
+		type: "item",
+		items: [{
+			item: "fossil:analyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "0296378c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

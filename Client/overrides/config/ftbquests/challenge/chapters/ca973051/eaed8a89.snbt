@@ -1,0 +1,75 @@
+{
+	title: "The Snow Queen",
+	x: -10.0d,
+	y: -14.0d,
+	shape: "diamond",
+	description: "&oIn the heart of the great Glaciers of the Twilight Forest's coldest region, a Tower as beatiful as an Aurora lies... What could possibly be within?",
+	dependencies: [
+		"d233564c"
+	],
+	tasks: [{
+		uid: "6c74d970",
+		type: "advancement",
+		title: "Advancement: &eClear Skies",
+		icon: "twilightforest:trophy 1 5",
+		advancement: "twilightforest:progress_glacier",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "37aeeefb",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "558c8b6b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "c548e5dd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:ender_bow",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				}],
+				display: {
+					Lore: [
+						"Filled to the brim with powerful End magic...",
+						"§6Hits hard, but at what cost?",
+						"§dExclusive Twilight Relic"
+					],
+					Name: "§d§lBow of Ender Exchange"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 43294,
+					UUIDLeast: 5475544,
+					Amount: 0.35d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 1,
+					Name: "Ender Swiftness"
+				},
+				{
+					UUIDMost: 43294,
+					UUIDLeast: 5475544,
+					Amount: 2,
+					Slot: "mainhand",
+					AttributeName: "potioncore.projectileDamage",
+					Operation: 1,
+					Name: "Ender Force"
+				}]
+			}
+		}
+	}]
+}

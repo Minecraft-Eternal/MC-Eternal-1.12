@@ -1,0 +1,31 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "2f1a728b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:ice_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ae60a09",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "fe376c59",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

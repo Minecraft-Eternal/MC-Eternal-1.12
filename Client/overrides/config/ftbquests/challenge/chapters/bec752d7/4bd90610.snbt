@@ -1,0 +1,55 @@
+{
+	title: "&4Demonic Runes",
+	x: 3.5d,
+	y: 25.0d,
+	description: "&oRunes, but better.",
+	text: [
+		"&4Augmented Capacity&7 Runes add a &cStacking 10% Capacity Bonus&7 to the &4Blood Altar's&7 Main Tank.",
+		"This Bonus, like other Stacking bonuses, can absolutely snowball at higher amounts.",
+		"&cAugmented Capacity Runes&7 do not take the effect of &cCapacity Runes&7 into account!",
+		"",
+		"&4Orb&7 Runes allow the &4Blood Altar&7 to force extra LP into a Soul Network, 2% of inserted &cBlood Orb's&7 Limit per Rune.",
+		"&cNo Blood Orbs are consumed in the making of Runes of the Orb!",
+		"",
+		"&4Acceleration&7 Runes reduce the delay between Transfers between the Main and Hidden I/O Tanks of the Blood Altar by &61 Tick&7 per Rune.",
+		"Acceleration runes effectively &6do nothing past 19 on a single Altar.&7",
+		"",
+		"&4Charging&7 Runes allow the &4Blood Altar&7 to store \"Charge\" by expending LP, which is instantly discharged when adding an Item to Infuse LP into the Altar, providing the Potential for lightning-fast LP Infusion."
+	],
+	dependencies: [
+		"a2f883f9"
+	],
+	tasks: [{
+		uid: "0d0f95b6",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 7"
+		}]
+	},
+	{
+		uid: "4b76205c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 8"
+		}]
+	},
+	{
+		uid: "8866620d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 9"
+		}]
+	},
+	{
+		uid: "9472a5e7",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "9c1c9c51",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	description: "By placing this artifact in my hotbar, it will summon the nightmarish creature from the horrible dream you found yourself enduring, what is the difference between what's real and what isn't &k2&r &cI fear my dreams may be more real than I thought...",
+	dependencies: [
+		"03bf751d"
+	],
+	tasks: [{
+		uid: "fb196f9e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:dreamcatcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "377f94bb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "4cf8acc7",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "479563e5",
+		type: "item",
+		item: "bewitchment:box_of_sealed_evil"
+	}]
+}

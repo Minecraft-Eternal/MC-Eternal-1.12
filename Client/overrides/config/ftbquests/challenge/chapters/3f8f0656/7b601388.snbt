@@ -1,0 +1,34 @@
+{
+	x: 13.5d,
+	y: 6.0d,
+	description: "Machines that crafts items using mob drops/souls",
+	dependencies: [
+		"05a41235"
+	],
+	tasks: [{
+		uid: "5e8fbe8e",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c9998f87",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3c93ce7f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "4697b506",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,133 @@
+{
+	title: "Something smells fishy!",
+	x: 7.0d,
+	y: -2.0d,
+	text: [
+		"Raw fish can be smelted in a furnace to create cooked fish except Calamari, Clam, Crab, Crayfish, Frog, Octopus, Scallop, Shrimp, Snail and Turtles."
+	],
+	dependencies: [
+		"281d36be"
+	],
+	tasks: [{
+		uid: "89c9b11d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:anchovyrawitem"
+		}]
+	},
+	{
+		uid: "394ef619",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bassrawitem"
+		}]
+	},
+	{
+		uid: "3ef5f0e8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:calamarirawitem"
+		}]
+	},
+	{
+		uid: "51925d6c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:catfishrawitem"
+		}]
+	},
+	{
+		uid: "259a1d38",
+		type: "item",
+		items: [{
+			item: "harvestcraft:charrrawitem"
+		}]
+	},
+	{
+		uid: "67880249",
+		type: "item",
+		items: [{
+			item: "harvestcraft:grouperrawitem"
+		}]
+	},
+	{
+		uid: "16ad1828",
+		type: "item",
+		items: [{
+			item: "harvestcraft:herringrawitem"
+		}]
+	},
+	{
+		uid: "0d3dc160",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mudfishrawitem"
+		}]
+	},
+	{
+		uid: "ec7444e5",
+		type: "item",
+		items: [{
+			item: "harvestcraft:octopusrawitem"
+		}]
+	},
+	{
+		uid: "ec95ed5b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:perchrawitem"
+		}]
+	},
+	{
+		uid: "b6e25810",
+		type: "item",
+		items: [{
+			item: "harvestcraft:snapperrawitem"
+		}]
+	},
+	{
+		uid: "1dac7dfc",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tilapiarawitem"
+		}]
+	},
+	{
+		uid: "6aea51f0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:troutrawitem"
+		}]
+	},
+	{
+		uid: "728aa059",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tunarawitem"
+		}]
+	},
+	{
+		uid: "a07a464e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:walleyerawitem"
+		}]
+	},
+	{
+		uid: "6d2b1453",
+		type: "item",
+		items: [{
+			item: "harvestcraft:greenheartfishitem"
+		}]
+	}],
+	rewards: [{
+		uid: "75a4e3ed",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "35f9d1a8",
+		type: "loot",
+		table: 1
+	}]
+}

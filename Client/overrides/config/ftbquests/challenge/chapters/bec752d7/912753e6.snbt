@@ -1,0 +1,26 @@
+{
+	title: "&5Flux Inducer",
+	x: 31.0d,
+	y: -23.5d,
+	description: "&oV=RM^2&7 *Read Description*",
+	text: [
+		"&7A &5Flux Inducer&7 will use &5Vitium&7 Essentia to generate &5Flux&7 on the spot, however, it contains the Flux and transmits it directly to a &5Flux Rift&7 infront of it. Rifts do not like this process of being Force-Fed, so &cwhen a Rift is fed by this device, will become more Unstable&7, opposite to what normally occurs.",
+		"",
+		"This could probably be used in tandem with a device that &dMonitors the state of Flux Rifts&7 to prevent the Inducer from causing a Rift to become too Large, or too Unstable too quickly."
+	],
+	dependencies: [
+		"8dafcaf0"
+	],
+	tasks: [{
+		uid: "d2f7720b",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:rift_feeder"
+		}]
+	}],
+	rewards: [{
+		uid: "8c384861",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

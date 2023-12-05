@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: 3.5d,
+	dependencies: [
+		"e516859e"
+	],
+	tasks: [{
+		uid: "18cc3f8a",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "dfa37aa7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

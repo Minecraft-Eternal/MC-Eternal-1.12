@@ -1,0 +1,40 @@
+{
+	x: -0.5d,
+	y: 2.0d,
+	description: "&8&oDrains the life from victims, leaves behind empty lifeless husks. In most circles of the world a weapon fueled by such dark magic would be forbidden, One should be careful wielding such a weapon or you too may fall prey to its corrupting power.",
+	dependencies: [
+		"ad9ad2ba"
+	],
+	tasks: [{
+		uid: "d3d13169",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:reapers_scythe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "810dd9a2",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "43aafc17",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "dc2db6c9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

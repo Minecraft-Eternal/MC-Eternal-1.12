@@ -1,0 +1,27 @@
+{
+	title: "Redstone x1",
+	x: -9.5d,
+	y: -7.0d,
+	description: "Mining",
+	can_repeat: true,
+	tasks: [{
+		uid: "12a6f92e",
+		type: "item",
+		icon: "jaopca:item_dusttinyredstone",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}],
+	rewards: [{
+		uid: "32d535a1",
+		type: "item",
+		title: "1 Currency",
+		auto: "no_toast",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 1L
+			}
+		}
+	}]
+}

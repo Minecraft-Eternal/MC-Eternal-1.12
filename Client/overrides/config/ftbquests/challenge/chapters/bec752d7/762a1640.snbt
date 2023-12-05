@@ -1,0 +1,98 @@
+{
+	title: "&4Imbued Sigils",
+	x: 3.0d,
+	y: 22.5d,
+	description: "&oA Light of Elemental Affinity and Magnetism, Holding Claws",
+	text: [
+		"&7See &4\"Reinforced Sigils\"&7 for basic information on &c\"Ability Sigils\"&7.",
+		"",
+		"The &4Sigil of the Blood Lamp&7 can place and fire &4Blood Lights&7,the Projectile it fires can also deal weak Damage, and start Fires nearby if it deals damage.",
+		"",
+		"The &4Sigil of Elemental Affinity&7 grants the user &cWater Breathing&7, &cFire Resistance&7, and &cImmunity to Fall Damage&7 when &cActivated&7.",
+		"",
+		"The &4Sigil of Magnetism&7 increases your &cItem Grab Range&7 when &cActivated&7.",
+		"",
+		"The &4Sigil of Holding&7 holds up to 5 other &cSigils&7 inside of it, and can &cActivate&7 them or use their powers.",
+		"&cSneak+Scroll&7 to change selected Sigil, use Keybind \"Open Sigil of Holding\" to open Sigil Storage.",
+		"",
+		"The &4Sigil of the Claw&7 grants the user &cClinging&7 when &cActivated&7, allowing them to Cling to walls as if they were Sneaking on a Ladder."
+	],
+	dependencies: [
+		"5ac9b4a2",
+		"1ce0126f"
+	],
+	tasks: [{
+		uid: "df528cd2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_blood_light",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "42647e53",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_elemental_affinity",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "74d33365",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_magnetism",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f294d565",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_holding"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3e614965",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_claw",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae7ed74e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "bbe2be36",
+		type: "loot",
+		table: 1
+	}]
+}

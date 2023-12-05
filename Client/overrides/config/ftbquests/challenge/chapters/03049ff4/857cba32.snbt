@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "70b69d1b",
+		type: "stat",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {
+					FluidName: "xu_enchanted_metal",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		stat: "stat.itemEnchanted",
+		value: 500
+	}],
+	rewards: [{
+		uid: "4d19db6f",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "4d13a67d",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	}]
+}

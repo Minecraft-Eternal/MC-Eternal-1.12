@@ -1,0 +1,52 @@
+{
+	title: "&5Additional Jars",
+	x: 27.0d,
+	y: -3.0d,
+	description: "&oTheir Capacity level is over 1000!!&7 *Read Description*",
+	text: [
+		"&dThaumic Additions' &5Jars&7 hold extra Essentia, but unfortunately have a couple downsides due to technical reasons, namely you cannot put &5Brass Lid Braces&7 onto them.",
+		"",
+		"Unfortunately, &dwhen crafting these various Jars&7, &cthe contents and Label of the Jar used in the recipe are lost&7, so it's advised to empty them and take off the Label before upgrading them.",
+		"",
+		"Lastly, one variant, the &4Adaminite Jar&7, &cshould not be filled to 90% or greater capacity with &5Vitium&c Essentia&7, Adaminite cannot quite take the sheer pressure caused by the extreme density of what is effectively &5Flux&7.",
+		"&cIf this condition is not respected, the Jar will likely burst after a while and release all the &5Vitium&c into the Aura as &5Flux&7."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8a0931d"
+	],
+	tasks: [{
+		uid: "6fc87a7a",
+		type: "item",
+		title: "Any &dThaumic Additions Jar",
+		items: [{
+			item: "thaumadditions:jar_brass"
+		},
+		{
+			item: "thaumadditions:jar_thaumium"
+		},
+		{
+			item: "thaumadditions:jar_eldritch"
+		},
+		{
+			item: "thaumadditions:jar_mithrillium"
+		},
+		{
+			item: "thaumadditions:jar_adaminite"
+		},
+		{
+			item: "thaumadditions:jar_mithminite"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "307362d0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "44e0bfd7",
+		type: "loot",
+		table: 1
+	}]
+}

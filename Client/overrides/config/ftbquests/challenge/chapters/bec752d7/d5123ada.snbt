@@ -1,0 +1,29 @@
+{
+	title: "&5Sanitizing Soap",
+	x: 18.5d,
+	y: 0.5d,
+	description: "&o...Body Aching&7 *Read Description*",
+	text: [
+		"&5Sanitizing Soap&7 can be scrubbed all over yourself by holding &dRight-click&7 for a little while, when it finishes, it will remove &d1 point&7 of &5\"Sticky\" Warp&7 from you, and also remove all &dTemporary Warp&7 you have at the time!",
+		"No need to release! The Soap will be automatically used up after a while and perform its effect.",
+		"",
+		"Sanitizing Soap is also more effective if you have &dWarp Ward&7, and are standing in &dPurifying Fluid&7, both bonuses apply separately, each knocking an extra point of &5\"Sticky\" Warp&7 off of you when using the Soap in the proper conditions.",
+		"",
+		"When delving into &5Eldritch research&7, it is advised to be ready to make many of these."
+	],
+	dependencies: [
+		"53c7a7f8"
+	],
+	tasks: [{
+		uid: "543befdc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:sanity_soap"
+		}]
+	}],
+	rewards: [{
+		uid: "8365c0fb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

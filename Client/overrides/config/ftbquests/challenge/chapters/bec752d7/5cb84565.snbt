@@ -1,0 +1,25 @@
+{
+	x: 13.5d,
+	y: 15.0d,
+	dependencies: [
+		"0094001a"
+	],
+	tasks: [{
+		uid: "d91c832b",
+		type: "item",
+		items: [{
+			item: "vampirism:item_alchemical_fire"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "fed0d2fa",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "b1b6a86c",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "&5I Cast Thaumaturgy!",
+	x: 25.5d,
+	y: -2.5d,
+	description: "A &5Caster's Gauntlet&7 is used to channel the power of Foci and activate an Infusion Altar, along with some other uses.",
+	dependencies: [
+		"b6d6a588"
+	],
+	tasks: [{
+		uid: "8902019e",
+		type: "item",
+		title: "Caster's Gauntlet (or alternate versions)",
+		icon: {
+			id: "thaumcraft:caster_basic"
+		},
+		items: [{
+			id: "thaumcraft:caster_basic"
+		},
+		{
+			id: "thaumicaugmentation:gauntlet",
+			tag: {
+				color: 8022208
+			}
+		},
+		{
+			id: "thaumicaugmentation:gauntlet",
+			tag: {
+				color: 2498903
+			},
+			Damage: 1s
+		},
+		{
+			id: "thaumicperiphery:caster_elementium"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "71120385",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

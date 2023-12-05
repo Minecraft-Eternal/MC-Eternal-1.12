@@ -1,0 +1,20 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	description: "Placed in the wall of a Fission Reactor, acts as a remote Access to the Reactor's controller.",
+	dependencies: [
+		"d256da0e"
+	],
+	tasks: [{
+		uid: "142e1eb9",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_port"
+		}]
+	}],
+	rewards: [{
+		uid: "4a77d7f5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Impending darkness",
+	x: -13.0d,
+	y: -1.5d,
+	description: "When night comes you will soon notice hope, light and everything holy has forsaken you.",
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "d42716e4",
+		type: "item",
+		items: [{
+			item: "tconstruct:stone_torch"
+		}],
+		count: 8L
+	},
+	{
+		uid: "c3987b24",
+		type: "item",
+		items: [{
+			item: "futuremc:lantern"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "dd07bc99",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "cba4526f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cheesy_cache"
+			}
+		}
+	}]
+}

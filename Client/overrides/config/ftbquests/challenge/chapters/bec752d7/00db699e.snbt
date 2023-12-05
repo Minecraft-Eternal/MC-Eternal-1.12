@@ -1,0 +1,29 @@
+{
+	title: "&4Binding Reagent",
+	x: -1.0d,
+	y: 22.0d,
+	description: "&oA Matter of Binding",
+	text: [
+		"&4Binding Reagent&7 is used on &cAlchemy Arrays&7 to create &4Binding Arrays&7, a form of Alchemy Array with a fancy look, and some particularly important things it can create..."
+	],
+	dependencies: [
+		"393c6058"
+	],
+	tasks: [{
+		uid: "51706b3f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "e69b0192",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "d18235ea",
+		type: "item",
+		item: "bloodmagic:component 1 8"
+	}]
+}

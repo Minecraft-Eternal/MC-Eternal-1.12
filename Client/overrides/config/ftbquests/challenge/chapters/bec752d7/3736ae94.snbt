@@ -1,0 +1,50 @@
+{
+	title: "&4Master Blood Orb",
+	x: 0.0d,
+	y: 27.0d,
+	description: "&oBigger Blood Bank",
+	text: [
+		"&7Even BIGGER Capacity, Even MORE Recipes."
+	],
+	dependencies: [
+		"a2f883f9"
+	],
+	tasks: [{
+		uid: "8c46b6db",
+		type: "item",
+		title: "&4Master Blood Orb&r (or Better)",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:master"
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:master"
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "57b9741c",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

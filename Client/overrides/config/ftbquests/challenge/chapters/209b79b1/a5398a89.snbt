@@ -1,0 +1,45 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "twilightforest:knightmetal_sword"
+	},
+	x: 7.0d,
+	y: -3.0d,
+	shape: "square",
+	description: "King Spiders can only be found in the Dark Forest and the first sign of them is usually their red eyes glowing in the darkness. They are found with a Skeleton Druid riding on their back, making them a formidable foe to deal with.",
+	dependencies: [
+		"7675bc69"
+	],
+	hide: true,
+	tasks: [{
+		uid: "db7ad5e4",
+		type: "kill",
+		title: "Bounty: King Spider",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "twilightforest:king_spider",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "2d0f9a48",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "5f255a8c",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "ea9a3219",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 8
+	}]
+}

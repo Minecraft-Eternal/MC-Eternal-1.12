@@ -1,0 +1,51 @@
+{
+	title: "&5Slightly Cheaper",
+	x: 25.0d,
+	y: 0.0d,
+	description: "&dVis&7 Cost too high? Toss on your robes!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3c6d03b6"
+	],
+	tasks: [{
+		uid: "7eb38fac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:cloth_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c5ed2eec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:cloth_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "efa4a943",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:cloth_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2eaffcb4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 19.5d,
+	y: 9.0d,
+	description: "Able to transfer item/fluid/power wirelessly and across dimensions",
+	dependencies: [
+		"b7053578"
+	],
+	tasks: [{
+		uid: "4c96eb4d",
+		type: "item",
+		items: [{
+			item: "enderio:block_transceiver"
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b01415a7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f2d047a7",
+		type: "loot",
+		table: 1
+	}]
+}

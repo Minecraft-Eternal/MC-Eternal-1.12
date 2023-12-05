@@ -1,0 +1,33 @@
+{
+	x: 19.0d,
+	y: 13.5d,
+	dependencies: [
+		"6931cfe5"
+	],
+	tasks: [{
+		uid: "4bd45a1f",
+		type: "item",
+		title: "§bHunter Axe - Special",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:hunter_axe",
+			tag: {
+				tier: "ULTIMATE"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "7be4b32f",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "068b7d11",
+		type: "loot",
+		table: 1
+	}]
+}

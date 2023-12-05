@@ -1,0 +1,27 @@
+{
+	title: "The Cleanup Crew!",
+	x: 10.5d,
+	y: 0.5d,
+	description: "Create and use radiation scrubbers to clean up radioactivity",
+	dependencies: [
+		"67b8dca3"
+	],
+	tasks: [{
+		uid: "5bfbf09b",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:radiation_scrubber"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a56938f4",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "2cf6c65c",
+		type: "loot",
+		table: 1
+	}]
+}

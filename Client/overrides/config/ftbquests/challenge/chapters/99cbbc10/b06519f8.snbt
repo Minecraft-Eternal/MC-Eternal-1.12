@@ -1,0 +1,75 @@
+{
+	title: "Traps and Bait",
+	x: 6.0d,
+	y: 1.0d,
+	description: "To use the Ground Trap, place the crafted trap in the ground touching at least one grass block on each side of the trap. Same for water trap but ground must be water.",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "30227c9d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:groundtrap"
+		}]
+	},
+	{
+		uid: "25bbaf67",
+		type: "item",
+		items: [{
+			item: "harvestcraft:watertrap"
+		}]
+	},
+	{
+		uid: "a4f04f22",
+		type: "item",
+		items: [{
+			item: "harvestcraft:fruitbaititem"
+		}],
+		count: 16L
+	},
+	{
+		uid: "e21f9ce7",
+		type: "item",
+		items: [{
+			item: "harvestcraft:grainbaititem"
+		}],
+		count: 16L
+	},
+	{
+		uid: "e3059816",
+		type: "item",
+		items: [{
+			item: "harvestcraft:veggiebaititem"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ab919526",
+		type: "item",
+		items: [{
+			item: "harvestcraft:fishtrapbaititem"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9ad5b187",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:tool.fishing_rod_diamond"
+		}
+	},
+	{
+		uid: "acc7751a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e135af37",
+		type: "loot",
+		table: 1
+	}]
+}

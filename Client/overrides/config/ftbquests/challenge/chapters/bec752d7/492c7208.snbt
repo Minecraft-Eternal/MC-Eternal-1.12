@@ -1,0 +1,29 @@
+{
+	title: "&5Shadow Enchanter",
+	x: 29.5d,
+	y: -9.5d,
+	description: "&oEnchanting in a new Dark!&7 *Read Description*",
+	text: [
+		"&7The &5Shadow Enchanter&7 is a device which conjures &dEnchantments&7 directly onto tools and other objects that accept them, using Essentia that relates to the properties of the selected &dEnchantments&7 to make sure the job is done properly."
+	],
+	dependencies: [
+		"b00081a8"
+	],
+	tasks: [{
+		uid: "f8f4e4d1",
+		type: "item",
+		items: [{
+			item: "thaumadditions:shadow_enchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "38ba490f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "207b9e2b",
+		type: "loot",
+		table: 1
+	}]
+}

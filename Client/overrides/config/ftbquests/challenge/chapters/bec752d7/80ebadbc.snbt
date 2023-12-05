@@ -1,0 +1,21 @@
+{
+	title: "Perfect Perception",
+	x: 0.0d,
+	y: -21.5d,
+	description: "&oThe &9&oObservatory&7&o can perceive the faintest of Stars, it returns to the method of usage the &9&oLooking Glass&7&o used, for precision... One may find a &9&oTelescope&7&o still useful to see what Constellations are out on a given Night...",
+	dependencies: [
+		"d6707898"
+	],
+	tasks: [{
+		uid: "57e860a2",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockobservatory"
+		}]
+	}],
+	rewards: [{
+		uid: "4d4830dc",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

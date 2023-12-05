@@ -1,0 +1,26 @@
+{
+	x: 18.0d,
+	y: -2.5d,
+	description: "Pocket Mana Spreader! *Read the Lexica Botania for more Info*",
+	dependencies: [
+		"5b6ca5ea"
+	],
+	tasks: [{
+		uid: "5f1fab09",
+		type: "item",
+		items: [{
+			id: "botania:managun",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6cc26f15",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

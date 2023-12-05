@@ -1,0 +1,38 @@
+{
+	title: "&4Sentient Armory",
+	x: -2.0d,
+	y: 17.0d,
+	description: "&oMind of its Own",
+	text: [
+		"&7The &4Sentient Armour Gem&7 can be used to equip &bSentient Armor&7 to yourself.",
+		"",
+		"On activation, your Equipped armor will transform into &bSentient Armor&7, passing over Enchantments.",
+		"Deactivating the Armour Gem will revert your Armor back to exactly how it was before transformation.",
+		"",
+		"&bWill&7 is consumed every time the Armor takes Damage, should you run out, it will automatically revert.",
+		"",
+		"Akin to &bSentient Tools&7, it empowers based on how much &bDemonic Will&7 you have on you.",
+		"",
+		"&cFurther progression into the Bloody arts may allow for &4Alterations&c to the powers of this Armor..."
+	],
+	dependencies: [
+		"959c9446"
+	],
+	tasks: [{
+		uid: "71c8cb66",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sentient_armour_gem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0aac3add",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

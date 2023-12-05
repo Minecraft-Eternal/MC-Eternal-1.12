@@ -1,0 +1,34 @@
+{
+	title: "Zzzzz",
+	x: -14.5d,
+	y: -1.5d,
+	description: "/sethome allows for fast travel back to your cozy home!",
+	text: [
+		"/home to warp home"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "00fa1d66",
+		type: "item",
+		items: [{
+			item: "minecraft:bed"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7f815bb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "cf191dde",
+		type: "choice",
+		icon: "stupidthings:balloon 1 6",
+		table: 9
+	}]
+}

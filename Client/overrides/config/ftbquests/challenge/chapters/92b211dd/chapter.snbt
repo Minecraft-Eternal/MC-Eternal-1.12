@@ -1,0 +1,21 @@
+{
+	title: "{mce.questing.chapter.space_exploration.name}",
+	icon: "extrautils2:ingredients 1 5",
+	description: [
+		"{mce.questing.chapter.space_exploration.hover}"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "octagon",
+	images: [{
+		x: 0.0d,
+		y: -1.0d,
+		width: 0.3d,
+		height: 0.9d,
+		rotation: 0.0d,
+		image: "assets:quest.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Not great, not terrible",
+	x: -15.0d,
+	y: -0.5d,
+	description: "Discover a radioactive wasteland",
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "029828b1",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:glowing_mushroom"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "6512b477",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				display: {
+					Name: "Anti-Radiation StrongBox"
+				},
+				type: "anti_radiation_box"
+			}
+		}
+	},
+	{
+		uid: "4f808cc0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -3.0d,
+	y: 5.0d,
+	dependencies: [
+		"d9987366"
+	],
+	tasks: [{
+		uid: "1b09a8d7",
+		type: "item",
+		items: [{
+			id: "minecraft:water_bucket"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "ca51df2f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

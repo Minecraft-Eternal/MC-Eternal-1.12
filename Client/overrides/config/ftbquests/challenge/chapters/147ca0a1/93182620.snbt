@@ -1,0 +1,32 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	description: "&oBe extra careful while exploring, last thing you'd want to do is upset some ancient angry undead ghost or something",
+	dependencies: [
+		"99a4bfed"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "a6834200",
+		type: "advancement",
+		title: "Uncover an ancient Pyramid",
+		icon: "atum:khnumite_face",
+		advancement: "",
+		criterion: "atum:core/pyramidscheme"
+	}],
+	rewards: [{
+		uid: "c427c12c",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "01a82960",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "extraterrestrial_cache"
+			}
+		}
+	}]
+}

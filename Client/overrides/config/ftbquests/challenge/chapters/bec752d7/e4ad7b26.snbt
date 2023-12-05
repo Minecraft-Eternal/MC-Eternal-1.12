@@ -1,0 +1,37 @@
+{
+	title: "&4Living Armour Training Bracelet",
+	x: -1.5d,
+	y: 26.0d,
+	description: "&oTraining Montage",
+	text: [
+		"&4Living Armour Training Bracelets&7 allow you to filter what &6Upgrades&7 your &4Living Armor&7 is allowed to Train.",
+		"",
+		"To set the &6Upgrade&7 to Train, combine the Bracelet with an &4Upgrade Tome&7 of the desired Upgrade at an &cAnvil&7.",
+		"Afterwards, simply carry the Bracelet(s) with you, and only the &6Upgrade(s)&7 they have set will be Trained."
+	],
+	dependencies: [
+		"3736ae94",
+		"c50f41bc"
+	],
+	tasks: [{
+		uid: "0ccacefe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:upgrade_trainer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b9c602fb",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "f04ab4f2",
+		type: "loot",
+		table: 1
+	}]
+}

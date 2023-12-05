@@ -1,0 +1,60 @@
+{
+	x: -5.5d,
+	y: 11.0d,
+	description: "Holds ME Storage Cells, AE's native form of Item Storage",
+	dependencies: [
+		"8e9ea584"
+	],
+	tasks: [{
+		uid: "703a5dcd",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	},
+	{
+		uid: "58de6561",
+		type: "item",
+		title: "Any &6ME Storage Cell",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5cc1cff6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "d47c65e7",
+		type: "loot",
+		table: 1
+	}]
+}

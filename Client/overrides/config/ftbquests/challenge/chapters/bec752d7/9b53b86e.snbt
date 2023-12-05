@@ -1,0 +1,32 @@
+{
+	title: "&5Power of Mithril!",
+	x: 30.0d,
+	y: -11.0d,
+	description: "Faster than &5Thaumium&7 and &5Void Metal&7 Smelteries, and has &l0% Flux Loss&7!",
+	dependencies: [
+		"b00081a8",
+		"2e658755"
+	],
+	tasks: [{
+		uid: "898adb08",
+		type: "item",
+		title: "Mithrillium Smeltery (or better)",
+		icon: {
+			id: "thaumadditions:mithrillium_smelter"
+		},
+		items: [{
+			id: "thaumadditions:mithrillium_smelter"
+		},
+		{
+			id: "thaumadditions:adaminite_smelter"
+		},
+		{
+			id: "thaumadditions:mithminite_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "37dd7c8d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

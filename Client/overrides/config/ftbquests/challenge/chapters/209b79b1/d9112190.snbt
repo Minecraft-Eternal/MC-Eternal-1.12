@@ -1,0 +1,59 @@
+{
+	title: "Bounty: Naga",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "twilightforest:knightmetal_sword"
+	},
+	x: -1.0d,
+	y: -8.0d,
+	shape: "square",
+	description: "Coastal cliffs are dangerous places. Adventurers tell of winged serpents called nagas with impressive speed and menacing acid venom. Though these drakes are powerful, a well-placed arrow can knock a naga right out of the sky",
+	text: [
+		"Naga acid is deadly, but can actually be used to neutralize other poisons. The fangs they drop upon death can be used to brew poison antidotes and preventatives."
+	],
+	dependencies: [
+		"37a80b0e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6cdc1768",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "mowziesmobs:naga",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "3aa72784",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "68f5c87d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "5790d84d",
+		type: "item",
+		item: "minecraft:emerald_block",
+		count: 2
+	},
+	{
+		uid: "6439ebd7",
+		type: "item",
+		item: "mowziesmobs:naga_fang",
+		count: 3
+	}]
+}

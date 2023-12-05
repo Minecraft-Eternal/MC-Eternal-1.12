@@ -1,0 +1,33 @@
+{
+	title: "&5Thaumostatic Harness",
+	x: 27.0d,
+	y: -7.0d,
+	description: "&oHitching a ride on the Aura&7 *Read Description*",
+	text: [
+		"&7A &5Thaumostatic Harness&7 can use &dVis&7 to allow the wearer to fly through the Air! It burns through &dVis&7 quite quickly, and can't be recharged when in Flight.",
+		"",
+		"&6You'll need to visit &8The End&6 to complete the Research."
+	],
+	dependencies: [
+		"2030380f"
+	],
+	tasks: [{
+		uid: "81c70ee8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					slots: 1
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:thaumostatic_harness"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9bb46e4e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

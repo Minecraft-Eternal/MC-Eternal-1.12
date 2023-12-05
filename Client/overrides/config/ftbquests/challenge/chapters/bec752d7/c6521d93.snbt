@@ -1,0 +1,32 @@
+{
+	title: "Ancient Knowledge",
+	x: 6.0d,
+	y: -6.0d,
+	description: "Obtain an Ancient Spell Book",
+	dependencies: [
+		"fe399292"
+	],
+	tasks: [{
+		uid: "4885ea4b",
+		type: "advancement",
+		title: "Advancement: &eLost Knowledge",
+		icon: {
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 1s
+		},
+		advancement: "ancientspellcraft:ancient_book",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "a7a1d617",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "d0a73e51",
+		type: "item",
+		item: {
+			id: "ancientspellcraft:stone_tablet"
+		}
+	}]
+}
