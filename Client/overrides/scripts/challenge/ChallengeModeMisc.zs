@@ -3,9 +3,16 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import thaumcraft.aspect.CTAspectStack;
+import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.events.IEventManager;
+import crafttweaker.event.EntityLivingUseItemEvent.Start;
+
 import mods.mekanism.infuser;
-import mods.roots.Fey;
 import mods.thermalexpansion.InductionSmelter;
+
+import mods.roots.Fey;
+import mods.thaumcraft.ArcaneWorkbench;
+import mods.thaumcraft.Infusion;
 
 #MC Eternal Scripts
 
