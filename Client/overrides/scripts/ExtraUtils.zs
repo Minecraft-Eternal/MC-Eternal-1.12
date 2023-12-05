@@ -23,7 +23,6 @@ recipes.remove(<extrautils2:chickenring:1>);
 
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<extrautils2:lawsword>);
-recipes.remove(<extrautils2:quarry>);
 
 #Add Recipes
 #Clear wings

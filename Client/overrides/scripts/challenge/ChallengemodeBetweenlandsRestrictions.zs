@@ -13,6 +13,10 @@ import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 
+#MC Eternal Scripts
+
+print("--- loading challenge/ChallengemodeBetweenlandsRestrictions.zs ---");
+
 static scriptDebug as bool = false;
 /*
 val extraIllegalInBetween = [
@@ -30,6 +34,8 @@ val extraIllegalInBetween = [
         respects Brews
 
     Equipment Change drop - DONE
+
+    check player inventory periodically for naughty items
 *
 
 //41 entities that can hurt you in BL, a
@@ -49,7 +55,7 @@ function baubleCheck (player as IPlayer) as bool {
 }
 
 function itemCheck (stack as IItemStack) as bool {
-    if(!isNull(stack) && stack.definition.owner != "thebetweenlands"){
+    if(!isNull(stack) && !(stack.definition.owner == "thebetweenlands" || stack.definition.id == "tombstone:grave_key")){
         if(scriptDebug) print("Item");
         return false;
     }
@@ -74,7 +80,7 @@ events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent)
 
             //Armor, Offhand, and Mainhand check
             for equip in player.equipmentAndArmor {
-                if(!isNull(equip) && equip.definition.owner != "thebetweenlands"){
+                if(!isNull(equip) && itemCheck(equip)){
                     if(scriptDebug) print("Item in equip slot "+ equipIndex +": "+ equip.commandString +", Mod: "+ equip.definition.owner);
                     isAllowedBetween = false;
                     break;
@@ -88,7 +94,7 @@ events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent)
             //Main Inventory check
             if(isAllowedBetween) for index in 0 to 36 {
                 currentStack = player.getInventoryStack(index);
-                if(!isNull(currentStack) && player.getInventoryStack(index).definition.owner != "thebetweenlands"){
+                if(!isNull(currentStack) && itemCheck(player.getInventoryStack(index))){
                     if(scriptDebug) print("Item in slot "+ index +": "+ currentStack.commandString +", Mod: "+ currentStack.definition.owner);
                     isAllowedBetween = false;
                     break;
@@ -128,7 +134,7 @@ events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent)
 events.onEntityLivingEquipmentChange(function(event as EntityLivingEquipmentChangeEvent){
     if(!event.entityLivingBase.world.remote && event.entityLivingBase.dimension == betweenlandsID && event.entityLivingBase instanceof IPlayer && !isNull(event.newItem)){
         val player as IPlayer = event.entityLivingBase;
-        if(event.newItem.definition.owner != "minecraft"){
+        if(itemCheck(event.newItem)){
             player.sendChat(game.localize("mce.challengemode.betweenlands_restrictions.equipped_restricted_item"));
             doEquipmentDrop(event.newItem, event.slot, player);
         } else if(event.newItem.isEnchanted){
@@ -200,3 +206,5 @@ events.onPlayerOpenContainer(function(event as PlayerOpenContainerEvent){
     print(event.container as string);
 });
 */
+
+print("--- challenge/ChallengemodeBetweenlandsRestrictions.zs initialized ---");

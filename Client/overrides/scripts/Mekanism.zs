@@ -8,7 +8,7 @@ import mods.mekanism.combiner;
 print("--- loading Mekanism.zs ---");
 
 //todo
-// make a loop that processes this insanity into Mek Combiner recipes
+//nothing lol
 
 val combinerMap = {
     //Cobblestone

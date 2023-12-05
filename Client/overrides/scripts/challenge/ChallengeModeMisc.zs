@@ -91,17 +91,13 @@ recipes.addShaped("mce_challengemode_thermal_frame", <thermalexpansion:frame>, [
 //EnderIO
 
 // Ender Armor
-recipes.remove(<enderio:item_end_steel_helmet>);
-<enderio:item_end_steel_helmet>.addTooltip(format.red(game.localize("mce.generic.tip.challengemode_disabled")));
+basicDisable(<enderio:item_end_steel_helmet>, "", false, true);
 
-recipes.remove(<enderio:item_end_steel_chestplate>);
-<enderio:item_end_steel_chestplate>.addTooltip(format.red(game.localize("mce.generic.tip.challengemode_disabled")));
+basicDisable(<enderio:item_end_steel_chestplate>, "", false, true);
 
-recipes.remove(<enderio:item_end_steel_leggings>);
-<enderio:item_end_steel_leggings>.addTooltip(format.red(game.localize("mce.generic.tip.challengemode_disabled")));
+basicDisable(<enderio:item_end_steel_leggings>, "", false, true);
 
-recipes.remove(<enderio:item_end_steel_boots>);
-<enderio:item_end_steel_boots>.addTooltip(format.red(game.localize("mce.generic.tip.challengemode_disabled")));
+basicDisable(<enderio:item_end_steel_boots>, "", false, true);
 
 
 //RFTools
@@ -309,10 +305,104 @@ recipes.addShaped("mce_challengemode_block_protector", <rftools:block_protector>
 	[<enderio:block_reinforced_obsidian>, <rftools:shield_template_block:*>, <enderio:block_reinforced_obsidian>]
 ]);
 
+//Runed Obsidian
+Fey.removeRecipe(<roots:runed_obsidian>);
+Fey.addRecipe("runed_obsidian", <roots:runed_obsidian> *4, [<roots:runic_dust>, <thaumcraft:ingot:1>, <ore:runestone>, <mekanism:basicblock:0>, <ore:runestone>]);
 
-#Info
-<mekanismgenerators:reactor>.addTooltip(format.gold(game.localize("mce.challengemode.mekanism.tip.fusion_reactor_recipe_looks_funny")));
-<thermalfoundation:glass:3>.addTooltip(format.gold(game.localize("mce.challengemode.thermal.tip.hardened_glass_needs_osmium")));
+//Warding Sigil
+ArcaneWorkbench.removeRecipe(<thaumicaugmentation:material:1>);
+ArcaneWorkbench.registerShapedRecipe("warding_sigil", "WARDED_ARCANA", 10, 
+	[<aspect:ignis>, <aspect:aqua>, <aspect:terra>, <aspect:perditio>],
+	<thaumicaugmentation:material:1> *3,
+	[
+		[null, <thaumcraft:tallow>, <ore:dustOsmium>],
+		[<ore:dyePurple>, <thaumcraft:brain>, <ore:dyePurple>],
+		[<ore:dustOsmium>, <thaumcraft:tallow>]
+	]
+);
+
+//Witherproof Gating end
+
+
+//Make Cropsticks slightly harder (and funnier)
+recipes.removeByRecipeName("agricraft:crop_sticks");
+//Ancient Wood Rod
+recipes.addShaped("mce_challengemode_ancient_wood_cropsticks", <agricraft:crop_sticks> *2, [
+	[<naturesaura:ancient_stick>, <naturesaura:ancient_stick>],
+	[<naturesaura:ancient_stick>, <naturesaura:ancient_stick>]
+]);
+
+
+//AA Storage Crate stuff
+// big, and only just a bunch of wood, needs more evil
+//Small Storage Crate (evil version)
+recipes.remove(<actuallyadditions:block_giant_chest>);
+recipes.addShaped("mce_challengemode_small_storage_crate", <actuallyadditions:block_giant_chest>, [
+	[<ironchest:iron_chest:2>, <immersiveengineering:wooden_decoration:1>, <forestry:oak_stick>],
+	[<immersiveengineering:wooden_decoration:1>, <actuallyadditions:block_misc:4>, <immersiveengineering:wooden_decoration:1>],
+	[<forestry:oak_stick>, <immersiveengineering:wooden_decoration:1>, <immersiveengineering:wooden_device0>]
+]);
+
+//Small Storage Crate Upgrade (rude version)
+recipes.addShaped("mce_challengemode_small_storage_crate_upgrade", <actuallyadditions:item_chest_to_crate_upgrade>, [
+  [<immersiveengineering:wooden_decoration:1>, <ironchest:iron_chest:2>, <immersiveengineering:wooden_decoration:1>],
+  [<forestry:oak_stick>, <actuallyadditions:block_misc:4>, <forestry:oak_stick>],
+  [<immersiveengineering:wooden_decoration:1>, <immersiveengineering:wooden_device0>, <immersiveengineering:wooden_decoration:1>]
+]);
+
+//Wood Casing (slightly evil version)
+recipes.remove(<actuallyadditions:block_misc:4>);
+recipes.addShaped("mce_challengemode_wood_casing", <actuallyadditions:block_misc:4>, [
+	[<ore:plankWood>, <forestry:oak_stick>, <ore:plankWood>],
+	[<forestry:oak_stick>, <roots:wildwood_log>, <forestry:oak_stick>],
+	[<ore:plankWood>, <forestry:oak_stick>, <ore:plankWood>]
+]);
+
+
+//Yeet Infinite Range + Crafting SSN remotes
+for num in 1 to 3 {
+	val remote = itemUtils.getItem("storagenetwork:remote", num);
+	basicDisable(remote, "", false, true);
+}
+//Keep the no craft one tho, but price it up
+recipes.remove(<storagenetwork:remote:3>);
+recipes.addShaped("mce_challengemode_nocraft_ssn_remote", <storagenetwork:remote:3>, [
+	[<ore:plateSteel>, <enderio:block_solar_panel:2>, <ore:plateSteel>],
+	[<ore:ingotTriberium>, <storagenetwork:master>, <ore:ingotTriberium>],
+	[<ore:plateSteel>, <enderio:block_travel_anchor>, <ore:plateSteel>]
+]);
+
+
+//no small plate press
+basicDisable(<advancedrocketry:platepress>, "", false, true);
+
+//remove Enchanted Grave key
+// very dumb op, basically allows you to negate death
+recipes.removeByRecipeName("tombstone:enchanted_grave_key");
+
+// disenchant keys when they are used
+events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLivingUseItemEvent.Start){
+	if(!event.player.world.remote && event.isPlayer && event.item.definition.id == "tombstone:grave_key" && event.item.hasTag){
+		print("EntityLivingUseItemStartEvent of Grave Key Disenchantment");
+		print("event is via player: "+ event.isPlayer);
+		print("CT Itemdef: "+ event.item.commandString);
+		if(isNull(event.item.tag.enchant) || event.item.tag.enchant.asBool() == false) return;
+		val unenchantedKey = event.item.updateTag({enchant: false});
+		for hand in [IEntityEquipmentSlot.mainHand(), IEntityEquipmentSlot.offhand()] as IEntityEquipmentSlot[] {
+			if(event.player.hasItemInSlot(hand) && event.player.getItemInSlot(hand).definition.id == "tombstone:grave_key"){
+				event.player.setItemToSlot(hand, unenchantedKey);
+				event.player.sendChat(game.localize("mce.challengemode.tombstone.message.grave_key_teleport_fail"));
+				event.player.setCooldown(<tombstone:grave_key>, 20);
+				event.cancel();
+			}
+		}
+	}
+});
+
+
+//Tooltips
+addMultilineLocalizedTooltip(<thermalfoundation:glass:3>, "mce.challengemode.thermal.tip.hardened_glass_needs_osmium");
+<tombstone:grave_key>.addTooltip(format.red(game.localize("mce.challengemode.tombstone.tip.grave_key_cant_teleport")));
 
 
 print("--- /challenge/ChallengeModeMisc.zs initialized ---");

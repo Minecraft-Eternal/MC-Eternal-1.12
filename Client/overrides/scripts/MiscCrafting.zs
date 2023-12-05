@@ -393,39 +393,26 @@ val taigaAlloyMap = [
 ] as IItemStack[][string][];
 /*
 	Alloying Things
-		Induction Smelter - yep
-		Alloy Furnace - yep
-		Alloy Smelter - maybe?
-		Electric Arc Furnace - maybe?
-		Arc Furnace - yep
+		Arc Furnace (Immersive Engineering)
+		Induction Smelter (Induction Smelter)
+		Alloy Furnace (Nuclearcraft)
+		Alloy Smelter (TechReborn)
+		Electric Arc Furnace (Advanced Rocketry)
+		Alloy Smelter (EnderIO)
 */
 
 for recipe in taigaAlloyMap {
 	val result as IItemStack = recipe.result[0];
 	val ingredients as IItemStack[] = recipe.inputs;
-	var ingredientArrayWithoutFirst as IItemStack[] = [];
-	for entry in ingredients {
-		if(!(ingredients[0].matches(entry))) ingredientArrayWithoutFirst += entry;
-	}
-	// Arc Furnace (Immersive Engineering)
-	mods.immersiveengineering.ArcFurnace.addRecipe(result, ingredients[0], null, 200, 512, ingredientArrayWithoutFirst);
-
-	//Electric Arc Furnace (Advanced Rocketry)
-	//print();
-
-//	if(ingredients.length < 4){
-		//Alloy Smelter (Ender IO)
-		//print();
-
-		if(ingredients.length < 3){
-			// Induction Smelter (Thermal)
-			mods.thermalexpansion.InductionSmelter.addRecipe(result, ingredients[0], ingredients[1], 4000);
-
-			// Alloy Furnace (Nuclearcraft)
-			mods.nuclearcraft.alloy_furnace.addRecipe([ingredients[0], ingredients[1], result]);
-		}
-//	}
+	val materialName = result.definition.id.split(":")[1].split("_")[0];
+	addUniversalAlloyRecipe(result, ingredients,
+		"MCE: TAIGA Alloy - "+ materialName,
+//		materialName.replace("\\w(?=\\w{"+ (materialName.length - 1) +"})", materialName.substring(0, 1).toUpperCase())
+		false,
+		{}
+	);
 }
+
 
 //IF Protein Reactor additions
 mods.industrialforegoing.ProteinReactor.add(<biomesoplenty:fleshchunk>);
@@ -440,6 +427,251 @@ for meat in <ore:allFlesh>.items {
 //Thermal Reactant Dynamo
 mods.thermalexpansion.ReactantDynamo.addReaction(<fossil:failuresaurus_flesh>, <liquid:mutagen> *200, 1200000);
 mods.thermalexpansion.ReactantDynamo.addReaction(<astralsorcery:itemcraftingcomponent:2>, <liquid:astralsorcery.liquidstarlight> *100, 600000);
+
+//limit slimeball alchemy
+// previously, you could insert a pink slimeball into a Compacting Drawer, and then add Slime Blocks to effectively transmute any slimeball into pink slimeball
+// the same is also possible with failuresaurus flesh
+<ore:nonPinkSlimeballs>.add([
+	<minecraft:slime_ball>,
+	<actuallyadditions:item_misc:12>,
+	<mod_lavacow:silky_sludge>,
+	<fossil:tardrop>,
+	<quark:slime_bucket>,
+	<roots:strange_ooze>,
+	<theaurorian:aurorianslimeball>,
+	<tconstruct:edible:1>,
+	<tconstruct:edible:2>,
+	<tconstruct:edible:3>,
+	<tconstruct:edible:4>
+]);
+
+recipes.removeByRecipeName("minecraft:slime");
+recipes.addShapeless("mce_pinkbgone", <minecraft:slime>, [
+	<ore:nonPinkSlimeballs>,
+	<ore:nonPinkSlimeballs>,
+	<ore:nonPinkSlimeballs>,
+	<ore:nonPinkSlimeballs>,
+	<ore:nonPinkSlimeballs>,
+	<ore:nonPinkSlimeballs>,
+	<ore:nonPinkSlimeballs>,
+	<ore:nonPinkSlimeballs>,
+	<ore:nonPinkSlimeballs>
+]);
+
+
+//fun(ny) cropstick recipes
+// enforced in challengemode :)
+//Treated Wood Stick
+recipes.addShaped("mce_treated_wood_cropsticks", <agricraft:crop_sticks> *6, [
+	[<ore:stickTreatedWood>, <ore:stickTreatedWood>],
+	[<ore:stickTreatedWood>, <ore:stickTreatedWood>]
+]);
+//Impregnated Stick
+mods.forestry.Carpenter.addRecipe(<agricraft:crop_sticks> *12, [
+		[<forestry:oak_stick>, <forestry:oak_stick>],
+		[<forestry:oak_stick>, <forestry:oak_stick>]
+	],
+	40
+);
+//Atum Sticks
+mods.mekanism.sawmill.addRecipe(<ore:atumStick>, <agricraft:crop_sticks> *8);
+
+//Actually Additions Storage Crate Upgrade remix
+// always thought it was really weird you void a whole crate for this
+
+//Medium Crate Upgrade
+recipes.remove(<actuallyadditions:item_small_to_medium_crate_upgrade>);
+recipes.addShaped("mce_medium_storage_crate_upgrade_remix", <actuallyadditions:item_small_to_medium_crate_upgrade>, [
+	[<ore:plankWood>, <actuallyadditions:block_crystal:3>, <ore:plankWood>],
+	[<actuallyadditions:block_crystal:3>, null, <actuallyadditions:block_crystal:3>],
+	[<ore:plankWood>, <actuallyadditions:block_crystal:3>, <ore:plankWood>]
+]);
+
+//Large Crate Upgrade
+recipes.remove(<actuallyadditions:item_medium_to_large_crate_upgrade>);
+recipes.addShaped("mce_large_storage_crate_upgrade_remix", <actuallyadditions:item_medium_to_large_crate_upgrade>, [
+	[<ore:plankWood>, <actuallyadditions:block_crystal_empowered:3>, <ore:plankWood>,],
+	[<actuallyadditions:block_crystal_empowered:3>, null, <actuallyadditions:block_crystal_empowered:3>],
+	[<ore:plankWood>, <actuallyadditions:block_crystal_empowered:3>, <ore:plankWood>]
+]);
+
+//Remove base Small Crate Upgrade recipe
+// differs in Challenge mode and Classic mode, so removing it in one place is a bit more clean
+recipes.removeByRecipeName("actuallyadditions:recipes13");
+
+
+//Upgrade TR Iron Alloy Furnace into TR Alloy Smelter
+recipes.addShaped("mce_upgrade_iron_alloy_furnace_to_smelter", <techreborn:alloy_smelter>, [
+	[<techreborn:part:29>, <ore:ingotRefinedIron>, <techreborn:part:29>],
+	[<ore:dustRedstone>, <techreborn:iron_alloy_furnace>, <ore:dustRedstone>],
+	[<techreborn:part:29>, <ore:ingotRefinedIron>, <techreborn:part:29>]
+]);
+
+
+//NA Gold Powder in Roots Mortar
+// enforced in challenge mode
+Mortar.addRecipe("mce_gold_powder_in_roots_mortar", <naturesaura:gold_powder> *2, [<naturesaura:gold_leaf>]);
+
+
+//Unify Roots Flour recipe
+Mortar.removeRecipe(<roots:flour>);
+Mortar.addRecipe("wheat_flour", <nuclearcraft:flour>, [<ore:cropWheat>]);
+Mortar.addRecipe("potato_flour", <nuclearcraft:flour>, [<ore:cropPotato>]);
+
+
+//Craft EU2 Moonstone with Moon Turf
+recipes.addShaped("mce_moonstone_from_moon_turf_with_diamond", <extrautils2:ingredients:5> *3, [
+	[<ore:turfMoon>, <ore:turfMoon>, <ore:turfMoon>],
+	[<ore:turfMoon>, <ore:gemDiamond>, <ore:turfMoon>],
+	[<ore:turfMoon>, <ore:turfMoon>, <ore:turfMoon>]
+]);
+
+recipes.addShaped("mce_moonstone_from_moon_turf_with_unstable_ingot", <extrautils2:ingredients:5> * 18, [
+	[<ore:turfMoon>, <ore:turfMoon>, <ore:turfMoon>],
+	[<ore:turfMoon>, <ore:ingotUnstable>, <ore:turfMoon>],
+	[<ore:turfMoon>, <ore:turfMoon>, <ore:turfMoon>]
+]);
+
+
+//Fabulous a Mana Pool
+recipes.addShaped("mce_make_mana_pool_fabulous", <botania:pool:3>, [
+	[<botania:bifrostperm>, <botania:pool:0>, <botania:bifrostperm>],
+	[<botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>]
+]);
+
+//Un-Fabulous a Mana Pool
+recipes.addShapeless("mce_classicmode_unfabulous_mana_pool", <botania:pool:0>.withLore(["Gives back 5 Alfglass when crafted"]), [<botania:pool:3>],
+	function(out as IItemStack, ins as IItemStack[string], cInfo as ICraftingInfo){
+		return <botania:pool:0>;
+	},
+	function(out as IItemStack, cInfo as ICraftingInfo, player as IPlayer){
+		player.give(<botania:elfglass> *5);
+});
+
+//Change Wand of the Forest petals
+recipes.addShaped("mce_change_forest_wand_petals", <botania:twigwand>.withLore(["Colored with the Petals used in this recipe!"]), [
+	[null, <botania:petal:*>.marked("petal2")],
+	[<botania:petal:*>.marked("petal1"), <botania:twigwand>.marked("wand")]
+	],
+	function(output as IItemStack, inputs as IItemStack[string], cInfo as ICraftingInfo){
+		return inputs.wand.updateTag({color1: inputs.petal1.metadata, color2: inputs.petal2.metadata});
+});
+
+
+//NA Altar of Birthing stuff
+
+//Thermal Elementals
+//Blizz
+AnimalSpawner.addRecipe("mce_thermal_blizz", "thermalfoundation:blizz", 120000, 120, [<naturesaura:birth_spirit>, <ore:rodBlizz>, <minecraft:snow>]);
+//Blitz
+AnimalSpawner.addRecipe("mce_thermal_blitz", "thermalfoundation:blitz", 120000, 120, [<naturesaura:birth_spirit>, <ore:rodBlitz>, <minecraft:sandstone>]);
+//Basalz
+AnimalSpawner.addRecipe("mce_thermal_basalz", "thermalfoundation:basalz", 120000, 120, [<naturesaura:birth_spirit>, <ore:rodBasalz>, <minecraft:obsidian>]);
+
+//Rat (friend :>)
+AnimalSpawner.addRecipe("mce_rat", "rats:rat", 30000, 80, [<naturesaura:birth_spirit>, <rats:block_of_cheese>]);
+
+//Feral Ratlantean
+AnimalSpawner.addRecipe("mce_feral_ratlantean", "rats:feral_ratlantean", 90000, 120, [<naturesaura:birth_spirit>, <rats:feral_rat_claw>, <rats:rat_pelt>, <rats:ratglove_petals>]);
+
+//Ratlantean Spirit
+AnimalSpawner.addRecipe("mce_ratlantean_spirit", "rats:ratlantean_spirit", 75000, 100, [<naturesaura:birth_spirit>, <rats:ratlantean_flame>, <rats:cheese>]);
+
+//Amphithere
+AnimalSpawner.addRecipe("mce_amphithere", "iceandfire:amphithere", 300000, 300, [<naturesaura:birth_spirit>, <enderio:item_material:7>, <stevescarts:cartmodule:101>, <bloodmagic:component:2>]);
+
+//Pixie
+AnimalSpawner.addRecipe("mce_pixie", "iceandfire:if_pixie", 45000, 80, [<naturesaura:birth_spirit>, <iceandfire:pixie_dust>]);
+
+//Hippogryph
+AnimalSpawner.addRecipe("mce_hippogryph", "iceandfire:hippogryph", 120000, 120, [<naturesaura:birth_spirit>, <cqrepoured:leather_bull>, <fossil:horse_dna>, <fossil:chicken_dna>]);
+//Alt using Egg
+AnimalSpawner.addRecipe("mce_hippogryph_from_egg", "iceandfire:hippogryph", 900000, 80, [<naturesaura:birth_spirit>, <iceandfire:hippogryph_egg:*>, <fossil:cooked_chicken_soup>]);
+
+//Hippcampus
+AnimalSpawner.addRecipe("mce_hippocampus", "iceandfire:hippocampus", 120000, 120, [<naturesaura:birth_spirit>, <iceandfire:shiny_scales>, <minecraft:sponge>]);
+
+//Cockatrice (death chicken)
+AnimalSpawner.addRecipe("mce_cockatrice", "iceandfire:if_cockatrice", 120000, 100, [<naturesaura:birth_spirit>, <iceandfire:rotten_egg>, <fossil:chicken_dna>]);
+
+//Moogma
+AnimalSpawner.addRecipe("mce_moogma", "mod_lavacow:lavacow", 200000, 200, [<naturesaura:birth_spirit>,
+	<mod_lavacow:potion_of_mooten_lava>,
+	<minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}),
+	<fossil:cow_dna>
+]);
+
+//Wisp
+AnimalSpawner.addRecipe("mce_eerieentities_wisp", "eerieentities:wisp", 10000, 100, [<naturesaura:birth_spirit>, <astralsorcery:itemusabledust:0>]);
+
+//Fox
+AnimalSpawner.addRecipe("mce_mysticalworld_fox", "mysticalworld:entity_fox", 30000, 100, [<naturesaura:birth_spirit>, <mysticalworld:pelt>, <minecraft:chicken>]);
+
+//Frog
+AnimalSpawner.addRecipe("mce_mysticalworld_frog", "mysticalworld:entity_frog", 30000, 100, [<naturesaura:birth_spirit>, <minecraft:slime_ball>, <bloodmagic:component:0>]);
+
+//Beetle
+AnimalSpawner.addRecipe("mce_mysticalworld_beetle", "mysticalworld:entity_beetle", 30000, 100, [<naturesaura:birth_spirit>, <mysticalworld:beetle_mask>]);
+
+//Deer
+AnimalSpawner.addRecipe("mce_mysticalworld_deer", "mysticalworld:entity_deer", 30000, 100, [<naturesaura:birth_spirit>, <mysticalworld:antler_hat>]);
+
+//Sprout
+AnimalSpawner.addRecipe("mce_mysticalworld_sprout", "mysticalworld:entity_sprout", 30000, 100, [<naturesaura:birth_spirit>, <minecraft:melon>, <minecraft:beetroot>, <mysticalworld:aubergine>]);
+
+//Hell Sprout
+AnimalSpawner.addRecipe("mce_mysticalworld_hell_sprout", "mysticalworld:entity_hell_sprout", 20000, 100, [<naturesaura:birth_spirit>, <minecraft:nether_wart_block>, <minecraft:blaze_powder>]);
+
+//Owl
+AnimalSpawner.addRecipe("mce_mysticalworld_owl", "mysticalworld:entity_owl", 30000, 100, [<naturesaura:birth_spirit>, <roots:mystic_feather>, <ore:logWood>]);
+
+//Lava Cat
+AnimalSpawner.addRecipe("mce_mysticalworld_lava_cat", "mysticalworld:entity_lava_cat", 30000, 100, [<naturesaura:birth_spirit>, <minecraft:lava_bucket>, <minecraft:obsidian>, <minecraft:blaze_powder>]);
+
+//Clam
+AnimalSpawner.addRecipe("mce_mysticalworld_clam", "mysticalworld:entity_clam", 45000, 100, [<naturesaura:birth_spirit>, <mysticalworld:pearl_block>, <minecraft:sand>]);
+
+
+
+
+//Altar of Birthing stuff end
+
+
+//Runic Shearing
+
+//Amphithere
+RunicShears.addEntityRecipe("mce_amphithere_feather_from_amphithere", <iceandfire:amphithere_feather>, <entity:iceandfire:amphithere>, 1800);
+
+//Hippocampus
+RunicShears.addEntityRecipe("mce_shiny_scales_from_hippocampus", <iceandfire:shiny_scales>, <entity:iceandfire:hippocampus>, 3000);
+
+//Runic Shearing end
+
+
+//Herb Bundle
+// so it doesn't cost ungodly things
+recipes.remove(<rats:herb_bundle>);
+recipes.addShaped("mce_herb_bundle", <rats:herb_bundle>, [
+	[<ore:allFlowers>, <ore:allFlowers>, <ore:allFlowers>],
+	[<ore:allFlowers>, <ore:listAllVeggie>, <ore:allFlowers>],
+	[<ore:allFlowers>, <ore:allFlowers>, <ore:allFlowers>]
+]);
+
+
+//Remove Mossy Stone Brick Chiseling
+Carving.removeVariation("stonebrick", <minecraft:stonebrick:1>);
+
+
+//Allow using Extra Storage Drawers for all the things
+<ore:drawerBasic>.add(<storagedrawersextra:extra_drawers:*>);
+
+//EnderIO "Construction Alloy" Ingot
+addUniversalAlloyRecipe(<enderio:item_alloy_ingot:9> *3, [<ore:ingotIron>, <ore:ingotLead>], "MCE: Construction Alloy", false, {
+	"NCFurnace": {
+		"enabled": 0
+	}
+});
+
 
 
 print("--- MiscCrafting.zs initialized ---");	

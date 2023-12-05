@@ -49,3 +49,16 @@ events.onEntityLivingEquipmentChange(function(event as crafttweaker.event.Entity
 		}
 	}
 });
+
+events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent){
+	if(!event.world.remote && event.block.definition.id has "tombstone:decorative_" && event.item.definition.id == "tombstone:book_of_disenchantment" && !isNull(event.player.offHandHeldItem)){
+		for obj in event.player.nbt.ForgeCaps.asMap()["baubles:container"].Items.asList() {
+			if(obj.id.asString() == "astralsorcery:itemenchantmentamulet"){
+				event.player.sendChat("§c"+ game.localize("mce.tombstone.message.remove_resplendent_prism"));
+				event.player.setCooldown(<tombstone:book_of_disenchantment>, 10);
+				event.cancellationResult = "FAIL";
+				event.cancel();
+			}
+		}
+	}
+});
