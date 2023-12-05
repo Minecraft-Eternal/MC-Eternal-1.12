@@ -286,7 +286,7 @@ recipes.removeByRecipeName("thermalfoundation:glass");
 recipes.removeByRecipeName("thermalfoundation:glass_alloy");
 
 InductionSmelter.removeRecipe(<thermalfoundation:material:770>, <thermalfoundation:material:67>);
-InductionSmelter.addRecipe(<thermalfoundation:glass:3>, <thermalfoundation:material:770>*4, <mekanism:dust:2>, 8000);
+InductionSmelter.addRecipe(<thermalfoundation:glass:3>, <mekanism:dust:2>*4, <thermalfoundation:material:67>, 8000);
 
 //Reinforced Obsidian
 recipes.removeByRecipeName("enderio:reinforced_obsidian");
