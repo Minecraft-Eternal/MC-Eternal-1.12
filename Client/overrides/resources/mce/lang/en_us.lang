@@ -2,6 +2,10 @@
 desc.immersiveengineering.info.mineral.Fissile=Deep Fissile
 desc.immersiveengineering.info.mineral.Osmiron=Deep Osmiron
 desc.immersiveengineering.info.mineral.Atometal=Deep Atometal
+desc.immersiveengineering.info.mineral.mooncheese=Lunar Cheese
+
+#Custom IE Blueprints
+desc.immersiveengineering.info.blueprint.matter_engineering=Matter-Energy Components
 
 #Quest Chapter Names
 mce.questing.chapter.introduction.name=Introduction
@@ -51,6 +55,7 @@ mce.generic.tip.challengemode_disabled=You are on Challenge Mode, so this Item i
 mce.generic.message.item_yeeted_from_exist=That item was illegal and has been yeeted from existence.
 
 mce.appliedenergistics2.tip.meteors_in_beneath=AE2 Meteors Spawn in The Beneath and on The Moon
+mce.appliedenergistics2.tip.name_press.how_its_made=Made using a Quartz Cutting Knife<BR>Input what you want the press to rename items to<BR>And put in an Iron Ingot to get it out!
 
 mce.advrocketry.message.get_there_with_rocket.1=%s cannot be accessed normally.
 mce.advrocketry.message.get_there_with_rocket.2=You will need to use Advanced Rocketry.
@@ -111,8 +116,6 @@ mce.mekanism.tip.builders_wand_factory=Do not place with a Builder's Wand, will 
 
 mce.midnight.tip.throw_geode_at_wall=Crack open by throwing at a Wall with Right-click or a Dispenser
 
-mce.mysticalagriculture.tip.supremium_flight_disabled=Flight Disabled
-
 mce.nuclearcraft.tip.fission_power_buff=4x Total Power Generation! (Disclaimer: reflected in Fuel tooltips)
 
 mce.netherportalcorruption.tip.prevents_corruption=Can be used to ward off Nether Portal Corruption
@@ -132,6 +135,10 @@ mce.tconstruct.tip.smeltery_fuel_stats.2=For %s total seconds of Fuel
 mce.tconstruct.tip.smeltery_fuel_stats.3=At %s°C
 mce.tconstruct.tip.material_megabuffed=The Tinkers' Construct material for this item has been buffed massively.
 
+mce.taiga.tip.where_to_find_ores=Where to find? Hold SHIFT!<BR>Refer to the TAIGA section of Materials and You!
+
+mce.tombstone.message.remove_resplendent_prism=The Resplendent Prism you wear around your neck shakes violently, disturbing your attempt to disenchant the item.
+
 mce.vampirism.tip.pure_blood_obtain=Dropped by Level %s Vampire Barons, or crafted, for a price.
 
 mce.wings.tip.fairy_dust=Can be used to transmute certain metals. This dust radiates primal magic energy
@@ -140,9 +147,10 @@ mce.xreliquary.tip.restores_percent_health=Restores %s% HP
 
 
 #Challenge Mode specific
-mce.challengemode.mekanism.tip.fusion_reactor_recipe_looks_funny=Only requires one Chemical Reactor for recipe
-mce.challengemode.thermal.tip.hardened_glass_needs_osmium.1=In Challenge Mode, Requires Osmium instead of Lead.
-mce.challengemode.thermal.tip.hardened_glass_needs_osmium.2=If you need this for crafting, Fused Quartz works instead!
+mce.challengemode.thermal.tip.hardened_glass_needs_osmium=In Challenge Mode, Requires Osmium instead of Obsidian.<BR>If you need this for crafting, Fused Quartz works instead!
+
+mce.challengemode.tombstone.tip.grave_key_cant_teleport=In Challenge Mode, Cannot be used to Teleport when Enchanted.
+mce.challengemode.tombstone.message.grave_key_teleport_fail=§cThe Key's magic is too §ochallenging§c to channel.
 
 #Betweenlands Restrictions
 mce.challengemode.betweenlands_restrictions.denied_entry_message.1=You are in Challenge Mode, and cannot travel to the Betweenlands with items not from it!

@@ -1,5 +1,5 @@
 {
-	title: "Magic and Spellcasting",
+	title: "{mce.questing.chapter.magic_and_spellcasting.name}",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}

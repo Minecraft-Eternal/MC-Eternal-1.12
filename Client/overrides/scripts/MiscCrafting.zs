@@ -142,17 +142,17 @@ for mod,frame in blackHoleFrames {
 	val blackHoleFrameModID = (mod == "industrialforegoing" ? "" : "_"+ mod);
 
 	recipes.removeByRecipeName("industrialforegoing:black_hole_unit"+ blackHoleFrameModID);
-	recipes.addShaped("mce_blackhole_unit_"+ mod, <industrialforegoing:black_hole_unit>*2, [
-		[<industrialforegoing:plastic>, <extracells:storage.component:1>, <industrialforegoing:plastic>],
-		[<mekanism:teleportationcore>, null, <mekanism:teleportationcore>],
-		[frame, <minecraft:nether_star>, frame]
+	recipes.addShaped("mce_blackhole_unit_"+ mod, <industrialforegoing:black_hole_unit>, [
+		[<industrialforegoing:plastic>, <ore:enderpearl>, <industrialforegoing:plastic>],
+		[<extracells:storage.component:0>, frame, <extracells:storage.component:0>],
+		[<mekanism:teleportationcore>, <minecraft:nether_star>, <mekanism:teleportationcore>]
 	]);
 
 	recipes.removeByRecipeName("industrialforegoing:black_hole_tank"+ blackHoleFrameModID);
-	recipes.addShaped("mce_blackhole_tank_"+ mod, <industrialforegoing:black_hole_tank>*2, [
-		[<industrialforegoing:plastic>, <extracells:storage.component:8>, <industrialforegoing:plastic>],
-		[<mekanism:teleportationcore>, null, <mekanism:teleportationcore>],
-		[frame, <minecraft:nether_star>, frame]
+	recipes.addShaped("mce_blackhole_tank_"+ mod, <industrialforegoing:black_hole_tank>, [
+		[<industrialforegoing:plastic>, <ore:enderpearl>, <industrialforegoing:plastic>],
+		[<extracells:storage.component:7>, frame, <extracells:storage.component:7>],
+		[<mekanism:teleportationcore>, <minecraft:nether_star>, <mekanism:teleportationcore>]
 	]);
 }
 

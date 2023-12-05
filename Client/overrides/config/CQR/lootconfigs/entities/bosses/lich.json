@@ -1,0 +1,114 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 4,
+                "max": 4
+            },
+            "bonus_rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "lodsofemone:coin_big",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{value:2000L}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "ftbquests:lootcrate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:\"common_lootbox\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "ebwizardry:spell_book",
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+							"undiscovered_bias": 0.5
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "ftbquests:lootcrate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:\"cheesy_cache\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "ftbquests:lootcrate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:\"unclaimed_black_market_container\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "treasure2:pirate_chest",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{genContext:{lootRarity:\"scarce\",chestGenType:\"SCARCE\"},sealed:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "treasure2:spider_chest",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{genContext:{lootRarity:\"rare\",chestGenType:\"RARE\"},sealed:1b}"
+                        }
+                    ]
+                },
+                {
+		    	"name": "lt_cursed_bone",
+				"entries": [
+					{
+            	"type": "item",
+                "name": "cqrepoured:cursed_bone",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "minecraft:set_nbt",
+                        "tag":"{entity_to_summon:\"cqrepoured:zombie\"}"
+                    },
+                    {
+                    	"function": "set_count",
+                    	"count": {
+                    		"min": 1,
+                    		"max": 1
+                    	}
+                    }
+                ]
+    		}
+    	]
+    	}
+    ]
+}

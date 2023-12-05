@@ -16,7 +16,7 @@
 		"",
 		"&6&lImportant!",
 		"&5Vishrooms&7 cannot be found naturally in &dMC Eternal&7, as &dMagical Forests&7 have been disabled, due to a rare, but catastrophic Crash.",
-		"You can still create them with &dThaumic Additions'&7 &5Flux Concentrator&7."
+		"You can create them using a custom &5Crucible&7 Recipe, or with &dThaumic Additions'&7 &5Flux Concentrator&7."
 	],
 	tasks: [{
 		uid: "1a244a34",
