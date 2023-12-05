@@ -14,8 +14,8 @@ recipes.removeByRecipeName("dungeontactics:misc/materials/extra_materials/titani
 
 
 #Add Recipes
-recipes.addShaped(<dungeontactics:iron_ring>, [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<minecraft:iron_nugget>, null, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
-recipes.addShapeless(<thermalfoundation:material:768>, [<dungeontactics:mortar&pestle:*>.transformDamage(), <minecraft:coal:0>]);
+recipes.addShaped("mce_nonconflicting_iron_ring", <dungeontactics:iron_ring>, [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<minecraft:iron_nugget>, null, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
+recipes.addShapeless("mce_working_mortar_and_pestle_coal_dust", <thermalfoundation:material:768>, [<dungeontactics:mortar&pestle:*>.transformDamage(), <minecraft:coal:0>]);
 
 
 print("--- DungeonTactics.zs initialized ---");	

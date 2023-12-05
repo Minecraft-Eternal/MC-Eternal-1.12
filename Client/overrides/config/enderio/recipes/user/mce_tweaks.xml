@@ -51,4 +51,17 @@
     </fermenting>
 </recipe>
 
+
+<recipe name="MCE: Nutritious Cropsticks" required="true">
+    <slicing energy="5000">
+        <input name="NUTRITIOUS_STICK"/>
+        <input name="NUTRITIOUS_STICK"/>
+        <input name="NUTRITIOUS_STICK"/>
+        <input name="NUTRITIOUS_STICK"/>
+        <input name="NUTRITIOUS_STICK"/>
+        <input name="NUTRITIOUS_STICK"/>
+        <output name="agricraft:crop_sticks" amount="24"/>
+    </slicing>
+</recipe>
+
 </enderio:recipes>

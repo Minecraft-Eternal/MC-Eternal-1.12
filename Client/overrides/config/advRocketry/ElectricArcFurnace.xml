@@ -31,8 +31,8 @@
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="true">
-	<Recipe timeRequired="9000" power ="20">
+<Recipes useDefault="false">
+	<Recipe timeRequired="80" power ="20000">
 		<input>
 			<itemStack>thermalfoundation:material;7;132</itemStack>
 			<itemStack>libvulpes:productingot;3;7</itemStack>
@@ -41,7 +41,7 @@
 			<itemStack>advancedrocketry:productingot;3</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="6000" power ="1">
+	<Recipe timeRequired="40" power ="10000">
 		<input>
 			<itemStack>minecraft:coal;1;1</itemStack>
 			<itemStack>minecraft:iron_ingot</itemStack>
@@ -50,7 +50,7 @@
 			<itemStack>thermalfoundation:material;1;160</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="12000" power ="1">
+	<Recipe timeRequired="20" power ="10000">
 		<input>
 			<itemStack>minecraft:sand</itemStack>
 		</input>
@@ -58,7 +58,7 @@
 			<itemStack>libvulpes:productingot;1;3</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="3000" power ="20">
+	<Recipe timeRequired="80" power ="20000">
 		<input>
 			<itemStack>thermalfoundation:material;1;135</itemStack>
 			<itemStack>libvulpes:productingot;1;7</itemStack>
@@ -67,12 +67,296 @@
 			<itemStack>advancedrocketry:productingot;2;1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="100" power ="10">
+	<Recipe timeRequired="40" power ="10000">
 		<input>
 			<oreDict>oreRutile</oreDict>
 		</input>
 		<output>
 			<itemStack>libvulpes:productingot;1;7</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Terrax -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:karmesine_ingot;1;0</itemStack>
+			<itemStack>taiga:ovium_ingot;1;0</itemStack>
+			<itemStack>taiga:jauxum_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:terrax_ingot;2;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Triberium via Basalt -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:tiberium_ingot;5;0</itemStack>
+			<itemStack>taiga:basalt_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:triberium_ingot;1;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Triberium via Dilithium -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:tiberium_ingot;5;0</itemStack>
+			<itemStack>taiga:dilithium_ingot;2;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:triberium_ingot;1;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Fractum -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:triberium_ingot;3;0</itemStack>
+			<itemStack>thermalfoundation:material;6;770</itemStack>
+			<itemStack>taiga:abyssum_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:fractum_ingot;2;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Violium -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:aurorium_ingot;3;0</itemStack>
+			<itemStack>tconstruct:ingots;2;1</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:violium_ingot;2;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Proxii -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:prometheum_ingot;3;0</itemStack>
+			<itemStack>taiga:palladium_ingot;3;0</itemStack>
+			<itemStack>taiga:eezo_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:proxii_ingot;3;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Tritonite -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>tconstruct:ingots;3;0</itemStack>
+			<itemStack>taiga:terrax_ingot;2;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:tritonite_ingot;2;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Ignitz -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>tconstruct:ingots;2;1</itemStack>
+			<itemStack>taiga:terrax_ingot;2;0</itemStack>
+			<itemStack>taiga:osram_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:ignitz_ingot;2;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Imperomite -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:duranite_ingot;3;0</itemStack>
+			<itemStack>taiga:prometheum_ingot;1;0</itemStack>
+			<itemStack>taiga:abyssum_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:imperomite_ingot;2;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Solarium -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:valyrium_ingot;2;0</itemStack>
+			<itemStack>taiga:uru_ingot;2;0</itemStack>
+			<itemStack>taiga:nucleum_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:solarium_ingot;2;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Adamant -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:vibranium_ingot;1;0</itemStack>
+			<itemStack>taiga:solarium_ingot;1;0</itemStack>
+			<itemStack>taiga:iox_ingot;3;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:adamant_ingot;3;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Seismum -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>thermalfoundation:material;8;770</itemStack>
+			<itemStack>taiga:triberium_ingot;2;0</itemStack>
+			<itemStack>taiga:eezo_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:seismum_ingot;4;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Astrium -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:terrax_ingot;3;0</itemStack>
+			<itemStack>taiga:aurorium_ingot;2;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:astrium_ingot;2;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Niob -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:palladium_ingot;3;0</itemStack>
+			<itemStack>taiga:duranite_ingot;1;0</itemStack>
+			<itemStack>taiga:osram_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:niob_ingot;3;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Yrdeen via Osram -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:uru_ingot;3;0</itemStack>
+			<itemStack>taiga:valyrium_ingot;3;0</itemStack>
+			<itemStack>taiga:osram_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:yrdeen_ingot;3;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Yrdeen via Eezo -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:uru_ingot;3;0</itemStack>
+			<itemStack>taiga:valyrium_ingot;3;0</itemStack>
+			<itemStack>taiga:eezo_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:yrdeen_ingot;3;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Yrdeen via Abyssum -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:uru_ingot;3;0</itemStack>
+			<itemStack>taiga:valyrium_ingot;3;0</itemStack>
+			<itemStack>taiga:abyssum_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:yrdeen_ingot;3;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Iox via Obsidiorite -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:eezo_ingot;2;0</itemStack>
+			<itemStack>taiga:abyssum_ingot;2;0</itemStack>
+			<itemStack>taiga:osram_ingot;2;0</itemStack>
+			<itemStack>taiga:obsidiorite_ingot;9;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:iox_ingot;1;0	</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Iox via Obsidian + Meteorite -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:eezo_ingot;2;0</itemStack>
+			<itemStack>taiga:abyssum_ingot;2;0</itemStack>
+			<itemStack>taiga:osram_ingot;2;0</itemStack>
+			<itemStack>taiga:meteorite_ingot;9;0</itemStack>
+			<itemStack>thermalfoundation:material;18;770</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:iox_ingot;1;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Lumix -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:palladium_ingot;1;0</itemStack>
+			<itemStack>taiga:terrax_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:lumix_ingot;1;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Obsidiorite -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:meteorite_ingot;1;0</itemStack>
+			<itemStack>thermalfoundation:material;2;770</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:obsidiorite_ingot;1;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Nucleum via Proxii -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:proxii_ingot;3;0</itemStack>
+			<itemStack>taiga:abyssum_ingot;1;0</itemStack>
+			<itemStack>taiga:osram_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:nucleum_ingot;3;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Nucleum via Imperomite -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:imperomite_ingot;3;0</itemStack>
+			<itemStack>taiga:osram_ingot;1;0</itemStack>
+			<itemStack>taiga:eezo_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:nucleum_ingot;3;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Nucleum via Niob -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:niob_ingot;3;0</itemStack>
+			<itemStack>taiga:eezo_ingot;1;0</itemStack>
+			<itemStack>taiga:abyssum_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:nucleum_ingot;3;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Dyonite via Triberium -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:triberium_ingot;3;0</itemStack>
+			<itemStack>taiga:fractum_ingot;1;0</itemStack>
+			<itemStack>taiga:seismum_ingot;1;0</itemStack>
+			<itemStack>taiga:osram_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:dyonite_ingot;3;0</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: TAIGA Alloy - Dyonite via Tiberium -->
+	<Recipe timeRequired="40" power="10000">
+		<input>
+			<itemStack>taiga:tiberium_ingot;12;0</itemStack>
+			<itemStack>taiga:fractum_ingot;1;0</itemStack>
+			<itemStack>taiga:seismum_ingot;1;0</itemStack>
+			<itemStack>taiga:osram_ingot;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>taiga:dyonite_ingot;3;0</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

@@ -100,6 +100,9 @@ mce.immersiveengineering.tip.revoler_bullet_damage=Bullet Damage values amplifie
 
 mce.lootgames.tip.minesweeper_dont_put_in_base_dummy=WARNING: DO NOT PLACE IN YOUR BASE
 
+mce.lodsofemone.crafting_info.sum_coin_lore=With the sum of the input values!
+mce.lodsofemone.crafting_info.divide_coin_lore=With an equal division of the input value!
+
 mce.quark.oddities.tip.matrix_enchanting_candle.boosts=Boosts rates of in Matrix Enchanting:
 mce.quark.oddities.tip.matrix_enchanting_candle.hold_shift=Hold SHIFT to see affected Enchantments
 

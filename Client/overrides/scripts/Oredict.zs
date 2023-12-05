@@ -23,6 +23,8 @@ print("--- loading Oredict.zs ---");
 
 <ore:dustEnder>.add(<techreborn:dust:20>);
 
+<ore:itemCoin>.add([<lodsofemone:coin_small>, <lodsofemone:coin_big>]);
+
 #Atum Relics (relicItemAtum)
 
 var relicNames = [

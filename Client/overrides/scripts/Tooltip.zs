@@ -5,9 +5,6 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 
 print("--- loading Tooltip.zs ---");
 
-function getFTBCrate(id as string) as IItemStack {
-	return <ftbquests:lootcrate>.withTag({type: id as IData});
-}
 
 #Add tooltip
 <extrautils2:bagofholding>.addTooltip(format.red(game.localize("mce.extrautils2.tip.bagofholding_gamemode_change")));
@@ -41,6 +38,7 @@ getFTBCrate("unclaimed_black_market_container").addTooltip(format.gold(game.loca
 <thaumcraft:filter>.addTooltip(format.aqua(game.localize("mce.thaumcraft.tip.unclog_lattice.filter")));
 <nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple(game.localize("mce.nuclearcraft.tip.fission_power_buff")));
 <randomthings:spectreanchor>.addTooltip(format.red(game.localize("mce.randomthings.tip.spectreanchor_use_other_soulbound")));
+addMultilineLocalizedTooltip(<appliedenergistics2:material:21>.withEmptyTag(), "mce.appliedenergistics2.tip.name_press.how_its_made");
 
 <necromancersdelight:charm_bone_bag>.addTooltip(format.red("Temporarily Disabled, this item will be obtainable again in a (hopefully near) future version of MCE."));
 
@@ -182,6 +180,12 @@ for num in 0 to 5 {
 
 for resItem,amount in {<xreliquary:angelheart_vial> : 5, <xreliquary:phoenix_down>: 25} as string[IItemStack] {
 	resItem.addTooltip(format.lightPurple(game.localize("mce.xreliquary.tip.restores_percent_health").replace("%s", amount as string)));
+}
+
+//TAIGA Ores
+val taigaOreTip = game.localize("mce.taiga.tip.where_to_find_ores").split("<BR>");
+for item in loadedMods["taiga"].items {
+	if(item.definition.id has "ore") item.addShiftTooltip(format.gold(taigaOreTip[1]), format.gold(taigaOreTip[0]));
 }
 
 print("--- Tooltip.zs initialized ---");	

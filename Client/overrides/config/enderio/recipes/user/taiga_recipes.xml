@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+<!-- TAIGA Ore SAG Milling-->
+
+<recipe name="SAG Mill: TAIGA Abyssum" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:abyssum_ore"/>
+      <output name="taiga:abyssum_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Basalt" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:basalt_block"/>
+      <output name="taiga:basalt_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Tiberium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:tiberium_ore"/>
+      <output name="taiga:tiberium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Aurorium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:aurorium_ore"/>
+      <output name="taiga:aurorium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Prometheum" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:prometheum_ore"/>
+      <output name="taiga:prometheum_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Duranite" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:duranite_ore"/>
+      <output name="taiga:duranite_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Valyrium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:valyrium_ore"/>
+      <output name="taiga:valyrium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Vibranium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:vibranium_ore"/>
+      <output name="taiga:vibranium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Karmesine" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:karmesine_ore"/>
+      <output name="taiga:karmesine_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Ovium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:ovium_ore"/>
+      <output name="taiga:ovium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Jauxum" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:jauxum_ore"/>
+      <output name="taiga:jauxum_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Palladium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:palladium_ore"/>
+      <output name="taiga:palladium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Uru" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:uru_ore"/>
+      <output name="taiga:uru_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Osram" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:osram_ore"/>
+      <output name="taiga:osram_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Eezo" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:eezo_ore"/>
+      <output name="taiga:eezo_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<recipe name="SAG Mill: TAIGA Dilithium" required="true">
+	<sagmilling energy="3600" bonus="none">
+      <input name="taiga:dilithium_ore"/>
+      <output name="taiga:dilithium_dust" amount="2"/>
+	</sagmilling>
+</recipe>
+
+<!-- TAIGA Alloying -->
+
+<recipe name="MCE: TAIGA Alloy - Terrax" required="true">
+	<alloying energy="10000">
+		<input name="taiga:karmesine_ingot:0" amount="1"/>
+		<input name="taiga:ovium_ingot:0" amount="1"/>
+		<input name="taiga:jauxum_ingot:0" amount="1"/>		
+		<output name="taiga:terrax_ingot" amount="2"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Triberium via Basalt" required="true">
+	<alloying energy="10000">
+		<input name="taiga:tiberium_ingot:0" amount="5"/>
+		<input name="taiga:basalt_ingot:0" amount="1"/>		
+		<output name="taiga:triberium_ingot" amount="1"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Triberium via Dilithium" required="true">
+	<alloying energy="10000">
+		<input name="taiga:tiberium_ingot:0" amount="5"/>
+		<input name="taiga:dilithium_ingot:0" amount="2"/>		
+		<output name="taiga:triberium_ingot" amount="1"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Fractum" required="true">
+	<alloying energy="10000">
+		<input name="taiga:triberium_ingot:0" amount="3"/>
+		<input name="thermalfoundation:material:770" amount="6"/>
+		<input name="taiga:abyssum_ingot:0" amount="1"/>		
+		<output name="taiga:fractum_ingot" amount="2"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Violium" required="true">
+	<alloying energy="10000">
+		<input name="taiga:aurorium_ingot:0" amount="3"/>
+		<input name="tconstruct:ingots:1" amount="2"/>		
+		<output name="taiga:violium_ingot" amount="2"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Proxii" required="true">
+	<alloying energy="10000">
+		<input name="taiga:prometheum_ingot:0" amount="3"/>
+		<input name="taiga:palladium_ingot:0" amount="3"/>
+		<input name="taiga:eezo_ingot:0" amount="1"/>		
+		<output name="taiga:proxii_ingot" amount="3"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Tritonite" required="true">
+	<alloying energy="10000">
+		<input name="tconstruct:ingots:0" amount="3"/>
+		<input name="taiga:terrax_ingot:0" amount="2"/>		
+		<output name="taiga:tritonite_ingot" amount="2"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Ignitz" required="true">
+	<alloying energy="10000">
+		<input name="tconstruct:ingots:1" amount="2"/>
+		<input name="taiga:terrax_ingot:0" amount="2"/>
+		<input name="taiga:osram_ingot:0" amount="1"/>		
+		<output name="taiga:ignitz_ingot" amount="2"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Imperomite" required="true">
+	<alloying energy="10000">
+		<input name="taiga:duranite_ingot:0" amount="3"/>
+		<input name="taiga:prometheum_ingot:0" amount="1"/>
+		<input name="taiga:abyssum_ingot:0" amount="1"/>		
+		<output name="taiga:imperomite_ingot" amount="2"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Solarium" required="true">
+	<alloying energy="10000">
+		<input name="taiga:valyrium_ingot:0" amount="2"/>
+		<input name="taiga:uru_ingot:0" amount="2"/>
+		<input name="taiga:nucleum_ingot:0" amount="1"/>		
+		<output name="taiga:solarium_ingot" amount="2"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Adamant" required="true">
+	<alloying energy="10000">
+		<input name="taiga:vibranium_ingot:0" amount="1"/>
+		<input name="taiga:solarium_ingot:0" amount="1"/>
+		<input name="taiga:iox_ingot:0" amount="3"/>		
+		<output name="taiga:adamant_ingot" amount="3"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Seismum" required="true">
+	<alloying energy="10000">
+		<input name="thermalfoundation:material:770" amount="8"/>
+		<input name="taiga:triberium_ingot:0" amount="2"/>
+		<input name="taiga:eezo_ingot:0" amount="1"/>		
+		<output name="taiga:seismum_ingot" amount="4"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Astrium" required="true">
+	<alloying energy="10000">
+		<input name="taiga:terrax_ingot:0" amount="3"/>
+		<input name="taiga:aurorium_ingot:0" amount="2"/>		
+		<output name="taiga:astrium_ingot" amount="2"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Niob" required="true">
+	<alloying energy="10000">
+		<input name="taiga:palladium_ingot:0" amount="3"/>
+		<input name="taiga:duranite_ingot:0" amount="1"/>
+		<input name="taiga:osram_ingot:0" amount="1"/>		
+		<output name="taiga:niob_ingot" amount="3"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Yrdeen via Osram" required="true">
+	<alloying energy="10000">
+		<input name="taiga:uru_ingot:0" amount="3"/>
+		<input name="taiga:valyrium_ingot:0" amount="3"/>
+		<input name="taiga:osram_ingot:0" amount="1"/>		
+		<output name="taiga:yrdeen_ingot" amount="3"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Yrdeen via Eezo" required="true">
+	<alloying energy="10000">
+		<input name="taiga:uru_ingot:0" amount="3"/>
+		<input name="taiga:valyrium_ingot:0" amount="3"/>
+		<input name="taiga:eezo_ingot:0" amount="1"/>		
+		<output name="taiga:yrdeen_ingot" amount="3"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Yrdeen via Abyssum" required="true">
+	<alloying energy="10000">
+		<input name="taiga:uru_ingot:0" amount="3"/>
+		<input name="taiga:valyrium_ingot:0" amount="3"/>
+		<input name="taiga:abyssum_ingot:0" amount="1"/>		
+		<output name="taiga:yrdeen_ingot" amount="3"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Lumix" required="true">
+	<alloying energy="10000">
+		<input name="taiga:palladium_ingot:0" amount="1"/>
+		<input name="taiga:terrax_ingot:0" amount="1"/>		
+		<output name="taiga:lumix_ingot" amount="1"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Obsidiorite" required="true">
+	<alloying energy="10000">
+		<input name="taiga:meteorite_ingot:0" amount="1"/>
+		<input name="thermalfoundation:material:770" amount="2"/>		
+		<output name="taiga:obsidiorite_ingot" amount="1"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Nucleum via Proxii" required="true">
+	<alloying energy="10000">
+		<input name="taiga:proxii_ingot:0" amount="3"/>
+		<input name="taiga:abyssum_ingot:0" amount="1"/>
+		<input name="taiga:osram_ingot:0" amount="1"/>		
+		<output name="taiga:nucleum_ingot" amount="3"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Nucleum via Imperomite" required="true">
+	<alloying energy="10000">
+		<input name="taiga:imperomite_ingot:0" amount="3"/>
+		<input name="taiga:osram_ingot:0" amount="1"/>
+		<input name="taiga:eezo_ingot:0" amount="1"/>		
+		<output name="taiga:nucleum_ingot" amount="3"/>
+	</alloying>
+</recipe>
+
+<recipe name="MCE: TAIGA Alloy - Nucleum via Niob" required="true">
+	<alloying energy="10000">
+		<input name="taiga:niob_ingot:0" amount="3"/>
+		<input name="taiga:eezo_ingot:0" amount="1"/>
+		<input name="taiga:abyssum_ingot:0" amount="1"/>		
+		<output name="taiga:nucleum_ingot" amount="3"/>
+	</alloying>
+</recipe>
+
+</enderio:recipes>
