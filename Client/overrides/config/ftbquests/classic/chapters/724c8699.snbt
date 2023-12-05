@@ -1,0 +1,55 @@
+{
+	title: "Closing the Gap",
+	x: -14.7d,
+	y: -4.55d,
+	description: "Removing Rifts without style",
+	text: [
+		"You might have seen some hideous and glitchy dark masses around the world, either in clusters, or alone after exiting a Dimensional Portal, and thinking \"&3that's weird, is the game broken?&r\", the answer is no, that's just a crack in the fabric of reality.",
+		"It's no problem though! You can mend it using a &6Rift Remover&r on its origin point, don't know where that point is? &dThe remover will highlight the origin point of the nearest rift when you use it on anything but a rift&r."
+	],
+	dependencies: [
+		"87cb3976"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "76751d86",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dimdoors:rift_remover"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1a74ac12",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f9cdca28",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dimdoors:woven_world_thread_helmet",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 70
+				}],
+				display: {
+					Lore: [
+						"I closed a tear in reality and all i got was a stupid hat."
+					],
+					Name: "Commerative Cap of Reality-Mending"
+				}
+			}
+		}
+	}]
+}
