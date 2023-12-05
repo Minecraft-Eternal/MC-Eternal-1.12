@@ -1,7 +1,14 @@
+#To create a localization of this file into another language, please create a copy of this file and rename it with the language key of your languages
+#it is recommended to reference the en_us file when localizing, instead of making things up, as some keys have special sequences that are replaced or cut from the string
+
 #IE Minerals
 desc.immersiveengineering.info.mineral.Fissile=
 desc.immersiveengineering.info.mineral.Osmiron=
 desc.immersiveengineering.info.mineral.Atometal=
+desc.immersiveengineering.info.mineral.mooncheese=
+
+#Custom IE Blueprints
+desc.immersiveengineering.info.blueprint.matter_engineering=
 
 #Quest Chapter Names
 mce.questing.chapter.introduction.name=
@@ -51,9 +58,10 @@ mce.generic.tip.challengemode_disabled=
 mce.generic.message.item_yeeted_from_exist=
 
 mce.appliedenergistics2.tip.meteors_in_beneath=
+mce.appliedenergistics2.tip.name_press.how_its_made=
 
 mce.advrocketry.message.get_there_with_rocket.1=
-mce.advrocketry.message.get_there_with_rocket.2
+mce.advrocketry.message.get_there_with_rocket.2=
 mce.advrocketry.message.no_go_through_portal=
 
 mce.akashictome.tip.included_in_preloaded=
@@ -95,6 +103,9 @@ mce.immersiveengineering.tip.revoler_bullet_damage=
 
 mce.lootgames.tip.minesweeper_dont_put_in_base_dummy=
 
+mce.lodsofemone.crafting_info.sum_coin_lore=
+mce.lodsofemone.crafting_info.divide_coin_lore=
+
 mce.quark.oddities.tip.matrix_enchanting_candle.boosts=
 mce.quark.oddities.tip.matrix_enchanting_candle.hold_shift=
 
@@ -107,8 +118,6 @@ mce.mekanism.tip.builders_wand_basic_revert=
 mce.mekanism.tip.builders_wand_factory=
 
 mce.midnight.tip.throw_geode_at_wall=
-
-mce.mysticalagriculture.tip.supremium_flight_disabled=
 
 mce.nuclearcraft.tip.fission_power_buff=
 
@@ -129,6 +138,10 @@ mce.tconstruct.tip.smeltery_fuel_stats.2=
 mce.tconstruct.tip.smeltery_fuel_stats.3=
 mce.tconstruct.tip.material_megabuffed=
 
+mce.taiga.tip.where_to_find_ores=
+
+mce.tombstone.message.remove_resplendent_prism=
+
 mce.vampirism.tip.pure_blood_obtain=
 
 mce.wings.tip.fairy_dust=
@@ -137,9 +150,10 @@ mce.xreliquary.tip.restores_percent_health=
 
 
 #Challenge Mode specific
-mce.challengemode.mekanism.tip.fusion_reactor_recipe_looks_funny=
-mce.challengemode.thermal.tip.hardened_glass_needs_osmium.1=
-mce.challengemode.thermal.tip.hardened_glass_needs_osmium.2=
+mce.challengemode.thermal.tip.hardened_glass_needs_osmium=
+
+mce.challengemode.tombstone.tip.grave_key_cant_teleport=
+mce.challengemode.tombstone.message.grave_key_teleport_fail=
 
 #Betweenlands Restrictions
 mce.challengemode.betweenlands_restrictions.denied_entry_message.1=
