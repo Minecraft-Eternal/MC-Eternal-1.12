@@ -6,7 +6,7 @@
 	default_quest_shape: "circle",
 	default_quest_disable_jei: false,
 	emergency_items: [{
-		item: "nuclearcraft:radaway"
+		item: "stupidthings:rubber_chicken"
 	}],
 	emergency_items_cooldown: "1m",
 	drop_loot_crates: false,
