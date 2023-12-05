@@ -8,9 +8,6 @@
 		uid: "1b09a8d7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "minecraft:water_bucket"
 		}],
 		ignore_damage: true,
