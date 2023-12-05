@@ -225,6 +225,7 @@
 		<entity name="inventorypets:*"							soulvial="false"/>
 		<entity name="mekanism:robit"							disabled="true" clone="false"/>
 		<entity name="minecolonies:*" 							disabled="true"/>
+		<entity name="lcrdrfs:*"								disabled="true"/>
 		<entity name="openblocks:*"								clone="false" soulvial="false"/>
 		<entity name="quark:stoneling" 							disabled="true"/>
 		<entity name="randomthings:goldenchicken"				costMultiplier="10"/>	
