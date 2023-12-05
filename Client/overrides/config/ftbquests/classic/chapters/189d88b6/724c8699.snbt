@@ -15,10 +15,6 @@
 		uid: "76751d86",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "dimdoors:rift_remover"
 		}],
 		ignore_damage: true,
@@ -33,10 +29,6 @@
 		uid: "f9cdca28",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "dimdoors:woven_world_thread_helmet",
 			tag: {
 				ench: [{
