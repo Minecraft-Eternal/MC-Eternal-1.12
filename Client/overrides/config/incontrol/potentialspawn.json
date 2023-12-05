@@ -40,7 +40,25 @@
         "weight": 8,
         "groupcountmin": 3,
         "groupcountmax": 5
-      }
+      },
+    {
+      "mob": "lcrdrfs:laser_creeper",
+      "weight": 3,
+      "groupcountmin": 2,
+      "groupcountmax": 5
+    },
+    {
+      "mob": "lcrdrfs:robo_dino",
+      "weight": 1,
+      "groupcountmin": 1,
+      "groupcountmax": 2
+    },
+    {
+      "mob": "lcrdrfs:jet_pack_spider",
+      "weight": 2,
+      "groupcountmin": 1,
+      "groupcountmax": 3
+    }
     ]
   },
   {
