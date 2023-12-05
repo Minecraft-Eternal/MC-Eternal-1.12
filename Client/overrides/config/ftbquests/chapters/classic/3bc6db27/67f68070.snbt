@@ -19,9 +19,6 @@
 		uid: "da7ab31c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "randomthings:spectreenergyinjector"
 		}]
 	},
@@ -30,21 +27,12 @@
 		type: "item",
 		title: "Any &6Spectre Coil",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "randomthings:spectrecoil_normal"
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "randomthings:spectrecoil_redstone"
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "randomthings:spectrecoil_ender"
 		}]
 	},
@@ -53,25 +41,13 @@
 		type: "item",
 		title: "Any &6Spectre Charger",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "randomthings:spectrecharger"
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "randomthings:spectrecharger",
 			Damage: 1s
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "randomthings:spectrecharger",
 			Damage: 2s
 		}],
@@ -86,9 +62,6 @@
 		uid: "91971f79",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "randomthings:spectrecoil_number"
 		}
 	}]
