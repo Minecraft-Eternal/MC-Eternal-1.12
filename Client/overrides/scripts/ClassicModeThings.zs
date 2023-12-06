@@ -1,5 +1,8 @@
-import crafttweaker.item.IItemStack;
 #packmode classic
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
 #MC Eternal Scripts
 
 print("--- loading ClassicModeThings.zs ---");
@@ -37,7 +40,7 @@ recipes.addShaped("mce_classicmode_bl_ancient_helment", <thebetweenlands:ancient
 //Small Storage Crate Upgrade (nice version)
 recipes.addShaped("mce_classicmode_small_storage_crate_upgrade", <actuallyadditions:item_chest_to_crate_upgrade>, [
   [<ore:plankWood>, null, <ore:plankWood>],
-  [<ore:chestWood>, <actualladditions:block_misc:4>, <ore:chestWood>],
+  [<ore:chestWood>, <actuallyadditions:block_misc:4>, <ore:chestWood>],
   [<ore:plankWood>, <ore:chestWood>, <ore:plankWood>]
 ]);
 
