@@ -112,7 +112,7 @@ var candleData = {
 	0 : [<enchantment:minecraft:unbreaking>,<enchantment:elenaidodge2:lightweight>],
 	1 : [<enchantment:minecraft:fire_protection>,<enchantment:minecraft:fire_aspect>,<enchantment:minecraft:flame>,<enchantment:cofhcore:smelting>,<enchantment:extrautils2:xu.burnerang>],
 	2 : [<enchantment:minecraft:knockback>,<enchantment:minecraft:punch>,<enchantment:ebwizardry:magic_protection>],
-	3 : [<enchantment:minecraft:feather_falling>,<enchantment:ebwizardry:frost_protection>,<enchantment:cyclicmagic:enchantment.launch>],
+	3 : [<enchantment:minecraft:feather_falling>,<enchantment:ebwizardry:frost_protection>],
 	4 : [<enchantment:minecraft:looting>,<enchantment:minecraft:fortune>,<enchantment:minecraft:luck_of_the_sea>],
 	5 : [<enchantment:minecraft:blast_protection>,<enchantment:cofhcore:insight>,<enchantment:endercore:xpboost>],
 	6 : [<enchantment:minecraft:silk_touch>,<enchantment:cofhcore:holding>,<enchantment:cofhcore:vorpal>],
