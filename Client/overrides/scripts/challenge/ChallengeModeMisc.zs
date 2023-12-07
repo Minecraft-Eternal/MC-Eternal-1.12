@@ -389,7 +389,7 @@ recipes.removeByRecipeName("tombstone:enchanted_grave_key");
 
 // disenchant keys when they are used
 events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLivingUseItemEvent.Start){
-	if(!event.player.world.remote && event.isPlayer && event.item.definition.id == "tombstone:grave_key" && event.item.hasTag){
+	if(event.isPlayer && !event.player.world.remote && event.item.definition.id == "tombstone:grave_key" && event.item.hasTag){
 		print("EntityLivingUseItemStartEvent of Grave Key Disenchantment");
 		print("event is via player: "+ event.isPlayer);
 		print("CT Itemdef: "+ event.item.commandString);
