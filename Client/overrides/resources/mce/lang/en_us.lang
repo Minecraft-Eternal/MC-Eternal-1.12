@@ -65,6 +65,9 @@ mce.akashictome.tip.included_in_preloaded=Included within the standard Akashic T
 
 mce.agricraft.tip.sprinkler_turn_off_particles_probably=WARNING: Will cause serious FPS lag if Particles are not disabled in Agricraft's Config
 
+mce.botania.crafting_info.unfabulous_mana_pool=Gives back 5 Alfglass when crafted
+mce.botania.crafting_info.change_forest_wand_petals=Colored with the Petals used in this recipe!
+
 mce.cyclic.tip.inventory_cake_bad_at_saving=WARNING! Can delete items inside when the game crashes or closes unexpectedly
 
 mce.cofhcore.message.multishot_is_infact_disabled=Multishot is disabled, but %s tried to use it anyway.
