@@ -390,9 +390,6 @@ recipes.removeByRecipeName("tombstone:enchanted_grave_key");
 // disenchant keys when they are used
 events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLivingUseItemEvent.Start){
 	if(event.isPlayer && !event.player.world.remote && event.item.definition.id == "tombstone:grave_key" && event.item.hasTag){
-		print("EntityLivingUseItemStartEvent of Grave Key Disenchantment");
-		print("event is via player: "+ event.isPlayer);
-		print("CT Itemdef: "+ event.item.commandString);
 		if(isNull(event.item.tag.enchant) || event.item.tag.enchant.asBool() == false) return;
 		val unenchantedKey = event.item.updateTag({enchant: false});
 		for hand in [IEntityEquipmentSlot.mainHand(), IEntityEquipmentSlot.offhand()] as IEntityEquipmentSlot[] {
