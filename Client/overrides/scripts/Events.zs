@@ -62,3 +62,16 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		}
 	}
 });
+
+
+//100% block LCRDRFS mobs spawning where they should not ever be
+events.onEntityJoinWorld(function(event as crafttweaker.event.EntityJoinWorldEvent){
+	if(!isNull(event.entity.definition)
+	&& event.entity.definition.id.split(":")[0] == "lcrdrfs"
+	&& event.entity.dimension != 1000
+	//Avoid removing tamed T-R3X 1000
+	&& (isNull(event.entity.nbt.tameState) || event.entity.nbt.tameState.asInt() == 0)){
+		event.entity.setDead();
+		event.cancel();
+	}
+});
