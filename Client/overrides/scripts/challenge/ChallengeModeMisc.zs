@@ -27,65 +27,6 @@ print("--- Loading /challenge/ChallengeModeMisc.zs ---");
     ExtraUtils.zs
 */
 
-#remove vistical agriculture:tm:
-// super op by deleting any kind of challenges with essentia
-val validSeedAspects = [
-		//Base TC
-		<aspect:aer>,
-		<aspect:terra>,
-		<aspect:ignis>,
-		<aspect:aqua>,
-		<aspect:ordo>,
-		<aspect:perditio>,
-		<aspect:vacuos>,
-		<aspect:lux>,
-		<aspect:motus>,
-		<aspect:gelum>,
-		<aspect:vitreus>,
-		<aspect:metallum>,
-		<aspect:victus>,
-		<aspect:mortuus>,
-		<aspect:potentia>,
-		<aspect:permutatio>,
-		<aspect:praecantatio>,
-		<aspect:auram>,
-		<aspect:alkimia>,
-		<aspect:vitium>,
-		<aspect:tenebrae>,
-		<aspect:alienis>,
-		<aspect:volatus>,
-		<aspect:herba>,
-		<aspect:instrumentum>,
-		<aspect:fabrico>,
-		<aspect:machina>,
-		<aspect:vinculum>,
-		<aspect:spiritus>,
-		<aspect:cognitio>,
-		<aspect:sensus>,
-		<aspect:aversio>,
-		<aspect:praemunio>,
-		<aspect:desiderium>,
-		<aspect:exanimis>,
-		<aspect:bestia>,
-		<aspect:humanus>,
-		
-		//TAdditions
-		<aspect:fluctus>,
-		<aspect:sonus>,
-		<aspect:exitium>,
-		<aspect:caeles>,
-		<aspect:draco>,
-		<aspect:infernum>,
-		<aspect:ventus>,
-		<aspect:visum>,
-		<aspect:imperium>
-] as CTAspectStack[];
-	
-for aspectStack in validSeedAspects {
-	var aspect = aspectStack.internal.name.toLowerCase();
-	mods.thaumcraft.Crucible.removeRecipe("thaumadditions:"+ aspect +"_vis_seed");
-	itemUtils.getItem("thaumadditions:vis_seeds/"+ aspect).addTooltip(format.red(game.localize("mce.generic.tip.challengemode_disabled")));
-}
 
 // Thermal Machine Frame
 recipes.remove(<thermalexpansion:frame>);
@@ -403,10 +344,35 @@ events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLiv
 	}
 });
 
+//Deny Wither cheese such as sticking its face in Bedrock
+static okWitherDimensions as int[] = [
+		0,
+		7,
+		-8,
+		-23
+];
+
+events.onEntityJoinWorld(function(event as crafttweaker.event.EntityJoinWorldEvent){
+	if(isNull(event.entity.definition)
+	&& event.entity.definition.id != "minecraft:wither"
+	&& (okWitherDimensions has event.entity.dimension)) return;
+	event.entity.setDead();
+	event.cancel();
+});
+
 
 //Tooltips
 addMultilineLocalizedTooltip(<thermalfoundation:glass:3>, "mce.challengemode.thermal.tip.hardened_glass_needs_osmium");
 <tombstone:grave_key>.addTooltip(format.red(game.localize("mce.challengemode.tombstone.tip.grave_key_cant_teleport")));
+
+
+val witherTooltipShift as string[] = game.localize("mce.challengemode.minecraft.tip.wither_only_in_some_dims.shift").split("<BR>");
+val witherTooltip as string[] = game.localize("mce.challengemode.minecraft.tip.wither_only_in_some_dims");
+<minecraft:skull:1>.addShiftTooltip(format.gold(witherTooltipShift[0]), format.gold(witherTooltip[0]));
+<minecraft:skull:1>.addShiftTooltip(format.green(witherTooltipShift[1]), format.gold(witherTooltip[1]));
+<minecraft:skull:1>.addShiftTooltip(format.green(witherTooltipShift[2]), format.gold(witherTooltip[2]));
+<minecraft:skull:1>.addShiftTooltip(format.green(witherTooltipShift[3]));
+<minecraft:skull:1>.addShiftTooltip(format.green(witherTooltipShift[4]));
 
 
 print("--- /challenge/ChallengeModeMisc.zs initialized ---");
