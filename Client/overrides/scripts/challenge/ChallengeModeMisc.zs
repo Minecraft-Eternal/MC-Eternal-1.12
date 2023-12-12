@@ -205,10 +205,6 @@ recipes.addShaped("mce_challengemode_flux_storage_gargantuan", <fluxnetworks:gar
 	[<fluxnetworks:fluxblock>, <fluxnetworks:herculeanfluxstorage>, <fluxnetworks:fluxblock>]
 ]);
 
-// Roots Unending Bowl
-Fey.removeRecipe(<roots:unending_bowl>);
-Fey.addRecipe("unending_bowl", <roots:unending_bowl>, [<roots:mortar>, <nuclearcraft:water_source_dense>, <thaumcraft:everfull_urn>, <extrautils2:drum:3>.withTag({Fluid: {FluidName: "water", Amount: 65536000}}), <xreliquary:emperor_chalice>]);
-
 
 //Gate Witherproofing behind Beneath :>
 val thermalGlass = {
