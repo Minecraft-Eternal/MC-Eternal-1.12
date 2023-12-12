@@ -71,7 +71,7 @@ events.onEntityJoinWorld(function(event as crafttweaker.event.EntityJoinWorldEve
 	//Avoid deleting projectile entities
 	&& event.entity instanceof IEntityLivingBase
 	&& event.entity.definition.id.split(":")[0] == "lcrdrfs"
-	//Avoid removing tamed T-R3X 1000/ARTH0-BORG JETLINER 2000
+	//Avoid removing tamed T-R3X 1000/ARTHR0-BORG JETLINER 2000
 	&& (isNull(event.entity.nbt.tameState) || event.entity.nbt.tameState.asInt() == 0)){
 		event.entity.setDead();
 		event.cancel();
