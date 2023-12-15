@@ -184,11 +184,12 @@ static okWitherDimensions as int[] = [
 ];
 
 events.onEntityJoinWorld(function(event as crafttweaker.event.EntityJoinWorldEvent){
-	if(isNull(event.entity.definition)
-	&& event.entity.definition.id != "minecraft:wither"
-	&& (okWitherDimensions has event.entity.dimension)) return;
-	event.entity.setDead();
-	event.cancel();
+	if(!isNull(event.entity.definition)
+	&& event.entity.definition.id == "minecraft:wither"
+	&& !(okWitherDimensions has event.entity.dimension)){
+		event.entity.setDead();
+		event.cancel();
+	}
 });
 
 
@@ -198,7 +199,7 @@ addMultilineLocalizedTooltip(<thermalfoundation:glass:3>, "mce.challengemode.the
 
 
 val witherTooltipShift as string[] = game.localize("mce.challengemode.minecraft.tip.wither_only_in_some_dims.shift").split("<BR>");
-val witherTooltip as string[] = game.localize("mce.challengemode.minecraft.tip.wither_only_in_some_dims");
+val witherTooltip as string[] = game.localize("mce.challengemode.minecraft.tip.wither_only_in_some_dims").split("<BR>");
 <minecraft:skull:1>.addShiftTooltip(format.gold(witherTooltipShift[0]), format.gold(witherTooltip[0]));
 <minecraft:skull:1>.addShiftTooltip(format.green(witherTooltipShift[1]), format.gold(witherTooltip[1]));
 <minecraft:skull:1>.addShiftTooltip(format.green(witherTooltipShift[2]), format.gold(witherTooltip[2]));
