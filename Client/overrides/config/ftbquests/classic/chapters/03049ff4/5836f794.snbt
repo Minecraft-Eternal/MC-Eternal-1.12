@@ -252,7 +252,7 @@
 	rewards: [{
 		uid: "87283ae9",
 		type: "ftbmoney:money",
-		value: 100000L
+		ftb_money: 100000L
 	},
 	{
 		uid: "f4982ae1",
