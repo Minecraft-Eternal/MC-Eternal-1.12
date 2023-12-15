@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 
 
 //set to true to enable Crafttweaker logging of Pet Buff system details
-global debugBuffSystem as bool = true;
+global debugBuffSystem as bool = false;
 
 
 global buffablePets as string[] = [
