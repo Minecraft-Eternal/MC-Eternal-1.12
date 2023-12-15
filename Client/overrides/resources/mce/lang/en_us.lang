@@ -41,6 +41,7 @@ xreliquary.jei.descriptions.phoenix_down=Resurrects you from your inventory to a
 
 xreliquary.item.alkahestry_tome.tooltip2={{!colors.rose}}Charge: {{chargeAmount}}/{{chargeLimit}};Right-click to read.;Does not absorb Redstone or Glowstone in MC Eternal.;See Uses in JEI for what it does absorb.
 xreliquary.jei.descriptions.alkahestry_tome=Shift + Right-Click to activate. While active, it will absorb certain items in the player's inventory to generate Charge. Place it in a crafting grid with certain items to duplicate them by consuming Charge.
+xreliquary.gui.tome.text=Charged with certain;items by Crafting or;when Auto-Absorb is;enabled. Charge can be;used to duplicate;select items, by;crafting them with;the tome.;Charging uses; different items in;MC Eternal, see JEI.
 
 item.theaurorian.crystallinesprite.name=Aurorian Sky Spirit
 
@@ -48,8 +49,59 @@ achievement.dilithium=Mozzarellium
 achievement.dilithium.desc=Acquire Mozzarellium Crystal
 tile.Dilithium.name=Mozzarellium Ore
 tile.coil.dilithium.name=Mozzarellium Coil
-item.hovercraft.tooltip=Long-lasting Mozzarellium powersource.  It'll probably outlive you.
+item.hovercraft.tooltip=Long-lasting Mozzarellium powersource. It'll probably outlive you.
 material.Dilithium.name=Mozzarellium
+
+
+#Vanillafix Crash Screen override
+#lang keys acquired from: https://github.com/DimensionalDevelopment/VanillaFix/tree/master/src/main/resources/assets/vanillafix/lang
+#not all of these messages are modified in MC Eternal
+
+vanillafix.gui.getLink=[This button does nothing]
+vanillafix.gui.failed=[Told you]
+vanillafix.gui.keepPlaying=Keep playing
+vanillafix.gui.restart=Restart Minecraft
+vanillafix.gui.disabledByConfig=Disabled by config
+
+vanillafix.crashscreen.title=Minecraft crashed!
+vanillafix.crashscreen.summary=Minecraft ran into a problem and crashed.
+
+vanillafix.crashscreen.paragraph1.line1=The following mod(s) §o§lmay§r be involved:
+
+vanillafix.crashscreen.unknownCause=Unknown
+vanillafix.crashscreen.identificationErrored=[Error identifying :(]
+
+vanillafix.crashscreen.paragraph2.line1=Click any mod in the list to go to their website for support. A
+vanillafix.crashscreen.paragraph2.line2=report has been generated, and can be found here (click):
+
+vanillafix.crashscreen.reportSaveFailed=[Error saving report, see log]
+
+vanillafix.crashscreen.paragraph3.line1=If this is preventing you from playing the game properly,
+vanillafix.crashscreen.paragraph3.line2=you may want to put the Crash Report into a Paste Site and seek
+vanillafix.crashscreen.paragraph3.line3=help with resolving it if you don't have the technical know-how.
+vanillafix.crashscreen.paragraph3.line4=The MC Eternal Discord is a recommended place to go.
+
+vanillafix.initerrorscreen.title=Minecraft failed to start!
+vanillafix.initerrorscreen.summary=An error during startup prevented Minecraft from starting
+
+vanillafix.initerrorscreen.paragraph3.line1=If this is preventing you from playing the game properly,
+vanillafix.initerrorscreen.paragraph3.line2=you may want to put the Crash Report into a Paste Site and seek
+vanillafix.initerrorscreen.paragraph3.line3=help with resolving it if you don't have the technical know-how.
+vanillafix.initerrorscreen.paragraph3.line4=The MC Eternal Discord is a recommended place to go.
+
+vanillafix.warnscreen.title=Potential problem found!
+vanillafix.warnscreen.summary=Minecraft ran into a problem.
+
+vanillafix.warnscreen.paragraph1.line1=This did not cause a crash, but there will likely still be
+vanillafix.warnscreen.paragraph1.line2=consequences such as world corruption or broken features.
+vanillafix.warnscreen.paragraph1.line3=The following mod(s) §o§lmay§r be involved:
+
+vanillafix.warnscreen.paragraph3.line1=If this is preventing you from playing the game properly,
+vanillafix.warnscreen.paragraph3.line2=you may want to put the Crash Report into a Paste Site and seek
+vanillafix.warnscreen.paragraph3.line3=help with resolving it if you don't have the technical know-how.
+vanillafix.warnscreen.paragraph3.line4=The MC Eternal Discord is a recommended place to go.
+vanillafix.warnscreen.paragraph3.line5=This warning can be disabled in Mods > VanillaFix > Config > Crashes.
+
 
 #Misc. Tooltips
 mce.generic.tip.disabled=Disabled
