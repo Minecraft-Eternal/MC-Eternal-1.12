@@ -25,6 +25,16 @@ print("--- loading Oredict.zs ---");
 
 <ore:itemCoin>.add([<lodsofemone:coin_small>, <lodsofemone:coin_big>]);
 
+<ore:petAnalyzeTool>.add(<agricraft:magnifying_glass>);
+
+//separating AR Dilithium from other Dilithium
+<ore:gemDilithium>.remove(<libvulpes:productgem:0>);
+<ore:dustDilithium>.remove(<libvulpes:productdust:0>);
+<ore:oreDilithium>.remove(<libvulpes:ore0:0>);
+
+<ore:oreMozzarellium>.add(<libvulpes:ore0:0>);
+<ore:dustMozzarellium>.add(<libvulpes:productdust:0>);
+
 #Atum Relics (relicItemAtum)
 
 var relicNames = [
