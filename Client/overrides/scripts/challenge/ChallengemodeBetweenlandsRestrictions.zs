@@ -70,7 +70,7 @@ function doEquipmentDrop (stack as IItemStack, slot as IEntityEquipmentSlot, pla
         itemEntity.motionY = 0.3;
         player.world.spawnEntity(itemEntity);
         player.setItemToSlot(slot, null);
-}}
+}
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent){
     if(!event.entity.world.remote && event.dimension == betweenlandsID){
