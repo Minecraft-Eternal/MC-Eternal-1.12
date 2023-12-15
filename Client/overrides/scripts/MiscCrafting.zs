@@ -92,6 +92,13 @@ for entry in chiseling {
 	}
 }
 
+//Fix Salt Block not being craftable with Bewitchment salt
+recipes.remove(<mekanism:saltblock>);
+recipes.addShaped("mce_salt_block", <mekanism:saltblock>, [
+	[<ore:dustSalt>, <ore:dustSalt>],
+	[<ore:dustSalt>, <ore:dustSalt>]
+]);
+
 #Danknull T6
 #stupidly op and too stupidly cheap, some spicy is nice yeah?
 recipes.remove(<danknull:dank_null_5>);
