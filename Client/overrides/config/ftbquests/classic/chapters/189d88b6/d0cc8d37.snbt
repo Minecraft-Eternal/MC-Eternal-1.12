@@ -1,0 +1,56 @@
+{
+	title: "&6&lPowering up your Pets!",
+	x: -20.0d,
+	y: -4.0d,
+	shape: "heart",
+	description: "&oPet to the Metal!&7 &o*Read Description*",
+	text: [
+		"A brand-new custom system added in MC Eternal &61.6.2.2&r allows you to &dboost up the raw strength of your tamed mobs by using specific items on them&r!",
+		"",
+		"What items are used is &ddifferent for every mob&r, and what attributes can be boosted is too!",
+		"",
+		"You might wonder how to get this information, and it's quite simple, just use a &6Magnifying Glass&r (or other applicable item) on your pet, and if it dumps information into the game chat, you'll know it worked, and you'll have what you need to know!",
+		"",
+		"Some items can also be used to &dheal a percentage of your pet's health&r, healing them much more effectively than normal items!",
+		"",
+		"&lNote:&r When multiple attributes that can be boosted share an item, all will be boosted at the same time, only using one item!",
+		"",
+		"&lTip:&r One of the boostable mobs is good old Minecraft &dWolves&r, try using these &6Hotdogs&r on them, and watch their &dMax Health&r go up a bunch!",
+		"",
+		"When &6MC Eternal&r updates, check back at what mobs can be powered up! &dYou might be able to power up something that you couldn't before!&r",
+		"",
+		"If you have any suggestions for pets that should be able to be powered up, drop by the &6MC Eternal Discord Server&r and let us know! (Preferrably without pinging anybody, especially not Goat.)"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "e605315f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "petAnalyzeTool",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any petAnalyzeTool"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4effc69d",
+		type: "item",
+		item: {
+			id: "harvestcraft:hotdogitem"
+		},
+		count: 4
+	}]
+}
