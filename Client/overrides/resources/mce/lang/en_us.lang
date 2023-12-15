@@ -147,7 +147,12 @@ mce.akashictome.tip.included_in_preloaded=Included within the standard Akashic T
 
 mce.agricraft.tip.sprinkler_turn_off_particles_probably=WARNING: Will cause serious FPS lag if Particles are not disabled in Agricraft's Config
 
+
 mce.brokenwings.tip.enables_flight_in_dimension=Carrying this item enables flight in:
+
+mce.botania.crafting_info.unfabulous_mana_pool=Gives back 5 Alfglass when crafted
+mce.botania.crafting_info.change_forest_wand_petals=Colored with the Petals used in this recipe!
+
 
 mce.cyclic.tip.inventory_cake_bad_at_saving=WARNING! Can delete items inside when the game crashes or closes unexpectedly
 
@@ -243,10 +248,18 @@ item.mce.kikoku_stick.desc=A Stick passed down throughout the<BR>Aurorian Royal 
 
 
 #Challenge Mode specific
+mce.challengemode.generic.tip.has_crafting_quirk=Hold SHIFT for info about Crafting this item!
+mce.challengemode.generic.tip.damages_inscription_tool_instead_of_consume=Crafting consumes Uses from the Inscription Tool,<BR>It does not consume it immediately.
+
+mce.challengemode.minecraft.tip.wither_only_in_some_dims=In Challenge Mode, The Wither can only<BR>be summoned in select dimensions.<BR>Hold SHIFT for a list.
+mce.challengemode.minecraft.tip.wither_only_in_some_dims.shift=Dimensions The Wither can be summoned in:<BR>The Overworld<BR>The Twilight Forest<BR>Ratlantis<BR>The Midnight
+
 mce.challengemode.thermal.tip.hardened_glass_needs_osmium=In Challenge Mode, Requires Osmium instead of Obsidian.<BR>If you need this for crafting, Fused Quartz works instead!
 
 mce.challengemode.tombstone.tip.grave_key_cant_teleport=In Challenge Mode, Cannot be used to Teleport when Enchanted.
 mce.challengemode.tombstone.message.grave_key_teleport_fail=§cThe Key's magic is too §ochallenging§c to channel.
+
+mce.challengemode.mysticalagriculture.tip.only_insanium_tinker_table=In Challenge Mode, Can only be made out of Insanium.
 
 #Betweenlands Restrictions
 mce.challengemode.betweenlands_restrictions.denied_entry_message.1=You are in Challenge Mode, and cannot travel to the Betweenlands with items not from it!

@@ -63,6 +63,8 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 	}
 });
 
+
+//Pet Buff System helper functions
 function updateEntityAttributeSafely (entity as IEntityLivingBase, attributeName as string, amount as double, maxAmount as double, operation as int) {
 	val attribute = entity.getAttribute(attributeName);
 	val attributeUUID = attributeUUIDMap[attributeName];
@@ -97,7 +99,7 @@ function getTrackerValue (entity as IEntityLivingBase, attributeName as string) 
 	//return !isNull(entity.nbt.asMap()["mce.bufftracker."+ itemstack.definition.name]) ? entity.nbt.asMap()["mce.bufftracker."+ itemstack.definition.name].asInt() : 0;
 }
 
-
+//Pet Buff System
 events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInteractEntityEvent){
 	if(!event.world.remote
 	&& !isNull(event.item) && event.item.matches(event.player.mainHandHeldItem)
@@ -200,3 +202,19 @@ events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInterac
 		if(debugBuffSystem) print("");
 	}
 });
+
+
+//100% block LCRDRFS mobs spawning where they should not ever be
+events.onEntityJoinWorld(function(event as crafttweaker.event.EntityJoinWorldEvent){
+	if(!isNull(event.entity.definition)
+	&& event.entity.dimension != 1000
+	//Avoid deleting projectile entities
+	&& event.entity instanceof IEntityLivingBase
+	&& event.entity.definition.id.split(":")[0] == "lcrdrfs"
+	//Avoid removing tamed T-R3X 1000/ARTHR0-BORG JETLINER 2000
+	&& (isNull(event.entity.nbt.tameState) || event.entity.nbt.tameState.asInt() == 0)){
+		event.entity.setDead();
+		event.cancel();
+	}
+});
+

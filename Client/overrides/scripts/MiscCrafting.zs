@@ -550,7 +550,7 @@ recipes.addShaped("mce_make_mana_pool_fabulous", <botania:pool:3>, [
 ]);
 
 //Un-Fabulous a Mana Pool
-recipes.addShapeless("mce_classicmode_unfabulous_mana_pool", <botania:pool:0>.withLore(["Gives back 5 Alfglass when crafted"]), [<botania:pool:3>],
+recipes.addShapeless("mce_classicmode_unfabulous_mana_pool", <botania:pool:0>.withLore([game.localize("mce.botania.crafting_info.unfabulous_mana_pool")]), [<botania:pool:3>],
 	function(out as IItemStack, ins as IItemStack[string], cInfo as ICraftingInfo){
 		return <botania:pool:0>;
 	},
@@ -559,7 +559,7 @@ recipes.addShapeless("mce_classicmode_unfabulous_mana_pool", <botania:pool:0>.wi
 });
 
 //Change Wand of the Forest petals
-recipes.addShaped("mce_change_forest_wand_petals", <botania:twigwand>.withLore(["Colored with the Petals used in this recipe!"]), [
+recipes.addShaped("mce_change_forest_wand_petals", <botania:twigwand>.withLore([game.localize("mce.botania.crafting_info.change_forest_wand_petals")]), [
 	[null, <botania:petal:*>.marked("petal2")],
 	[<botania:petal:*>.marked("petal1"), <botania:twigwand>.marked("wand")]
 	],

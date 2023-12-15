@@ -12,7 +12,7 @@
 	description: "*Perfect the Botanical Earthshattering tool to unlock*",
 	can_repeat: true,
 	dependencies: [
-		"7de776bd"
+		"77422b53"
 	],
 	tasks: [{
 		uid: "b6107eea",
