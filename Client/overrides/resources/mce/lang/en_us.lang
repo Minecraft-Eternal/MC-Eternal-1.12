@@ -137,6 +137,11 @@ mce.dimension_name.randomthings_spectre=Spectre Pockets
 mce.dimension_name.thaumicaugmentation_emptiness=The Emptiness
 mce.dimension_name.twilight_forest=The Twilight Forest
 
+mce.petbuff.message.info_start=Buff Information for %s:
+mce.petbuff.message.info_line_base=%a (%v): Increase using %i (%t/%m)
+mce.petbuff.message.info_healing_items_base=Can be healed using %i (%a)
+mce.petbuff.tip.can_be_used_to_analyze=Can be used on Power-uppable Pets to see Power-up information!
+
 mce.appliedenergistics2.tip.meteors_in_beneath=AE2 Meteors Spawn in The Beneath and on The Moon
 mce.appliedenergistics2.tip.name_press.how_its_made=Made using a Quartz Cutting Knife<BR>Input what you want the press to rename items to<BR>And put in an Iron Ingot to get it out!
 
