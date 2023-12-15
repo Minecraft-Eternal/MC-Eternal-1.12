@@ -676,12 +676,34 @@ Carving.removeVariation("stonebrick", <minecraft:stonebrick:1>);
 <ore:drawerBasic>.add(<storagedrawersextra:extra_drawers:*>);
 
 //EnderIO "Construction Alloy" Ingot
-addUniversalAlloyRecipe(<enderio:item_alloy_ingot:9> *3, [<ore:ingotIron>, <ore:ingotLead>], "MCE: Construction Alloy", false, {
+addUniversalAlloyRecipe(<enderio:item_alloy_ingot:9> *3, [<ore:ingotIron>, <ore:ingotLead> *2], "MCE: Construction Alloy", false, {
 	"NCFurnace": {
 		"enabled": 0
 	}
 });
 
 
+//Space Dimension Flight-permitting Items
+
+//Staff of Gaea
+recipes.addShaped("mce_erebus_staff_for_flying", <erebus:portal_activator>, [
+	[null, <erebus:tarantula_egg>.reuse(), <erebus:materials:38>],
+	[<ore:ingotDyonite>, <erebus:wand_of_animation>, <erebus:antlion_egg>.reuse()],
+	[<erebus:materials:39>, <ore:ingotDyonite>]
+]);
+
+//Scarab
+recipes.addShaped("mce_atum_scarab_for_flying", <atum:scarab>, [
+	[null, skyScarabCrest],
+	[<atum:idol_of_labor>.reuse(), <atum:crunchy_golden_scarab>, <atum:heart_of_ra>.reuse()],
+	[null, <minecraft:elytra>]
+]);
+
+//"Aurorian Sky Spirit"
+recipes.addShaped("mce_aurorian_spirit_for_flying", <theaurorian:crystallinesprite>, [
+	[<enderio:block_holier_fog>, <theaurorian:trophykeeper>.reuse(), <enderio:block_holier_fog>],
+	[<theaurorian:bepsi>, <theaurorian:trophyspider>.reuse(), <theaurorian:bepsi>],
+	[<enderio:block_holier_fog>, <theaurorian:trophymoonqueen>.reuse(), <enderio:block_holier_fog>]
+]);
 
 print("--- MiscCrafting.zs initialized ---");	

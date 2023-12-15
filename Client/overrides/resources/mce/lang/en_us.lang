@@ -27,7 +27,7 @@ mce.questing.chapter.atum.name=Atum
 mce.questing.chapter.mystical_agriculture.name=Mystical Agriculture
 mce.questing.chapter.bosses.name=Bosses
 mce.questing.chapter.challenges.name=Challenges
-mce.questing.chapter.unlockables=Unlockables
+mce.questing.chapter.unlockables.name=Unlockables
 
 #Mod overrides
 enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line2=$D% item damage absorbed by power
@@ -42,6 +42,15 @@ xreliquary.jei.descriptions.phoenix_down=Resurrects you from your inventory to a
 xreliquary.item.alkahestry_tome.tooltip2={{!colors.rose}}Charge: {{chargeAmount}}/{{chargeLimit}};Right-click to read.;Does not absorb Redstone or Glowstone in MC Eternal.;See Uses in JEI for what it does absorb.
 xreliquary.jei.descriptions.alkahestry_tome=Shift + Right-Click to activate. While active, it will absorb certain items in the player's inventory to generate Charge. Place it in a crafting grid with certain items to duplicate them by consuming Charge.
 
+item.theaurorian.crystallinesprite.name=Aurorian Sky Spirit
+
+achievement.dilithium=Mozzarellium
+achievement.dilithium.desc=Acquire Mozzarellium Crystal
+tile.Dilithium.name=Mozzarellium Ore
+tile.coil.dilithium.name=Mozzarellium Coil
+item.hovercraft.tooltip=Long-lasting Mozzarellium powersource.  It'll probably outlive you.
+material.Dilithium.name=Mozzarellium
+
 #Misc. Tooltips
 mce.generic.tip.disabled=Disabled
 mce.generic.tip.beneath_only=Only found in the Beneath
@@ -53,17 +62,40 @@ mce.generic.tip.only_from_shop=Only obtainable from the Shop
 mce.generic.tip.do_all_chapter_quests_to_unlock=Do all %s quests to unlock
 mce.generic.tip.challengemode_disabled=You are on Challenge Mode, so this Item is disabled.
 mce.generic.message.item_yeeted_from_exist=That item was illegal and has been yeeted from existence.
+mce.generic.tip.not_consumed_in_table=Not consumed in Crafting Table recipes
+
+mce.dimension_name.minecraft_overworld=The Overworld
+mce.dimension_name.minecraft_nether=The Nether
+mce.dimension_name.minecraft_end=The End
+mce.dimension_name.advrocketry_space=Space Stations
+mce.dimension_name.advrocketry_moon=The Moon
+mce.dimension_name.ae2_storage_cell=Spatial Storage
+mce.dimension_name.atum=Atum
+mce.dimension_name.aurorian=The Aurorian
+mce.dimension_name.beneath=The Beneath
+mce.dimension_name.compactmachines=Compact Machine
+mce.dimension_name.dimdoors_doordims=Door Dimensions
+mce.dimension_name.dimdoors_limbo=Limbo
+mce.dimension_name.erebus=Erebus
+mce.dimension_name.fossil_anu_lair=Lair of Darkness
+mce.dimension_name.fossil_treasure_room=Ancient Treasure Room
+mce.dimension_name.midnight=The Midnight
+mce.dimension_name.rats_ratlantis=Ratlantis
+mce.dimension_name.randomthings_spectre=Spectre Pockets
+mce.dimension_name.thaumicaugmentation_emptiness=The Emptiness
+mce.dimension_name.twilight_forest=The Twilight Forest
 
 mce.appliedenergistics2.tip.meteors_in_beneath=AE2 Meteors Spawn in The Beneath and on The Moon
 mce.appliedenergistics2.tip.name_press.how_its_made=Made using a Quartz Cutting Knife<BR>Input what you want the press to rename items to<BR>And put in an Iron Ingot to get it out!
 
-mce.advrocketry.message.get_there_with_rocket.1=%s cannot be accessed normally.
-mce.advrocketry.message.get_there_with_rocket.2=You will need to use Advanced Rocketry.
+mce.advrocketry.message.get_there_with_rocket=%s cannot be accessed normally.<BR>You will need to use Advanced Rocketry.
 mce.advrocketry.message.no_go_through_portal=Use Advanced Rocketry to reach this dimension!
 
 mce.akashictome.tip.included_in_preloaded=Included within the standard Akashic Tome
 
 mce.agricraft.tip.sprinkler_turn_off_particles_probably=WARNING: Will cause serious FPS lag if Particles are not disabled in Agricraft's Config
+
+mce.brokenwings.tip.enables_flight_in_dimension=Carrying this item enables flight in:
 
 mce.cyclic.tip.inventory_cake_bad_at_saving=WARNING! Can delete items inside when the game crashes or closes unexpectedly
 
@@ -79,6 +111,8 @@ mce.extrautils2.tip.deep_dark_portal_dont_use_dummy=Disabled and will cause a Cr
 mce.extrautils2.tip.flying_squid_ring_random_tp_down=Do not wear as a bauble, may teleport you down randomly while flying
 
 mce.ebwizardry.tip.disabled_spell=Disabled, cannot be bound to Wands or Cast.
+
+mce.erebus.tip.gaean_gem_how_to_get=Made using an Emerald, Diamond, and Obsidian on an Offering Altar
 
 mce.farmingforblockheads.tip.sink_no_infinite_water=Does not produce Infinite Water
 
@@ -129,6 +163,8 @@ mce.thaumcraft.tip.curiosities.more_likely_to_grant=More likely to give %s Resea
 mce.thaumcraft.tip.unclog_lattice.filter=Right-click a Clogged Flux Condenser Lattice to unclog it!
 mce.thaumcraft.tip.unclog_lattice.lattice=Right-click with an Essentia Filter to unclog!
 
+mce.thaumicaugmentation.tip.dim_mods_in_other_dimensions=Dimensional Modifiers work in other dimensions in MCE, some even have two work!
+
 mce.tconstruct.tip.custom_smeltery_fuel=MCE Custom Smeltery Fuel!
 mce.tconstruct.tip.smeltery_fuel_stats.1=Consumes %smB
 mce.tconstruct.tip.smeltery_fuel_stats.2=For %s total seconds of Fuel
@@ -144,6 +180,14 @@ mce.vampirism.tip.pure_blood_obtain=Dropped by Level %s Vampire Barons, or craft
 mce.wings.tip.fairy_dust=Can be used to transmute certain metals. This dust radiates primal magic energy
 
 mce.xreliquary.tip.restores_percent_health=Restores %s% HP
+
+
+#Space Dimension Flight Stuff
+item.mce.atum_sky_scarab_crest.name=§6§lCrest of the Sky Scarab
+item.mce.atum_sky_scarab_crest.desc=Only the most ancient of the Pharaohs of Atum were<BR>members of a now lost Order of the Sky Scarab,<BR>dedicated to sealing outsiders from using the<BR>power of Flight within their desert home.<BR>perhaps with a lingering shard of their magic,<BR>you may be able to forge a workaround to the curse.
+
+item.mce.kikoku_stick.name=§6§lStick of a Thousand Clicks
+item.mce.kikoku_stick.desc=A Stick passed down throughout the<BR>Aurorian Royal lineage, once the handle<BR>of a terrible weapon that could cut at<BR>impossible speeds, seperated from the<BR>weapon to prevent its misuse.
 
 
 #Challenge Mode specific
