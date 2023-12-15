@@ -8,7 +8,7 @@ print("--- loading Tooltip.zs ---");
 
 #Add tooltip
 <extrautils2:bagofholding>.addTooltip(format.red(game.localize("mce.extrautils2.tip.bagofholding_gamemode_change")));
-<rats:arcane_technology>.addTooltip(format.gold(game.localize("mce.generic.tip.drops_from").replace("%s", <entity:rats:marbled_cheese_golem>.name)));
+<rats:arcane_technology>.addTooltip(format.gold(game.localize("mce.generic.tip.drops_from").replace("%s", game.localize("entity.marbled_cheese_golem.name"))));
 <ftbquests:book>.addTooltip(format.gold(game.localize("mce.ftbquests.tip.questbook_open_it")));
 <minecraft:nether_star>.addTooltip(format.gold(game.localize("mce.minecraft.tip.nether_star")));
 <ebwizardry:crystal_block:*>.addTooltip(format.gold(game.localize("mce.netherportalcorruption.tip.prevents_corruption")));
