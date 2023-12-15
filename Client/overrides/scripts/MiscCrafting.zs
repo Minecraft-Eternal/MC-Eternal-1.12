@@ -677,6 +677,12 @@ Carving.removeVariation("stonebrick", <minecraft:stonebrick:1>);
 
 //EnderIO "Construction Alloy" Ingot
 addUniversalAlloyRecipe(<enderio:item_alloy_ingot:9> *3, [<ore:ingotIron>, <ore:ingotLead> *2], "MCE: Construction Alloy", false, {
+	"thermalInduction": {
+		"enabled": 0
+	},
+	"TRSmelter": {
+		"enabled": 0
+	},
 	"NCFurnace": {
 		"enabled": 0
 	}
