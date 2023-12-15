@@ -1,0 +1,24 @@
+{
+	title: "&6&lSkies of the Desert",
+	x: 0.0d,
+	y: -3.5d,
+	description: "&oUnshackle the Power of Flight within Atum!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"99a4bfed"
+	],
+	tasks: [{
+		uid: "6aabaa4c",
+		type: "item",
+		items: [{
+			id: "atum:scarab"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "49c544a1",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

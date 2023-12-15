@@ -188,5 +188,64 @@ for item in loadedMods["taiga"].items {
 	if(item.definition.id has "ore") item.addShiftTooltip(format.gold(taigaOreTip[1]), format.gold(taigaOreTip[0]));
 }
 
+//Space Dimension Tooltips
+var spaceDimAccessItems = {
+	<erebus:gaean_keystone> : "erebus",
+	<erebus:portal_activator> : "erebus",
+	<atum:scarab> : "atum",
+	<theaurorian:aurorianportalframebricks> : "aurorian"
+} as string[IItemStack];
+
+for stack,dimName in spaceDimAccessItems {
+	for line in game.localize("mce.advrocketry.message.get_there_with_rocket").replace("%s", game.localize("mce.questing.chapter."+ dimName +".name")).split("<BR>") {
+		stack.addTooltip(format.red(line));
+	}
+}
+
+//Brokenwings Bypass keys
+val flightAllowDimensionItems = {
+	["mce.dimension_name.advrocketry_moon", "mce.dimension_name.beneath"]: <rats:rat_upgrade_creative>,
+	["mce.questing.chapter.erebus.name"]: <erebus:portal_activator>,
+	["mce.questing.chapter.atum.name"]: <atum:scarab>,
+	["mce.questing.chapter.aurorian.name"]: <theaurorian:crystallinesprite>,
+	["mce.dimension_name.twilight_forest"]: <twilightforest:lamp_of_cinders>,
+	//Lair of Darkness is unnecessary and potentially just not good to permit
+	//Betweenlands is no
+	["mce.dimension_name.thaumicaugmentation_emptiness"]: <thaumicaugmentation:research_notes>
+} as IItemStack[string[]];
+
+for dimensions,bypassStack in flightAllowDimensionItems {
+	bypassStack.addTooltip(format.gold(game.localize("mce.brokenwings.tip.enables_flight_in_dimension")));
+	for dimName in dimensions {
+		bypassStack.addTooltip(format.yellow(game.localize(dimName)));
+	}
+}
+
+//TAug Dimensional Modifiers
+val dimMods = [
+	"thaumicaugmentation:strength_overworld",
+	"thaumicaugmentation:strength_nether",
+	"thaumicaugmentation:strength_end",
+	"thaumicaugmentation:strength_emptiness"
+] as string[];
+
+for modif in dimMods {
+	<thaumicaugmentation:augment_builder_power:0>.withTag({id: modif}).addTooltip(game.localize("mce.thaumicaugmentation.tip.dim_mods_in_other_dimensions"));
+}
+
+
+val spaceBossTrophies = [
+	<theaurorian:trophymoonqueen>,
+	<theaurorian:trophykeeper>,
+	<theaurorian:trophyspider>,
+	<erebus:tarantula_egg>,
+	<erebus:antlion_egg>,
+	<atum:idol_of_labor>
+] as IItemStack[];
+
+for stack in spaceBossTrophies {
+	stack.addTooltip(format.gold(game.localize("mce.generic.tip.not_consumed_in_table")));
+}
+
 print("--- Tooltip.zs initialized ---");	
 

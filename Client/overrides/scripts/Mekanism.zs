@@ -93,7 +93,7 @@ val combinerMap = {
         //TAIGA
         <taiga:vibranium_ore>: <ore:dustVibranium> *8,
         <taiga:eezo_ore>: <ore:dustEezo> *8,
-        <taiga:dilithium_ore>: <ore:dustDilithium> *8,
+        <taiga:dilithium_ore>: <taiga:dilithium_dust> *8,
 
         //Vulpes Library
         <libvulpes:ore0:8>: <ore:dustTitanium> *8
@@ -292,6 +292,10 @@ val combinerMap = {
     //Obsidiorite
     <taiga:obsidiorite_block>: {
         <taiga:uru_ore>: <ore:dustUru> *8
+    },
+    //Raw Marbled Cheese
+    <rats:marbled_cheese_raw>: {
+        <libvulpes:ore0:0>: <ore:dustMozzarellium> *4
     }
 } as IIngredient[IItemStack][IItemStack];
 

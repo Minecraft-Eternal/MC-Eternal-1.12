@@ -40,7 +40,7 @@ for items in removerecipes {
 //Station Assembler
 recipes.addShaped("mce_station_assembler", <advancedrocketry:stationbuilder>, [
 	[<advancedrocketry:ic:2>, <rats:arcane_technology>, <advancedrocketry:ic:2>],
-	[<ore:dustDilithium>, <stevescarts:upgrade:5>, <libvulpes:productdust>],
+	[<libvulpes:productdust>, <stevescarts:upgrade:5>, <libvulpes:productdust>],
 	[<advancedrocketry:ic:2>, <ore:componentEVCapacitor>, <advancedrocketry:ic:2>]
 ]);
 
@@ -127,17 +127,10 @@ recipes.addShaped("mce_ar_pressurized_tank_block", <advancedrocketry:liquidtank>
 	[<libvulpes:structuremachine>, <openblocks:tank>, <libvulpes:structuremachine>]
 ]);
 
-#Space Dimension Tooltips
-var ohnoeffort = {
-	<erebus:gaean_keystone> : "advancement.erebus.exploration.root",
-	<erebus:portal_activator> : "advancement.erebus.exploration.root",
-	<atum:scarab> : "itemGroup.atum",
-	<theaurorian:aurorianportalframebricks> : "itemGroup.theaurorian"
-} as string[IItemStack];
 
-for usualobjects in ohnoeffort {
-	usualobjects.addTooltip(format.red(game.localize("mce.advrocketry.message.get_there_with_rocket.1").replace("%s", game.localize(ohnoeffort[usualobjects]))));
-	usualobjects.addTooltip(format.red(game.localize("mce.advrocketry.message.get_there_with_rocket.2")));
-}
+//Fully separating Mozzarellium
+recipes.removeByRecipeName("thermalfoundation:productgem");
+mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productgem:0>);
+
 
 print("--- AdvRocketry.zs initialized ---");	

@@ -44,7 +44,7 @@ val damageLimits as float[IEntityDefinition] = {
 };
 */
 
-val betweenlandsID = 20;
+static betweenlandsID as int = 20;
 
 function baubleCheck (player as IPlayer) as bool {
     if(player.nbt.ForgeCaps.asMap()["baubles:container"].Items.length != 0){
@@ -55,20 +55,22 @@ function baubleCheck (player as IPlayer) as bool {
 }
 
 function itemCheck (stack as IItemStack) as bool {
-    if(!isNull(stack) && !(stack.definition.owner == "thebetweenlands" || stack.definition.id == "tombstone:grave_key")){
-        if(scriptDebug) print("Item");
+    if(!isNull(stack) && (stack.definition.owner == "thebetweenlands" || stack.definition.id == "tombstone:grave_key"))
         return false;
-    }
+    if(scriptDebug) print("Item: "+ stack.commandString);
     return true;
 }
 
 function doEquipmentDrop (stack as IItemStack, slot as IEntityEquipmentSlot, player as IPlayer) as void {
         if(scriptDebug) print(player.name +" tried to hold "+ stack.commandString +" in The Betweenlands, it has been forcibly dropped due to Challenge Mode restrictions");
-        val itemEntity = stack.createEntityItem(player.world, player.posX as int, player.posY as int + 3, player.posZ as int);
+        val itemEntity = stack.createEntityItem(player.world, player.position);
+        itemEntity.posX = player.posX;
+        itemEntity.posY = player.posY + 3.0;
+        itemEntity.posZ = player.posZ;
         itemEntity.motionY = 0.3;
         player.world.spawnEntity(itemEntity);
         player.setItemToSlot(slot, null);
-}
+}}
 
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent){
     if(!event.entity.world.remote && event.dimension == betweenlandsID){
@@ -150,9 +152,10 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
     if(!event.entity.world.remote && event.entity.dimension == betweenlandsID){
         if(scriptDebug) print("Starting Damage: "+ event.amount);
         if(event.entity instanceof IPlayer){
+            
             val player as IPlayer = event.entity;
             val playerHealthFactor as float = player.health / 20;
-            event.amount *= playerHealthFactor;
+            if(event.amount < (event.amount * playerHealthFactor)) event.amount *= playerHealthFactor;
             if(scriptDebug) print("Damage after Health Factor adjustment: "+ event.amount);
             /*
             if(!(event.damageSource.trueSource instanceof IPlayer) && event.damageSource.trueSource.definition.id.split(":")[0] == "thebetweenlands"){

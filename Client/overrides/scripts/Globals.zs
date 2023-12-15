@@ -421,4 +421,9 @@ global AAItem as IItemStack[string] = {
 	"crystalEmeradic": <actuallyadditions:item_crystal:4>
 };
 
+//Space-related NBT items
+global skyScarabCrest as IItemStack = <atum:loot_diamond_broach>.withTag({skyScarab: true}).withDisplayName(game.localize("item.mce.atum_sky_scarab_crest.name")).withLore(game.localize("item.mce.atum_sky_scarab_crest.desc").split("<BR>"));
+global kikokuStick as IItemStack = <theaurorian:silentwoodstick>.withTag({kikokuStick: true}).withDisplayName(game.localize("item.mce.kikoku_stick.name")).withLore(game.localize("item.mce.kikoku_stick.desc").split("<BR>"));
+
+
 print("--- GlobalFuncs.zs initalized ---");
