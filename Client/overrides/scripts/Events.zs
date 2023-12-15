@@ -155,7 +155,7 @@ events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInterac
 					game.localize("mce.petbuff.message.info_line_base")
 						.replace("%a", game.localize("attribute.name."+ attribute))
 						.replace("%v", "§d"+ (pet.getAttribute(attribute).attributeValue != 1.401298464324817E-45 ? pet.getAttribute(attribute).attributeValue as string : "0.0") +"§r")
-						.replace("%i", "§6"+ game.localize(item.definition.name +".name") +"§r")
+						.replace("%i", "§6"+ game.localize(item.name +".name") +"§r")
 						.replace("%t", "§d"+ getTrackerValue(pet, attribute) as string +"§r")
 						.replace("%m", "§6"+ item.amount as string +"§r")
 				);
@@ -165,7 +165,7 @@ events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInterac
 					event.player.sendChat(
 						//mce.petbuff.message.info_healing_items_base=Can be healed using %i (%a%)
 						game.localize("mce.petbuff.message.info_healing_items_base")
-							.replace("%i", "§6"+ game.localize(entry.definition.name +".name") +"§r")
+							.replace("%i", "§6"+ game.localize(entry.name +".name") +"§r")
 							.replace("%a", "§d"+ (amount * 100) +"%§r")
 					);
 				}
