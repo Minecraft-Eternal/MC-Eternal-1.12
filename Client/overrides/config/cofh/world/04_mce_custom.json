@@ -51,7 +51,7 @@
 				]
 			}
 		},
-		"mce_moon_gold_titanium": {
+		"mce_moon_gold_and_dilithium": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
