@@ -114,6 +114,8 @@ mce.generic.tip.only_from_shop=Only obtainable from the Shop
 mce.generic.tip.do_all_chapter_quests_to_unlock=Do all %s quests to unlock
 mce.generic.tip.challengemode_disabled=You are on Challenge Mode, so this Item is disabled.
 mce.generic.message.item_yeeted_from_exist=That item was illegal and has been yeeted from existence.
+mce.generic.tip.salis_mundus_craft.specific_mod_block=Acquired by sprinkling Salis Mundus on a %m %s
+mce.generic.tip.salis_mundus_craft=Acquired by sprinkling Salis Mundus on a block in the "%s" Oredict 
 mce.generic.tip.not_consumed_in_table=Not consumed in Crafting Table recipes
 
 mce.dimension_name.minecraft_overworld=The Overworld
