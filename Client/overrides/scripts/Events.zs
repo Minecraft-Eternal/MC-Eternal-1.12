@@ -3,7 +3,11 @@ import crafttweaker.enchantments.IEnchantment;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
+import crafttweaker.data.IData;
+import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.entity.Attribute;
+import crafttweaker.entity.AttributeModifier;
 
 events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLivingUseItemEvent.Start){
 	if(event.isPlayer){
