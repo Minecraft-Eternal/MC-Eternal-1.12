@@ -205,9 +205,9 @@ for stack,dimName in spaceDimAccessItems {
 //Brokenwings Bypass keys
 val flightAllowDimensionItems = {
 	["mce.dimension_name.advrocketry_moon", "mce.dimension_name.beneath"]: <rats:rat_upgrade_creative>,
-	["mce.questing.chapter.erebus.name"]: <erebus:portal_activator>,
-	["mce.questing.chapter.atum.name"]: <atum:scarab>,
-	["mce.questing.chapter.aurorian.name"]: <theaurorian:crystallinesprite>,
+	["mce.dimension_name.erebus"]: <erebus:portal_activator>,
+	["mce.dimension_name.atum"]: <atum:scarab>,
+	["mce.dimension_name.aurorian"]: <theaurorian:crystallinesprite>,
 	["mce.dimension_name.twilight_forest"]: <twilightforest:lamp_of_cinders>,
 	//Lair of Darkness is unnecessary and potentially just not good to permit
 	//Betweenlands is no
