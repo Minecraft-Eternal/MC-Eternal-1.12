@@ -128,4 +128,9 @@ recipes.addShaped("mce_ar_pressurized_tank_block", <advancedrocketry:liquidtank>
 ]);
 
 
+//Fully separating Mozzarellium
+recipes.removeByRecipeName("thermalfoundation:productgem");
+mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productgem:0>);
+
+
 print("--- AdvRocketry.zs initialized ---");	
