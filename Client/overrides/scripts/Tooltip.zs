@@ -39,6 +39,7 @@ getFTBCrate("unclaimed_black_market_container").addTooltip(format.gold(game.loca
 <nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple(game.localize("mce.nuclearcraft.tip.fission_power_buff")));
 <randomthings:spectreanchor>.addTooltip(format.red(game.localize("mce.randomthings.tip.spectreanchor_use_other_soulbound")));
 addMultilineLocalizedTooltip(<appliedenergistics2:material:21>.withEmptyTag(), "mce.appliedenergistics2.tip.name_press.how_its_made");
+<ore:petAnalyzeTool>.addTooltip(format.gold(game.localize("mce.petbuff.tip.can_be_used_to_analyze")));
 
 <necromancersdelight:charm_bone_bag>.addTooltip(format.red("Temporarily Disabled, this item will be obtainable again in a (hopefully near) future version of MCE."));
 
