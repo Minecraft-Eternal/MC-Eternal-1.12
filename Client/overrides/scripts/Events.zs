@@ -107,6 +107,7 @@ function getTrackerValue (entity as IEntityLivingBase, attributeName as string) 
 events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInteractEntityEvent){
 	if(!event.world.remote
 	&& !isNull(event.item) && event.item.matches(event.player.mainHandHeldItem)
+	&& event.player.getCooldown(event.item) == 0
 	&& event.target instanceof IEntityLivingBase
 	&& !isNull(event.target.definition)
 	&& buffablePets has event.target.definition.id){
@@ -120,7 +121,7 @@ events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInterac
 			if(!isNull(gigaHealingItems[pet.definition.id]))
 				print("healing item map for "+ pet.definition.id +" has "+ event.item.definition.id +": "+ !isNull(gigaHealingItems[pet.definition.id][event.item]));
 		}
-		if(pet.health <= pet.maxHealth
+		if(pet.health < pet.maxHealth
 			&& !isNull(gigaHealingItems[pet.definition.id])
 			&& !isNull(gigaHealingItems[pet.definition.id][event.item.anyAmount()])){
 			val healingItems = gigaHealingItems[pet.definition.id] as double[IItemStack];
@@ -196,6 +197,8 @@ events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInterac
 					if(debugBuffSystem) print(attribute +" updated tracker value: "+ trackerValue);
 				}
 				if(debugBuffSystem) print("");
+
+				event.player.setCooldown(event.item, 5);
 
 				updateEntityAttributeSafely(pet, attribute, (amount / itemstack.amount) * trackerValue, amount, 0);
 			}
