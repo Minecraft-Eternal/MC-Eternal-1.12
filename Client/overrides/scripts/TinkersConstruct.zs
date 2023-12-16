@@ -28,6 +28,10 @@ Alloy.removeRecipe(<liquid:nihilite_fluid>);
 // patch funni iron>gold exploit
 Melting.removeRecipe(<liquid:gold>, <minecraft:name_tag>);
 
+//Remove making Liquifacted Coal from Coal
+// prevents conflicts with F&A tar
+Melting.removeRecipe(<liquid:coal>, <minecraft:coal:0>);
+
 // addSmelteryFuel(liquid as ILiquidStack, duration as int, temp as int);
 // use -1 for the temp to not change the temp
 function addSmelteryFuel (fluid as ILiquidStack, duration as int, temp as int) {
