@@ -168,7 +168,7 @@ for mod,frame in blackHoleFrames {
 	recipes.removeByRecipeName("industrialforegoing:black_hole_tank"+ blackHoleFrameModID);
 	recipes.addShaped("mce_blackhole_tank_"+ mod, <industrialforegoing:black_hole_tank>, [
 		[<industrialforegoing:plastic>, <ore:enderpearl>, <industrialforegoing:plastic>],
-		[<extracells:storage.component:7>, frame, <extracells:storage.component:7>],
+		[AEMaterials["64kFluid"], frame, AEMaterials["64kFluid"]],
 		[<mekanism:teleportationcore>, <minecraft:nether_star>, <mekanism:teleportationcore>]
 	]);
 }
