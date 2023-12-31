@@ -359,4 +359,46 @@
 			<itemStack>taiga:dyonite_ingot;3;0</itemStack>
 		</output>
 	</Recipe>
+
+
+	<!-- MCE: Fire Dragonsteel -->
+	<Recipe timeRequired="100" power="10000">
+		<input>
+			<itemStack>iceandfire:fire_dragon_blood</itemStack>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>iceandfire:dragonsteel_fire_ingot</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: Ice Dragonsteel -->
+	<Recipe timeRequired="100" power="10000">
+		<input>
+			<itemStack>iceandfire:ice_dragon_blood</itemStack>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>iceandfire:dragonsteel_ice_ingot</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: Fire Dragonforge Brick -->
+	<Recipe timeRequired="100" power="10000">
+		<input>
+			<itemStack>minecraft:stonebrick</itemStack>
+			<oreDict>fireDragonScaleBlock</oreDict>
+		</input>
+		<output>
+			<itemStack>iceandfire:dragonforge_fire_brick;2</itemStack>
+		</output>
+	</Recipe>
+	<!-- MCE: Ice Dragonforge Brick -->
+	<Recipe timeRequired="100" power="10000">
+		<input>
+			<itemStack>minecraft:stonebrick</itemStack>
+			<oreDict>iceDragonScaleBlock</oreDict>
+		</input>
+		<output>
+			<itemStack>iceandfire:dragonforge_ice_brick;2</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

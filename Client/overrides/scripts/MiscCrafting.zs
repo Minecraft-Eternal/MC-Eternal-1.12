@@ -683,5 +683,50 @@ addUniversalAlloyRecipe(<enderio:item_alloy_ingot:9> *3, [<ore:ingotIron>, <ore:
 });
 
 
+//crafting AA Crystal Clusters
+// for decoration reasons
+val crystalMap as string[int] = {
+	3: "coal",
+	1: "lapis",
+	0: "redstone",
+	5: "iron",
+	2: "diamond",
+	4: "emerald"
+};
+
+for meta,mineral in crystalMap {
+	val crystalShard as IItemStack = itemUtils.getItem("actuallyadditions:item_crystal_shard", meta);
+	val crystal as IItemStack = itemUtils.getItem("actuallyadditions:item_crystal", meta);
+	recipes.addShaped("mce_actuallyadditions_crystal_cluster_"+ mineral, itemUtils.getItem("actuallyadditions:block_crystal_cluster_"+ mineral), [
+		[null, crystalShard],
+		[crystalShard, crystal, crystalShard]
+	]);
+}
+
+//Cheaper Dragonforge Bricks after making one
+val dragonElements as string[][string] = {
+	"fire": [
+		"red",
+		"green",
+		"bronze",
+		"gray"
+	],
+	"ice": [
+		"white",
+		"sapphire",
+		"blue",
+		"silver"
+	]
+};
+
+for element,colors in dragonElements {
+	for color in colors {
+		val scales as IItemStack = itemUtils.getItem("iceandfire:dragonscale_"+ color);
+		element == "fire" ?
+			mods.iceandfire.recipes.addFireDragonForgeRecipe(<minecraft:stonebrick>, scales, <iceandfire:dragonforge_fire_brick> *2) :
+			mods.iceandfire.recipes.addIceDragonForgeRecipe(<minecraft:stonebrick>, scales, <iceandfire:dragonforge_ice_brick> *2);
+	}
+}
+
 
 print("--- MiscCrafting.zs initialized ---");	
