@@ -92,6 +92,13 @@ for entry in chiseling {
 	}
 }
 
+//Fix Salt Block not being craftable with Bewitchment salt
+recipes.remove(<mekanism:saltblock>);
+recipes.addShaped("mce_salt_block", <mekanism:saltblock>, [
+	[<ore:dustSalt>, <ore:dustSalt>],
+	[<ore:dustSalt>, <ore:dustSalt>]
+]);
+
 #Danknull T6
 #stupidly op and too stupidly cheap, some spicy is nice yeah?
 recipes.remove(<danknull:dank_null_5>);
@@ -161,7 +168,7 @@ for mod,frame in blackHoleFrames {
 	recipes.removeByRecipeName("industrialforegoing:black_hole_tank"+ blackHoleFrameModID);
 	recipes.addShaped("mce_blackhole_tank_"+ mod, <industrialforegoing:black_hole_tank>, [
 		[<industrialforegoing:plastic>, <ore:enderpearl>, <industrialforegoing:plastic>],
-		[<extracells:storage.component:7>, frame, <extracells:storage.component:7>],
+		[AEMaterials["64kFluid"], frame, AEMaterials["64kFluid"]],
 		[<mekanism:teleportationcore>, <minecraft:nether_star>, <mekanism:teleportationcore>]
 	]);
 }
@@ -550,7 +557,7 @@ recipes.addShaped("mce_make_mana_pool_fabulous", <botania:pool:3>, [
 ]);
 
 //Un-Fabulous a Mana Pool
-recipes.addShapeless("mce_classicmode_unfabulous_mana_pool", <botania:pool:0>.withLore(["Gives back 5 Alfglass when crafted"]), [<botania:pool:3>],
+recipes.addShapeless("mce_classicmode_unfabulous_mana_pool", <botania:pool:0>.withLore([game.localize("mce.botania.crafting_info.unfabulous_mana_pool")]), [<botania:pool:3>],
 	function(out as IItemStack, ins as IItemStack[string], cInfo as ICraftingInfo){
 		return <botania:pool:0>;
 	},
@@ -559,7 +566,7 @@ recipes.addShapeless("mce_classicmode_unfabulous_mana_pool", <botania:pool:0>.wi
 });
 
 //Change Wand of the Forest petals
-recipes.addShaped("mce_change_forest_wand_petals", <botania:twigwand>.withLore(["Colored with the Petals used in this recipe!"]), [
+recipes.addShaped("mce_change_forest_wand_petals", <botania:twigwand>.withLore([game.localize("mce.botania.crafting_info.change_forest_wand_petals")]), [
 	[null, <botania:petal:*>.marked("petal2")],
 	[<botania:petal:*>.marked("petal1"), <botania:twigwand>.marked("wand")]
 	],
@@ -676,11 +683,41 @@ Carving.removeVariation("stonebrick", <minecraft:stonebrick:1>);
 <ore:drawerBasic>.add(<storagedrawersextra:extra_drawers:*>);
 
 //EnderIO "Construction Alloy" Ingot
-addUniversalAlloyRecipe(<enderio:item_alloy_ingot:9> *3, [<ore:ingotIron>, <ore:ingotLead>], "MCE: Construction Alloy", false, {
+addUniversalAlloyRecipe(<enderio:item_alloy_ingot:9> *3, [<ore:ingotIron>, <ore:ingotLead> *2], "MCE: Construction Alloy", false, {
+	"thermalInduction": {
+		"enabled": 0
+	},
+	"TRSmelter": {
+		"enabled": 0
+	},
 	"NCFurnace": {
 		"enabled": 0
 	}
 });
+
+
+//Space Dimension Flight-permitting Items
+
+//Staff of Gaea
+recipes.addShaped("mce_erebus_staff_for_flying", <erebus:portal_activator>, [
+	[null, <erebus:tarantula_egg>.reuse(), <erebus:materials:38>],
+	[<ore:ingotDyonite>, <erebus:wand_of_animation>, <erebus:antlion_egg>.reuse()],
+	[<erebus:materials:39>, <ore:ingotDyonite>]
+]);
+
+//Scarab
+recipes.addShaped("mce_atum_scarab_for_flying", <atum:scarab>, [
+	[null, skyScarabCrest],
+	[<atum:idol_of_labor>.reuse(), <atum:crunchy_golden_scarab>, <atum:heart_of_ra>.reuse()],
+	[null, <minecraft:elytra>]
+]);
+
+//"Aurorian Sky Spirit"
+recipes.addShaped("mce_aurorian_spirit_for_flying", <theaurorian:crystallinesprite>, [
+	[<enderio:block_holier_fog>, <theaurorian:trophykeeper>.reuse(), <enderio:block_holier_fog>],
+	[<theaurorian:bepsi>, <theaurorian:trophyspider>.reuse(), <theaurorian:bepsi>],
+	[<enderio:block_holier_fog>, <theaurorian:trophymoonqueen>.reuse(), <enderio:block_holier_fog>]
+]);
 
 
 //crafting AA Crystal Clusters
@@ -727,6 +764,5 @@ for element,colors in dragonElements {
 			mods.iceandfire.recipes.addIceDragonForgeRecipe(<minecraft:stonebrick>, scales, <iceandfire:dragonforge_ice_brick> *2);
 	}
 }
-
 
 print("--- MiscCrafting.zs initialized ---");	

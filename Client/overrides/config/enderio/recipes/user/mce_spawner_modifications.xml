@@ -136,6 +136,62 @@
 		<entity name="thaumicaugmentation:celestial_observer"	soulvial="false"/>
 		<entity name="thaumicaugmentation:eldritch_guardian"	soulvial="false"/>
 
+	<!-- The Betweenlands -->
+		<entity name="thebetweenlands:anadia"					soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:angler"					soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:ash_sprite"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:barrishee"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:blood_snail"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:boulder_sprite"			soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:bubbler_crab"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:chiromaw"					soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:chiromaw_greebling_rider"	soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:chiromaw_hatchling"		soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:chiromaw_matriarch"		soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:chiromaw_tame"			soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:crypt_crawler"			soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:dark_druid"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:draeton_chiromaw_tamed"	soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:draeton_dragonfly"		soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:draeton_firefly"			soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:dreadful_mummy"			soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:emberling_shaman"			soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:fortress_boss"			soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:gas_cloud"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:greebling"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:greebling_coracle"		soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:large_sludge_worm"		soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:leech"					soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:lurker"					soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:mire_snail_egg"			soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:moving_spawner_hole"		soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:peat_mummy"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:pyrad"					soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:rock_snot"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:shambler"					soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:silt_crab"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:sludge"					soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:sludge_menace"			soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:small_sludge_worm"		soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:smoll_sludge"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:spirit_tree_face_large"	soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:spirit_tree_face_small"	soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:splodeshroom"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:stalker"					soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:swamp_hag"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:swarm"					soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:tamed_spirit_tree_face"	soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:tar_beast"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:tarminion"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:termite"					soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:tiny_sludge_worm"			soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:tiny_sludge_worm_helper"	soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:tiny_worm_egg_sac"		soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:wall_lamprey"				soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:wall_living_root"			soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:wight"					soulvial="false" clone="false" disabled="true"/>
+		<entity name="thebetweenlands:wild_emberling"			soulvial="false" clone="false" disabled="true"/>
+
 	<!-- The Aurorian -->
 		<entity name="theaurorian:disturbedhollow" 		soulvial="false"/>
 		<entity name="theaurorian:moonacolyte" 			soulvial="false"/>
@@ -209,6 +265,7 @@
 		<entity name="ancientbeasts:*"							disabled="true" clone="false" soulvial="false"/>
 		<entity name="artifacts:mimic" 							disabled="true" clone="false" soulvial="false"/>
 		<entity name="arcaneworld:overgrown_sheep"				costMultiplier="5.0"/>
+		<entity name="arcaneapprentices:wizard_initiate"		disabled="true" clone="false" soulvial="false"/>
 		<entity name="bloodmagic:mimic"							soulvial="false"/>
 		<entity name="bloodmagic:sentient_specter"				soulvial="false"/>
 		<entity name="battletowers:golem"						disabled="true" clone="false" soulvial="false"/>
@@ -230,7 +287,6 @@
 		<entity name="quark:stoneling" 							disabled="true"/>
 		<entity name="randomthings:goldenchicken"				costMultiplier="10"/>	
 		<entity name="simplycats:cat"							disabled="true" clone="false"/>
-		<entity name="thebetweenlands:*"						soulvial="false"/>
 		<entity name="totemic:baykok"							soulvial="false"/>
 		<entity name="treasure2:*"								clone="false" soulvial="false"/>
 		

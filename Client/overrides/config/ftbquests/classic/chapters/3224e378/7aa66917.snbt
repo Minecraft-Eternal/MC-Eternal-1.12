@@ -1,0 +1,24 @@
+{
+	title: "&2&lThrough the Air Below",
+	x: 6.5d,
+	y: -4.0d,
+	description: "&oUse the power of Earth to unbind yourself from its grasp in Erebus!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"84aa257d"
+	],
+	tasks: [{
+		uid: "fbcb4a45",
+		type: "item",
+		items: [{
+			id: "erebus:portal_activator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a562d1f1",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

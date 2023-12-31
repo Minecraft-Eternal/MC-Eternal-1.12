@@ -8,7 +8,7 @@ print("--- loading Tooltip.zs ---");
 
 #Add tooltip
 <extrautils2:bagofholding>.addTooltip(format.red(game.localize("mce.extrautils2.tip.bagofholding_gamemode_change")));
-<rats:arcane_technology>.addTooltip(format.gold(game.localize("mce.generic.tip.drops_from").replace("%s", <entity:rats:marbled_cheese_golem>.name)));
+<rats:arcane_technology>.addTooltip(format.gold(game.localize("mce.generic.tip.drops_from").replace("%s", game.localize("entity.marbled_cheese_golem.name"))));
 <ftbquests:book>.addTooltip(format.gold(game.localize("mce.ftbquests.tip.questbook_open_it")));
 <minecraft:nether_star>.addTooltip(format.gold(game.localize("mce.minecraft.tip.nether_star")));
 <ebwizardry:crystal_block:*>.addTooltip(format.gold(game.localize("mce.netherportalcorruption.tip.prevents_corruption")));
@@ -39,6 +39,7 @@ getFTBCrate("unclaimed_black_market_container").addTooltip(format.gold(game.loca
 <nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple(game.localize("mce.nuclearcraft.tip.fission_power_buff")));
 <randomthings:spectreanchor>.addTooltip(format.red(game.localize("mce.randomthings.tip.spectreanchor_use_other_soulbound")));
 addMultilineLocalizedTooltip(<appliedenergistics2:material:21>.withEmptyTag(), "mce.appliedenergistics2.tip.name_press.how_its_made");
+<ore:petAnalyzeTool>.addTooltip(format.gold(game.localize("mce.petbuff.tip.can_be_used_to_analyze")));
 
 <necromancersdelight:charm_bone_bag>.addTooltip(format.red("Temporarily Disabled, this item will be obtainable again in a (hopefully near) future version of MCE."));
 
@@ -112,7 +113,7 @@ var candleData = {
 	0 : [<enchantment:minecraft:unbreaking>,<enchantment:elenaidodge2:lightweight>],
 	1 : [<enchantment:minecraft:fire_protection>,<enchantment:minecraft:fire_aspect>,<enchantment:minecraft:flame>,<enchantment:cofhcore:smelting>,<enchantment:extrautils2:xu.burnerang>],
 	2 : [<enchantment:minecraft:knockback>,<enchantment:minecraft:punch>,<enchantment:ebwizardry:magic_protection>],
-	3 : [<enchantment:minecraft:feather_falling>,<enchantment:ebwizardry:frost_protection>,<enchantment:cyclicmagic:enchantment.launch>],
+	3 : [<enchantment:minecraft:feather_falling>,<enchantment:ebwizardry:frost_protection>],
 	4 : [<enchantment:minecraft:looting>,<enchantment:minecraft:fortune>,<enchantment:minecraft:luck_of_the_sea>],
 	5 : [<enchantment:minecraft:blast_protection>,<enchantment:cofhcore:insight>,<enchantment:endercore:xpboost>],
 	6 : [<enchantment:minecraft:silk_touch>,<enchantment:cofhcore:holding>,<enchantment:cofhcore:vorpal>],
@@ -186,6 +187,65 @@ for resItem,amount in {<xreliquary:angelheart_vial> : 5, <xreliquary:phoenix_dow
 val taigaOreTip = game.localize("mce.taiga.tip.where_to_find_ores").split("<BR>");
 for item in loadedMods["taiga"].items {
 	if(item.definition.id has "ore") item.addShiftTooltip(format.gold(taigaOreTip[1]), format.gold(taigaOreTip[0]));
+}
+
+//Space Dimension Tooltips
+var spaceDimAccessItems = {
+	<erebus:gaean_keystone> : "erebus",
+	<erebus:portal_activator> : "erebus",
+	<atum:scarab> : "atum",
+	<theaurorian:aurorianportalframebricks> : "aurorian"
+} as string[IItemStack];
+
+for stack,dimName in spaceDimAccessItems {
+	for line in game.localize("mce.advrocketry.message.get_there_with_rocket").replace("%s", game.localize("mce.questing.chapter."+ dimName +".name")).split("<BR>") {
+		stack.addTooltip(format.red(line));
+	}
+}
+
+//Brokenwings Bypass keys
+val flightAllowDimensionItems = {
+	["mce.dimension_name.advrocketry_moon", "mce.dimension_name.beneath"]: <rats:rat_upgrade_creative>,
+	["mce.dimension_name.erebus"]: <erebus:portal_activator>,
+	["mce.dimension_name.atum"]: <atum:scarab>,
+	["mce.dimension_name.aurorian"]: <theaurorian:crystallinesprite>,
+	["mce.dimension_name.twilight_forest"]: <twilightforest:lamp_of_cinders>,
+	//Lair of Darkness is unnecessary and potentially just not good to permit
+	//Betweenlands is no
+	["mce.dimension_name.thaumicaugmentation_emptiness"]: <thaumicaugmentation:research_notes>
+} as IItemStack[string[]];
+
+for dimensions,bypassStack in flightAllowDimensionItems {
+	bypassStack.addTooltip(format.gold(game.localize("mce.brokenwings.tip.enables_flight_in_dimension")));
+	for dimName in dimensions {
+		bypassStack.addTooltip(format.yellow(game.localize(dimName)));
+	}
+}
+
+//TAug Dimensional Modifiers
+val dimMods = [
+	"thaumicaugmentation:strength_overworld",
+	"thaumicaugmentation:strength_nether",
+	"thaumicaugmentation:strength_end",
+	"thaumicaugmentation:strength_emptiness"
+] as string[];
+
+for modif in dimMods {
+	<thaumicaugmentation:augment_builder_power:0>.withTag({id: modif}).addTooltip(game.localize("mce.thaumicaugmentation.tip.dim_mods_in_other_dimensions"));
+}
+
+
+val spaceBossTrophies = [
+	<theaurorian:trophymoonqueen>,
+	<theaurorian:trophykeeper>,
+	<theaurorian:trophyspider>,
+	<erebus:tarantula_egg>,
+	<erebus:antlion_egg>,
+	<atum:idol_of_labor>
+] as IItemStack[];
+
+for stack in spaceBossTrophies {
+	stack.addTooltip(format.gold(game.localize("mce.generic.tip.not_consumed_in_table")));
 }
 
 print("--- Tooltip.zs initialized ---");	

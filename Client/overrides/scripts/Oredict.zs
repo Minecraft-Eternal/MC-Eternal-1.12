@@ -23,7 +23,25 @@ print("--- loading Oredict.zs ---");
 
 <ore:dustEnder>.add(<techreborn:dust:20>);
 
+<ore:atumStick>.add([<atum:palm_stick>, <atum:deadwood_stick>, <atum:dusty_bone_stick>]);
+
+<ore:foodFlour>.add(<nuclearcraft:flour>);
+
+<ore:leavesBL>.add([<thebetweenlands:leaves_weedwood_tree>, <thebetweenlands:leaves_sap_tree>, <thebetweenlands:leaves_rubber_tree>, <thebetweenlands:leaves_hearthgrove_tree>, <thebetweenlands:leaves_nibbletwig_tree>]);
+
+<ore:logAncient>.add([<naturesaura:ancient_log>, <naturesaura:ancient_bark>]);
+
 <ore:itemCoin>.add([<lodsofemone:coin_small>, <lodsofemone:coin_big>]);
+
+<ore:petAnalyzeTool>.add(<agricraft:magnifying_glass>);
+
+//separating AR Dilithium from other Dilithium
+<ore:gemDilithium>.remove(<libvulpes:productgem:0>);
+<ore:dustDilithium>.remove(<libvulpes:productdust:0>);
+<ore:oreDilithium>.remove(<libvulpes:ore0:0>);
+
+<ore:oreMozzarellium>.add(<libvulpes:ore0:0>);
+<ore:dustMozzarellium>.add(<libvulpes:productdust:0>);
 
 #Atum Relics (relicItemAtum)
 

@@ -5,6 +5,7 @@ desc.immersiveengineering.info.mineral.Atometal=Deep Atometal
 desc.immersiveengineering.info.mineral.mooncheese=Lunar Cheese
 
 #Custom IE Blueprints
+desc.immersiveengineering.info.blueprint.enderio_components=Ender Engineering Components
 desc.immersiveengineering.info.blueprint.matter_engineering=Matter-Energy Components
 
 #Quest Chapter Names
@@ -27,7 +28,7 @@ mce.questing.chapter.atum.name=Atum
 mce.questing.chapter.mystical_agriculture.name=Mystical Agriculture
 mce.questing.chapter.bosses.name=Bosses
 mce.questing.chapter.challenges.name=Challenges
-mce.questing.chapter.unlockables=Unlockables
+mce.questing.chapter.unlockables.name=Unlockables
 
 #Mod overrides
 enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line2=$D% item damage absorbed by power
@@ -41,6 +42,67 @@ xreliquary.jei.descriptions.phoenix_down=Resurrects you from your inventory to a
 
 xreliquary.item.alkahestry_tome.tooltip2={{!colors.rose}}Charge: {{chargeAmount}}/{{chargeLimit}};Right-click to read.;Does not absorb Redstone or Glowstone in MC Eternal.;See Uses in JEI for what it does absorb.
 xreliquary.jei.descriptions.alkahestry_tome=Shift + Right-Click to activate. While active, it will absorb certain items in the player's inventory to generate Charge. Place it in a crafting grid with certain items to duplicate them by consuming Charge.
+xreliquary.gui.tome.text=Charged with certain;items by Crafting or;when Auto-Absorb is;enabled. Charge can be;used to duplicate;select items, by;crafting them with;the tome.;Charging uses; different items in;MC Eternal, see JEI.
+
+item.theaurorian.crystallinesprite.name=Aurorian Sky Spirit
+
+achievement.dilithium=Mozzarellium
+achievement.dilithium.desc=Acquire Mozzarellium Crystal
+tile.Dilithium.name=Mozzarellium Ore
+tile.coil.dilithium.name=Mozzarellium Coil
+item.hovercraft.tooltip=Long-lasting Mozzarellium powersource. It'll probably outlive you.
+material.Dilithium.name=Mozzarellium
+
+
+#Vanillafix Crash Screen override
+#lang keys acquired from: https://github.com/DimensionalDevelopment/VanillaFix/tree/master/src/main/resources/assets/vanillafix/lang
+#not all of these messages are modified in MC Eternal
+
+vanillafix.gui.getLink=[This button does nothing]
+vanillafix.gui.failed=[Told you]
+vanillafix.gui.keepPlaying=Keep playing
+vanillafix.gui.restart=Restart Minecraft
+vanillafix.gui.disabledByConfig=Disabled by config
+
+vanillafix.crashscreen.title=Minecraft crashed!
+vanillafix.crashscreen.summary=Minecraft ran into a problem and crashed.
+
+vanillafix.crashscreen.paragraph1.line1=The following mod(s) §o§lmay§r be involved:
+
+vanillafix.crashscreen.unknownCause=Unknown
+vanillafix.crashscreen.identificationErrored=[Error identifying :(]
+
+vanillafix.crashscreen.paragraph2.line1=Click any mod in the list to go to their website for support. A
+vanillafix.crashscreen.paragraph2.line2=report has been generated, and can be found here (click):
+
+vanillafix.crashscreen.reportSaveFailed=[Error saving report, see log]
+
+vanillafix.crashscreen.paragraph3.line1=If this is preventing you from playing the game properly,
+vanillafix.crashscreen.paragraph3.line2=you may want to put the Crash Report into a Paste Site and seek
+vanillafix.crashscreen.paragraph3.line3=help with resolving it if you don't have the technical know-how.
+vanillafix.crashscreen.paragraph3.line4=The MC Eternal Discord is a recommended place to go.
+
+vanillafix.initerrorscreen.title=Minecraft failed to start!
+vanillafix.initerrorscreen.summary=An error during startup prevented Minecraft from starting
+
+vanillafix.initerrorscreen.paragraph3.line1=If this is preventing you from playing the game properly,
+vanillafix.initerrorscreen.paragraph3.line2=you may want to put the Crash Report into a Paste Site and seek
+vanillafix.initerrorscreen.paragraph3.line3=help with resolving it if you don't have the technical know-how.
+vanillafix.initerrorscreen.paragraph3.line4=The MC Eternal Discord is a recommended place to go.
+
+vanillafix.warnscreen.title=Potential problem found!
+vanillafix.warnscreen.summary=Minecraft ran into a problem.
+
+vanillafix.warnscreen.paragraph1.line1=This did not cause a crash, but there will likely still be
+vanillafix.warnscreen.paragraph1.line2=consequences such as world corruption or broken features.
+vanillafix.warnscreen.paragraph1.line3=The following mod(s) §o§lmay§r be involved:
+
+vanillafix.warnscreen.paragraph3.line1=If this is preventing you from playing the game properly,
+vanillafix.warnscreen.paragraph3.line2=you may want to put the Crash Report into a Paste Site and seek
+vanillafix.warnscreen.paragraph3.line3=help with resolving it if you don't have the technical know-how.
+vanillafix.warnscreen.paragraph3.line4=The MC Eternal Discord is a recommended place to go.
+vanillafix.warnscreen.paragraph3.line5=This warning can be disabled in Mods > VanillaFix > Config > Crashes.
+
 
 #Misc. Tooltips
 mce.generic.tip.disabled=Disabled
@@ -53,17 +115,52 @@ mce.generic.tip.only_from_shop=Only obtainable from the Shop
 mce.generic.tip.do_all_chapter_quests_to_unlock=Do all %s quests to unlock
 mce.generic.tip.challengemode_disabled=You are on Challenge Mode, so this Item is disabled.
 mce.generic.message.item_yeeted_from_exist=That item was illegal and has been yeeted from existence.
+mce.generic.tip.salis_mundus_craft.specific_mod_block=Acquired by sprinkling Salis Mundus on a %m %s
+mce.generic.tip.salis_mundus_craft=Acquired by sprinkling Salis Mundus on a block in the "%s" Oredict 
+mce.generic.tip.not_consumed_in_table=Not consumed in Crafting Table recipes
+
+mce.dimension_name.minecraft_overworld=The Overworld
+mce.dimension_name.minecraft_nether=The Nether
+mce.dimension_name.minecraft_end=The End
+mce.dimension_name.advrocketry_space=Space Stations
+mce.dimension_name.advrocketry_moon=The Moon
+mce.dimension_name.ae2_storage_cell=Spatial Storage
+mce.dimension_name.atum=Atum
+mce.dimension_name.aurorian=The Aurorian
+mce.dimension_name.beneath=The Beneath
+mce.dimension_name.compactmachines=Compact Machine
+mce.dimension_name.dimdoors_doordims=Door Dimensions
+mce.dimension_name.dimdoors_limbo=Limbo
+mce.dimension_name.erebus=Erebus
+mce.dimension_name.fossil_anu_lair=Lair of Darkness
+mce.dimension_name.fossil_treasure_room=Ancient Treasure Room
+mce.dimension_name.midnight=The Midnight
+mce.dimension_name.rats_ratlantis=Ratlantis
+mce.dimension_name.randomthings_spectre=Spectre Pockets
+mce.dimension_name.thaumicaugmentation_emptiness=The Emptiness
+mce.dimension_name.twilight_forest=The Twilight Forest
+
+mce.petbuff.message.info_start=Buff Information for %s:
+mce.petbuff.message.info_line_base=%a (%v): Increase using %i (%t/%m)
+mce.petbuff.message.info_healing_items_base=Can be healed using %i (%a)
+mce.petbuff.tip.can_be_used_to_analyze=Can be used on Power-uppable Pets to see Power-up information!
 
 mce.appliedenergistics2.tip.meteors_in_beneath=AE2 Meteors Spawn in The Beneath and on The Moon
 mce.appliedenergistics2.tip.name_press.how_its_made=Made using a Quartz Cutting Knife<BR>Input what you want the press to rename items to<BR>And put in an Iron Ingot to get it out!
 
-mce.advrocketry.message.get_there_with_rocket.1=%s cannot be accessed normally.
-mce.advrocketry.message.get_there_with_rocket.2=You will need to use Advanced Rocketry.
+mce.advrocketry.message.get_there_with_rocket=%s cannot be accessed normally.<BR>You will need to use Advanced Rocketry.
 mce.advrocketry.message.no_go_through_portal=Use Advanced Rocketry to reach this dimension!
 
 mce.akashictome.tip.included_in_preloaded=Included within the standard Akashic Tome
 
 mce.agricraft.tip.sprinkler_turn_off_particles_probably=WARNING: Will cause serious FPS lag if Particles are not disabled in Agricraft's Config
+
+
+mce.brokenwings.tip.enables_flight_in_dimension=Carrying this item enables flight in:
+
+mce.botania.crafting_info.unfabulous_mana_pool=Gives back 5 Alfglass when crafted
+mce.botania.crafting_info.change_forest_wand_petals=Colored with the Petals used in this recipe!
+
 
 mce.cyclic.tip.inventory_cake_bad_at_saving=WARNING! Can delete items inside when the game crashes or closes unexpectedly
 
@@ -79,6 +176,8 @@ mce.extrautils2.tip.deep_dark_portal_dont_use_dummy=Disabled and will cause a Cr
 mce.extrautils2.tip.flying_squid_ring_random_tp_down=Do not wear as a bauble, may teleport you down randomly while flying
 
 mce.ebwizardry.tip.disabled_spell=Disabled, cannot be bound to Wands or Cast.
+
+mce.erebus.tip.gaean_gem_how_to_get=Made using an Emerald, Diamond, and Obsidian on an Offering Altar
 
 mce.farmingforblockheads.tip.sink_no_infinite_water=Does not produce Infinite Water
 
@@ -129,6 +228,8 @@ mce.thaumcraft.tip.curiosities.more_likely_to_grant=More likely to give %s Resea
 mce.thaumcraft.tip.unclog_lattice.filter=Right-click a Clogged Flux Condenser Lattice to unclog it!
 mce.thaumcraft.tip.unclog_lattice.lattice=Right-click with an Essentia Filter to unclog!
 
+mce.thaumicaugmentation.tip.dim_mods_in_other_dimensions=Dimensional Modifiers work in other dimensions in MCE, some even have two work!
+
 mce.tconstruct.tip.custom_smeltery_fuel=MCE Custom Smeltery Fuel!
 mce.tconstruct.tip.smeltery_fuel_stats.1=Consumes %smB
 mce.tconstruct.tip.smeltery_fuel_stats.2=For %s total seconds of Fuel
@@ -146,11 +247,27 @@ mce.wings.tip.fairy_dust=Can be used to transmute certain metals. This dust radi
 mce.xreliquary.tip.restores_percent_health=Restores %s% HP
 
 
+#Space Dimension Flight Stuff
+item.mce.atum_sky_scarab_crest.name=§6§lCrest of the Sky Scarab
+item.mce.atum_sky_scarab_crest.desc=Only the most ancient of the Pharaohs of Atum were<BR>members of a now lost Order of the Sky Scarab,<BR>dedicated to sealing outsiders from using the<BR>power of Flight within their desert home.<BR>perhaps with a lingering shard of their magic,<BR>you may be able to forge a workaround to the curse.
+
+item.mce.kikoku_stick.name=§6§lStick of a Thousand Clicks
+item.mce.kikoku_stick.desc=A Stick passed down throughout the<BR>Aurorian Royal lineage, once the handle<BR>of a terrible weapon that could cut at<BR>impossible speeds, seperated from the<BR>weapon to prevent its misuse.
+
+
 #Challenge Mode specific
+mce.challengemode.generic.tip.has_crafting_quirk=Hold SHIFT for info about Crafting this item!
+mce.challengemode.generic.tip.damages_inscription_tool_instead_of_consume=Crafting consumes Uses from the Inscription Tool,<BR>It does not consume it immediately.
+
+mce.challengemode.minecraft.tip.wither_only_in_some_dims=In Challenge Mode, The Wither can only<BR>be summoned in select dimensions.<BR>Hold SHIFT for a list.
+mce.challengemode.minecraft.tip.wither_only_in_some_dims.shift=Dimensions The Wither can be summoned in:<BR>The Overworld<BR>The Twilight Forest<BR>Ratlantis<BR>The Midnight
+
 mce.challengemode.thermal.tip.hardened_glass_needs_osmium=In Challenge Mode, Requires Osmium instead of Obsidian.<BR>If you need this for crafting, Fused Quartz works instead!
 
 mce.challengemode.tombstone.tip.grave_key_cant_teleport=In Challenge Mode, Cannot be used to Teleport when Enchanted.
 mce.challengemode.tombstone.message.grave_key_teleport_fail=§cThe Key's magic is too §ochallenging§c to channel.
+
+mce.challengemode.mysticalagriculture.tip.only_insanium_tinker_table=In Challenge Mode, Can only be made out of Insanium.
 
 #Betweenlands Restrictions
 mce.challengemode.betweenlands_restrictions.denied_entry_message.1=You are in Challenge Mode, and cannot travel to the Betweenlands with items not from it!

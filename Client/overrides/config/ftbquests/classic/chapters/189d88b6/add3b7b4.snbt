@@ -1,4 +1,5 @@
 {
+	title: "Dragon Skull",
 	x: -13.0d,
 	y: -9.0d,
 	description: "Can be mounted as trophies",
@@ -10,9 +11,17 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				Parent: {
+					data: "dragonSkull",
+					id: "ore"
+				}
 			},
-			id: "iceandfire:dragon_skull"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dragonSkull"
+				}
+			}
 		}],
 		ignore_nbt: 1b
 	}],
@@ -27,3 +36,4 @@
 		table: 1
 	}]
 }
+

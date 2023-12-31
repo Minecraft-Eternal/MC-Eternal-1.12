@@ -1,0 +1,22 @@
+{
+	title: "&d&lLumious Downlook",
+	x: 0.0d,
+	y: -6.0d,
+	description: "&oCall upon a Spirit of the Sky to take to them in The Aurorian!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"21d77837"
+	],
+	tasks: [{
+		uid: "690fada5",
+		type: "item",
+		items: [{
+			id: "theaurorian:crystallinesprite"
+		}]
+	}],
+	rewards: [{
+		uid: "cc810725",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}
