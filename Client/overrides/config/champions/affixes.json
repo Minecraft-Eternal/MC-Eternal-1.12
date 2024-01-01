@@ -58,7 +58,7 @@
   {
     "identifier": "dampening",
     "enabled": true,
-    "entityBlacklist": ["twilightforest:lich", "twilightforest:hydra", "twilightforest:ur_ghast"],
+    "entityBlacklist": ["twilightforest:lich", "twilightforest:hydra", "twilightforest:ur_ghast", "erebus:erebus.tarantula_mini_boss"],
     "alwaysOnEntity": [],
     "tier": 1
   },
