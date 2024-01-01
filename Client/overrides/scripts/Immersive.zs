@@ -32,4 +32,4 @@ Excavator.addMineral("mooncheese", 100, 0.05, ["turfMoon", "blockCheese"], [0.4,
 
 Excavator.getMineral("Platinum").removeOre("oreIridium");
 
-print("--- Tooltip.zs initialized ---");
+print("--- Immersive.zs initialized ---");
