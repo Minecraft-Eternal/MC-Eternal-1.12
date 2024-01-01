@@ -420,6 +420,14 @@ ArcaneWorkbench.registerShapedRecipe("mce_challengemode_roots_fey_crafter", "", 
 	]
 );
 
+//Grove Supplication
+// solves a paradox by being a custom recipe (Roots Petals require Mortar, but that needs Fey Crafting...)
+Rituals.modifyRitual("ritual_grove_supplication", [<ore:doorWood>, <ore:treeSapling>, <botania:petal:*>, <roots:wildroot>, <tconstruct:materials:18>]);
+
+//Wildroot Growth
+// solves another paradox (Spirit Herb needs Runic Shears, but that needs Fey Crafting...)
+Rituals.modifyRitual("ritual_wildroot_growth", [<roots:wildroot>, <roots:bark_oak>, <roots:bark_spruce>, <roots:bark_dark_oak>, <botania:fertilizer>]);
+
 //Roots things end
 
 
