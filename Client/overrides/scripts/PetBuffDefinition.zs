@@ -2,6 +2,8 @@
 
 import crafttweaker.item.IItemStack;
 
+//implementing definitions for most tamable entities in the game will be a tedious process, not something easily doable by one person, so contributions are very welcome!
+
 
 //set to true to enable Crafttweaker logging of Pet Buff system details
 global debugBuffSystem as bool = false;
