@@ -529,6 +529,8 @@ events.onEntityJoinWorld(function(event as crafttweaker.event.EntityJoinWorldEve
 
 //apply data to player that kills ender dragon
 // using advancement allows collaborating players to both get credit, i think
+// COMMENTED OUT INTENTIONALLY, does not work for whatever reason. the advancement event handler can see the flag, but the tick event can't, ever? what the shit.
+/*
 events.onPlayerAdvancement(function(event as crafttweaker.event.PlayerAdvancementEvent){
 	if(event.id == "minecraft:end/kill_dragon" && !(event.player.tags has "killedEnderDragon")){
 		event.player.addTag("killedEnderDragon");
@@ -555,6 +557,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent){
 		}
 	}
 });
+*/
 
 
 //Tooltips

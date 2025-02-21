@@ -185,4 +185,30 @@ for thing in nonFunctionalExtraCellsThings {
 	}
 }
 
+
+
+//Space Dimension Flight-permitting Items
+
+//Staff of Gaea
+recipes.addShaped("mce_erebus_staff_for_flying", <erebus:portal_activator>, [
+	[null, <erebus:tarantula_egg>.reuse(), <erebus:materials:38>],
+	[<ore:ingotDyonite>, <erebus:wand_of_animation>, <erebus:antlion_egg>.reuse()],
+	[<erebus:materials:39>, <ore:ingotDyonite>]
+]);
+
+//Scarab
+recipes.addShaped("mce_atum_scarab_for_flying", <atum:scarab>, [
+	[null, skyScarabCrest],
+	[<atum:idol_of_labor>.reuse(), <atum:crunchy_golden_scarab>, <atum:heart_of_ra>.reuse()],
+	[null, <minecraft:elytra>]
+]);
+
+//"Aurorian Sky Spirit"
+recipes.addShaped("mce_aurorian_spirit_for_flying", <theaurorian:crystallinesprite>, [
+	[<enderio:block_holier_fog>, <theaurorian:trophykeeper>.reuse(), <enderio:block_holier_fog>],
+	[<theaurorian:bepsi>, <theaurorian:trophyspider>.reuse(), <theaurorian:bepsi>],
+	[<enderio:block_holier_fog>, <theaurorian:trophymoonqueen>.reuse(), <enderio:block_holier_fog>]
+]);
+
+
 print("--- MiscCrafting.zs initialized ---");	
