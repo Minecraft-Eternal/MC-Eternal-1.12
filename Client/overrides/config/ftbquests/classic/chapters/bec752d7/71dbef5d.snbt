@@ -1,0 +1,26 @@
+{
+	x: 17.0d,
+	y: 10.0d,
+	text: [
+		"Books written by ancient Vampires, containing knowledge accumulated by them.",
+		"",
+		"Both &5Vampires&r and &1Vampire Hunters&r can use this knowledge to &6further their Skills and Power."
+	],
+	tasks: [{
+		uid: "251f0897",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vampirism:vampire_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "35148a1e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

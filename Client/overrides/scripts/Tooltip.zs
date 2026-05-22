@@ -168,7 +168,10 @@ for geneSet in NBeeT {
 }
 
 for num in 0 to 5 {
-	itemUtils.getItem("vampirism:pure_blood", num).addTooltip(format.aqua(game.localize("mce.vampirism.tip.pure_blood_obtain").replace("%s", (num+1) as string)));
+	val lines = game.localize("mce.vampirism.tip.pure_blood_obtain").split("<BR>");
+	val pureBlood = itemUtils.getItem("vampirism:pure_blood", num);
+	pureBlood.addTooltip(format.aqua(lines[0].replace("%s", (num+1) as string)));
+	pureBlood.addTooltip(format.aqua(lines[1]));
 }
 
 for resItem,amount in {<xreliquary:angelheart_vial> : 5, <xreliquary:phoenix_down>: 25} as string[IItemStack] {

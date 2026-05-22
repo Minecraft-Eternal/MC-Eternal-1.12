@@ -1,0 +1,36 @@
+{
+	x: 13.5d,
+	y: 9.5d,
+	shape: "octagon",
+	description: "&oPondering my Blood Orb&7 *Read Description*",
+	text: [
+		"One of the ancient &6Vampire Books you found&r talks of something called the &4\"Sanguinum Imperium\"&r, supposedly a Mystical Orb of twisted power.",
+		"",
+		"The book tells of its &cpower to influence the will of Vampires&r, though it describes little more, except a &d&oHypothetical&d Spell to replicate it&r, albeit much weaker.",
+		"",
+		"If you could make it, it'd likely be far weaker than the original. But &6could it still influence Vampires &6&oenough&6 for you to reap benefits?"
+	],
+	dependencies: [
+		"71dbef5d"
+	],
+	hide: true,
+	size: 1.25d,
+	tasks: [{
+		uid: "18c814d7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vampiric_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "fdc7b3d0",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "5875f2e4",
+		type: "item",
+		item: "vampirism:human_heart",
+		count: 3
+	}]
+}

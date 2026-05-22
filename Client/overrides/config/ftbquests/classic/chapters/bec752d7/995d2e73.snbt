@@ -1,0 +1,56 @@
+{
+	x: 10.5d,
+	y: 8.5d,
+	shape: "gear",
+	description: "&oIn the bag!",
+	text: [
+		"&oHate having to eat Human Hearts all day to get your fill of Blood? Bottles too clunky? Introducing...",
+		"",
+		"&c&oBlood Bag!&r&o",
+		"",
+		"This clever invention is for all the Vampires out there that find it so unfair that Humans have made gadgets and gizmos to feed themselves.",
+		"&c&oStuff it with Blood&r&o, connect it to yourself, and it'll keep you filled up like magic! No hands fidgeting around with Bottles or holding Hearts full of Blood!",
+		"",
+		"It'll even &c&ofill itself up with any Blood you have no room for!",
+		"",
+		"&6&oAnd of course, it can be filled up by all the latest Machines and fancy Gadgets!&r&o",
+		"Including, but not limited to:",
+		"- CoFH Co. &b&oThermal Expansion &d&oFluid Transposer&r&o",
+		"- &b&oEnder I&r&ondustrial &b&oO&r&organzation's &d&oFluid Tanks&r&o.",
+		"",
+		"Order Now, and we'll throw in &c&oa Tank of Blood for Free!&r&o That's right, &c&oa Tank of Blood, for Free!",
+		"",
+		"&7&oLegal Information:",
+		"Adam Co. is not responsible for any damages to Vampiric organs caused by Blood Bag (TM).",
+		"Blood is sold Separately."
+	],
+	dependencies: [
+		"6759cf41"
+	],
+	optional: true,
+	tasks: [{
+		uid: "127e5a57",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodbag:blood_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b6aeed7",
+		type: "item",
+		item: {
+			id: "bloodmagic:blood_tank",
+			tag: {
+				Fluid: {
+					FluidName: "vampirismblood",
+					Amount: 4000
+				}
+			}
+		}
+	}]
+}

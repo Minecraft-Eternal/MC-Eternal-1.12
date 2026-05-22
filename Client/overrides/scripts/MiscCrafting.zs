@@ -198,7 +198,7 @@ recipes.addShaped("mce_erebus_staff_for_flying", <erebus:portal_activator>, [
 
 //Scarab
 recipes.addShaped("mce_atum_scarab_for_flying", <atum:scarab>, [
-	[null, skyScarabCrest],
+	[null, <contenttweaker:sky_scarab_crest>],
 	[<atum:idol_of_labor>.reuse(), <atum:crunchy_golden_scarab>, <atum:heart_of_ra>.reuse()],
 	[null, <minecraft:elytra>]
 ]);
@@ -208,6 +208,15 @@ recipes.addShaped("mce_aurorian_spirit_for_flying", <theaurorian:crystallinespri
 	[<enderio:block_holier_fog>, <theaurorian:trophykeeper>.reuse(), <enderio:block_holier_fog>],
 	[<theaurorian:bepsi>, <theaurorian:trophyspider>.reuse(), <theaurorian:bepsi>],
 	[<enderio:block_holier_fog>, <theaurorian:trophymoonqueen>.reuse(), <enderio:block_holier_fog>]
+]);
+
+
+
+//ZenSummoning altar
+recipes.addShaped("mce_zensummoning_altar", <zensummoning:altar>, [
+	[null, <randomthings:ingredient:2>],
+	[<randomthings:runedust:14>, null, <randomthings:runedust:14>],
+	[blockMarble.runedSooty, <ancientspellcraft:blank_rune>, blockMarble.runedSooty]
 ]);
 
 

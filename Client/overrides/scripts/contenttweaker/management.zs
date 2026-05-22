@@ -40,7 +40,8 @@ val tooltipedItems as string[IItemStack] = {
     <contenttweaker:die_fragment>: "item.contenttweaker.die_fragment.desc",
     <contenttweaker:living_alloy>: "item.contenttweaker.living_alloy.desc",
     <contenttweaker:amalgameat>: "item.contenttweaker.amalgameat.desc",
-    <contenttweaker:revival_gem>: "item.contenttweaker.revival_gem.desc"
+    <contenttweaker:revival_gem>: "item.contenttweaker.revival_gem.desc",
+    <contenttweaker:vampiric_catalyst>: "item.contenttweaker.vampiric_catalyst.desc"
 };
 
 if(!isServer){

@@ -244,7 +244,7 @@ mce.taiga.tip.where_to_find_ores=Where to find? Hold SHIFT!<BR>Refer to the TAIG
 
 mce.tombstone.message.remove_resplendent_prism=The Resplendent Prism you wear around your neck shakes violently, disturbing your attempt to disenchant the item.
 
-mce.vampirism.tip.pure_blood_obtain=Dropped by Level %s Vampire Barons, or crafted, for a price.
+mce.vampirism.tip.pure_blood_obtain=Dropped by Level %s Vampire Barons found in Vampire Forests.<BR>You can also summon them using a Summoning Altar!
 
 mce.wings.tip.fairy_dust=Can be used to transmute certain metals. This dust radiates primal magic energy
 
@@ -310,6 +310,19 @@ item.contenttweaker.revival_gem.name=Revival Gem
 item.contenttweaker.revival_gem.desc=A strange Gem with resurrective powers.<BR>Used to enchant Grave Keys to let them return you to your grave.<BR>This isn't without temporary drawbacks, however.
 item.contenttweaker.revival_gem.desc2=Found as Loot (Only from Chocolate Quest structures currently)
 
+item.contenttweaker.vampiric_catalyst.name=Vampiric Catalyst
+item.contenttweaker.vampiric_catalyst.desc=A Catalyst filled with Vampiric power.<BR>Used to summon Vampire Barons at a Summoning Altar.<BR>Not consumed!
+
 fluid.industrial_dye_blend=Industrial Dye
 fluid.soul_dye_blend=Soul Dye
 fluid.enhanced_dye_blend=Enhanced Dye
+
+
+#Zen Summoning
+mce.zensummoning.vampire_baron.wrong_biome=§cVampire Barons only reside in §6Vampire Forests
+mce.zensummoning.vampire_baron.success=§6A Baron accepts your challenge...
+
+mce.zensummoning.vampiric_catalyst.wrong_biome=§cSurely a Vampiric spell works best in a §6Vampire Forest...
+mce.zensummoning.vampiric_catalyst.not_night=§cThe instructions say to perform this at Night.
+mce.zensummoning.vampiric_catalyst.not_full_moon=§cOh, the instructions specify §6a Full Moon§c...
+mce.zensummoning.vampiric_catalyst.success=§6The Spell works!

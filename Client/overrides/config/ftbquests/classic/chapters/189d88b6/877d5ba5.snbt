@@ -1,0 +1,35 @@
+{
+	x: -7.0d,
+	y: -4.0d,
+	description: "&oI summon Exodia, the Forbidden One!",
+	text: [
+		"Used to summon Rare Creatures or Challenging foes.",
+		"",
+		"Instructions:",
+		"- &bAdd Items&r by &dInteracting with the altar while holding them&r.",
+		"- &bRemove Items&r by &dCrouching and Interacting without holding anything&r",
+		"- &bSummon Something&r by &dSneaking and Interacting while Holding the &6Catalyst Item&r.",
+		"",
+		"&6Note&r: the &dCatalyst Item&r is the item &6immediately above the Altar in JEI&r."
+	],
+	dependencies: [
+		"d22a6b71"
+	],
+	tasks: [{
+		uid: "26dbff72",
+		type: "item",
+		items: [{
+			item: "zensummoning:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "ce8f818b",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ad0a7e03",
+		type: "loot",
+		table: 1
+	}]
+}
